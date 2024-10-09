@@ -3,9 +3,9 @@ title: Varumärkesvalidering i Adobe GenStudio för prestandamarknadsföring
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio för Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: f9bfd6d7429f1f24947c398ec73b4b350a7e828f
 workflow-type: tm+mt
-source-wordcount: '635'
+source-wordcount: '669'
 ht-degree: 0%
 
 ---
@@ -65,19 +65,22 @@ Om du vill maximera effekten av genererat innehåll och behålla en konsekvent v
 
 **Så här förbättrar du varumärkesjusteringen för genererade innehållsvarianter**:
 
-1. Klicka på ikonen **[!UICONTROL [!DNL Brand] guidelines check]** för en enskild variant.
+1. Klicka på ikonen **[!UICONTROL [!DNL Brand] guidelines check]** för en enskild variant. Kontrollen [!DNL Brand] av riktlinjer visar ett procentuellt antal varumärkesjusteringar för en variant.
 
    Se en sammanfattning av hur många varumärkesriktlinjer som har uppfyllt varumärkesvalideringen eller behöver mer uppmärksamhet.
 
 1. Om du vill visa information om de avsnitt och riktlinjer som behöver förbättras klickar du på **[!UICONTROL Review]** _eller_ och klickar på ikonen _Varumärkesvalidering_ i den övre menyraden för att öppna panelen _Varumärkesvalidering_ .
 
-   Se alla avsnitt och riktlinjer för varumärken som du behöver vara uppmärksam på. <!-- The section highlighted in the panel corresponds to the section highlighted in the generated variant in the Canvas. -->
+   Se alla avsnitt och riktlinjer för varumärken som du behöver vara uppmärksam på.
 
    >[!NOTE]
    >
    > Riktlinjen _Varumärkesröst_ som beskrivs på _Varumärkesvalideringspanelen_ gäller för hela varianten, inte för ett enskilt avsnitt. Hela innehållsvarianten markeras för föreslagna förbättringar.
 
-1. Manuellt revidera olika avsnitt för att få en så stark anpassning som möjligt till ert varumärke.
+1. Klicka igenom varje stödlinje som behöver åtgärdas med knapparna **[!UICONTROL Next]** och **[!UICONTROL Previous]**.
+
+1. Använd det resonemang som anges för varje riktlinje för att informera om ändringar av olika avsnitt för att få en så stark anpassning som möjligt till ert varumärke.
+
 
 1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Check again]** för att kontrollera och validera dina ändringar för att vara säker på att de är bättre anpassade till din varumärkesidentitet.
 
