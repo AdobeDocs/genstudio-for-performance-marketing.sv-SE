@@ -34,85 +34,44 @@ Se [Riktlinjerna - översikt](../user-guide/guidelines/overview.md) om du vill v
 Efterfrågan är hög för upplevelser av hög kvalitet i flera kanaler i snabbare takt. GenStudio for Performance Marketing förenklar innehållsleveranskedjan till ett välorganiserat arbetsflöde för marknadsförare. GenStudio for Performance Marketing utnyttjar Adobe i alla faser av livscykeln.
 
 <table style="table-layout:fixed">
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
        <img alt="kalender" src="../assets/csc-workflow-planning.png" width="100">
-
     </td>
-
     <td>
-
         <p>Brainstorm-idéer, definiera riktlinjer och bygg en strategi runt innehållet för att engagera er målgrupp.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="pensel och arbetsyta" src="../assets/csc-creation-production.png" width="100">
-
     </td>
-
     <td>
-
         <p>Producera innehållet baserat på planen. Samarbeta i realtid, få feedback, redigera och godkänn material.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="bilder med mera" src="../assets/csc-content-mgmt.png" width="100">
-
     </td>
-
     <td>
-
         <p>Lagra, dela och hitta kreativa resurser i det centraliserade arkivet. Återanvänd och återuppliva innehåll baserat på prestanda.</p>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="pappersflygplan" src="../assets/csc-delivery-activation.png" width="100">
-
     </td>
-
     <td>
-
         <p>Aktivera innehåll och publicera i flera marknadsföringskanaler.</P>
-
     </td>
-
 </tr>
-
 <tr style="border: 0;">
-
     <td style="width: 120px;">
-
         <img alt="diagram" src="../assets/csc-reporting-insights.png" width="100">
-
     </td>
-
     <td>
-
         <p>Samla in data och ta fram insikter för optimering av tillgångsprestanda.</p>
-
     </td>
-
 </tr>
-
 </table>
