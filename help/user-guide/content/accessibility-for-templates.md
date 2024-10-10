@@ -3,9 +3,9 @@ title: Skapa tillgängliga mallar
 description: Skapa mallar i Adobe GenStudio for Performance Marketing som kan nå ut till fler av er målgrupp och ge en optimal upplevelse.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '347'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,11 @@ Ange textalternativ för innehåll som inte är text, till exempel bilder.
 
 ![Idékollage, böcker, man som håller en enorm penna, dator](../../assets/card-create-assets.png){width="400"}
 
-## Kontrastförhållanden
+## Typsnitt
 
-Ange en lämplig kontrast mellan text och bakgrund. Använd följande lägsta kontrastförhållanden:
+Använd lättlästa teckensnitt. Sans Serif-teckensnitt har till exempel ett rent, blockliknande utseende, vilket gör det lättare att läsa.
+
+Ange en lämplig kontrast mellan text och bakgrund. Undvik att använda teckensnittsfärger som ger mörk text mot mörk bakgrund och ljus text mot ljus bakgrund. Tänk på kontrastriktlinjerna för att få ett optimalt förhållande:
 
 - Text och bilder av text: kontrastförhållande på minst 4,5:1
 - Stor text och bilder av storskalig text: kontrastförhållande på minst 3:1
