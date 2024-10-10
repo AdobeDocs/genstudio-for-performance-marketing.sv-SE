@@ -4,12 +4,11 @@ description: Lär dig hur du skapar varumärkesanpassade annonsupplevelser i Met
 feature: Content, Brands Service, Guidelines, Content Generation, Create, Experiences, Variant Generation
 role: User
 level: Beginner
-type: Tutorial
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 30cd73ba1beb582ea4ac73eca7e17715f9aafc66
+source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
 workflow-type: tm+mt
-source-wordcount: '1048'
+source-wordcount: '1010'
 ht-degree: 0%
 
 ---
@@ -43,13 +42,12 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
 
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio för Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Klicka på **[!UICONTROL Select content]** för att lägga till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen.
-   * Om du vill välja resurser (bilder) som redan har publicerats till [!DNL Content] klickar du på **[!UICONTROL Select from content]** och väljer önskade bilder genom att klicka på dem. Använd filtren för att begränsa sökresultaten ytterligare.
+1. Lägg till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen:
+   * Klicka på **[!UICONTROL Select from Content]** om du vill välja resurser (bilder) från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
 
-     Om du vill använda resurser som redan finns i en ansluten AEM Content Hub-databas väljer du lämplig plats i listrutan _Plats_ och klickar för att välja önskade bilder.
+     Om du vill använda resurser från en ansluten [!DNL AEM Assets Content Hub]-databas väljer du en databas i listrutan _Plats_ . Filtrera och markera en eller flera bilder.
 
-   * Klicka på **[!UICONTROL Upload]** för att bläddra bland dina filer och välja resurser som ska användas. Du kan även importera från Microsoft OneDrive eller Dropbox. Klicka för att markera de önskade bilderna.
-   * Dra och släpp resurser i avsnittet _Innehåll_.
+   * Du kan också dra och släppa resurser i avsnittet **[!UICONTROL Select from Content]** för att överföra en eller flera nya resurser.
 1. Klicka på **[!UICONTROL Use]**.
 
 När du är klar med att lägga till parametrar kan du komprimera frågeområdet genom att klicka på ikonen _Parametrar_ igen.
@@ -88,7 +86,7 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 * **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. I _[!UICONTROL Link]_anger du en URL för texten som anropar till åtgärd.
 * **Om du vill [ändra storlek och proportioner för annonsen](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** klickar du på knappen _[!UICONTROL Resize]_(ruta med en knappikon till vänster om arbetsytan) och väljer en ny storlek och proportioner som ska användas för alla varianter. Varianterna dupliceras och storleksändras.
 <!-- * **To [regenerate a section of a variant](/help/user-guide/create/manage-variants.md#re-generate-sections)**, click an editable text field and use the _[!UICONTROL Suggested edits]_ options or enter a new prompt and click **[!UICONTROL Generate]**. -->
-* **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering.
+* **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering. Klicka på **[!UICONTROL Apply]**.
 * **Om du vill [ta bort en Meta-annons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på annonsrubriken (till exempel &quot;Meta 4&quot;) och sedan på **[!UICONTROL Delete variant]**.
 
 ## Skicka feedback
@@ -126,7 +124,7 @@ Mer information finns i [Recensioner och godkännanden](/help/user-guide/approva
 
 Om du vill göra de genererade Meta-annonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
-1. **Om du vill publicera dina nya Meta-annonsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet.
+1. **Om du vill publicera dina nya Meta-annonsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
 1. **Om du vill exportera dina nya Meta-annonsupplevelser** klickar du på **[!UICONTROL Export]** i det övre verktygsfältet.
    1. Markera formatet (endast CSV och bilder eller HTML) och klicka på **[!UICONTROL Export]**.
 
