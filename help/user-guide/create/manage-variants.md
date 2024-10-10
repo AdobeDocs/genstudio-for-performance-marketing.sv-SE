@@ -2,9 +2,9 @@
 title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Content, Assets, Experiences
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 9aca8368c2ea39a4059fc8d83fe69234619b1e3d
 workflow-type: tm+mt
-source-wordcount: '950'
+source-wordcount: '1072'
 ht-degree: 0%
 
 ---
@@ -38,22 +38,22 @@ Du kan redigera textfälten i genererade varianter. Förfina texten genom att ex
 1. Ange ny text.
 1. Klicka utanför textfältet för att spara det.
 
-<!-- ## Re-generate sections
+## Generera om avsnitt
 
-GenStudio for Performance Marketing has the built-in functionality to regenerate single sections of generated variants using _[!UICONTROL Suggested edits]_ and fresh prompts.
+GenStudio for Performance Marketing har den inbyggda funktionen för att återskapa enskilda avsnitt av genererade varianter med _[!UICONTROL Suggested edits]_och nya uppmaningar.
 
-For example, you can re-generate the headline section of one Meta ad variant to see how it looks with a specific background asset using the _[!UICONTROL Suggested edits]_ options—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_—and entering a new prompt.
+Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs med _[!UICONTROL Suggested edits]_-alternativen -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_ - och ange en ny fråga.
 
-**To re-generate individual variant sections**:
+**Så här återskapar du enskilda variantavsnitt**:
 
-1. After generating a set of variants, single-click editable text in a variant.
-1. (_Optional_) Enter a new prompt to change the focus of the regenerated content.
-1. Select a _[!UICONTROL Suggested edits]_ option—_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_, or _[!UICONTROL Lengthen]_.
-1. Click **[!UICONTROL Generate]**.
-1. If you want to regenerate results, click the regenerate icon adjacent to _Results_.
-1. From the _Results_ that appear, select the desired option and click **[!UICONTROL Replace]**.
+1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
+1. (_Valfritt_) Ange en ny uppmaning om att ändra fokus för det återskapade innehållet.
+1. Välj ett _[!UICONTROL Suggested edits]_-alternativ -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_.
+1. Klicka på **[!UICONTROL Generate]**.
+1. Om du vill generera om resultaten klickar du på ikonen för att generera om intill _Resultat_.
+1. Välj önskat alternativ i _Resultat_ som visas och klicka sedan på **[!UICONTROL Replace]**.
 
-   The variant is updated with the revised text. -->
+   Varianten uppdateras med den reviderade texten.
 
 ## Beskära resurser
 
