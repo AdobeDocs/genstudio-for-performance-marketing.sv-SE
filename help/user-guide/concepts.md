@@ -3,7 +3,7 @@ title: Adobe GenStudio for Performance Marketing concepts
 description: Lär dig Adobe GenStudio for Performance Marketing koncept och termer.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 4d2a7b72132e7bdba314c9f7c83eed327c579c46
 workflow-type: tm+mt
 source-wordcount: '324'
 ht-degree: 0%
@@ -34,44 +34,85 @@ Se [Riktlinjerna - översikt](../user-guide/guidelines/overview.md) om du vill v
 Efterfrågan är hög för upplevelser av hög kvalitet i flera kanaler i snabbare takt. GenStudio for Performance Marketing förenklar innehållsleveranskedjan till ett välorganiserat arbetsflöde för marknadsförare. GenStudio for Performance Marketing utnyttjar Adobe i alla faser av livscykeln.
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-       <img alt="kalender" src="../assets/csc-workflow-planning.png" width="100">
-    </td>
+
     <td>
+
+       <p><strong>Arbetsflöde och planering</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Brainstorm-idéer, definiera riktlinjer och bygg en strategi runt innehållet för att engagera er målgrupp.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="pensel och arbetsyta" src="../assets/csc-creation-production.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Skapa och producera</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Producera innehållet baserat på planen. Samarbeta i realtid, få feedback, redigera och godkänn material.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="bilder med mera" src="../assets/csc-content-mgmt.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Innehållshantering</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Lagra, dela och hitta kreativa resurser i det centraliserade arkivet. Återanvänd och återuppliva innehåll baserat på prestanda.</p>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="pappersflygplan" src="../assets/csc-delivery-activation.png" width="100">
-    </td>
+
     <td>
+
+        <p><strong>Leverans och aktivering</strong></p>
+
+    </td>
+
+    <td>
+
         <p>Aktivera innehåll och publicera i flera marknadsföringskanaler.</P>
+
     </td>
+
 </tr>
+
 <tr style="border: 0;">
-    <td style="width: 120px;">
-        <img alt="diagram" src="../assets/csc-reporting-insights.png" width="100">
-    </td>
+
     <td>
-        <p>Samla in data och ta fram insikter för optimering av tillgångsprestanda.</p>
+
+        <p><strong>Rapportering och insikter</strong></p>
+
     </td>
+
+    <td>
+
+        <p>Samla in data och ta fram insikter för optimering av tillgångsprestanda.</p>
+
+    </td>
+
 </tr>
+
 </table>
