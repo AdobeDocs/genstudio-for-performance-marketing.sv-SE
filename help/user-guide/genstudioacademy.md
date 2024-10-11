@@ -4,9 +4,9 @@ description: Förbättra era färdigheter i innehållsleveranskedjan med Adobe G
 recommendations: disable, exclude
 index: false
 hidefromtoc: true
-source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
+source-git-commit: ef6bf8c691748844a25957de284c4f8e7dbc5e25
 workflow-type: tm+mt
-source-wordcount: '214'
+source-wordcount: '226'
 ht-degree: 0%
 
 ---
@@ -70,69 +70,61 @@ ht-degree: 0%
 
 <table>
 
- <tr style= "border: 0;colspan: 3;">
+    <tr style="border: 0;">
 
-  <td colspan="3"> <strong style= "font-size: 2em;">Kommer snart</strong></td>
+        <td colspan="3">
 
- </tr> 
+            <strong style="font-size: 2em;">Kommer snart</strong>
 
- <tr style= "border: 0;colspan: 3;"> 
+        </td>
 
-   <td align="Center">
+    </tr>
 
-      <img src="../assets/tips-and-tricks.png">
+    <tr style="border: 0;">
 
-      <div>
+        <td align="center">
 
-      <strong>Tips och tricks </strong>
+            <img src="../assets/tips-and-tricks.png" alt="Tips och råd">
 
-      </div>
+            <div>
 
-      <p>
+                <strong>Tips och tricks</strong>
 
-      Tips och tricks för GenStudio for Performance Marketing på det mest effektiva sättet.
+            </div>
 
-      </p>
+            <p>Tips och tricks för GenStudio for Performance Marketing på det mest effektiva sättet.</p>
 
-   </td>
+        </td>
 
-   <td align="Center">
+        <td align="center">
 
-      <img src="../assets/social-learning.png">
+            <img src="../assets/social-learning.png" alt="Social utbildning">
 
-      <div>
+            <div>
 
-      <strong>Socialt lärande</strong>
+                <strong>Socialt lärande</strong>
 
-      </div>
+            </div>
 
-      <p>
+            <p>Lär dig av andra och dela enkelt med dig av dina kunskaper i hela organisationen.</p>
 
-      Lär dig av andra och dela enkelt med dig av dina kunskaper i hela organisationen.
+        </td>
 
-      </p>
+        <td align="center">
 
-   </td>
+            <img src="../assets/expert-courses.png" alt="Expertkurser">
 
-   <td align="Center">
+            <div>
 
-      <img src="../assets/expert-courses.png">
+                <strong>Expertkurser</strong>
 
-      <div>
+            </div>
 
-      <strong>Expertkurser</strong>
+            <p>Avancerade kurser som ger AI-kunskaper på expertnivå möjlighet till marknadsföring.</p>
 
-      </div>
+        </td>
 
-      <p>
-
-      Avancerade kurser som ger AI-kunskaper på expertnivå möjlighet till marknadsföring.
-
-      </p>
-
-   </td>
-
- </tr>
+    </tr>
 
 </table>
 
@@ -142,13 +134,33 @@ ht-degree: 0%
 
     <tr></tr>
 
- <tr style= "border: 0;">
+    <tr style="border: 0;">
 
- <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+        <td>
 
-  <td> <strong style= "font-size: 2em">Sätt dina kunskaper i praktiken.</strong><p>Utforska GenStudio for Performance Marketing, en generativ AI-tillämpning som gör att marknadsföringsteamen kan skapa egna annonser och e-postmeddelanden för att skapa slagkraftiga, personaliserade marknadsföringskampanjer.<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Ta mig dit</span></a></td>
+            <img src="../assets/put-your-learnings-into-practice.png" alt="Förverkliga dina kunskaper">
 
- </tr>
+        </td>
+
+        <td>
+
+            <strong style="font-size: 3em">Sätt dina kunskaper i praktiken.</strong>
+
+            <p>Utforska GenStudio for Performance Marketing, en generativ AI-tillämpning som gör att marknadsföringsteamen kan skapa egna annonser och e-postmeddelanden för att skapa slagkraftiga, personaliserade marknadsföringskampanjer.</p>
+
+            <p>
+
+                <a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM">
+
+                    <span class="spectrum-Button-label has-no-wrap">Ta mig dit</span>
+
+                </a>
+
+            </p>
+
+        </td>
+
+    </tr>
 
     <tr></tr>
 
