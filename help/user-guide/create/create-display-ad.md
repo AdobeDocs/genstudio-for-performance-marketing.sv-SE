@@ -1,11 +1,11 @@
 ---
 title: Skapa en webbannonsupplevelse
-description: Lär dig hur du skapar webbannonsupplevelser i Adobe [!DNL GenStudio] för Performance Marketers.
+description: Lär dig hur du skapar webbannonsupplevelser i Adobe [!DNL GenStudio] för Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 0d453aafad2b783beef91fffd10ce537fde9ea86
+source-git-commit: 9fc0ad86b99ca61a73b46fd8febfcf66b2975d75
 workflow-type: tm+mt
 source-wordcount: '812'
 ht-degree: 0%
@@ -33,14 +33,14 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 
 ## Lägg till parametrar
 
-Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i promptområdet överbelastas innehållsgenereringsprocessen och är ett viktigt förberedelsesteg för att generera en visningsupplevelse.
+Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i snabbredigeraren läggs innehållsgenereringsprocessen ovanpå och det är ett viktigt förberedelsesteg för att generera en visningsupplevelse.
 
 **Så här lägger du till parametrar och resurser**:
 
-1. Klicka på ikonen _Parametrar_ för att utöka promptområdet.
+1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
-   Om det inte finns några varumärken, profiler eller produkter tillgängliga från de här menyerna [lägger du till riktlinjer i din GenStudio för Performance Marketers](/help/user-guide/guidelines/add-guidelines.md).
+   Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio för Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Så här lägger du till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen:
    * Klicka på **[!UICONTROL Select from Content]** om du vill välja resurser (bilder) från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
@@ -50,7 +50,7 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
    * Du kan också dra och släppa resurser i avsnittet **[!UICONTROL Select from Content]** för att överföra en eller flera nya resurser.
 1. Klicka på **[!UICONTROL Use]**.
 
-När du är klar med att lägga till parametrar komprimerar du frågeområdet genom att klicka på ikonen _Parametrar_ igen.
+När du är klar med att lägga till parametrar komprimerar du promptlådan genom att klicka på ikonen _Parametrar_ igen.
 
 ## Ange en uppmaning
 

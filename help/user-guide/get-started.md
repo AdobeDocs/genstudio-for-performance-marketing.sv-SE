@@ -4,7 +4,7 @@ description: Lär dig hur du konfigurerar din GenStudio for Performance Marketin
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '1128'
 ht-degree: 0%
@@ -40,7 +40,7 @@ Tre typer av GenStudio for Performance Marketing användarroller stöder denna m
 
 **Redigerare** har de behörigheter som krävs för att skapa GenStudio for Performance Marketing [!DNL Brands]-, [!DNL Campaigns]- och [!DNL Content]-resurser. De kan också redigera och ta bort resurser som de har skapat. GenStudio for Performance Marketing har stöd för att snabbt skapa hundratals innehållsdelar. Dessa användare kan generera innehållsavsnitt eller hela upplevelser som orkestrerar separata delar av godkänt innehåll för att uppfylla kraven för specifika marknadsföringskampanjer.
 
-Redigerare interagerar med GenStudio for Performance Marketing generativa AI-tekniker genom att _fråga_. I promptområdet på arbetsytan finns verktyg som du kan använda för att ställa frågor i samband med en viss kampanjs riktlinjer. Därför beror kvaliteten och framgången för det genererade innehållet delvis på kvaliteten på de varumärkesriktlinjer som organisationen har överfört och på hur specifik uppmaningen är.
+Redigerare interagerar med GenStudio for Performance Marketing generativa AI-tekniker genom att _fråga_. Frågekursen på arbetsytan innehåller verktyg som du kan använda för att ställa frågor i samband med en viss kampanjs riktlinjer. Därför beror kvaliteten och framgången för det genererade innehållet delvis på kvaliteten på de varumärkesriktlinjer som organisationen har överfört och på hur specifik uppmaningen är.
 
 Se [Skriv aktuella uppmaningar](effective-prompts.md).
 

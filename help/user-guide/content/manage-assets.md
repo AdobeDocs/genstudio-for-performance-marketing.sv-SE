@@ -3,7 +3,7 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: 600d4a37be22bd057074b4dd3773b75f0273a567
 workflow-type: tm+mt
 source-wordcount: '759'
 ht-degree: 0%
@@ -36,7 +36,7 @@ Den AEM databasen är skrivskyddad, vilket innebär att du inte kan spara utkast
 
 ## Assets
 
-I [!UICONTROL Content] kan Performance Marketers enkelt lagra, hämta och hantera sina digitala resurser. Genom att utnyttja både databasen `GenStudio assets` och AEM kan användarna se till att deras resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
+I [!UICONTROL Content] kan Performance Marketing enkelt lagra, hämta och hantera sina digitala resurser. Genom att utnyttja både databasen `GenStudio assets` och AEM kan användarna se till att deras resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
 
 ### Lägga till resurser
 
@@ -66,7 +66,7 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 1. Om du vill visa dina nya överförda resurser klickar du på **[!UICONTROL Refresh]** i meddelandet _Nya resurser tillgängliga_ längst ned på arbetsytan.
 
-<!-- 
+<!--
 In the future, need guidance on template upload errors. For now, the UI just says error.
 -->
 

@@ -3,7 +3,7 @@ title: Skriv effektiva uppmaningar
 description: Lär dig skriva effektiva uppmaningar för Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '756'
 ht-degree: 0%
@@ -39,13 +39,13 @@ Write an email to motivate infrequent users of Photoshop to follow an in-app tut
 
 ## Frågevillkor
 
-I GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) kan du använda **[!UICONTROL Prompt criteria]** ([_Parametrar_](/help/user-guide/create/overview.md#parameters) och en uppmaning) i promptområdet för att lägga till information genom markeringen för att förbättra AI-tolkningen.
+I GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) kan du använda **[!UICONTROL Prompt criteria]** ([_Parametrar_](/help/user-guide/create/overview.md#parameters) och en uppmaning) i promptlådan för att lägga till information genom markeringen för att förbättra AI-tolkningen.
 
 Frågevillkoren för [e-post](/help/user-guide/create/email-experiences.md) kan omfatta tillägg av [riktlinjer](/help/user-guide/guidelines/overview.md) i _parametrar_, överföring av en resurs som ska användas i e-postvarianterna samt en beskrivande uppmaning. För en [metaannons](/help/user-guide/create/create-meta-ad.md) kan frågevillkoren innehålla en varumärkesriktlinje i _Parametrar_, val eller överföring av en befintlig resurs, inställningar för bilder eller resurser som proportioner samt en fråga. Den verkliga kraften börjar med [att konfigurera riktlinjer](/help/user-guide/guidelines/add-guidelines.md).
 
 >[!NOTE]
 >
->Om riktlinjer läggs till i _Parametrar_ i promptområdet behöver du inte inkludera referenser till dem i prompten. GenStudio for Performance Marketing utnyttjar dessa [!DNL Brands], [!DNL Products] och [!DNL Personas] i innehållsgenereringen.
+>Om riktlinjer läggs till i _Parametrar_ i promptlådan behöver du inte inkludera någon referens till dem i uppmaningen. GenStudio for Performance Marketing utnyttjar dessa [!DNL Brands], [!DNL Products] och [!DNL Personas] i innehållsgenereringen.
 
 ### Riktlinjer
 

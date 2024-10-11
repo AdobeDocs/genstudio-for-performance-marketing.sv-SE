@@ -3,7 +3,7 @@ title: Översikt över GenStudio för Performance Marketing [!DNL Create]
 description: Generera snabbt högpresterande varumärkesanpassat innehåll med generativ AI i Adobe GenStudio för Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '558'
 ht-degree: 0%
@@ -25,42 +25,75 @@ Tillsammans med kraften i [guidelines](/help/user-guide/guidelines/overview.md)�
 ## [!DNL Create] användningsfall
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Skapa nytt innehåll" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Skapa en e-postupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <!-- <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/content/overview.md">
+
       <img alt="Re-use existing content" src="../../assets/icons/icon-addContent.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/content/overview.md">
+
          <strong>Re-use existing content</strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="../create/generate-variants.md">
+
       <img alt="Generate variants of approved content" src="../../assets/icons/icon-template.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="../create/generate-variants.md">
+
          <strong>Generate variants of approved content</strong>
+
          </a>
+
       </div>
+
    </td> -->
+
 </tr>
+
 </table>
 
 Med GenStudio for Performance Marketing kan marknadsförare **skapa nytt marknadsföringsinnehåll**. I det här fallet använder du definierade [riktlinjer](/help/user-guide/guidelines/overview.md) och inspirationsbilder för att skapa varumärkesanpassat innehåll.
-<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content. 
+<!-- * **Re-use existing content** - In this use case, upload an existing email, ad, or image to GenStudio for Performance Marketing and use the power of Adobe generative AI technology to revise and improve existing content.
 * **Generate variants of approved content** - In this use case, [generate variations of content that is approved by stakeholders](generate-variants.md) and published to [!DNL Content]. -->
 
 ## [!DNL Create]-funktioner
@@ -75,7 +108,7 @@ Mallar [överförs och lagras i  [!DNL Content]](/help/user-guide/content/overvi
 
 ### Parametrar
 
-I promptområdet kan du lägga till _parametrar_ som [!DNL Brands], [!DNL Products] och [!DNL Personas] (riktlinjer) och [!DNL Content] (resurser) för att forma den genererade upplevelsen.
+I promptlådan kan du lägga till _parametrar_ som [!DNL Brands], [!DNL Products] och [!DNL Personas] (riktlinjer) och [!DNL Content] (resurser) för att forma den genererade upplevelsen.
 
 Dessa tillagda parametrar ger [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i genereringsprocessen, vilket säkerställer att innehållet är anpassat efter ett varumärkes heltäckande identitet. Vi rekommenderar att du lägger till riktlinjer för prestandamarknadsföring i GenStudio och använder dem under innehållsgenereringsprocessen, eftersom de gör det betydligt enklare att skapa lämpligt varumärkesanpassat innehåll.
 
@@ -85,7 +118,7 @@ Innehåll - överfört eller tillagt bildresurser - i _Parametrar_ används i ge
 
 [Att skapa effektiva uppmaningar](/help/user-guide/effective-prompts.md) är en viktig del av genereringsprocessen i [!DNL Create].
 
-Om du vill skapa AI-genererat innehåll anger du en [beskrivande uppmaning](/help/user-guide/effective-prompts.md) som beskriver den kontext eller upplevelse som du tänker generera, tillsammans med [riktlinjer](/help/user-guide/guidelines/overview.md) och [_parametrar_](#parameters), i promptområdet och klickar på **[!UICONTROL Generate]**.
+Om du vill skapa AI-genererat innehåll anger du en [beskrivande uppmaning](/help/user-guide/effective-prompts.md) som beskriver den kontext eller upplevelse som du tänker generera, tillsammans med [riktlinjer](/help/user-guide/guidelines/overview.md) och [_parametrar_](#parameters), i frågerutan och klickar på **[!UICONTROL Generate]**.
 
 ### Varumärkesvalidering
 

@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 63d1e568cc265a4aaf98af0a9f3f52ebff2a02b5
+source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Om du vill skapa en ny e-postupplevelse kan du använda en tillgänglig mall fö
 
 ## Lägg till parametrar
 
-Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i promptområdet överbelastas innehållsgenereringsprocessen och är ett viktigt förberedelsesteg för att generera en e-postupplevelse.
+Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i snabbredigeringsmodulen läggs innehållsgenereringsprocessen ovanpå och det är ett viktigt förberedelsesteg för att skapa en e-postupplevelse.
 
 **Så här lägger du till parametrar och resurser**:
 
-1. Klicka på ikonen _Parametrar_ för att utöka promptområdet.
+1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio för Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
@@ -54,7 +54,7 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
 >
 >Om din e-postmall har flera avsnitt väljer du [!DNL Products] och innehåll (visuella resurser) för varje e-postavsnitt i _Fleravsnittsmeddelanden_. E-postmeddelanden med flera avsnitt har stöd för en visuell resurs per avsnitt.
 
-När du är klar med att lägga till parametrar kan du komprimera frågeområdet genom att klicka på ikonen _Parametrar_ igen.
+När du är klar med att lägga till parametrar kan du komprimera promptlådan genom att klicka på ikonen _Parametrar_ igen.
 
 ## Ange en uppmaning
 
