@@ -1,54 +1,157 @@
 ---
 title: GenStudio Academy
 description: Förbättra era färdigheter i innehållsleveranskedjan med Adobe GenStudio Academy
-doc-type: Catalog
 recommendations: disable, exclude
-hidefromtoc: true
 index: false
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+hidefromtoc: true
+source-git-commit: 91ad365ba7096a770d57f2de5d5c65e24ec32e4e
 workflow-type: tm+mt
-source-wordcount: '151'
+source-wordcount: '214'
 ht-degree: 0%
 
 ---
 
-
-# Adobe GenStudio Academy {#genstudio-academy}
+# GenStudio Academy
 
 <table>
-<tr>
-  <td>
-    <a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5">
-      <img alt="Anmäl dig till Adobe GenStudio Academy" src="/help/assets/card-create-assets.png" />
-    </a>
-    <div>
-      <a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5">
-    Registrera
-    </a>
-    </div>
-    <p>
-    <em>Ny på Adobe GenStudio Academy? Registrera dig nu och börja lära dig!</em>
-    <p>
+
+ <tr style= "border: 0;">
+
+  <td> <strong style= "font-size: 2em">Förbättra dina generativa AI-kunskaper.  </strong><p>Lär dig de generativa AI-kunskaperna för att omvandla era kreativa arbetsflöden och era marknadsföringsarbetsflöden. <p><a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Registrera</span></a>          <a href="https://genstudioacademy.adobelearningmanager.com/" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Inloggning</span></a></td>
+
+  <td><img src="../assets/elevate-your-generative-ai-knowledge.png"></td>
+
+ </tr>
+
+</table>
+
+<table>
+
+ <tr style= "border: 0;">
+
+  <td align="center">
+
+    <strong style= "font-size: 2em">Huvudgenerativ AI med GenStudio Academy.</strong><p>Ge viktiga kunskaper för att integrera generativ AI i era kreativa arbetsflöden och marknadsföringsarbetsflöden - när som helst, var som helst och helt kostnadsfritt.
+
   </td>
-  <td>
-    <a href="https://genstudioacademy.adobelearningmanager.com/">
-    <img alt="Logga in på Adobe GenStudio Academy" src="/help/assets/card-manage-content.png" />
-    </a>
-    <div>
-    <a href="https://genstudioacademy.adobelearningmanager.com/">
-    Logga in
-    </a>
-    </div>
-    <p>
-    <em>Har du redan ett konto på Adobe GenStudio Academy? Logga in och börja lära dig!</em>
-    </p>
-  </td>
-</tr>
+
+ </tr>
+
+</table>
+
+>[!BEGINSHADEBOX]
+
+<table>
+
+ <tr style= "border: 0;">
+
+  <td><img src="../assets/generative-ai-for-marketing-simplified.png"></td>
+
+  <td align="center"> <strong style= "font-size: 2em">Generativ AI för marknadsföring. Förenklad.</strong><p> GenStudio Academy omvandlar komplexa generativa AI-uppgifter till enkla kurser som att omvandla varumärkesriktlinjer. Genom nedladdningsbara guider och videor kan eleverna bemästra generativ AI, ett koncept i taget.<p><a href="https://learningmanager.adobe.com/accountiplogin?ipId=16970&amp;accesskey=c4988oojirhb5" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Utforska nu</span></a></td>
+
+ </tr>
+
+</table>
+
+>[!ENDSHADEBOX]
+
+<table>
+
+ <tr style= "border: 0;">
+
+  <td align="center"> <strong style= "font-size: 2em">Utbildningsnivåer. Obegränsat affärstillfälle upplåst.</strong><p>Med GenStudio Academy är det enkelt att hitta innehåll som ökar dina kreativa AI-kunskaper, oavsett om du lär dig mer om LLM, mastringsprompter eller ser AI-verktyg i praktiken. GenStudio Academy har något för alla.</td>
+
+  <td><img src="../assets/levels-of-learning.png"></td>
+
+ </tr>
+
 </table>
 
 
-## Adobe GenStudio Academy - översikt
+<table>
 
->[!VIDEO](https://video.tv.adobe.com/v/3434938?autoplay=true&end=replay)
+ <tr style= "border: 0;colspan: 3;">
 
-Adobe GenStudio Academy är ett intuitivt sätt att förbättra inlärningen om Adobe GenStudio. Adobe GenStudio, som kommer snart, är en intuitiv produkt som samlar in de viktigaste verktygen marknadsförare behöver för att leverera i flerkanalskampanjer. Den bygger på generativ AI och ger alla teammedlemmar möjlighet att snabbt hitta och generera resurser, skapa variationer och optimera upplevelser baserat på innehållsprestanda i realtid. Den är utformad för små och stora företag och ska användas av marknadsförare eller byråer. Med GenStudio har det aldrig varit enklare att leverera värdefulla upplevelser till era kunder.
+  <td colspan="3"> <strong style= "font-size: 2em;">Kommer snart</strong></td>
+
+ </tr> 
+
+ <tr style= "border: 0;colspan: 3;"> 
+
+   <td align="Center">
+
+      <img src="../assets/tips-and-tricks.png">
+
+      <div>
+
+      <strong>Tips och tricks </strong>
+
+      </div>
+
+      <p>
+
+      Tips och tricks för GenStudio for Performance Marketing på det mest effektiva sättet.
+
+      </p>
+
+   </td>
+
+   <td align="Center">
+
+      <img src="../assets/social-learning.png">
+
+      <div>
+
+      <strong>Socialt lärande</strong>
+
+      </div>
+
+      <p>
+
+      Lär dig av andra och dela enkelt med dig av dina kunskaper i hela organisationen.
+
+      </p>
+
+   </td>
+
+   <td align="Center">
+
+      <img src="../assets/expert-courses.png">
+
+      <div>
+
+      <strong>Expertkurser</strong>
+
+      </div>
+
+      <p>
+
+      Avancerade kurser som ger AI-kunskaper på expertnivå möjlighet till marknadsföring.
+
+      </p>
+
+   </td>
+
+ </tr>
+
+</table>
+
+>[!BEGINSHADEBOX]
+
+<table>
+
+    <tr></tr>
+
+ <tr style= "border: 0;">
+
+ <td><img src="../assets/put-your-learnings-into-practice.png"></td>
+
+  <td> <strong style= "font-size: 2em">Sätt dina kunskaper i praktiken.</strong><p>Utforska GenStudio for Performance Marketing, en generativ AI-tillämpning som gör att marknadsföringsteamen kan skapa egna annonser och e-postmeddelanden för att skapa slagkraftiga, personaliserade marknadsföringskampanjer.<p><a href="https://business.adobe.com/products/genstudio-for-performance-marketing.html" rel="noreferrer" target="_blank" class="spectrum-Button spectrum-Button--fill spectrum-Button--accent spectrum-Button--sizeM"><span class="spectrum-Button-label has-no-wrap">Ta mig dit</span></a></td>
+
+ </tr>
+
+    <tr></tr>
+
+</table>
+
+>[!ENDSHADEBOX]
