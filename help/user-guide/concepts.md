@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing concepts
 description: Lär dig Adobe GenStudio for Performance Marketing koncept och termer.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 5a35f8b041e1da8e21db4bbd4e20ea7f9b4bb3c0
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
-source-wordcount: '324'
+source-wordcount: '487'
 ht-degree: 0%
 
 ---
@@ -16,10 +16,10 @@ GenStudio for Performance Marketing är en fristående företagsprodukt som ger 
 
 Med GenStudio for Performance Marketing kan du
 
-- Skapa varumärkesanpassat innehåll med naturliga språktips
-- Samarbeta med intressenter för att granska och godkänna genererat innehåll
-- Spara genererat och godkänt innehåll för framtida marknadsföringskampanjer
-- Utvärdera innehållsprestanda med insikter om kampanjer och innehållsattribut
+* Skapa varumärkesanpassat innehåll med naturliga språktips
+* Samarbeta med intressenter för att granska och godkänna genererat innehåll
+* Spara genererat och godkänt innehåll för framtida marknadsföringskampanjer
+* Utvärdera innehållsprestanda med insikter om kampanjer och innehållsattribut
 
 ## Generativ AI-teknik
 
@@ -28,6 +28,16 @@ GenStudio for Performance Marketing utnyttjar den kraftfulla AI-funktionen för 
 Börja med att effektivt utbilda GenStudio for Performance Marketing om företagets varumärke, kundprofiler och produktbeskrivningar med hjälp av den kraftfulla funktionen för varumärkesriktlinjer.
 
 Se [Riktlinjerna - översikt](../user-guide/guidelines/overview.md) om du vill veta mer om hur du förbereder och överför dessa riktlinjer.
+
+## Datastyrning
+
+När du arbetar med AI för att generera innehåll är det viktigt att se till att resultatet är säkert och inkluderande för alla användare. Detta kräver utvärdering av innehållet avseende eventuella skadliga biaser, hattalets, stötande material eller svordomar. För att förhindra att skadligt innehåll uppstår i produktionen är det viktigt med grundlig testning ur flera perspektiv, en omfattande etisk granskning och implementering av effektiva begränsningsplaner.
+
+Detta tillvägagångssätt stärker det sociala ansvaret, minimerar anseenderiskerna och ser till att Adobe Trust &amp; Safety and Ethics policies följs.
+
+GenStudio for Performance Marketing har begränsningsplaner för att förhindra användning av identifierat skadligt eller partiskt innehåll enligt standarder och policyer för datastyrning. När sådant innehåll upptäcks är du medveten om att resursgenerering blockeras med meddelandet&quot;Kan inte generera&quot;.
+
+När det här meddelandet visas kan du redigera uppmaningen och försöka igen _eller_ flagga promptinnehållet för granskning av GenStudio for Performance Marketing. Frågedata för innehåll som är flaggat för granskning samlas in för intern granskning.
 
 ## Innehållets livscykel
 

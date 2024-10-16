@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 9ff0e14af49d8759c8384c67e61832d205fa6e90
+source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
 workflow-type: tm+mt
 source-wordcount: '1465'
 ht-degree: 0%
@@ -185,7 +185,7 @@ Se [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
 1. Markera knappen **[!UICONTROL Add persona]** och välj **Överför PDF**.
 1. Klicka på **[!UICONTROL Continue]**.
-1. Bifoga eller dra i ditt personliga dokument i popup-fönstret _Lägg till din profil.
+1. Bifoga eller dra ditt personliga dokument i popup-fönstret _Lägg till din profil_.
 
    Du kan bifoga upp till fem PDF-filer med högst 500 MG.
 
