@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 3a361134a0b56a2973399e38e62f4ab345a3dbc8
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '657'
+source-wordcount: '661'
 ht-degree: 0%
 
 ---
@@ -114,7 +114,7 @@ Använd [Anpassa mallar](customize-template.md) som guide när du förbereder en
    Mallnamn och kanaltyp krävs. Ytterligare krav kan vara:
 
    - **Meta**: kräver proportioner
-   <!-- - **Display ads**: requires Dimensions -->
+   - **Visningsannonser**: kräver Dimensioner
 
 1. Lägg till så många detaljer du kan för att förbättra identifiering av mallar i sökningar och filtrering.
 

@@ -4,9 +4,9 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
 workflow-type: tm+mt
-source-wordcount: '1032'
+source-wordcount: '1043'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,7 @@ GenStudio for Performance Marketing fyller i vissa fält automatiskt i följande
 
 - **E-postmallen** kräver inte att du identifierar fältet `subject`
 - Mallen **Metaannonser** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
-
-<!--
-- **Display Ads template** does not require you to identify the `CTA` field
--->
+- **Mallen för visningsannonser** kräver inte att du identifierar fältet `CTA`
 
 >[!WARNING]
 >
