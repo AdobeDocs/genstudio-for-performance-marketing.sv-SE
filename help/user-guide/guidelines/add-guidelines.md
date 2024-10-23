@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '1465'
+source-wordcount: '1470'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,10 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
    Ni kan fylla i olika valfria riktlinjer och bilder för att bygga ut ert varumärke.
 
 1. Lägg till information om ditt varumärke i avsnittet _Om_.
-1. Ange [_Riktlinjer för varumärkesröst_](brands.md#brand-voice-guidelines).
+1. Ange [_[!DNL Brand] röstriktlinjer _](brands.md#brand-voice-guidelines).
+
+   ![Lägg till [!DNL Brand] röstriktlinjer ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+
 1. Ange [_Kanalriktlinjer_](brands.md#channel-guidelines) för varje tillämplig kanal.
 1. Ange [_Bildriktlinjer_](brands.md#image-guidelines). Expandera varje kategori i avsnittet Bildriktlinjer om du vill se alla riktlinjer.
 
@@ -101,7 +104,9 @@ Om du vill lägga till en produkt [överför du en produktguide](#upload-a-produ
 
 Klicka på **[!DNL Products]** i det vänstra navigeringsområdet. Välj **Lägg till produkt** på panelen _[!DNL Products]_.
 
-Du kan lägga till [!DNL Products] i GenStudio för Performance Marketing för att ange enskilda fokusområden för produkten när du skapar innehåll. <!-- Add Rename, display, reposition functionality -->
+![Lägg till en [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+Du kan lägga till [!DNL Products] i GenStudio för Performance Marketing för att ange enskilda fokusområden för produkten när du skapar innehåll.
 
 Se [[!DNL Products]](products.md).
 
@@ -212,7 +217,10 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
    Du kan fylla i olika valfria riktlinjer och bilder för att bygga ut din personlighet.
 
-1. Lägg till information om ditt varumärke i avsnittet _Beskrivning_.
+1. Lägg till information om din [!DNL Persona] i avsnittet _Beskrivning_.
+
+   ![Lägg till en [!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
+
 1. Klicka på **[!UICONTROL New persona name]** och ange ett namn för [!DNL Persona].
 1. Klicka på _Beskrivning_ och ange en beskrivning av [!DNL Persona].
 1. Klicka på _Meddelandeinställningar_ och ange meddelandeinformation för [!DNL Persona].

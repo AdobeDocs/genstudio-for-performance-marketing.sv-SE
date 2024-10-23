@@ -3,9 +3,9 @@ title: GenStudio för Performance Marketing [!DNL Products]
 description: GenStudio for Performance Marketing [!DNL Products] innehåller alla aspekter av produkten - bilder, beskrivningar och värdeförslag - för att skapa relevant innehåll som framhäver produktstyrkor och upprätthåller en konsekvent produktmarknadsföring.
 feature: Products Service, Guidelines
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '532'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Products] i GenStudio för Performance Marketing (prestandamarknadsföring) har en djupgående förståelse för produktspecifikationer, fördelar och differentieringsfaktorer för att generera slagkraftigt innehåll.
 
 [!DNL Products] omfattar alla element i en viss produkt, till exempel bilder, beskrivningar och värdeförslag, för att skapa en sammanhängande varumärkesrepresentation. Genom att utnyttja Adobe avancerade AI-teknik, GenStudio for Performance Marketing guidelines -[[!DNL Brands], [!DNL Products] och  [!DNL Personas]](/help/user-guide/guidelines/overview.md) - kan ni tillsammans generera övertygande innehåll som visar upp era produkters styrka och säkerställer enhetlighet i alla meddelanden.
-
-![[!DNL Products]-riktlinjer i GenStudio för prestandamarknadsföring](/help/assets/products-guidelines.png){width="650" zoomable="yes"}
 
 **Så här visar eller ändrar du en produkt**:
 
@@ -29,6 +27,8 @@ Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lä
 ## Riktlinjer för [!DNL Products]
 
 Riktlinjer för enskilda produkter ger GenStudio for Performance Marketing en tydlig bild av dina produkter.
+
+![Produktriktlinjer](/help/assets/products.png){width="600" zoomable="yes"}
 
 Riktlinjerna beskriver varje stödlinjekategori och tillhörande exempel. Exemplen är exempelindata som formar utdata för genererat innehåll. Använd dem för att informera dina [!DNL Products]-riktlinjer.
 

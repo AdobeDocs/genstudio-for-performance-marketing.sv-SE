@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 94a3b4c764e29b84fc07620994913c528ffe0cdd
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '812'
+source-wordcount: '825'
 ht-degree: 0%
 
 ---
@@ -55,6 +55,8 @@ När du är klar med att lägga till parametrar komprimerar du promptlådan geno
 ## Ange en uppmaning
 
 När du har valt riktlinjer kan du snabbt skapa innehåll för den nya webbannonsupplevelsen med hjälp av det naturliga språket. För att förbättra kvaliteten på den genererade webbannonsupplevelsen är det viktigt att skapa detaljerade och beskrivande uppmaningar.
+
+![Ange en fråga](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du vill veta mer om hur du skriver uppmaningar.
 
@@ -115,6 +117,11 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade webbannonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya visningsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
+   1. Klicka på **[!UICONTROL Publish]**.
+
+      ![Publish en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+
 1. **Klicka **[!UICONTROL Export]**i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser**.
    1. Markera formatet (endast JPG) och klicka på **[!UICONTROL Export]**.
 

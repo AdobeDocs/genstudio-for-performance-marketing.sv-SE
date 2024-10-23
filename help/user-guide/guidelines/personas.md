@@ -3,9 +3,9 @@ title: GenStudio för Performance Marketing [!DNL Personas]
 description: GenStudio for Performance Marketing [!DNL Personas]  är en sann representation av era kundsegment och fångar upp deras intressen, smärtor, preferenser och beteendeegenskaper.
 feature: Personas Service, Guidelines
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '366'
+source-wordcount: '362'
 ht-degree: 0%
 
 ---
@@ -15,8 +15,6 @@ ht-degree: 0%
 [!DNL Personas] utgör en autentisk bild av dina kundsegment, med information, intressen, smärtor, preferenser och beteenden.
 
 GenStudio for Performance Marketing utnyttjar kraften i riktlinjerna -[[!DNL Brands], [!DNL Products] och [!DNL Personas]](overview.md) - och Adobe generative AI-teknik för att strukturera personaliserat marknadsföringsinnehåll för era målkunder. &#x200B;
-
-![[!DNL Personas]-riktlinjer i GenStudio för prestandamarknadsföring](/help/assets/personas-guidelines.png){width="650" zoomable="yes"}
 
 **Så här visar eller ändrar du en profil**:
 
@@ -29,6 +27,8 @@ Se [Lägg till riktlinjer](add-guidelines.md) om du vill veta hur du lägger til
 ## Riktlinjer för [!DNL Personas]
 
 Riktlinjer för individanpassad marknadsföring ger GenStudio en tydlig bild av din [!DNL Personas].
+
+![Personriktlinjer](/help/assets/personas.png){width="600" zoomable="yes"}
 
 Riktlinjerna beskriver varje stödlinjekategori och tillhörande exempel. Exemplen är exempelindata som formar utdata för genererat innehåll. Använd dem för att informera dina egna [!DNL Personas]-riktlinjer.
 

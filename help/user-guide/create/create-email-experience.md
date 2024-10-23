@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: cb309cbaa81807644ff8ba4a5e8ed4403b935315
+source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
 workflow-type: tm+mt
-source-wordcount: '944'
+source-wordcount: '963'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
 1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
+   ![Välj persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio för Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Lägg till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen:
    * Klicka på **[!UICONTROL Select from Content]** om du vill välja resurser (bilder) från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
+
+     ![Välj visuellt innehåll](/help/assets/content-select-email.png){width="500" zoomable="yes"}
 
      Om du vill använda resurser från en ansluten [!DNL AEM Assets Content Hub]-databas väljer du en databas i listrutan _Plats_ . Filtrera och markera en eller flera bilder.
 
@@ -51,8 +55,8 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
 1. Klicka på **[!UICONTROL Use]**.
 
 >[!NOTE]
->
 >Om din e-postmall har flera avsnitt väljer du [!DNL Products] och innehåll (visuella resurser) för varje e-postavsnitt i _Fleravsnittsmeddelanden_. E-postmeddelanden med flera avsnitt har stöd för en visuell resurs per avsnitt. Du kan bara lägga till visuella resurser i e-postmeddelanden med flera avsnitt från [!DNL Content]. Du kan inte dra och släppa eller överföra resurser från den lokala källan.
+>![Lägg till innehåll och parametrar för varje e-postavsnitt ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 När du är klar med att lägga till parametrar kan du komprimera promptlådan genom att klicka på ikonen _Parametrar_ igen.
 
@@ -98,9 +102,15 @@ Om du vill optimera de genererade e-postmeddelandena och säkerställa strikt ef
 **Så här verifierar du varumärkesjustering**:
 
 1. Klicka på ikonen [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) för en variant och se en sammanfattning av hur varianten fungerar när den kontrolleras mot ditt varumärke.
+
+   ![Kontroll av varumärkesriktlinjer](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+
 1. Klicka **[!UICONTROL Review]** _eller_ på valideringsikonen för varumärket i den övre menyraden för att öppna [_Varumärkesvalideringspanelen_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) om du vill ha information om de avsnitt och riktlinjer som behöver förbättras.
 
 1. Växla mellan e-postmeddelanden för att se hur ni kan förbättra det genererade innehållet så att det blir mer varumärkesanpassat.
+
+   ![Panelen för varumärkesvalidering](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
+
 1. [Granska e-postmeddelanden manuellt](#revise-generated-emails) för att säkerställa att dina e-postmeddelanden är i linje med ditt varumärke.
 
 Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).

@@ -3,9 +3,9 @@ title: GenStudio för Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands]  är en omfattande samling varumärkesresurser - marknadsföringskopia, bilder, upplevelser med mera - som kan användas för att skapa varumärkesanpassat innehåll.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
 workflow-type: tm+mt
-source-wordcount: '792'
+source-wordcount: '794'
 ht-degree: 0%
 
 ---
@@ -27,6 +27,8 @@ Du kan överföra varumärkesriktlinjer - upp till tre PDF eller DOC-filer - til
 ## Riktlinjer för [!DNL Brands]
 
 Riktlinjer ger GenStudio för Performance Marketing en tydlig bild av er varumärkesspecifika strategi, ton, visuella känsla med mera.
+
+![Riktlinjer för varumärket](/help/assets/brands.png){width="600" zoomable="yes"}
 
 I följande avsnitt av riktlinjerna beskrivs varje kategori, riktlinjer för exempel och potentiella resultat. Riktlinjeexemplen är exempelindata som formar resultatresultatet (exempel på resultat nedan) - använd dem för att informera dina egna varumärkesriktlinjer.
 

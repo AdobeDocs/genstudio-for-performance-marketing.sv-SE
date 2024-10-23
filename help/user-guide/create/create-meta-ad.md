@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 449c212ab167a6c126492e9becedf9318bfe08ee
+source-git-commit: bd24c4e25df1210dd6ff2b7f17f999963133294a
 workflow-type: tm+mt
-source-wordcount: '988'
+source-wordcount: '1002'
 ht-degree: 0%
 
 ---
@@ -40,10 +40,14 @@ Genom att lägga till [riktlinjer](/help/user-guide/guidelines/overview.md) och 
 1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
+   ![Välj persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio för Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
 1. Lägg till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen:
    * Klicka på **[!UICONTROL Select from Content]** om du vill välja resurser (bilder) från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
+
+     ![Välj visuellt innehåll](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Om du vill använda resurser från en ansluten [!DNL AEM Assets Content Hub]-databas väljer du en databas i listrutan _Plats_ . Filtrera och markera en eller flera bilder.
 
@@ -102,6 +106,8 @@ Om du vill optimera de annonser som skapas och säkerställa strikt överensstä
 1. Klicka på ikonen [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) för en variant och se en sammanfattning av hur varianten fungerar när den kontrolleras mot ditt varumärke.
 1. Klicka **[!UICONTROL Review]** _eller_ på valideringsikonen för varumärket i den övre menyraden för att öppna [_Varumärkesvalideringspanelen_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) om du vill ha information om de avsnitt och riktlinjer som behöver förbättras.
 
+   ![Panelen för varumärkesvalidering](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+
 1. Växla mellan annonserna för att se hur ni kan förbättra det genererade innehållet för att bli mer varumärkesanpassade.
 1. [Granska annonser manuellt](#revise-generated-meta-ads) för att säkerställa att era annonser är i linje med ert varumärke.
 
@@ -114,6 +120,9 @@ Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan,
 **Så här får du granskningar och godkännanden**:
 
 1. [Starta en godkännandebegäran](/help/user-guide/approvals/request-review.md) för att begära ett [godkännande av förberedda Meta-annonsupplevelser](/help/user-guide/approvals/approve-content.md).
+
+   ![Skicka utkast för granskning och godkännande](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
+
 1. [Ta bort eller lägg till granskare](/help/user-guide/approvals/review-and-edit.md#manage-approvals) under granskningsprocessen.
 1. [Få åtkomst till innehållet för granskning](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) och visa begäranden om revision.
 1. Redigera utkasten per granskningskommentarer och [publicera dina Meta-annonsupplevelser](#publish-and-export-experience).

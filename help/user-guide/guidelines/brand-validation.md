@@ -3,9 +3,9 @@ title: Varumärkesvalidering i Adobe GenStudio för prestandamarknadsföring
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio för Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
 workflow-type: tm+mt
-source-wordcount: '669'
+source-wordcount: '670'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ GenStudio for Performance Marketing utför varumärkesvalidering på olika sätt
 * Kopiera riktlinjer för olika kanalplattformar
 * Etiska överväganden som rör kön, etnicitet, ras, funktionshinder och ålder i AI-genererat innehåll
 
-## Kontroll av varumärkesriktlinjer
+## Kontroll av riktlinjer för [!DNL Brand]
 
-En sammanfattning av varumärkesverifieringsinformation för varje genererad innehållsvariant finns tillgänglig via ikonen _Varumärkeskontroll_ bredvid varje variant på arbetsytan.
+En sammanfattning av varumärkesverifieringsinformation för varje genererad innehållsvariant finns tillgänglig via ikonen _[!DNL Brand]guidelines check_ bredvid varje variant på arbetsytan.
 
-Kontrollen _Varumärkesriktlinjer_ visar procentandelen kompatibilitet med ditt [varumärke](brands.md). Procentandelen beräknas som antalet [riktlinjer](overview.md) som godkändes vid validering jämfört med antalet testade riktlinjer.
+_[!DNL Brand]-riktlinjerna_ visar hur många procent av kompatibiliteten med ditt [varumärke](brands.md) är. Procentandelen beräknas som antalet [riktlinjer](overview.md) som godkändes vid validering jämfört med antalet testade riktlinjer.
+
+Kontroll av ![[!DNL Brand]-riktlinjer ](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
 
 Klicka på ikonen för att se hur många riktlinjer som är kompatibla med ert varumärke och hur många riktlinjer som behöver granskas.
 
@@ -33,6 +35,8 @@ Se [Förbättra varumärkesjusteringen](#improve-brand-alignment).
 ## Panelen för varumärkesvalidering
 
 Panelen _Varumärkesvalidering_ öppnas på den högra sidan av arbetsytan när du klickar på den övre menyraden _eller_ på ikonen _Varumärkesstödlinjer_ för en variant. Panelen innehåller detaljerad information om varumärkesvalidering och visar upp möjligheter till förbättring för varje avsnitt.
+
+![[!DNL Brand] valideringspanel](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
 
 På panelen _Varumärkesvalidering_ visas information om:
 

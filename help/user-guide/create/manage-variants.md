@@ -2,9 +2,9 @@
 title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Content, Assets, Experiences
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
 workflow-type: tm+mt
-source-wordcount: '1072'
+source-wordcount: '1092'
 ht-degree: 0%
 
 ---
@@ -44,13 +44,16 @@ GenStudio for Performance Marketing har den inbyggda funktionen för att återsk
 
 Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs med _[!UICONTROL Suggested edits]_-alternativen -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_ - och ange en ny fråga.
 
+![Generera om avsnitt](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
+
 **Så här återskapar du enskilda variantavsnitt**:
 
 1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
-1. (_Valfritt_) Ange en ny uppmaning om att ändra fokus för det återskapade innehållet.
 1. Välj ett _[!UICONTROL Suggested edits]_-alternativ -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_.
-1. Klicka på **[!UICONTROL Generate]**.
-1. Om du vill generera om resultaten klickar du på ikonen för att generera om intill _Resultat_.
+   * Välj ett tillgängligt alternativ och klicka på **[!UICONTROL Replace]**.
+1. (_Valfritt_) Välj _[!UICONTROL Generate with prompt] och ange en ny uppmaning om att ändra fokus för det återskapade innehållet.
+   * Klicka på **[!UICONTROL Generate]**.
+1. Om du vill återskapa resultaten för att se fler alternativ klickar du på ikonen Återskapa bredvid _Resultat_.
 1. Välj önskat alternativ i _Resultat_ som visas och klicka sedan på **[!UICONTROL Replace]**.
 
    Varianten uppdateras med den reviderade texten.
@@ -151,6 +154,8 @@ Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md#impro
 ## Återkoppling om generering
 
 Feedback om kvaliteten på genererade varumärkesanpassade resurser kan lämnas in för att förbättra innehållsgenereringsprocessen. Att ange om resultaten är av hög eller dålig kvalitet bidrar till att förbättra innehållskvaliteten och användarsäkerheten i GenStudio for Performance Marketing.
+
+![Skicka feedback om innehållsgenerering](/help/assets/generation-feedback.png){width="500" zoomable="yes"}
 
 Återkoppling om generering gäller för en enskild variant, inte för den insamlade uppsättningen varianter.
 
