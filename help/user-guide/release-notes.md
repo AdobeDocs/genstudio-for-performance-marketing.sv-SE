@@ -2,9 +2,9 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: c3e6e5f4213074b4093591ac06e8341c9d46c212
+source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
 workflow-type: tm+mt
-source-wordcount: '290'
+source-wordcount: '368'
 ht-degree: 0%
 
 ---
@@ -13,7 +13,25 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2024.10.14 General Availability release {#latest}
+## 2024.10.31  {#latest}
+
+### Nya funktioner
+
+* Sökfiltret **[!DNL Content]** har nu stöd för sökning efter färgtagg.  <!-- GS-5501 -->
+
+* Arbetsytan **[!DNL Create]** visar nu teckenantal för e-postfragment. <!-- GS-5819 -->
+
+### Korrigeringar
+
+* Etiketter för skärmläsare som saknas har lagts till i `view`-element för mobiler och datorer. <!-- GS-5624 4729 -->
+
+* Ämnesraden och textområdena före sidhuvudet på **[!DNL Create]**-arbetsytan är nu dynamiska i höjdled. <!-- GS-6258 -->
+
+* Layoutproblem med e-postkanter har lösts. <!-- GS-6631 -->
+
+* Tangentbordsfokus fungerar nu som väntat på knappen **[!DNL Content]** **[!UICONTROL Delete]**. Tidigare gick det inte att nå eller använda den här knappen med tangentbordet.  <!-- GS-4065 -->
+
+## 2024.10.14 General Availability release
 
 I den här versionen presenteras Adobe GenStudio for Performance Marketing, en generativ AI-baserad applikation som snabbar upp planering, utveckling och analys av marknadsföringskampanjer. GenStudio for Performance Marketing ger marknadsföringsteamen möjlighet att skapa varumärkesanpassat flerkanalsinnehåll för annonser, e-post och kampanjer samtidigt som ni får realtidsinsikter för att optimera innehållets prestanda.
 
