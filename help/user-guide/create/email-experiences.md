@@ -4,9 +4,9 @@ description: Läs om e-postupplevelser i Adobe GenStudio for Performance Marketi
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
 workflow-type: tm+mt
-source-wordcount: '230'
+source-wordcount: '280'
 ht-degree: 0%
 
 ---
@@ -53,3 +53,9 @@ Varje fält och avsnitt i e-postupplevelsen läses in stegvis i den här sekvens
 1. Headlines, email body (for single section emails), and call-to-action
 1. E-postbrödtext för efterföljande avsnitt (för e-post med flera avsnitt)
 1. Varumärkesvalideringsprocessen inträffar och kontrollen [_Varumärkesriktlinjer_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) fylls i för varje variant.
+
+## Antal tecken
+
+När du har genererat en uppsättning e-postvarianter kan du se antalet tecken som visas för varje e-postavsnitt. Håll muspekaren över eller klicka i ett genererat avsnitt, t.ex. ämnesraden eller brödtexten, och se avsnittsnamnet och teckenantalet för det avsnittet.
+
+![Antal tecken](/help/assets/character-count.png){width="500" zoomable="yes"}
