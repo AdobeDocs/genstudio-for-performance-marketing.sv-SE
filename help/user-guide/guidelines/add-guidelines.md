@@ -1,24 +1,24 @@
 ---
-title: Lägg till riktlinjer i Adobe GenStudion för Performance Marketing
-description: Lär dig hur du lägger till riktlinjer -[!DNL Brands], [!DNL Products] och [!DNL Personas] - i Adobe GenStudio för Performance Marketing.
+title: Lägga till riktlinjer i Adobe GenStudio for Performance Marketing
+description: Lär dig hur du lägger till riktlinjer -[!DNL Brands], [!DNL Products] och [!DNL Personas] - i Adobe GenStudio for Performance Marketing.
 feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 11bd93e90a01d89adb9ed12d1e93774c67f27b6b
+source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
 workflow-type: tm+mt
-source-wordcount: '1470'
+source-wordcount: '1566'
 ht-degree: 0%
 
 ---
 
 # Lägg till riktlinjer
 
-[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) och [[!DNL Personas]](/help/user-guide/guidelines/personas.md) är användardefinierade riktlinjer i GenStudio för Performance Marketing som säkerställer att allt AI-genererat innehåll anpassas efter varumärkesidentiteten, vilket möjliggör effektiv personalisering av innehåll.
+[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) och [[!DNL Personas]](/help/user-guide/guidelines/personas.md) är användardefinierade riktlinjer i GenStudio for Performance Marketing som ser till att allt AI-genererat innehåll anpassas efter varumärkesidentiteten, vilket möjliggör effektiv personalisering av innehåll.
 
 Se [riktlinjerna - översikt](/help/user-guide/guidelines/overview.md).
 
-Att lägga till riktlinjer i GenStudio för Performance Marketing är ett viktigt steg i skapandet. Riktlinjerna ligger till grund för processen att skapa innehåll, tillsammans med användardefinierade anvisningar och Adobe generativ AI-teknik, för att skapa slagkraftiga resurser.
+Att lägga till riktlinjer i GenStudio for Performance Marketing är ett viktigt steg i skapandet. Riktlinjerna ligger till grund för processen att skapa innehåll, tillsammans med användardefinierade anvisningar och Adobe generativ AI-teknik, för att skapa slagkraftiga resurser.
 
 ## Lägg till [!DNL Brands]
 
@@ -44,7 +44,7 @@ Se [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 1. Välj **[!UICONTROL Add brand]**.
 
-Med hjälp av Adobe generative AI-teknik extraherar GenStudio för Performance Marketing information från era överförda dokument och börjar bygga upp ert varumärke. Varumärkesinformation, som varumärkesröst, kanal och bildriktningar, fylls i när varje riktlinje från varumärkesdokumenten sammanställs.
+Med hjälp av Adobe generative AI-teknik extraherar GenStudio for Performance Marketing information från de överförda dokumenten och börjar bygga upp ert varumärke. Varumärkesinformation, som varumärkesröst, kanal och bildriktningar, fylls i när varje riktlinje från varumärkesdokumenten sammanställs.
 
 Ett popup-fönster påminner dig om att granska det extraherade innehållet innan du [publicerar varumärket](#publish-brand).
 
@@ -72,31 +72,46 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
 
 Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _Varumärke_ och går tillbaka till startsidan för _[!DNL Brands]_.
 
-Du behöver inte [publicera](#publish-brand) ditt varumärke för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i organisationen ska kunna använda varumärkesinformationen i GenStudio för Performance Marketing måste ni publicera den.
+Du behöver inte [publicera](#publish-brand) ditt varumärke för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i organisationen ska kunna använda varumärkesinformationen i GenStudio for Performance Marketing måste du publicera den.
 
 ### Publish
 
 Innan du publicerar ditt varumärke kan du klicka dig igenom avsnitten _Riktlinjer för varumärkesröst_, _Kanalriktlinjer_, _Bildriktningar_ och _logotyper_ för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
 
-**Så här publicerar du varumärket**:
+**Så här publicerar du ett utkast till varumärkesriktlinjer**:
 
+1. Klicka på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet.
+
+   Ett _publicerat_-märke visas för alla varumärken som för närvarande publiceras.
+
+1. Klicka för att öppna ett opublicerat varumärke. Om varumärket inte publiceras visas en **[!UICONTROL Publish]**-knapp.
+1. Kontrollera vem som har åtkomst att visa och använda det publicerade varumärket i popup-fönstret _Publish-varumärke_.
 1. Välj **[!UICONTROL Publish]**.
+1. I popup-fönstret _Publish-märke_ som visas väljer du **[!UICONTROL Publish]**.
 
-   Kontrollera vem som har åtkomst (för att visa och använda) till det publicerade varumärket i popup-fönstret _Publish-varumärke_.
+   Popup-fönstret bekräftar att varumärket är publicerat -&quot;Nytt varumärke är nu klart&quot;.
 
-1. Klicka på **[!UICONTROL Publish]**.
+1. Klicka på **[!UICONTROL Done]** för att stänga popup-fönstret.
 
-När varumärket publiceras visas en banderoll som bekräftar att ditt varumärke är klart att användas: *Varumärke publicerat och tillgängligt att använda*.
+Varumärket visar en grön punkt och&quot;Publicerad&quot;, och en **[!UICONTROL Publish]**-knapp visas.
+
+**Om du vill avpublicera ett publicerat varumärke** klickar du för att öppna det och sedan på **[!UICONTROL Publish]**.
 
 Det publicerade varumärket kan nu användas i _[!DNL Create]_eller_[!DNL Content]_.
 
 ### Hantera [!DNL Brands]
 
-I hemmet _[!DNL Brands]_kan du klicka för att **öppna ett redan skapat varumärke**och redigera eller granska det, eller **byta namn**eller **ta bort ett varumärke**från listan från åtgärdsmenyn [!DNL Brands]:
+I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
 
-* Klicka på en varumärkespanel för att öppna ett varumärke.
-* Välj **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Brands] om du vill byta namn på en befintlig profil.
-* Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Brands] om du vill ta bort ett varumärke.
+**Så här visar eller ändrar du ett varumärke**:
+
+1. Klicka på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet.
+1. Klicka för att öppna ett definierat varumärke om du vill se en översiktsinformation för ett varumärke.
+1. Klicka [**[!UICONTROL Brand voice guidelines]**](#brand-voice-guidelines), [**[!UICONTROL Channel guidelines]**](#channel-guidelines), **[!UICONTROL Image guidelines]** eller **[!UICONTROL Logos]** längst upp om du vill visa enskilda detaljer eller ändra varumärkesriktlinjerna.
+1. Om du vill byta namn på ett befintligt varumärke väljer du **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Brands].
+1. Om du vill ta bort ett varumärke väljer du **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Brands].
+
+Du kan överföra varumärkesstöddokument - upp till tre PDF eller DOC-filer - till GenStudio for Performance Marketing för att automatiskt skapa ett varumärke.
 
 ## Lägg till [!DNL Products]
 
@@ -106,7 +121,7 @@ Klicka på **[!DNL Products]** i det vänstra navigeringsområdet. Välj **Lägg
 
 ![Lägg till en [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
 
-Du kan lägga till [!DNL Products] i GenStudio för Performance Marketing för att ange enskilda fokusområden för produkten när du skapar innehåll.
+Du kan lägga till [!DNL Products] i GenStudio for Performance Marketing för att ange enskilda produktfokusområden när du skapar innehåll.
 
 Se [[!DNL Products]](products.md).
 
@@ -176,7 +191,7 @@ Om du vill lägga till en profil [överför du en personlig guide](#upload-a-per
 
 Klicka på **[!DNL Personas]** i det vänstra navigeringsområdet. Välj **Lägg till profil** på panelen _[!DNL Personas]_.
 
-Du kan lägga till en [!DNL Persona] i GenStudio för prestandamarknadsföring för att rikta innehållet som du skapar till din idealiska målgrupp.
+Du kan lägga till en [!DNL Persona] i GenStudio for Performance Marketing för att rikta innehållet som du skapar till din idealiska målgrupp.
 
 Se [[!DNL Personas]](personas.md).
 
