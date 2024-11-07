@@ -4,9 +4,9 @@ description: Läs om e-postupplevelser i Adobe GenStudio for Performance Marketi
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: cb700de090d6a2f6a6c75afcf8a4ba118ded9527
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '280'
+source-wordcount: '293'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av effektiva e-postupplevelser](/help/user-guide/create/create-email-experience.md).
 
 Med [!DNL Create] kan moderna marknadsförare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad uppmaning](/help/user-guide/effective-prompts.md) för att snabbt [skapa varumärkesanpassade e-postupplevelser](/help/user-guide/create/create-email-experience.md).
+
+När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
 
 Redigerbara avsnitt i en e-postupplevelse omfattar:
 

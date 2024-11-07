@@ -4,9 +4,9 @@ description: Lär dig allt om Meta-upplevelser i Adobe GenStudio for Performance
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: 157aee296304c9aa1b8b86dc8905fe103fe4f83c
+source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
 workflow-type: tm+mt
-source-wordcount: '207'
+source-wordcount: '220'
 ht-degree: 0%
 
 ---
@@ -17,6 +17,8 @@ ht-degree: 0%
 Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av avancerade metaupplevelser](/help/user-guide/create/create-meta-ad.md).
 
 Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad uppmaning](/help/user-guide/effective-prompts.md) för att snabbt [skapa upplevelser för Meta-annonser](/help/user-guide/create/create-meta-ad.md).
+
+När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
 
 Redigerbara avsnitt i en e-postupplevelse omfattar:
 
