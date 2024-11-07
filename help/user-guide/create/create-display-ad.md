@@ -5,9 +5,9 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 5cd6abba1f56c9a2875c7e7dc5b94a353fc5e78e
+source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
 workflow-type: tm+mt
-source-wordcount: '825'
+source-wordcount: '851'
 ht-degree: 0%
 
 ---
@@ -124,5 +124,7 @@ Om du vill göra de genererade webbannonserna tillgängliga för aktuell och fra
 
 1. **Klicka **[!UICONTROL Export]**i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser**.
    1. Markera formatet (endast JPG) och klicka på **[!UICONTROL Export]**.
+
+      Exporterad HTML ska placeras i en fördefinierad webbegenskap, som en mall eller `div`-behållare. Utan dessa angivna mått kan bilderna se förvrängda ut när de visas oberoende av varandra.
 
 Se [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).
