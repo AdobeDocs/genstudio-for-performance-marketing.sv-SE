@@ -2,9 +2,9 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: ea897aaf6069aa70ef73baf961f56e485eeb383e
+source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
 workflow-type: tm+mt
-source-wordcount: '368'
+source-wordcount: '650'
 ht-degree: 0%
 
 ---
@@ -13,11 +13,55 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2024.10.31  {#latest}
+## 2024.11.07 {#latest}
+
+### Korrigeringar
+
+* Rotationsrutan _Spara i arbete_ visas inte längre när en användare klickar på **[!UICONTROL Upload New Image]** och sedan avbryter åtgärden innan överföringen har slutförts. <!-- GS-6780 -->
+
+* Upplevelsetitlar skapas nu korrekt vid upplevelsegenerering. <!-- GS-7006 -->
+
+* Problem med flimrade rullningslister vid inläsning av utkast har lösts. <!-- GS-5587 -->
+
+* Länken `View documentation` i popup-fönstret [!DNL Content] _Lägg till den godkända mallen_ fungerar nu som förväntat. <!-- GS-6881 -->
+
+* Om du tar bort en bild från promptlådan under en storleksändring uppstår inte längre något fel. <!-- GS-7115 7009 -->
+
+* Markering av **[!UICONTROL Delete]** från åtgärdsmenyn [!DNL Create] (..) fungerar nu som förväntat. <!-- GS-6871 -->
+
+* Användarna kan nu styra alla interaktiva element i Meta- och mallarna enbart med tangentbordet. <!-- GS-4066 -->
+
+* Hämtning av bilddimensioner från mallbildfält har lagts till för att visa annonsmallar. Begäran om smart beskärning skickas nu för den faktiska dimensionen av bilden och inte för hela mallen. <!-- GS-6926 -->
+
+* Strängen `Zoom to fit to screen` har lokaliserats i genererade e-post- och Meta-annonser. <!-- GS-5063 -->
+
+* Frågekassen [!DNL Create] stängs nu som förväntat när en användare klickar bort. <!-- GS-5254 -->
+
+* Export av metaannonser innehåller nu den valda etiketten för att ringa upp till åtgärd som förväntat. <!-- GS-6504 -->
+
+* Varumärkespoängen uppdateras nu och behålls som förväntat för återskapade upplevelser. <!-- GS-6535 -->
+
+* HTML-export av Meta-annonser och visningsannonser innehåller inte längre wrapper `div`- och `chrome`-element. <!-- GS-7116 -->
+
+* Problem med återgivning av utkast via e-post vid publicering har nu lösts. <!-- GS-6394 -->
+
+* Knappen Canvas **[!UICONTROL Brand]** är nu inaktiverad när ingen varumärkespoäng genereras. <!-- GS-6429 -->
+
+* Växlingen Facebook/Instagram i åtgärdsfältet för arbetsytan uppdaterar nu den rendering som du förväntade dig när inställningen för arbetsytan `ReadOnly` är aktiverad. <!-- GS-7039 -->
+
+#### Omgenerering av bilder
+
+* Att ändra storlek på flera Meta ad-varianter fungerar nu som väntat. Tidigare visades inte regenererade varianter på arbetsytan, men de förblev tomma. <!-- GS-7010 -->
+
+* Fragmentomgenerering fungerar nu som förväntat för upplevelser med ändrad storlek. <!-- GS-6836 -->
+
+* Återskapande av Meta-annonser efter att de har ändrat storlek resulterar inte längre i ett fel. Tidigare ändrades kanalens metadata från `meta` till `facebook` när bilder ändrades före omgenerering. <!-- GS-7042 -->
+
+## 2024.10.31
 
 ### Nya funktioner
 
-* Sökfiltret **[!DNL Content]** har nu stöd för sökning efter färgtagg.  <!-- GS-5501 -->
+* Sökfiltret **[!DNL Content]** har nu stöd för sökning efter färgtagg. <!-- GS-5501 -->
 
 * Arbetsytan **[!DNL Create]** visar nu teckenantal för e-postfragment. <!-- GS-5819 -->
 
