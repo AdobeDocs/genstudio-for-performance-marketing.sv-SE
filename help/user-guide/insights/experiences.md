@@ -1,10 +1,11 @@
 ---
 title: Översikt över upplevelser
 description: Se en översikt över kundengagemang, budget och utgifter för upplevelser och annonsplacering i Adobe GenStudio for Performance Marketing.
-feature: Insights, Experiences
-source-git-commit: 87a8833549569aaeaa60f5760b4e9a8b710a6033
+feature: Insights, Experiences, Attributes
+exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
+source-git-commit: 693557104bc880445c021f942b728af10243fe27
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '962'
 ht-degree: 0%
 
 ---
@@ -39,15 +40,20 @@ GenStudio for Performance Marketing har stöd för annonsformat som resursflöde
 
 | Instagram | Facebook/Meta | Messenger | Målgruppsnätverk |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Utforska<br>Utforska startsidan<br>Utforska startsidan för stödraster<br>Feed<br>Reels<br>Profilfeed<br>Sök<br>Handla<br>Artiklar | Business Explore<br>Feed<br>Video i strömmen<br>Marketplace<br>Reels<br>Reels Overlay<br>Right column<br>Search results<br>Stories<br>Video Feeds<br>Ads on Facebook Reels | Inkorg<br>artiklar | Intern video, banderoll och interstitiell<br>återgiven video |
+| Utforska<br>Utforska startsida<br>Utforska startsida för stödraster<br>Utflöde<br>Reels<br>Profilflöde<br>Sök<br>Shop<br>Artiklar | Business Explore<br>Feed<br>Video i direktuppspelning<br>Marketplace<br>Reels<br>Reels overlay<br>Right column<br>Search results<br>Stories<br>Video feeds<br>Ads on Facebook reels | Inkorg<br>artiklar | Inbyggd video, banderoll och interstitiell<br>återgiven video |
 
-## Mätvärden för upplevelser
+#### Platser som inte stöds
+
+GenStudio for Performance Marketing stöder inte följande annonsplaceringar:
+
+- Samarbete
+- Katalog/Advantage+-katalog
+- Instansupplevelse
+- Carousel
+
+## Upplevelseprestanda
 
 Insikter kan hjälpa er att utvärdera vilka upplevelser som bidrar till framgången för en kampanj och vilka annonsplaceringar som är mest effektiva.
-
-<!-- For example, -->
-
-### Mätvärdesdetalj
 
 Följande tabell innehåller definitioner och insikter för viktiga mätvärden för digital marknadsföring i tabellvyn [!UICONTROL Experiences]. Varje mätvärde innehåller en kort definition av annonsnamn, hur mätvärdet beräknas och en eller flera insikter som hjälper till att förstå dess betydelse och påverkan på en upplevelse.
 
@@ -60,7 +66,18 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL Impressions]** | Antal varje gång annonsplaceringen eller upplevelsen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du överväga andra engagemangsmått. |
 | **[!UICONTROL Clicks]** | Antal gånger som användare interagerar med ett klickbart element, t.ex. en länk eller en knapp för att ringa upp, på en upplevelseplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av intryck som resulterade i klickningar på upplevelseplaceringen i en kampanj.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
-| **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad ($) för var tusende annonsexponeringar för upplevelseplacering.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
-| **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittskostnad ($) som använts för att utföra en viss kundåtgärd, till exempel ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Använd för att övervaka utgifter för upplevelser som resulterar i värdefulla kundaktiviteter. |
-| **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittskostnad ($) som associeras med varje klick på en upplevelseplacering.<br>**Beräkning**: totalt belopp `spent` delat med `clicks` | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
-| **[!UICONTROL Spend]** | Det belopp ($) som använts från budgeten under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra utgiftsbeloppet mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
+| **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsvisningar för upplevelseplacering.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
+| **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad för att utföra en viss kundåtgärd, t.ex. ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Använd för att övervaka utgifter för upplevelser som resulterar i värdefulla kundaktiviteter. |
+| **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad som är associerad med varje klick på en upplevelseplacering.<br>**Beräkning**: totalt belopp `spent` delat med `clicks` | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
+| **[!UICONTROL Spend]** | Det belopp som har använts från budgeten under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra utgiftsbeloppet mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
+
+## Placering
+
+I vyn _Upplevelseinformation_ återspeglar de tre viktigaste mätvärdena den övergripande prestandan för den valda upplevelsen. Avsnittet _Prestanda efter placering_ visar emellertid detaljerade mått för varje annonsplacering. I följande tabell finns definitioner för mått för placeringsprestanda:
+
+| Mått | Definition | Beräkning |
+| ---------------------- | ----------------------------- | ----------- |
+| **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i klickningar i annonsplaceringen av upplevelsen. | `clicks` delat med `impressions` |
+| **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad som läggs på den här annonsplaceringen för att uppnå en viss kundåtgärd, till exempel ett köp eller en prenumeration. | totalt belopp `spent` delat med antalet slutförda kundåtgärder |
+| **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad som är associerad med varje klick på en upplevelseplacering. | totalt belopp `spent` delat med `clicks` |
+| **[!UICONTROL Spend]** | Det belopp som har använts från budgeten under en viss tidsperiod. | |

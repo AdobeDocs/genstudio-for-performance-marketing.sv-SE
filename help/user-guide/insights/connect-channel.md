@@ -4,9 +4,9 @@ description: Anslut ett kanalkonto för att övervaka era marknadsföringskampan
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 7b3ecc1964df3d5a3fdc5c32b1e5c80f29133560
+source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '282'
 ht-degree: 0%
 
 ---
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagrin
 
 **Så här ansluter du ett Meta ads-konto i GenStudio for Performance Marketing**:
 
-1. Klicka på **[!UICONTROL Connect a channel account]** i _[!DNL Insights]_.
+1. I _[!DNL Insights]_klickar du på&#x200B;**[!UICONTROL Connect a channel account]**i banderollen eller på knappen **[!UICONTROL Add accounts]**(personform med plustecken) i det övre högra hörnet.
 
    Du kan uppmanas att logga in på Facebook. Facebook är det enda tillgängliga alternativet just nu.
 
