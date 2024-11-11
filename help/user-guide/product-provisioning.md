@@ -3,16 +3,17 @@ title: Tillhandahåll Adobe GenStudio for Performance Marketing
 description: Läs om hur du distribuerar GenStudio for Performance Marketing-produkten.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 7a9f8de1-79e7-455c-ae0f-e7646febc483
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '436'
+source-wordcount: '421'
 ht-degree: 0%
 
 ---
 
 # Tillhandahåll Adobe GenStudio for Performance Marketing
 
-Produktetablering är engångsinstallationen av din organisations GenStudio for Performance Marketing-instans. En Adobe-systemadministratör utför dessa initiala provisioneringsåtgärder i [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Från Admin Console kan en systemadministratör i Adobe få åtkomst till GenStudio produktprofil och tilldela användare tillgängliga produktlicenser.
+En Adobe-systemadministratör utför initiala provisioneringsåtgärder i [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Från Admin Console kan en systemadministratör i Adobe få åtkomst till GenStudio produktprofil och tilldela användare tillgängliga produktlicenser.
 
 >[!NOTE]
 >

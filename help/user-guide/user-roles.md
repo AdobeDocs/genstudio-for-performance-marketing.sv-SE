@@ -3,9 +3,10 @@ title: Adobe GenStudio for Performance Marketing användarroller och behörighet
 description: Läs om GenStudio for Performance Marketing användarroller och behörigheter.
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
-source-git-commit: 3e9a2a4f42ba79389691705c571bf6bbd0b990c5
+exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
+source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
 workflow-type: tm+mt
-source-wordcount: '834'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -18,23 +19,33 @@ Att skapa och driftsätta moderna marknadsföringskampanjer kräver samarbete me
 >
 >Innan några användare etableras i de här rollerna måste en Adobe-systemadministratör utses i Adobe Admin Console för att kunna utföra engångsinstallationsuppgifter. Administratörsrollen för Adobe fungerar endast i Adobe Admin Console. Den har ingen roll i GenStudio for Performance Marketing plattformsgränssnitt. En systemadministratör i Adobe som behöver systemhanterarrättigheter måste etablera sig som GenStudio systemadministratör i Adobe Admin Console. Se [Etablera GenStudio for Performance Marketing](product-provisioning.md).
 
+## Adobe systemadministratör jämfört med GenStudio systemadministratör
+
+Dessa användarrolltitlar kan se likadana ut, men de identifierar unika roller som ger berättiganden i olika miljöer.
+
+**Adobe-systemadministratörer** har avancerade användarbehörigheter i Adobe Admin Console och utför alla användarhanteringsåtgärder, som att lägga till eller ta bort användare. Den här systemadministratörsrollen ger inga privilegier i GenStudio for Performance Marketing-programmet, vilket förklarar varför Adobe systemadministratörer inte behöver någon licens för GenStudio. Systemadministratörer i Adobe använder vanligtvis Admin Console för att lägga till och ta bort användarkonton från GenStudio-distributioner och tilldela eller ta bort rättigheter, eller behörigheter, från enskilda användare eller användargrupper.
+
+**GenStudio systemhanterare** är avancerade användare i GenStudio for Performance Marketing men har inte behörighet att utföra åtgärder i Adobe Admin Console. Den här systemhanterarrollen kräver en Genstudio-produktlicens och motsvarar en Power-användare i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). GenStudio systemhanterare har fullständig behörighet till GenStudio for Performance Marketing-funktioner, inklusive att [!DNL Brands], [!DNL Persona] och [!DNL Product] har skapats, tagits bort, uppdaterats och publicerats. [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) förklarar hur GenStudio användarroller relaterar till produktlicenser.
+
+Se [Administrativa roller](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) i _Administrationsguide för Enterprise och Teams_.
+
 ## Berättiganden
 
-_Tillstånd_ ger behörighet att utföra specifika uppgifter och få åtkomst till skyddade resurser. Tillstånd definieras i användarrollen i produktprofilen och användarna får dessa rättigheter när de tilldelas till den rollen.
+_Tillstånd_ ger behörighet att utföra specifika uppgifter och få åtkomst till skyddade resurser. Tillstånd, eller behörigheter, definieras i användarrollen i produktprofilen och användarna får dessa rättigheter när de tilldelas till den rollen.
 
 ## Användarroller
 
-Tre typer av GenStudio for Performance Marketing användarroller stöder denna mångfald av organisationsroller. Behörigheterna är skräddarsydda för var och en av dessa användartyper och stöder varje användares ansvar i marknadsföringsorganisationen. Följande tre användarrolltyper är:
+Tre typer av GenStudio for Performance Marketing användarroller stöder denna mångfald av organisationsroller. Berättigandet är skräddarsytt för var och en av dessa användartyper och stöder varje användares ansvar i marknadsföringsorganisationen. Följande tre användarrolltyper är:
 
-* **GenStudio-redigerare** använder GenStudio for Performance Marketing generativa AI-funktioner för att skapa marknadsföringskampanjresurser, begära granskning och godkännande av innehåll och publicera godkända utkast av det här innehållet. Alla GenStudio for Performance Marketing-användare kan komma åt och använda en resurs när redigeraren har sparat den i [!DNL Content].
+* **GenStudio-redigerare** använder GenStudio for Performance Marketing generativa AI-funktioner för att skapa marknadsföringskampanjresurser, begära granskning och godkännande av innehåll och publicera godkända utkast av det här innehållet. Alla GenStudio for Performance Marketing-användare kan komma åt och använda en resurs när redigeraren har sparat den i [!DNL Content]. GenStudio redigerare är kraftfulla användare i GenStudio for Performance Marketing.
 
-* **GenStudio-medarbetare** är ett stort antal GenStudio for Performance Marketing-användare. Medarbetare kan visa och godkänna innehåll och är en viktig del av arbetsflödet som säkerställer att det innehåll du genererar matchar organisationens behov och standarder.
+* **GenStudio-medarbetare** är ett stort antal GenStudio for Performance Marketing-användare. Medarbetare kan visa och godkänna innehåll och är en viktig del av arbetsflödet som säkerställer att det innehåll du genererar matchar organisationens behov och standarder. GenStudio medarbetare är _medarbetaranvändare_ i GenStudio for Performance Marketing.
 
-* **GenStudio systemhanterare** har den bredaste uppsättningen behörigheter i GenStudio for Performance Marketing. Systemansvariga utför den grundläggande startuppgiften att skapa skyddsutkast för att skapa och driftsätta kampanjresurser. Systemansvariga implementerar skyddsprofilerna genom att överföra varumärkes- och organisationsspecifik information, till exempel [varumärkesriktlinjer](./guidelines/overview.md). Systemhanterare har behörighet att skapa och publicera [!DNL Brands], men inte behörighet för användaradministration.
+* **GenStudio systemhanterare** har den bredaste uppsättningen behörigheter, eller behörigheter, inom GenStudio for Performance Marketing. Systemansvariga utför den grundläggande startuppgiften att skapa skyddsutkast för att skapa och driftsätta kampanjresurser. Systemansvariga implementerar skyddsprofilerna genom att överföra varumärkes- och organisationsspecifik information, till exempel [varumärkesriktlinjer](./guidelines/overview.md). Systemhanterare har behörighet att skapa och publicera [!DNL Brands], men inte behörighet för användaradministration. GenStudio systemansvariga är kraftfulla användare i GenStudio for Performance Marketing.
 
 ### GenStudio Editors
 
-_Redigerare_, eller innehållsskapare, har de grundläggande behörigheter som krävs för att skapa GenStudio for Performance Marketing [!DNL Brands]-, [!DNL Campaigns]- och [!DNL Content]-resurser. De kan också redigera och ta bort resurser som de har skapat. GenStudio for Performance Marketing har stöd för att snabbt skapa hundratals innehållsdelar. Dessa användare kan generera innehållsfragment eller hela upplevelser som orkestrerar separata delar av godkänt innehåll för specifika marknadsföringskampanjer.
+_Redigerare_, eller innehållsskapare, har de grundläggande behörigheter som krävs för att skapa GenStudio for Performance Marketing [!DNL Brands]-, [!DNL Campaigns]- och [!DNL Content]-resurser. Dessa avancerade användare kan också redigera och ta bort resurser som de har skapat. GenStudio for Performance Marketing har stöd för att snabbt skapa hundratals innehållsdelar. Dessa användare kan generera innehållsfragment eller hela upplevelser som orkestrerar separata delar av godkänt innehåll för specifika marknadsföringskampanjer.
 
 Redigerare interagerar med GenStudio for Performance Marketing generativa AI-tekniker genom att _fråga_. Frågekursen på arbetsytan innehåller verktyg som du kan använda för att ställa frågor i samband med en viss kampanjs riktlinjer. Därför beror kvaliteten och framgången för det genererade innehållet delvis på kvaliteten på de varumärkesriktlinjer som organisationen har överfört och på hur specifik uppmaningen är. Se [Skriv aktuella uppmaningar](effective-prompts.md).
 
@@ -46,10 +57,11 @@ I följande tabell visas standardredigerarens behörigheter:
 | [!DNL Campaigns] | ja | ja | ja | ja |
 | [!DNL Content] | ja | ja | ja | ja |
 | [!DNL Create] | ja | ja | ja | ja |
-| [!DNL Insights] | kan bara konfigurera annonsanslutningar |    |     | ja |
+| [!DNL Insights] | kan bara konfigurera anslutningar |    |     | ja |
 | [!DNL Personas] | ja | ja* | ja* | ja |
 | [!DNL Products] | ja | ja* | ja* | ja |
 | [!DNL Reviews and approvals] | ja | ja | ja | ja |
+| [!DNL Templates] | no | no | no | ja |
 
 Redigerare kan redigera och ta bort [!DNL Personas] och [!DNL Products] som de har skapat.
 
@@ -71,10 +83,11 @@ I följande tabell visas standardbehörigheter för medarbetare:
 | [!DNL Personas] | no | no | no | ja |
 | [!DNL Products] | no | no | no | ja |
 | [!DNL Reviews and approvals] | no | no | no | ja |
+| [!DNL Templates] | no | no | no | ja |
 
 ### GenStudio systemansvariga
 
-_GenStudio systemhanterare_ har den mest kraftfulla uppsättningen behörigheter i GenStudio for Performance Marketing. Systemansvariga utför den grundläggande startuppgiften att skapa skyddsutkast för att skapa och driftsätta kampanjresurser. Systemansvariga implementerar skyddsprofilerna genom att överföra varumärkes- och organisationsspecifik information, till exempel [varumärkesriktlinjer](./guidelines/overview.md). Systemhanterare har behörighet att skapa och publicera [!DNL Brands], men inte behörighet för användaradministration.
+_GenStudio systemhanterare_ har den mest kraftfulla uppsättningen behörigheter i GenStudio for Performance Marketing. Dessa avancerade användare utför den grundläggande introduktionsuppgiften att skapa grundläggande skyddsmekanismer för att skapa och driftsätta kampanjresurser. Systemansvariga implementerar skyddsprofilerna genom att överföra varumärkes- och organisationsspecifik information, till exempel [varumärkesriktlinjer](./guidelines/overview.md). Systemhanterare har behörighet att skapa och publicera [!DNL Brands], men inte behörighet för användaradministration.
 
 I följande tabell visas standardbehörigheterna för systemhanteraren:
 
@@ -87,5 +100,8 @@ I följande tabell visas standardbehörigheterna för systemhanteraren:
 | [!DNL Personas] | ja | ja | ja | ja |
 | [!DNL Products] | ja | ja | ja | ja |
 | [!DNL Reviews and approvals] | ja | ja | ja | ja |
+| [!DNL Templates] | ja | ja | ja | ja |
+
+Systemansvariga kan även överföra mallar.
 
 Se [Kom igång med Adobe GenStudio for Performance Marketing](get-started.md) för en översikt över preliminära konfigurationsuppgifter.

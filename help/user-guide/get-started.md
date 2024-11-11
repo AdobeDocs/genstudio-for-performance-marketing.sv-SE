@@ -4,9 +4,9 @@ description: Ta reda på hur ni kommer igång med GenStudio for Performance Mark
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 6454090c9fffb4b288b615680597b80e5b71a89c
+source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
 workflow-type: tm+mt
-source-wordcount: '641'
+source-wordcount: '691'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Följ dessa metodtips när du förbereder riktlinjer:
 
 * Undvik redundans. Det kan vara frestande att upprepa ett direktiv flera gånger, men redundans i riktlinjerna hjälper inte till att fånga upp och genomföra varumärkesriktlinjerna.
 
-* Identifiera element som du vill att LLM ska exkludera när du skapar innehåll (t.ex. utropstecken i text)
+* Identifiera element som du vill att LLM ska exkludera när innehåll genereras (till exempel utropstecken i text).
 
 Du kan överföra stödlinedokument eller läsa dem när du anger information manuellt i GenStudio for Performance Marketing. Se [Lägg till riktlinjer](./guidelines/overview.md) för vägledning om hur du överför eller anger den här informationen.
 
@@ -49,16 +49,28 @@ Du kan överföra stödlinedokument eller läsa dem när du anger information ma
 
 En GenStudio-systemadministratör kan förbereda produktens underliggande generativa AI-ramverk genom att manuellt ange eller överföra organisationens specifika varumärkeskrav. Även om det är en engångsåtgärd att upprätta en organisations varumärkesriktlinjer kan ni ändra och förbättra dessa riktlinjer baserat på organisationens volatilitet, tillväxt och förändrade marknadsförhållanden.
 
-### Steg 2: Överför mallar
+## Steg 2: Konfigurera ett Adobe Admin Console-projekt för GenStudio [!DNL Brands]
+
+Systemadministratörer måste slutföra ytterligare konfigurationsuppgifter innan medarbetare kan redigera eller skapa [!DNL Brands]. Systemadministratörer i Adobe utför följande uppgifter i Adobe Admin Console:
+
+* Skapa en ny användargrupp som innehåller alla användare som behöver redigera och skapa [!DNL Brands]-berättiganden.
+
+* Skapa ett nytt projekt i Adobe Admin Console.
+
+Se [Tilldela varumärkesbehörigheter](configure-brand-permissions.md).
+
+### Steg 3: Överför mallar
 
 Med mallar går det snabbare att skapa innehåll. En mall innehåller godkända funktioner, t.ex. sidhuvuden och sidfötter, och är optimerad för specifika kanaler. Systemansvariga överför och hanterar vanligtvis mallar för sin organisation. De använder mallar för att snabbt komma igång med processen att skapa innehåll inom de gränser som fastställts av företagets varumärke.
 
-Mer information om hur du anpassar och överför mallar finns i [Arbeta med mallar](./content/use-templates.md).
+Se [Arbeta med mallar](./content/use-templates.md).
 
-### Steg 3: Överför godkända tillgångar
+### Steg 4: Överför godkända tillgångar
 
-Godkända resurser i [!DNL Content] är tillgängliga för alla GenStudio for Performance Marketing-redigerare. Du kan fylla i [!DNL Content] med resurser som innehållsredigerare kan använda när nya upplevelser eller resurser skapas. Mer information om hur du överför och hanterar resurser finns i [Överför godkända resurser](./content/manage-assets.md).
+Godkända resurser i [!DNL Content] är tillgängliga för alla GenStudio for Performance Marketing-redigerare. Du kan fylla i [!DNL Content] med resurser som innehållsredigerare kan använda när nya upplevelser eller resurser skapas.
 
-### Steg 4: Anslut till ett Meta-konto (Facebook)
+Se [Överför godkända resurser](./content/manage-assets.md).
+
+### Steg 5: Anslut till ett Meta-konto (Facebook)
 
 Konfigurera en anslutning mellan GenStudio for Performance Marketing och företagets sociala konton för att ta emot data från era aktiva marknadsföringskampanjer, resurser och upplevelser. [[!DNL Insights]](./insights/overview.md) innehåller verktyg för att analysera kanalhärledda data. Se [Anslut till ett Meta-konto (Facebook)](./insights/connect-channel.md#meta-ads-connect).
