@@ -3,10 +3,12 @@ title: Attributkategorier
 description: Läs mer om attributkategorier som används i GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
-source-git-commit: 3b5fc55595f766db0327b6aefb0e29c3896e00c0
+last-substanial-update: 2024-11-11T00:00:00Z
+exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
+source-git-commit: 13b5e63afffc5a88d6d8c98fddac6d2d85f6e862
 workflow-type: tm+mt
-source-wordcount: '676'
-ht-degree: 0%
+source-wordcount: '599'
+ht-degree: 1%
 
 ---
 
@@ -14,7 +16,7 @@ ht-degree: 0%
 
 En attributkategori är en klassificeringsgrupp som organiserar relaterade attribut som har en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
 
-GenStudio for Performance Marketing använder Adobe AI och maskininlärningsfunktioner för att studera bilder, videor och text och tillämpar [!UICONTROL Asset attributes] baserat på konfidensnivån. _Förtroende_ refererar till sannolikheten att AI tilldelar en förutsägelse eller klassificering. När det gäller maskininlärning är det en sorts poängsättning som mäter hur säker AI är att klassificeringen är korrekt. Ju högre förtroende, desto större säkerhet. När du till exempel analyserar en bild kan AI identifiera flera funktioner och tilldela en poäng till varje bild som anger hur säker funktionen är. Attributlistan för en tillgång är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till ett tröskelvärde, t.ex. de tre dominerande funktionerna som identifieras.
+GenStudio for Performance Marketing använder Adobe AI och maskininlärningsfunktioner för att studera bilder, videor och text och tillämpar [!UICONTROL Asset attributes] baserat på sannolikheten för att de är korrekta. Attributlistan för en tillgång är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI.
 
 ## Bildfunktioner
 
