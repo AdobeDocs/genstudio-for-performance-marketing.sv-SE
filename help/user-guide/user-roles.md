@@ -4,9 +4,9 @@ description: Läs om GenStudio for Performance Marketing användarroller och beh
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 0998362a50c63958e331796fd1deebd61f170d2e
+source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
 workflow-type: tm+mt
-source-wordcount: '1090'
+source-wordcount: '1115'
 ht-degree: 0%
 
 ---
@@ -32,6 +32,10 @@ Se [Administrativa roller](https://helpx.adobe.com/enterprise/using/admin-roles.
 ## Berättiganden
 
 _Tillstånd_ ger behörighet att utföra specifika uppgifter och få åtkomst till skyddade resurser. Tillstånd, eller behörigheter, definieras i användarrollen i produktprofilen och användarna får dessa rättigheter när de tilldelas till den rollen.
+
+>[!IMPORTANT]
+>
+>Lägg inte till nya, eller redigera eller ta bort, befintliga produktprofiler. Om du ändrar standardproduktprofilerna kan det allvarligt störa driftsättningen av GenStudio for Performance Marketing.
 
 ## Användarroller
 
