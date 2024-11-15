@@ -2,9 +2,10 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-source-git-commit: b502e0a558cbc26c70d813938734a2f6f230dc8e
+exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
+source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
 workflow-type: tm+mt
-source-wordcount: '650'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -13,9 +14,35 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2024.11.07 {#latest}
+## 2024.11.14 {#latest}
 
-### Korrigeringar
+### Nya funktioner
+
+Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända mediefiler som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
+
+### Korrigeringar och förbättringar
+
+* När storleken ändras i en annan webbläsare än den som användes för att generera det ursprungliga innehållet läses utkasten in som förväntat. <!-- GS-7204 -->
+
+* Alla tecken visas nu korrekt i den exporterade HTML. <!-- GS-7246 -->
+
+* Knapparna på popup-menyn [!DNL Content] _Erfarenheter_ **[!UICONTROL Export]** trunkeras inte längre på vissa språk. <!-- GS-6873 -->
+
+* Visningsannonser som skapats med mallar med storleken 50x50 exporteras nu med den förväntade bildstorleken. Tidigare exporterades PNG-filer med dubbla de förväntade måtten. <!-- GS-7192 -->
+
+* Mallfel som uppstod när visningsannonser storleksändrades har nu åtgärdats. <!-- GS-7322 -->
+
+### Lokalisering
+
+Den här versionen innehåller förbättringar av lokaliseringen i hela användargränssnittet, bland annat:
+
+* Alla strängar i popup-fönstret [!DNL Content] _Överför resurs_ är nu korrekt lokaliserade. <!-- GS-6872 6770 -->
+* Alla verktygstips i [!DNL Content] _visningsfältet i Assets_ **[!UICONTROL Search]** är lokaliserade. <!-- GS-6879 -->
+* När du ersätter en befintlig bild i en e-postvariant på arbetsytan [!DNL Create] är vyn _Välj från innehåll_ nu lokaliserad. <!-- GS-6906 -->
+
+## 2024.11.07
+
+### Korrigeringar och förbättringar
 
 * Rotationsrutan _Spara i arbete_ visas inte längre när en användare klickar på **[!UICONTROL Upload New Image]** och sedan avbryter åtgärden innan överföringen har slutförts. <!-- GS-6780 -->
 
@@ -31,7 +58,7 @@ Den här versionsinformationen innehåller information om de senaste uppdatering
 
 * Användarna kan nu styra alla interaktiva element i Meta- och mallarna enbart med tangentbordet. <!-- GS-4066 -->
 
-* Hämtning av bilddimensioner från mallbildfält har lagts till för att visa annonsmallar. Begäran om smart beskärning skickas nu för den faktiska dimensionen av bilden och inte för hela mallen. <!-- GS-6926 -->
+* Extrahering av bilddimensioner från mallbildfält har lagts till i Visa annonsmallar. Begäran om smart beskärning skickas nu för den faktiska dimensionen av bilden och inte för hela mallen. <!-- GS-6926 -->
 
 * Strängen `Zoom to fit to screen` har lokaliserats i genererade e-post- och Meta-annonser. <!-- GS-5063 -->
 
@@ -65,7 +92,7 @@ Den här versionsinformationen innehåller information om de senaste uppdatering
 
 * Arbetsytan **[!DNL Create]** visar nu teckenantal för e-postfragment. <!-- GS-5819 -->
 
-### Korrigeringar
+### Korrigeringar och förbättringar
 
 * Etiketter för skärmläsare som saknas har lagts till i `view`-element för mobiler och datorer. <!-- GS-5624 4729 -->
 
@@ -101,4 +128,4 @@ Se följande resurser:
 
 * [Adobe GenStudio for Performance Marketing Användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
 
-* [Adobe GenStudio Academy](genstudioacademy.md), Adobe onlineutbildningsplattform för att använda generativa AI-tekniker i den kreativa processen. [Registrera dig för GenStudio Academy](http://adobe.ly/genstudioacademyregistration).
+* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), Adobe onlineutbildningsplattform för att använda generativa AI-tekniker i den kreativa processen.
