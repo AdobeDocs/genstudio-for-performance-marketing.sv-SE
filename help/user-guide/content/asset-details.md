@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: edd27a6151cb81213ee27813beb4ecee835a1229
+source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
 workflow-type: tm+mt
-source-wordcount: '660'
+source-wordcount: '699'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,19 @@ Varje resurs (inklusive upplevelser och mallar) har associerad _information_ (me
 ## Redigera i Express
 
 Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med hjälp av Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
+
+>[!BEGINSHADEBOX]
+
+Kriterier för att förbättra bilder med funktionen [!DNL Edit in Adobe Express]:
+
+- MIME-typer som stöds är `image/png` och `image/jpeg`
+- Minsta bildstorlek är 50 x 50 pixlar
+- Högsta bildstorlek är 8 000 × 8 000 pixlar
+- Den maximala storleken är 40 MB (40 000 000 byte)
+
+>[!ENDSHADEBOX]
+
+**Så här redigerar du en resurs med Express**:
 
 1. Välj en bildresurs i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
@@ -91,7 +104,7 @@ Följande tabell visar vilka metadata (resursinformation) du kan definiera när 
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) har lagts till i GenStudio for Performance Marketing för användning |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) har lagts till i GenStudio for Performance Marketing för användning |
 | Kanaler | Innehållstyper i GenStudio for Performance Marketing som resursen används för, till exempel e-post- och metaannonser |
-| Tidsram | Tidsram som resursen användes för, t.ex. kvartal, årstid, år. Exempel: `Winter 2023` |
+| Tidsram | Tidsram som resursen används för, till exempel kvartal, årstid, år. Exempel: `Winter 2023` |
 | Län | Områden som tillgången används för. Exempel: `North America`, `APAC`, `Italy` |
 | Språk | Språk som resursen används för. Exempel: `Spanish` |
 | Nyckelord | Nyckelord som används för ytterligare identifiering av tillgångars egenskaper och syfte |
