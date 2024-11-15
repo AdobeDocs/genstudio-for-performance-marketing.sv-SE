@@ -1,7 +1,7 @@
 ---
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
 workflow-type: tm+mt
-source-wordcount: '42'
+source-wordcount: '57'
 ht-degree: 0%
 
 ---
@@ -12,3 +12,9 @@ ht-degree: 0%
 >[!INFO]
 >
 >Om du får problem med att visa eller arbeta med resurser från en [!DNL AEM Assets Content Hub]-databas, bör du kontakta din systemadministratör och se till att du har tillgång till rätt organisations- eller produktprofil. Se [Ansluta till en [!DNL AEM Assets Content Hub] databas](/help/user-guide/content/connect-aem-repo.md).
+
+## Tips om Academy-innehåll {#in-academy}
+
+>[!TIP]
+>
+>Förbättra dina kunskaper i det här ämnet med [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).

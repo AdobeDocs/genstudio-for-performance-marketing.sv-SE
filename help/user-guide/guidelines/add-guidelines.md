@@ -5,7 +5,7 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
 workflow-type: tm+mt
 source-wordcount: '1566'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Se [riktlinjerna - översikt](/help/user-guide/guidelines/overview.md).
 
 Att lägga till riktlinjer i GenStudio for Performance Marketing är ett viktigt steg i skapandet. Riktlinjerna ligger till grund för processen att skapa innehåll, tillsammans med användardefinierade anvisningar och Adobe generativ AI-teknik, för att skapa slagkraftiga resurser.
 
+{{in-academy}}
+
 ## Lägg till [!DNL Brands]
 
 Om du vill lägga till ett varumärke [överför du en varumärkesguide](#upload-a-brand) eller [skapar ett varumärke manuellt](#manually-add-brand) genom att välja riktlinjer och ange din varumärkesinformation. [Publish är ett varumärke](#publish-brand) till [!DNL Content] som gör det tillgängligt för framtida innehållsgenerering.
@@ -27,6 +29,7 @@ Om du vill lägga till ett varumärke [överför du en varumärkesguide](#upload
 Klicka på **[!DNL Brands]** i det vänstra navigeringsområdet. Välj **Lägg till varumärke** på panelen _[!DNL Brands]_.
 
 >[!TIP]
+>
 >Varje varumärke fungerar oberoende av varandra utan hierarkiska relationer. Om du vill skapa undervarumärken under ett modervarumärke ska du ta med det överordnade varumärkets information när det skapas.
 
 ### Överföra ett varumärke
