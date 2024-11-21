@@ -2,10 +2,11 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
+last-substanial-update: 2024-11-14T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 958ad60d1d9a88e0dd4cba0decf8da8bc398d542
+source-git-commit: 720b23061d7e56a9b1e712d7787158c6a1bb771c
 workflow-type: tm+mt
-source-wordcount: '809'
+source-wordcount: '783'
 ht-degree: 0%
 
 ---
@@ -18,7 +19,7 @@ Den här versionsinformationen innehåller information om de senaste uppdatering
 
 ### Nya funktioner
 
-Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända mediefiler som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
+Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända resurser som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
 
 ### Korrigeringar och förbättringar
 
@@ -28,7 +29,7 @@ Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunder
 
 * Knapparna på popup-menyn [!DNL Content] _Erfarenheter_ **[!UICONTROL Export]** trunkeras inte längre på vissa språk. <!-- GS-6873 -->
 
-* Visningsannonser som skapats med mallar med storleken 50x50 exporteras nu med den förväntade bildstorleken. Tidigare exporterades PNG-filer med dubbla de förväntade måtten. <!-- GS-7192 -->
+* Visningsannonser som skapats med mallar med storleken 50x50 exporteras nu med den förväntade bildstorleken. Tidigare exporterades PNG-filer med dubbla de förväntade dimensionerna. <!-- GS-7192 -->
 
 * Mallfel som uppstod när visningsannonser storleksändrades har nu åtgärdats. <!-- GS-7322 -->
 
@@ -40,7 +41,9 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 * Alla verktygstips i [!DNL Content] _visningsfältet i Assets_ **[!UICONTROL Search]** är lokaliserade. <!-- GS-6879 -->
 * När du ersätter en befintlig bild i en e-postvariant på arbetsytan [!DNL Create] är vyn _Välj från innehåll_ nu lokaliserad. <!-- GS-6906 -->
 
-## 2024.11.07
+## Versionsinformation
+
++++Anteckningar från 2024.11.07
 
 ### Korrigeringar och förbättringar
 
@@ -84,7 +87,9 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Återskapande av Meta-annonser efter att de har ändrat storlek resulterar inte längre i ett fel. Tidigare ändrades kanalens metadata från `meta` till `facebook` när bilder ändrades före omgenerering. <!-- GS-7042 -->
 
-## 2024.10.31
++++
+
++++Anteckningar från 2024.10.31
 
 ### Nya funktioner
 
@@ -122,10 +127,4 @@ I **[!DNL Create]** introduceras arbetsytan, som erbjuder en strukturerad fråge
 
 GenStudio for Performance Marketing kan integreras med andra Adobe Experience Cloud-produkter, inklusive Adobe Express och Adobe AEM Assets.
 
-### Ytterligare information
-
-Se följande resurser:
-
-* [Adobe GenStudio for Performance Marketing Användarhandbok](https://experienceleague.adobe.com/en/docs/genstudio/user-guide/home)
-
-* [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy), Adobe onlineutbildningsplattform för att använda generativa AI-tekniker i den kreativa processen.
++++
