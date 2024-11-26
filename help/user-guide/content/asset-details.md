@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: a2c2a39a8ed69a36c7126312ac42f6e02dd0598e
+source-git-commit: 7cb19de7f1fe61465046b0d27a528c2f5e1a4d5e
 workflow-type: tm+mt
-source-wordcount: '699'
+source-wordcount: '505'
 ht-degree: 0%
 
 ---
@@ -26,50 +26,15 @@ Varje resurs (inklusive upplevelser och mallar) har associerad _information_ (me
    >
    >Om avsnittet _[!UICONTROL Details]_inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
 
-   Resursinformationen innehåller metadata som används vid skapande eller överföring. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
+Resursinformationen innehåller metadata som används vid skapande eller överföring. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
+
+Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek och andra egenskaper, ett användardefinierat nyckelord samt flera AI-identifierade attribut och färger.
+
+![information om en resurs med flera taggar](/help/assets/content-asset-details.png)
 
 >[!NOTE]
 >
 >Assets från AEM visar olika metadata. Mer information om hur du konfigurerar [!DNL AEM Assets Content Hub]-resursinformation finns i [Konfigurera resurssynlighet](connect-aem-repo.md#step-4-configure-asset-visibility).
-
-## Redigera i Express
-
-Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med hjälp av Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
-
->[!BEGINSHADEBOX]
-
-Kriterier för att förbättra bilder med funktionen [!DNL Edit in Adobe Express]:
-
-- MIME-typer som stöds är `image/png` och `image/jpeg`
-- Minsta bildstorlek är 50 x 50 pixlar
-- Högsta bildstorlek är 8 000 × 8 000 pixlar
-- Den maximala storleken är 40 MB (40 000 000 byte)
-
->[!ENDSHADEBOX]
-
-**Så här redigerar du en resurs med Express**:
-
-1. Välj en bildresurs i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
-
-1. I resursvyn klickar du på ikonen **[!UICONTROL Edit in Adobe Express]** i det övre högra hörnet.
-
-1. Använd Express-kontrollerna på den vänstra panelen för att förbättra bilden på arbetsytan i _[!UICONTROL Powered by Adobe Express]_.
-
-1. När du är nöjd med den uppdaterade bilden klickar du på **[!UICONTROL Save a copy]** uppe till höger.
-
-1. Markera filformatet - JPG eller PNG - och klicka på **[!UICONTROL Save a copy]**.
-
-1. Uppdatera **[!UICONTROL Asset name]** på popup-menyn _[!UICONTROL Save a copy of asset]_.
-
-   - Välj **[!UICONTROL Same details as original asset]** om du vill överföra resursinformationen till den nya bilden.
-
-   - Expandera avsnittet **[!UICONTROL More details]** för att uppdatera kampanjen, riktlinjerna och andra metadata.
-
-   >[!TIP]
-   >
-   >Ju mer information du ger, desto mer upplever du GenStudio for Performance Marketing robusta funktioner. Välj en eller flera detaljer i listan eller ange en ny där det är tillämpligt, t.ex. med nyckelord. Varje detalj som du lägger till visas under listan. Klicka på **`x`** om du vill ta bort en detalj.
-
-1. Klicka på **[!UICONTROL Save]**.
 
 ## Systemmetadata
 
@@ -107,7 +72,7 @@ Följande tabell visar vilka metadata (resursinformation) du kan definiera när 
 | Tidsram | Tidsram som resursen används för, till exempel kvartal, årstid, år. Exempel: `Winter 2023` |
 | Län | Områden som tillgången används för. Exempel: `North America`, `APAC`, `Italy` |
 | Språk | Språk som resursen används för. Exempel: `Spanish` |
-| Nyckelord | Nyckelord som används för ytterligare identifiering av tillgångars egenskaper och syfte |
+| Nyckelord | Användardefinierade nyckelord som används för att ytterligare identifiera egenskaper och syften för tillgångar |
 
 <!-- ## History
 
