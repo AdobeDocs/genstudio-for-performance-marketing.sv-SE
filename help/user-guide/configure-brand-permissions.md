@@ -3,9 +3,10 @@ title: Tilldela [!DNL Brand] behörigheter
 description: Lär dig hur du tilldelar berättiganden för skapare och redigerare av GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
 feature: Brands Service, Generative AI
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+exl-id: fc33ecd3-4403-4045-87af-012a0377226c
+source-git-commit: baa225419ba5e851f28d41f829971027655e103e
 workflow-type: tm+mt
-source-wordcount: '628'
+source-wordcount: '676'
 ht-degree: 1%
 
 ---
@@ -34,7 +35,7 @@ Se [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-grou
 
 ## Steg 2: Tilldela en GenStudio-systemhanterarprofil till användargruppen
 
-När du har skapat en ny användargrupp och lagt till användare kan du tilldela den här gruppen **Adobe GenStudions systemhanterarprofil**. De berättiganden som är kopplade till den tilldelade profilen ger alla användare i den här gruppen GenStudio [!DNL Brands] behörigheter (skapa, uppdatera och ta bort varumärken).
+När du har skapat en ny användargrupp och lagt till användare kan du tilldela den här gruppen **Adobe GenStudions systemhanterarprofil**. Det berättigande som är kopplat till den tilldelade profilen ger alla användare i den här gruppen GenStudio [!DNL Brands] behörigheter (skapa, uppdatera och ta bort varumärken).
 
 **Så här tilldelar du en profil till användargruppen**:
 
@@ -54,7 +55,25 @@ När du har skapat en ny användargrupp och lagt till användare kan du tilldela
 
 Se [Tilldela produktprofiler till användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationshandboken för Enterprise och Teams_.
 
-## Steg 3: Skapa ett [!DNL Brands]-projekt
+## Steg 3: Lägg till användare i användargruppen
+
+Om du vill tilldela användare behörighet att skapa, redigera och publicera [!DNL Brands] lägger du till dem i den nya användargruppen.
+
+>[!NOTE]
+>
+>Du måste lägga till minst en användare i den här användargruppen innan du lägger till gruppen i projektet.
+
+**Så här lägger du till användare i användargruppen**:
+
+1. Navigera från _Admin Console_ till **[!UICONTROL Users]** > **[!UICONTROL User Groups]**.
+
+1. Markera namnet på användargruppen som du skapade tidigare. Popup-fönstret _Lägg till användare i den här användargruppen_ öppnas.
+
+1. Lägg till en ny eller befintlig användare med antingen användarnamn eller e-postadress. När du anger ett namn eller en e-postadress för en befintlig användare fylls fältet automatiskt i med matchande namn för kända användare som tillhör den här IMS-organisationen. Läs om hur du hanterar användargrupper i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationsguiden för Enterprise och team_.
+
+Användare får behörighet att skapa, redigera och publicera [!DNL Brand] för Adobe GenStudio-systemhanterare när de läggs till i gruppen. Användarna får även en automatisk e-postinbjudan om att redigera Adobe GenStudio for Performance Marketing [!DNL Brands]-projektet.
+
+## Steg 4: Skapa ett [!DNL Brands]-projekt
 
 Ett _projekt_ tillhandahåller en lagringsplats där utvalda användare kan spara resurser, i det här fallet [!DNL Brands] resurser.
 
@@ -72,7 +91,7 @@ Ett _projekt_ tillhandahåller en lagringsplats där utvalda användare kan spar
 
 Se [Hantera projekt](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) i _Administrationshandboken för företag och team_.
 
-## Steg 4: Bjud in användargrupp till projekt
+## Steg 5: Bjud in användargrupp till projekt
 
 Du kan nu lägga till användargruppen som du nyss skapade i `Adobe GenStudio [!DNL Brands]`-projektet.
 
@@ -83,17 +102,3 @@ Du kan nu lägga till användargruppen som du nyss skapade i `Adobe GenStudio [!
 1. Välj behörighetsalternativet **Kan redigera**.
 
 1. Klicka på **[!UICONTROL Invite]**.
-
-## Steg 5: Lägg till användare i användargruppen
-
-Om du vill tilldela användare behörighet att skapa, redigera och publicera [!DNL Brands] lägger du till dem i den nya användargruppen.
-
-**Så här lägger du till användare i användargruppen**:
-
-1. Navigera från _Admin Console_ till **[!UICONTROL Users]** > **[!UICONTROL User Groups]**.
-
-1. Markera namnet på användargruppen som du skapade tidigare. Popup-fönstret _Lägg till användare i den här användargruppen_ öppnas.
-
-1. Lägg till en ny eller befintlig användare med antingen användarnamn eller e-postadress. Läs om hur du hanterar användargrupper i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationsguiden för Enterprise och team_.
-
-Användare får behörighet att skapa, redigera och publicera [!DNL Brand] för Adobe GenStudio-systemhanterare när de läggs till i gruppen. Användarna får även en automatisk e-postinbjudan om att redigera Adobe GenStudio for Performance Marketing [!DNL Brands]-projektet.
