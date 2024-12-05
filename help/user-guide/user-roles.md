@@ -4,7 +4,7 @@ description: Läs om GenStudio for Performance Marketing användarroller och beh
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 8f8aa9b92a97d528e1dec6e183d0e4ea1e3a5bdc
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '1115'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Dessa användarrolltitlar kan se likadana ut, men de identifierar unika roller s
 
 **Adobe-systemadministratörer** har avancerade användarbehörigheter i Adobe Admin Console och utför alla användarhanteringsåtgärder, som att lägga till eller ta bort användare. Den här systemadministratörsrollen ger inga privilegier i GenStudio for Performance Marketing-programmet, vilket förklarar varför Adobe systemadministratörer inte behöver någon licens för GenStudio. Systemadministratörer i Adobe använder vanligtvis Admin Console för att lägga till och ta bort användarkonton från GenStudio-distributioner och tilldela eller ta bort rättigheter, eller behörigheter, från enskilda användare eller användargrupper.
 
-**GenStudio systemhanterare** är avancerade användare i GenStudio for Performance Marketing men har inte behörighet att utföra åtgärder i Adobe Admin Console. Den här systemhanterarrollen kräver en Genstudio-produktlicens och motsvarar en Power-användare i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). GenStudio systemhanterare har fullständig behörighet till GenStudio for Performance Marketing-funktioner, inklusive att [!DNL Brands], [!DNL Persona] och [!DNL Product] har skapats, tagits bort, uppdaterats och publicerats. [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) förklarar hur GenStudio användarroller relaterar till produktlicenser.
+**GenStudio systemhanterare** är avancerade användare i GenStudio for Performance Marketing men har inte behörighet att utföra åtgärder i Adobe Admin Console. Den här systemhanterarrollen kräver en GenStudio-produktlicens och motsvarar en Power-användare i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). GenStudio systemhanterare har fullständig behörighet till GenStudio for Performance Marketing-funktioner, inklusive att [!DNL Brands], [!DNL Persona] och [!DNL Product] har skapats, tagits bort, uppdaterats och publicerats. [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) förklarar hur GenStudio användarroller relaterar till produktlicenser.
 
 Se [Administrativa roller](https://helpx.adobe.com/enterprise/using/admin-roles.html#enterprise) i _Administrationsguide för Enterprise och Teams_.
 

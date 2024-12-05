@@ -4,7 +4,7 @@ description: Ta reda på hur ni kommer igång med GenStudio for Performance Mark
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 3c391753ebd0d19ad7dcb17870915eeccc55cc05
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -61,7 +61,7 @@ Se [Tilldela varumärkesbehörigheter](configure-brand-permissions.md).
 
 ### Steg 3: Överför mallar
 
-Med mallar går det snabbare att skapa innehåll. En mall innehåller godkända funktioner, t.ex. sidhuvuden och sidfötter, och är optimerad för specifika kanaler. Systemansvariga överför och hanterar vanligtvis mallar för sin organisation. De använder mallar för att snabbt komma igång med processen att skapa innehåll inom de gränser som fastställts av företagets varumärke.
+Med mallar går det snabbare att skapa innehåll. En mall innehåller godkända funktioner, t.ex. sidhuvuden och sidfötter, och är optimerad för specifika kanaler. Systemansvariga överför och hanterar vanligtvis mallar för sin organisation. Med hjälp av mallar kan redaktörer snabbt komma igång med att skapa innehåll inom de fastställda gränserna för organisationens varumärke.
 
 Se [Arbeta med mallar](./content/use-templates.md).
 

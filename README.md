@@ -1,7 +1,7 @@
 ---
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
 workflow-type: tm+mt
-source-wordcount: '310'
+source-wordcount: '311'
 ht-degree: 5%
 
 ---
@@ -38,7 +38,7 @@ Mer information finns i [Adobe Docs Contributor Guide](https://experienceleague.
 Alla artiklar i den här databasen använder GitHub-smaksatt kod. Om du inte är van vid att markera något läser du:
 
 - [Grunderna för markeringar](https://docs.github.com/en/get-started/writing-on-github/getting-started-with-writing-and-formatting-on-github/basic-writing-and-formatting-syntax)
-- [Utskrivbart kalkylblad för markering](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
+- [Utskrivbart markeringsdatablad](https://docs.github.com/en/get-started/getting-started-with-git/git-cheatsheet)
 
 ## Etiketter
 
