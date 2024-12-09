@@ -4,7 +4,7 @@ description: Ta reda på hur ni kommer igång med GenStudio for Performance Mark
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: fd49abb491477b0a8ed5b1f646219458efc49365
 workflow-type: tm+mt
 source-wordcount: '691'
 ht-degree: 0%
@@ -49,7 +49,7 @@ Du kan överföra stödlinedokument eller läsa dem när du anger information ma
 
 En GenStudio-systemadministratör kan förbereda produktens underliggande generativa AI-ramverk genom att manuellt ange eller överföra organisationens specifika varumärkeskrav. Även om det är en engångsåtgärd att upprätta en organisations varumärkesriktlinjer kan ni ändra och förbättra dessa riktlinjer baserat på organisationens volatilitet, tillväxt och förändrade marknadsförhållanden.
 
-## Steg 2: Konfigurera ett Adobe Admin Console-projekt för GenStudio [!DNL Brands]
+### Steg 2: Konfigurera ett Adobe Admin Console-projekt för GenStudio [!DNL Brands]
 
 Systemadministratörer måste slutföra ytterligare konfigurationsuppgifter innan medarbetare kan redigera eller skapa [!DNL Brands]. Systemadministratörer i Adobe utför följande uppgifter i Adobe Admin Console:
 
