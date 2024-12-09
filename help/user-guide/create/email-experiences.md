@@ -4,13 +4,13 @@ description: Läs om e-postupplevelser i Adobe GenStudio for Performance Marketi
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
+source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
 workflow-type: tm+mt
-source-wordcount: '293'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
-
 
 # E-postupplevelser
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 E-postupplevelser kan innehålla flera avsnitt, vilket möjliggör fullständig anpassning för att passa ert varumärke och era mål. [Välj [!DNL Products] och visuella resurser för varje avsnitt](/help/user-guide/create/create-email-experience.md#add-parameters) och använd [strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) för att skapa unikt innehåll. Varje avsnitt har stöd för en visuell resurs.
 
-Läs [Förbered en e-postmall](/help/user-guide/content/email-template.md) om du vill veta mer om hur du skapar en mall för flera avsnitt.
+Mer information om hur du skapar en mall för flera avsnitt finns i [anpassa mallar med avsnitt](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 ## Progressiv inläsning
 

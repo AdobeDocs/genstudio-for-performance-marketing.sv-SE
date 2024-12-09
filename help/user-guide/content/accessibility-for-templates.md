@@ -3,9 +3,9 @@ title: Skapa tillgängliga mallar
 description: Skapa mallar i Adobe GenStudio for Performance Marketing som kan nå ut till fler av er målgrupp och ge en optimal upplevelse.
 feature: Templates, Content
 exl-id: eaaa5d9f-ad45-4fd0-826d-c250deb6d238
-source-git-commit: fee67ba0d9781cf16ac909eddf385bd3d60ac97b
+source-git-commit: cc1d750a8a520c793b1b605747c091f8a5f5e1a2
 workflow-type: tm+mt
-source-wordcount: '347'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Ange textalternativ för innehåll som inte är text, till exempel bilder.
 <img alt="Collage of ideas, books, man holding giant pencil, computer" src="card-create-assets.png">
 ```
 
-![Idékollage, böcker, man som håller en enorm penna, dator](../../assets/card-create-assets.png){width="400"}
+![Idékollage, böcker, man som håller en enorm penna, dator](/help/assets/card-create-assets.png){width="400"}
 
 ## Typsnitt
 

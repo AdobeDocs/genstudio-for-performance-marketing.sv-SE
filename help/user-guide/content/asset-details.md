@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
 workflow-type: tm+mt
-source-wordcount: '505'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,11 +22,9 @@ Varje resurs (inklusive upplevelser och mallar) har associerad _information_ (me
 
 1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
 
-   >[!TIP]
-   >
-   >Om avsnittet _[!UICONTROL Details]_inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
+1. Om avsnittet _[!UICONTROL Details]_inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
 
-Resursinformationen innehåller metadata som används vid skapande eller överföring. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
+Resursinformationen innehåller metadata som används under skaps- eller överföringsprocessen. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
 
 Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek och andra egenskaper, ett användardefinierat nyckelord samt flera AI-identifierade attribut och färger.
 
@@ -38,9 +36,7 @@ Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek oc
 
 ## Systemmetadata
 
-Vissa metadata för resurser samlas in automatiskt när en resurs överförs. Du kan inte redigera standardsystemmetadata.
-
-Standardmetadata som lagras och hämtas för en resurs är filens namn, dimensioner, källa med mera.
+Vissa metadata för resurser samlas automatiskt in när en resurs överförs, till exempel filtyp, storlek, dimensioner, källa och annat. Förutom filnamnet kan du inte redigera standardsystemmetadata.
 
 ### Genererade taggar
 

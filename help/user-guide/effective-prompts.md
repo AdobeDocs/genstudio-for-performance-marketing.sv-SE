@@ -3,9 +3,9 @@ title: Skriv effektiva uppmaningar
 description: Lär dig skriva effektiva uppmaningar för Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '756'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -57,9 +57,9 @@ GenStudio for Performance Marketing riktlinjer hjälper den generativa AI-funkti
 
 ### Strukturerade uppmaningar
 
-För e-postmeddelanden med flera avsnitt kan du strukturera uppmaningar om att tillhandahålla avsnittsspecifika instruktioner för att generera varierande innehåll för varje avsnitt i ett [e-postmeddelande](/help/user-guide/create/email-experiences.md). Strukturerade uppmaningar ska direkt referera till [avsnittsnamn i e-postmallen](/help/user-guide/content/email-template.md#multi-section-emails) så att det genererade innehållet kan infogas i motsvarande innehållsplatshållare.
+För e-postmeddelanden med flera avsnitt kan du strukturera uppmaningar om att tillhandahålla avsnittsspecifika instruktioner för att generera varierande innehåll för varje avsnitt i ett e-postmeddelande. Strukturerade uppmaningar ska direkt referera till [avsnittsnamn i e-postmallen](/help/user-guide/content/customize-template.md#sections-or-groups) så att det genererade innehållet kan infogas i motsvarande innehållsplatshållare.
 
-Du kan till exempel instruera GenStudio for Performance Marketing att generera innehåll som marknadsför en ny produkt i det första avsnittet i ett e-postmeddelande och generera innehåll som detaljerar de kostnadsbesparande fördelarna med produkten i det andra e-postavsnittet.
+Du kan till exempel instruera GenStudio for Performance Marketing att generera innehåll för ett e-postmeddelande som befordrar en ny produkt i det första avsnittet och som beskriver de kostnadsbesparande fördelarna i det andra avsnittet.
 
 Den strukturerade uppmaningen ska:
 
@@ -72,7 +72,7 @@ Den strukturerade uppmaningen ska:
   Om mallen till exempel använder `moduleA` eller `Group-3` som avsnittsnamn kan du referera till avsnittsnamnen i uppmaningen.
 
 - Följ de rekommenderade reglerna/strukturen. Om promptstrukturen inte följer det angivna formatet gäller uppmaningen för *alla* e-postavsnitt och ändå underlättar det att generera innehåll.
-- Använd avsnittsnamn som [definierat i din e-postmall](/help/user-guide/content/email-template.md#code-an-email-template). Frågereferenser måste matcha avsnittsnamnen som kodats i din e-postmall.
+- Använd avsnittsnamn som de definieras i din e-postmall. Frågereferenser måste matcha avsnittsnamnen som kodats i din e-postmall.
 - Var inte skiftlägeskänslig. Du kan till exempel använda `Pod` eller `pod` i din e-postmall och strukturerade fråga.
 - Referera till den generiska användarprompten först och sedan de avsnittsspecifika direktiven.
 - Använd kolon, bindestreck, kommatecken eller annan avgränsning (`,:;#$!~|@=-%&*^_`) som en separation mellan avsnittsnamnreferensen och -direktivet. Du kan till exempel använda följande som ett avsnittsspecifikt promptdirektiv: `Pod1; Describe how to easily edit text and swap images.`
@@ -91,7 +91,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Se [Förbered en e-postmall](/help/user-guide/content/email-template.md#code-an-email-template).
+Se [metodtips för att använda mallar](/help/user-guide/content/best-practices-for-templates.md).
 
 ## Försök igen
 

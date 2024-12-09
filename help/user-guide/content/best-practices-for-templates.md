@@ -1,0 +1,160 @@
+---
+title: Bästa tillvägagångssätt för mallar
+description: Följ vedertagna standarder när du använder mallar med Adobe GenStudio for Performance Marketing.
+feature: Templates, Content
+last-substantial-update: 2024-12-09T00:00:00Z
+source-git-commit: 7ba2ecfbdd6853934be5210685bf447848715d28
+workflow-type: tm+mt
+source-wordcount: '0'
+ht-degree: 0%
+
+---
+
+# Bästa tillvägagångssätt för att använda mallar
+
+Mallar minskar avsevärt den tid och det arbete som krävs för att generera nytt innehåll genom att tillhandahålla en startpunkt med förkonfigurerade layouter och designelement.
+
+Använd följande rekommendationer när du använder mallar med GenStudio for Performance Marketing:
+
+1. Lär dig mer om [mallelement](#know-about-template-elements)
+1. Konfigurera [kanalriktlinjer](#configure-channel-guidelines) för effektiv personalisering av innehåll
+1. Designa med [tillgänglighetsstandarder](accessibility-for-templates.md) för en optimal upplevelse
+1. Följ [kanalspecifika riktlinjer för mallar](#follow-channel-specific-template-guidelines)
+
+>[!TIP]
+>
+>Läs mer om grundläggande mallelement och procedurer i [Arbeta med mallar](use-templates.md). Och fördjupa dig i [att anpassa en mall](customize-template.md) för användning i nästa kampanj.
+
+## Lär dig mer om mallelement
+
+Ett tips är att bekanta sig med delarna i en mall. Varje malltyp använder olika element för att skapa en struktur för kanalspecifik innehållsutveckling. Om du vill anpassa mallen använder du fältnamnen i stället för dessa element där du behöver GenStudio for Performance Marketing för att generera innehåll.
+
+Se [Mallelement](use-templates.md#template-elements).
+
+## Konfigurera kanalriktlinjer
+
+Konfigurera kanalriktlinjer för varje varumärke innan du använder mallar i GenStudio for Performance Marketing. Kanalriktlinjerna påverkar direkt vilken typ av innehåll som skapas när mallen används. Du kan t.ex. ange teckenbegränsningar för brödtexten i ett e-postmeddelande.
+
+![Specifikationer för brödtext](/help/assets/channel-email-body.png)
+
+Se [kanalriktlinjer](/help/user-guide/guidelines/brands.md#channel-guidelines).
+
+## Följ kanalspecifika riktlinjer för mallar
+
+Skapa mallar som passar de layoutkrav och visuella krav som gäller för varje kanal. Tänk på följande när du arbetar med varje malltyp för att få optimala prestanda och kompatibilitet:
+
+>[!BEGINTABS]
+
+>[!TAB E-post]
+
+Följ de här designmetoderna när du anpassar e-postmallar för att arbeta med GenStudio for Performance Marketing:
+
+- Använda Adobe- eller Google-teckensnitt
+- Använd ren och responsiv HTML och infogad CSS
+- Använd **inte** JavaScript
+- Använd **inte** fast bredd i brödtext eller behållare
+- Använd **inte** base64-kodning för bilder eftersom det kan öka mallstorleken avsevärt
+
+**Begränsningar**:
+
+- Användning av [avsnitt](customize-template.md#sections-or-groups):
+   - En grundläggande mall (endast ett avsnitt) kan generera en enda uppsättning mallelement.
+   - En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement.
+- Det högsta tillåtna antalet fält i en mall är 20
+- Den största filstorleken för HTML är 102 kB
+
+**Identifierade fältnamn**:
+
+För e-post inkluderas fältet `subject` automatiskt. Använd innehållsplatshållare för följande fält:
+
+- `pre_header`
+- `headline`
+- `body`
+- `cta`
+- `image` (markerat från innehåll)
+- `brand_logo`
+
+Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
+
+>[!TAB Metaannons]
+
+Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for Performance Marketing:
+
+- Använd 360 pixlar bred för kolumnlayouter
+- Använd en lägsta upplösning på 1 080 x 1 080 pixlar för bilder
+- Använd den relativa teckenstorleken **inte**
+- Definiera **inte** visningsrutor
+- Använd **inte** JavaScript
+- Åsidosätt **inte** ett HTML-element i CSS
+- Använd följande inställningar för bakgrundsbilder:
+
+  Lägg till värdet `object-fit: cover` i CSS-klassen `background-image`:
+
+  ```css
+  .background-image {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+  }
+  ```
+
+**Begränsningar**:
+
+- Användning av [avsnitt](customize-template.md#sections-or-groups):
+   - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+
+**Proportioner som stöds**:
+
+- Fyrkant 1:1 (1 080 x 1 080 pixlar)
+- Lodrät 4:5 (1 080 x 1 350 pixlar)
+- Artikel 9:16 (1 080 x 1 920 pixlar)
+
+**Identifierade fältnamn**:
+
+För Metaannonser genereras fälten `headline`, `body` och `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
+
+- `image` (markerat från innehåll)
+- `on-image-text`
+- `brand_logo`
+
+Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
+
+>[!TAB Visningsannons]
+
+Följ de här designmetoderna när du anpassar mallar för displayannonser så att de fungerar med GenStudio for Performance Marketing:
+
+- Använda Adobe- eller Google-teckensnitt
+- Förbered resurser som visas bra i tunna dimensioner
+- Använd **inte** inbäddade eller kodade bakgrundsbilder
+- Använd bakgrundsbilder (`image` fält) överförda till GenStudio for Performance Marketing innehållsdatabas
+- Använd **inte** JavaScript
+
+**Begränsningar**:
+
+- Användning av [avsnitt](customize-template.md#sections-or-groups):
+   - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+
+**Dimensioner som stöds**:
+
+- Lodrät: (pixlar)
+   - 300 x 600
+   - 160 x 600 &#x200B;
+- Vågrät: (pixlar)
+   - 300 x 250
+   - 728 x 90
+   - 336 x 280
+   - 320 x 50
+   - 970 x 250 &#x200B;
+
+**Identifierade fältnamn**:
+
+Använd innehållsplatshållare för följande fält:
+
+- `headline`
+- `body`
+- `cta`
+- `image` (markerat från innehåll)
+
+Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
+
+>[!ENDTABS]

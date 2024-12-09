@@ -4,10 +4,10 @@ breadcrumb-title: Användarhandbok
 user-guide-description: Utforska Adobe GenStudio for Performance Marketing funktioner. Lär dig hur du snabbt kan skapa varumärkesanpassade resurser, generera variationer och optimera upplevelser.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 92686c8a0cce6c2e21d2f16e7faa7934693e3f1f
+source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 3%
+source-wordcount: '0'
+ht-degree: 0%
 
 ---
 
@@ -54,8 +54,7 @@ ht-degree: 3%
       + [Arbeta med mallar](content/use-templates.md)
       + [Anpassa en mall](content/customize-template.md)
       + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
-      + [Förbered en e-postmall](content/email-template.md)
-      + [Förbered en mall för metaannonser](content/meta-template.md)
+      + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
 + Kampanjer {#campaigns}
    + [Kampanjer - översikt](campaigns/overview.md)
 + Aktivering {#activation}

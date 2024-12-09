@@ -4,18 +4,25 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: f95848546abc2decbb5ac52491307977820ce503
 workflow-type: tm+mt
-source-wordcount: '1043'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Anpassa en mall
 
-Anpassa HTML-mallarna för Adobe GenStudio for Performance Marketing med hjälp av mallspråket _Handlebars_ . Syntaxen [!DNL Handlebars] använder vanlig text med dubbla klammerparenteser som innehållsplatshållare. Läs [`What is [!DNL Handlebars]?`](https://handlebarsjs.com/guide/#what-is-handlebars) i _Handlebars språkguide_ om du vill lära dig hur du förbereder mallen.
+Du kan anpassa en mall för användning i GenStudio for Performance Marketing genom att infoga platshållare för innehåll, eller fält, som används av den generativa AI-filen för att infoga innehåll.
 
-I de följande avsnitten beskrivs hur du lägger till platshållare för innehåll, döljer onödiga element från förhandsgranskning och hanterar länkar till statiskt innehåll. När mallen är klar kan du [överföra den till GenStudio for Performance Marketing](use-templates.md#upload-a-template) och börja generera anpassade e-postmeddelanden baserat på din anpassade mall.
+I de följande avsnitten beskrivs hur du anpassar HTML-mallarna för GenStudio for Performance Marketing med hjälp av mallspråket _Handlebars_ . Syntaxen [!DNL Handlebars] använder vanlig text med dubbla klammerparenteser som innehållsplatshållare. Se [Vad är  [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) i _Handlebars språkguide_ om du vill lära dig hur du förbereder mallen.
+
+
+När mallen är klar kan du [överföra den till GenStudio for Performance Marketing](use-templates.md#upload-a-template) och börja generera anpassade e-postmeddelanden baserat på din anpassade mall.
+
+>[!TIP]
+>
+>Följ [hjälpmedelsriktlinjerna](accessibility-for-templates.md) och [bästa praxis](/help/user-guide/content/best-practices-for-templates.md) så att du kan nå ut till fler av din publik och skapa en optimal upplevelse.
 
 ## Platshållare för innehåll
 
@@ -34,14 +41,14 @@ Du kan till exempel använda `{{ headline }}` med syntaxen [!DNL Handlebars] fö
 I följande tabell visas de fältnamn som GenStudio for Performance Marketing har identifierat för ifyllning i mallar. Lägg till de här fältnamnen med syntaxen [!DNL Handlebars] i mallen där du behöver GenStudio for Performance Marketing för att generera innehåll.
 
 | Fält | Roll | Kanalmall |
-| -------------- | ---------------------- | ------------------------------ |
-| `pre_header` | Förrubrik | e-post |
-| `headline` | Headline | e-post <br>Meta ad |
-| `body` | Body copy | e-post <br>Meta ad |
-| `cta` | Uppmaning | e-post <br>Meta ad |
-| `on_image_text` | På bildtext | Meta ad |
-| `image` | Bild | e-post <br>Meta ad |
-| `brand_logo` | Logotyp för markerat varumärke<br>Se [Fältnamn för logotyp för varumärke](#brand-logo-field-name) för rekommenderad användning. | e-post<br>Meta ad |
+| ------------------ | ---------------------- | -------------------------------- |
+| `{{pre_header}}` | Förrubrik | e-post |
+| `{{headline}}` | Headline | e-post <br>Meta ad <br> Visa annons |
+| `{{body}}` | Body copy | e-post <br>Meta ad <br> Visa annons |
+| `{{cta}}` | Uppmaning | e-post <br>Meta ad <br> Visa annons |
+| `{{on_image_text}}` | På bildtext | Meta ad |
+| `{{image}}` | Bild - välj från innehåll | e-post <br>Meta ad <br> Visa annons |
+| `{{brand_logo}}` | Logotyp för markerat varumärke<br>Se [Fältnamn för logotyp för varumärke](#brand-logo-field-name) för rekommenderad användning. | e-post<br>Meta ad |
 
 GenStudio for Performance Marketing fyller i vissa fält automatiskt i följande mallar:
 
@@ -93,23 +100,27 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 
 _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
 
-Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Du kan till exempel markera innehåll som visas i ett markerat område:
+Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`). Följande rubrik och brödtext tillhör till exempel avsnittet `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 
-Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält.
+Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält. På grund av den här regeln kan avsnitten inte kapslas.
 
-En mall kan innehålla upp till tre avsnitt:
+En e-postmall kan innehålla upp till tre avsnitt. I följande lista finns tre rubriker och brödavsnitt:
 
-- `headline`
-- `body`
+- `pre-header`
 - `pod1_headline`
 - `pod1_body`
 - `pod2_headline`
 - `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
 
 GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
+
+Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om du vill lära dig hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande.
 
 ## Förhandsgranska mall
 
@@ -117,7 +128,7 @@ När du [överför en mall](use-templates.md#upload-a-template) söker GenStudio
 
 Exempel på Förhandsgranska för en e-postmall:
 
-![Förhandsgranskningsfält har identifierats](../../assets/template-detected-fields.png){width="650"}
+![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png){width="650"}
 
 ### Förhandsgranska kontroll
 

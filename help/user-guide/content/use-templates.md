@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 61a939ae81eb5ff61d741bb1092e9e4c82119f7e
+source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
 workflow-type: tm+mt
-source-wordcount: '661'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ GenStudio for Performance Marketing gör det möjligt för innehållsskapare att
 
 ## Mallelement
 
-En mall är en uppsättning instruktioner som definieras med HTML och infogad CSS som kan användas för att skapa en e-post- eller metaannons.
+En mall är en uppsättning instruktioner som definieras med HTML och infogad CSS som kan användas för att skapa en e-post, en social annons eller en webbannonsupplevelse. Mallelement tillhandahåller strukturen för att skapa innehåll.
 
-Nedan följer en lista över element som används i mallar och en del detaljer om deras egenskaper.
+Nedan följer en lista över element som används i mallar och en del detaljer om deras egenskaper:
 
 - **Förrubrik**
 
@@ -73,19 +73,13 @@ Nedan följer en lista över element som används i mallar och en del detaljer o
 >
 >Se de [identifierade fältnamnen](customize-template.md#recognized-field-names) som GenStudio for Performance Marketing stöder för mallar av varje kanaltyp.
 
-## Konfigurera kanalriktlinjer
-
-Det är en god vana att konfigurera [kanalriktlinjer](../guidelines/brands.md#channel-guidelines) för varje varumärke innan du använder mallar i GenStudio for Performance Marketing. Kanalriktlinjerna påverkar direkt vilken typ av innehåll som skapas när mallen används. Du kan t.ex. ange teckenbegränsningar för brödtexten i ett e-postmeddelande.
-
-![Specifikationer för brödtext](/help/assets/channel-email-body.png)
-
 ## Anpassa mall
 
 Du [anpassar mallen](customize-template.md) för användning i GenStudio for Performance Marketing genom att infoga platshållare för innehåll, eller fält, som den generativa AI-filen använder för att infoga innehåll. GenStudio for Performance Marketing känner igen vissa fält, till exempel fältet `body`, och följer kanalriktlinjerna som konfigurerats för det valda varumärket.
 
 >[!TIP]
 >
->Följ [hjälpmedelsriktlinjerna för att skapa mallar](accessibility-for-templates.md) så att du kan nå fler av din publik och få en optimal upplevelse.
+>Följ [hjälpmedelsriktlinjerna](accessibility-for-templates.md) och [bästa praxis](/help/user-guide/content/best-practices-for-templates.md) så att du kan nå ut till fler av din publik och skapa en optimal upplevelse.
 
 ## Överföra en mall
 
@@ -103,7 +97,7 @@ Använd [Anpassa mallar](customize-template.md) som guide när du förbereder en
 
    Exempel på Förhandsgranska för en e-postmall:
 
-   ![Förhandsgranskningsfält har identifierats](../../assets/template-detected-fields.png){width="650"}
+   ![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png){width="650"}
 
    >[!TIP]
    >
@@ -128,7 +122,7 @@ Hitta och använd en befintlig mall i GenStudio for Performance Marketing för a
 
 1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
 
-   ![Listan Innehållsmall](../../assets/content-templates.png){width="650" zoomable="yes"}
+   ![Listan Innehållsmall](/help/assets/content-templates.png){width="650" zoomable="yes"}
 
 1. Välj en mall för en fullständig vy och en lista med detaljer.
 

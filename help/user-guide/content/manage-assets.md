@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 3a32c26ff746989798842afa5798ffa397a19ef8
+source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
 workflow-type: tm+mt
-source-wordcount: '1102'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ I galleriet visas en förteckning över godkända resurser, upplevelser eller ma
 
 Följande visar en sökning på termen `dog` i galleriet [!UICONTROL Assets]:
 
-![Assets-vy med sökning på hund](../../assets/content-assets.png)
+![Assets-vy med sökning på hund](/help/assets/content-assets.png)
 
 ### Sök innehåll
 
@@ -120,7 +120,7 @@ In the future, need guidance on template upload errors. For now, the UI just say
 
 1. Välj en bildresurs i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
-1. I resursvyn klickar du på ikonen **[!UICONTROL Delete]** (papperskorgen) längst upp till höger.
+1. Klicka på **[!UICONTROL Delete]** (papperskorgen) i det övre högra hörnet i resursvyn.
 
 1. Verifiera resursen i popup-fönstret _Ta bort resurs_ och klicka på **[!UICONTROL Delete]**.
 
@@ -155,7 +155,7 @@ Kriterier för att förbättra bilder med funktionen [!DNL Edit in Adobe Express
 
    - Välj **[!UICONTROL Same details as original asset]** om du vill överföra resursinformationen till den nya bilden.
 
-   - Expandera avsnittet **[!UICONTROL More details]** för att uppdatera kampanjen, riktlinjerna och andra metadata.
+   - Expandera avsnittet **[!UICONTROL More details]** om du vill uppdatera riktlinjerna och andra metadata.
 
    >[!TIP]
    >

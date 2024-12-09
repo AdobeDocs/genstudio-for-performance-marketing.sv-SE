@@ -1,11 +1,12 @@
 ---
-title: "Anslut till en [!DNL AEM Assets Content Hub] databas"
+title: Anslut till en [!DNL AEM Assets Content Hub] databas
 description: Lär dig hur du ansluter Adobe GenStudio for Performance Marketing till en Adobe Experience Manager-databas (AEM) [!DNL Content Hub] och utnyttjar befintligt godkänt innehåll.
 level: Experienced
 feature: Assets, Content
-source-git-commit: 82ac164cb852305fce206845d15f04c4b4395387
+exl-id: abb587fd-593c-4b9f-baad-993d92400d9b
+source-git-commit: abe1de42b81bff63d473a67632d27f96db7c1c7d
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -54,3 +55,5 @@ Se [Konfigurera Content Hub-användargränssnitt](https://experienceleague.adobe
 ## Steg 5: Verifiera anslutningen
 
 I GenStudio for Performance Marketing Content är listan _[!UICONTROL Location]_tillgänglig ovanför galleriet till höger. Listan är inte tillgänglig om du inte har åtkomst eller om din organisation inte har distribuerat och anslutit en [!DNL AEM Assets Content Hub]-databas.
+
+Läs [Assets-plats](manage-assets.md#assets-location) om du vill läsa om platslistan och ändra databaser.
