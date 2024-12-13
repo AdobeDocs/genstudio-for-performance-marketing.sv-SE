@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: b644a69fd63c8b1deaf42736659dfe9b3b6bd8ab
+source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
 workflow-type: tm+mt
-source-wordcount: '1566'
+source-wordcount: '1637'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Klicka på **[!DNL Brands]** i det vänstra navigeringsområdet. Välj **Lägg t
 
 ### Överföra ett varumärke
 
-Ni kan överföra era egna varumärkesdokument för att fylla i ett nytt varumärke.
+Du kan ladda upp egna varumärkesinformationsdokument - upp till tre PDF- eller DOC-filer - till GenStudio for Performance Marketing för att automatiskt skapa ett varumärke.
 
 Se [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
@@ -85,7 +85,7 @@ Innan du publicerar ditt varumärke kan du klicka dig igenom avsnitten _Riktlinj
 
 1. Klicka på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet.
 
-   Ett _publicerat_-märke visas för alla varumärken som för närvarande publiceras.
+   Ett _Publicerat_-märke och det senaste datumet då varumärket publicerades är synligt för alla varumärken som är publicerade.
 
 1. Klicka för att öppna ett opublicerat varumärke. Om varumärket inte publiceras visas en **[!UICONTROL Publish]**-knapp.
 1. Kontrollera vem som har åtkomst att visa och använda det publicerade varumärket i popup-fönstret _Publish-varumärke_.
@@ -98,23 +98,30 @@ Innan du publicerar ditt varumärke kan du klicka dig igenom avsnitten _Riktlinj
 
 Varumärket visar en grön punkt och&quot;Publicerad&quot;, och en **[!UICONTROL Publish]**-knapp visas.
 
-**Om du vill avpublicera ett publicerat varumärke** klickar du för att öppna det och sedan på **[!UICONTROL Publish]**.
+**Om du vill avpublicera ett publicerat varumärke** klickar du för att öppna det och sedan på **[!UICONTROL Unpublish]**.
 
-Det publicerade varumärket kan nu användas i _[!DNL Create]_eller_[!DNL Content]_.
+Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guide/create/overview.md) eller [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
 ### Hantera [!DNL Brands]
 
 I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
 
-**Så här visar eller ändrar du ett varumärke**:
+Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet och klickar för att öppna ett befintligt varumärke.
 
-1. Klicka på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet.
-1. Klicka för att öppna ett definierat varumärke om du vill se en översiktsinformation för ett varumärke.
+**Så här ändrar du ett varumärke** i vyn [!DNL Brands]:
+
+1. Öppna ett definierat varumärke genom att klicka i **[!DNL Brands]**.
 1. Klicka [**[!UICONTROL Brand voice guidelines]**](#brand-voice-guidelines), [**[!UICONTROL Channel guidelines]**](#channel-guidelines), **[!UICONTROL Image guidelines]** eller **[!UICONTROL Logos]** längst upp om du vill visa enskilda detaljer eller ändra varumärkesriktlinjerna.
-1. Om du vill byta namn på ett befintligt varumärke väljer du **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Brands].
+1. Om du vill byta namn på ett befintligt varumärke väljer du **[!UICONTROL Rename]** på åtgärdsmenyn _[!DNL Brands]_.
+1. Om du vill duplicera ett befintligt varumärke väljer du **[!UICONTROL Duplicate]** på åtgärdsmenyn _[!DNL Brands]_.
+   1. Ange ett varumärkesnamn i popup-fönstret _Duplicera varumärke_ och klicka på **[!UICONTROL Duplicate brand]**.
+
+      Popup-fönstret bekräftar att varumärket är duplicerat -&quot;Nytt varumärke har skapats&quot;. Det duplicerade varumärket är från början i läget _Opublicerat_.
+
+   1. Anpassa det duplicerade varumärket och [publicera det](#publish-brand) för att göra det tillgängligt för användning.
 1. Om du vill ta bort ett varumärke väljer du **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Brands].
 
-Du kan överföra varumärkesstöddokument - upp till tre PDF eller DOC-filer - till GenStudio for Performance Marketing för att automatiskt skapa ett varumärke.
+Du kan också hantera varumärken i vyn [!DNL Brands] från åtgärdsmenyn _[!DNL Brands]_(tre punkter).
 
 ## Lägg till [!DNL Products]
 

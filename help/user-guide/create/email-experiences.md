@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 333d40a733f5417ea182d7708bef38907dfd5722
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '292'
 ht-degree: 0%
 
 ---
@@ -58,6 +58,6 @@ Varje fält och avsnitt i e-postupplevelsen läses in stegvis i den här sekvens
 
 ## Antal tecken
 
-När du har genererat en uppsättning e-postvarianter kan du se antalet tecken som visas för varje e-postavsnitt. Håll muspekaren över eller klicka i ett genererat avsnitt, t.ex. ämnesraden eller brödtexten, och se avsnittsnamnet och teckenantalet för det avsnittet.
+När du har genererat en uppsättning e-postvarianter kan du se antalet tecken som visas för varje avsnitt. Håll muspekaren över eller klicka i ett genererat avsnitt, t.ex. ämnesraden eller brödtexten, och se avsnittsnamnet och teckenantalet för det avsnittet.
 
 ![Antal tecken](/help/assets/character-count.png){width="500" zoomable="yes"}

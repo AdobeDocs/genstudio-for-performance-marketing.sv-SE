@@ -2,11 +2,11 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-11-14T00:00:00Z
+last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
 workflow-type: tm+mt
-source-wordcount: '783'
+source-wordcount: '1256'
 ht-degree: 0%
 
 ---
@@ -15,11 +15,87 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2024.11.14 {#latest}
+## 2024.12.12 {#latest}
 
 ### Nya funktioner
 
-Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända resurser som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
+Redigerare kan nu utföra följande metadatarelaterade uppgifter:
+
+* Redigera material, upplevelser och mallmetadata. Se [Resursinformation](/help/user-guide/content/asset-details.md#user-defined-metadata). <!-- GS-4905 6935-->
+
+* Visa en tillgångs genererade taggar i vyn _Detaljer_ om du har en upplevelse som använder resursen. Se _Genererade taggar_ i [Resursinformation](/help/user-guide/content/asset-details.md#generated-tags). <!-- GS-3705 -->
+
+Redigerare kan nu ange anpassade värden för följande aspekter av genererade varianter:
+
+* Bredd och höjd för webbanners i mallar för visning och visning. Dessa värden sparas nu som mallmetadata. <!-- GS-6735 -->
+
+* Dimensioner av bilder i displayannonsupplevelser under bildöverföring.<!-- GS-7166 -->
+
+* Se kanalspecifika riktlinjer i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
+Exportalternativen omfattar nu:
+
+* Exportera displayannonser och Meta-annonser som HTML, JPEG eller PNG. Se [Skapa en upplevelse av webbannonsering](/help/user-guide/create/create-display-ad.md) och [Skapa en metaannonsupplevelse](/help/user-guide/create/create-meta-ad.md). <!-- GS-7093 6655 5152-->
+
+Med ytterligare nya funktioner kan redigerare:
+
+* Använd knappen **[!UICONTROL Refresh]** i vyn [!DNL Content] Mallar _Resursinformation_ för att uppdatera den valda mallen. <!-- GS-7102 -->
+
+* Generera om sektioner av displayannonser och e-postvarianter. Se [Skapa en webbannonsupplevelse](/help/user-guide/create/create-display-ad.md#revise-generated-display-ads) och [Skapa en e-postupplevelse](/help/user-guide/create/create-email-experience.md#revise-generated-emails). <!-- GS-5080 5078-->
+
+* Duplicera befintliga varumärken. Se [Hantera varumärken](/help/user-guide/guidelines/brands.md#manage-brands). <!-- BRANDS-548 -->
+
+### Korrigeringar och förbättringar
+
+* Visningsannonsrubrikerna sparas nu på [!DNL Content] som förväntat. <!-- GS-7239 -->
+
+* Knappfacket stängs inte längre när en redigerare klickar utanför den nedrullningsbara menyn. <!-- GS-7275 -->
+
+* Listrutan [!DNL Create] [!DNL Persona]/[!DNL Product] läses nu in som förväntat när ett fel i en URL-tjänst för miniatyrbilder inträffar. <!-- GS-7277 -->
+
+* Visa annonser som innehåller element som överläggsfragment kan nu redigeras. <!-- GS-7186 -->
+
+* Knappen Canvas **[!UICONTROL Brand]** är nu inaktiverad när märkespoäng inte genereras för en upplevelse. <!-- GS-6429 -->
+
+* Arbetsytan visar nu dimensionerade upplevelser i konsekvent ordning. <!-- GS-7123 -->
+
+* Manuell beskärning använder nu bilddimensioner, inte malldimensioner, vid redigering av displayannonser. Tidigare användes malldimensioner, inte bilddimensioner, när en bild var mindre än de dimensioner som angavs i mallen för visning och visning. <!-- GS-7315 -->
+
+* Redigerare kan nu välja upp till fyra bilder när de skapar en visningsannons. <!-- GS-7189 -->
+
+* Utkast för displayannonser och Meta-annonser läses nu in som förväntat när storleken ändras i en annan webbläsare. <!-- GS-7204 -->
+
+* Oanvända mallfält visas inte längre i genererat innehåll.  <!-- GS-5670 -->
+
+* Redigerare kan nu klicka på länkar för att redigera som förväntat i genererade varianter. <!-- GS-7423 -->
+
+* [!DNL Create] respekterar nu medarbetarens behörigheter korrekt. <!-- GS-7614 -->
+
+* Knappen Arbetsyta **[!UICONTROL Resize]** är nu inaktiverad när alla storleksalternativ har markerats och renderats. <!-- GS-5940 -->
+
+* Granskare som bara har åtkomst till vyn kan nu zooma in och ut på varianter under granskningar. <!-- GS-7371 -->
+
+* Tangentbordsfokus har bara lagts till för åtgärdbara knappar i vyn [!DNL Create] _Senaste arbete_ . <!-- GS-4060 -->
+
+* Meddelandet **Pågående** som visas under åtgärder för att spara e-postfragment visas nu bara under sparåtgärden. Tidigare visades det här meddelandet i Canvas. <!-- GS-6964 -->
+
+* Redigerare ser nu ett felmeddelande som förväntat när ett utkast inte kan läsas in i området [!DNL Create] _Senaste arbete_.  <!-- GS-8081 -->
+
+* På arbetsytan visas nu annonser med ändrad storlek och annonser i rätt ordning.  <!-- GS-7375 -->
+
+* Redigerare kan nu klicka i fält på e-post och visa annonser. <!-- GS-6297 -->
+
+* Funktionen för att redigera fragment för e-post- och metadataannonser aktiveras nu som väntat med ett enda klick. <!-- GS-8081 -->
+
+* Förbättrade prestanda för knappen [!DNL Create] **[!UICONTROL Back]**. <!-- GS-6767 -->
+
+## Versionsinformation
+
++++Anteckningar från 2024.11.14
+
+### Nya funktioner
+
+Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända material som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
 
 ### Korrigeringar och förbättringar
 
@@ -38,10 +114,10 @@ Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunder
 Den här versionen innehåller förbättringar av lokaliseringen i hela användargränssnittet, bland annat:
 
 * Alla strängar i popup-fönstret [!DNL Content] _Överför resurs_ är nu korrekt lokaliserade. <!-- GS-6872 6770 -->
-* Alla verktygstips i [!DNL Content] _visningsfältet i Assets_ **[!UICONTROL Search]** är lokaliserade. <!-- GS-6879 -->
+* Alla verktygstips i [!DNL Content] _Assets_-vyfältet **[!UICONTROL Search]** är lokaliserade. <!-- GS-6879 -->
 * När du ersätter en befintlig bild i en e-postvariant på arbetsytan [!DNL Create] är vyn _Välj från innehåll_ nu lokaliserad. <!-- GS-6906 -->
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2024.11.07
 
@@ -51,7 +127,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Upplevelsetitlar skapas nu korrekt vid upplevelsegenerering. <!-- GS-7006 -->
 
-* Problem med flimrade rullningslister vid inläsning av utkast har lösts. <!-- GS-5587 -->
+* Problem med flimmer rullningslister vid inläsning av utkast har lösts. <!-- GS-5587 -->
 
 * Länken `View documentation` i popup-fönstret [!DNL Content] _Lägg till den godkända mallen_ fungerar nu som förväntat. <!-- GS-6881 -->
 
@@ -105,9 +181,11 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Layoutproblem med e-postkanter har lösts. <!-- GS-6631 -->
 
-* Tangentbordsfokus fungerar nu som väntat på knappen **[!DNL Content]** **[!UICONTROL Delete]**. Tidigare gick det inte att nå eller använda den här knappen med tangentbordet.  <!-- GS-4065 -->
+* Tangentbordsfokus fungerar nu som väntat på knappen **[!DNL Content]** **[!UICONTROL Delete]**. Tidigare kunde användare inte komma åt den här knappen via tangentbordet.  <!-- GS-4065 -->
 
-## 2024.10.14 General Availability release
++++
+
++++Kommentarer från 2024.10.14 Allmän tillgänglighet
 
 I den här versionen presenteras Adobe GenStudio for Performance Marketing, en generativ AI-baserad applikation som snabbar upp planering, utveckling och analys av marknadsföringskampanjer. GenStudio for Performance Marketing ger marknadsföringsteamen möjlighet att skapa varumärkesanpassat flerkanalsinnehåll för annonser, e-post och kampanjer samtidigt som ni får realtidsinsikter för att optimera innehållets prestanda.
 
@@ -115,7 +193,7 @@ I den här versionen presenteras Adobe GenStudio for Performance Marketing, en g
 
 Några viktiga funktioner:
 
-I **[!DNL Create]** introduceras arbetsytan, som erbjuder en strukturerad frågeupplevelse som gör det möjligt för innehållsredigerare att snabbt generera innehåll och varianter. Systemansvariga utbildar produkten enligt riktlinjer för varumärken. [!DNL Create] ser till att allt AI-genererat innehåll följer varumärkesriktlinjerna - branding, kundprofiler och produktbeskrivningar - och effektiviserar produktionen av slagkraftigt, varumärkesenhetligt marknadsföringsmaterial.
+I **[!DNL Create]** introduceras arbetsytan, som erbjuder en strukturerad frågeupplevelse som gör det möjligt för innehållsredigerare att snabbt generera innehåll och varianter. Systemansvariga utbildar produkten enligt riktlinjer för varumärken. [!DNL Create] säkerställer att allt AI-genererat innehåll följer varumärkesriktlinjerna - branding, kundprofiler och produktbeskrivningar - och effektiviserar produktionen av slagkraftigt, varumärkesenhetligt marknadsföringsmaterial.
 
 **[!DNL Content]** lagrar förvaltade, varumärkeskompatibla, godkända resurser och upplevelser. GenStudio for Performance Marketing-användare kan enkelt hitta, redigera, återanvända och dela godkända mediefiler, vilket minskar behovet av att återskapa innehåll från grunden för varje kampanj.
 

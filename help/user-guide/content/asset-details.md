@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 5e1702b26d34f519c4ab321b2adc04754fa1fcb6
+source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '694'
 ht-degree: 0%
 
 ---
@@ -54,25 +54,53 @@ Användardefinierade metadata lägger till marknadsföringssammanhang till resur
 
 När du [överför en resurs](/help/user-guide/content/manage-assets.md#add-assets) kan du definiera en uppsättning med valfri resursinformation som finns i GenStudio for Performance Marketing som metadata. Om du tar med mer information kan det bli enklare att identifiera resurser i sökningar och filtrering.
 
+**Så här redigerar du användardefinierade metadata**:
+
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall.
+
+1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
+
+1. Klicka på **[!UICONTROL Edit details]** (penna) om du vill redigera metadata för resursen.
+
+   Ju mer information du ger, desto mer upplever du GenStudio for Performance Marketing robusta funktioner. Välj en eller flera detaljer i listan eller ange en ny där det är tillämpligt, t.ex. med nyckelord. Varje detalj som du lägger till visas under listan. Klicka på **`x`** om du vill ta bort en detalj.
+
 ### Metadatainformation
 
-Följande tabell visar vilka metadata (resursinformation) du kan definiera när du skapar en resurs.
+I följande tabell visas de metadata (resursinformation) som du kan definiera när du skapar en resurs.
 
 | Fält | Beskrivning |
-| ------------- | ----------- |
-| Kampanjer (projektnamn) | Standardmetadata som hämtas och lagras med resursen |
+| -------------- | ----------- |
+| Titel | Namnet på resursen; standardtiteln kan vara det ursprungliga filnamnet |
+| [!DNL Campaigns] | [[!DNL Campaigns]](/help/user-guide/campaigns/overview.md) innehåller kampanjinnehåll med konsekvent meddelandehantering för att uppnå ett affärsmål<br>Om du klickar på en kampanjlänk visas kampanjens översiktssida |
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) har lagts till i GenStudio for Performance Marketing och publicerats för användning |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) har lagts till i GenStudio for Performance Marketing för användning |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) har lagts till i GenStudio for Performance Marketing för användning |
-| Kanaler | Innehållstyper i GenStudio for Performance Marketing som resursen används för, till exempel e-post- och metaannonser |
+| Kanaler | Plattformar för distribution av vissa innehållstyper, t.ex. e-post- och displayannonser |
 | [!UICONTROL Timeframe] | Tidsram som tillgången används för, t.ex. kvartal, årstid, år. Exempel: `Winter 2023` |
 | Län | Områden som tillgången används för. Exempel: `North America`, `APAC`, `Italy` |
 | Språk | Språk som resursen används för. Exempel: `Spanish` |
-| Nyckelord | Användardefinierade nyckelord som används för att ytterligare identifiera egenskaper och syften för tillgångar |
+| Nyckelord | Användardefinierade nyckelord används för ytterligare identifiering av tillgångsegenskaper och syfte |
 
-<!-- ## History
+>[!TIP]
+>
+>Klicka på **[!UICONTROL Edit details]** (penna) om du vill redigera metadata för resursen. Du kan till exempel ändra resursnamnet eller lägga till eller ta bort nyckelord.
 
-Expand the _[!UICONTROL History]_ section to view a timeline of approvals and activity.
+## Generativ kontext
 
-list other activity, show screenshot?
--->
+Avsnittet [!UICONTROL Generative Context] visar vilken information som användes för att generera upplevelsen, till exempel `Prompt` som användes under [!DNL Create]-processen. Denna insikt kan hjälpa er att skapa ännu fler framgångsrika varianter.
+
+Informationen kan omfatta:
+
+- Parametrarna `Brand`, `Product` och `Persona`
+- `Subject line` och `Pre Header` för e-postupplevelser
+- `Headline` och `Body` för Metaannonser
+
+## Historik
+
+Expandera avsnittet _[!UICONTROL History]_i en upplevelse för att visa en tidslinje med godkännanden och aktiviteter. En godkänd upplevelse visar till exempel datum, tid och godkännare:
+
+```
+Approved
+
+December 10, 2024 at 6:00 PM by Username
+```

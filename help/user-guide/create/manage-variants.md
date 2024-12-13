@@ -2,13 +2,13 @@
 title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Content, Assets, Experiences
-source-git-commit: 5e92233248c555a3b0a59bd4dbb0935e4c8cfb1f
+exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '1092'
+source-wordcount: '1205'
 ht-degree: 0%
 
 ---
-
 
 # Hantera varianter
 
@@ -40,23 +40,36 @@ Du kan redigera textfälten i genererade varianter. Förfina texten genom att ex
 
 ## Generera om avsnitt
 
-GenStudio for Performance Marketing har den inbyggda funktionen för att återskapa enskilda avsnitt av genererade varianter med _[!UICONTROL Suggested edits]_och nya uppmaningar.
+GenStudio for Performance Marketing har den inbyggda funktionaliteten för att återskapa avsnitt av genererade varianter. Du kan omformulera, korta ned eller förlänga text eller lägga till nya uppmaningar för att generera nytt innehåll.
 
-Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs med _[!UICONTROL Suggested edits]_-alternativen -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_ - och ange en ny fråga.
+Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_innehållet i ett avsnitt, eller_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
 
 ![Generera om avsnitt](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
 **Så här återskapar du enskilda variantavsnitt**:
 
 1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
-1. Välj ett _[!UICONTROL Suggested edits]_-alternativ -_[!UICONTROL Rephrase]_, _[!UICONTROL Shorten]_eller_[!UICONTROL Lengthen]_.
-   * Välj ett tillgängligt alternativ och klicka på **[!UICONTROL Replace]**.
-1. (_Valfritt_) Välj _[!UICONTROL Generate with prompt] och ange en ny uppmaning om att ändra fokus för det återskapade innehållet.
-   * Klicka på **[!UICONTROL Generate]**.
-1. Om du vill återskapa resultaten för att se fler alternativ klickar du på ikonen Återskapa bredvid _Resultat_.
-1. Välj önskat alternativ i _Resultat_ som visas och klicka sedan på **[!UICONTROL Replace]**.
+1. Om du vill ändra den befintliga texten väljer du _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_.
+1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_och anger en ny fråga.
+   1. Klicka på **[!UICONTROL Generate]**.
+1. När du genererar om texten i ett avsnitt klickar du på ikonen Återskapa för att se fler textalternativ.
+1. Välj önskat alternativ från de resultat som visas och klicka sedan på **[!UICONTROL Replace]**.
 
    Varianten uppdateras med den reviderade texten.
+
+## Ändra uppmaningen att agera
+
+När du har genererat en uppsättning varianter kan du revidera texten och länken för uppmaning till åtgärd (CTA).
+
+**Så här ändrar du CTA i en variant**:
+
+1. När du har genererat en uppsättning varianter klickar du på den knapp som visar CTA-texten.
+1. Om du vill ändra knapptexten för CTA väljer du bland de tillgängliga alternativen i listan _Anrop till åtgärder_ .
+1. Klicka på **[!UICONTROL Link]** om du vill ändra länken i CTA.
+   1. Ange eller klistra in en ny länk eller granska den befintliga länken i avsnittet _Redigera länk_ och klicka på **[!UICONTROL Apply]**. Du kan klicka på **[!UICONTROL Remove link]** om du vill ta bort den befintliga länken innan du anger en ny.
+
+
+Den nya eller reviderade länken tillämpas på alla CTA:er i uppsättningen varianter.
 
 ## Beskära resurser
 

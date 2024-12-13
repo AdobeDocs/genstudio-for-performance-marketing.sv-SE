@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] är en omfattande samling varumärkesresurser - marknadsföringskopia, bilder, upplevelser med mera - som kan användas för att skapa varumärkesanpassat innehåll.
 feature: Brands Service, Guidelines
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: e75859066881ce72999b3fde92077665cd6eaeff
+source-git-commit: 435c792d1991c2e34c500d072f23f1ed1ccdbcc9
 workflow-type: tm+mt
-source-wordcount: '802'
+source-wordcount: '809'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,11 @@ GenStudio for Performance Marketing använder den stora mängden varumärkesinfo
 
 När du har lagt till varumärkesriktlinjer i GenStudio for Performance Marketing kan du [hantera](/help/user-guide/guidelines/add-guidelines.md#manage-brands) och [publicera](/help/user-guide/guidelines/add-guidelines.md#publish-brand) dem. Med publicering blir de tillgängliga för ditt team så att de kan använda dem för att generera resurser.
 
-[!DNL Brands] kan antingen vara i läget _Utkast_ eller _Publicerat_. Ny [!DNL brands] börjar som _Utkast_.
+[!DNL Brands] kan vara i ett _Opublicerat_- eller _publicerat_-läge. Ny [!DNL brands] börjar som _opublicerad_.
 
-Du måste publicera en [!DNL brand] för att göra den tillgänglig för att ditt team ska kunna generera resurser.
+Du måste [publicera ett varumärke](/help/user-guide/guidelines/add-guidelines.md#publish-brand) för att göra det tillgängligt för ditt team att generera resurser.
 
-Publicerad [!DNL brands] kan redigeras och ändringar är omedelbart tillgängliga. Endast publicerade [!DNL brands] kan användas för att skapa och validera innehåll.
+Publicerade varumärken kan redigeras (ändringarna är omedelbart tillgängliga), dupliceras eller avpubliceras. Endast publicerade [!DNL brands] kan användas för att skapa och validera innehåll. Se [Hantera varumärken](/help/user-guide/guidelines/add-guidelines.md#manage-brands).
 
 Borttagen [!DNL brands] arkiveras i 30 dagar och kan återställas inom den perioden.
 

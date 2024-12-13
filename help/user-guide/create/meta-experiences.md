@@ -4,13 +4,13 @@ description: Lär dig allt om Meta-upplevelser i Adobe GenStudio for Performance
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
 role: User
 level: Beginner
-source-git-commit: f6483eeb9a4aadc81e1e99796754c978edfa334c
+exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
-
 
 # Metaupplevelser
 
@@ -54,3 +54,9 @@ Varje fält och avsnitt i Meta-annonsupplevelsen läses in stegvis i den här se
 1. Rubriker
 1. Text direkt i bilden
 1. Varumärkesvalideringsprocessen inträffar och kontrollen [_Varumärkesriktlinjer_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) fylls i för varje variant.
+
+## Antal tecken
+
+När du har genererat en uppsättning Meta-varianter kan du se antalet tecken som visas för varje avsnitt. Håll muspekaren över eller klicka i ett genererat avsnitt, t.ex. ämnesraden eller brödtexten, och se avsnittsnamnet och teckenantalet för det avsnittet.
+
+![Antal tecken](/help/assets/character-count.png){width="500" zoomable="yes"}

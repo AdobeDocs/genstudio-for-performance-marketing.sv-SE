@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 802ee1b5c403394b66567bbe4bffbda8124f3624
+source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1204'
 ht-degree: 0%
 
 ---
@@ -59,7 +59,6 @@ I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_till 
 
 ![Platslista för databaser](../../assets/content-location-selection.png){width="350"}
 
-
 När du väljer en AEM databas visar galleriet en inventering av resurser från den databasen, vilket gör att du kan använda godkända resurser från dessa databaser som indata när du skapar innehåll. Filteralternativen ändras så att de återspeglar de kategorier som konfigurerats i [!DNL AEM Assets Content Hub].
 
 Mer information om hur du lägger till din [!DNL AEM Assets Content Hub]-databas i GenStudio for Performance Marketing finns i [Anslut en AEM](connect-aem-repo.md).
@@ -70,7 +69,20 @@ Den AEM databasen är skrivskyddad, vilket betyder att du kan komma åt innehål
 
 ## Assets
 
-I [!UICONTROL Content] kan Performance Marketing enkelt lagra, hämta och hantera sina digitala resurser. Genom att utnyttja både databasen `GenStudio assets` och AEM kan användarna se till att deras resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
+I [!UICONTROL Content] kan du enkelt lagra, hämta och hantera dina digitala resurser. Genom att utnyttja både databasen `GenStudio assets` och AEM kan du se till att dina resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
+
+I följande tabell visas de hanteringsåtgärder som är tillgängliga för resurser, upplevelser och mallar:
+
+| Uppgifter | Assets | Erfarenheter | Mallar |
+| --------------------------------------------------------- | :----: | :---------: | :-------: |
+| [Visa information](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
+| [Skapa upplevelse](/help/user-guide/create/overview.md) |        |             | ✓ |
+| [Redigera i Adobe Express](#edit-in-express) | ✓ |             |           |
+| [Exportera för aktivering](#export-for-activation) |        | ✓ |           |
+| [Hämta](#download-assets) | ✓ |             | ✓ |
+| [Ta bort](#delete-assets) | ✓ | ✓ | ✓ |
+
+<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Lägga till resurser
 
@@ -100,10 +112,6 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 1. Om du vill visa dina nya överförda resurser klickar du på **[!UICONTROL Refresh]** i meddelandet _Nya resurser tillgängliga_ längst ned på arbetsytan.
 
-<!--
-In the future, need guidance on template upload errors. For now, the UI just says error.
--->
-
 ### Hämta resurser
 
 **Så här hämtar du en resurs**:
@@ -123,6 +131,23 @@ In the future, need guidance on template upload errors. For now, the UI just say
 1. Klicka på **[!UICONTROL Delete]** (papperskorgen) i det övre högra hörnet i resursvyn.
 
 1. Verifiera resursen i popup-fönstret _Ta bort resurs_ och klicka på **[!UICONTROL Delete]**.
+
+## Export för aktivering
+
+Du kan exportera en godkänd upplevelse för aktivering i ett format som är kompatibelt med målkanalen.
+
+**Så här exporterar du en upplevelse**:
+
+1. Välj en upplevelse i _[!DNL Content]_. Om du klickar på en upplevelse öppnas vyn med information eller så klickar du på snabbmenyn (`...`).
+
+1. Klicka på **[!UICONTROL Export for activation]** (ruta med en pil som pekar ut).
+
+1. Välj ett av de tillgängliga formaten i popup-fönstret _Exportera för aktivering_:
+
+   - E-post: `HTML`, `CSV`
+   - Meta- och visningsannonser: `HTML`, `JPEG`, `PNG`
+
+Se [Aktivering](/help/user-guide/activation/overview.md).
 
 ## Redigera i Express
 

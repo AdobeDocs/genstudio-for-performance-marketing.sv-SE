@@ -5,9 +5,10 @@ feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, 
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 885900eb259246c2d86a07791a1b7070e0dbf12a
+exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
+source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
 workflow-type: tm+mt
-source-wordcount: '851'
+source-wordcount: '892'
 ht-degree: 0%
 
 ---
@@ -20,7 +21,7 @@ Om du vill skapa en övertygande webbannonsupplevelse rekommenderar vi att du [l
 
 ## Välj en mall
 
-Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll.
+Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om visningsannonsdimensioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 **Så här väljer du en visningsannonsmall**:
 
@@ -75,6 +76,7 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 
 * **Om du vill [redigera namnet för visning och utkast](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera en visningsannons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** dubbelklickar du i något av avsnitten eller fälten i displayannonsen (t.ex. ämnesraden, huvudet eller brödtexten) och redigerar efter behov.
+* **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder de tillgängliga alternativen för att omformulera, förkorta, förlänga eller generera ny text.
 * **Om du vill [ändra storlek och proportioner för annonsen](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** klickar du på knappen _[!UICONTROL Resize]_(ruta med en knappikon till vänster om arbetsytan) och väljer en ny storlek och proportioner som ska användas för alla varianter. Varianterna dupliceras och storleksändras.
 * **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över bilden, klickar på beskärningsikonen som visas och justerar bildens storlek och placering. Klicka på **[!UICONTROL Apply]**.
 
@@ -123,7 +125,7 @@ Om du vill göra de genererade webbannonserna tillgängliga för aktuell och fra
       ![Publish en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
 1. **Klicka **[!UICONTROL Export]**i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser**.
-   1. Markera formatet (endast JPG) och klicka på **[!UICONTROL Export]**.
+   1. Markera formatet - HTML och bilder, PNG eller JPG - och klicka på **[!UICONTROL Export]**.
 
       Exporterad HTML ska placeras i en fördefinierad webbegenskap, som en mall eller `div`-behållare. Utan dessa angivna mått kan bilderna se förvrängda ut när de visas oberoende av varandra.
 
