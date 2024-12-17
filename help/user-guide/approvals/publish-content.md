@@ -1,11 +1,11 @@
 ---
 title: Publish-godkänt innehåll
-description: Lär dig hur du publicerar godkänt innehåll.
+description: Lär dig publicera godkänt innehåll med Adobe GenStudio for Performance Marketing.
 feature: Approval, Content
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '317'
+source-wordcount: '323'
 ht-degree: 0%
 
 ---

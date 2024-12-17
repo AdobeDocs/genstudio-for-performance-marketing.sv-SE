@@ -1,11 +1,11 @@
 ---
 title: Granska och redigera innehåll
-description: Lär dig granska och redigera innehåll iterativt.
+description: Lär dig granska och redigera innehåll iterativt med Adobe GenStudio for Performance Marketing.
 feature: Approval
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
 workflow-type: tm+mt
-source-wordcount: '536'
+source-wordcount: '542'
 ht-degree: 0%
 
 ---
@@ -40,7 +40,7 @@ Du kan godkänna innehåll om du har fått ett e-postmeddelande med en begäran 
 
 ## Begär ändringar
 
-Du kan lista föreslagna ändringar eller ställa frågor om utkastet från panelen _Godkännande_ på panelen Innehåll. Utkaststatusen **Behöver arbete** meddelar innehållsskaparen att ändringar har begärts.
+Du kan lista föreslagna ändringar eller ställa frågor om utkastet från panelen [!DNL Content] _Godkännande_. Utkaststatusen **Behöver arbete** meddelar innehållsskaparen att ändringar har begärts.
 
 Den här granskningsprocessen, som föreslår ändringar av innehållsförfattaren, som sedan ändrar innehållet och eventuellt begär ytterligare indata via `@mention` kommentarer, är mycket iterativ. Det är i den här delen av cykeln som du ser GenStudio for Performance Marketing tidsbesparande funktioner.
 
