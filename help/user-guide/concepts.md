@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing concepts
 description: Lär dig Adobe GenStudio for Performance Marketing koncept och termer.
 feature: Workflow, Generative AI
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: e8a210a22856683f7d61c5309c451689e445c8fe
+source-git-commit: bfe961a06f62e55f3207088f6f390204b12e7142
 workflow-type: tm+mt
-source-wordcount: '555'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -35,6 +35,48 @@ Börja med att inhämta er organisations varumärke, kundprofiler och produktbes
 GenStudio for Performance Marketing utnyttjar Adobe generative AI-plattformen som erbjuder grundläggande AI- och maskininlärningstjänster. Plattformen förenklar användningen av stora språkmodeller, vilket gör att Adobe GenAI kan skapa engagerande upplevelser.
 
 GenStudio for Performance Marketing använder GPT-serien med tredjepartsprogram via Azure OpenAI.<!-- Claude, and Gemini models. -->
+
+## [!DNL Generative Actions]
+
+_[!DNL Generative Actions]_, enligt definitionen i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), är de enheter som kvantifierar användningen av generativa AI-funktioner i GenStudio for Performance Marketing.
+
+<!-- Add example about usage mode?
+Where users check how many generative actions they have left
+How they re-up their genactions
+If genactions roll over month to month or not -->
+
+### Kurser
+
+Du får en standardtilldelning av [!DNL Generative Actions] enligt beskrivningen i [GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+
+>[!NOTE]
+>
+>Användningsfrekvensen kan variera. Reservation för ändringar. Se [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) för uppdaterad prisinformation.
+
+Följande funktioner använder [!DNL Generative Actions] med den angivna hastigheten.
+
+| Funktion | Generativ åtgärdsfrekvens |
+| -----------------------  | ------------------ |
+| Skapa e-post | 5 per generation |
+| Skapa annonser för betalda medier | 5 per generation |
+| Skapa displayannonser | 5 per generation |
+| Återskapa avsnitt | 1 per generation |
+
+<!-- | Generate on-brand images | 1 per prompt  |
+| Translation              | 1 per prompt  |
+| Video: ADLS              | 1 per prompt  |
+| Video: TTS + Avatar      | 1 per prompt  | -->
+
+[!DNL Generative Actions] _förbrukas inte_ när:
+
+* Använder [varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md) under variantgenerering
+* Hämtar information från [överförda riktlinjer](/help/user-guide/guidelines/add-guidelines.md)
+* [Kontrollerar varianter manuellt](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment)
+* Digitala resurser taggas automatiskt med attribut ([[!DNL Insights]](/help/user-guide/insights/overview.md))
+
+>[!TIP]
+>
+>Om du överskrider din behörighet på [!DNL Generative Actions] kan du köpa mer direkt från din kontorepresentant.
 
 ## Datastyrning
 
