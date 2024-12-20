@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: bfe1ae2c734b19e474ab1614fa72afea7d35a73e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '904'
 ht-degree: 0%
 
 ---
@@ -13,6 +13,16 @@ ht-degree: 0%
 # Arbeta med mallar
 
 GenStudio for Performance Marketing gör det möjligt för innehållsskapare att snabbt producera enhetligt marknadsföringsinnehåll med hjälp av _mallar_. En mall minskar tiden och arbetet som krävs för att generera nytt innehåll avsevärt genom att tillhandahålla en startpunkt som inkluderar förkonfigurerade layouter och designelement.
+
+GenStudio for Performance Marketing stöder inte direkt framtagning av mallar i programmet, men du kan enkelt utforma och förbereda mallar med vanliga designverktyg som Adobe InDesign, Illustrator eller Express. När designen är klar kan du anpassa den för användning i GenStudio for Performance Marketing. Börja använda mallar genom att följa de här stegen:
+
+1. **Designa din mall**: Använd det designverktyg du föredrar för att skapa den visuella layouten för din [mall med element](#template-elements) som förrubrik, rubrik, brödtext, CTA, bilder och sidfot.
+
+2. **Koda din mall**: Konvertera din design till HTML och infogad CSS för att säkerställa att den är ren och responsiv på olika enheter. Ta en titt på [hjälpmedelsriktlinjerna](accessibility-for-templates.md) som kan hjälpa dig att nå ut till din avsedda målgrupp.
+
+3. **Förbered för GenStudio for Performance Marketing**: Anpassa mallen HTML med hjälp av mallspråket Handlebars. Infoga platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll dynamiskt. Se hur du [anpassar en mall](customize-template.md) för GenStudio for Performance Marketing.
+
+Med de här stegen kan du skapa professionella och effektiva mallar som är klara att användas i GenStudio for Performance Marketing, så att du snabbt och effektivt kan producera varumärkesinnehåll.
 
 ## Mallelement
 
@@ -81,9 +91,15 @@ Du [anpassar mallen](customize-template.md) för användning i GenStudio for Per
 >
 >Följ [hjälpmedelsriktlinjerna](accessibility-for-templates.md) och [bästa praxis](/help/user-guide/content/best-practices-for-templates.md) så att du kan nå ut till fler av din publik och skapa en optimal upplevelse.
 
-## Överföra en mall
+## Hantera mallar
 
-Använd [Anpassa mallar](customize-template.md) som guide när du förbereder en mall för GenStudio for Performance Marketing. Mer information om hur du får en bättre upplevelse för alla målgrupper finns i [Riktlinjer för hjälpmedel för mallar](accessibility-for-templates.md).
+Galleriet [!DNL Templates] visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing. Du kan filtrera mallar efter kanaltyp, till exempel e-post, webbannonser och Meta-annonser.
+
+![Listan Innehållsmall](/help/assets/content-templates.png){width="650" zoomable="yes"}
+
+### Lägga till en mall
+
+Innan du överför en mall måste du se till att den är helt förberedd och klar att användas i GenStudio for Performance Marketing genom att följa vägledningen för [Anpassa mallar](customize-template.md) .
 
 **Så här lägger du till en mall**:
 
@@ -114,7 +130,19 @@ Använd [Anpassa mallar](customize-template.md) som guide när du förbereder en
 
 1. Klicka på **[!UICONTROL Done]**.
 
-## Skapa med en mall
+### Uppdatera mall
+
+Mallar kan innehålla statiska filer, till exempel ikoner eller logotyper. Använd Uppdatera för att uppdatera mallförhandsvisningen med de senaste versionerna av dessa resurser.
+
+**Så här uppdaterar du mallen**:
+
+1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
+
+1. Klicka på en mall för en fullständig vy och en lista med detaljer.
+
+1. Klicka på **[!UICONTROL Refresh]** (cirklingspilar) i det övre högra hörnet för att uppdatera alla resurser som används i mallen.
+
+### Skapa en upplevelse med en mall
 
 Hitta och använd en befintlig mall i GenStudio for Performance Marketing för att skapa fler upplevelser.
 
@@ -122,9 +150,7 @@ Hitta och använd en befintlig mall i GenStudio for Performance Marketing för a
 
 1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
 
-   ![Listan Innehållsmall](/help/assets/content-templates.png){width="650" zoomable="yes"}
-
-1. Välj en mall för en fullständig vy och en lista med detaljer.
+1. Klicka på en mall för en fullständig vy och en lista med detaljer.
 
 1. Klicka på **[!UICONTROL Create Experience]** (penselverktyget) i det övre högra hörnet om du vill använda mallen.
 

@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: cd3cfface9121788c1dd0808f7f7db36c36766df
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '694'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -56,11 +56,11 @@ När du [överför en resurs](/help/user-guide/content/manage-assets.md#add-asse
 
 **Så här redigerar du användardefinierade metadata**:
 
-1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall.
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
 1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
 
-1. Klicka på **[!UICONTROL Edit details]** (penna) om du vill redigera metadata för resursen.
+1. Klicka på **[!UICONTROL Edit details]** (penna) för att redigera tillgång, upplevelse eller mallmetadata.
 
    Ju mer information du ger, desto mer upplever du GenStudio for Performance Marketing robusta funktioner. Välj en eller flera detaljer i listan eller ange en ny där det är tillämpligt, t.ex. med nyckelord. Varje detalj som du lägger till visas under listan. Klicka på **`x`** om du vill ta bort en detalj.
 
@@ -91,8 +91,8 @@ Avsnittet [!UICONTROL Generative Context] visar vilken information som användes
 
 Informationen kan omfatta:
 
-- Parametrarna `Brand`, `Product` och `Persona`
-- `Subject line` och `Pre Header` för e-postupplevelser
+- Parametrarna `Brand`, `Product` och `Persona` har valts under [!DNL Create]-processen
+- `Subject line` och `Preheader` för e-postupplevelser
 - `Headline` och `Body` för Metaannonser
 
 ## Historik

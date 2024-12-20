@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 5785c807f0a674c95cada0aa3976dd7fb3d7f16e
+source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
 workflow-type: tm+mt
-source-wordcount: '1204'
+source-wordcount: '1231'
 ht-degree: 0%
 
 ---
@@ -14,10 +14,9 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing [!DNL Content] förenklar och förbättrar hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i den digitala marknadsföringsresan.
 
-## Innehållsgalleri
+## [!DNL Content]-galleri
 
 I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
-
 
 Följande visar en sökning på termen `dog` i galleriet [!UICONTROL Assets]:
 
@@ -27,9 +26,10 @@ Följande visar en sökning på termen `dog` i galleriet [!UICONTROL Assets]:
 
 Filtrerings- och sökgränssnittet är snabbt och responsivt och ger en produktiv sökupplevelse. Varje [!DNL Content]-vy innehåller filteralternativ som begränsar sökningen efter den idealiska resursen, upplevelsen eller mallen. För resurser och upplevelser kan du välja en kampanj och specifika riktlinjer, till exempel innehåll som har skapats för en viss produkt.
 
-Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attribute-category.md) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen.
+Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attribute-category.md) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
 
-När du söker efter _upplevelser_ kan du använda filtret **[!UICONTROL Created by]** för att begränsa listan så att endast de upplevelser som du eller en viss person har skapat visas.
+- Filtret **[!UICONTROL Uploaded by]** begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
+- Filtret **[!UICONTROL Created by]** begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
 
 **Så här söker du efter innehåll som ska återanvändas**:
 
@@ -79,10 +79,9 @@ I följande tabell visas de hanteringsåtgärder som är tillgängliga för resu
 | [Skapa upplevelse](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Redigera i Adobe Express](#edit-in-express) | ✓ |             |           |
 | [Exportera för aktivering](#export-for-activation) |        | ✓ |           |
+| [Uppdatera](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Hämta](#download-assets) | ✓ |             | ✓ |
 | [Ta bort](#delete-assets) | ✓ | ✓ | ✓ |
-
-<!-- | [Refresh]                                                 |        |             |     ✓     | -->
 
 ### Lägga till resurser
 
@@ -116,7 +115,7 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 **Så här hämtar du en resurs**:
 
-1. Välj en bildresurs i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. Välj en resurs eller mall i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
 1. I resursvyn klickar du på ikonen **[!UICONTROL Download]** (pilen pekar nedåt) i det övre högra hörnet.
 
@@ -126,7 +125,7 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 **Ta bort en resurs**:
 
-1. Välj en bildresurs i _[!DNL Content]_. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
 1. Klicka på **[!UICONTROL Delete]** (papperskorgen) i det övre högra hörnet i resursvyn.
 
