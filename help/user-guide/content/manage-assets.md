@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
 workflow-type: tm+mt
-source-wordcount: '1231'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -66,6 +66,8 @@ Mer information om hur du lägger till din [!DNL AEM Assets Content Hub]-databas
 Den AEM databasen är skrivskyddad, vilket betyder att du kan komma åt innehållet men inte kan spara utkast, nya resurser eller metadata i den AEM databasen. Alla utkast och slutliga uppdateringar för resurser, upplevelser och mallar sparas i databasen `GenStudio assets` med nya [systemmetadata](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
+
+En AEM kan tillämpa vissa krav på licensiering, t.ex. förfallodatum för mediefiler. Dessa resurser kanske inte är tillgängliga för användning i [!DNL Create]-arbetsflöden. Utgångna mediefiler kan behöva förnyas eller ersättas för att bibehålla kontinuiteten i dina projekt. Kontakta [!DNL AEM Assets Content Hub]-administratören om du behöver hjälp med dessa resurser.
 
 ## Assets
 
