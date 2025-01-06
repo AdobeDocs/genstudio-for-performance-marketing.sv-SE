@@ -3,9 +3,9 @@ title: Översikt över kanaler
 description: Se en översikt över kundengagemang, resultat, budget och utgifter för marknadsföringskampanjer i Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: ed11a264d77792c31978583e063c339d97c15a4e
+source-git-commit: 8d85d47bdda981838771f9401d26f04fbb48d371
 workflow-type: tm+mt
-source-wordcount: '740'
+source-wordcount: '746'
 ht-degree: 0%
 
 ---
@@ -47,11 +47,11 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | ----------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Meta campaign name]** | En lista med kampanjnamn för det anslutna kanalkontot. Kampanjstatus kan vara `Active`, `Paused`, `Deleted` eller `Archived`. Filtrera kampanjer efter status och mål. | Sortera tabellen genom att klicka på kolumnrubriken för något av nyckelmåtten. |
 | **[!UICONTROL Launch]** | Det datum då kampanjen släpptes eller publicerades på marknaden. | Ett högt antal visningar kan tyda på att annonsen når den avsedda målgruppen. |
-| **[!UICONTROL Impressions]** | Antal gånger innehållet läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du överväga andra engagemangsmått. |
+| **[!UICONTROL Impressions]** | Antal gånger innehållet läses in i kanalen, oavsett interaktion eller visning. | Ett högt intryck kan visa på bred synlighet, men för att få en riktig prestandainsikter bör du överväga det tillsammans med andra interaktionsvärden. |
 | **[!UICONTROL Clicks]** | Antal gånger som användare interagerar med ett klickbart element, t.ex. en länk eller en knapp för att ringa upp, i annonskampanjen. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i kampanjklickningar i en kanal.<br>**Beräkning**: (`clicks` dividerat med `impressions`) x 100 = % | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsvisningar för annonskampanjen. <br>**Beräkning**: (totalt belopp `spent` delat med `impressions`) x 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad som associeras med varje klick i en annonskampanj.<br>**Beräkning**: totalt belopp `spent` dividerat med `clicks` = $ | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
-| **[!UICONTROL Video plays]** | Procentandel (%) av tittarna som tittade på en video till slutet. | Ett stort antal videouppspelningar kan tyda på att videon fångar uppmärksamheten och kan betyda att miniatyren, titeln eller placeringen ritas effektivt i visningsprogrammen. Höga uppspelningshastigheter tyder på att videomaterialet är övertygande och relevant. |
+| **[!UICONTROL Video plays]** | Antalet gånger en video börjar spelas upp i en annonskampanj, exklusive repriser. En video börjar spelas upp när en användare klickar på Spela upp eller videon spelas upp automatiskt. | Ett stort antal videouppspelningar kan tyda på att videon fångar uppmärksamheten och kan betyda att miniatyren, titeln eller placeringen ritas effektivt i visningsprogrammen. |
 | **[!UICONTROL Budget]** | Totala medel som anslagits för en annonskampanj för att uppnå kampanjmålen. | En hög budget innebär mer resurser för en bredare räckvidd och potentiellt större påverkan. |
 | **[!UICONTROL Spend]** | Det belopp som läggs på annonser på olika plattformar från budgeten under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra utgiftsbeloppet mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
