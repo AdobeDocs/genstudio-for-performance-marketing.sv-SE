@@ -4,9 +4,9 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
 workflow-type: tm+mt
-source-wordcount: '1144'
+source-wordcount: '1173'
 ht-degree: 0%
 
 ---
@@ -107,7 +107,9 @@ Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är 
 
 Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält. På grund av den här regeln kan avsnitten inte kapslas.
 
-En e-postmall kan innehålla upp till tre avsnitt. I följande lista finns tre rubriker och brödavsnitt:
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+
+En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
 
 - `pre-header`
 - `pod1_headline`
