@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 5f5ab9647aab3c928d04c464f47bb3924b0bb73a
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '998'
+source-wordcount: '1020'
 ht-degree: 0%
 
 ---
@@ -21,7 +21,7 @@ Innan du börjar generera en annonsupplevelse med Meta är det viktigt att [inf�
 
 ## Välj en mall
 
-Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll.
+Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om vilka metadataproportioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 **Så här väljer du en mall för Meta-annons**:
 
@@ -58,7 +58,7 @@ När du är klar med att lägga till parametrar kan du komprimera promptlådan g
 
 ## Ange en uppmaning
 
-När riktlinjer har valts kan du snabbt skapa innehåll för din nya Meta-annonsupplevelse med hjälp av det naturliga språket. Detaljerade uppmaningar ger högre kvalitet än otydliga eller obeskrivliga uppmaningar.
+När riktlinjer har valts kan du snabbt skapa innehåll för din nya Meta-annonsupplevelse med hjälp av det naturliga språket. Detaljerade anvisningar ger högre kvalitet än otydliga eller tvetydiga instruktioner.
 
 Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du vill veta mer om hur du skriver uppmaningar.
 
@@ -88,7 +88,8 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 * **Om du vill [redigera namnet på metadatautkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera en Meta-annons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av annonsavsnitten (till exempel ämnesraden,
 sidhuvud eller brödtext) och redigera efter behov.
-* **Om du vill ändra eller markera anropet** klickar du på knappen som visar anropet och väljer bland de tillgängliga textalternativen för knappen.<!-- In _[!UICONTROL Link]_, enter a new URL or revise an existing URL. -->
+* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. I _Länk_ anger du en URL för texten som anropar till åtgärd.
+<!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering.
 * **Om du vill [ta bort en Meta-annons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på annonsrubriken (till exempel &quot;Meta 4&quot;) och sedan på **[!UICONTROL Delete variant]**.

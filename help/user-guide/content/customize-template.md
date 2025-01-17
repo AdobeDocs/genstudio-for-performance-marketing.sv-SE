@@ -4,9 +4,9 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 8930d3284f9dd1223067239c0077e481ea98335a
+source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
 workflow-type: tm+mt
-source-wordcount: '1173'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Du kan anpassa en mall för användning i GenStudio for Performance Marketing genom att infoga platshållare för innehåll, eller fält, som används av den generativa AI-filen för att infoga innehåll.
 
-I de följande avsnitten beskrivs hur du anpassar HTML-mallarna för GenStudio for Performance Marketing med hjälp av mallspråket _Handlebars_ . Syntaxen [!DNL Handlebars] använder vanlig text med dubbla klammerparenteser som innehållsplatshållare. Se [Vad är  [!DNL Handlebars]?](https://handlebarsjs.com/guide/#what-is-handlebars) i _Handlebars språkguide_ om du vill lära dig hur du förbereder mallen.
+I de följande avsnitten beskrivs hur du anpassar dina HTML-mallar för GenStudio for Performance Marketing med hjälp av mallspråket _[!DNL Handlebars]_. Syntaxen [!DNL Handlebars] använder vanlig text med dubbla klammerparenteser som innehållsplatshållare. Se [Vad är  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) i_ Handlebars språkguide _om du vill lära dig hur du förbereder mallen.
 
 
 När mallen är klar kan du [överföra den till GenStudio for Performance Marketing](use-templates.md#upload-a-template) och börja generera anpassade e-postmeddelanden baserat på din anpassade mall.
@@ -123,6 +123,32 @@ En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre 
 GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
 
 Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om du vill lära dig hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande.
+
+### Utmaningar
+
+En Call to action (CTA) innehåller en fras och en länk. För att CTA _[!UICONTROL Rephrase]_- och_[!UICONTROL Add link]_-funktionerna ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+
+Använd följande vägledning för att konfigurera CTA-platshållare:
+
+- CTA omfras finns och länken kan redigeras
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >{{cta}}</a>
+  ```
+
+- CTA omfras är tillgänglig, men länken är **inte** redigerbar eftersom den faktiska länken anges i mallen
+
+  ```html
+  <a align="center" href="https://link">{{cta}}</a>
+  ```
+
+- CTA-länken kan redigeras, men omfrasen är **inte** tillgänglig eftersom frasen anges i mallen
+
+  ```html
+  <a class="button" href="{{pod1_link}}" >Register now</a>
+  ```
+
+GenStudio for Performance Marketing kan även tillhandahålla olika uppmaningar att vidta åtgärder. Se [Ändra uppmaning](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ## Förhandsgranska mall
 

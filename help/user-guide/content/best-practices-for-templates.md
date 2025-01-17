@@ -4,9 +4,9 @@ description: Följ vedertagna standarder när du använder mallar med Adobe GenS
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: df613ffa66b76e0810500f22d2a7b1c7cf7860af
+source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
 workflow-type: tm+mt
-source-wordcount: '665'
+source-wordcount: '692'
 ht-degree: 0%
 
 ---
@@ -109,6 +109,7 @@ Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for
 - Fyrkant 1:1 (1 080 x 1 080 pixlar)
 - Lodrät 4:5 (1 080 x 1 350 pixlar)
 - Artikel 9:16 (1 080 x 1 920 pixlar)
+- Anpassad bildstorlek: (minsta bildbredd på 50 x 50 pixlar)
 
 **Identifierade fältnamn**:
 
@@ -121,6 +122,8 @@ För Metaannonser genereras fälten `headline`, `body` och `CTA` automatiskt. An
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 
 >[!TAB Visningsannons]
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
 Följ de här designmetoderna när du anpassar mallar för displayannonser så att de fungerar med GenStudio for Performance Marketing:
 

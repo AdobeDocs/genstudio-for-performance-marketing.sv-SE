@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1205'
+source-wordcount: '1262'
 ht-degree: 0%
 
 ---
@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Med Adobe GenStudio for Performance Marketing [!DNL Create] kan du anpassa och förbättra genererade varianter -[e-post](/help/user-guide/create/email-experiences.md), [Metaannonser](/help/user-guide/create/meta-experiences.md) med flera - och använda i digitala marknadsföringssatsningar.
 
-När du [skapar upplevelser](/help/user-guide/create/overview.md) kan du ändra innehåll och resurser för genererade varianter individuellt eller i en grupp. Möjligheten att hantera varianter på individuell mikronivå gör att ni kan hantera varje del av det genererade innehållet explicit.
+När du [skapar upplevelser](/help/user-guide/create/overview.md) kan du ändra innehåll och resurser för genererade varianter individuellt eller i en grupp. Möjligheten att hantera varianter på individuell mikronivå gör att ni kan hantera varje del av det genererade innehållet.
 
 ## Ändra utkastnamn
 
@@ -32,7 +32,7 @@ Genererade variantutkast har ett standardnamn som visas högst upp på arbetsyta
 
 Du kan redigera textfälten i genererade varianter. Förfina texten genom att experimentera med olika fraser och uttryck. Du kan till exempel manuellt revidera text i varianter för att förhandsvisa utseendet på en rubrik med en vald bild.
 
-**Så här redigerar du text i genererade varianter manuellt**:
+**Om du vill redigera text manuellt i genererade varianter**:
 
 1. När du har genererat en uppsättning varianter kan du dubbelklicka på redigerbar text i en variant.
 1. Ange ny text.
@@ -52,22 +52,38 @@ Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att 
 1. Om du vill ändra den befintliga texten väljer du _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_.
 1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_och anger en ny fråga.
    1. Klicka på **[!UICONTROL Generate]**.
-1. När du genererar om texten i ett avsnitt klickar du på ikonen Återskapa för att se fler textalternativ.
+1. När du genererar om texten i ett avsnitt klickar du på ikonen för att generera om (inringningspilar) för att se fler textalternativ.
 1. Välj önskat alternativ från de resultat som visas och klicka sedan på **[!UICONTROL Replace]**.
 
    Varianten uppdateras med den reviderade texten.
 
-## Ändra uppmaningen att agera
+## Granska uppmaning till handling
 
 När du har genererat en uppsättning varianter kan du revidera texten och länken för uppmaning till åtgärd (CTA).
 
+>[!NOTE]
+>
+>Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
+
 **Så här ändrar du CTA i en variant**:
 
-1. När du har genererat en uppsättning varianter klickar du på den knapp som visar CTA-texten.
-1. Om du vill ändra knapptexten för CTA väljer du bland de tillgängliga alternativen i listan _Anrop till åtgärder_ .
-1. Klicka på **[!UICONTROL Link]** om du vill ändra länken i CTA.
-   1. Ange eller klistra in en ny länk eller granska den befintliga länken i avsnittet _Redigera länk_ och klicka på **[!UICONTROL Apply]**. Du kan klicka på **[!UICONTROL Remove link]** om du vill ta bort den befintliga länken innan du anger en ny.
+1. Klicka på en CTA-knapp i någon av varianterna.
 
+   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_.
+
+1. Klicka på **[!UICONTROL Rephrase]**.
+
+   1. Välj i listan med återskapade fraser eller klicka på **[!UICONTROL Refresh results]** om du vill se fler alternativ.
+
+   1. Klicka på **[!UICONTROL Replace]**.
+
+      CTA-texten uppdateras och meddelandet _&quot;En knappetikett ersattes&quot;_ visas som bekräftar ändringen.
+
+1. Klicka på **[!UICONTROL Add link]**.
+
+   1. Skriv eller klistra in en URL och klicka på **[!UICONTROL Apply]**.
+
+      Om du vill ändra en befintlig länk i din CTA redigerar du den befintliga URL:en eller klistrar in en ny URL och klickar på **[!UICONTROL Apply]**.
 
 Den nya eller reviderade länken tillämpas på alla CTA:er i uppsättningen varianter.
 

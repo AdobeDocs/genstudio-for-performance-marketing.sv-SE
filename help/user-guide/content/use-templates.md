@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '904'
+source-wordcount: '911'
 ht-degree: 0%
 
 ---
@@ -55,8 +55,9 @@ Nedan följer en lista över element som används i mallar och en del detaljer o
    - Möjlighet att inkludera text, bilder och andra medier
    - Används i mallar för e-post och metaannonser
 
-- **CTA (Call-to-Action)**
+- **CTA**
 
+   - Knappen Call-to-action använder en fras och en länk
    - Uppmuntrade mottagaren att utföra en viss åtgärd, som att klicka på en länk eller göra ett köp
    - Används i mallar för e-post och metaannonser
 

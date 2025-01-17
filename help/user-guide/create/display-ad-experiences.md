@@ -2,12 +2,13 @@
 title: Visa annonsupplevelser
 description: Läs mer om webbannonsupplevelser i Adobe GenStudio for Performance Marketing.
 feature: Experiences, Content Generation, Create, Generative AI, Variant Generation
+badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 role: User
 level: Beginner
 exl-id: 7951646f-38da-437d-a270-c5ac99fa51cf
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '98'
+source-wordcount: '116'
 ht-degree: 0%
 
 ---
@@ -20,13 +21,13 @@ Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för 
 
 När ni skapar displayannonsupplevelser skapas och visas fyra varianter på arbetsytan.
 
-Adobe GenStudio for Performance Marketing har stöd för både [standardskärmar och anpassade skärmar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+GenStudio for Performance Marketing har stöd för både [standardskärmar och anpassade skärmar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Redigerbara delar av en webbannonsupplevelse är:
 
 * Headline
 * Brödtext
-* Call-to-action (CTA)
+* Call to action (CTA)
 * Bild
 
 Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).

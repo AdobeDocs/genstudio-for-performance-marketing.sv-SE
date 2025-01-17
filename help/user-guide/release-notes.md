@@ -2,11 +2,11 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2024-12-13T00:00:00Z
+last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 00359960b6cf314203382d74faa23bae3e753875
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '1256'
+source-wordcount: '1631'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,49 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2024.12.12 {#latest}
+## 2025.1.16 {#latest}
+
+### Integrering med Adobe Workfront Proof
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Integreringsprogrammet GenStudio for Performance Marketing och Adobe Workfront Proof Beta lanseras den här månaden. Workfront Proof snabbar upp framtagning och aktivering av innehåll med mallar för godkännande, arbetsflöden i flera steg och anteckningar. GenStudio for Performance Marketing-användare med Workfront Proof-behörigheter kan använda Proof-funktionens avancerade funktioner i GenStudio for Performance Marketing för att granska och kommentera GenStudio-genererat material.
+
+Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillgänglighetsberedskapen. Kontakta Etienne Bosch (etienneb@adobe.com) om du vill ha information om Beta-programmet för integrering av GenStudio for Performance Marketing/Workfront Proof.
+
+### Generera nya uppmaningar att agera
+
+Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA:er i varianter finns i [Ändra uppmaning till åtgärd](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+### Korrigeringar och förbättringar
+
+* Teckenantal visas nu i alla genererade och manuella fält för visningsannonser. Se _Antal tecken_ i [Metaupplevelser](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+
+* _Medarbetare_ kan nu visa resurser, men inte skapa, redigera eller ta bort dessa resurser. Medarbetarberättiganden har inte framtvingats på det sätt som förväntades i [!DNL Create]. <!-- GS-7614 -->
+
+* Nu kan redaktörer redigera resurser, upplevelser och mallmetadata. <!-- GS-4905 -->
+
+* Nu finns stöd för anpassade bildstorlekar i Meta och Mallar. <!-- GS-7512 -->
+
+* Personuppgifter, varumärken och produktval är nu förinlästa under mallgenereringen. <!-- GS-8069 -->
+
+* E-postlänken för att ringa till åtgärd är inte längre ett obligatoriskt fält. <!-- GS-8103 -->
+
+* Listrutan [!DNL Brand] för väljare fungerar nu som förväntat för mallar. Tidigare gick det inte att läsa in väljaren för vissa mallar. <!-- GS-8908 -->
+
+* Redigerare kan nu välja högst fyra bilder för e-post med ett enda stativ och för Meta-annonser. <!-- GS-2631 -->
+
+* Årsvärdet för en godkänd upplevelses `Created by`-fält förblir nu konsekvent som förväntat efter att upplevelsens metadata har redigerats. <!-- GS-8344 -->
+
+* Innehållsredigerare kan nu välja en mall från [!DNL Create]. Tidigare uppstod ett konsolfel i programmet när en redigerare valde en mall.  <!-- GS-8798 -->
+
+* Problem med storleksändring och omgenerering för Meta-annonser har lösts. <!-- GS-8900 -->
+
+* Knappen **[!UICONTROL Back]** returnerar nu användare till antingen föregående sida eller [!DNL Create]-landningssidan som förväntat. <!-- GS-8622 -->
+
+## Versionsinformation
+
++++Anteckningar från 2024.12.12
 
 ### Nya funktioner
 
@@ -89,7 +131,7 @@ Med ytterligare nya funktioner kan redigerare:
 
 * Förbättrade prestanda för knappen [!DNL Create] **[!UICONTROL Back]**. <!-- GS-6767 -->
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2024.11.14
 

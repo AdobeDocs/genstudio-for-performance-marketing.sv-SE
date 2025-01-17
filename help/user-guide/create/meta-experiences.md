@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 6d70de011493e34a72a3d25e1aae23491034a9e2
+source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
 workflow-type: tm+mt
-source-wordcount: '269'
+source-wordcount: '283'
 ht-degree: 0%
 
 ---
@@ -20,11 +20,13 @@ Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/g
 
 När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
 
+GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+
 Redigerbara avsnitt i en e-postupplevelse omfattar:
 
 * Headline
 * Brödtext
-* Call-to-action (CTA)
+* Call to action (CTA)
 * Text direkt i bilden
 * Bild
 * Varumärkeslogotyp
