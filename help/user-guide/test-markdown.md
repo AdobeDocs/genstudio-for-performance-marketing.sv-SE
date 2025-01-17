@@ -3,7 +3,8 @@ title: Testsida för markering
 description: Den här artikeln är dold för testning av olika markeringsomformningar.
 hide: true
 hidefromtoc: true
-source-git-commit: 3b186165022be9ac98c7698cf1511e36332962d8
+recommendations: noDisplay, noCatalog
+source-git-commit: cac3ee686121c3b5eca6f91ab6cfe2c0e97def4a
 workflow-type: tm+mt
 source-wordcount: '170'
 ht-degree: 0%
@@ -33,4 +34,4 @@ ht-degree: 0%
 
 Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA:er i varianter finns i [Ändra uppmaning till åtgärd](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
-![CTA refras in action](/help/assets/animation/rephrase-cta.gif "CTA rephrase"){width="250" align="center"}
+![CTA refras in action](/help/assets/animation/rephrase-cta.gif "CTA rephrase"){width="250" align="center" zoomable="yes"}
