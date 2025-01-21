@@ -4,9 +4,9 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 229d16019d71b8228acf16e651885ce8c6d325e5
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1278'
 ht-degree: 0%
 
 ---
@@ -181,17 +181,13 @@ Ett annat exempel kan vara att förhindra att spårningskoder används när en m
 
 ## Statiskt innehåll
 
-E-post- och metamallar länkar ofta till bilder och CSS-filer som lagras utanför GenStudio for Performance Marketing. När GenStudio for Performance Marketing genererar miniatyrbilder för dessa mallar eller de upplevelser som härleds från dem, kan dessa externa resurser ignoreras om de inte har rätt CORS-rubriker (Cross-Origin Resource Sharing).
+E-post- och metamallar länkar ofta till bilder och CSS-filer på andra domäner. När GenStudio for Performance Marketing genererar miniatyrbilder för mallförhandsvisningar eller de upplevelser som härletts från dem, valideras innehållskällan och en kopia bäddas in för förhandsgranskning.
 
-Om du vill vara säker på att de här resurserna är tillgängliga när du genererar miniatyrbilder bör du överväga två alternativ:
+Externa filer bäddas bara in tillfälligt i syfte att skapa mallförhandsvisningen, vilket gör att förhandsvisningen korrekt återger innehållet så som det ser ut när du skapar mallen. Dessa externa filer lagras **inte** permanent i GenStudio for Performance Marketing. När mallförhandsgranskningen har skapats fortsätter GenStudio for Performance Marketing att referera till den ursprungliga källlänken som finns i mallen.
 
-1. **Använd CORS-huvuden**: Värdservern måste skicka svar med ett `Access-Control-Allow-Origin`-huvud inställt på `https://experience.adobe.com` för produktionsmiljöer. Med den här metoden kan GenStudio for Performance Marketing komma åt och inkludera resurserna.
+### Uppdatera innehåll
 
-1. **Använd data-URL:er**: Bädda in de externa resurserna direkt i mallen med data-URL:er. Den här metoden åsidosätter CORS-begränsningar och ser till att resurserna är tillgängliga under genereringen av miniatyrbilder.
-
->[!TIP]
->
->Använd [Uppdatera](/help/user-guide/content/use-templates.md#refresh-template) för att uppdatera mallförhandsvisningen med det senaste statiska innehållet.
+Om källan ändras efter att den inledande förhandsgranskningen har skapats använder du funktionen [Uppdatera](/help/user-guide/content/use-templates.md#refresh-template) för att uppdatera mallförhandsvisningen med den senaste versionen av innehållet från de externa källorna.
 
 ## Exempel på mallar
 

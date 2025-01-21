@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
 workflow-type: tm+mt
-source-wordcount: '911'
+source-wordcount: '935'
 ht-degree: 0%
 
 ---
@@ -133,7 +133,7 @@ Innan du överför en mall måste du se till att den är helt förberedd och kla
 
 ### Uppdatera mall
 
-Mallar kan innehålla statiska filer, till exempel ikoner eller logotyper. Använd Uppdatera för att uppdatera mallförhandsvisningen med de senaste versionerna av dessa resurser.
+Mallar kan innehålla statiska filer, till exempel ikoner eller logotyper. [Statiskt innehåll](/help/user-guide/content/customize-template.md#static-content) lagras inte när mallförhandsvisningen har skapats. GenStudio for Performance Marketing fortsätter att referera till källlänken som finns i mallen. Använd Uppdatera för att uppdatera mallförhandsvisningen med de senaste versionerna av dessa resurser.
 
 **Så här uppdaterar du mallen**:
 
@@ -155,4 +155,4 @@ Hitta och använd en befintlig mall i GenStudio for Performance Marketing för a
 
 1. Klicka på **[!UICONTROL Create Experience]** (penselverktyget) i det övre högra hörnet om du vill använda mallen.
 
-1. Fortsätt till [Skapa](/help/user-guide/create/overview.md) en upplevelse.
+1. Fortsätt till [Skapa](/help/user-guide/create/overview.md#create-use-cases) en upplevelse.
