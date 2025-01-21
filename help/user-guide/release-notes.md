@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
 workflow-type: tm+mt
-source-wordcount: '1631'
+source-wordcount: '1651'
 ht-degree: 0%
 
 ---
@@ -28,6 +28,10 @@ Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillg
 ### Generera nya uppmaningar att agera
 
 Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA:er i varianter finns i [Ändra uppmaning till åtgärd](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+
+I följande förhandsgranskning visas CTA teckenantal, nya alternativ och ett exempel på omfras och ersätt:
+
+![CTA refras in action](/help/assets/animation/rephrase-cta.gif "CTA rephrase"){width="250" zoomable="yes"}
 
 ### Korrigeringar och förbättringar
 
