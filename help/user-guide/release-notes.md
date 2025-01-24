@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 last-substantial-update: 2025-01-16T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 9bddfe4118715b13f893fc9b8fbc24eda6c8cf66
+source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
 workflow-type: tm+mt
-source-wordcount: '1651'
+source-wordcount: '1663'
 ht-degree: 0%
 
 ---
@@ -141,7 +141,7 @@ Med ytterligare nya funktioner kan redigerare:
 
 ### Nya funktioner
 
-Stöd för multimediamallar har lagts till, vilket gör det möjligt för kunderna att återanvända material som redan har publicerats via sina egna hanterade innehållskanaler. <!-- GS-6107 -->
+Stöd för att visa statiskt innehåll på externa domäner har lagts till. GenStudio for Performance Marketing validerar innehållskällan som definierats i mallen och bäddar in en kopia för att skapa mallförhandsvisningen. Se [Statiskt innehåll](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Korrigeringar och förbättringar
 
