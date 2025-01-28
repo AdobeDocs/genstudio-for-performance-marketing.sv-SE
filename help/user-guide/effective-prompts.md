@@ -1,12 +1,12 @@
 ---
 title: Skriv effektiva uppmaningar
-description: Lär dig skriva effektiva uppmaningar för Adobe GenStudio for Performance Marketing.
+description: Lär dig hur du skriver effektiva frågor i Adobe GenStudio for Performance Marketing.
 feature: Prompt, Generative AI, Brands Service, Personas Service, Products Service, Guidelines
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
 source-git-commit: 79430c3279529c4871141489e409240852e1f4fc
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '750'
+ht-degree: 1%
 
 ---
 
