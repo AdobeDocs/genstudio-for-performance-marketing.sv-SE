@@ -3,9 +3,9 @@ title: Översikt över upplevelser
 description: Se en översikt över kundengagemang, budget och utgifter för upplevelser och annonsplacering i Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 693557104bc880445c021f942b728af10243fe27
+source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
 workflow-type: tm+mt
-source-wordcount: '962'
+source-wordcount: '1061'
 ht-degree: 0%
 
 ---
@@ -60,11 +60,11 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | Mått | Definition | Insikt |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Experience name]** | En lista över upplevelser för det anslutna kanalkontot. Filtrera annonser genom att välja en kampanj. | Sortera upplevelselistan genom att klicka på någon av nyckelmätarna. |
-| **[!UICONTROL Campaign]** | En kampanj är en uppsättning upplevelser som utformats för att uppnå ett visst mål. | |
-| **[!UICONTROL Placements]** | Antal annonser [praktik](#ad-placements), platser där en upplevelse påträffades i kampanjen. | Placeringar ökar publikens räckvidd. |
-| **[!UICONTROL Assets]** | Antal resurser som används i annonsen eller upplevelsen. | |
-| **[!UICONTROL Impressions]** | Antal varje gång annonsplaceringen eller upplevelsen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du överväga andra engagemangsmått. |
-| **[!UICONTROL Clicks]** | Antal gånger som användare interagerar med ett klickbart element, t.ex. en länk eller en knapp för att ringa upp, på en upplevelseplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
+| **[!UICONTROL Campaign]** | En kampanj är en uppsättning upplevelser som utformats för att uppnå ett visst mål. | När du filtrerar tabellen Erfarenheter efter kampanj kan sammanfattningsmåtten för alla upplevelser för kampanjen vara annorlunda än kampanjens sammanfattningsrad i vyn [!UICONTROL Channels]. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL Placements]** | Antal annonser [praktik](#ad-placements), platser där en upplevelse påträffades i kampanjen. | Placeringar ökar publikens räckvidd.<p>Annonser som visar noll placeringar och noll resurser kan indikera en [annonstyp som inte stöds](#unsupported-placements).</p> |
+| **[!UICONTROL Assets]** | Antalet resurser som används i annonsen eller upplevelsen. | Antalet i upplevelsetabellen kan skilja sig från antalet i vyn med upplevelseinformation. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL Impressions]** | Antal varje gång annonsplaceringen eller upplevelsen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du tänka på det i relation till andra engagemangsmått. |
+| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, till exempel en länk eller en knapp för att ringa upp, på en upplevelseplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av intryck som resulterade i klickningar på upplevelseplaceringen i en kampanj.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsvisningar för upplevelseplacering.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad för att utföra en viss kundåtgärd, t.ex. ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Använd för att övervaka utgifter för upplevelser som resulterar i värdefulla kundaktiviteter. |
