@@ -3,9 +3,9 @@ title: Assets - översikt
 description: Lär dig hur du utvärderar resursprestanda i Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: d6ea1a34a8679ae958fb184e40ad0673abbab0a4
+source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
 workflow-type: tm+mt
-source-wordcount: '576'
+source-wordcount: '580'
 ht-degree: 0%
 
 ---
@@ -44,8 +44,8 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | Mått | Definition | Insikt |
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Asset ID]** | Namnet som är associerat med resursen. | Sortera tabellen genom att klicka på kolumnrubriken för något av nyckelmåtten. |
-| **[!UICONTROL Impressions]** | Antal varje gång resursen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du överväga andra engagemangsmått. |
-| **[!UICONTROL Clicks]** | Antal gånger som användare interagerar med ett klickbart element, till exempel en länk, på resursen. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
+| **[!UICONTROL Impressions]** | Antal varje gång resursen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du tänka på det i relation till andra engagemangsmått. |
+| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, till exempel en länk, på resursen. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i tillgångsklick inom en upplevelse.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsexponeringar.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad för att utföra en viss kundåtgärd, t.ex. ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Hjälper till att identifiera resurser som resulterar i värdefulla kundåtgärder. |
