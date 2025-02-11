@@ -5,10 +5,10 @@ feature: Insights, Attributes, Generative AI
 recommendations: noDisplay
 last-substantial-update: 2024-11-11T00:00:00Z
 exl-id: c3b51ef2-56ac-4dd8-98b7-79185b5998d0
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 976358742e598b55b1f0c4ca4664d2bcd8f1e9b9
 workflow-type: tm+mt
-source-wordcount: '599'
-ht-degree: 1%
+source-wordcount: '603'
+ht-degree: 0%
 
 ---
 
@@ -16,7 +16,7 @@ ht-degree: 1%
 
 En attributkategori är en klassificeringsgrupp som organiserar relaterade attribut som har en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
 
-GenStudio for Performance Marketing använder Adobe AI och maskininlärningsfunktioner för att studera bilder, videor och text och tillämpar [!UICONTROL Asset attributes] baserat på sannolikheten för att de är korrekta. Attributlistan för en tillgång är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI.
+GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera bilder, videor och text och tillämpar [!UICONTROL Asset attributes] baserat på sannolikheten för att de är korrekta. Attributlistan för en tillgång är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI.
 
 ## Bildfunktioner
 
@@ -29,7 +29,8 @@ Bildfunktioner representerar distinkta och informativa element eller mönster i 
 | Kameravinkel | Kamerans placering och vinkel i förhållande till motivet. |                                                                                                                                                                                |
 | Objektets avstånd | Avståndet mellan kameran och motivet i en bild. | `close up`, `mid shot`, `long shot` |
 | Kamerainställning | Konfigurationen av kamerans kontroller för att skapa bilden. |                                                                                                                                                                                |
-| Färg och ton | Utvärderar färger som används i bildelement. Identifierar en till tre färger från en uppsättning med 40 förbestämda färger i följande bildlager:<br>**[!UICONTROL Foreground colors]**- element i bildens<br>**[!UICONTROL Background colors]** främre lager - element i bildens baksta lager<p>**[!UICONTROL Color temperature]** beskriver den allmänna värmen eller färsheten för färgerna i bilden.<br>Ton- eller temperaturvärden: `warm`, `cool`, `neutral` | ![färger och coola toner](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
+| Färg och ton | Utvärderar färger som används i bildelement. Identifierar en till tre färger från en uppsättning med 40 förbestämda färger i följande bildlager:<br>**[!UICONTROL Foreground colors]**- element i bildens<br>**[!UICONTROL Background colors]** främre lager - element i bildens baksta lager | Färgvärden: `Red`, `Dark_Red`, `Green`, `Bright_Green`, `Dark_Green`, `Light_Green`, `Mud_Green`, `Blue`, `Dark_Blue`, `Light_Blue`, `Royal_Blue`, `Black`, `White`, `Off_White`, `Gray`, `Dark_Gray`, `Silver`, `Cream`, `Magenta`, {11 9}, `Yellow`, `Cyan`, `Mustard`, `Khaki`, `Brown`, `Dark_Brown`, `Violet`, `Pink`, `Dark_Pink`, `Maroon`, `Tan`, `Purple`, `Lavender`, `Turquoise`, `Plum`, `Gold`, `Emerald` `Orange` 36}, `Beige`, `Lilac`, `Olive` |
+| Färgtemperatur | Beskriver den allmänna värmen eller färheten för färgerna i bilden. | Ton- eller temperaturvärden: `warm`, `cool`, `neutral`<br>![färger och svala toner](../../assets/category/image-color-temp.png){width="200" zoomable="yes"} |
 | Bildformat | Visuell behandling av en bild. |                                                                                                                                                                                |
 | Ljusvillkor | Typ av ljus i en bild. |                                                                                                                                                                                |
 | Objekt | Identifierar ett eller flera objekt, enheter och element som utgör bilden. | ![solros, plan, blomobjekt](../../assets/category/image-objects.png){width="200" zoomable="yes"} |
