@@ -1,11 +1,17 @@
 ---
-source-git-commit: e3745e1eed08512f9f2c7d62a2f3af6812e2019f
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '57'
+source-wordcount: '79'
 ht-degree: 0%
 
 ---
 # GenStudio for Performance Marketing-fragment
+
+## Connect insights {#connect-insights}
+
+>[!TIP]
+>
+>GenStudio for Performance Marketing kräver att du ansluter till ett kanalkonto för att börja ta emot data. Se [Anslut kanalkonto](/help/user-guide/insights/connect-channel.md).
 
 ## Anteckna AEM Assets {#note-aem-assets}
 

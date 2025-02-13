@@ -2,12 +2,12 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-01-16T00:00:00Z
+last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a14da101907c3e7dd990082723f7c59f7f5ff3fd
+source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
 workflow-type: tm+mt
-source-wordcount: '1663'
-ht-degree: 0%
+source-wordcount: '1733'
+ht-degree: 1%
 
 ---
 
@@ -15,7 +15,19 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.1.16 {#latest}
+## 2025.2.13 {#latest}
+
+### Förbättringar av landningssidan för [!DNL Create]
+
+Startsidan [!DNL Create] i GenStudio for Performance Marketing innehåller förbättringar av användargränssnittet som förbättrar användarupplevelsen. Avsnittet _Senaste arbete_ har förfinats och konfigurerats med listvyn som standardvy. Utfyllnad och andra visuella förbättringar effektiviserar utseendet på arbetsytan i [!DNL Create].
+
+### Insikter exporteras till CSV
+
+Du kan nu hämta den visningsbara tabellen från valfri [!DNL Insights]-vy till en CSV-fil. Med den här funktionen kan du enkelt exportera och analysera data från olika [!DNL Insights]-vyer, vilket underlättar dataanalys och rapportalternativ.
+
+## Versionsinformation
+
++++Anteckningar från 2025.1.16
 
 ### Integrering med Adobe Workfront Proof
 
@@ -28,10 +40,6 @@ Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillg
 ### Generera nya uppmaningar att agera
 
 Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA:er i varianter finns i [Ändra uppmaning till åtgärd](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
-
-I följande förhandsgranskning visas CTA teckenantal, nya alternativ och ett exempel på omfras och ersätt:
-
-![CTA refras in action](/help/assets/animation/rephrase-cta.gif "CTA rephrase"){width="250" zoomable="yes"}
 
 ### Korrigeringar och förbättringar
 
@@ -59,7 +67,7 @@ I följande förhandsgranskning visas CTA teckenantal, nya alternativ och ett ex
 
 * Knappen **[!UICONTROL Back]** returnerar nu användare till antingen föregående sida eller [!DNL Create]-landningssidan som förväntat. <!-- GS-8622 -->
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2024.12.12
 
@@ -75,7 +83,7 @@ Redigerare kan nu ange anpassade värden för följande aspekter av genererade v
 
 * Bredd och höjd för webbanners i mallar för visning och visning. Dessa värden sparas nu som mallmetadata. <!-- GS-6735 -->
 
-* Dimensioner av bilder i displayannonsupplevelser under bildöverföring.<!-- GS-7166 -->
+* Dimensioner för bilder i displayannonsupplevelser under bildöverföring.<!-- GS-7166 -->
 
 * Se kanalspecifika riktlinjer i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
@@ -147,7 +155,7 @@ Stöd för att visa statiskt innehåll på externa domäner har lagts till. GenS
 
 * När storleken ändras i en annan webbläsare än den som användes för att generera det ursprungliga innehållet läses utkasten in som förväntat. <!-- GS-7204 -->
 
-* Alla tecken visas nu korrekt i den exporterade HTML. <!-- GS-7246 -->
+* Alla tecken representeras nu korrekt i den exporterade HTML. <!-- GS-7246 -->
 
 * Knapparna på popup-menyn [!DNL Content] _Erfarenheter_ **[!UICONTROL Export]** trunkeras inte längre på vissa språk. <!-- GS-6873 -->
 
@@ -193,13 +201,13 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Varumärkespoängen uppdateras nu och behålls som förväntat för återskapade upplevelser. <!-- GS-6535 -->
 
-* HTML-export av Meta-annonser och visningsannonser innehåller inte längre wrapper `div`- och `chrome`-element. <!-- GS-7116 -->
+* HTML export av Meta-annonser och visningsannonser innehåller inte längre wrapper `div`- och `chrome`-element. <!-- GS-7116 -->
 
 * Problem med återgivning av utkast via e-post vid publicering har nu lösts. <!-- GS-6394 -->
 
 * Knappen Canvas **[!UICONTROL Brand]** är nu inaktiverad när ingen varumärkespoäng genereras. <!-- GS-6429 -->
 
-* Växlingen Facebook/Instagram i åtgärdsfältet för arbetsytan uppdaterar nu den rendering som du förväntade dig när inställningen för arbetsytan `ReadOnly` är aktiverad. <!-- GS-7039 -->
+* Växlingen Facebook/Instagram i åtgärdsfältet Arbetsyta uppdaterar nu upplevelserenderingar som förväntat när inställningen för arbetsytan `ReadOnly` är aktiverad. <!-- GS-7039 -->
 
 #### Omgenerering av bilder
 
@@ -249,6 +257,6 @@ I **[!DNL Create]** introduceras arbetsytan, som erbjuder en strukturerad fråge
 
 **[!DNL Insights]** erbjuder realtidsutvärdering av innehållsprestanda, vilket hjälper marknadsförarna att optimera sina strategier och fatta datadrivna beslut.
 
-GenStudio for Performance Marketing kan integreras med andra Adobe Experience Cloud-produkter, inklusive Adobe Express och Adobe AEM Assets.
+GenStudio for Performance Marketing kan integreras med andra Adobe Experience Cloud-produkter som Adobe Express och Adobe AEM Assets.
 
 +++

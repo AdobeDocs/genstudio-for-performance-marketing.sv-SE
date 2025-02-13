@@ -3,9 +3,9 @@ title: Assets - översikt
 description: Lär dig hur du utvärderar resursprestanda i Adobe GenStudio for Performance Marketing.
 feature: Insights, Assets
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '580'
+source-wordcount: '595'
 ht-degree: 0%
 
 ---
@@ -14,18 +14,20 @@ ht-degree: 0%
 
 Vyn [!DNL Insights] _[!UICONTROL Assets]_visar en lista över resurser som används i upplevelser och annonskampanjer för det valda kanalkontot.
 
-Galleriet _[!UICONTROL Assets]_är standardvyn som visar ett kollage med förhandsvisningar av resurser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen ovanför den högra sidan av galleriet för att växla mellan tre mätvärden som kan visas:
+{{connect-insights}}
+
+Tabellen _[!UICONTROL Assets]_är ordnad med [!UICONTROL Asset ID]. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor.
+
+![Assets-filter och tabell](/help/assets/insights-assets-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
+
+I gallerivyn _[!UICONTROL Assets]_visas ett kollage med förhandsvisningar av resurser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
 - CPC (kostnad per klick)
 - Utgift
-
-Tabellen _[!UICONTROL Assets]_är ordnad med [!UICONTROL Asset ID]. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor.
-
-![Assets-filter och tabell](/help/assets/insights-assets-filter.png){zoomable="yes"}
-
-Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster).
 
 ## Resursinformation
 

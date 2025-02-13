@@ -3,9 +3,9 @@ title: Översikt över  [!DNL Insights]
 description: Lär dig hur du optimerar upplevelser baserat på innehållsprestandamätningar i realtid.
 feature: Attributes, Insights, Experiences, Assets, Channels
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: a06b226ffc6bfc0bd371a2f5045d5a422a2983bd
+source-git-commit: f2850d3f535cc06dd8da4e744c081dda299e27f4
 workflow-type: tm+mt
-source-wordcount: '509'
+source-wordcount: '485'
 ht-degree: 0%
 
 ---
@@ -20,9 +20,7 @@ Från kontrollpanelen [!DNL Insights] kan du:
 - **Optimera innehåll med låg prestanda**: Hitta innehåll som inte fungerar bra och använd den integrerade generativa AI-koden för att skapa variationer direkt, vilket kan förbättra dess effektivitet utan att börja från början.
 - **Revitalisera högpresterande innehåll**: Använd lyckat innehåll och justera det för att uppdatera upplevelsen för publiken eller anpassa hjälteinnehållet för användning i nya kampanjer, vilket kan förlänga dess livscykel och prestanda.
 
->[!TIP]
->
->Gå till [Connect-kanalkontot](connect-channel.md) för steg som gör det möjligt för GenStudio for Performance Marketing att ta emot data från era marknadsföringskampanjer, resurser och upplevelser.
+{{connect-insights}}
 
 ## Kontrollpanel
 

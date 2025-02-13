@@ -3,7 +3,7 @@ title: Översikt över upplevelser
 description: Se en översikt över kundengagemang, budget och utgifter för upplevelser och annonsplacering i Adobe GenStudio for Performance Marketing.
 feature: Insights, Experiences, Attributes
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c027d5fa15b05feb95c976805d06d8fe3204c5d1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
 source-wordcount: '1061'
 ht-degree: 0%
@@ -14,9 +14,13 @@ ht-degree: 0%
 
 I vyn [!DNL Insights] _[!UICONTROL Experiences]_visas en lista med upplevelser för det anslutna kanalannonskontot. För Facebook är upplevelserna Meta-annonsnamn.
 
+{{connect-insights}}
+
 Tabellen _[!UICONTROL Experiences]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]**där du kan välja i listorna [!UICONTROL Account] och [!UICONTROL Campaign] för att filtrera annonsnamnen i tabellen.
 
 ![Upplevelsfilter och tabell](/help/assets/insights-experiences-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Upplevelseinformation
 
@@ -40,7 +44,7 @@ GenStudio for Performance Marketing har stöd för annonsformat som resursflöde
 
 | Instagram | Facebook/Meta | Messenger | Målgruppsnätverk |
 | ------------ | ---------------- | ------------ | ---------------- |
-| Utforska<br>Utforska startsida<br>Utforska startsida för stödraster<br>Utflöde<br>Reels<br>Profilflöde<br>Sök<br>Shop<br>Artiklar | Business Explore<br>Feed<br>Video i direktuppspelning<br>Marketplace<br>Reels<br>Reels overlay<br>Right column<br>Search results<br>Stories<br>Video feeds<br>Ads on Facebook reels | Inkorg<br>artiklar | Inbyggd video, banderoll och interstitiell<br>återgiven video |
+| Utforska<br>Utforska startsida<br>Utforska startsida för stödraster<br>Utflöde<br>Reels<br>Profilflöde<br>Sök<br>Shop<br>Artiklar | Business Explore<br>Feed<br>Inströmsvideo<br>Marketplace<br>Reels<br>Reels-övertäckning<br>Right column<br>Search results<br>Stories<br>Video feeds<br>Ads on Facebook reels | Inkorg<br>artiklar | Inbyggd video, banderoll och interstitiell<br>återgiven video |
 
 #### Platser som inte stöds
 

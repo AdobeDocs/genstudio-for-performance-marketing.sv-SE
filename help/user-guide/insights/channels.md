@@ -3,9 +3,9 @@ title: Översikt över kanaler
 description: Se en översikt över kundengagemang, resultat, budget och utgifter för marknadsföringskampanjer i Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 94cb773f63584eb28e843b8d4ef94d6141a8a2f1
+source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
 workflow-type: tm+mt
-source-wordcount: '747'
+source-wordcount: '727'
 ht-degree: 0%
 
 ---
@@ -14,13 +14,13 @@ ht-degree: 0%
 
 Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det anslutna kanalannonskontot.
 
->[!TIP]
->
->GenStudio for Performance Marketing kräver att du ansluter till ett kanalkonto för att börja ta emot data. Se [Anslut kanalkonto](connect-channel.md).
+{{connect-insights}}
 
 Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja i listorna [!UICONTROL Account], [!UICONTROL Status] och [!UICONTROL Objective] för att filtrera kampanjer i tabellen.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{$include /help/_includes/download-insights.md}}
 
 När du väljer en kampanj öppnas fliken [[!UICONTROL Experiences] ](experiences.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka upplevelser som har bidragit till kampanjens övergripande framgång.
 
