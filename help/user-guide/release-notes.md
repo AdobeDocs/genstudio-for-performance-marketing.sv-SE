@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: a48ffd2147f79109803c49cc1a696c083c44e879
+source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
 workflow-type: tm+mt
-source-wordcount: '1733'
+source-wordcount: '1716'
 ht-degree: 1%
 
 ---
@@ -35,7 +35,7 @@ Du kan nu hämta den visningsbara tabellen från valfri [!DNL Insights]-vy till 
 
 Integreringsprogrammet GenStudio for Performance Marketing och Adobe Workfront Proof Beta lanseras den här månaden. Workfront Proof snabbar upp framtagning och aktivering av innehåll med mallar för godkännande, arbetsflöden i flera steg och anteckningar. GenStudio for Performance Marketing-användare med Workfront Proof-behörigheter kan använda Proof-funktionens avancerade funktioner i GenStudio for Performance Marketing för att granska och kommentera GenStudio-genererat material.
 
-Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillgänglighetsberedskapen. Kontakta Etienne Bosch (etienneb@adobe.com) om du vill ha information om Beta-programmet för integrering av GenStudio for Performance Marketing/Workfront Proof.
+Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillgänglighetsberedskapen.
 
 ### Generera nya uppmaningar att agera
 
