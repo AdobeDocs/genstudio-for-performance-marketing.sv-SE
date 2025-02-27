@@ -1,20 +1,21 @@
 ---
 title: Datahantering
-description: Läs mer om datahantering och lagring för insikter i GenStudio for Performance Marketing.
+description: Läs mer om datainhämtning och lagring för  [!DNL Insights] i GenStudio for Performance Marketing.
 feature: Insights
 level: Experienced
 role: Admin
 last-substantial-update: 2025-1-7
-source-git-commit: 5dbe645f2ccf033f515da22ffdcce86edcb9fb24
+exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '243'
+source-wordcount: '242'
 ht-degree: 0%
 
 ---
 
 # Datahantering
 
-GenStudio for Performance Marketing använder Adobe Experience Platform (AEP) för datainmatning och lagring av mätvärden och metadata som används i [!DNL Insights]. AEP använder _scheman_ för att definiera datastrukturer och _datamängder_ för att lagra och hantera datainsamlingar.
+GenStudio for Performance Marketing använder Adobe Experience Platform (AEP) för datainmatning och lagring av mätvärden och metadata som används i [!DNL Insights]. AEP använder _scheman_ för att definiera datastrukturerna och _datauppsättningarna_ för att lagra och hantera datainsamlingar.
 
 ## Dataanslutningar
 
@@ -24,7 +25,7 @@ GenStudio for Performance Marketing använder Customer Journey Analytics (CJA) f
 
 **Viktig information om dataanslutningar**
 
-Om du är [Adobe-systemadministratör](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) kan du ha rättigheter som tillåter åtkomst till AEP-sandlådehantering och Data Lake-komponenter som stöder GenStudio for Performance Marketing.
+Om du är [Adobe-systemadministratör](/help/user-guide/user-roles.md#adobe-system-administrator-vs-genstudio-system-manager) kan du ha rättigheter som tillåter åtkomst till AEP sandlådehantering och Data Lake-komponenter som stöder GenStudio for Performance Marketing.
 
 >[!WARNING]
 >
@@ -35,10 +36,10 @@ Var försiktig och ta inte bort följande dataanslutningar som krävs för att G
 - AEP-datauppsättningar prefix med `GS Insights`
 - AEP-scheman, klasser och fältgrupper har prefixats med `GS Insights`
 - Anpassad fältgrupp `timestamp for metadata`
-- AEP-anslutningar: dataflöden prefixerade med `GS Insights`
-- AEP-anslutningar: GS Insights-konto
+- AEP-anslutningar: dataflöden prefix med `GS Insights`
+- AEP Connections: GS Insights-konto
 
-Se [Ta bort konsekvenser](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) i guiden _Customer Journey Analytics_ innan du tar bort några datakomponenter i AEP.
+Se [Ta bort konsekvenser](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) i _Customer Journey Analytics_-handboken innan du tar bort några datakomponenter i AEP.
 
 >[!ENDSHADEBOX]
 

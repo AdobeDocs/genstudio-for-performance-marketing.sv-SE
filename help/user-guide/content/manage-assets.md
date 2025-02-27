@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: d5efabbaf3dd0817bd3158acb59d997a727e5f62
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1277'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Följande visar en sökning på termen `dog` i galleriet [!UICONTROL Assets]:
 
 Filtrerings- och sökgränssnittet är snabbt och responsivt och ger en produktiv sökupplevelse. Varje [!DNL Content]-vy innehåller filteralternativ som begränsar sökningen efter den idealiska resursen, upplevelsen eller mallen. För resurser och upplevelser kan du välja en kampanj och specifika riktlinjer, till exempel innehåll som har skapats för en viss produkt.
 
-Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attribute-category.md) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
+Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
 
 - Filtret **[!UICONTROL Uploaded by]** begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
 - Filtret **[!UICONTROL Created by]** begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
@@ -39,7 +39,7 @@ Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metad
 
    >[!IMPORTANT]
    >
-   >Listan _Plats_ är bara tillgänglig när du [ansluter till en AEM](connect-aem-repo.md).
+   >Listan _Plats_ är bara tillgänglig när du [ansluter till en AEM-databas](connect-aem-repo.md).
 
 1. Klicka på **[!UICONTROL Search]** (förstoringsglas) för att ange ett nyckelord eller en beskrivning.
 
@@ -59,19 +59,19 @@ I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_till 
 
 ![Platslista för databaser](../../assets/content-location-selection.png){width="350"}
 
-När du väljer en AEM databas visar galleriet en inventering av resurser från den databasen, vilket gör att du kan använda godkända resurser från dessa databaser som indata när du skapar innehåll. Filteralternativen ändras så att de återspeglar de kategorier som konfigurerats i [!DNL AEM Assets Content Hub].
+När du väljer en AEM-databas visar galleriet en inventering av resurser från den databasen, vilket gör att du kan använda godkända resurser från dessa databaser som indata när du skapar innehåll. Filteralternativen ändras så att de återspeglar de kategorier som konfigurerats i [!DNL AEM Assets Content Hub].
 
-Mer information om hur du lägger till din [!DNL AEM Assets Content Hub]-databas i GenStudio for Performance Marketing finns i [Anslut en AEM](connect-aem-repo.md).
+Mer information om hur du lägger till din [!DNL AEM Assets Content Hub]-databas i GenStudio for Performance Marketing finns i [Anslut en AEM-databas](connect-aem-repo.md).
 
-Den AEM databasen är skrivskyddad, vilket betyder att du kan komma åt innehållet men inte kan spara utkast, nya resurser eller metadata i den AEM databasen. Alla utkast och slutliga uppdateringar för resurser, upplevelser och mallar sparas i databasen `GenStudio assets` med nya [systemmetadata](asset-details.md#system-metadata).
+AEM-databasen är skrivskyddad, vilket innebär att du kan komma åt innehållet men inte kan spara utkast, nya resurser eller metadata i AEM-databasen. Alla utkast och slutliga uppdateringar för resurser, upplevelser och mallar sparas i databasen `GenStudio assets` med nya [systemmetadata](asset-details.md#system-metadata).
 
 {{note-aem-assets}}
 
-En AEM kan tillämpa vissa krav på licensiering, t.ex. förfallodatum för mediefiler. Dessa resurser kanske inte är tillgängliga för användning i [!DNL Create]-arbetsflöden. Utgångna mediefiler kan behöva förnyas eller ersättas för att bibehålla kontinuiteten i dina projekt. Kontakta [!DNL AEM Assets Content Hub]-administratören om du behöver hjälp med dessa resurser.
+En AEM-databas kan tillämpa vissa licenskrav, t.ex. förfallodatum. Dessa resurser kanske inte är tillgängliga för användning i [!DNL Create]-arbetsflöden. Utgångna mediefiler kan behöva förnyas eller ersättas för att bibehålla kontinuiteten i dina projekt. Kontakta [!DNL AEM Assets Content Hub]-administratören om du behöver hjälp med dessa resurser.
 
 ## Assets
 
-I [!UICONTROL Content] kan du enkelt lagra, hämta och hantera dina digitala resurser. Genom att utnyttja både databasen `GenStudio assets` och AEM kan du se till att dina resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
+I [!UICONTROL Content] kan du enkelt lagra, hämta och hantera dina digitala resurser. Genom att utnyttja både `GenStudio assets`-databasen och AEM-databasen kan du se till att dina resurser är välorganiserade och tillgängliga för olika marknadsföringskampanjer. Detta tillvägagångssätt med flera databaser ger flexibilitet och kontroll över resursanvändningen i olika miljöer, vilket säkerställer att endast godkända och aktuella resurser används i marknadsföringsarbetet.
 
 I följande tabell visas de hanteringsåtgärder som är tillgängliga för resurser, upplevelser och mallar:
 
@@ -152,7 +152,7 @@ Se [Aktivering](/help/user-guide/activation/overview.md).
 
 ## Redigera i Express
 
-Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med hjälp av Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
+Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
 
 >[!BEGINSHADEBOX]
 
@@ -175,7 +175,7 @@ Kriterier för att förbättra bilder med funktionen [!DNL Edit in Adobe Express
 
 1. När du är nöjd med den uppdaterade bilden klickar du på **[!UICONTROL Save a copy]** uppe till höger.
 
-1. Markera filformatet - JPG eller PNG - och klicka på **[!UICONTROL Save a copy]**.
+1. Markera filformatet (JPG eller PNG) och klicka på **[!UICONTROL Save a copy]**.
 
 1. Uppdatera **[!UICONTROL Asset name]** på popup-menyn _[!UICONTROL Save a copy of asset]_.
 

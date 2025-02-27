@@ -4,10 +4,10 @@ breadcrumb-title: Användarhandbok
 user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance Marketing. Lär dig hur du snabbt skapar varumärkestillgångar, genererar variationer och optimerar upplevelser.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: c76e0584c049b77e5e5742f4b52e959503422016
+source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
 workflow-type: tm+mt
-source-wordcount: '164'
-ht-degree: 20%
+source-wordcount: '171'
+ht-degree: 19%
 
 ---
 
@@ -44,11 +44,11 @@ ht-degree: 20%
    + [Begär granskning och godkännande av innehåll](approvals/request-review.md)
    + [Granska och redigera innehåll](approvals/review-and-edit.md)
    + [Godkänn innehåll](approvals/approve-content.md)
-   + [Publish godkänt innehåll](approvals/publish-content.md)
+   + [Publicera godkänt innehåll](approvals/publish-content.md)
 + Innehåll {#content}
    + [Innehållsöversikt](content/overview.md)
    + [Hantera resurser och upplevelser](content/manage-assets.md)
-   + [Anslut en AEM](content/connect-aem-repo.md)
+   + [Ansluta en AEM-databas](content/connect-aem-repo.md)
    + [Resursinformation](content/asset-details.md)
    + Mallar {#templates}
       + [Arbeta med mallar](content/use-templates.md)
@@ -66,7 +66,10 @@ ht-degree: 20%
    + [Erfarenheter](insights/experiences.md)
    + [Assets](insights/assets.md)
    + [Attribut](insights/attributes.md)
-   + [Attributkategorier](insights/attribute-category.md)
+   + Attributkategorier {#categories}
+      + [Bildfunktioner](insights/image-features.md)
+      + [Videofunktioner](insights/video-features.md)
+      + [Textfunktioner - dolda](insights/text-features.md)
    + [Datahantering](insights/data-management.md)
 + [GenStudio Academy - dold](genstudioacademy.md)
 + [Testmarkering - dold](test-markdown.md)

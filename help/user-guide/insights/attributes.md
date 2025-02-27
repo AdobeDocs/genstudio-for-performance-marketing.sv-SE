@@ -3,9 +3,9 @@ title: Attribut - översikt
 description: Lär dig hur du utvärderar prestandan för specifika attribut i Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
 workflow-type: tm+mt
-source-wordcount: '761'
+source-wordcount: '835'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Vyn [!DNL Insights] _[!UICONTROL Attributes]_visar en lista med attribut som anv
 
 Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
-Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja mellan [!UICONTROL Account] och [!UICONTROL Attribute category] för att filtrera attributen i tabellen. I följande exempel visas en lista med attribut i kategorin `Lighting Condition`.
+Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja mellan [!UICONTROL Account] och [!UICONTROL Attribute category] för att filtrera attributen i tabellen. I följande exempel visas en lista med attribut i kategorin `Lighting Condition`. Klicka på **Återställ** om du vill ta bort alla filterval.
 
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -36,11 +36,17 @@ GenStudio for Performance Marketing identifierar vissa funktioner och använder 
 
 ## Kategorier
 
-GenStudio for Performance Marketing känner igen vissa funktioner i bilder, videoklipp och text och lägger till en funktionstagg i resursen. En _kategori_ är en uppsättning funktioner som delar en specifik egenskap. Kategorin _bildorientering_ har till exempel ett `landscape`-, `portrait`- eller `square`-värde.
+En attributkategori är en klassificeringsgrupp som organiserar relaterade attribut som har en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
 
-Du kan inte redigera taggar som identifieras och används automatiskt.
+GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera [bilder](image-features.md), [videor](video-features.md) och text och tillämpa [!UICONTROL Asset attributes] baserat på sannolikheten för att de ska vara korrekta.
 
-Se [Attributkategorier](/help/user-guide/insights/attribute-category.md) för detaljerade listor över bild-, video- och textfunktioner.
+Den identifierade attributlistan för en resurs är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI. Följande bild innehåller till exempel flera identifierade bildattribut, inklusive flera objekt, för- och bakgrundsfärger.
+
+![bildresursattribut](/help/assets/category/asset-attributes.png "Toucan-bilden innehåller flera identifierade attribut"){width="300" zoomable="yes"}
+
+>[!INFO]
+>
+>Du kan inte redigera taggar som identifieras och används automatiskt.
 
 ## Attributprestanda
 
@@ -60,4 +66,4 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kosta för varje tusen annonsvisningar av en bild eller video med det här attributet.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad för att utföra en viss kundåtgärd, t.ex. ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Hjälper till att identifiera attribut som leder till värdefulla kundåtgärder. |
 | **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad för varje klick på bilder eller videor med det här attributet.<br>**Beräkning**: totalt belopp `spent` delat med `clicks` | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
-| **[!UICONTROL Spend]** | Det belopp som spenderas från budgeten i förhållande till attribut under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra utgiftsbeloppet mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
+| **[!UICONTROL Spend]** | Det belopp som spenderas från budgeten i förhållande till attribut under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra det belopp som spenderas mot nyckeltal för att övervaka den totala avkastningen på investeringen. |

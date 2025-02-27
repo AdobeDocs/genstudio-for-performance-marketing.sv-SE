@@ -3,9 +3,9 @@ title: Översikt över kanaler
 description: Se en översikt över kundengagemang, resultat, budget och utgifter för marknadsföringskampanjer i Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 2abd2d874fb9ce515c9ec15bd6130b5a4dc8bd48
+source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
 workflow-type: tm+mt
-source-wordcount: '727'
+source-wordcount: '726'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ När du skapade en kampanj med Meta-annonser kan du ha valt ett mål som är anp
 
 ## Kanalprestanda
 
-Beroende på era prestationsmål kan Insights-mätvärden hjälpa er att utvärdera om ni uppfyller era mål.
+Beroende på dina prestationsmål kan [!DNL Insights]-mätvärden hjälpa dig att utvärdera om du uppnår ditt mål.
 
 Om du till exempel har som mål att öka medvetenheten kan en ökning av hastigheten `impressions` tyda på att du utökar din räckvidd. Om du vill förstå om det uppnår ditt mål kan du titta på mätvärden som anger att ditt innehåll är engagerande, till exempel `clicks` eller `video plays`. Hur effektivt interagerar er målgrupp med ert innehåll?
 

@@ -3,7 +3,7 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: e9c398cc81413fc22746d85abd6444c6bd42efe4
+source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
 workflow-type: tm+mt
 source-wordcount: '712'
 ht-degree: 0%
@@ -32,7 +32,7 @@ Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek oc
 
 >[!NOTE]
 >
->Assets från AEM visar olika metadata. Mer information om hur du konfigurerar [!DNL AEM Assets Content Hub]-resursinformation finns i [Konfigurera resurssynlighet](connect-aem-repo.md#step-4-configure-asset-visibility).
+>Assets från AEM databaser visar olika metadata. Mer information om hur du konfigurerar [!DNL AEM Assets Content Hub]-resursinformation finns i [Konfigurera resurssynlighet](connect-aem-repo.md#step-4-configure-asset-visibility).
 
 ## Systemmetadata
 
@@ -42,7 +42,7 @@ Vissa metadata för resurser samlas automatiskt in när en resurs överförs, ti
 
 När du lagrar en godkänd resurs i [!DNL Content] använder GenStudio for Performance Marketing Adobe AI och maskininlärningsfunktioner för att studera resursen och tillämpa taggar baserat på resursfunktionerna. En bild på en katt kan till exempel resultera i attributtaggar som `pet photography` eller `cat`, och färgtaggar som identifierar dominerande färger i bilden. Du kan inte redigera taggar som identifieras och används automatiskt.
 
-Se [!DNL Insights] [Attributkategorier](/help/user-guide/insights/attribute-category.md) för detaljerade listor över bild-, video- och textfunktioner.
+Se [!DNL Insights] [Attributkategorier](/help/user-guide/insights/attributes.md#categories) för detaljerade listor över bild-, video- och textfunktioner.
 
 ### Metadata för genererat innehåll
 
