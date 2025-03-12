@@ -4,9 +4,9 @@ description: Läs om GenStudio for Performance Marketing användarroller och beh
 level: Beginner
 feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
 exl-id: 33ebcf9c-e5f8-4011-b449-5f73d151f221
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: de1c54ceb4402d98fd3ae9bd129b26d6b4919681
 workflow-type: tm+mt
-source-wordcount: '1115'
+source-wordcount: '1133'
 ht-degree: 0%
 
 ---
@@ -17,13 +17,13 @@ Att skapa och driftsätta moderna marknadsföringskampanjer kräver samarbete me
 
 >[!NOTE]
 >
->Innan några användare etableras i de här rollerna måste en Adobe-systemadministratör utses i Adobe Admin Console för att kunna utföra engångsinstallationsuppgifter. Administratörsrollen för Adobe fungerar endast i Adobe Admin Console. Den har ingen roll i GenStudio for Performance Marketing plattformsgränssnitt. En systemadministratör i Adobe som behöver systemhanterarrättigheter måste etablera sig som GenStudio systemadministratör i Adobe Admin Console. Se [Etablera GenStudio for Performance Marketing](product-provisioning.md).
+>Innan någon användare etableras i dessa roller måste en Adobe-systemadministratör utses i Adobe Admin Console för att kunna utföra engångsinstallationsåtgärder. Den här Adobe-administratörsrollen fungerar endast i Adobe Admin Console. Den har ingen roll i GenStudio for Performance Marketing plattformsgränssnitt. En Adobe-systemadministratör som behöver systemhanterarrättigheter måste etablera sig som GenStudio-systemadministratör i Adobe Admin Console. Se [Etablera GenStudio for Performance Marketing](product-provisioning.md).
 
 ## Adobe systemadministratör jämfört med GenStudio systemadministratör
 
 Dessa användarrolltitlar kan se likadana ut, men de identifierar unika roller som ger berättiganden i olika miljöer.
 
-**Adobe-systemadministratörer** har avancerade användarbehörigheter i Adobe Admin Console och utför alla användarhanteringsåtgärder, som att lägga till eller ta bort användare. Den här systemadministratörsrollen ger inga privilegier i GenStudio for Performance Marketing-programmet, vilket förklarar varför Adobe systemadministratörer inte behöver någon licens för GenStudio. Systemadministratörer i Adobe använder vanligtvis Admin Console för att lägga till och ta bort användarkonton från GenStudio-distributioner och tilldela eller ta bort rättigheter, eller behörigheter, från enskilda användare eller användargrupper.
+**Adobe systemadministratörer** har avancerade användarbehörigheter i Adobe Admin Console och utför alla användarhanteringsåtgärder, som att lägga till eller ta bort användare. Den här systemadministratörsrollen ger inga privilegier i GenStudio for Performance Marketing-programmet, vilket förklarar varför Adobe systemadministratörer inte behöver någon licens för GenStudio. Adobe systemadministratörer använder vanligtvis Admin Console för att lägga till och ta bort användarkonton från GenStudio-distributioner och tilldela eller ta bort behörigheter, eller behörigheter, från enskilda användare eller användargrupper.
 
 **GenStudio systemhanterare** är avancerade användare i GenStudio for Performance Marketing men har inte behörighet att utföra åtgärder i Adobe Admin Console. Den här systemhanterarrollen kräver en GenStudio-produktlicens och motsvarar en Power-användare i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html). GenStudio systemhanterare har fullständig behörighet till GenStudio for Performance Marketing-funktioner, inklusive att [!DNL Brands], [!DNL Persona] och [!DNL Product] har skapats, tagits bort, uppdaterats och publicerats. [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) förklarar hur GenStudio användarroller relaterar till produktlicenser.
 
@@ -73,7 +73,9 @@ GenStudio systemhanterare kan ge redigerare behörighet att redigera och ta bort
 
 ### GenStudio medarbetare
 
-_Medarbetare_ kan visa resurser i GenStudio for Performance Marketing men inte skapa, redigera eller ta bort dessa resurser. Medarbetarna arbetar bland annat med intressenter som är viktiga för att gransknings- och godkännandeprocessen ska lyckas, men som inte behöver skapa eller redigera innehåll direkt. Juridiska experter och chefer för kreatörer är exempel på potentiella medarbetare. GenStudio for Performance Marketing medarbetare kan ha behörighet att skapa och visa resurser i andra Creative Cloud-produkter.
+_Medarbetare_ kan visa resurser i GenStudio for Performance Marketing men inte skapa, redigera eller ta bort dessa resurser. Medarbetare ser till exempel ett *Du har inte åtkomst till det här innehållet* när de försöker komma åt [[!DNL Create]](/help/user-guide/create/overview.md).
+
+Medarbetarna arbetar bland annat med intressenter som är viktiga för att gransknings- och godkännandeprocessen ska lyckas, men som inte behöver skapa eller redigera innehåll direkt. Juridiska experter och chefer för kreatörer är exempel på potentiella medarbetare. GenStudio for Performance Marketing medarbetare kan ha behörighet att skapa och visa resurser i andra Creative Cloud-produkter.
 
 I följande tabell visas standardbehörigheter för medarbetare:
 

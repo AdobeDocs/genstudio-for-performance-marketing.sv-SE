@@ -3,16 +3,16 @@ title: Översikt över GenStudio for Performance Marketing [!DNL Create]
 description: Generera snabbt högpresterande varumärkesanpassat innehåll med generativ AI i Adobe GenStudio for Performance Marketing [!DNL Create].
 feature: Create, Prompt, Guidelines, Experiences, Content Generation, Approval
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: ef4e6f48fe9aeffdd575dd83d49368cd438d62f2
+source-git-commit: 11d86ddddd1289c0bd198f21fe75a84b1459253e
 workflow-type: tm+mt
-source-wordcount: '599'
+source-wordcount: '617'
 ht-degree: 0%
 
 ---
 
 # GenStudio for Performance Marketing [!DNL Create]
 
-GenStudio for Performance Marketing [!DNL Create] utnyttjar Adobe GenAI för att ge marknadsförare och utspridda team möjlighet att skapa högpresterande varumärkesanpassade upplevelser.
+GenStudio for Performance Marketing [!DNL Create] utnyttjar kraften i Adobe GenAI för att ge marknadsförare och utspridda team möjlighet att skapa högpresterande varumärkesupplevelser.
 
 ![Skapa instrumentpanel](/help/assets/create.png){width="600" zoomable="yes"}
 
@@ -24,41 +24,76 @@ Med [!DNL Create] kan du generera innehåll för följande kanaler:
 
 Tillsammans med kraften i [guidelines](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] och [!DNL Personas]—[Content](/help/user-guide/content/overview.md), [Reviews and Approvals](/help/user-guide/approvals/overview.md) och [Insights](/help/user-guide/insights/overview.md) underlättar [!DNL Create] skapandet av slagkraftigt marknadsföringsmaterial.
 
+Redigerare och systemhanterare har fullständig åtkomst till [!DNL Create]. Mer detaljerad information om rollåtkomst finns i [Användarroller och behörigheter](/help/user-guide/user-roles.md).
+
 ## [!DNL Create] användningsfall
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Skapa nytt innehåll" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Skapa en e-postupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Skapa en Meta-annonsupplevelse" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> Skapa en annonsupplevelse i Meta </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Skapa en webbannonsupplevelse" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> Skapa en upplevelse av webbannonsering </strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 Med GenStudio for Performance Marketing kan marknadsförare **skapa nytt marknadsföringsinnehåll**. I det här fallet använder du definierade [riktlinjer](/help/user-guide/guidelines/overview.md) och inspirationsbilder för att skapa varumärkesanpassat innehåll.
@@ -79,7 +114,7 @@ I promptlådan kan du lägga till _parametrar_ som [!DNL Brands], [!DNL Products
 
 Dessa tillagda parametrar ger [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i genereringsprocessen, vilket säkerställer att innehållet är anpassat efter ett varumärkes heltäckande identitet. Vi rekommenderar att du lägger till riktlinjer i din GenStudio for Performance Marketing och använder dem när du skapar innehåll, eftersom de gör det betydligt enklare att skapa lämpligt varumärkesinnehåll.
 
-Innehåll - överfört eller tillagt bildresurser - i _Parametrar_ används i genererade varianter och informerar om kopieringsinnehållet (text) som genereras för varianter. Du kan överföra resurser eller välja resurser som redan finns i [!DNL Content] eller i anslutna AEM Content Hub-databaser.
+Innehåll - överfört eller tillagt bildresurser - i _Parametrar_ används i genererade varianter och informerar om kopieringsinnehållet (text) som genereras för varianter. Du kan överföra resurser eller välja resurser som redan finns i [!DNL Content] eller i en ansluten AEM Content Hub-databas.
 
 ### Fråga
 
