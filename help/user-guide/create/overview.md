@@ -112,3 +112,4 @@ Klicka på sorteringsikonerna (stödraster eller tabell) om du vill visa _Senast
 GenStudio for Performance Marketing ger [omfattande kontroll över sektioner av enskilda varianter](/help/user-guide/create/manage-variants.md).
 
 Du kan granska avsnitt i en enskild variant, generera om innehållet i enskilda avsnitt och använda föreslagna redigeringar för att förbättra meddelandet, storleksförändra resurser och mycket mer, allt på arbetsytan.
+
