@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '978'
+source-wordcount: '991'
 ht-degree: 1%
 
 ---
@@ -35,6 +35,8 @@ Om du vill skapa en ny e-postupplevelse kan du använda en tillgänglig mall fö
 
 Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i snabbredigeringsmodulen läggs innehållsgenereringsprocessen ovanpå och det är ett viktigt förberedelsesteg för att skapa en e-postupplevelse.
 
+Om du använder en mall med fördefinierade riktlinjer - [!DNL Brands], [!DNL Personas] eller [!DNL Products] - gäller dessa riktlinjer för dina varianter. Du kan ändra dem om du vill.
+
 **Så här lägger du till parametrar och resurser**:
 
 1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
@@ -54,9 +56,9 @@ Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och res
    * Du kan också dra och släppa resurser i avsnittet **[!UICONTROL Select from Content]** för att överföra en eller flera nya resurser.
 1. Klicka på **[!UICONTROL Use]**.
 
->[!NOTE]
->Om din e-postmall har flera avsnitt väljer du [!DNL Products] och innehåll (visuella resurser) för varje e-postavsnitt i _Fleravsnittsmeddelanden_. E-postmeddelanden med flera avsnitt har stöd för en visuell resurs per avsnitt. Du kan bara lägga till visuella resurser i e-postmeddelanden med flera avsnitt från [!DNL Content]. Du kan inte dra och släppa eller överföra resurser från den lokala källan.
->![Lägg till innehåll och parametrar för varje e-postavsnitt ](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
+   >[!NOTE]
+   >Om din e-postmall har flera avsnitt väljer du [!DNL Products] och innehåll (visuella resurser) för varje e-postavsnitt i _Fleravsnittsmeddelanden_. E-postmeddelanden med flera avsnitt har stöd för en visuell resurs per avsnitt. Du kan bara lägga till visuella resurser i e-postmeddelanden med flera avsnitt från [!DNL Content]. Du kan inte dra och släppa eller överföra resurser från den lokala källan.
+   >![Lägg till innehåll och parametrar för varje e-postavsnitt](/help/assets/parameters-multisection-email.png){width="450" zoomable="yes"}
 
 När du är klar med att lägga till parametrar kan du komprimera promptlådan genom att klicka på ikonen _Parametrar_ igen.
 
@@ -75,7 +77,7 @@ Som standard genereras och visas fyra varianter på arbetsytan, som alla föds a
 
 Genererat innehåll läses in stegvis - allt eftersom varje avsnitt i e-postupplevelsen genereras visas det på arbetsytan. Se [E-postupplevelser](/help/user-guide/create/meta-experiences.md#progressive-loading) om du vill veta hur ändringarna läses in på arbetsytan.
 
-## Granska genererade e-postmeddelanden
+## Ändra genererade varianter
 
 Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera e-postavsnitt eller ta bort en variant från uppsättningen genererade e-postmeddelanden.
 
@@ -85,7 +87,8 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 * **Om du vill [redigera ett e-postmeddelande manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av de redigerbara textfälten (till exempel ämnesraden, huvudet eller kopian) och redigerar efter behov
 * **Om du vill [ändra eller välja åtgärden Uppringning](/help/user-guide/create/manage-variants.md#revise-call-to-action)** klickar du på knappen för att ringa till åtgärd och väljer _[!UICONTROL Rephrase]_eller_[!UICONTROL Add link]_.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
-* **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på **[!UICONTROL Select/swap from content]** eller **[!UICONTROL Upload New Image]** för att lägga till eller byta ut en bild i en enskild variant.
+* **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
+* **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.
 * **Om du vill [ta bort ett e-postmeddelande](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du för att markera e-posttiteln (till exempel&quot;E-post 1/4&quot;) och klickar på **[!UICONTROL Delete variant]**.
 
 ## Skicka feedback
@@ -96,29 +99,23 @@ Klicka på alternativikonen (tre punkter) och välj **[!UICONTROL Good output]**
 
 När du granskar och förbereder e-postupplevelser kan du [växla mellan förhandsgranskningar för datorer och mobiler](/help/user-guide/create/manage-variants.md#preview-for-device) för att säkerställa att utkastvarianterna är konsekventa och visuella.
 
-## Verifiera varumärkesjustering
+## Verifiera justering av innehållskontroll
 
-Om du vill optimera de genererade e-postmeddelandena och säkerställa strikt efterlevnad av varumärkesidentiteten kan du utnyttja kraften i kontrollen [_Varumärkesriktlinjer_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) - som ger en sammanfattning av varumärkeskontraktionen för en variant - och [_Varumärkesvalidering_ ](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) - som visar omfattande information om varumärkesvalidering och belysande förbättringsområden.
+Om du vill optimera de genererade varianterna och säkerställa strikt efterlevnad av varumärkesidentitet, plattformsriktlinjer och tillgänglighetsstandarder, kan du utnyttja kraften i [_innehållskontrollpanelen_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Den här panelen visar omfattande detaljer för innehållskontroll och lyser upp förbättringsområden.
 
-**Så här verifierar du varumärkesjustering**:
+**Så här utför du innehållskontroller på en variant**:
 
-1. Klicka på ikonen [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) för en variant och se en sammanfattning av hur varianten fungerar när den kontrolleras mot ditt varumärke.
+1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att öppna panelen [_Innehållskontroll_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visa en sammanfattning av kontrollerna *Behöver granskas* och *Godkänd* för att se vilka avsnitt och riktlinjer som behöver förbättras.
 
-   ![Kontroll av varumärkesriktlinjer](/help/assets/brand-guidelines-check.png){width="350" zoomable="yes"}
+   ![_Innehållskontroll_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. Klicka **[!UICONTROL Review]** _eller_ på valideringsikonen för varumärket i den övre menyraden för att öppna [_Varumärkesvalideringspanelen_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) om du vill ha information om de avsnitt och riktlinjer som behöver förbättras.
-
-1. Växla mellan e-postmeddelanden för att se hur ni kan förbättra det genererade innehållet så att det blir mer varumärkesanpassat.
-
-   ![Panelen för varumärkesvalidering](/help/assets/brand-validation-panel.png){width="600" zoomable="yes"}
-
-1. [Granska e-postmeddelanden manuellt](#revise-generated-emails) för att säkerställa att dina e-postmeddelanden är i linje med ditt varumärke.
+1. [Granska varianter](#revise-generated-variants) manuellt för att se till att dina varianter är nära justerade med de utförda innehållskontrollerna.
 
 Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).
 
 ## Få recensioner och godkännanden
 
-Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan, för att få granskningskommentarer, spåra granskningskommentarer och få godkännanden från intressenter.
+Använd panelen Godkännanden, som finns som en ikon i det högra åtgärdsfältet på arbetsytan, för att få granskningar, spåra granskningskommentarer och få godkännanden från intressenter.
 
 **Så här får du granskningar och godkännanden**:
 
@@ -129,12 +126,12 @@ Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan,
 
 Mer information finns i [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 
-## Publish och exportupplevelser
+## Publicera och exportera
 
 Om du vill göra de genererade e-postmeddelandena tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya e-postupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
 1. **Om du vill exportera dina nya e-postupplevelser** klickar du på **[!UICONTROL Export]** i det övre verktygsfältet.
-   1. Markera formatet (endast CSV och bilder eller HTML) och klicka på **[!UICONTROL Export]**.
+   1. Välj format - CSV och bilder eller endast HTML - och klicka på **[!UICONTROL Export]**.
 
 Mer information finns i [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).

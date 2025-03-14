@@ -3,9 +3,9 @@ title: Attribut - översikt
 description: Lär dig hur du utvärderar prestandan för specifika attribut i Adobe GenStudio for Performance Marketing.
 feature: Insights, Attributes
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 4284026bf14d58eecb547d80b4bdae6ac0422078
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
-source-wordcount: '835'
+source-wordcount: '815'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ Vyn [!DNL Insights] _[!UICONTROL Attributes]_visar en lista med attribut som anv
 
 Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
-Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja mellan [!UICONTROL Account] och [!UICONTROL Attribute category] för att filtrera attributen i tabellen. I följande exempel visas en lista med attribut i kategorin `Lighting Condition`. Klicka på **Återställ** om du vill ta bort alla filterval.
+Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Markera **[!UICONTROL Clear all]** ovanför tabellen om du vill ta bort alla filter.
 
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -26,23 +26,23 @@ Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONT
 
 ## Attributinformation
 
-Attribut hjälper till att identifiera resurser genom deras inneboende detaljer, som färg, komposition, visuella element och andra egenskaper.
+Attribut hjälper till att identifiera [media](media.md#media-details) med hjälp av deras inneboende detaljer, som färg, komposition, visuella element och andra egenskaper.
 
-I vyn för attributdetaljer kan du se vilka upplevelser som använder det valda attributet. Detaljerna innehåller totala attributprestanda och en uppdelning av prestandamätningarna för varje upplevelse.
+I vyn för attributinformation kan du se vilka annonser som använder det valda attributet. Detaljerna innehåller totala attributprestanda och en uppdelning av resultatvärdena för varje annons.
 
 ![Attribut för prestandamått](/help/assets/insights-attribute-details.png){zoomable="yes"}
 
-GenStudio for Performance Marketing identifierar vissa funktioner och använder rätt attribut för en resurs eller upplevelse som en tagg. Se [Kategorier](#categories) om du vill se exempel på de här taggarna. Om du vill visa alla attribut som är kopplade till en upplevelse klickar du på inställningsikonen (cog) ovanför den högra sidan av tabellen för att markera kolumnen **[!UICONTROL Attributes]**.
+GenStudio for Performance Marketing identifierar vissa funktioner och använder rätt attribut för mediainnehåll eller annons som en tagg. Exempel på de här taggarna finns i [Kategorier](#categories). Om du vill visa alla attribut som är kopplade till en annons klickar du på inställningsikonen (cog) ovanför den högra sidan av tabellen för att markera kolumnen **[!UICONTROL Attributes]**.
 
 ## Kategorier
 
-En attributkategori är en klassificeringsgrupp som organiserar relaterade attribut som har en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
+Ett attribut _kategori_ är en klassificeringsgrupp som organiserar relaterade attribut som delar en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
 
-GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera [bilder](image-features.md), [videor](video-features.md) och text och tillämpa [!UICONTROL Asset attributes] baserat på sannolikheten för att de ska vara korrekta.
+GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera [bilder](image-features.md), [videor](video-features.md) och text och tillämpa [!UICONTROL Media attributes] baserat på sannolikheten för att de ska vara korrekta.
 
-Den identifierade attributlistan för en resurs är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI. Följande bild innehåller till exempel flera identifierade bildattribut, inklusive flera objekt, för- och bakgrundsfärger.
+Den identifierade attributlistan för mediainnehåll är inte uttömmande. Media som innehåller många funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI. Följande bild innehåller till exempel flera identifierade bildattribut, inklusive flera objekt, för- och bakgrundsfärger.
 
-![bildresursattribut](/help/assets/category/asset-attributes.png "Toucan-bilden innehåller flera identifierade attribut"){width="300" zoomable="yes"}
+![bildattribut](/help/assets/category/asset-attributes.png "Toucan-bilden innehåller flera identifierade attribut"){width="300" zoomable="yes"}
 
 >[!INFO]
 >
@@ -52,7 +52,7 @@ Den identifierade attributlistan för en resurs är inte uttömmande. Assets som
 
 Insikter kan hjälpa er att utvärdera vilka attribut som inspirerar till mer kundengagemang.
 
-Följande tabell innehåller definitioner och insikter för viktiga mätvärden för digital marknadsföring i tabellvyn [!UICONTROL Attributes]. Varje mätvärde innehåller en kort definition av vad den avser en mediefil, hur mätvärdet beräknas och en eller flera insikter som hjälper till att förstå dess betydelse och påverkan på en annonskampanj.
+Följande tabell innehåller definitioner och insikter för viktiga mätvärden för digital marknadsföring i tabellvyn [!UICONTROL Attributes]. Varje mätvärde innehåller en kort definition vad gäller attribut, hur mätvärdet beräknas och en eller flera insikter som hjälper till att förstå dess betydelse och påverkan på en annonskampanj.
 
 | Mått | Definition | Insikt |
 | ---------------------- | ----------------------------- | -------------------------------- |

@@ -4,9 +4,9 @@ description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudi
 level: Intermediate
 feature: Templates, Content
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: eb7f19ebc0854db3a33599b56c857875ee67982b
 workflow-type: tm+mt
-source-wordcount: '1278'
+source-wordcount: '1439'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,6 @@ Du kan anpassa en mall för användning i GenStudio for Performance Marketing ge
 
 I de följande avsnitten beskrivs hur du anpassar dina HTML-mallar för GenStudio for Performance Marketing med hjälp av mallspråket _[!DNL Handlebars]_. Syntaxen [!DNL Handlebars] använder vanlig text med dubbla klammerparenteser som innehållsplatshållare. Se [Vad är  [!DNL Handlebars]](https://handlebarsjs.com/guide/#what-is-handlebars) i_ Handlebars språkguide _om du vill lära dig hur du förbereder mallen.
 
-
 När mallen är klar kan du [överföra den till GenStudio for Performance Marketing](use-templates.md#upload-a-template) och börja generera anpassade e-postmeddelanden baserat på din anpassade mall.
 
 >[!TIP]
@@ -26,35 +25,38 @@ När mallen är klar kan du [överföra den till GenStudio for Performance Marke
 
 ## Platshållare för innehåll
 
-GenStudio for Performance Marketing känner igen vissa [element](use-templates.md#template-elements) i en mall, men bara om du identifierar dem med ett känt fältnamn.
+GenStudio for Performance Marketing känner igen vissa [element](use-templates.md#template-elements) i en mall, men bara om du identifierar dem med ett [igenkänt fältnamn](#recognized-field-names).
 
-I mallens huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] som en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar platshållarna för innehåll baserat på det [identifierade _fältnamnet_](#recognized-field-names).
+I en HTML-malls huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] för att infoga en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar platshållarna för innehåll baserat på det [identifierade _fältnamnet_](#recognized-field-names).
 
-Du kan till exempel använda `{{ headline }}` med syntaxen [!DNL Handlebars] för att ange var rubriken i e-postmeddelandet ska placeras:
+Du kan till exempel använda `{{ headline }}` med syntaxen [!DNL Handlebars] för att ange var rubriken i e-postmeddelandet ska placeras. GenStudio känner igen det här fältet, genererar en rubrik baserad på dina riktlinjer och frågekriterier och infogar rubriken här:
 
 ```handlebars
-<div>{{headline}}</div>
+<div>{{ headline }}</div>
 ```
 
 ### Identifierade fältnamn
 
-I följande tabell visas de fältnamn som GenStudio for Performance Marketing har identifierat för ifyllning i mallar. Lägg till de här fältnamnen med syntaxen [!DNL Handlebars] i mallen där du behöver GenStudio for Performance Marketing för att generera innehåll.
+I följande tabell visas de fältnamn som GenStudio for Performance Marketing känner igen för att lägga till en platshållare i en mall. Lägg till de här fältnamnen med syntaxen [!DNL Handlebars] i mallen där du behöver GenStudio for Performance Marketing för att generera en viss typ av innehåll.
 
 | Fält | Roll | Kanalmall |
-| ------------------ | ---------------------- | -------------------------------- |
+| ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Förrubrik | e-post |
-| `{{headline}}` | Headline | e-post <br>Meta ad <br> Visa annons |
-| `{{body}}` | Body copy | e-post <br>Meta ad <br> Visa annons |
-| `{{cta}}` | Uppmaning | e-post <br>Meta ad <br> Visa annons |
-| `{{on_image_text}}` | På bildtext | Meta ad |
-| `{{image}}` | Bild - välj från innehåll | e-post <br>Meta ad <br> Visa annons |
-| `{{brand_logo}}` | Logotyp för markerat varumärke<br>Se [Fältnamn för logotyp för varumärke](#brand-logo-field-name) för rekommenderad användning. | e-post<br>Meta ad |
+| `{{headline}}` | Headline | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{introductory_text}}` | Introduktionstext | LinkedIn och |
+| `{{body}}` | Body copy | e-post <br>Meta ad <br>Banner and Display ad |
+| `{{cta}}` | Uppmaning | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{image}}` | Bild - välj från [!DNL Content] | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{on_image_text}}` | På bildtext | Meta ad <br>LinkedIn ad |
+| `{{link}}` | Anrop till åtgärd på bild<br>Se [Länka till bild](#link-on-image). | e-post |
+| `{{brand_logo}}` | Logotyp för markerat varumärke<br>Se [Fältnamn för logotyp för varumärke](#brand-logo-field-name). | e-post<br>Meta och <br>LinkedIn |
 
 GenStudio for Performance Marketing fyller i vissa fält automatiskt i följande mallar:
 
 - **E-postmallen** kräver inte att du identifierar fältet `subject`
-- Mallen **Metaannonser** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
-- **Mallen för visningsannonser** kräver inte att du identifierar fältet `CTA`
+- **Meta ad-mallen** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
+- **Banderoll och mall för visningsannons** kräver inte att du identifierar fältet `CTA`
+- **LinkedIn-annonsmallar** kräver inte att du identifierar fälten `headline`, `introductory_text` och `CTA`
 
 >[!WARNING]
 >
@@ -65,64 +67,6 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 >[!TIP]
 >
 >Du kan verifiera mallen med [mallförhandsgranskning](#template-preview) i GenStudio for Performance Marketing.
-
-#### Fältnamn för märkeslogotyp
-
-För närvarande kan du inte välja logotypen för mallöverföringen. I följande exempel visas två metoder som villkorligt återger varumärkeslogotypen. Varje metod verifierar källan, ger en standardbild eller alternativ bild om logotypen inte är tillgänglig och använder en stil:
-
-**Exempel 1**: Använder [!DNL Handlebars] villkor för inbyggda hjälpredor direkt i HTML-attributet `img src`:
-
-```html
-<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
-```
-
-**Exempel 2**: Använder [!DNL Handlebars] inbyggd villkorssats för att kapsla in HTML-taggen `img`:
-
-```handlebars
-{{#if brand_logo}}
-    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-    {{else}}
-    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
-{{/if}}
-```
-
-#### Manuella fältnamn
-
-Alla andra fältnamn behandlas som manuellt ifyllda fält.
-
-Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser runt avsnittsnamnet:
-
-```handlebars
-{{customVariable}}
-```
-
-### Avsnitt eller grupper
-
-_Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
-
-Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`). Följande rubrik och brödtext tillhör till exempel avsnittet `pod1`:
-
-- `pod1_headline`
-- `pod1_body`
-
-Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält. På grund av den här regeln kan avsnitten inte kapslas.
-
-Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
-
-En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
-
-- `pre-header`
-- `pod1_headline`
-- `pod1_body`
-- `pod2_headline`
-- `pod2_body`
-- `pod3_headline`
-- `pod3_body`
-- `cta`
-
-GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
-
-Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om du vill lära dig hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande.
 
 ### Utmaningar
 
@@ -150,13 +94,94 @@ Använd följande vägledning för att konfigurera CTA-platshållare:
 
 GenStudio for Performance Marketing kan även tillhandahålla olika uppmaningar att vidta åtgärder. Se [Ändra uppmaning](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
+### Länka till bild
+
+Du kan anpassa din e-postmall så att andra kan lägga till en länk till en bild. På samma sätt som för länken CTA använder du följande vägledning för att tillämpa en `link`-platshållare för en bildtagg:
+
+```html
+<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+```
+
+I detta exempel:
+
+- `{{link}}` är en platshållare för den faktiska URL:en.
+- `src="image-source.jpg"` ska ersättas med den faktiska URL-adressen för bildkällan.
+- `alt="description"` innehåller en alternativ text för bilden, vilket är användbart för hjälpmedel och SEO.
+
+### Fältnamn för märkeslogotyp
+
+För närvarande kan du inte välja logotypen för mallöverföringen. I följande exempel visas två metoder som villkorligt återger varumärkeslogotypen. Varje metod verifierar källan, ger en standardbild eller alternativ bild om logotypen inte är tillgänglig och använder en stil:
+
+**Exempel 1**: Använder [!DNL Handlebars] villkor för inbyggda hjälpredor direkt i HTML-attributet `img src`:
+
+```html
+<img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
+```
+
+**Exempel 2**: Använder [!DNL Handlebars] inbyggd villkorssats för att kapsla in HTML `img` -taggen:
+
+```html
+{{#if brand_logo}}
+    <img src="{{brand_logo}}" alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+    {{else}}
+    <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
+{{/if}}
+```
+
+### Manuella fältnamn
+
+Alla andra fältnamn behandlas som manuellt ifyllda fält. Du kanske vill reservera ett avsnitt för sidfotsinnehåll.
+
+Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser runt avsnittsnamnet:
+
+```html
+<tbody>
+    <tr>
+        <td>
+            <p><span class="s1">{{ footerLegal }}</span></p>
+        </td>
+    </tr>
+</tbody>
+```
+
+## Avsnitt eller grupper
+
+_Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
+
+Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`). Följande rubrik och brödtext tillhör till exempel avsnittet `pod1`:
+
+- `pod1_headline`
+- `pod1_body`
+
+Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält. På grund av den här regeln kan avsnitten inte kapslas.
+
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+
+En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
+
+- `pre_header`
+- `pod1_headline`
+- `pod1_body`
+- `pod2_headline`
+- `pod2_body`
+- `pod3_headline`
+- `pod3_body`
+- `cta`
+
+GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
+
+Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande med flera avsnitt.
+
+
 ## Förhandsgranska mall
 
-När du [överför en mall](use-templates.md#upload-a-template) söker GenStudio for Performance Marketing igenom filen HTML efter identifierade fält. Använd förhandsgranskningen för att granska dina [mallelement](use-templates.md#template-elements) och bekräfta att du har identifierat dem korrekt med de [igenkända fältnamnen](#recognized-field-names).
+När du [överför en mall](use-templates.md#upload-a-template) söker GenStudio for Performance Marketing igenom HTML-filen efter identifierade fält. Använd förhandsgranskningen för att granska dina [mallelement](use-templates.md#template-elements) och bekräfta att du har identifierat dem korrekt med de [igenkända fältnamnen](#recognized-field-names).
 
 Exempel på Förhandsgranska för en e-postmall:
 
-![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png){width="650"}
+![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){zoomable="yes"}
+
+Se [Mallkodredigerare](/help/user-guide/content/code-editor.md).
 
 ### Förhandsgranska kontroll
 
@@ -172,7 +197,7 @@ Värdet `_genStudio.browser` anges när en mall återges och värdet `genStudio.
 
 Ett annat exempel kan vara att förhindra att spårningskoder används när en mall förhandsgranskas i GenStudio for Performance Marketing. I följande exempel visas hur du lägger till spårningsparametrar till länkar i den exporterade mallen, samtidigt som du håller förhandsgranskningslänkarna rena:
 
-```handlebars
+```html
 <a class="button" {{#if _genStudio.browser }}
    href="{{ link }}"{{/if}}{{#if _genStudio.export }}
    href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
@@ -193,9 +218,9 @@ Om källan ändras efter att den inledande förhandsgranskningen har skapats anv
 
 +++Exempel: E-postmall med ett avsnitt
 
-Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddelande som innehåller ett avsnitt. Huvudet innehåller enkel, infogad CSS för formatering. Innehållet innehåller en `pre-header`, `headline` och `image` [platshållare](#content-placeholders) som GenStudio for Performance Marketing kan använda för att mata in innehåll under e-postgenereringsprocessen.
+Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddelande som innehåller ett avsnitt. Huvudet innehåller enkel, infogad CSS för formatering. Innehållet innehåller en `pre_header`, `headline` och `image` [platshållare](#content-placeholders) som GenStudio for Performance Marketing kan använda för att mata in innehåll under e-postgenereringsprocessen.
 
-```handlebars {line-numbers="true" highlight="13"}
+```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -211,10 +236,11 @@ Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddela
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
+        <p><a href="{{ link }}">
+           <img alt="{{ headline }}"
                 src="{{ image }}"
                 width="600" height="600"
-                border="0"/></p>
+                border="0"/></a></p>
         <p>{{ body }}</p>
     </div>
 </body>
@@ -227,7 +253,7 @@ Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddela
 
 Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt. Huvudet innehåller infogad CSS för att formatera en grupp. Brödtexten använder två grupper med [platshållare för innehåll](#content-placeholders) som använder ett prefix.
 
-```handlebars {line-numbers="true" highlight="33"}
+```html
 <!DOCTYPE html>
 <html>
 <head>
@@ -255,20 +281,18 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
 <body>{{ pre_header }}
     <div class="container">
         <h1>{{ headline }}</h1>
-        <p><img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></p>
         <p>{{ body }}</p>
-    <!-- Pod1 -->
+        <!-- Pod1 -->
         <div class="pod">
-            <h2>{{ pod1_header }}</h2>
+            <h2>{{ pod1_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod1_body }}</p>
         </div>
         <!-- End of Pod1 -->
-    <!-- Pod2 -->
+        <!-- Pod2 -->
         <div class="pod">
-            <h2>{{ pod2_header }}</h2>
+            <h2>{{ pod2_headline }}</h2>
+            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
             <p>{{ pod2_body }}</p>
         </div>
         <!-- End of Pod2 -->
@@ -283,7 +307,7 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
 
 Följande är ett grundläggande exempel på en Meta-annonsmall. Huvudet innehåller infogad CSS för formatering. Brödtexten använder [platshållare för innehåll](#content-placeholders) med ett prefix.
 
-```handlebars {line-numbers="true" highlight="33"}
+```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
 <head>
@@ -324,9 +348,9 @@ Följande är ett grundläggande exempel på en Meta-annonsmall. Huvudet innehå
 <body>
 <div class="ad-container">
     <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">"{{ headline }}"</div>
-    <div class="ad-body">"{{ body }}"</div>
-    <a href="(https://example.com)" class="ad-cta">"{{ CTA }}"</a>
+    <div class="ad-headline">{{ headline }}</div>
+    <div class="ad-body">{{ body }}</div>
+    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
 </div>
 </body>
 </html>

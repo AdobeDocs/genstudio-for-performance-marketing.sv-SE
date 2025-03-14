@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content, Assets, Experiences
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '1277'
+source-wordcount: '1290'
 ht-degree: 0%
 
 ---
@@ -18,9 +18,9 @@ Adobe GenStudio for Performance Marketing [!DNL Content] förenklar och förbät
 
 I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
 
-Följande visar en sökning på termen `dog` i galleriet [!UICONTROL Assets]:
+Följande visar en sökning på termen `space` i galleriet [!UICONTROL Assets]:
 
-![Assets-vy med sökning på hund](/help/assets/content-assets.png)
+![Assets-vy med sökning på space](/help/assets/content-assets-filter.png "Söka efter resurser med space-attribut")
 
 ### Sök innehåll
 
@@ -57,7 +57,7 @@ Som standard lagras resurser som du lägger till i [!DNL Content] genom [!DNL Cr
 
 I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_till höger kan du välja mellan anslutna Adobe Experience Manager-databaser (AEM) [!DNL Assets Content Hub].
 
-![Platslista för databaser](../../assets/content-location-selection.png){width="350"}
+![Platslista för databaser](/help/assets/content-location-selection.png "Välj en innehållsdatabas"){width="350"}
 
 När du väljer en AEM-databas visar galleriet en inventering av resurser från den databasen, vilket gör att du kan använda godkända resurser från dessa databaser som indata när du skapar innehåll. Filteralternativen ändras så att de återspeglar de kategorier som konfigurerats i [!DNL AEM Assets Content Hub].
 
@@ -89,7 +89,7 @@ I följande tabell visas de hanteringsåtgärder som är tillgängliga för resu
 
 När du lägger till resurser i [!DNL Content] lagras de som standard i databasen `GenStudio assets`. Knappen _[!UICONTROL Add assets]_är bara tillgänglig när_[!UICONTROL Location]_ är `GenStudio assets`-databasen.
 
-![Platsfält](../../assets/content-location.png){width="350"}
+![Platsfält](/help/assets/content-location.png "Platsfält"){width="350"}
 
 **Så här lägger du till en eller flera resurser**:
 
@@ -146,7 +146,7 @@ Du kan exportera en godkänd upplevelse för aktivering i ett format som är kom
 1. Välj ett av de tillgängliga formaten i popup-fönstret _Exportera för aktivering_:
 
    - E-post: `HTML`, `CSV`
-   - Meta- och visningsannonser: `HTML`, `JPEG`, `PNG`
+   - Meta, Banner och Display ad: `HTML`, `JPEG`, `PNG`
 
 Se [Aktivering](/help/user-guide/activation/overview.md).
 

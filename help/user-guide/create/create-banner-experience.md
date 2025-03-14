@@ -1,42 +1,40 @@
 ---
-title: Skapa en webbannonsupplevelse
-description: Lär dig hur du skapar webbannonsupplevelser i Adobe [!DNL GenStudio] för Performance Marketing.
+title: Skapa en banderollupplevelse
+description: Lär dig hur du skapar banderollupplevelser i Adobe [!DNL GenStudio] för Performance Marketing.
 feature: Brands Service, Guidelines, Content Generation, Generative AI, Create, Experiences, Variant Generation
+badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 role: User
 level: Beginner
 recommendations: noDisplay
-exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '948'
 ht-degree: 0%
 
 ---
 
-# Skapa en webbannonsupplevelse
+# Skapa en banderollupplevelse
 
-I den här självstudiekursen visas hur du skapar profilerade [displayannonsupplevelser](display-ad-experiences.md) med GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (penselikonen i det vänstra navigeringsområdet).
+I den här självstudiekursen visas hur du skapar [banderollupplevelser](banner-experiences.md) med GenStudio for Performance Marketing [[!DNL Create]](/help/user-guide/create/overview.md) (penselikonen i det vänstra navigeringsområdet).
 
-Om du vill skapa en övertygande webbannonsupplevelse rekommenderar vi att du [lägger till riktlinjer i GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) och läser [grunderna för skrivfrågor](/help/user-guide/effective-prompts.md) innan du börjar.
+Om du vill skapa en engagerande banderollupplevelse rekommenderar vi att du [lägger till riktlinjer i GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md) och tittar på [grunderna för skrivfrågor](/help/user-guide/effective-prompts.md) innan du börjar.
 
 ## Välj en mall
 
-Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om visningsannonsdimensioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för att skapa ramverket för ditt innehåll. Mer information om vilka bannerdimensioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
-**Så här väljer du en visningsannonsmall**:
+**Så här väljer du en banderollmall**:
 
-1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Display ads]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
-1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
+1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Banners]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
+1. Använd sökalternativet bredvid _Filter_ för att hitta en viss banderollmall.
+1. Klicka på en banderollmall i vyn _Välj mall_.
 1. Klicka på **[!UICONTROL Use]**.
 
-   Arbetsytan, som fungerar som nav för att skapa innehåll, visas.
+   Arbetsytan, som är startsida för att skapa innehåll, visas.
 
 ## Lägg till parametrar
 
-Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i snabbredigeraren läggs innehållsgenereringsprocessen ovanpå och det är ett viktigt förberedelsesteg för att generera en visningsupplevelse.
-
-Om du använder en mall med fördefinierade riktlinjer - [!DNL Brands], [!DNL Personas] eller [!DNL Products] - gäller dessa riktlinjer för dina varianter. Du kan ändra dem om du vill.
+När [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser infogas i _Parametrar_ i snabbredigeringsmodulen förbättras innehållsgenereringsprocessen och det är ett viktigt förberedelse för att skapa en banderollupplevelse.
 
 **Så här lägger du till parametrar och resurser**:
 
@@ -57,7 +55,7 @@ När du är klar med att lägga till parametrar komprimerar du promptlådan geno
 
 ## Ange en uppmaning
 
-När du har valt riktlinjer kan du snabbt skapa innehåll för den nya webbannonsupplevelsen med hjälp av det naturliga språket. För att förbättra kvaliteten på den genererade webbannonsupplevelsen är det viktigt att skapa detaljerade och beskrivande uppmaningar.
+När du har valt riktlinjerna kan du använda det naturliga språket för att skapa en uppmaning om att starta innehållsgenereringen för din nya banderollupplevelse. För att säkerställa högkvalitativa resultat är det viktigt att skapa detaljerade och beskrivande uppmaningar.
 
 ![Ange en fråga](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
@@ -70,14 +68,14 @@ Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du 
 
 Som standard genereras och visas fyra varianter på arbetsytan, som följs av uppmaningen, riktlinjer och innehåll som du har lagt till.
 
-## Ändra genererade varianter
+## Ändra genererade banners
 
-Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera visnings- och textavsnitt eller ta bort en genererad variant.
+Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera banderollavsnitt och textfält eller ta bort en genererad variant.
 
 **Så här granskar du genererade varianter**:
 
-* **Om du vill [redigera namnet för visning och utkast](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
-* **Om du vill [redigera en visningsannons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** dubbelklickar du i något av avsnitten eller fälten i displayannonsen (t.ex. ämnesraden, huvudet eller brödtexten) och redigerar efter behov.
+* **Om du vill [redigera namnet på banderollutkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
+* **Om du vill [redigera en banderoll manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** dubbelklickar du i något av banderollavsnitten eller fälten (till exempel rubriken eller CTA) och redigerar efter behov.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny uppmaning i [!UICONTROL Generate new text_ section] och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
 * **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.
@@ -98,7 +96,7 @@ Om du vill optimera de genererade varianterna och säkerställa strikt efterlevn
 
 **Så här utför du innehållskontroller på en variant**:
 
-1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att öppna panelen [_Innehållskontroll_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visa en sammanfattning av kontrollerna *Behöver granskas* och *Godkänd* för att se vilka avsnitt och riktlinjer som behöver förbättras.
+1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att öppna panelen [_Innehållskontroll_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visa en sammanfattning av kontrollerna _Behöver granskas_ och _Godkänd_ för att se vilka avsnitt och riktlinjer som behöver förbättras.
 
    ![_Innehållskontroll_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
@@ -108,28 +106,28 @@ Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).
 
 ## Få recensioner och godkännanden
 
-Använd panelen Godkännanden, som finns som en ikon i det högra åtgärdsfältet på arbetsytan, för att få granskningar, spåra granskningskommentarer och få godkännanden från intressenter.
+Använd panelen _Godkännanden_, som du kommer åt som en ikon i det högra åtgärdsfältet på arbetsytan, för att hämta granskningskommentarer, spåra granskningskommentarer och få godkännanden från intressenter.
 
 **Så här får du granskningar och godkännanden**:
 
-1. [Starta en godkännandebegäran](/help/user-guide/approvals/request-review.md) för att begära ett [godkännande av utkast till displayannonsupplevelser](/help/user-guide/approvals/approve-content.md).
+1. [Starta en godkännandebegäran](/help/user-guide/approvals/request-review.md) för att begära ett [godkännande av utkast till banderollupplevelser](/help/user-guide/approvals/approve-content.md).
 1. [Ta bort eller lägg till granskare](/help/user-guide/approvals/review-and-edit.md#manage-approvals) under granskningsprocessen.
 1. [Få åtkomst till innehållet för granskning](/help/user-guide/approvals/review-and-edit.md#access-content-for-review) och visa begäranden om revision.
-1. Redigera utkasten per granskningskommentarer och [publicera dina webbannonsupplevelser](#publish-and-export-experience).
+1. Redigera utkasten per granskningskommentarer och [publicera dina banderollupplevelser](#publish-and-export-experience).
 
 Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 
 ## Publicera och exportera
 
-Om du vill göra de genererade webbannonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
+Om du vill göra de genererade banderollerna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
-1. **Om du vill publicera dina nya visningsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
+1. **Om du vill publicera dina nya banderollupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
    1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
-      ![Publicera en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
+      ![Publicera en banderoll](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Klicka **[!UICONTROL Export]**i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser**.
+1. **Om du vill exportera dina nya banderoller** klickar du på **[!UICONTROL Export]** i det övre verktygsfältet.
    1. Markera formatet - HTML och bilder, PNG eller JPG - och klicka på **[!UICONTROL Export]**.
 
       Exporterad HTML ska placeras i en fördefinierad webbegenskap, som en mall eller en `div`-behållare. Utan dessa angivna mått kan bilderna se förvrängda ut när de visas oberoende av varandra.

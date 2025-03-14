@@ -5,7 +5,8 @@ feature: Insights, Attributes, Generative AI
 hide: true
 hidefromtoc: true
 recommendations: noDisplay, noCatalog
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+exl-id: 7b81b0ae-0c62-468f-965c-fd8070644fb3
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
 source-wordcount: '445'
 ht-degree: 0%
@@ -16,7 +17,7 @@ ht-degree: 0%
 
 Textfunktioner inkluderar antal för vissa textelement, t.ex. ord, meningar, känslolägesikoner och klassificeringar för semantik, känslor och ton som används för analys med [!DNL Insights]. Texten kan också få ett läsbarhetspoäng.
 
-GenStudio for Performance Marketing använder Adobe AI och maskininlärningsfunktioner för att studera text och tillämpa [!UICONTROL Asset attributes] baserat på tillhörande texttoner och berättande om marknadsföring. Processen validerar indatatexten så att den innehåller alfanumeriska tecken, tar bort extra blanksteg och tecken som inte går att skriva ut samt kortar av texten till maximalt tillåtna 1 500 ord. Innan du använder identifierade attributtaggar förutser AI den vanliga tonen.
+GenStudio for Performance Marketing använder Adobe AI och maskininlärningsfunktioner för att studera text och tillämpa [!UICONTROL Media attributes] baserat på tillhörande texttoner och berättande om marknadsföring. Processen validerar indatatexten så att den innehåller alfanumeriska tecken, tar bort extra blanksteg och tecken som inte går att skriva ut samt kortar av texten till maximalt tillåtna 1 500 ord. Innan du använder identifierade attributtaggar förutser AI den vanliga tonen.
 
 ## Ton
 
@@ -52,7 +53,7 @@ Andra sekundära värden för ton är: `Enthusiastic`, `Assertive`, `Humorous/Wi
 
 ## Berättande
 
-Med de berättande attributen kan du identifiera resurser som förmedlar de värden, syften eller identiteter som får gensvar till målgruppen.
+Med de berättande attributen kan du identifiera medier som förmedlar de värden, syften och identiteter som ligger till grund för målgruppen.
 
 | Berättande | Beskrivning | Exempel |
 | ----------------- | ----------- | ------- |

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1020'
+source-wordcount: '1071'
 ht-degree: 0%
 
 ---
@@ -34,6 +34,8 @@ Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillg
 ## Lägg till parametrar
 
 Genom att lägga till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i promptlådan förbättras innehållsgenereringsprocessen och det är ett viktigt steg när det gäller att förbereda sig för att generera en Meta-annons.
+
+Om du använder en mall med fördefinierade riktlinjer - [!DNL Brands], [!DNL Personas] eller [!DNL Products] - gäller dessa riktlinjer för dina varianter. Du kan ändra dem om du vill.
 
 **Så här lägger du till parametrar och resurser**:
 
@@ -73,13 +75,13 @@ Genererat innehåll läses in stegvis - allt eftersom varje avsnitt i metaupplev
 
 ## Välj kanal för Meta-annonser
 
-När du skapar en Meta-annons kan du välja mellan Facebook- eller Instagram-annonser.
+När du genererar en Meta-annons kan du välja mellan Facebook- eller Instagram-annonser.
 
 Växla kanalalternativet Meta-annonser - mellan **Facebook** och **Instagram** - på den högra menyraden (Facebook- och Instagram-ikoner) för att visa och hantera varianter för varje kanal.
 
-När du [ändrar metadataannonserna](#revise-generated-meta-ads) kan du ändra proportionerna för Facebook- och Instagram-annonser.
+När du [ändrar metadataannonserna](#revise-generated-variants) kan du ändra proportionerna för Facebook- och Instagram-annonser.
 
-## Revidera genererade Meta-annonser
+## Ändra genererade varianter
 
 Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera Meta-annonserna eller ta bort en variant från uppsättningen med genererade annonser.
 
@@ -90,33 +92,33 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 sidhuvud eller brödtext) och redigera efter behov.
 * **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. I _Länk_ anger du en URL för texten som anropar till åtgärd.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
+* **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
+* **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
 * **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering.
-* **Om du vill [ta bort en Meta-annons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på annonsrubriken (till exempel &quot;Meta 4&quot;) och sedan på **[!UICONTROL Delete variant]**.
+* **Om du vill [ta bort en metaannons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på alternativmenyn för en variant och sedan på **[!UICONTROL Delete variant]**.
 
 ## Skicka feedback
 
 Klicka på alternativikonen (tre punkter) och välj **[!UICONTROL Good output]** eller **[!UICONTROL Poor output]** om du vill [skicka feedback](/help/user-guide/create/manage-variants.md#generation-feedback) om kvaliteten på genereringsutdata.
 
-## Verifiera varumärkesjustering
+## Verifiera justering av innehållskontroll
 
-Om du vill optimera de annonser som skapas och säkerställa strikt överensstämmelse med varumärkesidentiteten kan du utnyttja kraften i kontrollen [_Varumärkesriktlinjer_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) - som ger en sammanfattning av varumärkesjusteringen för en variant - och [_Varumärkesvalidering_ ](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) - och visa omfattande information om varumärkesvalidering och belysande förbättringsområden.
+Om du vill optimera de genererade varianterna och säkerställa strikt efterlevnad av varumärkesidentitet, plattformsriktlinjer och tillgänglighetsstandarder, kan du utnyttja kraften i [_innehållskontrollpanelen_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Den här panelen visar omfattande detaljer för innehållskontroll och lyser upp förbättringsområden.
 
-**Så här verifierar du varumärkesjustering**:
+**Så här utför du innehållskontroller på en variant**:
 
-1. Klicka på ikonen [**[!UICONTROL [!DNL Brand] guidelines check]**](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) för en variant och se en sammanfattning av hur varianten fungerar när den kontrolleras mot ditt varumärke.
-1. Klicka **[!UICONTROL Review]** _eller_ på valideringsikonen för varumärket i den övre menyraden för att öppna [_Varumärkesvalideringspanelen_](/help/user-guide/guidelines/brand-validation.md#brand-validation-panel) om du vill ha information om de avsnitt och riktlinjer som behöver förbättras.
+1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att öppna panelen [_Innehållskontroll_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visa en sammanfattning av kontrollerna *Behöver granskas* och *Godkänd* för att se vilka avsnitt och riktlinjer som behöver förbättras.
 
-   ![Panelen för varumärkesvalidering](/help/assets/brand-validation-panel-meta.png){width="600" zoomable="yes"}
+   ![_Innehållskontroll_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
 
-1. Växla mellan annonserna för att se hur ni kan förbättra det genererade innehållet för att bli mer varumärkesanpassade.
-1. [Granska annonser manuellt](#revise-generated-meta-ads) för att säkerställa att era annonser är i linje med ert varumärke.
+1. [Granska varianter](#revise-generated-variants) manuellt för att se till att dina varianter är nära justerade med de utförda innehållskontrollerna.
 
 Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).
 
 ## Få recensioner och godkännanden
 
-Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan, för att få granskningskommentarer, spåra granskningskommentarer och få godkännanden från intressenter.
+Använd panelen Godkännanden, som finns som en ikon i det högra åtgärdsfältet på arbetsytan, för att få granskningar, spåra granskningskommentarer och få godkännanden från intressenter.
 
 **Så här får du granskningar och godkännanden**:
 
@@ -130,13 +132,13 @@ Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan,
 
 Mer information finns i [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 
-## Publish och exportupplevelser
+## Publicera och exportera
 
 Om du vill göra de genererade Meta-annonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya Meta-annonsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
 1. **Om du vill exportera dina nya Meta-annonsupplevelser** klickar du på **[!UICONTROL Export]** i det övre verktygsfältet.
-   1. Markera formatet - HTML och bilder eller CSV och bilder (JPG eller PNG) - klicka på **[!UICONTROL Export]**.
+   1. Välj format - HTML och bilder eller CSV och bilder (JPG eller PNG) - klicka på **[!UICONTROL Export]**.
 
 Mer information finns i [[!DNL Content]](/help/user-guide/content/overview.md#search-and-find-approved-content).
 

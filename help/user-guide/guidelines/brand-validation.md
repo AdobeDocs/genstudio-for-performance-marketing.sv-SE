@@ -1,100 +1,88 @@
 ---
-title: Varumärkesvalidering i Adobe GenStudio för prestandamarknadsföring
-description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio för Performance Marketing.
+title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
+description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 816aeb55eee92758e7ef022ced0ebc3308d27dc9
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '670'
+source-wordcount: '713'
 ht-degree: 0%
 
 ---
 
 # Varumärkesvalidering
 
-I GenStudio for Performance Marketing är varumärkesvalidering en viktig komponent som fungerar i samarbete med de generativa AI-funktionerna och -riktlinjerna -[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) och [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Det ser till att allt innehåll är anpassat till er varumärkesidentitet.
+I GenStudio for Performance Marketing är varumärkesvalidering en viktig komponent som fungerar i samarbete med de generativa AI-funktionerna och -riktlinjerna -[[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) och [[!DNL Personas]](/help/user-guide/guidelines/personas.md). Det ser till att allt innehåll är anpassat till varumärkesidentiteten, ADA-standarder och vägledning för olika kanalplattformar.
 
-GenStudio for Performance Marketing utför varumärkesvalidering på olika sätt, bland annat:
+GenStudio for Performance Marketing genomför varumärkesvalidering och andra innehållskontroller av olika aspekter, bland annat:
 
-* Varumärkesspecifika riktlinjer för varje kund
-* Kopiera riktlinjer för olika kanalplattformar
+* Definierade eller standardinställda riktlinjer för [!DNL Brand], [!DNL Persona] och [!DNL Product]
+* Riktlinjer för plattformen
 * Etiska överväganden som rör kön, etnicitet, ras, funktionshinder och ålder i AI-genererat innehåll
+* American with Disabilities Act (ADA)-standarder
 
-## Kontroll av riktlinjer för [!DNL Brand]
+## Sammanfattning av innehållskontroll
 
-En sammanfattning av varumärkesverifieringsinformation för varje genererad innehållsvariant finns tillgänglig via ikonen _[!DNL Brand]guidelines check_ bredvid varje variant på arbetsytan.
+En sammanfattning av varumärkesvalidering och annan information om innehållskontroll för varje genererad innehållsvariant finns tillgänglig via sammanfattningsikonen _Innehållskontroll_ för varje variant på arbetsytan.
 
-_[!DNL Brand]-riktlinjerna_ visar hur många procent av kompatibiliteten med ditt [varumärke](brands.md) är. Procentandelen beräknas som antalet [riktlinjer](overview.md) som godkändes vid validering jämfört med antalet testade riktlinjer.
+Sammanfattningen av _innehållskontrollen_ visar följande:
 
-Kontroll av ![[!DNL Brand]-riktlinjer ](/help/assets/brand-guidelines-check.png){width="450" zoomable="yes"}
+* Procentandel kompatibilitet med din [[!DNL Brand]](brands.md), beräknat som antalet [riktlinjer](overview.md) som godkänts i valideringen jämfört med antalet riktlinjer som testats
+* `Pass` eller `Fail` resultat för plattformens riktlinjer, som Meta eller LinkedIn
+* `Pass` eller `Fail` resultat för ADA-tillgänglighetsstandarder
 
-Klicka på ikonen för att se hur många riktlinjer som är kompatibla med ert varumärke och hur många riktlinjer som behöver granskas.
+![Sammanfattning av innehållskontroll](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Se [Förbättra varumärkesjusteringen](#improve-brand-alignment).
-
-## Panelen för varumärkesvalidering
-
-Panelen _Varumärkesvalidering_ öppnas på den högra sidan av arbetsytan när du klickar på den övre menyraden _eller_ på ikonen _Varumärkesstödlinjer_ för en variant. Panelen innehåller detaljerad information om varumärkesvalidering och visar upp möjligheter till förbättring för varje avsnitt.
-
-![[!DNL Brand] valideringspanel](/help/assets/brand-validation-panel.png){width="650" zoomable="yes"}
-
-På panelen _Varumärkesvalidering_ visas information om:
-
-* **E-post**:
-   * Ämnesradsavsnitt
-   * Föregående sidhuvud
-   * Rubrikavsnitt
-   * Brödsektion
-   * CTA (call to action)
-   * Riktlinjer för varumärkesröst
-* **Metaannons**:
-   * Rubriksektion
-   * Body copy section
-   * CTA (call to action)
-   * Textavsnitt i bilden
+Klicka på procentandelen för att se hur kompatibel varianten är. Poängen uppdateras automatiskt när du gör ändringar i varianterna. Du kan klicka på _Visa och åtgärda problem_ för att säkerställa ytterligare kompatibilitet.
 
 Se [Förbättra varumärkesjusteringen](#improve-brand-alignment).
 
-### Filter
+## Panelen Innehållskontroll
 
-På panelen _Varumärkesvalidering_ kan du filtrera vilka riktlinjer som visas. Klicka på filterikonen längst upp på panelen för att visa:
+Panelen _Innehållskontroll_ öppnas på den högra sidan av arbetsytan när du klickar på den i det högra åtgärdsfältet _eller_ från sammanfattningsikonen [_Innehållskontroll_](#content-check-summary) för en variant. Panelen innehåller detaljerad varumärkesvalidering. riktlinjer för plattformen, information om tillgänglighetsstandarder och visar upp möjligheter till förbättring för varje avsnitt.
 
-* **Riktlinjer som uppfylls** - Visar endast riktlinjer som godkänts vid varumärkesverifiering.
-* **Riktlinjer som behöver åtgärdas** - Visar bara de riktlinjer som inte klarade varumärkesvalideringen och som behöver redigeras ytterligare för att vara mer varumärkeskompatibla.
-* **Båda** - Visar alla riktlinjer som varianterna mäts mot.
+![Panelen Innehållskontroll](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+
+På panelen _Innehållskontroll_ visas validering och [kompatibilitetsinformation](/help/user-guide/guidelines/overview.md#compliance) för varje avsnitt i varianten:
+
+* Representation av sammanfattningsinformation för _innehållskontrollen_ för [!DNL Brand], plattformsriktlinjer och tillgänglighetsstandarder
+* _Behöver granskas_ och visar antalet felaktiga riktlinjer och detaljerad information om varje riktlinje som behöver revideras
+* _Godkänt_-avsnitt som visar antalet skickade riktlinjer och detaljerad information om varje stödlinje
+
+Se [Förbättra varumärkesjusteringen](#improve-brand-alignment) om du vill veta mer om hur du kan förbättra poängen för panelen _Innehållskontroll_.
+
+### Innehållstyp
+
+På panelen _Innehållskontroll_ kan du växla vilka stödlinje- och tillgänglighetsstandarder som ska kontrolleras. Klicka på ikonen _Innehållstyp_ (nivåikon) längst upp på panelen för att aktivera eller inaktivera:
+
+* **[!DNL Brand]** - Utför de kontroller som är kopplade till riktlinjerna för [!DNL Brand]
+* **Riktlinjer för plattformen** - Utför de kontroller som är kopplade till den kanalspecifika plattformen, till exempel Meta
+* **Tillgänglighet** - Utför de kontroller som är kopplade till ADA-tillgänglighetsstandarder
+
+Om du vill **ange innehållstypen** för de kontroller du vill utföra klickar du för att inaktivera eller på de tillgängliga typerna och klickar på **Använd**.
 
 ## Förbättra varumärkesanpassningen
 
-Om du vill maximera effekten av genererat innehåll och behålla en konsekvent varumärkesidentitet använder du _kontrollen av varumärkesriktlinjerna_ och panelen _Varumärkesvalidering_. Du kan ändra specifika avsnitt manuellt för att anpassa dem efter [varumärkesriktlinjerna](brands.md).
+Om du vill maximera effekten av genererat innehåll och behålla en konsekvent varumärkesidentitet använder du [_innehållskontrollen_ sammanfattning](#content-check-summary) och [_innehållskontrollpanelen_](#content-check-panel). Du kan ändra specifika avsnitt manuellt för att anpassa dem till dina [[!DNL Brand] riktlinjer](brands.md), kontroller av plattformens riktlinjer och kontroller av tillgänglighetsstandarder.
 
-**Så här förbättrar du varumärkesjusteringen för genererade innehållsvarianter**:
+**Så här förbättrar du varumärkesjusteringen för genererade varianter**:
 
-1. Klicka på ikonen **[!UICONTROL [!DNL Brand] guidelines check]** för en enskild variant. Kontrollen [!DNL Brand] av riktlinjer visar ett procentuellt antal varumärkesjusteringar för en variant.
+1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att visa validering och tillgänglighetsinformation för en enskild variant.
 
-   Se en sammanfattning av hur många varumärkesriktlinjer som har uppfyllt varumärkesvalideringen eller behöver mer uppmärksamhet.
-
-1. Om du vill visa information om de avsnitt och riktlinjer som behöver förbättras klickar du på **[!UICONTROL Review]** _eller_ och klickar på ikonen _Varumärkesvalidering_ i den övre menyraden för att öppna panelen _Varumärkesvalidering_ .
-
-   Se alla avsnitt och riktlinjer för varumärken som du behöver vara uppmärksam på.
+   Du kan se en sammanfattning av kontrollerna _Behöver granskas_ och _Godkänd_ för att se vilka avsnitt och riktlinjer som behöver förbättras.
 
    >[!NOTE]
    >
-   > Riktlinjen _Varumärkesröst_ som beskrivs på _Varumärkesvalideringspanelen_ gäller för hela varianten, inte för ett enskilt avsnitt. Hela innehållsvarianten markeras för föreslagna förbättringar.
+   > Riktlinjen _Varumärkesröst_ som beskrivs på panelen _Innehållskontroll_ gäller för hela varianten, inte för ett enskilt avsnitt. Hela innehållsvarianten markeras för föreslagna förbättringar.
 
-1. Klicka igenom varje stödlinje som behöver åtgärdas med knapparna **[!UICONTROL Next]** och **[!UICONTROL Previous]**.
+1. Klicka för att korrigera riktlinjer som för närvarande inte är kompatibla.
+1. Klicka för att expandera och inspektera varje kontroll som behöver granskas i tillgängliga avsnitt som _Headline_ och _Brand voice_.
 
-1. Använd det resonemang som anges för varje riktlinje för att informera om ändringar av olika avsnitt för att få en så stark anpassning som möjligt till ert varumärke.
+   Använd de argument som ges för varje kontroll för att hjälpa dig att ändra varianterna.
 
+1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Recheck score]** för att kontrollera och validera dina ändringar och se till att de är mer i linje med din varumärkesidentitet, riktlinjer för plattformen och tillgänglighetsstandarder.
 
-1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Check again]** för att kontrollera och validera dina ändringar för att vara säker på att de är bättre anpassade till din varumärkesidentitet.
+   Processen för innehållskontroll körs igen. Om de ändrade objekten godkänns i valideringen visas en grön banderoll längst ned på arbetsytan som bekräftar att poängen uppdaterades. Om det inte skett någon förändring efter en ny kontroll bekräftar banderollen att det inte skett någon ändring av poängen. Procentandelen i sammanfattningsikonen för _innehållskontroll_ för den ändrade varianten visar också förloppet.
 
-   Varumärkesvalideringsprocessen körs igen. Om avsnittet/stödlinjen godkänns vid valideringen visas en grön banderoll längst ned på arbetsytan som bekräftar att&quot;Riktlinjerna för varumärken uppdaterades&quot;. Om det inte sker någon förändring efter en ny kontroll bekräftar banderollen&quot;Ingen ändring av varumärkesriktlinjerna&quot;. Procentandelen i ikonen _Varumärkesstödlinje_ för den reviderade varianten visar också förloppet.
+1. Fortsätt att granska avsnitt för att säkerställa att hela varianten klarar validerings- och tillgänglighetskontroller. Navigera genom varje variant med pilarna bredvid en enskild variant på arbetsytan.
 
-1. Fortsätt att granska sektioner för att säkerställa att hela varianten godkänns i varumärkesvalideringen.
-
-   Navigera mellan riktlinjer på _varumärkesvalideringspanelen_ med knapparna **[!UICONTROL Next]** och **[!UICONTROL Previous]** .
-
-1. Navigera genom varje variant med pilarna bredvid en enskild variant på arbetsytan. Använd till exempel pilen för att gå från `Email 1/4` till `Email 2/4`.
-1. Fortsätt att ändra avsnitt så att ni bättre följer ert varumärke.
-
-   Mer information om aktuella riktlinjer finns i [Riktlinjer för varumärkesröst](/help/user-guide/guidelines/brands.md#brand-voice-guidelines).

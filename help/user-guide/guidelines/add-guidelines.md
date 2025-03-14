@@ -5,9 +5,9 @@ feature: Content, Brands Service, Products Service, Personas Service, Guidelines
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: a308972afc9fa6aeced0168b14d3c5f864d678f8
+source-git-commit: 4fae540faafdf3f3b32e567e033ea6e8e44ad978
 workflow-type: tm+mt
-source-wordcount: '1637'
+source-wordcount: '1881'
 ht-degree: 0%
 
 ---
@@ -18,15 +18,19 @@ ht-degree: 0%
 
 Se [riktlinjerna - översikt](/help/user-guide/guidelines/overview.md).
 
-Att lägga till riktlinjer i GenStudio for Performance Marketing är ett viktigt steg i skapandet. Riktlinjerna ligger till grund för processen att skapa innehåll, tillsammans med användardefinierade anvisningar och Adobe generativ AI-teknik, för att skapa slagkraftiga resurser.
+Att lägga till riktlinjer i GenStudio for Performance Marketing är ett viktigt steg i skapandet. Riktlinjer används för att skapa innehåll, tillsammans med användardefinierade anvisningar, [hjälpmedels- och innehållskontroller](overview.md#compliance) och Adobe generativa AI-teknik, för att skapa slagkraftiga resurser.
+
+Riktlinjer kan vara användardefinierade eller finnas som standardriktlinjer, t.ex. [standard [!DNL Brand] kanalriktlinjer](/help/user-guide/guidelines/brands.md#default-channel-guidelines).
+
+När du skapar varianter från en mall med fördefinierade riktlinjer - [!DNL Brands], [!DNL Personas] eller [!DNL Products] - gäller dessa riktlinjer för varianterna. Du kan ändra dem om du vill.
 
 {{in-academy}}
 
-## Lägg till [!DNL Brands]
+## Lägg till varumärken
 
-Om du vill lägga till ett varumärke [överför du en varumärkesguide](#upload-a-brand) eller [skapar ett varumärke manuellt](#manually-add-brand) genom att välja riktlinjer och ange din varumärkesinformation. [Publish är ett varumärke](#publish-brand) till [!DNL Content] som gör det tillgängligt för framtida innehållsgenerering.
+Om du vill lägga till en [!DNL Brand] [överför du en varumärkesguide](#upload-a-brand) eller [skapar ett varumärke manuellt](#manually-add-brand) genom att välja riktlinjer och ange din varumärkesinformation. [Publicera en [!DNL Brand]](#publish-brand) till [!DNL Content] för att göra den tillgänglig för framtida innehållsgenerering.
 
-Klicka på **[!DNL Brands]** i det vänstra navigeringsområdet. Välj **Lägg till varumärke** på panelen _[!DNL Brands]_.
+Klicka på **[!DNL Brands]** i listan _Delad_ i det vänstra navigeringsområdet. Välj **Lägg till varumärke** på panelen _[!DNL Brands]_.
 
 >[!TIP]
 >
@@ -34,22 +38,24 @@ Klicka på **[!DNL Brands]** i det vänstra navigeringsområdet. Välj **Lägg t
 
 ### Överföra ett varumärke
 
-Du kan ladda upp egna varumärkesinformationsdokument - upp till tre PDF- eller DOC-filer - till GenStudio for Performance Marketing för att automatiskt skapa ett varumärke.
+Du kan ladda upp egna dokument om varumärkesriktlinjer - upp till tre PDF- eller DOC-filer - till GenStudio for Performance Marketing för att automatiskt skapa ett varumärke.
 
 Se [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Så här överför du varumärkesdokument**:
 
-1. Markera knappen **[!UICONTROL Add brand]** och välj **Använd riktlinjer för varumärket**.
-1. I popup-fönstret _Lägg till nytt varumärke_ anger du ett varumärkesnamn och bifogar eller drar i varumärkesguiden.
+1. Välj knappen **[!UICONTROL Add brand]**.
+1. Välj **[!UICONTROL Upload PDFs]** och ange ett varumärkesnamn i popup-fönstret _Välj ett sätt att lägga till ditt varumärke_.
+1. Välj **[!UICONTROL Continue]**.
+1. Bläddra och bifoga eller dra i dina varumärkesriktlinjer till popup-menyn _[!UICONTROL Add your brand]_.
 
-   Du kan bifoga upp till tre PDF- eller DOC-filer.
+   Du kan bifoga upp till fem PDF-filer för högst 500 MB.
 
 1. Välj **[!UICONTROL Add brand]**.
 
-Med hjälp av Adobe generative AI-teknik extraherar GenStudio for Performance Marketing information från de överförda dokumenten och börjar bygga upp ert varumärke. Varumärkesinformation, som varumärkesröst, kanal och bildriktningar, fylls i när varje riktlinje från varumärkesdokumenten sammanställs.
+   Med Adobe generativa AI-teknik extraherar GenStudio for Performance Marketing information från de överförda dokumenten och börjar bygga upp ert varumärke. Varumärkesinformation, som varumärkesröst, kanal och bildriktningar, fylls i när varje riktlinje från varumärkesdokumenten sammanställs.
 
-Ett popup-fönster påminner dig om att granska det extraherade innehållet innan du [publicerar varumärket](#publish-brand).
+Vyn för ditt nya varumärke öppnas och visar de varumärkesriktlinjer som hämtats från dina dokument. Ett popup-meddelande meddelar dig _&quot;Ditt varumärke är klart att granska&quot;_ och påminner dig om att granska det extraherade innehållet och göra nödvändiga ändringar.
 
 ### Lägg till varumärke manuellt
 
@@ -57,52 +63,63 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
 
 **Så här lägger du till ett varumärke manuellt**:
 
-1. Markera knappen **[!UICONTROL Add brand]** och välj **[!UICONTROL Manually add brand]**.
+1. Välj knappen **[!UICONTROL Add brand]**.
+1. Välj **[!UICONTROL Upload manually]** och ange ett varumärkesnamn i popup-fönstret _Välj ett sätt att lägga till ditt varumärke_.
+1. Välj **[!UICONTROL Add brand]**.
 
-   Ni kan fylla i olika valfria riktlinjer och bilder för att bygga ut ert varumärke.
+   Ett nytt tomt varumärke skapas och visas.
 
-1. Lägg till information om ditt varumärke i avsnittet _Om_.
-1. Ange [_[!DNL Brand] röstriktlinjer _](brands.md#brand-voice-guidelines).
+1. Fyll i olika varumärkesinformation, riktlinjer och bilder för att bygga ut ert varumärke i lämpliga avsnitt (flikvyer högst upp).
 
-   ![Lägg till [!DNL Brand] röstriktlinjer ](/help/assets/brand-voice-add.png){width="650" zoomable="yes"}
+   Du kan lägga till riktlinjer direkt från det nya varumärkets hemsidvy _eller_. Du kan lägga till dem i de enskilda flikavsnitten (som innehåller informativa _Visa exempel_-verktygstips som vägleder dig) högst upp.
 
-1. Ange [_Kanalriktlinjer_](brands.md#channel-guidelines) för varje tillämplig kanal.
-1. Ange [_Bildriktlinjer_](brands.md#image-guidelines). Expandera varje kategori i avsnittet Bildriktlinjer om du vill se alla riktlinjer.
+   ![Varumärken](/help/assets/brands.png){width="600" zoomable="yes"}
 
-   Du kan också klicka på **[!UICONTROL Add category]** om du vill lägga till en anpassad stödlinjekategori, till exempel Foton eller Illustrationer.
+   - _När det här varumärket ska användas_: Klicka **[!UICONTROL Add]** (eller klicka i textfältet för att ändra befintlig text) och ange översikt och användningsinformation om varumärket. Klicka på **[!UICONTROL Save changes]**.
+   - [_[!DNL Brand] röstriktlinjer _](brands.md#brand-voice-guidelines): Lägg till relevant information i varje stödlinjefält.
 
-1. Klicka på rubriken _Nytt varumärke_ och ange ett beskrivande varumärkesnamn.
+     ![Lägg till [!DNL Brand] röstriktlinjer ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
-Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _Varumärke_ och går tillbaka till startsidan för _[!DNL Brands]_.
+   - [_Bildriktningar_](brands.md#image-guidelines): Klicka **[!UICONTROL Add category]** om du vill lägga till riktlinjer som &quot;Allmänna riktlinjer&quot; eller &quot;Produktfotografi&quot;. Fyll i riktlinjer i varje tillagd kategori.
+   - [_Kanalriktlinjer_](brands.md#channel-guidelines): Klicka i varje tillgänglig kanal och lägg till lämpliga riktlinjer.
+   - [_Logotyper_](brands.md#logos): Klicka på **[!UICONTROL Add logo]** för att dra och släppa eller bläddra för att överföra en logotyp.
+   - [_Färger_](brands.md#colors): Klicka **[!UICONTROL Add color]** om du vill använda en hexadecimal eller RGB-färgkod, eller färgväljaren, om du vill lägga till enskilda färger.
 
-Du behöver inte [publicera](#publish-brand) ditt varumärke för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i organisationen ska kunna använda varumärkesinformationen i GenStudio for Performance Marketing måste du publicera den.
+     ![Varumärkesfärger](/help/assets/colors.png){width="600" zoomable="yes"}
 
-### Publish
+Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_för att gå tillbaka till startsidan för_[!UICONTROL Brands]_.
 
-Innan du publicerar ditt varumärke kan du klicka dig igenom avsnitten _Riktlinjer för varumärkesröst_, _Kanalriktlinjer_, _Bildriktningar_ och _logotyper_ för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
+Du behöver inte [publicera](#publish-brand) din [!DNL Brand] för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i din organisation ska kunna använda informationen [!DNL Brand] i GenStudio for Performance Marketing måste du publicera den. En skapad [!DNL Brand] är i utkastform tills den publiceras.
 
-**Så här publicerar du ett utkast till varumärkesriktlinjer**:
+### Publicera varumärke
+
+Innan du publicerar ett [!DNL Brand]-utkast ska du klicka igenom alla riktlinjer-avsnitt för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
+
+I _[!DNL Brands]_visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
+
+>[!TIP]
+>
+>Om du bara vill se varumärken som du har skapat väljer du **[!UICONTROL Created by you]** i filtret [!DNL Brands] (trattikon).
+
+**Så här publicerar du ett varumärkesutkast**:
 
 1. Klicka på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet.
+1. Klicka för att öppna ett befintligt [!DNL Brand]-utkast.
+1. Klicka på knappen **[!UICONTROL Publish]** (endast tillgänglig för utkast).
+1. Kontrollera vem som har åtkomst att visa och använda den publicerade versionen [!DNL Brand] i popup-fönstret _Publicera varumärke_.
+1. Välj **[!UICONTROL Publish]** på popup-menyn _Publicera märke_ .
 
-   Ett _Publicerat_-märke och det senaste datumet då varumärket publicerades är synligt för alla varumärken som är publicerade.
-
-1. Klicka för att öppna ett opublicerat varumärke. Om varumärket inte publiceras visas en **[!UICONTROL Publish]**-knapp.
-1. Kontrollera vem som har åtkomst att visa och använda det publicerade varumärket i popup-fönstret _Publish-varumärke_.
-1. Välj **[!UICONTROL Publish]**.
-1. I popup-fönstret _Publish-märke_ som visas väljer du **[!UICONTROL Publish]**.
-
-   Popup-fönstret bekräftar att varumärket är publicerat -&quot;Nytt varumärke är nu klart&quot;.
+   Popup-fönstret bekräftar att [!DNL brand] har publicerats -&quot;{Brand} är nu klart&quot;.
 
 1. Klicka på **[!UICONTROL Done]** för att stänga popup-fönstret.
 
-Varumärket visar en grön punkt och&quot;Publicerad&quot;, och en **[!UICONTROL Publish]**-knapp visas.
+[!DNL brand] visar en grön punkt och&quot;Publicerad&quot; bredvid namnet, och en **[!UICONTROL Edit [!DNL brand]]**-knapp visas i stället för knappen **[!UICONTROL Publish]**.
 
-**Om du vill avpublicera ett publicerat varumärke** klickar du för att öppna det och sedan på **[!UICONTROL Unpublish]**.
+**Om du vill avpublicera en publicerad[!DNL brand]** klickar du på varumärket för att öppna det och sedan på **[!UICONTROL Unpublish]** på Åtgärder-menyn (ikonen med tre punkter).
 
-Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guide/create/overview.md) eller [_[!DNL Content]_](/help/user-guide/content/overview.md).
+Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guide/create/overview.md) och [_[!DNL Content]_](/help/user-guide/content/overview.md).
 
-### Hantera [!DNL Brands]
+### Hantera varumärken
 
 I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
 
@@ -111,8 +128,8 @@ Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Br
 **Så här ändrar du ett varumärke** i vyn [!DNL Brands]:
 
 1. Öppna ett definierat varumärke genom att klicka i **[!DNL Brands]**.
-1. Klicka [**[!UICONTROL Brand voice guidelines]**](#brand-voice-guidelines), [**[!UICONTROL Channel guidelines]**](#channel-guidelines), **[!UICONTROL Image guidelines]** eller **[!UICONTROL Logos]** längst upp om du vill visa enskilda detaljer eller ändra varumärkesriktlinjerna.
-1. Om du vill byta namn på ett befintligt varumärke väljer du **[!UICONTROL Rename]** på åtgärdsmenyn _[!DNL Brands]_.
+1. Om du vill visa enskilda detaljer eller ändra riktlinjer klickar du på [**[!UICONTROL Brand voice guidelines]**](brands.md#brand-voice-guidelines), [**[!UICONTROL Image guidelines]**](brands.md#image-guidelines), [**[!UICONTROL Channel guidelines]**](brands.md#channel-guidelines), [**[!UICONTROL Logos]**](brands.md#logos) eller [**[!DNL Colors]**](brands.md#colors) längst upp.
+1. Om du vill byta namn på ett befintligt varumärke klickar du i titeln och anger en ny titel.
 1. Om du vill duplicera ett befintligt varumärke väljer du **[!UICONTROL Duplicate]** på åtgärdsmenyn _[!DNL Brands]_.
    1. Ange ett varumärkesnamn i popup-fönstret _Duplicera varumärke_ och klicka på **[!UICONTROL Duplicate brand]**.
 
@@ -121,85 +138,11 @@ Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Br
    1. Anpassa det duplicerade varumärket och [publicera det](#publish-brand) för att göra det tillgängligt för användning.
 1. Om du vill ta bort ett varumärke väljer du **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Brands].
 
-Du kan också hantera varumärken i vyn [!DNL Brands] från åtgärdsmenyn _[!DNL Brands]_(tre punkter).
-
-## Lägg till [!DNL Products]
-
-Om du vill lägga till en produkt [överför du en produktguide](#upload-a-product) eller [skapar en produkt](#manually-add-product) manuellt genom att välja riktlinjer och ange produktinformationen.
-
-Klicka på **[!DNL Products]** i det vänstra navigeringsområdet. Välj **Lägg till produkt** på panelen _[!DNL Products]_.
-
-![Lägg till en [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
-
-Du kan lägga till [!DNL Products] i GenStudio for Performance Marketing för att ange enskilda produktfokusområden när du skapar innehåll.
-
-Se [[!DNL Products]](products.md).
-
-### Överför en produkt
-
-Du kan överföra produktdokument för att fylla i nya produkter.
-
-Se [[!DNL Products]](/help/user-guide/guidelines/products.md).
-
-**Så här överför du produktdokument**:
-
-1. Markera knappen **[!UICONTROL Add product]** och välj **Överför PDF**.
-1. Klicka på **[!UICONTROL Continue]**.
-1. Bifoga eller dra i produktdokumentet på popup-menyn _Lägg till din produkt_ .
-
-   Du kan bifoga upp till fem PDF-filer med högst 500 MG.
-
-1. Välj **[!UICONTROL Add products]**.
-
-   Med hjälp av Adobe generative AI-teknik extraherar GenStudio for Performance Marketing information från dina överförda dokument och börjar bygga upp dina produkter.
-
-   Ett popup-fönster visas med information om hur extraheringen av produkten fortskrider från dina dokument.
-
-1. I popup-fönstret _Bygger produkter_ tar du bort extraherade produkter som du inte vill använda eller byter namn på produkter efter behov.
-1. Om en produkt saknas klickar du på **[!UICONTROL Add name]** och anger namnet på den produkt som saknas.
-1. Klicka på **[!UICONTROL Confirm]**.
-
-   Ett popup-fönster påminner dig om att verifiera och granska de extraherade produkterna.
-
-### Lägg till produkt manuellt
-
-Du kan lägga till produktinformation manuellt, i stället för att överföra befintliga produktdokument, för att fylla i en ny [produkt](products.md) i GenStudio for Performance Marketing.
-
-**Så här lägger du till en produkt** manuellt:
-
-1. Markera knappen **[!UICONTROL Add brand]** och välj **[!UICONTROL Add manually]**.
-1. Klicka på **[!UICONTROL Continue]**.
-
-   Du kan fylla i olika valfria riktlinjer och bilder för att skapa produkten.
-
-1. Klicka på **[!UICONTROL New product name]** och ange ett namn för [!DNL Product].
-1. Klicka på _Beskrivning_ och ange en beskrivning av [!DNL product].
-1. Klicka på _Värdeerbjudande_ och ange information om produktens värde.
-Klicka på _Meddelandeinställningar_ och ange meddelandeinformation för [!DNL product].
-1. Om du vill redigera miniatyrbilden håller du pekaren över miniatyrbilden och väljer **[!UICONTROL Edit thumbnail]** på menyn Miniatyrbildsåtgärder.
-   1. Överför en ny bild eller ta bort den befintliga överförda bilden på fliken _Överför_.
-   1. Välj en bild i galleriet på fliken _Galleri_.
-   1. Klicka på **[!UICONTROL Use image]**.
-1. Om du vill redigera omslagsbilden håller du pekaren över omslaget och väljer **[!UICONTROL Edit cover]** på menyn Omslagsåtgärder.
-   1. Överför en ny bild eller ta bort den befintliga överförda bilden på fliken _Överför_.
-   1. Välj en bild i galleriet på fliken _Galleri_ och klicka på **[!UICONTROL Use image]**.
-   1. Om du vill flytta omslagsbilden klickar du på **[!UICONTROL Reposition]**, drar bilden till önskad plats och klickar på **[!UICONTROL Save]**.
-
-   Om du vill visa din skapade [!DNL products] klickar du på bakåtpilen i den övre delen av vyn _Produkt_ för att gå tillbaka till startsidan för _[!DNL Products]_.
-
-### Hantera [!DNL Products]
-
-I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]**för att redigera eller granska den, eller **ta bort en produkt**från listan:
-
-* Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Products] om du vill granska och granska en befintlig produkt.
-* Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Products] om du vill **ta bort** en produkt.
-* Välj **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Products] om du vill **byta namn på en produkt**.
-
 ## Lägg till [!DNL Personas]
 
 Om du vill lägga till en profil [överför du en personlig guide](#upload-a-persona) eller [skapar en personlig profil manuellt](#manually-add-persona) genom att välja riktlinjer och ange din personliga information.
 
-Klicka på **[!DNL Personas]** i det vänstra navigeringsområdet. Välj **Lägg till profil** på panelen _[!DNL Personas]_.
+Klicka på **[!DNL Personas]** i listan _Delad_ i det vänstra navigeringsområdet. Välj **Lägg till persona** på panelen _[!DNL Personas]_.
 
 Du kan lägga till en [!DNL Persona] i GenStudio for Performance Marketing för att rikta innehållet som du skapar till din idealiska målgrupp.
 
@@ -211,25 +154,18 @@ Du kan överföra dina egna personliga dokument för att fylla i nya profiler.
 
 Se [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-**Så här överför du personliga dokument**:
+1. Välj knappen **[!UICONTROL Add persona]**.
+1. Välj **[!UICONTROL Upload files]** och ange ett personnamn i popup-fönstret _Välj ett sätt att lägga till din persona_.
+1. Välj **[!UICONTROL Continue]**.
+1. Bläddra och bifoga eller dra dina dokument med personliga riktlinjer till popup-menyn _[!UICONTROL Add your persona]_.
 
-1. Markera knappen **[!UICONTROL Add persona]** och välj **Överför PDF**.
-1. Klicka på **[!UICONTROL Continue]**.
-1. Bifoga eller dra ditt personliga dokument i popup-fönstret _Lägg till din profil_.
-
-   Du kan bifoga upp till fem PDF-filer med högst 500 MG.
+   Du kan bifoga upp till fem PDF- eller DOC-filer för högst 500 MB.
 
 1. Välj **[!UICONTROL Add personas]**.
 
-   Med hjälp av Adobe generative AI-teknik extraherar GenStudio for Performance Marketing information från dina överförda dokument och börjar bygga upp din personlighet.
+   Med Adobe generativa AI-teknik extraherar GenStudio for Performance Marketing information från dina överförda dokument och börjar bygga upp din personlighet. När varje riktlinje från dina personliga dokument sammanställs visas information om exempelvis personlig röst, kanal och riktlinjer för bilder.
 
-   Ett popup-fönster visas med förloppet för den personliga extraheringen från dina dokument.
-
-1. I popup-fönstret _Skapa profiler_ som visas tar du bort extraherade profiler eftersom du inte vill använda eller ändra namn på profiler efter behov.
-1. Om en person saknas klickar du på **[!UICONTROL Add name]** och anger namnet på den person som saknas.
-1. Klicka på **[!UICONTROL Confirm]**.
-
-   När extraheringen är klar visas ett popup-fönster som påminner dig om att verifiera och granska de extraherade personerna.
+   Vyn för din nya persona öppnas och innehåller information om personliga riktlinjer som hämtats från dina dokument. Ett popup-meddelande meddelar dig _&quot;Din roll är redo att granska&quot;_ och påminner dig om att granska det extraherade innehållet och göra nödvändiga ändringar.
 
 ### Lägga till profiler manuellt
 
@@ -242,21 +178,23 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
    Du kan fylla i olika valfria riktlinjer och bilder för att bygga ut din personlighet.
 
+1. Klicka på **[!UICONTROL New persona name]** och ange ett namn för [!DNL Persona].
 1. Lägg till information om din [!DNL Persona] i avsnittet _Beskrivning_.
 
    ![Lägg till en [!DNL Persona]](/help/assets/personas-add.png){width="650" zoomable="yes"}
 
-1. Klicka på **[!UICONTROL New persona name]** och ange ett namn för [!DNL Persona].
 1. Klicka på _Beskrivning_ och ange en beskrivning av [!DNL Persona].
 1. Klicka på _Meddelandeinställningar_ och ange meddelandeinformation för [!DNL Persona].
-1. Om du vill redigera miniatyrbilden håller du pekaren över miniatyrbilden och väljer **[!UICONTROL Edit thumbnail]** på menyn Miniatyrbildsåtgärder.
-   1. Överför en ny bild eller ta bort den befintliga överförda bilden på fliken _Överför_.
-   1. Välj en bild i galleriet på fliken _Galleri_.
+1. Om du vill redigera miniatyrbilden för du pekaren över miniatyrbilden och väljer **[!UICONTROL Edit thumbnail]** på Åtgärder-menyn.
+   1. Välj en bild i galleriet på fliken _Galleri_ _eller_ överför en ny bild på fliken _Överför_.
+
+      Du kan också ta bort eller beskära en befintlig miniatyrbild på fliken _Överför_.
+
    1. Klicka på **[!UICONTROL Use image]**.
-1. Om du vill redigera omslagsbilden håller du pekaren över omslaget och väljer **[!UICONTROL Edit cover]** på menyn Omslagsåtgärder.
-   1. Överför en ny bild eller ta bort den befintliga överförda bilden på fliken _Överför_.
-   1. Välj en bild i galleriet på fliken _Galleri_ och klicka på **[!UICONTROL Use image]**.
-   1. Om du vill flytta omslagsbilden klickar du på **[!UICONTROL Reposition]**, drar bilden till önskad plats och klickar på **[!UICONTROL Save]**.
+1. Om du vill redigera omslagsbilden håller du pekaren över omslaget och väljer **[!UICONTROL Edit cover]** på Åtgärder-menyn.
+   1. Välj en bild i galleriet på fliken _Galleri_ _eller_ överför en ny bild på fliken _Överför_.
+   1. Klicka på **[!UICONTROL Use image]**.
+   1. Om du vill flytta omslagsbilden klickar du på **[!UICONTROL Reposition]** på åtgärdsmenyn, drar bilden till önskad plats och klickar på **[!UICONTROL Save]**.
 
    Om du vill visa din skapade [!DNL Personas] klickar du på bakåtpilen i den övre delen av vyn _Persona_ för att gå tillbaka till startsidan för _[!DNL Personas]_.
 
@@ -264,6 +202,74 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
 I startsidan för _[!DNL Personas]_kan du **öppna en redan skapad[!DNL Persona]**för att redigera eller granska den, eller **ta bort en person**från listan:
 
-* Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Personas] om du vill granska en befintlig profil.
-* Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Personas] om du vill **ta bort** en profil.
-* Välj **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Personas] om du vill **byta namn på en person**.
+- Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Personas] om du vill granska en befintlig profil.
+- Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Personas] om du vill **ta bort** en profil.
+- Välj **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Personas] om du vill **byta namn på en person**.
+
+## Lägg till [!DNL Products]
+
+Om du vill lägga till en produkt [överför du en produktguide](#upload-a-product) eller [skapar en produkt](#manually-add-product) manuellt genom att välja riktlinjer och ange produktinformationen.
+
+Klicka på **[!DNL Products]** i listan _Delad_ i det vänstra navigeringsområdet. Välj **Lägg till produkt** på panelen _[!DNL Products]_.
+
+![Lägg till en [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
+
+Du kan inkludera en [!DNL Product] i GenStudio for Performance Marketing för att bättre anpassa det innehåll du skapar för en viss produkt.
+
+Se [[!DNL Products]](products.md).
+
+### Överför en produkt
+
+Du kan överföra dina egna produktdokument för att fylla i nya produkter.
+
+Se [[!DNL Products]](/help/user-guide/guidelines/products.md).
+
+1. Välj knappen **[!UICONTROL Add product]**.
+1. Välj **[!UICONTROL Upload files]** och ange ett produktnamn i popup-fönstret _Välj ett sätt att lägga till din produkt_.
+1. Välj **[!UICONTROL Continue]**.
+1. Bläddra och bifoga eller dra dina produktriktlinjer i popup-fönstret _[!UICONTROL Add your product]_.
+
+   Du kan bifoga upp till fem PDF- eller DOC-filer för högst 500 MB.
+
+1. Välj **[!UICONTROL Add products]**.
+
+   Med Adobe generativa AI-teknik analyserar GenStudio for Performance Marketing dina överförda dokument för att skapa din produktprofil. När varje riktlinje från dina produktdokument bearbetas visas information som produktbeskrivningar, värdeförslag och meddelandeinställningar.
+
+   Vyn för den nya produkten öppnas och visar de produktriktlinjer som hämtats från dina dokument. Ett popup-meddelande meddelar _&quot;Din produkt är klar att granska&quot;_ och påminner dig om att granska det extraherade innehållet och göra nödvändiga ändringar.
+
+### Lägg till produkt manuellt
+
+Du kan lägga till produktinformation manuellt, i stället för att överföra befintliga produktdokument, för att fylla i nya [produkter](products.md).
+
+**Så här lägger du till en produkt** manuellt:
+
+1. Markera knappen **[!UICONTROL Add product]** och välj **[!UICONTROL Add manually]**.
+1. Klicka på **[!UICONTROL Continue]**.
+
+   Du kan fylla i olika valfria uppgifter för att skapa produkten.
+
+1. Klicka på **[!UICONTROL New product name]** och ange ett namn för [!DNL product].
+1. Lägg till information om din [!DNL product] i avsnittet _Beskrivning_.
+1. Klicka på _Beskrivning_ och ange en beskrivning av [!DNL Product].
+1. Klicka på _Värdeerbjudande_ och ange värdesförslagsinformation för att placera din [!DNL Product] korrekt.
+1. Klicka på _Meddelandeinställningar_ och ange meddelandeinformation för [!DNL product].
+1. Om du vill redigera miniatyrbilden för du pekaren över miniatyrbilden och väljer **[!UICONTROL Edit thumbnail]** på Åtgärder-menyn.
+   1. Välj en bild i galleriet på fliken _Galleri_ _eller_ överför en ny bild på fliken _Överför_.
+
+      Du kan också ta bort eller beskära en befintlig miniatyrbild på fliken _Överför_.
+
+   1. Klicka på **[!UICONTROL Use image]**.
+1. Om du vill redigera omslagsbilden håller du pekaren över omslaget och väljer **[!UICONTROL Edit cover]** på Åtgärder-menyn.
+   1. Välj en bild i galleriet på fliken _Galleri_ _eller_ överför en ny bild på fliken _Överför_.
+   1. Klicka på **[!UICONTROL Use image]**.
+   1. Om du vill flytta omslagsbilden klickar du på **[!UICONTROL Reposition]** på åtgärdsmenyn, drar bilden till önskad plats och klickar på **[!UICONTROL Save]**.
+
+   Om du vill visa din skapade [!DNL Products] klickar du på bakåtpilen i den övre delen av vyn _Produkt_ för att gå tillbaka till startsidan för _[!DNL Products]_.
+
+### Hantera [!DNL Products]
+
+I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]**för att redigera eller granska den, eller **ta bort en produkt**från listan:
+
+- Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Products] om du vill granska och granska en befintlig produkt.
+- Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Products] om du vill **ta bort** en produkt.
+- Välj **[!UICONTROL Rename]** på åtgärdsmenyn [!DNL Products] om du vill **byta namn på en produkt**.

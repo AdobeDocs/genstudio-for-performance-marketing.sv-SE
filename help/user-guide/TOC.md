@@ -4,10 +4,10 @@ breadcrumb-title: Användarhandbok
 user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance Marketing. Lär dig hur du snabbt skapar varumärkestillgångar, genererar variationer och optimerar upplevelser.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
-source-git-commit: 3309dfa13e476d6acce60bfdcd4e5e9801b74149
+source-git-commit: 86eeac0231ffc465365709eb42250383868a4462
 workflow-type: tm+mt
-source-wordcount: '171'
-ht-degree: 19%
+source-wordcount: '189'
+ht-degree: 17%
 
 ---
 
@@ -34,11 +34,15 @@ ht-degree: 19%
    + [[!DNL Create] översikt](create/overview.md)
    + [E-postupplevelser](create/email-experiences.md)
    + [Metaupplevelser](create/meta-experiences.md)
+   + [LinkedIn-upplevelser](create/linkedin-experiences.md)
    + [Visa annonsupplevelser](create/display-ad-experiences.md)
+   + [Banderollupplevelser](create/banner-experiences.md)
    + [Hantera varianter](create/manage-variants.md)
    + [Skapa en e-postupplevelse](create/create-email-experience.md)
    + [Skapa en Meta-annonsupplevelse](create/create-meta-ad.md)
+   + [Skapa en LinkedIn-upplevelse](create/create-linkedin.md)
    + [Skapa en annonsvisning](create/create-display-ad.md)
+   + [Skapa en banderollupplevelse](create/create-banner-experience.md)
 + Recensioner och godkännanden {#approve}
    + [Översikt över granskning och godkännande](approvals/overview.md)
    + [Begär granskning och godkännande av innehåll](approvals/request-review.md)
@@ -53,6 +57,7 @@ ht-degree: 19%
    + Mallar {#templates}
       + [Arbeta med mallar](content/use-templates.md)
       + [Anpassa en mall](content/customize-template.md)
+      + [Mallkodredigerare](content/code-editor.md)
       + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
       + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
 + Kampanjer {#campaigns}
@@ -63,8 +68,8 @@ ht-degree: 19%
    + [Insikter - översikt](insights/overview.md)
    + [Anslut kanalkonto](insights/connect-channel.md)
    + [Kanaler](insights/channels.md)
-   + [Erfarenheter](insights/experiences.md)
-   + [Assets](insights/assets.md)
+   + [Annonser och annonsplacering](insights/ads.md)
+   + [Media](insights/media.md)
    + [Attribut](insights/attributes.md)
    + Attributkategorier {#categories}
       + [Bildfunktioner](insights/image-features.md)

@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Content, Assets, Experiences
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: 504f556825c5645172c2315877cb6c06f015cf0e
 workflow-type: tm+mt
-source-wordcount: '1262'
+source-wordcount: '1370'
 ht-degree: 0%
 
 ---
@@ -139,18 +139,31 @@ Du kan lägga till eller byta ut bilder i genererade varianter direkt från arbe
 
 **Så här lägger du till eller byter ut bilder i en variant**:
 
+1. När du har genererat en uppsättning varianter klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild).
+1. Klicka på ikonen **[!UICONTROL Swap from content]**.
+1. Använd filter och sökfunktionen i vyn GenStudio-resurser [!DNL Content] för att ytterligare begränsa sökresultaten.
+
+   Du kan också använda bilder som är tillgängliga i anslutna Adobe Experience Manager-databaser (AEM) Assets Content Hub genom att välja den databasen på [**[!UICONTROL Location]**-menyn ](/help/user-guide/content/manage-assets.md#location).
+
+1. Klicka för att markera en bild och klicka på **[!UICONTROL Use]**.
+
+   Bilden läggs till eller byts ut mot lämplig variant.
+
+## Lägg till bildlänk
+
+På samma sätt som när du lägger till eller byter bilder i genererade varianter kan du lägga till en länk till bilder. Mallen som du använde för att generera varianter _måste_ innehålla en [innehållsplatshållare för länken](/help/user-guide/content/customize-template.md#content-placeholders) för att aktivera den här funktionen.
+
+**Så här lägger du till en bildlänk i en variant**:
+
 1. När du har genererat en uppsättning varianter klickar du på en bildresurs.
 
    Om varianten inte har någon placerad bildresurs klickar du på bildresursområdet.
 
-1. Så här väljer du en bildresurs som redan har publicerats till [!DNL Content]:
-   1. Klicka på **[!UICONTROL Select from content]**. Använd filtren för att begränsa sökresultaten ytterligare.
-   1. Klicka på **[!UICONTROL Use]**
-1. Så här överför du en bildresurs:
-   1. Klicka på **[!UICONTROL Upload New Image]** för att bläddra bland dina filer och välja resurser som ska användas. Du kan importera från Microsoft OneDrive eller Dropbox tillsammans med att bläddra på enheten.
-   1. Klicka på **[!UICONTROL Add Assets]**.
+1. Klicka på länkikonen.
+1. Klicka på **[!UICONTROL Remove link]** om du vill ta bort den befintliga standardlänken.
+1. Lägg till en länk i textfältet och klicka på **[!UICONTROL Apply]**.
 
-   Bilderna läggs till eller byts ut mot lämplig variant.
+   Den definierade länken används för alla bilder i variantuppsättningen.
 
 ## Förhandsgranska för enhet
 
@@ -176,9 +189,9 @@ Ta bort onödiga varianter så att arbetsytan endast visar de varianter som du a
 
 ## Varumärkesvalidering per variant
 
-Använd _[!UICONTROL Brand guidelines check]_och_[!UICONTROL Brand validation panel]_ för att upprätthålla en konsekvent varumärkesidentitet och justering av varianter.
+Använd panelen _Innehållskontroll_ för att upprätthålla en konsekvent varumärkesidentitet, [ADA-tillgänglighetsstandarder, plattformsriktlinjer](/help/user-guide/guidelines/overview.md#content-checks) och justering av varianter.
 
-Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md#improve-brand-alignment).
+Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).
 
 ## Återkoppling om generering
 

@@ -5,9 +5,9 @@ feature: Experiences, Content Generation, Create, Generative AI, Variant Generat
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 72a3b62d02e391d2127982e7c3a6f437f868a3c1
+source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
 workflow-type: tm+mt
-source-wordcount: '294'
+source-wordcount: '299'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,9 @@ Varje fält och avsnitt i e-postupplevelsen läses in stegvis i den här sekvens
 1. Förhuvuden
 1. Headlines, email body (for single section emails), and call-to-action
 1. E-postbrödtext för efterföljande avsnitt (för e-post med flera avsnitt)
-1. Varumärkesvalideringsprocessen inträffar och kontrollen [_Varumärkesriktlinjer_](/help/user-guide/guidelines/brand-validation.md#brand-guidelines-check) fylls i för varje variant.
+1. Varumärkesvalidering
+
+   Varumärkesvalidering och innehållskontroll utförs och [_Innehållskontrollen_ sammanfattning](/help/user-guide/guidelines/brand-validation.md#content-check-summary) fylls i för varje variant.
 
 ## Antal tecken
 

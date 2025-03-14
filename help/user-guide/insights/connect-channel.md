@@ -1,12 +1,12 @@
 ---
 title: Konto för anslutningskanal
-description: Anslut ett kanalkonto för att övervaka era marknadsföringskampanjer och resursprestanda för Adobe GenStudio for Performance Marketing.
+description: Anslut ett kanalkonto för att övervaka era Adobe GenStudio for Performance Marketing-kampanjer och medieprestanda.
 level: Intermediate
 feature: Insights, Channels
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 310a6ea3b64e223222e0664750547be1812b8ef6
+source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
 workflow-type: tm+mt
-source-wordcount: '282'
+source-wordcount: '281'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,7 @@ ht-degree: 0%
 
 Första gången du öppnar [!DNL Insights] kan du se en banderoll som hjälper dig att ansluta Adobe GenStudio for Performance Marketing till ett kanalkonto.
 
-Med den här anslutningen kan GenStudio for Performance Marketing ta emot statistiska data från era aktiva marknadsföringskampanjer, resurser och upplevelser. Till att börja med importerar GenStudio for Performance Marketing in de sista sex månaderna av data så att du har verktygen för att analysera de senaste data och vidta åtgärder.
+Med den här anslutningen kan GenStudio for Performance Marketing ta emot statistiska data från era aktiva marknadsföringskampanjer, medier och annonser. Till att börja med importerar GenStudio for Performance Marketing in de sista sex månaderna av data så att du har verktygen för att analysera de senaste data och vidta åtgärder.
 
 >[!BEGINSHADEBOX]
 
@@ -47,7 +47,7 @@ GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagrin
 
    Du kan behöva ta bort blockerarna och sedan använda **[!UICONTROL Refresh]** för att försöka igen.
 
-1. Kontrollera kontoinformationen i popup-fönstret _[!UICONTROL Reconnect]_(Meta till Adobe) och klicka på&#x200B;**[!UICONTROL Reconnect]**.
+1. Kontrollera kontoinformationen i popup-fönstret _[!UICONTROL Reconnect]_(Meta till Adobe-symbol) och klicka på&#x200B;**[!UICONTROL Reconnect]**.
 
    Med Reconnect visas GenStudio for Performance Marketing igen.
 

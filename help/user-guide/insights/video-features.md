@@ -2,9 +2,10 @@
 title: Videofunktioner
 description: Läs mer om videofunktionen i de attributkategorier som används i GenStudio for Performance Marketing.
 feature: Insights, Attributes, Generative AI
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
+source-git-commit: 808ffdb7f55f7ff938e9346b8513fab46f86df7c
 workflow-type: tm+mt
-source-wordcount: '565'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
@@ -35,7 +36,7 @@ Ljudidentifiering i GenStudio for Performance Marketing innebär att analysera l
 
 1. Växla knappen **slå på** (som finns i det nedre vänstra hörnet av en videoförhandsvisning) och lyssna på ljudet i videoförhandsvisningen.
 
-I följande tabell visas de videofunktionskategorier som känns igen av GenStudio for Performance Marketing AI. Den identifierade attributlistan för en resurs är inte uttömmande. Assets som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI.
+I följande tabell visas de videofunktionskategorier som känns igen av GenStudio for Performance Marketing AI. Den identifierade attributlistan för ett medieinnehåll är inte uttömmande. Media som innehåller en mängd funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI.
 
 <!-- For the writer: turn off word wrap to work with these tables. Option + Z -->
 

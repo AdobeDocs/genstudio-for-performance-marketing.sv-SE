@@ -3,9 +3,9 @@ title: Resursinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Attributes, Assets
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: f8b22221f4fee0e1430740e670f580926ac33862
+source-git-commit: f401f93e7dd08db4837b8709e28acec5571052f7
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '714'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ I följande tabell visas de metadata (resursinformation) som du kan definiera n�
 | [!DNL Brands] | [[!DNL Brands]](/help/user-guide/guidelines/brands.md) har lagts till i GenStudio for Performance Marketing och publicerats för användning |
 | [!DNL Products] | [[!DNL Products]](/help/user-guide/guidelines/products.md) har lagts till i GenStudio for Performance Marketing för användning |
 | [!DNL Personas] | [[!DNL Personas]](/help/user-guide/guidelines/personas.md) har lagts till i GenStudio for Performance Marketing för användning |
-| Kanaler | Plattformar för distribution av vissa innehållstyper, t.ex. e-post- och displayannonser |
+| Kanaler | Plattformar för distribution av vissa innehållstyper, t.ex. e-post, banderoll och displayannonsering |
 | [!UICONTROL Timeframe] | Tidsram som tillgången används för, t.ex. kvartal, årstid, år. Exempel: `Winter 2023` |
 | Län | Områden som tillgången används för. Exempel: `North America`, `APAC`, `Italy` |
 | Språk | Språk som resursen används för. Exempel: `Spanish` |

@@ -2,12 +2,11 @@
 title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
-last-substantial-update: 2025-02-13T00:00:00Z
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 0d55b89d550a8e44e7dd354d809f00699fccf468
+source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
 workflow-type: tm+mt
-source-wordcount: '1716'
-ht-degree: 1%
+source-wordcount: '2054'
+ht-degree: 0%
 
 ---
 
@@ -15,7 +14,50 @@ ht-degree: 1%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.2.13 {#latest}
+## 2025.03.13 {#latest}
+
+### Skapa LinkedIn-upplevelser
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Stöd har lagts till för [att skapa LinkedIn-upplevelser](/help/user-guide/create/create-linkedin.md). Se fliken [LinkedIn och](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
+
+### Skapa banderollupplevelser
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Stöd har lagts till för [att skapa banderollupplevelser](/help/user-guide/create/create-banner-experience.md). Se fliken [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
+
+### Regelefterlevnad
+
+Som en del av varumärkesvalideringsprocessen har [efterlevnadsstandarder](/help/user-guide/guidelines/overview.md) introducerats i [innehållskontroller](/help/user-guide/guidelines/brand-validation.md). Dessa kontroller granskar varje variant i en upplevelse mot [!DNL Brand], [!DNL Product] och [!DNL Persona] riktlinjer, plattformsriktlinjer (t.ex. för Meta), etiska överväganden och ADA-standarder. Denna process ger en omfattande sammanfattning av riktlinjer och standarder som behöver revideras för att bättre uppfylla kraven.
+
+### Utbyggbarhet
+
+Det nya GenStudio for Performance Marketing [utökningsramverket](/help/extensibility/overview.md) innehåller verktyg för organisationer som kan införliva egna efterlevnadsprotokoll i arbetsflödet för innehållsskapande och validering via tillägg eller utökningsbara program.
+
+### Mallar
+
+* **Mallkodredigerare** - Den nya [mallkodsredigeraren](/help/user-guide/content/code-editor.md) hjälper dig att verifiera och förfina mallen för optimal användning när du skapar nya upplevelser med GenStudio for Performance Marketing.
+
+  ![Vyn Kodredigeraren](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){width="500" zoomable="yes"}
+
+* **Länkar i bild** - Anpassa din e-postmall genom att aktivera bildlänkar. Se [Anpassa en mall: Länk på bild](/help/user-guide/content/customize-template.md#link-on-image).
+* **AJO- och Marketo-mallar** - Överför en mall som du har skapat i Adobe Journey Optimizer (AJO) eller Marketo. Se [Arbeta med mallar från AJO och Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+
+### Korrigeringar och förbättringar
+
+* Aktiverade funktioner för [standardkanal](/help/user-guide/guidelines/brands.md#channel-guidelines), [bild](/help/user-guide/guidelines/brands.md#image-guidelines), [logotyp](/help/user-guide/guidelines/brands.md#logos) och [färg](/help/user-guide/guidelines/brands.md#colors) riktlinjer för [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
+* Lagt till möjlighet att [lägga till länkar till bilder](/help/user-guide/create/manage-variants.md#add-image-link) inom en variant.
+* Funktionerna för [innehållskontroll](/help/user-guide/guidelines/brand-validation.md) och granskning och godkännande har flyttats till det nya högra åtgärdsfältet för att maximera utrymmet på arbetsytan och förbättra användarupplevelsen.
+* Förenklade flödet för [överföring eller manuellt tillägg av ett varumärke](/help/user-guide/guidelines/add-guidelines.md#add-brands).
+* Introducerade möjligheten att [lägga till eller byta bildresurser i en variant](/help/user-guide/create/manage-variants.md#swap-image) på arbetsytan.
+* Förbättrad användarupplevelse och synlighet för kanalkategorierna [på hemsidan Skapa](/help/user-guide/create/overview.md) genom att separera dem till avsnitten Ägt media, Betalat media och Innehåll.
+* Förbättrad filtrering i [!DNL Insights] tabell- och gallerivyer.
+
+## Versionsinformation
+
++++Anteckningar från 2025.02.13
 
 ### Förbättringar av landningssidan för [!DNL Create]
 
@@ -23,11 +65,11 @@ Startsidan [!DNL Create] i GenStudio for Performance Marketing innehåller förb
 
 ### Insikter exporteras till CSV
 
-Du kan nu hämta den visningsbara tabellen från valfri [!DNL Insights]-vy till en CSV-fil. Med den här funktionen kan du enkelt exportera och analysera data från olika [!DNL Insights]-vyer, vilket underlättar dataanalys och rapportalternativ.
+Du kan nu hämta den visningsbara tabellen från valfri [!DNL Insights]-vy till en CSV-fil. Med den här funktionen kan du exportera och analysera data från olika [!DNL Insights]-vyer, vilket underlättar dataanalys och rapportalternativ.
 
-## Versionsinformation
++++
 
-+++Anteckningar från 2025.1.16
++++Anteckningar från 2025.01.16
 
 ### Integrering med Adobe Workfront Proof
 

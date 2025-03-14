@@ -4,9 +4,9 @@ description: Följ vedertagna standarder när du använder mallar med Adobe GenS
 feature: Templates, Content
 last-substantial-update: 2024-12-13T00:00:00Z
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 9cc284cdb00a204baf6b0a2d9d7f67cf9bc9c81f
+source-git-commit: cdba0ef2cc359a6ed0fd25ce946bcf89f9b712f9
 workflow-type: tm+mt
-source-wordcount: '692'
+source-wordcount: '869'
 ht-degree: 0%
 
 ---
@@ -51,7 +51,7 @@ Skapa mallar som passar de layoutkrav och visuella krav som gäller för varje k
 Följ de här designmetoderna när du anpassar e-postmallar för att arbeta med GenStudio for Performance Marketing:
 
 - Använda Adobe- eller Google-teckensnitt
-- Använd ren och responsiv HTML och infogad CSS
+- Använd rena och responsiva HTML och inline CSS
 - Använd **inte** JavaScript
 - Använd **inte** fast bredd i brödtext eller behållare
 - Använd **inte** base64-kodning för bilder eftersom det kan öka mallstorleken avsevärt
@@ -72,7 +72,7 @@ För e-post inkluderas fältet `subject` automatiskt. Använd innehållsplatshå
 - `headline`
 - `body`
 - `cta`
-- `image` (markerat från innehåll)
+- `image` (markerat från JPEG, PNG eller GIF)
 - `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
@@ -115,17 +115,15 @@ Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for
 
 För Metaannonser genereras fälten `headline`, `body` och `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
 
-- `image` (markerat från innehåll)
-- `on-image-text`
+- `image` (markerat från JPEG, PNG eller GIF)
+- `on_image_text`
 - `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 
->[!TAB Visningsannons]
+>[!TAB Banner &amp; Display ad ]
 
-[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
-
-Följ de här designmetoderna när du anpassar mallar för displayannonser så att de fungerar med GenStudio for Performance Marketing:
+Följ de här designmetoderna när du anpassar mallar för banners och displayannonser så att de fungerar med GenStudio for Performance Marketing:
 
 - Använda Adobe- eller Google-teckensnitt
 - Förbered resurser som visas bra i tunna dimensioner
@@ -159,7 +157,55 @@ Använd innehållsplatshållare för följande fält:
 - `headline`
 - `body`
 - `cta`
-- `image` (markerat från innehåll)
+- `image` (markerat från JPEG, PNG eller GIF)
+
+Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
+
+>[!TAB LinkedIn och]
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Följ dessa designtips när du anpassar LinkedIn-annonsmallar så att de fungerar med GenStudio for Performance Marketing:
+
+**Begränsningar**:
+
+- Användning av [avsnitt](customize-template.md#sections-or-groups):
+   - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+- Största bildstorlek på 5 MB
+- Max. rubrik 70 tecken
+- Max introduktionstext 150 tecken
+
+**Proportioner som stöds**:
+
+- Fyrkant 1:1
+   - dator eller mobil
+   - Min: 360 x 360 pixlar
+   - Max: 4 320 x 4 320 pixlar
+- Vågrät 1,91:1
+   - desktop
+   - Min: 640 x 360 pixlar
+   - Max: 7 680 x 4 320 pixlar
+- Lodrät 1:1.91
+   - mobil
+   - Min: 360 x 640 pixlar
+   - Max: 2 430 x 4 320 pixlar
+- Hörn 2.3
+   - mobil
+   - Min: 360 x 640 pixlar
+   - Max: 2 430 x 4 320 pixlar
+- Artikel 4.5 (rekommenderas)
+   - mobil
+   - Min: 360 x 640 pixlar
+   - Max: 2 430 x 4 320 pixlar
+
+**Identifierade fältnamn**:
+
+För LinkedIn-annonser genereras fälten `headline` och `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
+
+- `image` (markerat från JPEG, PNG eller GIF)
+- `introductory_text`
+- `on_image_text`
+- `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 

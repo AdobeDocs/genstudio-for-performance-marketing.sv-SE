@@ -3,9 +3,9 @@ title: Arbeta med mallar
 description: Upptäck hur du använder mallar effektivt för att effektivisera din kreativa process i Adobe GenStudio for Performance Marketing.
 feature: Templates, Content
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 62ab3849296195ca4d9525cb5688f74ce8bede54
+source-git-commit: 624629700d8bf7d9e4c0e6d8b4373f40b14d4e05
 workflow-type: tm+mt
-source-wordcount: '935'
+source-wordcount: '1132'
 ht-degree: 0%
 
 ---
@@ -20,65 +20,27 @@ GenStudio for Performance Marketing stöder inte direkt framtagning av mallar i 
 
 2. **Koda din mall**: Konvertera din design till HTML och infogad CSS för att säkerställa att den är ren och responsiv på olika enheter. Ta en titt på [hjälpmedelsriktlinjerna](accessibility-for-templates.md) som kan hjälpa dig att nå ut till din avsedda målgrupp.
 
-3. **Förbered för GenStudio for Performance Marketing**: Anpassa mallen HTML med hjälp av mallspråket Handlebars. Infoga platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll dynamiskt. Se hur du [anpassar en mall](customize-template.md) för GenStudio for Performance Marketing.
+3. **Förbered för GenStudio for Performance Marketing**: Anpassa din HTML-mall med hjälp av hanteringsfältens mallspråk. Infoga platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll dynamiskt. Se hur du [anpassar en mall](customize-template.md) för GenStudio for Performance Marketing.
 
 Med de här stegen kan du skapa professionella och effektiva mallar som är klara att användas i GenStudio for Performance Marketing, så att du snabbt och effektivt kan producera varumärkesinnehåll.
 
 ## Mallelement
 
-En mall är en uppsättning instruktioner som definieras med HTML och infogad CSS som kan användas för att skapa en e-post, en social annons eller en webbannonsupplevelse. Mallelement tillhandahåller strukturen för att skapa innehåll.
+En mall är en uppsättning instruktioner som definieras med HTML och infogad CSS som kan användas för att skapa e-postmeddelanden, social annonsering eller webbannonsupplevelser. Mallelement tillhandahåller strukturen för att skapa innehåll.
 
 Nedan följer en lista över element som används i mallar och en del detaljer om deras egenskaper:
 
-- **Förrubrik**
-
-   - Fungerar som en sekundär ämnesrad i ett e-postmeddelande och förbättrar ämnesraden
-   - Mellan 40 och 50 tecken
-   - Visas i inkorgen bredvid motivet innan e-postmeddelandet öppnas
-   - Används i e-postmallar
-
-- **Sidhuvud**
-
-   - Övre delen av e-postmeddelandet som mottagaren ser när han/hon öppnar e-postmeddelandet
-   - Anger tonen och ger sammanhang för det inkluderade innehållet
-   - Används i e-postmallar
-
-- **Rubrik**
-
-   - Första innehållet som mottagaren ser
-   - Bör vara lockande att fånga intresset
-   - Används i metadatamallar
-
-- **Brödtext**
-
-   - Huvudsakligt innehållsområde där det primära meddelandet överförs
-   - Möjlighet att inkludera text, bilder och andra medier
-   - Används i mallar för e-post och metaannonser
-
-- **CTA**
-
-   - Knappen Call-to-action använder en fras och en länk
-   - Uppmuntrade mottagaren att utföra en viss åtgärd, som att klicka på en länk eller göra ett köp
-   - Används i mallar för e-post och metaannonser
-
-- **Bilder**
-
-   - Förbättrar den visuella effekten
-   - Dela upp text
-   - Stöd meddelandet
-   - Bör vara högkvalitativ och uppseendeväckande
-   - Används i mallar för e-post och metaannonser
-
-- **Sidfot**
-
-   - Avsnittet längst ned som innehåller ytterligare innehåll, t.ex. kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen
-   - Används i e-postmallar
-
-- **Textövertäckning**
-
-   - Text på en bild
-   - Använd för att stödja och förbättra rubriken och brödtexten
-   - Används i metadatamallar
+| **Element** | **Kanal** | **Beskrivning** |
+|----------------------|------------------------------------------|--------------------------------------------------------------------------------------------------------------------------------------------------------------|
+| **Förrubrik** | E-post | En andra ämnesrad i ett e-postmeddelande, vanligtvis mellan 40 och 50 tecken, som förbättrar ämnesraden. Den visas i inkorgen bredvid motivet innan e-postmeddelandet öppnas. |
+| **Sidhuvud** | E-post | Den övre delen av e-postmeddelandet som mottagaren ser när han/hon öppnar e-postmeddelandet anger tonen och anger kontext för det inkluderade innehållet. |
+| **Rubrik** | Meta-annons, banner and Display ads, LinkedIn | Det första innehåll som mottagaren ser bör vara intressant att fånga intresset. |
+| **Introduktionstext** | LinkedIn | Det primära meddelandet förmedlar huvudmeddelandet, ungefär som brödtexten. Du kan använda upp till 150 tecken, inklusive blanksteg, maximalt fyra känslolägesikoner och skiljetecken. |
+| **Brödtext** | E-post, Meta-annons, Banner and Display ads | Huvudtexten i annonsen förmedlar huvudbudskapet. Det bör vara engagerande, informativt och övertygande att uppmuntra målgruppen att vidta de åtgärder som krävs. |
+| **CTA** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | En knapp för att ringa till åtgärd använder en fras och en länk för att uppmuntra mottagaren att vidta en viss åtgärd, till exempel klicka på en länk eller göra ett köp. |
+| **Bilder** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | Förbättra visuell tilltalande, dela upp text och ge stöd åt budskapet. Bilderna ska vara högklassiga och effektfulla. |
+| **Sidfot** | E-post | Avsnittet längst ned i e-postmeddelandet innehåller ytterligare innehåll som kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen. |
+| **Textövertäckning** | Meta ad | Text som placeras på en bild för att stödja och förbättra innehållet i rubriken och brödtexten. |
 
 >[!TIP]
 >
@@ -94,9 +56,9 @@ Du [anpassar mallen](customize-template.md) för användning i GenStudio for Per
 
 ## Hantera mallar
 
-Galleriet [!DNL Templates] visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing. Du kan filtrera mallar efter kanaltyp, till exempel e-post, webbannonser och Meta-annonser.
+Galleriet _[!DNL Templates]_visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing. Du kan filtrera mallar efter kanaltyp, till exempel e-post, visningsannonser, Meta-annonser och LinkedIn-annonser.
 
-![Listan Innehållsmall](/help/assets/content-templates.png){width="650" zoomable="yes"}
+![Listan Innehållsmall](/help/assets/content-templates-filter.png "Sök i LinkedIn-mallar"){width="650" zoomable="yes"}
 
 ### Lägga till en mall
 
@@ -108,24 +70,26 @@ Innan du överför en mall måste du se till att den är helt förberedd och kla
 
 1. Klicka på **[!UICONTROL Add template]**.
 
-1. I rutan _[!UICONTROL Add your approved template]_bläddrar du efter mallfilen HTML eller drar HTML-mallfilen till släppområdet. Klicka på&#x200B;**[!UICONTROL Next]**.
+1. I rutan _[!UICONTROL Add your approved template]_bläddrar du efter HTML-mallfilen eller drar HTML-mallfilen till släppområdet. Klicka på&#x200B;**[!UICONTROL Next]**.
 
-1. Granska de identifierade fälten i rutan _[!UICONTROL Review discovered fields]_. Kontrollera att du använder rätt mall och att all information är som förväntat. Klicka på&#x200B;**[!UICONTROL Next]**.
+1. Granska fälten i rutan _[!UICONTROL Check detected fields]_. Kontrollera att du använder rätt mall och att all information är som förväntat.
 
    Exempel på Förhandsgranska för en e-postmall:
 
-   ![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png){width="650"}
+   ![Förhandsgranskningsfält har identifierats](/help/assets/template-detected-fields.png){width="650" zoomable="yes"}
 
    >[!TIP]
    >
-   >Om mallen inte är korrekt klickar du på **[!UICONTROL Back]** och går tillbaka till föregående steg. Överför den korrigerade mallfilen.
+   >Om mallen inte är korrekt klickar du på **[!UICONTROL Back]** och går tillbaka till föregående steg. Överför den korrigerade mallfilen. Eller använd [mallkodsredigeraren](/help/user-guide/content/code-editor.md) för att göra enkla korrigeringar.
+
+1. Klicka på **[!UICONTROL Next]** när du är nöjd med mallförhandsvisningen.
 
 1. I rutan _[!UICONTROL Provide template details and upload]_ger du mallen ett namn och väljer en **[!UICONTROL Channel]**-typ.
 
    Mallnamn och kanaltyp krävs. Ytterligare krav kan vara:
 
    - **Meta**: kräver proportioner
-   - **Visningsannonser**: kräver Dimensioner
+   - **Banner och Display ad**: kräver Dimensions
 
 1. Lägg till så många detaljer du kan för att förbättra identifiering av mallar i sökningar och filtrering.
 
@@ -156,3 +120,23 @@ Hitta och använd en befintlig mall i GenStudio for Performance Marketing för a
 1. Klicka på **[!UICONTROL Create Experience]** (penselverktyget) i det övre högra hörnet om du vill använda mallen.
 
 1. Fortsätt till [Skapa](/help/user-guide/create/overview.md#create-use-cases) en upplevelse.
+
+## Mallar från AJO och Marketo
+
+Du kan överföra en mall som du har skapat i Adobe Journey Optimizer (AJO) eller Marketo. GenStudio for Performance Marketing identifierar programspecifika mönster och ignorerar dem, vilket bevarar originalformuläret för fortsatt användning i AJO eller Marketo. Du behöver inte göra några ändringar i den ursprungliga AJO- eller Marketo-syntaxen.
+
+Kända programmönster är:
+
+- **AJO**: `{{profile.*}}`, `{{context.*}}`
+- **Marketo**: `{{my.*}}`, `{{lead.*}}`, `{{system.*}}`
+
+>[!BEGINSHADEBOX]
+
+**Förutsättningar**
+
+- Programmet (AJO, Marketo) och GenStudio for Performance Marketing måste tillhöra samma IMS-organisation för integrering
+- Användarna måste ha rollen&quot;Medarbetare&quot; (den lägsta nivån) eller högre
+
+>[!ENDSHADEBOX]
+
+Därefter [anpassar du mallen](/help/user-guide/content/customize-template.md) med platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll åt dig. [Lägg till mallen ](#add-a-template) i databasen [!DNL Content] och validera mallen. Gör eventuella mindre korrigeringar med kodredigeraren.

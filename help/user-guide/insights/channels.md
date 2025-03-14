@@ -3,7 +3,7 @@ title: Översikt över kanaler
 description: Se en översikt över kundengagemang, resultat, budget och utgifter för marknadsföringskampanjer i Adobe GenStudio for Performance Marketing.
 feature: Insights, Channels, Campaigns
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 5cff6d1dd097b18e4fa3d286afddc1db553a415d
+source-git-commit: e4507e53896348bca2ebec4ae299be50a0d277a7
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -16,13 +16,13 @@ Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja i listorna [!UICONTROL Account], [!UICONTROL Status] och [!UICONTROL Objective] för att filtrera kampanjer i tabellen.
+Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor. Markera **[!UICONTROL Clear all]**ovanför tabellen om du vill ta bort alla filter.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 {{$include /help/_includes/download-insights.md}}
 
-När du väljer en kampanj öppnas fliken [[!UICONTROL Experiences] ](experiences.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka upplevelser som har bidragit till kampanjens övergripande framgång.
+När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
 
 ## Mål
 
