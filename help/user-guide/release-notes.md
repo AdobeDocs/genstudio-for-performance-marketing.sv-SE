@@ -3,9 +3,9 @@ title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '2099'
+source-wordcount: '2096'
 ht-degree: 0%
 
 ---
@@ -34,7 +34,7 @@ Stöd har lagts till för [att skapa banderollupplevelser](/help/user-guide/crea
 
 ### Regelefterlevnad
 
-Som en del av varumärkesvalideringsprocessen har [efterlevnadsstandarder](/help/user-guide/guidelines/overview.md) introducerats i [innehållskontroller](/help/user-guide/guidelines/brand-validation.md). Dessa kontroller granskar varje variant i en upplevelse mot [!DNL Brand], [!DNL Product] och [!DNL Persona] riktlinjer, plattformsriktlinjer (t.ex. för Meta), etiska överväganden och ADA-standarder. Denna process ger en omfattande sammanfattning av riktlinjer och standarder som behöver revideras för att bättre uppfylla kraven.
+Som en del av varumärkesvalideringsprocessen har [efterlevnadsstandarder](/help/user-guide/guidelines/overview.md) introducerats i [innehållskontroller](/help/user-guide/guidelines/brand-validation.md). Dessa kontroller granskar varje variant i en upplevelse utifrån [!DNL Brand] riktlinjer, plattformsriktlinjer (t.ex. för Meta) och ADA-standarder. Denna process ger en omfattande sammanfattning av riktlinjer och standarder som behöver revideras för att bättre uppfylla kraven.
 
 ### Utbyggbarhet
 

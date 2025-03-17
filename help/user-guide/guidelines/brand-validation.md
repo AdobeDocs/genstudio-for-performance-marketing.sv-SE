@@ -3,9 +3,9 @@ title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brands Service, Guidelines
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e4f552016fe17d2d7eb61792b62859475f107094
+source-git-commit: 8a8815d49ce4a950fcfc2f425ca58ae7fbd42c73
 workflow-type: tm+mt
-source-wordcount: '713'
+source-wordcount: '698'
 ht-degree: 0%
 
 ---
@@ -16,9 +16,9 @@ I GenStudio for Performance Marketing är varumärkesvalidering en viktig kompon
 
 GenStudio for Performance Marketing genomför varumärkesvalidering och andra innehållskontroller av olika aspekter, bland annat:
 
-* Definierade eller standardinställda riktlinjer för [!DNL Brand], [!DNL Persona] och [!DNL Product]
+* [!DNL Brand]-riktlinjer har definierats eller är standard
 * Riktlinjer för plattformen
-* Etiska överväganden som rör kön, etnicitet, ras, funktionshinder och ålder i AI-genererat innehåll
+<!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 * American with Disabilities Act (ADA)-standarder
 
 ## Sammanfattning av innehållskontroll
