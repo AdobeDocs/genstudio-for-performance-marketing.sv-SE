@@ -3,9 +3,9 @@ title: Versionsinformation för Adobe GenStudio for Performance Marketing
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 recommendations: noDisplay
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 41fb13b1067851194871a1101f2630de7ca1c008
+source-git-commit: 86974fec02bd50fa36ef16bd4d1881794972fc79
 workflow-type: tm+mt
-source-wordcount: '2054'
+source-wordcount: '2099'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,10 @@ ht-degree: 0%
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
 ## 2025.03.13 {#latest}
+
+### Aktivera metaannonser
+
+Nu kan marknadsförare [publicera annonsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing i Meta Ads Manager. [!DNL Activate] har stöd för detaljerade förhandsvisningar av Meta-annonser före distributionen. Metaannonser som publicerats via [!DNL Activate] hämtas automatiskt till [!DNL Insights] en gång i realtid, vilket gör att användare kan spåra och rapportera annonsprestanda.
 
 ### Skapa LinkedIn-upplevelser
 
