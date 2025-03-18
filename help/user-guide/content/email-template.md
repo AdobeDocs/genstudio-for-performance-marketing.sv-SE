@@ -2,12 +2,13 @@
 title: Förbered en e-postmall för Adobe GenStudio for Performance Marketing
 description: Lär dig hur du skapar en anpassad e-postmall för Adobe GenStudio for Performance Marketing.
 level: Intermediate
+feature: Media Templates
 hidefromtoc: true
-feature: Templates, Content
+recommendations: noCatalog
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: cf6e0679999614a4d14d224c9a8dce0b66f50262
+source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '459'
 ht-degree: 0%
 
 ---
@@ -57,7 +58,7 @@ Definiera de områden i e-postmallen som ska fyllas i dynamiskt med innehåll fr
 Så här definierar du genererade innehållsområden:
 
 * Identifiera textelementen i mallen som GenStudio for Performance Marketing ska generera automatiskt, till exempel rubriken eller CTA.
-* Anpassa HTML-mallen genom att infoga platshållare i den med hjälp av syntaxen Handtag.
+* Anpassa din HTML-mall genom att infoga platshållare i den med hjälp av syntaxen Handlebars.
 
 Se [Platshållare för innehåll](/help/user-guide/content/customize-template.md#content-placeholders).
 
