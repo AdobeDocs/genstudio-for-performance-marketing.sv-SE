@@ -1,20 +1,20 @@
 ---
-title: GenStudio för Performance Marketing [!DNL Products]
-description: GenStudio for Performance Marketing [!DNL Products] innehåller alla aspekter av produkten - bilder, beskrivningar och värdeförslag - för att skapa relevant innehåll som framhäver produktstyrkor och upprätthåller en konsekvent produktmarknadsföring.
-feature: Products Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Products]
+description: GenStudio for Performance Marketing [!DNL Products] innehåller alla delar av produkten - bilder, beskrivningar och värdeförslag - för att skapa relevant innehåll som framhäver produktstyrkor och bibehåller enhetligheten i produktmeddelandena.
+feature: Product Personalization, Variant Generation, Generative AI
 exl-id: a9aee814-cca6-4973-a6db-842de7622a8a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '532'
 ht-degree: 0%
 
 ---
 
-# GenStudio för prestandamarknadsföring [!DNL Products]
+# GenStudio for Performance Marketing [!DNL Products]
 
-[!DNL Products] i GenStudio för Performance Marketing (prestandamarknadsföring) har en djupgående förståelse för produktspecifikationer, fördelar och differentieringsfaktorer för att generera slagkraftigt innehåll.
+[!DNL Products] i GenStudio for Performance Marketing har en djupgående förståelse för produktspecifikationer, fördelar och differentieringsfaktorer för att generera slagkraftigt innehåll.
 
-[!DNL Products] omfattar alla element i en viss produkt, till exempel bilder, beskrivningar och värdeförslag, för att skapa en sammanhängande varumärkesrepresentation. Genom att utnyttja Adobe avancerade AI-teknik, GenStudio for Performance Marketing guidelines -[[!DNL Brands], [!DNL Products] och  [!DNL Personas]](/help/user-guide/guidelines/overview.md) - kan ni tillsammans generera övertygande innehåll som visar upp era produkters styrka och säkerställer enhetlighet i alla meddelanden.
+[!DNL Products] omfattar alla element i en viss produkt, till exempel bilder, beskrivningar och värdeförslag, för att skapa en sammanhängande varumärkesrepresentation. Genom att utnyttja Adobe avancerade AI-teknik kan GenStudio for Performance Marketing riktlinjer -[[!DNL Brands], [!DNL Products] och [!DNL Personas]](/help/user-guide/guidelines/overview.md) - samverka för att generera övertygande innehåll som visar upp era produkters styrka och säkerställer enhetlighet i alla meddelanden.
 
 **Så här visar eller ändrar du en produkt**:
 
@@ -22,7 +22,7 @@ ht-degree: 0%
 1. Om du vill [visa enskild information eller ändra en produkt](add-guidelines.md#manage-products) klickar du på åtgärdsmenyn _[!DNL Products]_och väljer **[!UICONTROL Open]**.
 1. Läs produktriktlinjerna genom att klicka i ett textfält för stödlinjekategori.
 
-Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lägger till eller ändrar en produkt i GenStudio för Performance Marketing.
+Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lägger till eller ändrar en produkt i GenStudio for Performance Marketing.
 
 ## Riktlinjer för [!DNL Products]
 

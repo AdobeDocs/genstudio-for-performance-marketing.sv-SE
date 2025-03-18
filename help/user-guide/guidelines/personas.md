@@ -1,20 +1,20 @@
 ---
-title: GenStudio för Performance Marketing [!DNL Personas]
-description: GenStudio for Performance Marketing [!DNL Personas]  är en sann representation av era kundsegment och fångar upp deras intressen, smärtor, preferenser och beteendeegenskaper.
-feature: Personas Service, Guidelines
+title: GenStudio for Performance Marketing [!DNL Personas]
+description: GenStudio for Performance Marketing [!DNL Personas] är en sann representation av era kundsegment och fångar upp deras intressen, smärtor, preferenser och beteenden.
+feature: Persona Personalization, Variant Generation, Generative AI
 exl-id: f8c86f0b-81fe-4b94-b3d1-438de411864a
-source-git-commit: ea07473556386ee84d8c31a4607e6e3b11abbac8
+source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
 workflow-type: tm+mt
 source-wordcount: '362'
 ht-degree: 0%
 
 ---
 
-# GenStudio för prestandamarknadsföring [!DNL Personas]
+# GenStudio for Performance Marketing [!DNL Personas]
 
 [!DNL Personas] utgör en autentisk bild av dina kundsegment, med information, intressen, smärtor, preferenser och beteenden.
 
-GenStudio for Performance Marketing utnyttjar kraften i riktlinjerna -[[!DNL Brands], [!DNL Products] och [!DNL Personas]](overview.md) - och Adobe generative AI-teknik för att strukturera personaliserat marknadsföringsinnehåll för era målkunder. &#x200B;
+GenStudio for Performance Marketing utnyttjar kraften i riktlinjerna -[[!DNL Brands], [!DNL Products] och [!DNL Personas]](overview.md) - och Adobe generativa AI-teknik för att strukturera personaliserat marknadsföringsmaterial för era målkunder. &#x200B;
 
 **Så här visar eller ändrar du en profil**:
 
@@ -22,11 +22,11 @@ GenStudio for Performance Marketing utnyttjar kraften i riktlinjerna -[[!DNL Bra
 1. Om du vill [visa enskilda detaljer eller ändra en profil ](add-guidelines.md#manage-personas) klickar du på åtgärdsmenyn _[!DNL Personas]_och väljer **Öppna**.
 1. Granska personernas riktlinjer genom att klicka i ett textfält för en stödlinjekategori.
 
-Se [Lägg till riktlinjer](add-guidelines.md) om du vill veta hur du lägger till eller ändrar en profil i GenStudio för Performance Marketing.
+Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lägger till eller ändrar en profil i GenStudio for Performance Marketing.
 
 ## Riktlinjer för [!DNL Personas]
 
-Riktlinjer för individanpassad marknadsföring ger GenStudio en tydlig bild av din [!DNL Personas].
+Riktlinjer för individ ger GenStudio for Performance Marketing en tydlig bild av din [!DNL Personas].
 
 ![Personriktlinjer](/help/assets/personas.png){width="600" zoomable="yes"}
 
