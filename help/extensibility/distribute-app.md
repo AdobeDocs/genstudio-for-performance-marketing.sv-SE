@@ -1,16 +1,21 @@
 ---
 title: Distribuera din app
 description: Distribuera din app, eller din add-on, för GenStudio for Performance Marketing.
-source-git-commit: 6830e345577ca44ef8dee8de6195314a899f4e57
+exl-id: 4935356b-08df-402c-b1a2-b89627afc188
+source-git-commit: 8884f3438a0010119f578ca9a3b7158e2e01cfa3
 workflow-type: tm+mt
-source-wordcount: '194'
+source-wordcount: '286'
 ht-degree: 0%
 
 ---
 
 # Distribuera din app
 
-Genom att distribuera appen blir den tillgänglig för medlemmar i organisationen.
+Genom att distribuera din add-on blir den tillgänglig för användning av din organisation och andra organisationer.
+
+Privat distribution begränsar distributionen av tillägget till den organisation som identifieras av IMS-organisationen som du har utvecklat tillägget för. Offentlig distribution gör tillägget tillgängligt som ett program på Adobe Exchange. Ditt distributionsarbetsflöde beror på om din add-on är avsedd för offentlig eller privat distribution.
+
+I det här avsnittet diskuteras privat distribution. [Offentlig distribution](https://developer.adobe.com/app-builder/docs/guides/distribution/public/) i utvecklardokumentationen för _App Builder_ beskriver hur du gör din app tillgänglig för alla Adobe-organisationer.
 
 >[!BEGINSHADEBOX]
 
@@ -26,7 +31,9 @@ Ditt App Builder-program måste distribueras i ett App Builder-projekt.
 
 >[!ENDSHADEBOX]
 
-**Så här distribuerar du appen**:
+**Så här distribuerar du din app privat**:
+
+Privat distribution gör din app tillgänglig endast för medlemmar i din organisation.
 
 1. I [Adobe Developer Console](https://developer.adobe.com/console/) väljer du den organisation, det projekt och den arbetsyta där appen distribueras.
 
