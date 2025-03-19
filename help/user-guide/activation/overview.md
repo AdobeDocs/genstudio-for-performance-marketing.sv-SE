@@ -1,35 +1,43 @@
 ---
-title: Översikt över aktiveringen
+title: Översikt över Aktivera
 description: Lär dig hur du aktiverar innehåll med Adobe Experience Cloud och tredjepartsprogram.
-feature: Assets, Approval, Experiences
+feature: Assets, Experiences
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: ce08231cb723bec3d80a732837b72a435d3b552d
+source-git-commit: c3b8419deccd24cd565627fcb3f7d6376860e84a
 workflow-type: tm+mt
-source-wordcount: '206'
+source-wordcount: '393'
 ht-degree: 0%
 
 ---
 
-# Adobe GenStudio for Performance Marketing Activation
+# Adobe GenStudio for Performance Marketing Activate
 
-_Aktivering_ är processen att göra Adobe GenStudio for Performance Marketing-genererade resurser och upplevelser tillgängliga för leverans via utvalda kanaler och Adobe Experience Cloud-produkter. Du kan enkelt exportera godkänt innehåll från GenStudio for Performance Marketing i de optimala formaten för de tredjepartsprogram som du inkluderar i [!DNL Products].
+GenStudio for Performance Marketing _[!DNL Activate]_är en central plats för att förbereda annonsupplevelsen för aktivering av utvalda betalda annonskanaler._ Aktivering _är processen att leverera annonsupplevelser till angivna kanaler i ett inaktivt tillstånd, redo för slutgranskning och distribution från kanalen. Annonsupplevelserna kan sedan distribueras på de avsedda marknaderna.
 
-GenStudio for Performance Marketing aktiveringsfunktion är inbyggd i Adobe Experience Delivery Products: Journey Optimizer, Journey Optimizer B2B Edition, Experience Manager, Marketo och Target.
+Innehållsredigerare och systemansvariga kan publicera upplevelser vars resurser antingen genereras i eller överförs till GenStudio for Performance Marketing.
 
-**Så här aktiverar du en godkänd resurs**:
+[!DNL Activate] visar en produktpanel för varje kanal. Den här rutan visar den betalda mediekanalen och visar antalet lyckade annonsinsatser som har gjorts under de senaste 30 dagarna. Här finns också en startpunkt för att hantera aktiveringar och skapa en ny aktivering.
 
-1. Välj resursen från [!DNL Content].
+Alla betalkonton för mediekanaler måste vara anslutna till GenStudio for Performance Marketing innan du kan aktivera en annonsupplevelse.
 
-1. Klicka på ikonen **[!UICONTROL Download]** (nedpil) ovanför vyn _Detaljer_.
+## [!DNL Activate] användningsfall
 
-   Resursen hämtas som en ZIP-fil till din lokala _hämtningsmapp_.
+* [Skapa en aktivering](create-activation.md). Du kan skapa en annonsupplevelse genom att välja visuella resurser, tilldela text och definiera metadata innan du går till en betalkanal.
 
-**Så här aktiverar du en godkänd upplevelse**:
+* [Hantera aktiveringar](manage-activations.md). _[!DNL Activate]_ger en översikt över alla aktiverade upplevelser. Du kan även visa information om enskilda aktiveringar.
 
-1. Välj upplevelsen från [!DNL Content] > [!DNL Experiences].
+## [!DNL Activate]-funktioner
 
-1. Klicka på knappen **[!UICONTROL Export for activation]** i vyn Detaljer för upplevelsen. GenStudio for Performance Marketing visar popup-fönstret **[!UICONTROL Export for activation]** och har två hämtningsformat: CSV och HTML. (Du kan också komma åt knappen *[!UICONTROL Export for activation]** på menyn _Fler alternativ_ (som representeras av `...`).)
+_[!DNL Activate]_underlättar förberedelsen av annonsupplevelser för distribution till målbetalda kanaler.
 
-1. Välj önskat hämtningsformat genom att klicka på knappen **[!UICONTROL Export CSV]** eller **[!UICONTROL Export HTML]** på popup-menyn.
+### Förbered för aktivering
 
-   Exportprocessen skapar ett ZIP-paket i den lokala mappen _Downloads_ . Mappnamnet är detsamma som upplevelsenamnet.
+Sidan _Creative-inställningar_ konsoliderar de verktyg du behöver för att markera de visuella elementen i en annonsupplevelse, justera annonstexten (inklusive text som anropas) och lägga till användbara metadata som förbättrar spårning och synlighet av upplevelser.
+
+### Välj resurser för annonsupplevelsen
+
+Sök efter och välj godkända visuella resurser från _[!DNL Content]_eller överför resurser från Dropbox eller OneDrive. Du kan också överföra resurser direkt från enheten. En annonsupplevelse kan köras på flera platser. Assets kan laddas upp med de proportioner som annonsplaceringen kräver.
+
+### Förgranska och aktivera upplevelsen i en annonskanal
+
+Bekräfta betalkanalskonton, annonsuppsättningar och metakampanjer som är kopplade till den här annonseringsaktiveringen. På panelen _Förhandsgranska_ kan du visa annonsupplevelser på olika platser innan du slutför den. (När du väljer en placering på panelen _Förhandsgranska_ påverkas bara annonsvyn. Ditt placeringsval på panelen _Förhandsgranska_ sparas inte.) När du är nöjd med annonsupplevelsen klickar du på **[!UICONTROL Publish]** för att skicka upplevelsen och tillhörande metadata till den betalda annonskanalen.
