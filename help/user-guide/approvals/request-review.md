@@ -2,9 +2,9 @@
 title: Begär granskningar och godkännanden
 description: Begär en granskning av genererat innehåll med Adobe GenStudio for Performance Marketing.
 exl-id: 4d5cb23c-457f-47b6-a265-a283afbc54d4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: 1e66e13df8f1d7ddb6b6a11af6f751ba3a9b8a04
 workflow-type: tm+mt
-source-wordcount: '345'
+source-wordcount: '382'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,8 @@ När du har genererat dina innehållsvarianter kan du begära granskning och god
 **Så här begär du en granskning**:
 
 1. Klicka på knappen **[!UICONTROL Send for approver]** på den övre menyraden på arbetsytan. Popup-fönstret _Skicka för godkännande_ öppnas och identifierar det utkast som du begär en granskning för. Om du genererar flera varianter skickas hela arbetsytan för granskning.
+
+1. Bekräfta att utkastsrubriken är beskrivande, informativ och fokuserar godkännarna på granskningsmålet. Markera fältet _Titel_ om du vill ändra utkastsrubriken. Om du ändrar titeln här ändras även den underliggande titeln för utkastupplevelsen.
 
 1. Välj den eller de godkännare som du vill begära en granskning av. När du börjar skriva fyller fältet **[!UICONTROL Approver]** automatiskt i användarnamnet för godkännaren i listan över användare med GenStudio for Performance Marketing-vy och godkännandebehörigheter. Knappen **[!UICONTROL Send]** aktiveras när du har angett minst ett godkännarnamn.
 
