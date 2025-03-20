@@ -2,11 +2,11 @@
 title: Konto för anslutningskanal
 description: Anslut ett kanalkonto för att övervaka era Adobe GenStudio for Performance Marketing-kampanjer och medieprestanda.
 level: Intermediate
-feature: Insights, Channels
+feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2ba00288ca55fdb1686f051fc28c8e816a645f2d
+source-git-commit: 91b684d27f3205806e5e92ea14db45cee84b806b
 workflow-type: tm+mt
-source-wordcount: '281'
+source-wordcount: '275'
 ht-degree: 0%
 
 ---
@@ -37,11 +37,13 @@ GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagrin
 
 >[!ENDSHADEBOX]
 
-**Så här ansluter du ett Meta ads-konto i GenStudio for Performance Marketing**:
+**Så här ansluter du ett Meta ads-konto**:
 
-1. I _[!DNL Insights]_klickar du på&#x200B;**[!UICONTROL Connect a channel account]**i banderollen eller på knappen **[!UICONTROL Add accounts]**(personform med plustecken) i det övre högra hörnet.
+1. Om det är första gången du ansluter ett konto i _[!DNL Insights] klickar du på **[!UICONTROL Connect a channel account]** i banderollen.
 
-   Du kan uppmanas att logga in på Facebook. Facebook är det enda tillgängliga alternativet just nu.
+   Du kan också markera ellipsen (..) i det nedre vänstra hörnet och klicka på **[!UICONTROL Settings]**.
+
+1. Klicka på **[!UICONTROL Connect]** på _Meta Ads_-kortet i avsnittet _Dataanslutningar_.
 
 1. Logga in på ditt Facebook-konto.
 

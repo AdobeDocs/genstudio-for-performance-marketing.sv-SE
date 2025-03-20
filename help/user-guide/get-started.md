@@ -2,9 +2,9 @@
 title: Kom igång med Adobe GenStudio for Performance Marketing
 description: Lär dig hur du kommer igång med GenStudio for Performance Marketing för att generera nytt varumärkesanpassat marknadsföringsinnehåll.
 level: Beginner
-feature: Prompt, Brands Service, Personas Service, Products Service, Generative AI, Guidelines
+feature: Media Templates, Brand Personalization, Persona Personalization, Product Personalization, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 462834fb622dae4680a64e3de5c370b9268ee4cb
+source-git-commit: 3be4f4b6bdc16e4a3389aec243e8eb74c2a93715
 workflow-type: tm+mt
 source-wordcount: '616'
 ht-degree: 2%
