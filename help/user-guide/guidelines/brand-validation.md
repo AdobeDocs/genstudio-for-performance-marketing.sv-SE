@@ -3,7 +3,7 @@ title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
 workflow-type: tm+mt
 source-wordcount: '698'
 ht-degree: 0%
@@ -41,7 +41,7 @@ Se [Förbättra varumärkesjusteringen](#improve-brand-alignment).
 
 Panelen _Innehållskontroll_ öppnas på den högra sidan av arbetsytan när du klickar på den i det högra åtgärdsfältet _eller_ från sammanfattningsikonen [_Innehållskontroll_](#content-check-summary) för en variant. Panelen innehåller detaljerad varumärkesvalidering. riktlinjer för plattformen, information om tillgänglighetsstandarder och visar upp möjligheter till förbättring för varje avsnitt.
 
-![Panelen Innehållskontroll](/help/assets/content-check-panel.png){height="250" zoomable="yes"}
+![Panelen Innehållskontroll](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
 På panelen _Innehållskontroll_ visas validering och [kompatibilitetsinformation](/help/user-guide/guidelines/overview.md#compliance) för varje avsnitt i varianten:
 
