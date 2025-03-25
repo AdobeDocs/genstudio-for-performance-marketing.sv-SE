@@ -1,21 +1,21 @@
 ---
-user-guide-title: Adobe GenStudio for Performance Marketing Extensibility Guide
-breadcrumb-title: Handbok för utökningsmöjligheter
-user-guide-description: Utforska möjligheterna i Adobe GenStudio for Performance Marketing ramverk för utbyggbarhet.
+user-guide-title: Användarhandbok för Adobe GenStudio för utökningsbarhet i Performance Marketing
+breadcrumb-title: Användarhandbok om utökningsbarhet
+user-guide-description: Utforska funktionerna i Adobe GenStudio för utökningsbarhet för ramverk i Performance Marketing.
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: Developer
 source-git-commit: bcf969f599279ba28354837b3949316a1bf7df27
 workflow-type: tm+mt
 source-wordcount: '52'
-ht-degree: 1%
+ht-degree: 57%
 
 ---
 
 
-# Adobe GenStudio for Performance Marketing Extensibility Guide {#ext-guide}
+# Användarhandbok för Adobe GenStudio för utökningsbarhet i Performance Marketing {#ext-guide}
 
-+ [Handbok för utökningsmöjligheter](home.md)
++ [Användarhandbok om utökningsbarhet](home.md)
 + Kom igång {#get-started}
    + [Översikt](overview.md)
 + Apputveckling {#apps}
