@@ -2,9 +2,10 @@
 title: Anpassa en mall
 description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudio for Performance Marketing.
 level: Intermediate
+role: Developer
 feature: Media Templates, Content Generation
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
 workflow-type: tm+mt
 source-wordcount: '1439'
 ht-degree: 0%
@@ -70,7 +71,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att CTA _[!UICONTROL Rephrase]_- och_[!UICONTROL Add link]_-funktionerna ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -148,12 +149,19 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 
 _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
 
-Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`). Följande rubrik och brödtext tillhör till exempel avsnittet `pod1`:
+Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
+
+- _Korrigera_ (??): `pod1_body`
+- _Felaktigt_ ( ❌): `pod1_link`
+
+Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör till exempel avsnittet `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
+- `pod1_image`
+- `pod1_cta`
 
-Varje avsnitt kan bara använda en av varje fälttyp. I exemplet ovan kan avsnittet `pod1` bara använda ett `pod1_headline`-fält. På grund av den här regeln kan avsnitten inte kapslas.
+På grund av den här regeln kan avsnitten inte kapslas.
 
 Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
 
@@ -223,27 +231,27 @@ Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddela
 ```html {line-numbers="true" highlight="13"}
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p><a href="{{ link }}">
-           <img alt="{{ headline }}"
-                src="{{ image }}"
-                width="600" height="600"
-                border="0"/></a></p>
-        <p>{{ body }}</p>
-    </div>
-</body>
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p><a href="{{ link }}">
+            <img alt="{{ headline }}"
+                    src="{{ image }}"
+                    width="600" height="600"
+                    border="0"/></a></p>
+            <p>{{ body }}</p>
+        </div>
+    </body>
 </html>
 ```
 
@@ -256,48 +264,48 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
 ```html
 <!DOCTYPE html>
 <html>
-<head>
-    <title>Adobe</title>
-    <style>
-        .container {
+    <head>
+        <title>Adobe</title>
+        <style>
+            .container {
             width: 100%;
             padding: 20px;
             font-family: Arial, sans-serif;
-        }
-        .pod {
+            }
+            .pod {
             background-color: #f8f8f8;
             margin: 10px;
             padding: 20px;
             border-radius: 5px;
-        }
-        .pod h2 {
+            }
+            .pod h2 {
             color: #333;
-        }
-        .pod p {
-            color: #666;
-        }
-    </style>
-</head>
-<body>{{ pre_header }}
-    <div class="container">
-        <h1>{{ headline }}</h1>
-        <p>{{ body }}</p>
-        <!-- Pod1 -->
-        <div class="pod">
-            <h2>{{ pod1_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod1_body }}</p>
+            }
+            .pod p {
+                color: #666;
+            }
+        </style>
+    </head>
+    <body>{{ pre_header }}
+        <div class="container">
+            <h1>{{ headline }}</h1>
+            <p>{{ body }}</p>
+            <!-- Pod1 -->
+            <div class="pod">
+                <h2>{{ pod1_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod1_body }}</p>
+            </div>
+            <!-- End of Pod1 -->
+            <!-- Pod2 -->
+            <div class="pod">
+                <h2>{{ pod2_headline }}</h2>
+                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
+                <p>{{ pod2_body }}</p>
+            </div>
+            <!-- End of Pod2 -->
         </div>
-        <!-- End of Pod1 -->
-        <!-- Pod2 -->
-        <div class="pod">
-            <h2>{{ pod2_headline }}</h2>
-            <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-            <p>{{ pod2_body }}</p>
-        </div>
-        <!-- End of Pod2 -->
-    </div>
-</body>
+    </body>
 </html>
 ```
 
@@ -305,54 +313,45 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
 
 +++Exempel: Meta ad template
 
-Följande är ett grundläggande exempel på en Meta-annonsmall. Huvudet innehåller infogad CSS för formatering. Brödtexten använder [platshållare för innehåll](#content-placeholders) med ett prefix.
+Följande är ett grundläggande exempel på en Meta-annonsmall. Huvudet innehåller infogad CSS för formatering. Brödtexten använder [platshållare för innehåll](#content-placeholders), till exempel `image` och `on_image_text`, för att ange var GenStudio for Performance Marketing kan generera innehåll.
 
 ```html {line-numbers="true" highlight="33"}
 <!DOCTYPE html>
 <html>
-<head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Adobe</title>
-    <style>
-        .ad-container {
-            width: 300px;
-            border: 1px solid #ddd;
-            padding: 16px;
-            font-family: Arial, sans-serif;
-        }
-        .ad-image {
-            width: 100%;
-            height: auto;
-        }
-        .ad-headline {
-            font-size: 18px;
-            font-weight: bold;
-            margin: 12px 0;
-        }
-        .ad-body {
-            font-size: 14px;
-            margin: 12px 0;
-        }
-        .ad-cta {
-            display: inline-block;
-            padding: 10px 20px;
-            background-color: #007bff;
-            color: #fff;
-            text-decoration: none;
-            border-radius: 4px;
+    <head>
+        <meta charset="UTF-8" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>Adobe</title>
+        <style>
+            .ad-container {
+            font-family: Helvetica, sans-serif;
+            position: relative;
             text-align: center;
-        }
-    </style>
-</head>
-<body>
-<div class="ad-container">
-    <img src="{{ image }}" alt="Ad Image" class="ad-image">
-    <div class="ad-headline">{{ headline }}</div>
-    <div class="ad-body">{{ body }}</div>
-    <a href="{{ link }}" class="ad-cta">{{ CTA }}</a>
-</div>
-</body>
+            height: 100%;
+            }
+            .ad-image {
+            width: 100%;
+            height: 100%;
+            object-fit: cover;
+            }
+            .ad-text {
+            position: absolute;
+            top: 0;
+            left: 0;
+            margin: 1em;
+            background-color: rgba(0, 0, 0, 0.5);
+            color: white;
+            padding: 1em;
+            font-size: 75px;
+            }
+        </style>
+    </head>
+    <body>
+        <div class="ad-container">
+            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{ on_image_text }}</div>
+        </div>
+    </body>
 </html>
 ```
 

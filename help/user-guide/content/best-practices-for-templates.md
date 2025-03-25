@@ -1,11 +1,13 @@
 ---
 title: Bästa tillvägagångssätt för mallar
 description: Följ vedertagna standarder när du använder mallar med Adobe GenStudio for Performance Marketing.
+level: Intermediate
+role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
 workflow-type: tm+mt
-source-wordcount: '869'
+source-wordcount: '922'
 ht-degree: 0%
 
 ---
@@ -41,7 +43,13 @@ Se [kanalriktlinjer](/help/user-guide/guidelines/brands.md#channel-guidelines).
 
 ## Följ kanalspecifika riktlinjer för mallar
 
-Skapa mallar som passar de layoutkrav och visuella krav som gäller för varje kanal. Tänk på följande när du arbetar med varje malltyp för att få optimala prestanda och kompatibilitet:
+När du skapar mallar måste du se till att de uppfyller de specifika kraven för den avsedda kanalen. Skapa mallar som passar de layoutkrav och visuella krav som gäller för varje kanal. Det finns allmänna riktlinjer som gäller för alla mallar, till exempel:
+
+- Använd rena och responsiva HTML och inline CSS
+- Använda Adobe- eller Google-teckensnitt
+- Använd **inte** JavaScript
+
+Tänk på följande när du arbetar med varje malltyp för att få optimala prestanda och kompatibilitet:
 
 >[!BEGINTABS]
 
@@ -83,20 +91,11 @@ Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for
 - Använd 360 pixlar bred för kolumnlayouter
 - Använd en lägsta upplösning på 1 080 x 1 080 pixlar för bilder
 - Använd den relativa teckenstorleken **inte**
-- Definiera **inte** visningsrutor
+- Definiera **inte** visningsruta
 - Använd **inte** JavaScript
 - Åsidosätt **inte** ett HTML-element i CSS
-- Använd följande inställningar för bakgrundsbilder:
-
-  Lägg till värdet `object-fit: cover` i CSS-klassen `background-image`:
-
-  ```css
-  .background-image {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-  }
-  ```
+- Använd taggen `<img>` i stället för `background-image`
+- Använd maskning för att förbättra textläsbarheten över bakgrundsbilder
 
 **Begränsningar**:
 
@@ -151,11 +150,10 @@ Följ de här designmetoderna när du anpassar mallar för banners och displayan
 
 **Identifierade fältnamn**:
 
-Använd innehållsplatshållare för följande fält:
+För banner- och visningsannonser genereras fältet `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
 
 - `headline`
 - `body`
-- `cta`
 - `image` (markerat från JPEG, PNG eller GIF)
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
@@ -188,21 +186,20 @@ Följ dessa designtips när du anpassar LinkedIn-annonsmallar så att de fungera
    - mobil
    - Min: 360 x 640 pixlar
    - Max: 2 430 x 4 320 pixlar
-- Hörn 2.3
+- Lodrätt 2.3
    - mobil
    - Min: 360 x 640 pixlar
    - Max: 2 430 x 4 320 pixlar
-- Artikel 4.5 (rekommenderas)
+- Vertikal 4.5 (rekommenderas)
    - mobil
    - Min: 360 x 640 pixlar
    - Max: 2 430 x 4 320 pixlar
 
 **Identifierade fältnamn**:
 
-För LinkedIn-annonser genereras fälten `headline` och `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
+För LinkedIn-annonser genereras fälten `headline`, `introductory_text` och `CTA` automatiskt. Använd innehållsplatshållare för följande fält:
 
 - `image` (markerat från JPEG, PNG eller GIF)
-- `introductory_text`
 - `on_image_text`
 - `brand_logo`
 
