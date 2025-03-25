@@ -1,9 +1,10 @@
 ---
 title: Adobe GenStudio for Performance Marketing granskningar och godkännanden
 description: Läs mer om GenStudio for Performance Marketing granskning och godkännande.
-feature: Approval
+level: Beginner
+feature: Content Review, Content Management
 exl-id: c83f47c0-e8ae-4c54-84b3-c50f67d6b3c2
-source-git-commit: 478815d74a742cdc05d3f1faebf27d5adc04d417
+source-git-commit: d6f9673c7b6c8bc1aa051c2133759876a59217eb
 workflow-type: tm+mt
 source-wordcount: '683'
 ht-degree: 0%
@@ -29,7 +30,7 @@ De huvudsakliga faserna i arbetsflödet för granskning och godkännande omfatta
 * [Begär granskning och godkännande av innehåll som du har skapat](./request-review.md)
 * [Granska och redigera innehåll](./review-and-edit.md)
 * [Godkänn innehåll](./approve-content.md)
-* [Publish-innehåll](./publish-content.md)
+* [Publicera innehåll](./publish-content.md)
 
 ## Vem kan begära en granskning eller godkänna innehåll?
 
@@ -53,7 +54,7 @@ Tillgängliga statusvärden för utkast:
 
 GenStudio for Performance Marketing produktmeddelanden uppdaterar godkännare och innehållsredigerare i realtid om resursstatusändringar och `@mention` kommentarer. Aviseringar ger snabb redigering genom flera gransknings-, redigerings- och godkännandecykler.
 
-Innehållsredigerare och godkännare kan registrera sig för att få dessa meddelanden i Slack. Se [Prenumerera på tjänster i Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
+Redigerare och godkännare kan registrera sig för att få dessa meddelanden i Slack. Se [Prenumerera på tjänster i Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences#slack).
 
 Åtgärder som vidtas av godkännandedeltagare utlöser automatiska meddelanden i produkten och e-postmeddelanden. När du startar en godkännandeprocess får utsedda godkännare meddelanden både via e-post och i produkten. Du hålls kvar i slingan med meddelanden i produkten och e-post när en godkännare lägger till `@mention` kommentarer eller fattar ett beslut. Meddelanden innehåller länkar till innehållsutkastet.
 

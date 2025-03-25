@@ -1,16 +1,16 @@
 ---
-title: Publish-godkänt innehåll
+title: Publicera godkänt innehåll
 description: Lär dig publicera godkänt innehåll med Adobe GenStudio for Performance Marketing.
-feature: Approval, Content
+feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: 1a2e7fa6c107caea745c4898a863d6a3b17ac61f
+source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
 workflow-type: tm+mt
 source-wordcount: '323'
 ht-degree: 0%
 
 ---
 
-# Publish-godkänt innehåll
+# Publicera godkänt innehåll
 
 Det sista steget i att skapa varumärkesanpassat, godkänt innehåll är att spara det till [!DNL Content] med lämpliga metadata. Du (innehållsredigeraren, eller skaparen) kan slutföra den godkända resursen genom att publicera, eller spara den, i [!DNL Content].
 
