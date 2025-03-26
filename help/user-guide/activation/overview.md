@@ -1,9 +1,10 @@
 ---
 title: Översikt över Aktivera
 description: Lär dig hur du aktiverar innehåll med Adobe Experience Cloud och tredjepartsprogram.
+level: Beginner
 feature: Ad Activation, Workflow
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 445b5c2fce07ee8bc67e96f95e670fecda356b22
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '393'
 ht-degree: 0%

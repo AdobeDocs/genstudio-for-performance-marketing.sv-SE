@@ -1,9 +1,10 @@
 ---
 title: Bildfunktioner
 description: Läs mer om bildfunktionen i de attributkategorier som används i GenStudio for Performance Marketing.
+level: Intermediate
 feature: Reporting and Insights, Image Attributes, Generative AI
 exl-id: b7e3d202-4085-48a4-a6ba-c950dfd52233
-source-git-commit: 3448392bc3f1496dafdbed2995f40bdba9c91c31
+source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
 workflow-type: tm+mt
 source-wordcount: '1036'
 ht-degree: 0%
