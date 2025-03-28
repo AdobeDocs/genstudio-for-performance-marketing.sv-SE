@@ -1,13 +1,13 @@
 ---
 title: Anpassa en mall
-description: Lär dig hur du anpassar och optimerar din mall för Adobe GenStudio for Performance Marketing.
+description: Lär dig hur du anpassar din HTML-mall med hjälp av platshållare för innehåll som känns igen av Adobe GenStudio for Performance Marketing generativa AI.
 level: Intermediate
 role: Developer
-feature: Media Templates, Content Generation
+feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0a1f13db9a976bac026f49e908b6b8c124bc5df7
+source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
 workflow-type: tm+mt
-source-wordcount: '1439'
+source-wordcount: '1388'
 ht-degree: 0%
 
 ---
@@ -46,18 +46,19 @@ I följande tabell visas de fältnamn som GenStudio for Performance Marketing k�
 | `{{headline}}` | Headline | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
 | `{{introductory_text}}` | Introduktionstext | LinkedIn och |
 | `{{body}}` | Body copy | e-post <br>Meta ad <br>Banner and Display ad |
-| `{{cta}}` | Uppmaning | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{cta}}` | Anrop till åtgärd<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
 | `{{image}}` | Bild - välj från [!DNL Content] | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
-| `{{on_image_text}}` | På bildtext | Meta ad <br>LinkedIn ad |
+| `{{on_image_text}}` | På bildtext <br>Se [Om bildtext](#on-image-text). | Meta ad <br>LinkedIn ad |
 | `{{link}}` | Anrop till åtgärd på bild<br>Se [Länka till bild](#link-on-image). | e-post |
-| `{{brand_logo}}` | Logotyp för markerat varumärke<br>Se [Fältnamn för logotyp för varumärke](#brand-logo-field-name). | e-post<br>Meta och <br>LinkedIn |
 
-GenStudio for Performance Marketing fyller i vissa fält automatiskt i följande mallar:
+<!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
+
+GenStudio for Performance Marketing genererar automatiskt vissa fält i följande mallar:
 
 - **E-postmallen** kräver inte att du identifierar fältet `subject`
 - **Meta ad-mallen** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
 - **Banderoll och mall för visningsannons** kräver inte att du identifierar fältet `CTA`
-- **LinkedIn-annonsmallar** kräver inte att du identifierar fälten `headline`, `introductory_text` och `CTA`
+- **LinkedIn och-mallen** kräver inte att du identifierar fälten `headline`, `introductory_text` och `CTA`
 
 >[!WARNING]
 >
@@ -109,17 +110,19 @@ I detta exempel:
 - `src="image-source.jpg"` ska ersättas med den faktiska URL-adressen för bildkällan.
 - `alt="description"` innehåller en alternativ text för bilden, vilket är användbart för hjälpmedel och SEO.
 
-### Fältnamn för märkeslogotyp
+<!-- this field does not work in Create canvas 2025/03
 
-För närvarande kan du inte välja logotypen för mallöverföringen. I följande exempel visas två metoder som villkorligt återger varumärkeslogotypen. Varje metod verifierar källan, ger en standardbild eller alternativ bild om logotypen inte är tillgänglig och använder en stil:
+### Brand logo field name
 
-**Exempel 1**: Använder [!DNL Handlebars] villkor för inbyggda hjälpredor direkt i HTML-attributet `img src`:
+At this time, you cannot select the brand logo for the template upload. The following examples demonstrate two methods that conditionally render the brand logo. Each method verifies the source, provides a default or alternative image in case the brand logo is not available, and applies a style:
+
+**Example 1**: Using [!DNL Handlebars] Built-in Helpers condition directly in the HTML `img src` attribute:
 
 ```html
 <img src="{{#if brand_logo}}{{brand_logo}}{{else}}<default-image>{{/if}}" alt="img alt text" style="max-width: 88px; margin: 10px auto; display: block;">
 ```
 
-**Exempel 2**: Använder [!DNL Handlebars] inbyggd villkorssats för att kapsla in HTML `img` -taggen:
+**Example 2**: Using [!DNL Handlebars] Built-in condition statement to wrap the HTML `img` tag:
 
 ```html
 {{#if brand_logo}}
@@ -128,6 +131,8 @@ För närvarande kan du inte välja logotypen för mallöverföringen. I följan
     <img src="data:image/png;base64,iVBORw0KGgo..." alt="img alt text" style="width: 120px; height: 45px; margin: 10px auto; display: block;">
 {{/if}}
 ```
+
+-->
 
 ### Manuella fältnamn
 
@@ -139,10 +144,18 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 <tbody>
     <tr>
         <td>
-            <p><span class="s1">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{ footerLegal }}</span></p>
         </td>
     </tr>
 </tbody>
+```
+
+## På bildtext
+
+Platshållaren `{{ on_image_text }}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
 ```
 
 ## Avsnitt eller grupper
@@ -179,7 +192,6 @@ En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre 
 GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
 
 Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande med flera avsnitt.
-
 
 ## Förhandsgranska mall
 

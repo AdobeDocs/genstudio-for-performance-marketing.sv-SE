@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: daada794dd39c9bd2aea7815d887821454d162fc
+source-git-commit: 059c7271bcbe558d41f3df128c6a0681accec826
 workflow-type: tm+mt
 source-wordcount: '922'
 ht-degree: 0%
@@ -80,7 +80,6 @@ För e-post inkluderas fältet `subject` automatiskt. Använd innehållsplatshå
 - `body`
 - `cta`
 - `image` (markerat från JPEG, PNG eller GIF)
-- `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 
@@ -115,7 +114,6 @@ För Metaannonser genereras fälten `headline`, `body` och `CTA` automatiskt. An
 
 - `image` (markerat från JPEG, PNG eller GIF)
 - `on_image_text`
-- `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 
@@ -201,7 +199,6 @@ För LinkedIn-annonser genereras fälten `headline`, `introductory_text` och `CT
 
 - `image` (markerat från JPEG, PNG eller GIF)
 - `on_image_text`
-- `brand_logo`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](customize-template.md#content-placeholders) .
 

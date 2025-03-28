@@ -4,7 +4,7 @@ description: Lär dig hur du utvärderar prestandan för specifika attribut i Ad
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4afdde6fd08a9f33ff599f5f85b9c1b9d79870ec
 workflow-type: tm+mt
 source-wordcount: '815'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing identifierar vissa funktioner och använder 
 
 Ett attribut _kategori_ är en klassificeringsgrupp som organiserar relaterade attribut som delar en gemensam egenskap. Dessa kategorier hjälper till att effektivisera identifiering, identifiering och förståelse av specifika attribut genom att ge ett större sammanhang och underlätta deras tillämpning och användning.
 
-GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera [bilder](image-features.md), [videor](video-features.md) och text och tillämpa [!UICONTROL Media attributes] baserat på sannolikheten för att de ska vara korrekta.
+GenStudio for Performance Marketing använder Adobe AI- och maskininlärningsfunktioner för att studera [bilder](image-features.md), [videor](video-features.md) och [text](text-features.md) och tillämpa [!UICONTROL Media attributes] baserat på sannolikheten för korrekthet.
 
 Den identifierade attributlistan för mediainnehåll är inte uttömmande. Media som innehåller många funktioner kan begränsas till de tre dominerande funktionerna som identifieras av AI. Följande bild innehåller till exempel flera identifierade bildattribut, inklusive flera objekt, för- och bakgrundsfärger.
 
