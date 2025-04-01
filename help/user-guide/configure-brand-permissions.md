@@ -2,9 +2,9 @@
 title: Tilldela [!DNL Brand] behörigheter
 description: Lär dig hur du tilldelar berättiganden för skapare och redigerare av GenStudio for Performance Marketing [!DNL Brand] .
 level: Intermediate
-feature: Brands Service, Generative AI
+feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 088bc6df481fb1e961a7df3c79515642ec39767d
+source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
 workflow-type: tm+mt
 source-wordcount: '677'
 ht-degree: 1%
@@ -35,7 +35,7 @@ Se [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-grou
 
 ## Steg 2: Tilldela en GenStudio-systemhanterarprofil till användargruppen
 
-När du har skapat en ny användargrupp och lagt till användare kan du tilldela den här gruppen **Adobe GenStudions systemhanterarprofil**. Det berättigande som är kopplat till den tilldelade profilen ger alla användare i den här gruppen GenStudio [!DNL Brands] behörigheter (skapa, uppdatera och ta bort varumärken).
+När du har skapat en ny användargrupp och lagt till användare kan du tilldela den här gruppen **Adobe GenStudio-systemhanterarprofilen**. Det berättigande som är kopplat till den tilldelade profilen ger alla användare i den här gruppen GenStudio [!DNL Brands] behörigheter (skapa, uppdatera och ta bort varumärken).
 
 **Så här tilldelar du en profil till användargruppen**:
 
@@ -45,7 +45,7 @@ När du har skapat en ny användargrupp och lagt till användare kan du tilldela
 
 1. Välj `Adobe GenStudio` i listan _Välj produkter_.
 
-1. Klicka på **[!UICONTROL Apply]**. Popup-fönstret _Välj produktprofiler_ öppnas och visar de produktprofiler som är associerade med Adobe GenStudio.
+1. Klicka på **[!UICONTROL Apply]**. Popup-fönstret _Välj produktprofiler_ öppnas och visar de produktprofiler som är kopplade till Adobe GenStudio.
 
 1. Välj `Adobe GenStudio system manager`.
 
