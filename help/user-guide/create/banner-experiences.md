@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Be
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: 7784f8a722d808159df9522ff7fce5fbddcc34ce
 workflow-type: tm+mt
-source-wordcount: '112'
+source-wordcount: '113'
 ht-degree: 0%
 
 ---
@@ -17,7 +17,7 @@ ht-degree: 0%
 
 Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att förbättra [skapandet av framgångsrika banderollupplevelser](/help/user-guide/create/create-banner-experience.md).
 
-Med [!DNL Create] kan moderna marknadsförare [skapa sammanhängande banderollupplevelser](/help/user-guide/create/create-banner-experience.md) genom att använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad](/help/user-guide/effective-prompts.md).
+Med [!DNL Create] kan moderna marknadsförare [skapa sammanhängande banderollupplevelser](/help/user-guide/create/create-banner-experience.md) genom att använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad prompt](/help/user-guide/effective-prompts.md).
 
 När du genererar banderollupplevelser skapas och visas fyra variationer på arbetsytan.
 
