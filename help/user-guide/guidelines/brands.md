@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] är en omfattande samling varumärkesresurser - marknadsföringskopia, bilder, upplevelser med mera - som kan användas för att skapa varumärkesanpassat innehåll.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
 workflow-type: tm+mt
-source-wordcount: '1521'
+source-wordcount: '1531'
 ht-degree: 0%
 
 ---
@@ -72,15 +72,15 @@ I följande tabell visas varje kanalavsnitt, de kanaler som den är tillgänglig
 
 | Avsnitt | Kanaler | Beskrivning | God praxis |
 | ------------------| --------- | --------- | -------- |
-| Allmänt | e-post, metadata, displayannonser | En andra ämnesrad eller e-postförhandsvisningstext | Definiera övergripande ton/känslor för att vara enhetliga i hela e-postmeddelandet (2-5 riktlinjer).<br>_Exempel_: &quot;Bibehåll en användarvänlig och lättåtkomlig ton&quot;, &quot;Undvik överformellt språk&quot;<br><br> |
+| Allmänt | e-post, metadata, banderoll och displayannonser | En andra ämnesrad eller e-postförhandsvisningstext | Definiera övergripande ton/känslor för att vara enhetliga i hela e-postmeddelandet (2-5 riktlinjer).<br>_Exempel_: &quot;Bibehåll en användarvänlig och lättåtkomlig ton&quot;, &quot;Undvik överformellt språk&quot;<br><br> |
 | Ämne | e-post | En intressant och intressant titel som sammanfattar innehållet i ett e-postmeddelande | Ge särskild vägledning (2-5 riktlinjer) om ton, längd osv. Lägg till tidigare framgångsrika ämnesrader i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Justera motivet med e-postbrödtext&quot; |
 | Förrubrik | e-post | En andra ämnesrad eller e-postförhandsvisningstext | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare framgångsrika prehuvuden i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Begränsa till 60-80 tecken&quot; |
-| Headline | e-post, metadata, displayannonser, LinkedIn | En titel eller fras som fångar läsarens uppmärksamhet | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare framgångsrika rubriker i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd punktliga satser för att få uppmärksamhet&quot; |
-| Underrubrik | e-post, webbannonser | En andra eller tredje titel eller fras som fångar läsarens uppmärksamhet | Ge specifik vägledning (2-5 riktlinjer) som definierar ton, idealisk längd osv. Lägg till tidigare framgångsrika underrubriker i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd punktliga satser för att få uppmärksamhet&quot; |
+| Headline | e-post, metadata, banderoll och displayannonser, LinkedIn | En titel eller fras som fångar läsarens uppmärksamhet | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare framgångsrika rubriker i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd punktliga satser för att få uppmärksamhet&quot; |
+| Underrubrik | e-post, banderoll och displayannonser | En andra eller tredje titel eller fras som fångar läsarens uppmärksamhet | Ge specifik vägledning (2-5 riktlinjer) som definierar ton, idealisk längd osv. Lägg till tidigare framgångsrika underrubriker i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd punktliga satser för att få uppmärksamhet&quot; |
 | Beskrivning | LinkedIn | Beskrivande fraser som definierar tonkänslor | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare framgångsrika beskrivningar i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Behåll en användarvänlig och lättåtkomlig ton&quot; |
-| Brödtext | e-post, metadata, displayannonser, LinkedIn | Marknadsföringsmaterial som innehåller meddelanden, länkar och bilder | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till en tidigare kopia i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Begränsa till 80-100 tecken&quot;, &quot;Undvik för stora akronymer&quot; |
+| Brödtext | e-post, metadata, banderoll och displayannonser, LinkedIn | Marknadsföringsmaterial som innehåller meddelanden, länkar och bilder | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till en tidigare kopia i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Begränsa till 80-100 tecken&quot;, &quot;Undvik för stora akronymer&quot; |
 | Text direkt i bilden | Meta, LinkedIn | Specifik vägledning om ton, idealisk längd osv. för text som visas ovanpå bilder | Ge särskild vägledning (1-2 meningar) om ton, idealisk längd osv. Lägg till text som lyckades tidigare i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Fokusera för tillfället&quot; |
-| Call-to-action (CTA) | e-post, metadata, displayannonser | (Call to Action) En instruktion som ges läsaren som inspirerar till ett svar. Vanligtvis ett eller två ord, till exempel `Get started` | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare lyckade CTA:er i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd inte slutinterpunktion&quot; |
+| Call-to-action (CTA) | e-post, metadata, banderoll och displayannonser | (Call to Action) En instruktion som ges läsaren som inspirerar till ett svar. Vanligtvis ett eller två ord, till exempel `Get started` | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare lyckade CTA:er i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd inte slutinterpunktion&quot; |
 
 #### Riktlinjer för standardkanal
 

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '991'
+source-wordcount: '989'
 ht-degree: 1%
 
 ---
@@ -26,7 +26,7 @@ Om du vill skapa en ny e-postupplevelse kan du använda en tillgänglig mall fö
 **Så här väljer du en e-postmall**:
 
 1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Email]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd sökalternativet bredvid _Filter_ för att hitta en viss e-postmall.
+1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
 1. Klicka för att välja en e-postmall och klicka på **[!UICONTROL Use]**.
 
    Arbetsytan, innehållscenter, visas.
@@ -85,7 +85,7 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 
 * **Om du vill [redigera namnet på e-postutkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du på rubriken _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera ett e-postmeddelande manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av de redigerbara textfälten (till exempel ämnesraden, huvudet eller kopian) och redigerar efter behov
-* **Om du vill [ändra eller välja åtgärden Uppringning](/help/user-guide/create/manage-variants.md#revise-call-to-action)** klickar du på knappen för att ringa till åtgärd och väljer _[!UICONTROL Rephrase]_eller_[!UICONTROL Add link]_.
+* **Om du vill [ändra eller välja åtgärden Ring till](/help/user-guide/create/manage-variants.md#revise-call-to-action)** klickar du på call-to-action och väljer _[!UICONTROL Rephrase]_eller_[!UICONTROL Add link]_.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
 * **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.

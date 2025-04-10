@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: f79fb713b5387fd305ecf4a1102b301aa547babb
 workflow-type: tm+mt
-source-wordcount: '1290'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -26,10 +26,13 @@ Följande visar en sökning på termen `space` i galleriet [!UICONTROL Assets]:
 
 Filtrerings- och sökgränssnittet är snabbt och responsivt och ger en produktiv sökupplevelse. Varje [!DNL Content]-vy innehåller filteralternativ som begränsar sökningen efter den idealiska resursen, upplevelsen eller mallen. För resurser och upplevelser kan du välja en kampanj och specifika riktlinjer, till exempel innehåll som har skapats för en viss produkt.
 
-Det finns filter som baseras på [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
+Det finns filter som baseras på [riktlinjer](/help/user-guide/guidelines/overview.md), [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
 
-- Filtret **[!UICONTROL Uploaded by]** begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
-- Filtret **[!UICONTROL Created by]** begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
+- **[!UICONTROL Uploaded by]**: begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
+- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
+- **[!UICONTROL Template]**: begränsar listan _[!UICONTROL Experiences]_så att endast upplevelser som skapats med den valda mallen visas.
+
+Om vissa filteralternativ inte visas visar det att inga mallar i databasen matchar motsvarande metadatavillkor. Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 
 **Så här söker du efter innehåll som ska återanvändas**:
 

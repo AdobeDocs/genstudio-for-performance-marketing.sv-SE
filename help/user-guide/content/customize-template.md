@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 81133e4360a9ba7d7fb29f33e418fde8582b0f23
+source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
 workflow-type: tm+mt
-source-wordcount: '1388'
+source-wordcount: '1403'
 ht-degree: 0%
 
 ---
@@ -44,6 +44,7 @@ I följande tabell visas de fältnamn som GenStudio for Performance Marketing k�
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Förrubrik | e-post |
 | `{{headline}}` | Headline | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{sub_headline}}` | Underrubrik | e-post<br>Banderoll och visningsannons |
 | `{{introductory_text}}` | Introduktionstext | LinkedIn och |
 | `{{body}}` | Body copy | e-post <br>Meta ad <br>Banner and Display ad |
 | `{{cta}}` | Anrop till åtgärd<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
@@ -101,14 +102,14 @@ GenStudio for Performance Marketing kan även tillhandahålla olika uppmaningar 
 Du kan anpassa din e-postmall så att andra kan lägga till en länk till en bild. På samma sätt som för länken CTA använder du följande vägledning för att tillämpa en `link`-platshållare för en bildtagg:
 
 ```html
-<a href="{{link}}"><img src="image-source.jpg" alt="description"></a>
+<a href="{{link}}"><img src="image-source.jpg" alt="{{imageDescription}}"></a>
 ```
 
 I detta exempel:
 
 - `{{link}}` är en platshållare för den faktiska URL:en.
 - `src="image-source.jpg"` ska ersättas med den faktiska URL-adressen för bildkällan.
-- `alt="description"` innehåller en alternativ text för bilden, vilket är användbart för hjälpmedel och SEO.
+- `{{imageDescription}}` är ett användardefinierat fältnamn som ger en platshållare för bildens alternativa text, vilket är användbart för hjälpmedel och SEO.
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -136,7 +137,7 @@ At this time, you cannot select the brand logo for the template upload. The foll
 
 ### Manuella fältnamn
 
-Alla andra fältnamn behandlas som manuellt ifyllda fält. Du kanske vill reservera ett avsnitt för sidfotsinnehåll.
+Alla andra fältnamn är användardefinierade och behandlas som manuellt ifyllda fält. Du kanske vill reservera ett avsnitt för sidfotsinnehåll.
 
 Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser runt avsnittsnamnet:
 

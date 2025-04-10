@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
 workflow-type: tm+mt
-source-wordcount: '2096'
+source-wordcount: '2181'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,17 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.03.13 {#latest}
+## 2025.04.10 {#latest}
+
+### Korrigeringar och förbättringar
+
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
+* Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
+
+## Versionsinformation
+
++++Anteckningar från 2025.03.13
 
 ### Aktivera metaannonser
 
@@ -60,7 +70,7 @@ Det nya GenStudio for Performance Marketing [utökningsramverket](/help/extensib
 * Förbättrad användarupplevelse och synlighet för kanalkategorierna [på hemsidan Skapa](/help/user-guide/create/overview.md) genom att separera dem till avsnitten Ägt media, Betalat media och Innehåll.
 * Förbättrad filtrering i [!DNL Insights] tabell- och gallerivyer.
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2025.02.13
 

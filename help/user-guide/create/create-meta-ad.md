@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '1071'
+source-wordcount: '1080'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillg
 **Så här väljer du en mall för Meta-annons**:
 
 1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Meta ads]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd sökalternativet bredvid _Filter_ för att hitta en specifik mall för metaannonser.
+1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
 1. Klicka för att välja en mall och klicka på **[!UICONTROL Use]**.
 
    Den här åtgärden öppnar arbetsytan, som är navet för innehållsskapande.
@@ -85,12 +85,14 @@ När du [ändrar metadataannonserna](#revise-generated-variants) kan du ändra p
 
 Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera Meta-annonserna eller ta bort en variant från uppsättningen med genererade annonser.
 
+Om du vill markera ett enskilt lager som ska revideras klickar du på ett redigerbart fält eller bild och klickar på _[!UICONTROL View Layers]_.
+
 **Så här granskar du genererade varianter**:
 
 * **Om du vill [redigera namnet på metadatautkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera en Meta-annons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av annonsavsnitten (till exempel ämnesraden,
 sidhuvud eller brödtext) och redigera efter behov.
-* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. I _Länk_ anger du en URL för texten som anropar till åtgärd.
+* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. Ange en URL för call-to-action-texten i _Länk_.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
@@ -144,6 +146,6 @@ Mer information finns i [[!DNL Content]](/help/user-guide/content/overview.md#se
 
 ## Connect Meta
 
-Du kan ansluta GenStudio for Performance Marketing till Meta för att få avancerade analyser och [insikter](/help/user-guide/insights/overview.md) om innehållsprestanda.
+Du kan koppla GenStudio for Performance Marketing till Meta för att få avancerade analyser och insikter om innehållets prestanda.
 
-Mer information finns i [Anslut kanalkonto](/help/user-guide/insights/connect-channel.md).
+Se [Anslutning av Metaannonser](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).

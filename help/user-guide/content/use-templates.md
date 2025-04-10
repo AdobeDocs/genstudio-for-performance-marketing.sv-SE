@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
 workflow-type: tm+mt
-source-wordcount: '1132'
+source-wordcount: '1294'
 ht-degree: 0%
 
 ---
@@ -37,12 +37,14 @@ Nedan följer en lista över element som används i mallar och en del detaljer o
 | **Förrubrik** | E-post | En andra ämnesrad i ett e-postmeddelande, vanligtvis mellan 40 och 50 tecken, som förbättrar ämnesraden. Den visas i inkorgen bredvid motivet innan e-postmeddelandet öppnas. |
 | **Sidhuvud** | E-post | Den övre delen av e-postmeddelandet som mottagaren ser när han/hon öppnar e-postmeddelandet anger tonen och anger kontext för det inkluderade innehållet. |
 | **Rubrik** | Meta-annons, banner and Display ads, LinkedIn | Det första innehåll som mottagaren ser bör vara intressant att fånga intresset. |
-| **Introduktionstext** | LinkedIn | Det primära meddelandet förmedlar huvudmeddelandet, ungefär som brödtexten. Du kan använda upp till 150 tecken, inklusive blanksteg, maximalt fyra känslolägesikoner och skiljetecken. |
-| **Brödtext** | E-post, Meta-annons, Banner and Display ads | Huvudtexten i annonsen förmedlar huvudbudskapet. Det bör vara engagerande, informativt och övertygande att uppmuntra målgruppen att vidta de åtgärder som krävs. |
-| **CTA** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | En knapp för att ringa till åtgärd använder en fras och en länk för att uppmuntra mottagaren att vidta en viss åtgärd, till exempel klicka på en länk eller göra ett köp. |
-| **Bilder** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | Förbättra visuell tilltalande, dela upp text och ge stöd åt budskapet. Bilderna ska vara högklassiga och effektfulla. |
-| **Sidfot** | E-post | Avsnittet längst ned i e-postmeddelandet innehåller ytterligare innehåll som kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen. |
-| **Textövertäckning** | Meta ad | Text som placeras på en bild för att stödja och förbättra innehållet i rubriken och brödtexten. |
+| **Underrubrik** | E-post, banderoll och displayannonser | Ett sekundärt textelement som stöder rubriken. Den är vanligtvis kortfattad och utformad för att komplettera huvudrubriken och drar läsarens uppmärksamhet ytterligare till innehållet. |
+
+| **Introduktionstext**| LinkedIn                                 | Det primära meddelandet förmedlar huvudmeddelandet, ungefär som brödtexten. Du kan använda upp till 150 tecken, inklusive blanksteg, maximalt fyra känslolägesikoner och skiljetecken. |
+| **Brödtext**             | E-post, Meta-annons, Banner and Display ads    | Huvudtexten i annonsen förmedlar huvudbudskapet. Det bör vara engagerande, informativt och övertygande att uppmuntra målgruppen att vidta de åtgärder som krävs. |
+| **CTA**              | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | En call-to-action-knapp använder en fras och en länk för att uppmuntra mottagaren att vidta en viss åtgärd, till exempel klicka på en länk eller göra ett köp.      |
+| **Bilder**           | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | Förbättra visuell tilltalande, dela upp text och ge stöd åt budskapet. Bilderna ska vara högklassiga och effektfulla.                                                   |
+| **Sidfot**           | E-post                                    | Avsnittet längst ned i e-postmeddelandet innehåller ytterligare innehåll som kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen.            |
+| **Textövertäckning**     | Meta ad                                  | Text som placeras på en bild för att stödja och förbättra innehållet i rubriken och brödtexten.                                                                                  |
 
 >[!TIP]
 >
@@ -58,13 +60,26 @@ Du [anpassar mallen](customize-template.md) för användning i GenStudio for Per
 
 ## Hantera mallar
 
-Galleriet _[!DNL Templates]_visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing. Du kan filtrera mallar efter kanaltyp, till exempel e-post, visningsannonser, Meta-annonser och LinkedIn-annonser.
+Galleriet _[!DNL Templates]_visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing.
+
+### Sökmallar
+
+Varje [!DNL Content]-vy innehåller filteralternativ som begränsar sökningen efter den idealiska resursen, upplevelsen eller mallen. Det finns filter som baseras på [riktlinjer](/help/user-guide/guidelines/overview.md), [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten.
+
+Du kanske vill hitta en mall av en viss kanaltyp eller proportioner som du har skapat:
+
+- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Templates]_så att endast mallar som du eller en viss person har skapat visas.
+- **[!UICONTROL Aspect Ratio]**: begränsar listan _[!UICONTROL Templates]_så att den visar mallar som är utformade för en viss proportioner.
+
+I följande exempel visas hur du filtrerar efter kanaltyp, t.ex. e-post, visningsannonser, Meta-annonser och LinkedIn-annonser.
 
 ![Listan Innehållsmall](/help/assets/content-templates-filter.png "Sök i LinkedIn-mallar"){width="650" zoomable="yes"}
 
+Mallsökningsfunktionen är tillgänglig under [!UICONTROL Create] när du väljer en mall för ägda eller betalda medier. Om vissa filteralternativ inte visas visar det att inga mallar i databasen matchar motsvarande metadatavillkor. Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+
 ### Lägga till en mall
 
-Innan du överför en mall måste du se till att den är helt förberedd och klar att användas i GenStudio for Performance Marketing genom att följa vägledningen för [Anpassa mallar](customize-template.md) .
+Innan du överför en mall måste du se till att den är helt förberedd och klar att användas i GenStudio for Performance Marketing genom att följa anvisningarna i [Anpassa mallar](customize-template.md).
 
 **Så här lägger du till en mall**:
 
@@ -86,7 +101,7 @@ Innan du överför en mall måste du se till att den är helt förberedd och kla
 
 1. Klicka på **[!UICONTROL Next]** när du är nöjd med mallförhandsvisningen.
 
-1. I rutan _[!UICONTROL Provide template details and upload]_ger du mallen ett namn och väljer en **[!UICONTROL Channel]**-typ.
+1. I _[!UICONTROL Provide template details and upload]_ger du mallen ett namn och väljer en **[!UICONTROL Channel]**-typ.
 
    Mallnamn och kanaltyp krävs. Ytterligare krav kan vara:
 

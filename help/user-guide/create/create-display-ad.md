@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
 workflow-type: tm+mt
-source-wordcount: '983'
+source-wordcount: '995'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 **Så här väljer du en visningsannonsmall**:
 
 1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Display ads]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
+1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
 1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
 1. Klicka på **[!UICONTROL Use]**.
 
@@ -73,6 +73,8 @@ Som standard genereras och visas fyra varianter på arbetsytan, som följs av up
 ## Ändra genererade varianter
 
 Innan du väljer vad som ska skickas för godkännande eller publicering till [!DNL Content] kan du redigera visnings- och textavsnitt eller ta bort en genererad variant.
+
+Om du vill markera ett enskilt lager som ska revideras klickar du på ett redigerbart fält eller bild och klickar på _[!UICONTROL View Layers]_.
 
 **Så här granskar du genererade varianter**:
 

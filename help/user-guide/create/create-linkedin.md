@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
 workflow-type: tm+mt
-source-wordcount: '897'
+source-wordcount: '896'
 ht-degree: 0%
 
 ---
@@ -27,7 +27,7 @@ Om du vill generera en ny LinkedIn-upplevelse behöver du en mall som anger ramv
 **Så här väljer du en LinkedIn-mall**:
 
 1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL LinkedIn]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd sökalternativet bredvid _Filter_ för att hitta en viss mall.
+1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
 1. Klicka för att välja en mall och klicka sedan på **[!UICONTROL Use]**.
 
    Den här åtgärden öppnar arbetsytan, som är navet för innehållsskapande.
@@ -80,7 +80,7 @@ Innan du skickar varianter för godkännande eller publicering till [!DNL Conten
 
 * **Om du vill [redigera namnet på LinkedIn och utkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ högst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera en LinkedIn-annons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av annonsavsnitten (till exempel ämnesraden, huvudet eller brödtexten) och redigerar efter behov.
-* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. I _Länk_ anger du en URL för texten som anropar till åtgärd.
+* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. Ange en URL för call-to-action-texten i _Länk_.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny uppmaning i [!UICONTROL Generate new text_ section] och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering.
 * **Om du vill [ta bort en LinkedIn-annons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på alternativmenyn för en variant och sedan på **[!UICONTROL Delete variant]**.

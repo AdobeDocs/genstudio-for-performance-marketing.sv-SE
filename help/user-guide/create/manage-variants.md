@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
 workflow-type: tm+mt
-source-wordcount: '1370'
+source-wordcount: '1457'
 ht-degree: 0%
 
 ---
@@ -38,6 +38,18 @@ Du kan redigera textfälten i genererade varianter. Förfina texten genom att ex
 1. Ange ny text.
 1. Klicka utanför textfältet för att spara det.
 
+## Visa lager
+
+Du kan snabbt markera ett enskilt lager av en variant och göra ändringar, som att generera om avsnitt eller beskära bilder. När du markerar ett enskilt lager markeras de redigerbara fälten eller bilderna i lagret.
+
+**Så här visar du lager för en variant**:
+
+1. När du har genererat en uppsättning varianter klickar du på ett redigerbart fält eller bild i en variant.
+1. Klicka på _[!UICONTROL View Layers]_.
+1. Klicka för att markera ett lager i listan. Det markerade lagret markeras för varianten.
+
+   Fortsätt med att göra nödvändiga ändringar i det markerade lagret.
+
 ## Generera om avsnitt
 
 GenStudio for Performance Marketing har den inbyggda funktionaliteten för att återskapa avsnitt av genererade varianter. Du kan omformulera, korta ned eller förlänga text eller lägga till nya uppmaningar för att generera nytt innehåll.
@@ -59,7 +71,7 @@ Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att 
 
 ## Granska uppmaning till handling
 
-När du har genererat en uppsättning varianter kan du revidera texten och länken för uppmaning till åtgärd (CTA).
+När du har genererat en uppsättning varianter kan du revidera call-to-action-texten (CTA) och länken.
 
 >[!NOTE]
 >
