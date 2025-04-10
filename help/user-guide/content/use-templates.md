@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: b53a6aeee056a987064833f1fc99bfd6bfe3556a
+source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
 workflow-type: tm+mt
 source-wordcount: '1294'
 ht-degree: 0%
@@ -38,13 +38,12 @@ Nedan följer en lista över element som används i mallar och en del detaljer o
 | **Sidhuvud** | E-post | Den övre delen av e-postmeddelandet som mottagaren ser när han/hon öppnar e-postmeddelandet anger tonen och anger kontext för det inkluderade innehållet. |
 | **Rubrik** | Meta-annons, banner and Display ads, LinkedIn | Det första innehåll som mottagaren ser bör vara intressant att fånga intresset. |
 | **Underrubrik** | E-post, banderoll och displayannonser | Ett sekundärt textelement som stöder rubriken. Den är vanligtvis kortfattad och utformad för att komplettera huvudrubriken och drar läsarens uppmärksamhet ytterligare till innehållet. |
-
-| **Introduktionstext**| LinkedIn                                 | Det primära meddelandet förmedlar huvudmeddelandet, ungefär som brödtexten. Du kan använda upp till 150 tecken, inklusive blanksteg, maximalt fyra känslolägesikoner och skiljetecken. |
-| **Brödtext**             | E-post, Meta-annons, Banner and Display ads    | Huvudtexten i annonsen förmedlar huvudbudskapet. Det bör vara engagerande, informativt och övertygande att uppmuntra målgruppen att vidta de åtgärder som krävs. |
-| **CTA**              | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | En call-to-action-knapp använder en fras och en länk för att uppmuntra mottagaren att vidta en viss åtgärd, till exempel klicka på en länk eller göra ett köp.      |
-| **Bilder**           | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | Förbättra visuell tilltalande, dela upp text och ge stöd åt budskapet. Bilderna ska vara högklassiga och effektfulla.                                                   |
-| **Sidfot**           | E-post                                    | Avsnittet längst ned i e-postmeddelandet innehåller ytterligare innehåll som kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen.            |
-| **Textövertäckning**     | Meta ad                                  | Text som placeras på en bild för att stödja och förbättra innehållet i rubriken och brödtexten.                                                                                  |
+| **Introduktionstext** | LinkedIn | Det primära meddelandet förmedlar huvudmeddelandet, ungefär som brödtexten. Du kan använda upp till 150 tecken, inklusive blanksteg, maximalt fyra känslolägesikoner och skiljetecken. |
+| **Brödtext** | E-post, Meta-annons, Banner and Display ads | Huvudtexten i annonsen förmedlar huvudbudskapet. Det bör vara engagerande, informativt och övertygande att uppmuntra målgruppen att vidta de åtgärder som krävs. |
+| **CTA** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | En call-to-action-knapp använder en fras och en länk för att uppmuntra mottagaren att vidta en viss åtgärd, till exempel klicka på en länk eller göra ett köp. |
+| **Bilder** | E-post, Meta-annons, Banner and Display-annonser, LinkedIn | Förbättra visuell tilltalande, dela upp text och ge stöd åt budskapet. Bilderna ska vara högklassiga och effektfulla. |
+| **Sidfot** | E-post | Avsnittet längst ned i e-postmeddelandet innehåller ytterligare innehåll som kontaktinformation, länkar till sociala medier, ansvarsfriskrivningar och alternativ för att avbryta prenumerationen. |
+| **Textövertäckning** | Meta ad | Text som placeras på en bild för att stödja och förbättra innehållet i rubriken och brödtexten. |
 
 >[!TIP]
 >
