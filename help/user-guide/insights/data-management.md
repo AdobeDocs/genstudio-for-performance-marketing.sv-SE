@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -47,4 +47,4 @@ Se [Ta bort konsekvenser](https://experienceleague.adobe.com/en/docs/analytics-p
 
 GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagringspolicy omfattar sex månaders data som samlats in under den första anslutningen, vilket säkerställer en omfattande historisk dataanalys och rapportering.
 
-Se [Ansluta kanalannonskonto](/help/user-guide/insights/connect-channel.md).
+Se [Ansluta kanalannonskonto](/help/user-guide/connectors/connect-channel.md).

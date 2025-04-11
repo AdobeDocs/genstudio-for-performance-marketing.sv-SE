@@ -5,9 +5,9 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: f3fe4228b089ec71d0568b5e39830f2c1d7ae4d8
+source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
 workflow-type: tm+mt
-source-wordcount: '198'
+source-wordcount: '199'
 ht-degree: 16%
 
 ---
@@ -24,6 +24,8 @@ ht-degree: 16%
    + [Konfigurera [!DNL Brand] behörigheter](configure-brand-permissions.md)
    + [Användarroller](user-roles.md)
    + [Aktiva uppmaningar](effective-prompts.md)
++ Inställningar {#settings}
+   + [Anslut betalda media](connectors/connect-channel.md)
 + Riktlinjer {#guidelines}
    + [Översikt över riktlinjer](guidelines/overview.md)
    + [Varumärken](guidelines/brands.md)
@@ -71,7 +73,6 @@ ht-degree: 16%
    + [Optimera aktiveringar](activation/troubleshooting.md)
 + Insikter {#insights}
    + [Insikter - översikt](insights/overview.md)
-   + [Anslut kanalkonto](insights/connect-channel.md)
    + [Kanaler](insights/channels.md)
    + [Annonser och annonsplacering](insights/ads.md)
    + [Media](insights/media.md)

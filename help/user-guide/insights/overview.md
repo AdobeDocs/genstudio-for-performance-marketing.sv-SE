@@ -4,9 +4,9 @@ description: Lär dig optimera annonser baserat på innehållsprestandamätninga
 level: Intermediate
 feature: Reporting and Insights
 exl-id: 26402a06-f776-42be-9d8d-fc498c0f75a8
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c1c595f3be42b86d0e0aebd42c9c50c9d9aa4cdc
 workflow-type: tm+mt
-source-wordcount: '488'
+source-wordcount: '559'
 ht-degree: 0%
 
 ---
@@ -20,6 +20,12 @@ Från kontrollpanelen [!DNL Insights] kan du:
 - **Identifiera det mest effektiva innehållet**: Identifiera vilket innehåll som fungerar bäst för olika målgrupper och skräddarsy framtida innehåll eller kampanjer för trendinställningar.
 - **Optimera innehåll med låg prestanda**: Hitta innehåll som inte fungerar bra och använd den integrerade generativa AI-koden för att skapa variationer direkt, vilket kan förbättra dess effektivitet utan att börja från början.
 - **Revitalisera högpresterande innehåll**: Använd lyckat innehåll och justera det för att uppdatera annonsen för målgruppen eller anpassa hjälteinnehållet för användning i nya kampanjer, vilket kan förlänga dess livscykel och prestanda.
+
+## Dataanslutningar
+
+Första gången du öppnar [!DNL Insights] kan du se en banderoll som hjälper dig att ansluta Adobe GenStudio for Performance Marketing till ett kanalkonto.
+
+Med den här anslutningen kan GenStudio for Performance Marketing ta emot statistiska data från era aktiva marknadsföringskampanjer, medier och annonser. Till att börja med importerar GenStudio for Performance Marketing in de sista sex månaderna av data så att du har verktygen för att analysera de senaste data och vidta åtgärder.
 
 {{connect-insights}}
 
@@ -35,7 +41,7 @@ I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtre
 
 ### Kanaler
 
-[[!DNL Insights] _[!UICONTROL Channels]_-vyn ](channels.md) är standardvy och visar en lista med aktiv kampanjinformation, till exempel mål, budget, startdatum och aktivitet. Se till att [ansluta ett kanalkonto](connect-channel.md) så att GenStudio for Performance Marketing börjar ta emot dina statistiska data.
+[[!DNL Insights] _[!UICONTROL Channels]_-vyn ](channels.md) är standardvy och visar en lista med aktiv kampanjinformation, till exempel mål, budget, startdatum och aktivitet. Se till att [ansluta ett kanalkonto](/help/user-guide/connectors/connect-channel.md) så att GenStudio for Performance Marketing börjar ta emot dina statistiska data.
 
 ### Annonser
 

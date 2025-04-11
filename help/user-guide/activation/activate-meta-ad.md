@@ -3,9 +3,9 @@ title: Aktivera en Meta-annons
 description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
 workflow-type: tm+mt
-source-wordcount: '1387'
+source-wordcount: '1352'
 ht-degree: 0%
 
 ---
@@ -33,28 +33,22 @@ Du måste ha behörighet att publicera innehåll i Meta Ads Manager.
 
 Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadministratör ansluta dina Meta-konton till GenStudio for Performance Marketing. Tack vare den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocesser.
 
-**Så här ansluter du GenStudio for Performance Marketing till dina Meta-konton**:
+Se [Anslut till ett Meta-konto (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
-1. Klicka på **[!UICONTROL Connect]** på panelen Meta Ads i _Inställningar_. Vyn _Meta ads_ öppnas.
-
-1. Välj **[!UICONTROL Allow pop-ups]** i webbläsaren om du uppmanas till det.
-
-1. Välj ett eller flera av dina annonskonton att ansluta och klicka sedan på **[!UICONTROL Select]**.
-
-När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
+När synkroniseringen är klar kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
 
 ## Steg 3: Förbered din upplevelse för aktivering
 
-GenStudio systemansvariga och redaktörer kan aktivera annonsupplevelser.
+GenStudio-systemhanterare och redigerare kan aktivera annonsupplevelser.
 
 **Så här förbereder du din upplevelse för aktivering**:
 
 1. Klicka på **[!UICONTROL New]** på produktpanelen Meta i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
 
-   På Creative installationssida finns en central plats där du kan förbereda aktiveringen av din Meta-annons. Förbereda din annons innehåller följande tre uppgifter:
+   På konfigurationssidan för annonsmaterial finns en central plats där du kan förbereda aktiveringen av Meta-annonsen. När du förbereder din annons ingår följande tre uppgifter:
 
-1. Ge upplevelsen ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
-1. Välj medieresurser. Du kan använda resurser från Innehåll eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
+1. Tilldela en namn till din upplevelse. Efter aktiveringen kan du använda det här namnet för att söka efter den _här upplevelsen i tabellen Aktiverade upplevelser_ .
+1. Välj medietillgångar. Du kan använda resurser från innehåll eller ladda upp externa resurser (till exempel från OneDrive eller Dropbox).
 1. [Lägg till text](#add-ad-text).
 1. [Lägg till metadata](#assign-metadata).
 
@@ -108,12 +102,12 @@ Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till �
 | Primär text | ja | 500 |
 | Headline | ja | 255 |
 | Beskrivning | no | 125 |
-| Uppmaning | ja | endast alternativ i listrutor |
+| Uppmaning | Ja | Endast alternativ för rullgardinsmenyer |
 | Visa URL | no | 1000 |
-| Webbplatsens URL | ja | 1000 |
-| Bild | minst en |                                 |
+| Webbadress | Ja | 1000 |
+| Bild | Minst en obligatorisk |                                 |
 
-_Primär text_ och _rubrik_ krävs endast av GenStudio for Performance Marketing, inte av Meta.
+_Primär text_ och _rubrik_ krävs endast av GenStudio för prestationsmarknadsföring, inte Meta.
 
 ### Tilldela metadata
 
@@ -122,11 +116,11 @@ Upplevelseinformation sparas som metadata och hjälp när användaren söker eft
 | Detalj | Beskrivning |
 |------------|-------------|
 | Kampanjer | Alla GenStudio for Performance Marketing-kampanjer som annonsupplevelsen tillhör |
-| Varumärke | Riktlinjer, användardefinierade eller standard, som gör det möjligt för användare att fastställa riktlinjer för varumärket som fångar det väsentliga i ett varumärkes identitet. |
+| Märke | Riktlinjer, användardefinierade eller standard, som gör det möjligt för användare att fastställa riktlinjer för varumärket som fångar det väsentliga i ett varumärkes identitet. |
 | Produkter | Produkter som är kopplade till din organisation och som identifieras i GenStudio for Performance Marketing |
-| Personas | Personer som är kopplade till din organisation och som identifieras i GenStudio for Performance Marketing |
-| Tidsram | Kvartal, säsong, år eller annan organisatoriskt definierad tidsenhet under vilken annonsupplevelsen är aktiv |
-| Län | Det geografiska område där upplevelsen lanseras |
+| Personas | Personas som är associerade med din organisation och identifierade i GenStudio för Performance Marketing |
+| Tidsram | Det kvartal, den säsong, det år eller den andra organisationsdefinierade tidsperiod under vilken annonsupplevelsen är aktiv |
+| Region | Det geografiska område där upplevelsen lanseras |
 | Språk | Språk som annonsupplevelsen används för |
 | Nyckelord | Användardefinierade nyckelord som underlättar sökning och kategorisering av annonsupplevelsen |
 
