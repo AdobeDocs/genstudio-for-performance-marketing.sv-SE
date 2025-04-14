@@ -35,20 +35,20 @@ Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadmini
 
 Se [Anslut till ett Meta-konto (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
 
-När synkroniseringen är klar kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
+När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
 
 ## Steg 3: Förbered din upplevelse för aktivering
 
-GenStudio-systemhanterare och redigerare kan aktivera annonsupplevelser.
+GenStudio systemansvariga och redaktörer kan aktivera annonsupplevelser.
 
 **Så här förbereder du din upplevelse för aktivering**:
 
 1. Klicka på **[!UICONTROL New]** på produktpanelen Meta i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
 
-   På konfigurationssidan för annonsmaterial finns en central plats där du kan förbereda aktiveringen av Meta-annonsen. När du förbereder din annons ingår följande tre uppgifter:
+   På Creative installationssida finns en central plats där du kan förbereda aktiveringen av din Meta-annons. Förbereda din annons innehåller följande tre uppgifter:
 
-1. Tilldela en namn till din upplevelse. Efter aktiveringen kan du använda det här namnet för att söka efter den _här upplevelsen i tabellen Aktiverade upplevelser_ .
-1. Välj medietillgångar. Du kan använda resurser från innehåll eller ladda upp externa resurser (till exempel från OneDrive eller Dropbox).
+1. Ge upplevelsen ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
+1. Välj medieresurser. Du kan använda resurser från Innehåll eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
 1. [Lägg till text](#add-ad-text).
 1. [Lägg till metadata](#assign-metadata).
 
@@ -102,12 +102,12 @@ Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till �
 | Primär text | ja | 500 |
 | Headline | ja | 255 |
 | Beskrivning | no | 125 |
-| Uppmaning | Ja | Endast alternativ för rullgardinsmenyer |
+| Uppmaning | ja | endast alternativ i listrutor |
 | Visa URL | no | 1000 |
-| Webbadress | Ja | 1000 |
-| Bild | Minst en obligatorisk |                                 |
+| Webbplatsens URL | ja | 1000 |
+| Bild | minst en |                                 |
 
-_Primär text_ och _rubrik_ krävs endast av GenStudio för prestationsmarknadsföring, inte Meta.
+_Primär text_ och _rubrik_ krävs endast av GenStudio for Performance Marketing, inte av Meta.
 
 ### Tilldela metadata
 
@@ -116,11 +116,11 @@ Upplevelseinformation sparas som metadata och hjälp när användaren söker eft
 | Detalj | Beskrivning |
 |------------|-------------|
 | Kampanjer | Alla GenStudio for Performance Marketing-kampanjer som annonsupplevelsen tillhör |
-| Märke | Riktlinjer, användardefinierade eller standard, som gör det möjligt för användare att fastställa riktlinjer för varumärket som fångar det väsentliga i ett varumärkes identitet. |
+| Varumärke | Riktlinjer, användardefinierade eller standard, som gör det möjligt för användare att fastställa riktlinjer för varumärket som fångar det väsentliga i ett varumärkes identitet. |
 | Produkter | Produkter som är kopplade till din organisation och som identifieras i GenStudio for Performance Marketing |
-| Personas | Personas som är associerade med din organisation och identifierade i GenStudio för Performance Marketing |
-| Tidsram | Det kvartal, den säsong, det år eller den andra organisationsdefinierade tidsperiod under vilken annonsupplevelsen är aktiv |
-| Region | Det geografiska område där upplevelsen lanseras |
+| Personas | Personer som är kopplade till din organisation och som identifieras i GenStudio for Performance Marketing |
+| Tidsram | Kvartal, säsong, år eller annan organisatoriskt definierad tidsenhet under vilken annonsupplevelsen är aktiv |
+| Län | Det geografiska område där upplevelsen lanseras |
 | Språk | Språk som annonsupplevelsen används för |
 | Nyckelord | Användardefinierade nyckelord som underlättar sökning och kategorisering av annonsupplevelsen |
 

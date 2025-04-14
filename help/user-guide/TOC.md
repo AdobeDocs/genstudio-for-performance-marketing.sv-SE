@@ -8,7 +8,7 @@ role: User
 source-git-commit: beeaa7e9b434321b99c58827ea0ca62e31e114a5
 workflow-type: tm+mt
 source-wordcount: '199'
-ht-degree: 16%
+ht-degree: 17%
 
 ---
 
@@ -18,22 +18,22 @@ ht-degree: 16%
 + [GenStudio for Performance Marketing Guide](home.md)
 + [Versionsinformation](release-notes.md)
 + [Kom igång](get-started.md)
-+ Introduktion {#intro}
++ Introduktion
    + [Koncept](concepts.md)
    + [Produktetablering](product-provisioning.md)
    + [Konfigurera [!DNL Brand] behörigheter](configure-brand-permissions.md)
    + [Användarroller](user-roles.md)
    + [Aktiva uppmaningar](effective-prompts.md)
-+ Inställningar {#settings}
++ Inställningar
    + [Anslut betalda media](connectors/connect-channel.md)
-+ Riktlinjer {#guidelines}
++ Riktlinjer
    + [Översikt över riktlinjer](guidelines/overview.md)
    + [Varumärken](guidelines/brands.md)
    + [Personas](guidelines/personas.md)
    + [Produkter](guidelines/products.md)
    + [Lägg till riktlinjer](guidelines/add-guidelines.md)
    + [Varumärkesvalidering](guidelines/brand-validation.md)
-+ Skapa {#create}
++ Skapa
    + [[!DNL Create] översikt](create/overview.md)
    + [E-postupplevelser](create/email-experiences.md)
    + [Metaupplevelser](create/meta-experiences.md)
@@ -46,38 +46,38 @@ ht-degree: 16%
    + [Skapa en LinkedIn-upplevelse](create/create-linkedin.md)
    + [Skapa en annonsvisning](create/create-display-ad.md)
    + [Skapa en banderollupplevelse](create/create-banner-experience.md)
-+ Recensioner och godkännanden {#approve}
++ Recensioner och godkännanden
    + [Översikt över granskning och godkännande](approvals/overview.md)
    + [Begär granskning och godkännande av innehåll](approvals/request-review.md)
    + [Granska och redigera innehåll](approvals/review-and-edit.md)
    + [Godkänn innehåll](approvals/approve-content.md)
    + [Publicera godkänt innehåll](approvals/publish-content.md)
-+ Innehåll {#content}
++ Innehåll
    + [Innehållsöversikt](content/overview.md)
    + [Hantera resurser och upplevelser](content/manage-assets.md)
    + [Ansluta en AEM-databas](content/connect-aem-repo.md)
    + [Resursinformation](content/asset-details.md)
-   + Mallar {#templates}
+   + Mallar
       + [Arbeta med mallar](content/use-templates.md)
       + [Anpassa en mall](content/customize-template.md)
       + [Mallkodredigerare](content/code-editor.md)
       + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
       + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
-+ Kampanjer {#campaigns}
++ Kampanjer
    + [Kampanjer - översikt](campaigns/overview.md)
-+ Aktivering {#activation}
++ Aktivering
    + [Aktiveringsöversikt](activation/overview.md)
    + [Aktiveringsarbetsflöde](activation/create-activation.md)
    + [Aktivera en Meta-annons](activation/activate-meta-ad.md)
    + [Hantera aktiveringar](activation/manage-activations.md)
    + [Optimera aktiveringar](activation/troubleshooting.md)
-+ Insikter {#insights}
++ Insikter
    + [Insikter - översikt](insights/overview.md)
    + [Kanaler](insights/channels.md)
    + [Annonser och annonsplacering](insights/ads.md)
    + [Media](insights/media.md)
    + [Attribut](insights/attributes.md)
-   + Attributkategorier {#categories}
+   + Attributkategorier
       + [Bildfunktioner](insights/image-features.md)
       + [Videofunktioner](insights/video-features.md)
       + [Textfunktioner](insights/text-features.md)
