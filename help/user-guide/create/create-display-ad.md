@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '995'
+source-wordcount: '988'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 
 **Så här väljer du en visningsannonsmall**:
 
-1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Display ads]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
+1. Klicka på **[!UICONTROL Display ads]** i _[!DNL Create]_.
+1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
 1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
 1. Klicka på **[!UICONTROL Use]**.
 

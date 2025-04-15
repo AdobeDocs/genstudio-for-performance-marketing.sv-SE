@@ -7,9 +7,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '946'
+source-wordcount: '938'
 ht-degree: 0%
 
 ---
@@ -26,8 +26,8 @@ Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för a
 
 **Så här väljer du en banderollmall**:
 
-1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Banners]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
+1. Klicka på **[!UICONTROL Banners]** i _[!DNL Create]_.
+1. Använd sökalternativet bredvid _Filter_ för att hitta en viss banderollmall.
 1. Klicka på en banderollmall i vyn _Välj mall_.
 1. Klicka på **[!UICONTROL Use]**.
 

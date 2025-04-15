@@ -4,9 +4,9 @@ description: Generera snabbt högpresterande varumärkesanpassat innehåll med g
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
 workflow-type: tm+mt
-source-wordcount: '707'
+source-wordcount: '712'
 ht-degree: 0%
 
 ---
@@ -26,6 +26,7 @@ Med [!DNL Create] kan du generera innehåll för följande kanaler:
 * [LinkedIn-annonser](linkedin-experiences.md)
 * [Visa annonser](display-ad-experiences.md)
 * [Banners](banner-experiences.md)
+* [Bilder](generate-assets.md)
 
 Tillsammans med kraften i [guidelines](/help/user-guide/guidelines/overview.md)—[!DNL Brands], [!DNL Products] och [!DNL Personas]—[Content](/help/user-guide/content/overview.md), [Campaigns](/help/user-guide/campaigns/overview.md), [Reviews and Approvals](/help/user-guide/approvals/overview.md), [Activation](/help/user-guide/activation/overview.md) och [Insights](/help/user-guide/insights/overview.md) underlättar [!DNL Create] skapandet av effekter varumärkesanpassat marknadsföringsmaterial.
 
@@ -34,58 +35,131 @@ Redigerare och systemhanterare har fullständig åtkomst till [!DNL Create]. Mer
 ## [!DNL Create] användningsfall
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Skapa nytt innehåll" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Skapa en e-postupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
-      <img alt="Skapa en Meta-annonsupplevelse" src="../../assets/icons/icon-asset.svg" width="35">
+
+      <img alt="Skapa en Meta-annonsupplevelse" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> Skapa en annonsupplevelse i Meta </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Skapa en LinkedIn-annonsupplevelse" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong> Skapa en LinkedIn-annonsupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Skapa en webbannonsupplevelse" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> Skapa en upplevelse av webbannonsering </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Skapa en banderollupplevelse" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong> Skapa en banderollupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
+   <td align="center" valign="top" width="100">
+
+      <a href="/help/user-guide/create/generate-assets.md">
+
+      <img alt="Skapa bilder" src="../../assets/icons/icon-asset.svg" width="35">
+
+      </a>
+
+      <div>
+
+         <a href="/help/user-guide/create/generate-assets.md">
+
+         <strong> Generera bilder </strong>
+
+         </a>
+
+      </div>
+
+   </td>
+
 </tr>
+
 </table>
 
 Med GenStudio for Performance Marketing kan marknadsförare **skapa nytt marknadsföringsinnehåll**. I det här fallet använder du definierade [riktlinjer](/help/user-guide/guidelines/overview.md) och inspirationsbilder för att skapa varumärkesanpassat innehåll.

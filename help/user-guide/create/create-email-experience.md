@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 773e2d5c00688c36c1da8d0931c24e40754b7e8c
+source-git-commit: d5019f1cdceccb8ce2fdd86c54cf2d36673a90aa
 workflow-type: tm+mt
-source-wordcount: '989'
+source-wordcount: '981'
 ht-degree: 1%
 
 ---
@@ -25,8 +25,8 @@ Om du vill skapa en ny e-postupplevelse kan du använda en tillgänglig mall fö
 
 **Så här väljer du en e-postmall**:
 
-1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Email]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
+1. Klicka på **[!UICONTROL Email]** i _[!DNL Create]_.
+1. Använd sökalternativet bredvid _Filter_ för att hitta en viss e-postmall.
 1. Klicka för att välja en e-postmall och klicka på **[!UICONTROL Use]**.
 
    Arbetsytan, innehållscenter, visas.

@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 36f6c75152b25f3886f4b0c02f41ed495df49014
+source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
 workflow-type: tm+mt
-source-wordcount: '1080'
+source-wordcount: '1073'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillg
 
 **Så här väljer du en mall för Meta-annons**:
 
-1. I _[!DNL Create]_klickar du på&#x200B;**[!UICONTROL Meta ads]**i_&quot;Vad vill du skapa idag?&quot;avsnittet _.
-1. Använd alternativen [sök och _Filter_](/help/user-guide/content/use-templates.md#search-templates) för att hitta en viss mall.
+1. Klicka på **[!UICONTROL Meta ads]** i _[!DNL Create]_.
+1. Använd sökalternativet bredvid _Filter_ för att hitta en specifik mall för metaannonser.
 1. Klicka för att välja en mall och klicka på **[!UICONTROL Use]**.
 
    Den här åtgärden öppnar arbetsytan, som är navet för innehållsskapande.
