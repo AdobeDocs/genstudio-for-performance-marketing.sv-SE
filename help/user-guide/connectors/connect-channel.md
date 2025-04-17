@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2844914d25d9bc3a2be7f47d0cd7f26f7c921555
+source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
 workflow-type: tm+mt
-source-wordcount: '419'
+source-wordcount: '514'
 ht-degree: 0%
 
 ---
@@ -31,6 +31,31 @@ _[!DNL Data connectors]_möjliggör sömlös integrering mellan GenStudio for Pe
 ## Betalda medieanslutningar
 
 GenStudio for Performance Marketing har stöd för olika anslutningstyper som kan integreras med de marknadsföringsplattformar ni föredrar. Varje anslutningstyp har specifika förutsättningar och konfigurationssteg som ska slutföras för att anslutningen ska lyckas.
+
+### Google Campaign Manager 360-anslutning
+
+>[!BEGINSHADEBOX]
+
+**Förutsättningar**:
+
+- Google Campaign Manager 360-konto
+- Ta bort alla popup-blockerare i webbläsaren
+
+>[!ENDSHADEBOX]
+
+**Så här ansluter du ett Google Campaign Manager 360-konto**:
+
+1. Klicka på **[!UICONTROL Connect]** på _Google Campaign Manager 360_-kortet i avsnittet _Dataanslutningar_.
+
+1. Logga in på ditt Google Campaign Manager 360-konto.
+
+   Du kan behöva ta bort blockerarna och sedan använda **[!UICONTROL Refresh]** för att försöka igen.
+
+1. Läs villkoren och klicka på **[!UICONTROL Allow]** för att bevilja åtkomst.
+
+1. I vyn _[!UICONTROL Google Campaign Manager 360]_väljer du en eller flera annonsörer och klickar på&#x200B;**[!UICONTROL Select]**.
+
+I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**om du vill lägga till fler konton i listan.
 
 ### Koppla metaannonser
 
