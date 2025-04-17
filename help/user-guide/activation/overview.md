@@ -4,16 +4,16 @@ description: Lär dig hur du aktiverar innehåll med Adobe Experience Cloud och 
 level: Beginner
 feature: Ad Activation
 exl-id: 365fe253-d189-467e-a723-f54cd74ff60b
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '393'
+source-wordcount: '415'
 ht-degree: 0%
 
 ---
 
 # Adobe GenStudio for Performance Marketing Activate
 
-GenStudio for Performance Marketing _[!DNL Activate]_är en central plats för att förbereda annonsupplevelsen för aktivering av utvalda betalda annonskanaler._ Aktivering _är processen att leverera annonsupplevelser till angivna kanaler i ett inaktivt tillstånd, redo för slutgranskning och distribution från kanalen. Annonsupplevelserna kan sedan distribueras på de avsedda marknaderna.
+GenStudio for Performance Marketing _[!DNL Activate]_är en central plats för att förbereda annonsupplevelsen för aktivering av utvalda betalda annonskanaler._ Aktivering _är processen att förbereda annonsupplevelser, resurser och text som en unik kreativ funktion som är anpassad för placering i en viss betalkanal. Aktiveringen levererar det kreativa till angivna kanaler i ett inaktivt tillstånd, klart för slutgranskning och driftsättning från kanalen. Annonsupplevelserna kan sedan distribueras på de avsedda marknaderna.
 
 Innehållsredigerare och systemansvariga kan publicera upplevelser vars resurser antingen genereras i eller överförs till GenStudio for Performance Marketing.
 
@@ -21,13 +21,13 @@ Innehållsredigerare och systemansvariga kan publicera upplevelser vars resurser
 
 Alla betalkonton för mediekanaler måste vara anslutna till GenStudio for Performance Marketing innan du kan aktivera en annonsupplevelse.
 
-## [!DNL Activate] användningsfall
+## Aktivera användningsfall
 
 * [Skapa en aktivering](create-activation.md). Du kan skapa en annonsupplevelse genom att välja visuella resurser, tilldela text och definiera metadata innan du går till en betalkanal.
 
 * [Hantera aktiveringar](manage-activations.md). _[!DNL Activate]_ger en översikt över alla aktiverade upplevelser. Du kan även visa information om enskilda aktiveringar.
 
-## [!DNL Activate]-funktioner
+## Aktivera funktioner
 
 _[!DNL Activate]_underlättar förberedelsen av annonsupplevelser för distribution till målbetalda kanaler.
 
@@ -37,7 +37,7 @@ Sidan _Creative-inställningar_ konsoliderar de verktyg du behöver för att mar
 
 ### Välj resurser för annonsupplevelsen
 
-Sök efter och välj godkända visuella resurser från _[!DNL Content]_eller överför resurser från Dropbox eller OneDrive. Du kan också överföra resurser direkt från enheten. En annonsupplevelse kan köras på flera platser. Assets kan laddas upp med de proportioner som annonsplaceringen kräver.
+Sök efter och välj godkända visuella resurser från _[!DNL Content]_eller överför resurser från Dropbox eller OneDrive. Du kan överföra resurser direkt från din enhet. En annonsupplevelse, eller kreativitet, kan köras på flera ställen. Assets kan laddas upp med de proportioner som annonsplaceringen kräver.
 
 ### Förgranska och aktivera upplevelsen i en annonskanal
 

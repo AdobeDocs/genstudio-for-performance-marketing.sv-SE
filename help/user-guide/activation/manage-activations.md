@@ -1,9 +1,9 @@
 ---
 title: Hantera aktiveringar
-description: Lär dig hantera aktiverade upplevelser med Adobe Genstudio för Performance Marketing.
+description: Lär dig hantera aktiverade upplevelser med Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: f6e0d0138f30527a1fdf7bef6fc4c30884316e0e
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -14,11 +14,11 @@ ht-degree: 0%
 
 _[!DNL Activate]_erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
 
-Aktiverade upplevelser är ordnade efter annonskanal. Klicka på **[!UICONTROL View]** på kanalpanelen i _[!DNL Activate]_. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. Upplevelserna listas efter upplevelsenamn och sorteras efter aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
+_[!DNL Activate]_organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
 
 ## Aktiverad upplevelsevy
 
-Aktiveringar listas efter upplevelsenamn i fallande kronologisk ordning (den senaste listan först).
+I den här vyn visas aktiveringar efter upplevelsenamn i fallande kronologisk ordning (den senaste listan först).
 
 I följande tabell visas de attribut som definierar varje upplevelse.
 

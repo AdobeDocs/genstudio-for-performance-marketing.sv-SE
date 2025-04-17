@@ -3,9 +3,9 @@ title: Aktivera en Meta-annons
 description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
 workflow-type: tm+mt
-source-wordcount: '1352'
+source-wordcount: '1336'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing stöder aktivering av Meta-annonser, e
 
 Du kan [skapa en metaupplevelse](/help/user-guide/create/create-meta-ad.md) i GenStudio for Performance Marketing och välja den för aktivering, eller skapa en ny upplevelse från godkända resurser i [!DNL Activate].
 
-När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering till andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda era annonsupplevelser för Metas specifika krav. När du har aktiverat en metaupplevelse, eller en kreativ upplevelse i GenStudio for Performance Marketing, använder du [Meta Ads Manager](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika Meta-annonsplaceringar före den slutliga publiceringen.
+När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering till andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda din kreativitet utifrån annonsupplevelser för Metas specifika behov. När du har aktiverat en metaupplevelse, eller en kreativ upplevelse i GenStudio for Performance Marketing, använder du [Meta Ads Manager](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika Meta-annonsplaceringar före den slutliga publiceringen.
 
 ## Steg 1: Konfigurera dina Meta-konton
 
@@ -107,7 +107,7 @@ Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till �
 | Webbplatsens URL | ja | 1000 |
 | Bild | minst en |                                 |
 
-_Primär text_ och _rubrik_ krävs endast av GenStudio for Performance Marketing, inte av Meta.
+GenStudio for Performance Marketing kräver _primär text_ och _rubrik_, inte metadata.
 
 ### Tilldela metadata
 
@@ -148,10 +148,10 @@ Klicka på **[!UICONTROL Next]** i det övre högra hörnet för att förhandsgr
 
 På sidan _Granska_ visas din annonsupplevelse som den är sammansatt i _Creative-konfigurationen_ och du har en sista möjlighet att visa och redigera din upplevelse. Klicka på **[!UICONTROL Edit section]** bredvid etiketten _Creative-konfiguration_ för att göra ändringarna. Du kan också klicka på **[!UICONTROL Back]** i det övre högra hörnet för att gå tillbaka till _Creative-konfigurationssidan_.
 
-### Fullständig aktivering av annonsupplevelsen
+### Steg 6: Fullständig aktivering av annonsupplevelsen
 
-Klicka på **[!UICONTROL Publish]**. Den fullständiga annonsupplevelsen för Meta och tillhörande metadata överförs direkt till den valda annonsuppsättningen för Meta Ads Manager. Upplevelserna levereras till Meta Ads Manager inaktiverat. Från Meta Ads Manager kan ni hantera de sista stegen i distributionen av annonsupplevelsen och Meta-kampanjen.
+1. Klicka på **[!UICONTROL Publish]**.
 
-### Logga in på Meta Ads Manager för att slutföra aktiveringen
+   Den fullständiga annonsupplevelsen för Meta och tillhörande metadata överförs direkt till den valda annonsuppsättningen för Meta Ads Manager. Upplevelserna levereras till Meta Ads Manager i ett inaktivt tillstånd. Från Meta Ads Manager kan ni hantera de sista stegen i distributionen av annonsupplevelsen och Meta-kampanjen.
 
-När aktiveringen är klar måste du logga in på Meta Ads Manager. Från [Meta Ads Manager](https://adsmanager.facebook.com/) kan du granska annonsupplevelsen och slutföra publiceringen i specifika Meta-kanaler.
+1. [Logga in på Meta Ads Manager](https://adsmanager.facebook.com/) för att granska annonsupplevelsen och slutföra publiceringen i specifika Meta-kanaler.
