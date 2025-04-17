@@ -4,9 +4,9 @@ description: Se en översikt över kundengagemang, budget och utgifter för anno
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 2d396b183084996c45616d29387e068a5d502c53
 workflow-type: tm+mt
-source-wordcount: '1200'
+source-wordcount: '1223'
 ht-degree: 0%
 
 ---
@@ -33,24 +33,23 @@ Välj en annons och visa de resultatvärden, textattribut och placeringar som ä
 
 Under annonsförhandsgranskningen finns en lista med [!UICONTROL Text attributes] som är associerad med annonsen. När resurser och annonser har godkänts och lagrats i [!DNL Content] genererar GenStudio for Performance Marketing taggar baserat på deras inneboende funktioner. Mer information om systemmetadata finns i [Medieinformation](/help/user-guide/content/asset-details.md#system-metadata).
 
+### Annonsformat
+
+[!DNL Insights] i GenStudio for Performance Marketing har för närvarande stöd för följande tillgängliga annonsformat.
+
+| Stöds | Stöds inte |
+|-----------|-------------|
+| Specifikation för tillgångsfeed (optimering av placering)<br>En bild eller en video<br>Länk | Carousel<br>Collaborative<br>Catalog<br>Instant Experience<br>Asset Feed Spec (annat än placeringsoptimering)<br>Call (bild/video)<br>App (bild/video)<br>Messaging<br>Lead (bild/video)<br>Slideshow (video)<br>Collection (bild/videohjälteresurs)<br>Shop (bild/bild video)<br>Foto eller video från sidinlägg/Instagram Post/media<br>varumärkesprofilerat innehåll<br>Flexibelt<br>Advantage+-katalog |
+
 ### Annonsplaceringar
 
-När du skapade en kampanj med Meta-annonser kan du ha valt var annonserna ska köras baserat på kampanjens [mål](channels.md#objectives). Annonsplaceringar breddar räckvidden för era annonser.
+När du skapar en kampanj med Meta-annonser kan du ha valt var annonserna ska köras baserat på kampanjens [mål](channels.md#objectives). Annonsplaceringar breddar räckvidden för era annonser.
 
-GenStudio for Performance Marketing har stöd för annonsformat som resursflöden, länkannonser och en enda bild eller video. Nedan följer en lista över annonsformat per plattform:
+Här följer en lista över annonsplaceringar som stöds:
 
-| Instagram | Facebook/Meta | Messenger | Målgruppsnätverk |
-| ------------ | ---------------- | ------------ | ---------------- |
-| Utforska<br>Utforska startsida<br>Utforska startsida för stödraster<br>Utflöde<br>Reels<br>Profilflöde<br>Sök<br>Shop<br>Artiklar | Business Explore<br>Feed<br>Inströmsvideo<br>Marketplace<br>Reels<br>Reels-övertäckning<br>Right column<br>Search results<br>Stories<br>Video feeds<br>Ads on Facebook reels | Inkorg<br>artiklar | Inbyggd video, banderoll och interstitiell<br>återgiven video |
-
-#### Platser som inte stöds
-
-GenStudio for Performance Marketing stöder inte följande annonsplaceringar:
-
-- Samarbete
-- Katalog/Advantage+-katalog
-- Instansupplevelse
-- Carousel
+| Målgruppsnätverk | [Facebook/Meta](https://www.facebook.com/business/help/407108559393196?id=369787570424415) | Instagram | Messenger |
+|--------------------|--------------------|-------------------------|---------------------|
+| Återgiven video | Feed<br>Videoflöden<br>Artiklar<br>Marketplace<br>Högerkolumn<br>Reels<br>Reels-övertäckning<br>In-stream-video<br>Search<br>Business discofeed<br>Profilfeed | Artiklar<br>Feed<br>Utforska<br>Reels<br>Utforska stödrastrets startsida<br>Profilflöde<br>Sök<br>Stream | Artiklar<br>Inkorg |
 
 ## Annonsprestanda
 
@@ -65,7 +64,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL Placements]** | Antal annonser [praktik](#ad-placements), platser där en annons visades i kampanjen. | Placeringar ökar publikens räckvidd.<p>Annonser som visar noll-placeringar och noll-media kan indikera en [annonstyp som inte stöds](#unsupported-placements).</p> |
 | **[!UICONTROL Media]** | Antalet resurser som används i annonsen eller annonsen. | Antalet i annonstabellen kan skilja sig från antalet i vyn Ad details. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
 | **[!UICONTROL Impressions]** | Antal varje gång annonsplaceringen eller annonsen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du tänka på det i relation till andra engagemangsmått. |
-| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, som en länk eller en knapp för att ringa upp, på en annonsplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
+| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, som en länk eller en call-to-action-knapp, på en annonsplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i klickningar på annonsen i en kampanj.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsvisningar.<br>**Beräkning**: totalt belopp `spent` dividerat med räckvidd, multiplicerat med 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPA]**<br>_Kostnad per åtgärd _ | Genomsnittlig kostnad för att utföra en viss kundåtgärd, t.ex. ett köp eller en prenumeration.<br>**Beräkning**: totalt belopp `spent` delat med antalet slutförda kundåtgärder | Använd för att övervaka utgifter för annonser som resulterar i värdefulla kundaktiviteter. |
