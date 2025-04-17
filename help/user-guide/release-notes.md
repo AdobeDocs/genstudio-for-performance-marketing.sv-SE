@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2f5c79c8a339b10305a8c06f7036dd7182937cc5
+source-git-commit: c51afb3decac43f3a71d5859ba4296a8c09730d7
 workflow-type: tm+mt
-source-wordcount: '2181'
+source-wordcount: '2235'
 ht-degree: 0%
 
 ---
@@ -22,6 +22,7 @@ Den här versionsinformationen innehåller information om de senaste uppdatering
 * Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
+* Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
 
 ## Versionsinformation
 
