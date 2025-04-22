@@ -4,9 +4,9 @@ description: Lär dig hur du utvärderar medieprestanda i Adobe GenStudio for Pe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
 workflow-type: tm+mt
-source-wordcount: '639'
+source-wordcount: '651'
 ht-degree: 0%
 
 ---
@@ -36,6 +36,10 @@ I vyn _Medieinformation_ kan du se vilka annonser som använder de valda mediern
 
 ![Medieinformation](/help/assets/insights-media-details.png){zoomable="yes"}
 
+### Medieattribut
+
+{{$include /help/_includes/generated-attributes.md}}
+
 ## Medieprestanda
 
 Insikter kan hjälpa er att utvärdera vilka medier som bidrar till framgången för en kampanj och vilka medieattribut som är mest effektiva.
@@ -53,4 +57,4 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad för varje klick på mediet.<br>**Beräkning**: totalt belopp `spent` delat med `clicks` | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
 | **[!UICONTROL Spend]** | Det belopp som spenderas från budgeten i förhållande till enskilda medier under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra det belopp som spenderas mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
 | **[!UICONTROL Used in these ads]** | Antalet annonser som använder mediet. | |
-| **[!UICONTROL Attributes]** | En lista över attribut som har identifierats och tillämpats på mediet. | |
+| **Attribut** | Lista över inbyggda funktioner i mediet. | Kan hjälpa er att identifiera kreativa element som intresserar er bäst. |

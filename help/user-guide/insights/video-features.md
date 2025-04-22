@@ -4,7 +4,7 @@ description: Läs mer om videofunktionen i de attributkategorier som används i 
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -44,9 +44,9 @@ I följande tabell visas de videofunktionskategorier som känns igen av GenStudi
 | Kategori | Beskrivning | Exempel |
 | ------------------- | ------------------------------------------------------------------------------------------------------------ | --------------------------------------------------------------------------------------- |
 | Ljudläge | Avgör den övergripande känslomässiga tonen eller atmosfären i ljudspåret, till exempel `calm`, `upbeat` eller `tense`. | `Energetic`, `Happy`, `Emotional Ambient/atmospheric`, `Relaxing`, `Dramatic`, `Expressive/characterful`, `Intense`, `Slow`, `Neutral` |
-| Ljudtyper | Taggar videon med en eller flera typer av ljud, till exempel `music` eller `speech`. | `Music`, `Speech`, `Silence`, `Special effects`, `Ambience` |
+| Ljudtyper | Taggar videon med en eller flera ljudinnehållstyper, till exempel `music` eller `speech`. | `Music`, `Speech`, `Silence`, `Special effects`, `Ambience` |
 | Kategorier | Videon delas in i en eller flera kategorier med brett innehåll. | `Entertainment`, `Sports`, `Music`, `Gaming`, `Howto tutorials`, `Fashion and style`, `Film and animation`, `Science and technology`, `Autos and vehicles`, `Pets and animals`, `People and blogs`, `News and politics`, `Social causes and activism`, `Travel and events`, `Education`, `Sales and offers` |
-| Musikkategori | Omfattande klassificering av musikgenre när det finns musik i videon. Detta hjälper till att identifiera den allmänna typen av musik, till exempel `contemporary`- eller `traditional`-stilar. | `Contemporary/pop music`, `Traditional/folk-based music`, `Instrumental/orchestral music`, `Rock music`, `Acoustic/unplugged music`, `Specialised/occasional music`, `Experimental/unique music` |
+| Musikkategori | Omfattande klassificering av musikgenre när det finns musik i videon. Genre hjälper till att identifiera den allmänna typen av musik, till exempel `contemporary`- eller `traditional`-stilar. | `Contemporary/pop music`, `Traditional/folk-based music`, `Instrumental/orchestral music`, `Rock music`, `Acoustic/unplugged music`, `Specialised/occasional music`, `Experimental/unique music` |
 | Musikgenre | Specifik klassificering av musikstil när det finns musik i videon, vilket ger en mer detaljerad identifiering av musiken, till exempel `electronic` eller `jazz`. | `electronic`, `hip-hop`, `dance`, `novelty`, `rock`, `world`, `reggae`, `pop`, `film`, `jazz`, `background`, `latin` |
 | Objekt | Identifierar ett eller flera objekt, enheter och element som visas i videon. | Värdena är för många, men några exempel är: `backpack`, `book`, `hawk`, `glasses`, `fish`, `pencil`, `mountain bike`, `soap` |
 | Orientering | Videons justering i förhållande till dess bredd och höjd. Identifierar om den är bredare än den är hög (liggande), högre än bred (stående) eller lika med bredd och höjd (fyrkant). | `landscape`, `portrait`, `square` |
