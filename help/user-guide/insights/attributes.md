@@ -4,7 +4,7 @@ description: Lär dig hur du utvärderar prestandan för specifika attribut i Ad
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '824'
 ht-degree: 0%
@@ -22,6 +22,8 @@ Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. 
 Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Markera **[!UICONTROL Clear all]** ovanför tabellen om du vill ta bort alla filter.
 
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

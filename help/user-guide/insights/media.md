@@ -4,7 +4,7 @@ description: Lär dig hur du utvärderar medieprestanda i Adobe GenStudio for Pe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: a7241193b38a45dbd927269d65c1edac05cab002
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '651'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Vyn [!DNL Insights] _[!UICONTROL Media]_visar en lista över medier som används
 Tabellen _[!UICONTROL Media]_är ordnad med **[!UICONTROL Media ID]**. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor. Markera **[!UICONTROL Clear all]**ovanför tabellen om du vill ta bort alla filter.
 
 ![Mediefilter och tabell](/help/assets/insights-media-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

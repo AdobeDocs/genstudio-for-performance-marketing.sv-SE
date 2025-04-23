@@ -4,7 +4,7 @@ description: Se en översikt över kundengagemang, budget och utgifter för anno
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: b4e0892af62be754f7b596537125458fc28930f3
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '1242'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Vyn [!DNL Insights] _[!UICONTROL Ads]_visar en lista med annonser för det anslu
 Tabellen _[!UICONTROL Ads]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor. Markera **[!UICONTROL Clear all]**ovanför tabellen om du vill ta bort alla filter.
 
 ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 

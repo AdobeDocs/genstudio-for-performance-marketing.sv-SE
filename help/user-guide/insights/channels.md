@@ -4,7 +4,7 @@ description: Se en översikt över kundengagemang, resultat, budget och utgifter
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
 workflow-type: tm+mt
 source-wordcount: '726'
 ht-degree: 0%
@@ -20,6 +20,8 @@ Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det
 Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor. Markera **[!UICONTROL Clear all]**ovanför tabellen om du vill ta bort alla filter.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
+
+{{empty-table}}
 
 {{$include /help/_includes/download-insights.md}}
 
@@ -49,7 +51,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL Meta campaign name]** | En lista med kampanjnamn för det anslutna kanalkontot. Kampanjstatus kan vara `Active`, `Paused`, `Deleted` eller `Archived`. Filtrera kampanjer efter status och mål. | Sortera tabellen genom att klicka på kolumnrubriken för något av nyckelmåtten. |
 | **[!UICONTROL Launch]** | Det datum då kampanjen släpptes eller publicerades på marknaden. | Ett högt antal visningar kan tyda på att annonsen når den avsedda målgruppen. |
 | **[!UICONTROL Impressions]** | Antal gånger innehållet läses in i kanalen, oavsett interaktion eller visning. | Ett högt intryck kan visa på bred synlighet, men för att få en riktig prestandainsikter bör du överväga det tillsammans med andra interaktionsvärden. |
-| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, till exempel en länk eller en knapp för att ringa upp, i annonskampanjen. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
+| **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, t.ex. en länk eller en call-to-action-knapp, i annonskampanjen. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i kampanjklickningar i en kanal.<br>**Beräkning**: (`clicks` dividerat med `impressions`) x 100 = % | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
 | **[!UICONTROL CPM]**<br>_Kostnad per tusen _ | Kostnad för ett tusen annonsvisningar för annonskampanjen. <br>**Beräkning**: (totalt belopp `spent` delat med `impressions`) x 1000 | Ett lågt värde kan indikera kostnadseffektiv synlighet, särskilt om det kombineras med en hög klickfrekvens. |
 | **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad som associeras med varje klick i en annonskampanj.<br>**Beräkning**: totalt belopp `spent` dividerat med `clicks` = $ | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
