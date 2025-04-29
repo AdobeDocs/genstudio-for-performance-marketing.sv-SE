@@ -4,9 +4,9 @@ description: Se en översikt över kundengagemang, resultat, budget och utgifter
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
 workflow-type: tm+mt
-source-wordcount: '726'
+source-wordcount: '743'
 ht-degree: 0%
 
 ---
@@ -17,15 +17,21 @@ Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas. Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]**där du kan välja från flera listor. Markera **[!UICONTROL Clear all]**ovanför tabellen om du vill ta bort alla filter.
+Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
+När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
+
 {{empty-table}}
 
-{{$include /help/_includes/download-insights.md}}
+## Filtrera kanaler
 
-När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
+Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
+
+### Hämta tabellresultat
+
+{{$include /help/_includes/download-insights.md}}
 
 ## Mål
 
@@ -57,4 +63,4 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | **[!UICONTROL CPC]**<br>_Kostnad per klick _ | Genomsnittlig kostnad som associeras med varje klick i en annonskampanj.<br>**Beräkning**: totalt belopp `spent` dividerat med `clicks` = $ | Lägre genomsnittliga kostnader kan tyda på kostnadseffektiva annonskostnader, särskilt om man jämför med en ökning av antalet konverteringar. |
 | **[!UICONTROL Video plays]** | Antalet gånger en video börjar spelas upp i en annonskampanj, exklusive repriser. En video börjar spelas upp när en användare klickar på Spela upp eller videon spelas upp automatiskt. | Ett stort antal videouppspelningar kan tyda på att videon fångar uppmärksamheten och kan betyda att miniatyren, titeln eller placeringen ritas effektivt i visningsprogrammen. |
 | **[!UICONTROL Budget]** | Totala medel som anslagits för en annonskampanj för att uppnå kampanjmålen. | En hög budget innebär mer resurser för en bredare räckvidd och potentiellt större påverkan. |
-| **[!UICONTROL Spend]** | Det belopp som läggs på annonser på olika plattformar från budgeten under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra utgiftsbeloppet mot nyckeltal för att övervaka den totala avkastningen på investeringen. |
+| **[!UICONTROL Spend]** | Det belopp som läggs på annonser på olika plattformar från budgeten under en viss tidsperiod. | Ett högt utgiftsbelopp under en kort period kan tyda på snabb användning, vilket kan leda till att resurser tar slut i förtid. Spåra det belopp som spenderas mot nyckeltal för att övervaka den totala avkastningen på investeringen. |

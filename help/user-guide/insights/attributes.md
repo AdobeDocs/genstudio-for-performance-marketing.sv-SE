@@ -4,9 +4,9 @@ description: Lär dig hur du utvärderar prestandan för specifika attribut i Ad
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: 999e415d791cfde0965ec119db1e36d364d41780
+source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
 workflow-type: tm+mt
-source-wordcount: '824'
+source-wordcount: '853'
 ht-degree: 0%
 
 ---
@@ -19,11 +19,20 @@ Vyn [!DNL Insights] _[!UICONTROL Attributes]_visar en lista med attribut som anv
 
 Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
-Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Markera **[!UICONTROL Clear all]** ovanför tabellen om du vill ta bort alla filter.
-
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
 {{empty-table}}
+
+## Filterattribut
+
+Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Mer information om nyckelordsfilter för kampanjer och annonser finns i [Filtrera media](/help/user-guide/insights/media.md#filter-media).
+
+
+>[!NOTE]
+>
+>Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
+
+### Hämta tabellresultat
 
 {{$include /help/_includes/download-insights.md}}
 
