@@ -5,9 +5,9 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: af354448ef609db3c51026ee0e9991ac5cedeba5
+source-git-commit: cf4be61925761c9630cb8ea5c995d017b3938a31
 workflow-type: tm+mt
-source-wordcount: '514'
+source-wordcount: '644'
 ht-degree: 0%
 
 ---
@@ -59,12 +59,32 @@ I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_visas `Account name`, `
 
 ### Koppla metaannonser
 
+När du ansluter din _Meta Business_-profil till GenStudio for Performance Marketing säkerställer den sömlös åtkomst till annonsdata för dina företagssidor, Meta Ads-konton och andra Meta-resurser.
+
 >[!BEGINSHADEBOX]
 
 **Förutsättningar**:
 
-- Facebook-/Meta-annonskonto
-- Åtkomst till Meta-annonskonto med behörigheten `View performance` för åtkomst till rapporter och visning av annonser
+- Facebook-/Meta-inloggning som kan komma åt alla metatjänster, som Meta Ads-konto och Facebook Business Profile
+- Åtkomst till Meta-annonskonto med behörigheten `View performance` för åtkomst till rapporter och visning av annonser, inklusive följande
+   - Behörigheter krävs för användning med [!DNL Insights]:
+
+      - `pages_show_list`
+      - `ads_read`
+      - `ads_management`
+      - `pages_read_engagement`
+
+   - Behörigheter krävs för användning med [!DNL Activate]:
+
+      - `ads_management`
+      - `ads_read`
+      - `business_management`
+      - `instagram_basic`
+      - `instagram_content_publish`
+      - `pages_manage_ads`
+      - `pages_manage_posts`
+      - `pages_show_list`
+
 - Ta bort alla popup-blockerare i webbläsaren
 
 >[!ENDSHADEBOX]
@@ -77,19 +97,26 @@ I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_visas `Account name`, `
 
    Du kan behöva ta bort blockerarna och sedan använda **[!UICONTROL Refresh]** för att försöka igen.
 
-1. Följ instruktionerna för Facebook-autentisering.
+1. Följ instruktionerna för Facebook-autentisering, verifiera kontoinformationen och klicka på **[!UICONTROL Continue as ...]**
 
-1. Gå igenom följande markeringar i popup-fönstret _[!UICONTROL Facebook Login for Business]_(Meta till Adobe-symbol).
+1. I _[!UICONTROL Facebook Login for Business]_(Meta till Adobe-symbol) går du igenom följande val för att ge GenStudio for Performance Marketing åtkomst:
 
-   - Verifiera kontoinformationen och klicka på **[!UICONTROL Continue as]**
-   - Bevilja åtkomst för att välja sidor och klicka på **[!UICONTROL Continue]**
-   - Bevilja åtkomst till utvalda företag och klicka på **[!UICONTROL Continue]**
+   - Välj en eller flera Meta Business-profiler och klicka på **[!UICONTROL Continue]**
+   - Markera en eller flera metasidor och klicka på **[!UICONTROL Continue]**
    - Välj ett eller flera Instagram-konton och klicka på **[!UICONTROL Continue]**
    - Granska markeringar och klicka på **[!UICONTROL Save]**
 
-1. I vyn _[!UICONTROL Meta Ads]_markerar du ett eller flera konton och klickar på&#x200B;**[!UICONTROL Select]**.
+1. När du har fått en bekräftelse på att ditt konto är anslutet klickar du på **[!UICONTROL Got it]**.
 
-I vyn _[!UICONTROL Meta Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**om du vill lägga till fler konton i listan.
+   Detta steg säkerställer att GenStudio for Performance Marketing får tillgång till alla annonser, metadata och mätvärden för optimala prestanda.
+
+1. I _[!UICONTROL Meta Ads]_väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
+
+1. När du fått en bekräftelse från _Platform connected_ klickar du på **[!UICONTROL View accounts]**.
+
+   I vyn _[!UICONTROL Meta Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`.
+
+Använd **[!UICONTROL Add account]** om du vill lägga till fler konton i listan. Auktoriseringsflödet kan variera något när du lägger till konton som är länkade till samma Meta Business-profil. Du väljer bara de nya Meta Ads-kontona under anslutningsprocessen.
 
 ## Intag av data
 
