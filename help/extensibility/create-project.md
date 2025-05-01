@@ -3,7 +3,7 @@ title: Skapa ett App Builder-projekt för att utöka GenStudio for Performance M
 description: Skapa ett App Builder-projekt för din app eller ett tillägg.
 feature: Extensibility
 exl-id: 502b6dd5-68ac-4392-bba3-3ab8cd9eefc2
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
 workflow-type: tm+mt
 source-wordcount: '196'
 ht-degree: 0%
