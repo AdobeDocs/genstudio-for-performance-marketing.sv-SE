@@ -3,7 +3,7 @@ title: Distribuera din App Builder-app
 description: Driftsätt App Builder-appen eller tillägget för GenStudio for Performance Marketing.
 feature: Extensibility
 exl-id: 51888ab7-7772-4ac8-838d-26db3019e9b0
-source-git-commit: 52e8e078bc013fe686b5cc2105089f7098cce575
+source-git-commit: 6fef5933421a56cf9f77c19bc198f017ee6c117e
 workflow-type: tm+mt
 source-wordcount: '160'
 ht-degree: 0%
@@ -13,7 +13,6 @@ ht-degree: 0%
 # Distribuera din app
 
 När du kör ditt program får du en preliminär ögonblicksbild av ditt Add-on-beteende innan du distribuerar det. Den här informationen kan underlätta felsökning. Du kan tvinga fram bygge och driftsättning av ett distribuerat program utan att skicka in det på nytt för godkännande.
-
 
 **Så här kör du appen**:
 
