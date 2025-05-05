@@ -4,34 +4,26 @@ description: Se en översikt över kundengagemang, resultat, budget och utgifter
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: 997bd2ce2243bbfe59567c5dd3b389408446f5e7
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '743'
+source-wordcount: '697'
 ht-degree: 0%
 
 ---
 
 # Översikt över kanaler
 
-Vyn [!DNL Insights] _[!UICONTROL Channels]_&#x200B;visar en lista med kampanjer för det anslutna kanalannonskontot.
+Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det anslutna kanalannonskontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Channels]_&#x200B;är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
 När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
 
-{{empty-table}}
-
-## Filtrera kanaler
-
-Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
-
-### Hämta tabellresultat
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Mål
 

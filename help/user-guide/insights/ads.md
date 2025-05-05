@@ -4,64 +4,35 @@ description: Se en översikt över kundengagemang, budget och utgifter för anno
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: e053c91ebb40a9625ce22281a89feaa9cccab956
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '1493'
+source-wordcount: '1335'
 ht-degree: 0%
 
 ---
 
 # Översikt över annonsplacering
 
-Vyn [!DNL Insights] _[!UICONTROL Ads]_&#x200B;visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
+Vyn [!DNL Insights] _[!UICONTROL Ads]_visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Ads]_&#x200B;är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Ads]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Ad]_visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
 - CPC (kostnad per klick)
 - Utgift
 
-{{empty-table}}
-
-## Filtrera annonser
-
-Filterikonen (trattikonen) ovanför den vänstra sidan öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Med vissa filter kan du använda exakta nyckelord för att förfina listan med villkor. Nyckelordsfilter är särskilt användbara för kampanjer som följer en komplex namnkonvention med flera unika identifierare, till exempel följande:
-
-- Namn eller kod för den specifika regionen: `NA`, `EMEA`
-- Akronymer för innehållstyp: `EB`, `CHT` eller `DSP`
-- Erbjudandekoder eller akronymer: `OFFER2023`, `PROMO`
-
-**Så här filtrerar du efter kampanjer**:
-
-1. Expandera filtret **[!UICONTROL Campaigns]** och klicka på **[!UICONTROL Select]**.
-1. Ange nyckelord avgränsade med kommatecken i sökfältet.
-
-   Använd så många nyckelord som behövs för att förfina listan:
-
-   ![Välj kampanjer](/help/assets/insights-select-campaign.png){width=400}
-
-1. Välj en eller flera kampanjer från den resulterande sökningen och klicka på **[!UICONTROL Apply]**.
-
-   Dina valda kampanjer visas nu i listan _[!UICONTROL Filter by]_&#x200B;ovanför annonstabellen eller galleriet, så att du kan fokusera på annonserna som är kopplade till de valda kampanjerna.
-
->[!NOTE]
->
->Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
-
-### Hämta tabellresultat
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Annonsinformation
 
-Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_&#x200B;innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**&#x200B;för att bläddra igenom placeringsmåtten.
+Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**för att bläddra igenom placeringsmåtten.
 
 ![Lägg till information med mått och annonsplaceringar](/help/assets/insights-ad-details.png){zoomable="yes"}
 
@@ -118,7 +89,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 
 ## Placering
 
-I vyn _[!UICONTROL Ad details page]_&#x200B;återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
+I vyn _[!UICONTROL Ad details page]_återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
 
 I följande tabell finns definitioner för prestandamätningar för annonsplacering:
 

@@ -4,64 +4,31 @@ description: Lär dig hur du utvärderar medieprestanda i Adobe GenStudio for Pe
 level: Intermediate
 feature: Reporting and Insights, Media Performance, Content Attributes
 exl-id: 1e93422b-2645-4e29-a216-fc1008afbfc7
-source-git-commit: 817a7bf425732cefd57da55e6bb41154567bca46
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '807'
+source-wordcount: '624'
 ht-degree: 0%
 
 ---
 
 # Översikt över media
 
-Vyn [!DNL Insights] _[!UICONTROL Media]_&#x200B;visar en lista över medier som används i annonser och annonskampanjer för det valda kontot._ Media _representerar en bild, video, text eller annat kreativt innehåll som är godkänt för användning i dina marknadsföringssatsningar.
+Vyn [!DNL Insights] _[!UICONTROL Media]_visar en lista över medier som används i annonser och annonskampanjer för det valda kontot._ Media _representerar en bild, video, text eller annat kreativt innehåll som är godkänt för användning i dina marknadsföringssatsningar.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Media]_&#x200B;är ordnad med **[!UICONTROL Media ID]**. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Media]_är ordnad med **[!UICONTROL Media ID]**. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Mediefilter och tabell](/help/assets/insights-media-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Media]_&#x200B;visas ett kollage med medieförhandsvisningar och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Media]_visas ett kollage med medieförhandsvisningar och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
 - CPC (kostnad per klick)
 - Utgift
 
-{{empty-table}}
-
-## Filtrera media
-
-Filterikonen (trattikonen) ovanför den vänstra sidan öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
-
-Med vissa filter kan du använda exakta nyckelord för att förfina listan med villkor. Nyckelordsfilter är särskilt användbara för kampanjer och annonser som följer en komplex namnkonvention med flera unika identifierare, till exempel följande:
-
-- Namn eller kod för den specifika regionen: `NA`, `EMEA`
-- Akronymer för innehållstyp: `EB`, `CHT` eller `DSP`
-- Erbjudandekoder eller akronymer: `OFFER2023`, `PROMO`
-
-**Så här filtrerar du efter kampanjer**:
-
-1. Expandera filtret **[!UICONTROL Campaigns]** och klicka på **[!UICONTROL Select]**.
-1. Ange nyckelord avgränsade med kommatecken i sökfältet.
-
-   Använd så många nyckelord som behövs för att förfina listan:
-
-   ![Välj kampanjer](/help/assets/insights-select-campaign.png){width=400}
-
-1. Välj en eller flera kampanjer från den resulterande sökningen och klicka på **[!UICONTROL Apply]**.
-
-   Dina valda kampanjer visas nu i listan _[!UICONTROL Filter by]_&#x200B;ovanför annonstabellen eller galleriet, så att du kan fokusera på media som är associerade med de valda kampanjerna.
-
-1. _Valfritt_: Om du vill filtrera media ytterligare utför du ett liknande nyckelordsfilter på **[!UICONTROL Ads]**.
-
->[!NOTE]
->
->Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
-
-### Hämta tabellresultat
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Medieinformation
 

@@ -4,37 +4,24 @@ description: Lär dig hur du utvärderar prestandan för specifika attribut i Ad
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: c619f092d0f64ca6d847f058e343578d0b22a3d6
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '853'
+source-wordcount: '795'
 ht-degree: 0%
 
 ---
 
 # Attribut - översikt
 
-Vyn [!DNL Insights] _[!UICONTROL Attributes]_&#x200B;visar en lista med attribut som används i annonskampanjer för det valda kanalkontot.
+Vyn [!DNL Insights] _[!UICONTROL Attributes]_visar en lista med attribut som används i annonskampanjer för det valda kanalkontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Attributes]_&#x200B;är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**&#x200B;och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
-{{empty-table}}
-
-## Filterattribut
-
-Filterikonen (trattikonen) ovanför den vänstra sidan av tabellen öppnar menyn **[!UICONTROL Filter]** där du kan välja från flera listor. Mer information om nyckelordsfilter för kampanjer och annonser finns i [Filtrera media](/help/user-guide/insights/media.md#filter-media).
-
-
->[!NOTE]
->
->Det använda filtret finns kvar i alla vyer i [!DNL Insights]. Välj **[!UICONTROL Clear all]** ovanför annonstabellen eller galleriet om du vill ta bort alla markerade filter.
-
-### Hämta tabellresultat
-
-{{$include /help/_includes/download-insights.md}}
+{{filter-table}}
 
 ## Attributinformation
 

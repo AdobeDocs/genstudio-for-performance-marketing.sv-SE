@@ -1,7 +1,7 @@
 ---
-source-git-commit: 9362ed03a54d5cbd661a2f278096b3a1fd692e36
+source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
 workflow-type: tm+mt
-source-wordcount: '99'
+source-wordcount: '117'
 ht-degree: 0%
 
 ---
@@ -25,8 +25,8 @@ ht-degree: 0%
 >
 >Förbättra dina kunskaper i det här ämnet med [Adobe GenStudio Academy](https://learningmanager.adobe.com/genstudioacademy).
 
-## Tips för tomma tabeller {#empty-table}
+## Tips om att filtrera tabeller {#filter-table}
 
 >[!TIP]
 >
->Ser du ett `No results found`-meddelande? Justera filter genom att ändra markeringar, rensa alla filter eller utöka datumintervallet.
+>Ser du för många resultat eller ett `No results found`-meddelande? Justera filter genom att ändra markeringar, rensa alla filter eller justera datumintervallet. Mer information om de dynamiska och mångsidiga filterfunktionerna finns i [Filter för Insights-vyer](/help/user-guide/insights/filter-views.md).
