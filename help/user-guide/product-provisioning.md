@@ -14,7 +14,7 @@ ht-degree: 0%
 
 # Tillhandahåll Adobe GenStudio for Performance Marketing
 
-En Adobe-systemadministratör utför initiala provisioneringsåtgärder i [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview). Från Admin Console har en Adobe-systemadministratör åtkomst till GenStudio produktprofil och kan tilldela användare tillgängliga produktlicenser.
+En Adobe-systemadministratör utför initiala provisioneringsåtgärder i [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html#Overview). Från Admin Console har en Adobe-systemadministratör åtkomst till GenStudio produktprofil och kan tilldela användare tillgängliga produktlicenser.
 
 >[!NOTE]
 >
@@ -30,7 +30,7 @@ Inom Admin Console definierar produktprofilen regler och användarprofiler som �
 
 **Så här kommer du åt GenStudio produktprofil**
 
-1. Klicka på länken **Kom igång** i ditt välkomstmeddelande för att navigera till [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview).
+1. Klicka på länken **Kom igång** i ditt välkomstmeddelande för att navigera till [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html#Overview).
 
 1. Logga in på Admin Console med din Adobe ID.
 
@@ -62,8 +62,8 @@ Mer information om hur du tilldelar GenStudio for Performance Marketing-använda
 
 Du kan lägga till användare individuellt eller importera kontoinformation för flera användare:
 
-* [Hantera användare individuellt](https://helpx.adobe.com/enterprise/using/manage-users-individually.html#add-users)
+* [Hantera användare individuellt](https://helpx.adobe.com/se/enterprise/using/manage-users-individually.html#add-users)
 
-* [Hantera flera användare/massöverföring av CSV](https://helpx.adobe.com/enterprise/using/bulk-upload-users.html)
+* [Hantera flera användare/massöverföring av CSV](https://helpx.adobe.com/se/enterprise/using/bulk-upload-users.html)
 
 När du har anslutit användare till din organisations GenStudio for Performance Marketing kan en GenStudio-systemadministratör [konfigurera din organisations varumärke- och medieriktlinjer](get-started.md).

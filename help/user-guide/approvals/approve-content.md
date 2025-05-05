@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Godkänn innehåll
 
-Godkännarna får meddelanden i produkten, e-post och, om detta är aktiverat, Slack-meddelanden när de behöver granska och godkänna. Meddelanden är en länk till arbetsytan som visar innehållet som granskas. Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
+Godkännarna får meddelanden i produkten, e-post och, om detta är aktiverat, Slack-meddelanden när de behöver granska och godkänna. Meddelanden är en länk till arbetsytan som visar innehållet som granskas. Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
 
 Om innehållsutkastet uppfyller organisationens standarder och dina förväntningar är du redo att godkänna utkastet.
 

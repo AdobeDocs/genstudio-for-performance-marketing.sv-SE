@@ -19,7 +19,7 @@ du förväntas behålla den här koden. Rapportera oacceptabla beteenden till
 
 ## Dokumentation för användarhandboken för bidragsgivare
 
-Se [Contributor Guide för Adobe-dokumentation](https://experienceleague.adobe.com/en/docs/contributor/contributor-guide/introduction).
+Se [Contributor Guide för Adobe-dokumentation](https://experienceleague.adobe.com/sv/docs/contributor/contributor-guide/introduction).
 
 ## Har du en fråga?
 
