@@ -18,11 +18,11 @@ Varje resurs (inklusive upplevelser och mallar) har associerad _information_ (me
 
 **Så här visar du resursinformation**:
 
-1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
-1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
+1. Granska avsnittet _[!UICONTROL Details]_&#x200B;till höger i resursvyn.
 
-1. Om avsnittet _[!UICONTROL Details]_inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
+1. Om avsnittet _[!UICONTROL Details]_&#x200B;inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
 
 Resursinformationen innehåller metadata som används under skaps- eller överföringsprocessen. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
 
@@ -56,9 +56,9 @@ När du [överför en resurs](/help/user-guide/content/manage-assets.md#add-asse
 
 **Så här redigerar du användardefinierade metadata**:
 
-1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
-1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
+1. Granska avsnittet _[!UICONTROL Details]_&#x200B;till höger i resursvyn.
 
 1. Klicka på **[!UICONTROL Edit details]** (penna) för att redigera tillgång, upplevelse eller mallmetadata.
 
@@ -97,7 +97,7 @@ Informationen kan omfatta:
 
 ## Historik
 
-Expandera avsnittet _[!UICONTROL History]_i en upplevelse för att visa en tidslinje med godkännanden och aktiviteter. En godkänd upplevelse visar till exempel datum, tid och godkännare:
+Expandera avsnittet _[!UICONTROL History]_&#x200B;i en upplevelse för att visa en tidslinje med godkännanden och aktiviteter. En godkänd upplevelse visar till exempel datum, tid och godkännare:
 
 ```
 Approved

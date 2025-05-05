@@ -23,7 +23,7 @@ Ljudidentifiering i GenStudio for Performance Marketing innebär att analysera l
 
 **Så här förhandsgranskar du en video och hör ett exempel på ljudet**:
 
-1. I _[!DNL Insights]_väljer du vyn **[!UICONTROL Attributes]**.
+1. I _[!DNL Insights]_&#x200B;väljer du vyn **[!UICONTROL Attributes]**.
 
 1. Ändra tabellvyn genom att välja **[!UICONTROL Video]**.
 

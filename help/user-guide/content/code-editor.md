@@ -22,7 +22,7 @@ Mallkodredigeraren är utformad för att hjälpa dig att verifiera och förfina 
 
 ## Kontrollera identifierade fält
 
-I rutan _[!UICONTROL Check detected fields]_visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
+I rutan _[!UICONTROL Check detected fields]_&#x200B;visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
 
 ![Vyn Kodredigeraren](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){width="600" zoomable="yes"}
 
@@ -34,4 +34,4 @@ Om det finns fel i mallen kan du se ett `Template is invalid`-meddelande med en 
 
 ![Korrigera ogiltig mall](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
-Panelen _[!UICONTROL Check detected fields]_uppdateras för att återspegla de ändringar du har gjort. När du är säker på att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).
+Panelen _[!UICONTROL Check detected fields]_&#x200B;uppdateras för att återspegla de ändringar du har gjort. När du är säker på att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**&#x200B;för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).

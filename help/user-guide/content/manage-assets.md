@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] förenklar och förbät
 
 ## [!DNL Content]-galleri
 
-I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
+I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filterikonen (tratten) ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]** där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_&#x200B;klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
 
 Följande visar en sökning på termen `space` i galleriet [!UICONTROL Assets]:
 
@@ -28,15 +28,15 @@ Filtrerings- och sökgränssnittet är snabbt och responsivt och ger en produkti
 
 Det finns filter som baseras på [riktlinjer](/help/user-guide/guidelines/overview.md), [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
 
-- **[!UICONTROL Uploaded by]**: begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
-- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
-- **[!UICONTROL Template]**: begränsar listan _[!UICONTROL Experiences]_så att endast upplevelser som skapats med den valda mallen visas.
+- **[!UICONTROL Uploaded by]**: begränsar listan _[!UICONTROL Assets]_&#x200B;så att endast resurser som du eller en viss person har överfört visas.
+- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Experiences]_&#x200B;så att endast de upplevelser som du eller en viss person har skapat visas.
+- **[!UICONTROL Template]**: begränsar listan _[!UICONTROL Experiences]_&#x200B;så att endast upplevelser som skapats med den valda mallen visas.
 
 Om vissa filteralternativ inte visas visar det att inga mallar i databasen matchar motsvarande metadatavillkor. Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 
 **Så här söker du efter innehåll som ska återanvändas**:
 
-1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Assets]**.
+1. I _[!DNL Content]_&#x200B;väljer du avsnittet **[!UICONTROL Assets]**.
 
 1. Välj en resurskatalog i listan **[!UICONTROL Location]** eller verifiera att du tittar på rätt resurskatalog. `GenStudio assets` är standarddatabas.
 
@@ -46,7 +46,7 @@ Om vissa filteralternativ inte visas visar det att inga mallar i databasen match
 
 1. Klicka på **[!UICONTROL Search]** (förstoringsglas) för att ange ett nyckelord eller en beskrivning.
 
-1. Begränsa sökningen genom att välja en kategori i listan _[!UICONTROL Filter]_. Om du till exempel söker efter en PNG-fil klickar du på&#x200B;**[!UICONTROL File format]**och väljer **PNG**.
+1. Begränsa sökningen genom att välja en kategori i listan _[!UICONTROL Filter]_. Om du till exempel söker efter en PNG-fil klickar du på&#x200B;**[!UICONTROL File format]**&#x200B;och väljer **PNG**.
 
    Ju mer du begränsar sökningen, desto färre filteralternativ är tillgängliga. Klicka på **[!UICONTROL Clear all]** om du vill ta bort alla filter.
 
@@ -58,7 +58,7 @@ Om vissa filteralternativ inte visas visar det att inga mallar i databasen match
 
 Som standard lagras resurser som du lägger till i [!DNL Content] genom [!DNL Create]-processen eller genom överföring i `GenStudio assets`-databasen. Databasen `GenStudio assets` är en läs- och skrivdatabas i GenStudio for Performance Marketing. Det innebär att du kan spara, redigera och ta bort resurser i databasen `GenStudio assets`.
 
-I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_till höger kan du välja mellan anslutna Adobe Experience Manager-databaser (AEM) [!DNL Assets Content Hub].
+I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_&#x200B;till höger kan du välja mellan anslutna Adobe Experience Manager-databaser (AEM) [!DNL Assets Content Hub].
 
 ![Platslista för databaser](/help/assets/content-location-selection.png "Välj en innehållsdatabas"){width="350"}
 
@@ -90,7 +90,7 @@ I följande tabell visas de hanteringsåtgärder som är tillgängliga för resu
 
 ### Lägga till resurser
 
-När du lägger till resurser i [!DNL Content] lagras de som standard i databasen `GenStudio assets`. Knappen _[!UICONTROL Add assets]_är bara tillgänglig när_[!UICONTROL Location]_ är `GenStudio assets`-databasen.
+När du lägger till resurser i [!DNL Content] lagras de som standard i databasen `GenStudio assets`. Knappen _[!UICONTROL Add assets]_&#x200B;är bara tillgänglig när&#x200B;_[!UICONTROL Location]_ är `GenStudio assets`-databasen.
 
 ![Platsfält](/help/assets/content-location.png "Platsfält"){width="350"}
 
@@ -130,7 +130,7 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 **Ta bort en resurs**:
 
-1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
 1. Klicka på **[!UICONTROL Delete]** (papperskorgen) i det övre högra hörnet i resursvyn.
 
@@ -155,7 +155,7 @@ Se [Aktivering](/help/user-guide/activation/overview.md).
 
 ## Redigera i Express
 
-Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
+Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_&#x200B;har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
 
 >[!BEGINSHADEBOX]
 

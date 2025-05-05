@@ -35,7 +35,7 @@ Kontrollpanelen [!DNL Insights] har en konfigurerbar tabell för varje innehåll
 
 ![[!DNL Insights] instrumentpanel](/help/assets/insights-dashboard.png)
 
-I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtrering och datumintervall. Du kan klicka på inställningsikonen (cog) ovanför den högra sidan av tabellen för att växla mellan olika kolumntyper. Raden _[!UICONTROL Summary]_kan visa summor eller medelvärden för en kolumn.
+I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtrering och datumintervall. Du kan klicka på inställningsikonen (cog) ovanför den högra sidan av tabellen för att växla mellan olika kolumntyper. Raden _[!UICONTROL Summary]_&#x200B;kan visa summor eller medelvärden för en kolumn.
 
 [!UICONTROL Ads], [!UICONTROL Media] och [!UICONTROL Attributes] innehåller en gallerivy där du kan skanna och sortera resurser med kort med en bild- eller videominiatyr. Det finns ett alternativ för att visa en av tre nyckelmått på varje kort: `Click-through rate`, `Cost per click` och `Spend`.
 
@@ -45,7 +45,7 @@ I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtre
 
 ### Annonser
 
-[[!DNL Insights] _[!UICONTROL Ads]_-vyn ](ads.md) fokuserar på att utvärdera effekten av en annons. I vyn [!UICONTROL Ads] kan du analysera en annons mått baserat på dess annonsplacering inom ett angivet datumintervall. Genom att klicka på en_[!UICONTROL Ad name]_ kan du visa annonsens prestandamått, prestanda per annonsplacering och attribut.
+[[!DNL Insights] _[!UICONTROL Ads]_-vyn ](ads.md) fokuserar på att utvärdera effekten av en annons. I vyn [!UICONTROL Ads] kan du analysera en annons mått baserat på dess annonsplacering inom ett angivet datumintervall. Genom att klicka på en&#x200B;_[!UICONTROL Ad name]_ kan du visa annonsens prestandamått, prestanda per annonsplacering och attribut.
 
 ### Media
 

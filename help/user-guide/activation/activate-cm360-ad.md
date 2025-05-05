@@ -13,7 +13,7 @@ ht-degree: 0%
 
 Adobe GenStudio for Performance Marketing gör det möjligt för GenStudio systemansvariga och redigerare att publicera annonser till Google Campaign Manager 360.
 
-Du kan initiera publicering av en annonsupplevelse i Google Campaign Manager 360 från antingen galleriet _[!DNL Content]_eller hemmet_[!DNL Activate]_.
+Du kan initiera publicering av en annonsupplevelse i Google Campaign Manager 360 från antingen galleriet _[!DNL Content]_&#x200B;eller hemmet&#x200B;_[!DNL Activate]_.
 
 ## Steg 1: Konfigurera dina Google Campaign Manager 360-konton
 
@@ -29,11 +29,11 @@ När synkroniseringen är klar kan du visa de tillagda kontona.
 
 ## Steg 3: Välj innehåll för din kreativitet
 
-Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
+Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från&#x200B;_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
 
 **Så här väljer du en upplevelse**:
 
-1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Activate]**. (Du kan också välja en upplevelse från_[!DNL Activate]_ genom att klicka på **[!UICONTROL New]** på produktkortet för Google Campaign Manager 360.)
+1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Activate]**. (Du kan också välja en upplevelse från&#x200B;_[!DNL Activate]_ genom att klicka på **[!UICONTROL New]** på produktkortet för Google Campaign Manager 360.)
 
    Google Campaign Manager 360 _Creative-installationssidan_ öppnas för den här upplevelsen. Den är förifylld med information, som du inte kan revidera, från den valda upplevelsen.
 
@@ -59,7 +59,7 @@ Klicka på **[!UICONTROL Next]** i det övre högra hörnet för att förhandsgr
 
 Sidan _Review_ ger dig möjlighet att visa din annonsupplevelse innan du publicerar.
 
-Om du aktiverade från _[!DNL Activate]_kan du klicka på&#x200B;**[!UICONTROL Edit section]**bredvid etiketten_ Creative setup _för att göra ändringarna. Du kan också klicka på&#x200B;**[!UICONTROL Back]**i det övre högra hörnet för att gå tillbaka till_ Creative-konfigurationssidan _. Du kan inte redigera upplevelseinnehåll.
+Om du aktiverade från _[!DNL Activate]_&#x200B;kan du klicka på&#x200B;**[!UICONTROL Edit section]**&#x200B;bredvid etiketten_ Creative setup _för att göra ändringarna. Du kan också klicka på&#x200B;**[!UICONTROL Back]**&#x200B;i det övre högra hörnet för att gå tillbaka till_ Creative-konfigurationssidan _. Du kan inte redigera upplevelseinnehåll.
 
 ## Steg 6: Slutför publiceringen av annonsupplevelsen
 
