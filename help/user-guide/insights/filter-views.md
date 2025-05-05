@@ -42,21 +42,21 @@ Vissa tabeller kan omfatta flera sidor, vilket anges under tabellen till höger.
 
 ### Bildstyrning
 
-Vissa filteralternativ innehåller en bildkontroll som gör att du kan välja ett värde inom ett definierat intervall. I _[!UICONTROL Attributes]_kan du till exempel använda skjutreglaget **[!UICONTROL Media count]**för att filtrera attribut baserat på antalet associerade bilder eller videoklipp. Dra skjutreglaget för att ange ett intervall, från minst 0 till maximalt 100.
+Vissa filteralternativ innehåller en bildkontroll som gör att du kan välja ett värde inom ett definierat intervall. I _[!UICONTROL Attributes]_&#x200B;kan du till exempel använda skjutreglaget **[!UICONTROL Media count]**&#x200B;för att filtrera attribut baserat på antalet associerade bilder eller videoklipp. Dra skjutreglaget för att ange ett intervall, från minst 0 till maximalt 100.
 
 ## Avancerad filtrering
 
-Med filtren _[!UICONTROL Campaigns]_och_[!UICONTROL Ads]_ kan du använda exakta nyckelord för att förfina listan. Nyckelordsfilter är särskilt användbara för filtreringskampanjer eller annonser som använder en komplex namnkonvention med flera unika identifierare. Ett kampanjnamn kan till exempel innehålla följande:
+Med filtren _[!UICONTROL Campaigns]_&#x200B;och&#x200B;_[!UICONTROL Ads]_ kan du använda exakta nyckelord för att förfina listan. Nyckelordsfilter är särskilt användbara för filtreringskampanjer eller annonser som använder en komplex namnkonvention med flera unika identifierare. Ett kampanjnamn kan till exempel innehålla följande:
 
 - Namn eller kod för den specifika regionen: `NA`, `EMEA`
 - Akronymer för innehållstyp: `EB`, `CHT` eller `DSP`
 - Erbjudandekoder eller akronymer: `OFFER2023`, `PROMO`
 
-Med tiden växer listan över kampanjer och annonser exponentiellt. Titta på följande scenario för att använda filtret _[!UICONTROL Campaigns]_för att förfina tabellen [!UICONTROL Ads].
+Med tiden växer listan över kampanjer och annonser exponentiellt. Titta på följande scenario för att använda filtret _[!UICONTROL Campaigns]_&#x200B;för att förfina tabellen [!UICONTROL Ads].
 
 **Så här förfinar du annonstabellen med Campaigns-filtret**:
 
-1. I _[!DNL Insights]_väljer du vyn **[!UICONTROL Ads]**.
+1. I _[!DNL Insights]_&#x200B;väljer du vyn **[!UICONTROL Ads]**.
 
    ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png "Lägger till vy med filterlista"){zoomable="yes"}
 
@@ -82,7 +82,7 @@ Med tiden växer listan över kampanjer och annonser exponentiellt. Titta på f�
 
    ![Lista över kampanjer](/help/assets/insights-select-campaigns-list.png "Välj kampanjer att inkludera")
 
-Dina valda kampanjer visas nu i listan _[!UICONTROL Filter by]_ovanför annonstabellen eller galleriet. Ni kan fokusera enbart på annonser som är kopplade till de valda kampanjerna. I det här exemplet innehåller de filtrerade resultaten 28 annonser, vilket ger en mer målinriktad vy för analys.
+Dina valda kampanjer visas nu i listan _[!UICONTROL Filter by]_&#x200B;ovanför annonstabellen eller galleriet. Ni kan fokusera enbart på annonser som är kopplade till de valda kampanjerna. I det här exemplet innehåller de filtrerade resultaten 28 annonser, vilket ger en mer målinriktad vy för analys.
 
 ![Tabell filtrerad efter kampanjer](/help/assets/insights-filter-by-campaigns.png "Tabell med kampanjfilter"){zoomable="yes"}
 
