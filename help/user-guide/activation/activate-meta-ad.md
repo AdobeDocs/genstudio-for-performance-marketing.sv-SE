@@ -62,7 +62,7 @@ Efter överföring sparas resurserna i _[!DNL Content]_. I området_ Media _visa
 
 **Så här överför du en resurs från innehåll**:
 
-_[!DNL Content]_ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
+_[!DNL Content]_&#x200B;ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
 1. Klicka på **[!UICONTROL New]** på panelen Meta Ads i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
 
@@ -76,7 +76,7 @@ Om överföringen misslyckas öppnas ett informativt felmeddelande som innehåll
 
 **Så här överför du en extern resurs**:
 
-Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_från antingen Microsoft OneDrive eller Dropbox.
+Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_&#x200B;från antingen Microsoft OneDrive eller Dropbox.
 
 1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Creative-inställningar _öppnas.
 

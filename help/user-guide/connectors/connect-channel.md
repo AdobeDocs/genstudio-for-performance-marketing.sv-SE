@@ -22,7 +22,7 @@ Ett _betalt mediekonto_ refererar till ett konto på en annonsplattform från tr
 
 1. Välj **[!UICONTROL Settings]** med kodikonen.
 
-1. I _[!UICONTROL Settings]_väljer du en anslutningstyp i avsnittet_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
+1. I _[!UICONTROL Settings]_&#x200B;väljer du en anslutningstyp i avsnittet&#x200B;_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
 
    Om det finns anslutna konton kan du klicka på _anslutna konton_ för att visa en lista med kontonamn, detaljer och status.
 

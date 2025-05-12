@@ -37,6 +37,6 @@ Koppla ditt Google Campaign Manager 360-konto till GenStudio for Performance Mar
 
 1. Läs villkoren och klicka på **[!UICONTROL Allow]** för att bevilja åtkomst.
 
-1. I vyn _[!UICONTROL Google Campaign Manager 360]_väljer du en eller flera annonsörer och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I vyn _[!UICONTROL Google Campaign Manager 360]_&#x200B;väljer du en eller flera annonsörer och klickar på&#x200B;**[!UICONTROL Select]**.
 
-I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**om du vill lägga till fler konton i listan.
+I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**&#x200B;om du vill lägga till fler konton i listan.
