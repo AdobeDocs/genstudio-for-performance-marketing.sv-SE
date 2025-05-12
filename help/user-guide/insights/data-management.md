@@ -6,7 +6,7 @@ level: Experienced
 role: Admin, Data Architect
 last-substantial-update: 2025-1-7
 exl-id: a5ab44d6-75c0-405b-82ad-9c65f6094bd6
-source-git-commit: 8e61fa5c08102c5dd9905e693d7f129105d9f633
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
 source-wordcount: '242'
 ht-degree: 0%
@@ -39,7 +39,7 @@ Var försiktig och ta inte bort följande dataanslutningar som krävs för att G
 - AEP-anslutningar: dataflöden prefix med `GS Insights`
 - AEP Connections: GS Insights-konto
 
-Se [Ta bort konsekvenser](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/deletion) i _Customer Journey Analytics_-handboken innan du tar bort några datakomponenter i AEP.
+Se [Ta bort konsekvenser](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) i _Customer Journey Analytics_-handboken innan du tar bort några datakomponenter i AEP.
 
 >[!ENDSHADEBOX]
 
@@ -47,4 +47,4 @@ Se [Ta bort konsekvenser](https://experienceleague.adobe.com/sv/docs/analytics-p
 
 GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagringspolicy omfattar sex månaders data som samlats in under den första anslutningen, vilket säkerställer en omfattande historisk dataanalys och rapportering.
 
-Se [Ansluta kanalannonskonto](/help/user-guide/connectors/connect-channel.md).
+Se [Anslut betalmediekonto](/help/user-guide/connectors/connect-channel.md).

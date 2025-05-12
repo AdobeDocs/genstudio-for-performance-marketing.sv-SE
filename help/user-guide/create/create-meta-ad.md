@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: a9da9ba1e93335896640e52837cc7226ec8e4bef
+source-git-commit: b24ec61c6c8b5e359364d23d0e152b3a5b72dacf
 workflow-type: tm+mt
 source-wordcount: '1073'
 ht-degree: 0%
@@ -148,4 +148,4 @@ Mer information finns i [[!DNL Content]](/help/user-guide/content/overview.md#se
 
 Du kan koppla GenStudio for Performance Marketing till Meta för att få avancerade analyser och insikter om innehållets prestanda.
 
-Se [Anslutning av Metaannonser](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Se [Anslutning av Metaannonser](/help/user-guide/connectors/meta-ads.md).

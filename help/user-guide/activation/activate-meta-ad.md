@@ -3,9 +3,9 @@ title: Aktivera en Meta-annons
 description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 19f36badd66a5dc90585b4399b87230847474a81
+source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1334'
 ht-degree: 0%
 
 ---
@@ -33,7 +33,7 @@ Du måste ha behörighet att publicera innehåll i Meta Ads Manager.
 
 Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadministratör ansluta dina Meta-konton till GenStudio for Performance Marketing. Tack vare den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocesser.
 
-Se [Anslut till ett Meta-konto (Facebook)](/help/user-guide/connectors/connect-channel.md#meta-ads-connect).
+Se [Ansluta till metaannonser](/help/user-guide/connectors/meta-ads.md).
 
 När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
 
@@ -62,7 +62,7 @@ Efter överföring sparas resurserna i _[!DNL Content]_. I området_ Media _visa
 
 **Så här överför du en resurs från innehåll**:
 
-_[!DNL Content]_&#x200B;ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
+_[!DNL Content]_ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
 1. Klicka på **[!UICONTROL New]** på panelen Meta Ads i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
 
@@ -76,7 +76,7 @@ Om överföringen misslyckas öppnas ett informativt felmeddelande som innehåll
 
 **Så här överför du en extern resurs**:
 
-Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_&#x200B;från antingen Microsoft OneDrive eller Dropbox.
+Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_från antingen Microsoft OneDrive eller Dropbox.
 
 1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Creative-inställningar _öppnas.
 
