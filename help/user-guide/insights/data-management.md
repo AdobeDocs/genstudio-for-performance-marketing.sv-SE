@@ -39,7 +39,7 @@ Var försiktig och ta inte bort följande dataanslutningar som krävs för att G
 - AEP-anslutningar: dataflöden prefix med `GS Insights`
 - AEP Connections: GS Insights-konto
 
-Se [Ta bort konsekvenser](https://experienceleague.adobe.com/en/docs/analytics-platform/using/technotes/deletion) i _Customer Journey Analytics_-handboken innan du tar bort några datakomponenter i AEP.
+Se [Ta bort konsekvenser](https://experienceleague.adobe.com/sv/docs/analytics-platform/using/technotes/deletion) i _Customer Journey Analytics_-handboken innan du tar bort några datakomponenter i AEP.
 
 >[!ENDSHADEBOX]
 
