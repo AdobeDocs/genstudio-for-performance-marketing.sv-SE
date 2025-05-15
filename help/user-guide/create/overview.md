@@ -4,9 +4,9 @@ description: Generera snabbt högpresterande varumärkesanpassat innehåll med g
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: 4eb45ec7e845847ebac86986924bbc39aaed42c0
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '712'
+source-wordcount: '709'
 ht-degree: 0%
 
 ---
@@ -35,68 +35,131 @@ Redigerare och systemhanterare har fullständig åtkomst till [!DNL Create]. Mer
 ## [!DNL Create] användningsfall
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Skapa nytt innehåll" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Skapa en e-postupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Skapa en Meta-annonsupplevelse" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> Skapa en annonsupplevelse i Meta </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Skapa en LinkedIn-annonsupplevelse" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong> Skapa en LinkedIn-annonsupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Skapa en webbannonsupplevelse" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> Skapa en upplevelse av webbannonsering </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Skapa en banderollupplevelse" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong> Skapa en banderollupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Skapa bilder" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong> Generera bilder </strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 Med GenStudio for Performance Marketing kan marknadsförare **skapa nytt marknadsföringsinnehåll**. I det här fallet använder du definierade [riktlinjer](/help/user-guide/guidelines/overview.md) och inspirationsbilder för att skapa varumärkesanpassat innehåll.
@@ -137,11 +200,11 @@ När du är klar med att generera innehållsvariationer skickar du dina utkast f
 
 ### Utkast
 
-I avsnittet _Senaste arbete_ i [!DNL Create] får du åtkomst till och hantera alla senaste utkast. Visa och slutför ditt tidigare arbete och gör det klart för publicering till [[!DNL Content]](/help/user-guide/content/overview.md) eller export för användning.
+I avsnittet _Senaste_ i [!DNL Create] kan du komma åt och hantera alla senaste utkast. Visa och slutför ditt tidigare arbete och gör det klart för publicering till [[!DNL Content]](/help/user-guide/content/overview.md) eller export för användning. Klicka på alternativikonen (tre punkter) för att ta bort ett utkast.
 
-Utkast som bearbetas sparas automatiskt. När du går tillbaka till hemmet [!DNL Create] uppdateras avsnittet _Senaste arbete_ med dina senaste utkast. Varje utkast i det här avsnittet visar en status, till exempel _Utkast_ eller _Godkänt_.
+Utkast sparas automatiskt och visas i avsnittet _Senaste_ på [!DNL Create]-sidan. Varje utkast i det här avsnittet visar en status, till exempel _Utkast_ eller _Godkänt_.
 
-Klicka på sorteringsikonerna (stödraster eller tabell) om du vill visa _Senaste arbete_ -objekt i antingen ett rutnät eller en tabellvy.
+Klicka på gallerivyikonen (rutnät) om du vill visa _Senaste_ objekt i antingen ett rutnät eller en tabellvy.
 
 ### Hantera varianter
 

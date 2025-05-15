@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 8d4442a3eb9aaf500b3a0a249031214337caf0ff
+source-git-commit: 09a8af603945686ad58e3edc6a5c77d79fdf2956
 workflow-type: tm+mt
-source-wordcount: '1457'
+source-wordcount: '1585'
 ht-degree: 0%
 
 ---
@@ -54,7 +54,7 @@ Du kan snabbt markera ett enskilt lager av en variant och göra ändringar, som 
 
 GenStudio for Performance Marketing har den inbyggda funktionaliteten för att återskapa avsnitt av genererade varianter. Du kan omformulera, korta ned eller förlänga text eller lägga till nya uppmaningar för att generera nytt innehåll.
 
-Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_&#x200B;innehållet i ett avsnitt, eller&#x200B;_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
+Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_innehållet i ett avsnitt, eller_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
 
 ![Generera om avsnitt](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -62,7 +62,7 @@ Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att 
 
 1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
 1. Om du vill ändra den befintliga texten väljer du _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_.
-1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_&#x200B;och anger en ny fråga.
+1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_och anger en ny fråga.
    1. Klicka på **[!UICONTROL Generate]**.
 1. När du genererar om texten i ett avsnitt klickar du på ikonen för att generera om (inringningspilar) för att se fler textalternativ.
 1. Välj önskat alternativ från de resultat som visas och klicka sedan på **[!UICONTROL Replace]**.
@@ -75,13 +75,13 @@ När du har genererat en uppsättning varianter kan du revidera call-to-action-t
 
 >[!NOTE]
 >
->Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_&#x200B;om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet&#x200B;_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
+>Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
 
 **Så här ändrar du CTA i en variant**:
 
 1. Klicka på en CTA-knapp i någon av varianterna.
 
-   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_.
+   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_.
 
 1. Klicka på **[!UICONTROL Rephrase]**.
 
@@ -177,6 +177,25 @@ På samma sätt som när du lägger till eller byter bilder i genererade variant
 
    Den definierade länken används för alla bilder i variantuppsättningen.
 
+## Lägg till alternativ text för bilder
+
+När du lägger till innehåll (bilder) under skapandeprocessen kan du definiera alternativ text för varje bild som tas med. Genom att lägga till alternativ text i bilder förbättras tillgängligheten, sökmotoroptimeringen och användarupplevelsen.
+
+Om du vill aktivera alternativ text-funktioner [lägger du till en platshållare för innehåll](/help/user-guide/content/customize-template.md#alternative-text) i mallen.
+
+**Så här lägger du till alternativ text i bilder i genererade varianter**:
+
+1. När du har genererat en uppsättning varianter klickar du på en bild i en enskild variant.
+1. Klicka på knappen **[!UICONTROL Alt text]** (ikon för bild och papper).
+1. Så här lägger du till alternativ text manuellt:
+   1. Klicka i textrutan och lägg till alternativ text.
+   1. Klicka på **[!UICONTROL Apply]**.
+1. Så här genererar du alternativ text för bilden:
+   1. Lämna textfältet tomt och klicka på **[!UICONTROL Generate]**.
+   1. Klicka på **[!UICONTROL Generate]** igen om du inte är nöjd med det ursprungliga resultatet.
+   1. Klicka på **[!UICONTROL Apply]**.
+1. Upprepa för varje bild i variantuppsättningen.
+
 ## Förhandsgranska för enhet
 
 När du granskar och förbereder e-postupplevelser kan du växla mellan förhandsgranskningar för datorer och mobila vyer för att säkerställa att utkastvarianterna är enhetliga och ser bra ut.
@@ -224,8 +243,8 @@ Feedback om kvaliteten på genererade varumärkesanpassade resurser kan lämnas 
    Det visas ett popup-fönster där du kan samla in mer information. Den genererade informationen och uppmaningsinformationen ingår i din feedback.
 
 1. Lägg till följande information i feedback-popup:
-   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_&#x200B;om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
-   1. I avsnittet _[!UICONTROL What worked well?]_&#x200B;eller&#x200B;_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
+   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
+   1. I avsnittet _[!UICONTROL What worked well?]_eller_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
    1. Lägg till annan användbar eller relaterad information i fältet _[!UICONTROL Notes]_.
 1. Klicka på **[!UICONTROL Submit]**.
 

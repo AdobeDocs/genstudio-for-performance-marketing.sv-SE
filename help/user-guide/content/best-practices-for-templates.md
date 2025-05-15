@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 5666fbf3bae23181232d806b12f520dbc8bc38cf
+source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
 workflow-type: tm+mt
-source-wordcount: '922'
+source-wordcount: '929'
 ht-degree: 0%
 
 ---
@@ -107,8 +107,9 @@ Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for
 **Proportioner som stöds**:
 
 - Fyrkant 1:1 (1 080 x 1 080 pixlar)
-- Lodrät 4:5 (1 080 x 1 350 pixlar)
+- Stående 4:5 (1 080 x 1 350 pixlar)
 - Artikel 9:16 (1 080 x 1 920 pixlar)
+- Liggande: 1,91:1 (1 080 pixlar bred)
 - Anpassad bildstorlek: (minsta bildbredd på 50 x 50 pixlar)
 
 **Identifierade fältnamn**:
@@ -137,17 +138,17 @@ Följ de här designmetoderna när du anpassar mallar för banners och displayan
 
 **Dimensioner som stöds**:
 
-- Lodrät: (pixlar)
+- Bredd x höjd (pixlar)
+- Lodrätt:
    - 300 x 600
    - 160 x 600 &#x200B;
-- Vågrät: (pixlar)
+- Vågrät:
    - 300 x 250
    - 728 x 90
    - 336 x 280
    - 320 x 50
    - 970 x 250 &#x200B;
-- Egen: (pixlar)
-   - 50 x 50 till 2 000 x 2 000
+- Anpassad: 50 x 50 till 2 000 x 2 000
 
 **Identifierade fältnamn**:
 

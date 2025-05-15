@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 0f296fe6ec92178498e2e0eeb3e190a194e46aa0
+source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
 workflow-type: tm+mt
-source-wordcount: '1403'
+source-wordcount: '1477'
 ht-degree: 0%
 
 ---
@@ -47,10 +47,10 @@ I följande tabell visas de fältnamn som GenStudio for Performance Marketing k�
 | `{{sub_headline}}` | Underrubrik | e-post<br>Banderoll och visningsannons |
 | `{{introductory_text}}` | Introduktionstext | LinkedIn och |
 | `{{body}}` | Body copy | e-post <br>Meta ad <br>Banner and Display ad |
-| `{{cta}}` | Anrop till åtgärd<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{cta}}` | Call to action<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
 | `{{image}}` | Bild - välj från [!DNL Content] | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
 | `{{on_image_text}}` | På bildtext <br>Se [Om bildtext](#on-image-text). | Meta ad <br>LinkedIn ad |
-| `{{link}}` | Anrop till åtgärd på bild<br>Se [Länka till bild](#link-on-image). | e-post |
+| `{{link}}` | Call to action på bild<br>Se [Länk på bild](#link-on-image). | e-post |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
 
@@ -73,7 +73,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -95,7 +95,7 @@ Använd följande vägledning för att konfigurera CTA-platshållare:
   <a class="button" href="{{pod1_link}}" >Register now</a>
   ```
 
-GenStudio for Performance Marketing kan även tillhandahålla olika uppmaningar att vidta åtgärder. Se [Ändra uppmaning](/help/user-guide/create/manage-variants.md#revise-call-to-action).
+GenStudio for Performance Marketing kan även tillhandahålla olika uppmaningar att vidta åtgärder. Se [Granska Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action).
 
 ### Länka till bild
 
@@ -110,6 +110,27 @@ I detta exempel:
 - `{{link}}` är en platshållare för den faktiska URL:en.
 - `src="image-source.jpg"` ska ersättas med den faktiska URL-adressen för bildkällan.
 - `{{imageDescription}}` är ett användardefinierat fältnamn som ger en platshållare för bildens alternativa text, vilket är användbart för hjälpmedel och SEO.
+
+### Alternativ text
+
+Använd ett användardefinierat fältnamn som platshållare för att generera en alternativ textbeskrivning (HTML `alt="text"`-attribut) för en bild. Följande `{{imageDescription}}`-platshållare används med fältet `{{image}}` i samma `<img>` -tagg, vilket säkerställer att relationen mellan bilden och beskrivningen kvarstår.
+
+```html
+<img src="{{image}}" alt="{{imageDescription}}">
+```
+
+I detta exempel:
+
+- `{{image}}` är platshållare för bildkällans URL.
+- `{{imageDescription}}` är platshållare för alt-texten, som innehåller en beskrivning av bilden för hjälpmedel och SEO.
+
+### På bildtext
+
+Platshållaren `{{ on_image_text }}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
+
+```html
+<div class="image-text">{{ on_image_text }}</div>
+```
 
 <!-- this field does not work in Create canvas 2025/03
 
@@ -151,22 +172,14 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 </tbody>
 ```
 
-## På bildtext
-
-Platshållaren `{{ on_image_text }}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
-
-```html
-<div class="image-text">{{ on_image_text }}</div>
-```
-
 ## Avsnitt eller grupper
 
 _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
 
-Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (`headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
+Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (till exempel `headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
 
-- _Korrigera_ (??): `pod1_body`
-- _Felaktigt_ ( ❌): `pod1_link`
+- _Korrigera_ (👍): `pod1_body`
+- _Felaktigt_ (❌): `pod1body`
 
 Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör till exempel avsnittet `pod1`:
 
@@ -177,9 +190,10 @@ Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör t
 
 På grund av den här regeln kan avsnitten inte kapslas.
 
-Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
 
 En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
+
 
 - `pre_header`
 - `pod1_headline`
@@ -192,7 +206,9 @@ En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre 
 
 GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
 
-Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande med flera avsnitt.
+>[!TIP]
+>
+>Se [Strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) om hur du skapar en prompt som genererar varierande innehåll för varje avsnitt i ett e-postmeddelande med flera avsnitt.
 
 ## Förhandsgranska mall
 

@@ -3,9 +3,9 @@ title: Hantera resurser och upplevelser
 description: Förenkla och förbättra hanteringen av varumärkesgodkända mediefiler för användning och återanvändning i er digitala marknadsföringsresa.
 feature: Content Management, Content Attributes
 exl-id: e2ce8797-6d3b-46d4-b12f-f5f80e26c669
-source-git-commit: 67a760051b513dfd2bd6e69c886598efd7142090
+source-git-commit: 1df977edbca284e67a5d28a6835bf5fc5608aa33
 workflow-type: tm+mt
-source-wordcount: '1336'
+source-wordcount: '1415'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Adobe GenStudio for Performance Marketing [!DNL Content] förenklar och förbät
 
 ## [!DNL Content]-galleri
 
-I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filtret (tratten) som växlar ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]**, där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_&#x200B;klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
+I galleriet visas en förteckning över godkända resurser, upplevelser eller mallar beroende på den valda vyn. Filtret (tratten) som växlar ovanför tabellens vänstra sida öppnar menyn **[!UICONTROL Filter]**, där du kan välja bland många kategorier för att filtrera innehållet som visas i galleriet. I vyn _[!UICONTROL Assets]_klickar du på sökningsikonen (förstoringsglas) för att använda ett nyckelord för att hitta en resurs.
 
 Följande visar en sökning på termen `space` i galleriet [!UICONTROL Assets]:
 
@@ -28,15 +28,15 @@ Filtrerings- och sökgränssnittet är snabbt och responsivt och ger en produkti
 
 Det finns filter som baseras på [riktlinjer](/help/user-guide/guidelines/overview.md), [nyckelord](asset-details.md#user-defined-metadata) och [attributkategorier](/help/user-guide/insights/attributes.md#categories) för att begränsa sökresultaten. Du kanske vill hitta en resurs av en viss filtyp eller ett visst ämne som hjälper dig att skapa en ny upplevelse av kampanjen. Du kan också filtrera innehåll baserat på ditt användarnamn eller namnet på en teammedlem:
 
-- **[!UICONTROL Uploaded by]**: begränsar listan _[!UICONTROL Assets]_&#x200B;så att endast resurser som du eller en viss person har överfört visas.
-- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Experiences]_&#x200B;så att endast de upplevelser som du eller en viss person har skapat visas.
-- **[!UICONTROL Template]**: begränsar listan _[!UICONTROL Experiences]_&#x200B;så att endast upplevelser som skapats med den valda mallen visas.
+- **[!UICONTROL Uploaded by]**: begränsar listan _[!UICONTROL Assets]_så att endast resurser som du eller en viss person har överfört visas.
+- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Experiences]_så att endast de upplevelser som du eller en viss person har skapat visas.
+- **[!UICONTROL Template]**: begränsar listan _[!UICONTROL Experiences]_så att endast upplevelser som skapats med den valda mallen visas.
 
 Om vissa filteralternativ inte visas visar det att inga mallar i databasen matchar motsvarande metadatavillkor. Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 
 **Så här söker du efter innehåll som ska återanvändas**:
 
-1. I _[!DNL Content]_&#x200B;väljer du avsnittet **[!UICONTROL Assets]**.
+1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Assets]**.
 
 1. Välj en resurskatalog i listan **[!UICONTROL Location]** eller verifiera att du tittar på rätt resurskatalog. `GenStudio assets` är standarddatabas.
 
@@ -46,7 +46,7 @@ Om vissa filteralternativ inte visas visar det att inga mallar i databasen match
 
 1. Klicka på **[!UICONTROL Search]** (förstoringsglas) för att ange ett nyckelord eller en beskrivning.
 
-1. Begränsa sökningen genom att välja en kategori i listan _[!UICONTROL Filter]_. Om du till exempel söker efter en PNG-fil klickar du på&#x200B;**[!UICONTROL File format]**&#x200B;och väljer **PNG**.
+1. Begränsa sökningen genom att välja en kategori i listan _[!UICONTROL Filter]_. Om du till exempel söker efter en PNG-fil klickar du på&#x200B;**[!UICONTROL File format]**och väljer **PNG**.
 
    Ju mer du begränsar sökningen, desto färre filteralternativ är tillgängliga. Klicka på **[!UICONTROL Clear all]** om du vill ta bort alla filter.
 
@@ -58,7 +58,7 @@ Om vissa filteralternativ inte visas visar det att inga mallar i databasen match
 
 Som standard lagras resurser som du lägger till i [!DNL Content] genom [!DNL Create]-processen eller genom överföring i `GenStudio assets`-databasen. Databasen `GenStudio assets` är en läs- och skrivdatabas i GenStudio for Performance Marketing. Det innebär att du kan spara, redigera och ta bort resurser i databasen `GenStudio assets`.
 
-I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_&#x200B;till höger kan du välja mellan anslutna Adobe Experience Manager-databaser (AEM) [!DNL Assets Content Hub].
+I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_till höger kan du välja mellan anslutna Adobe Experience Manager-databaser (AEM) [!DNL Assets Content Hub].
 
 ![Platslista för databaser](/help/assets/content-location-selection.png "Välj en innehållsdatabas"){width="350"}
 
@@ -83,14 +83,14 @@ I följande tabell visas de hanteringsåtgärder som är tillgängliga för resu
 | [Visa information](/help/user-guide/content/asset-details.md) | ✓ | ✓ | ✓ |
 | [Skapa upplevelse](/help/user-guide/create/overview.md) |        |             | ✓ |
 | [Redigera i Adobe Express](#edit-in-express) | ✓ |             |           |
-| [Exportera för aktivering](#export-for-activation) |        | ✓ |           |
+| [Exportera upplevelser](#export-experiences) |        | ✓ |           |
 | [Uppdatera](/help/user-guide/content/use-templates.md#refresh-template) |   |      | ✓ |
 | [Hämta](#download-assets) | ✓ |             | ✓ |
 | [Ta bort](#delete-assets) | ✓ | ✓ | ✓ |
 
 ### Lägga till resurser
 
-När du lägger till resurser i [!DNL Content] lagras de som standard i databasen `GenStudio assets`. Knappen _[!UICONTROL Add assets]_&#x200B;är bara tillgänglig när&#x200B;_[!UICONTROL Location]_ är `GenStudio assets`-databasen.
+När du lägger till resurser i [!DNL Content] lagras de som standard i databasen `GenStudio assets`. Knappen _[!UICONTROL Add assets]_är bara tillgänglig när_[!UICONTROL Location]_ är `GenStudio assets`-databasen.
 
 ![Platsfält](/help/assets/content-location.png "Platsfält"){width="350"}
 
@@ -130,32 +130,38 @@ När du lägger till resurser i [!DNL Content] lagras de som standard i database
 
 **Ta bort en resurs**:
 
-1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
 1. Klicka på **[!UICONTROL Delete]** (papperskorgen) i det övre högra hörnet i resursvyn.
 
 1. Verifiera resursen i popup-fönstret _Ta bort resurs_ och klicka på **[!UICONTROL Delete]**.
 
-## Export för aktivering
+## Exportera upplevelser
 
-Du kan exportera en godkänd upplevelse för aktivering i ett format som är kompatibelt med målkanalen.
+Du kan välja en eller flera godkända upplevelser för nedladdning i ett format som är kompatibelt med målkanalen. Den hämtade filen får ett namn med exportdatumet: `2025-06-15-export.zip`. När du packar upp filen finns det en mapp för varje kanaltyp som innehåller de exporterade resurserna i de format du valde. Varje exporterad resurs behåller sitt ursprungliga resursnamn som filnamn.
 
-**Så här exporterar du en upplevelse**:
+**Så här exporterar eller hämtar du upplevelser**:
 
-1. Välj en upplevelse i _[!DNL Content]_. Om du klickar på en upplevelse öppnas vyn med information eller så klickar du på snabbmenyn (`...`).
+1. Välj en eller flera upplevelser i _[!DNL Content]_.
 
-1. Klicka på **[!UICONTROL Export for activation]** (ruta med en pil som pekar ut).
+   En banderoll visas med antalet valda upplevelser till vänster och alternativen till [!UICONTROL Activate], [!UICONTROL Download] eller [!UICONTROL Delete] till höger.
 
-1. Välj ett av de tillgängliga formaten i popup-fönstret _Exportera för aktivering_:
+1. (Valfritt) Om du väljer att aktivera kan du bli ombedd att välja en plattform och sedan fortsätta med arbetsflödet för [!DNL Activate]. Se [Aktivera](/help/user-guide/activation/overview.md).
 
-   - E-post: `HTML`, `CSV`
+1. Klicka på **[!UICONTROL Download]**.
+
+1. Välj bland de tillgängliga formaten på popup-menyn _Hämta_.
+
+   Om du valde flera upplevelser från olika kanaler kan du välja format för varje kanaltyp.
+
+   - E-post, LinkedIn: `HTML`, `CSV`
    - Meta, Banner och Display ad: `HTML`, `JPEG`, `PNG`
 
-Se [Aktivering](/help/user-guide/activation/overview.md).
+   ![Hämta upplevelser](/help/assets/content-bulk-export.png "Hämta flera upplevelser"){width=350}
 
 ## Redigera i Express
 
-Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_&#x200B;har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
+Du kan redigera bildresurser (JPG eller PNG) direkt i GenStudio for Performance Marketing med Adobe Express. Arbetsytan i _[!UICONTROL Powered by Adobe Express]_har praktiska funktioner för att förbättra dina bilder utan att behöva lämna GenStudio-programmet. Du kan enkelt ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder.
 
 >[!BEGINSHADEBOX]
 

@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] är en omfattande samling varumärkesresurser - marknadsföringskopia, bilder, upplevelser med mera - som kan användas för att skapa varumärkesanpassat innehåll.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: ad2b5bd701daff83257249d18fc3f4d2292cd3a5
+source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
 workflow-type: tm+mt
-source-wordcount: '1531'
+source-wordcount: '1448'
 ht-degree: 0%
 
 ---
@@ -80,38 +80,13 @@ I följande tabell visas varje kanalavsnitt, de kanaler som den är tillgänglig
 | Beskrivning | LinkedIn | Beskrivande fraser som definierar tonkänslor | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare framgångsrika beskrivningar i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Behåll en användarvänlig och lättåtkomlig ton&quot; |
 | Brödtext | e-post, metadata, banderoll och displayannonser, LinkedIn | Marknadsföringsmaterial som innehåller meddelanden, länkar och bilder | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till en tidigare kopia i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Begränsa till 80-100 tecken&quot;, &quot;Undvik för stora akronymer&quot; |
 | Text direkt i bilden | Meta, LinkedIn | Specifik vägledning om ton, idealisk längd osv. för text som visas ovanpå bilder | Ge särskild vägledning (1-2 meningar) om ton, idealisk längd osv. Lägg till text som lyckades tidigare i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Fokusera för tillfället&quot; |
-| Call-to-action (CTA) | e-post, metadata, banderoll och displayannonser | (Call to Action) En instruktion som ges läsaren som inspirerar till ett svar. Vanligtvis ett eller två ord, till exempel `Get started` | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare lyckade CTA:er i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd inte slutinterpunktion&quot; |
+| Call-to-action (CTA) | e-post, metadata, banderoll och displayannonser | (Call to action) En instruktion som ges läsaren som inspirerar till ett svar. Vanligtvis ett eller två ord, till exempel `Get started` | Ge specifik vägledning (2-5 riktlinjer) om ton, idealisk längd osv. Lägg till tidigare lyckade CTA:er i avsnittet _Exempel_ för bättre kvalitet.<br>_Exempel_: &quot;Använd inte slutinterpunktion&quot; |
 
 #### Riktlinjer för standardkanal
 
 Följande riktlinjer för standardkanaler för [!DNL Brands] tillämpas per kanal, baserat på branschens bästa praxis och individuella plattformsspecifikationer.
 
 >[!BEGINTABS]
-
->[!TAB E-post]
-
-| Avsnitt | Standardstödlinje |
-|-----------|-------------------------------|
-| Ämne | Begränsa till 2 rader eller mindre |
-| Förrubrik | Begränsa till 2 rader eller mindre |
-| Headline | Begränsa till 8 ord eller mindre |
-| Brödtext | Begränsa till 3-4 rader |
-| CTA | Begränsa till 2 ord eller mindre |
-
->[!TAB Betald social]
-
-| Avsnitt | Standardstödlinje |
-|-----------|-------------------------------|
-| Headline | Begränsa till högst 40 tecken |
-| Brödtext | Begränsa till högst 125 tecken |
-
->[!TAB Visa annonser]
-
-| Avsnitt | Standardstödlinje |
-|-----------|-------------------------------|
-| Headline | Begränsa till 6 ord eller mindre |
-| Brödtext | Begränsa till 6 ord eller mindre |
-| CTA | Begränsa till 2 ord eller mindre |
 
 >[!TAB Meta]
 
