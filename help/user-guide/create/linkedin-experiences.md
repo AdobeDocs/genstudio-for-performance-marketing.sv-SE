@@ -6,9 +6,9 @@ badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Be
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 9d7d607b52c232612f5920fc4a6d4ccd8dff93c9
+source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
 workflow-type: tm+mt
-source-wordcount: '251'
+source-wordcount: '249'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,6 @@ Redigerbara delar av en LinkedIn-upplevelse är:
 * Beskrivning
 * Call to action (CTA)
 * Bild
-* Varumärkeslogotyp
 
 Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
 

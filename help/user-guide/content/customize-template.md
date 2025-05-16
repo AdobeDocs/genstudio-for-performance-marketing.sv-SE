@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: d0fd0bd2ac98149ec4d6449a7490d55cc48d9ae2
+source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
 workflow-type: tm+mt
 source-wordcount: '1477'
 ht-degree: 0%
@@ -30,10 +30,10 @@ GenStudio for Performance Marketing känner igen vissa [element](use-templates.m
 
 I en HTML-malls huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] för att infoga en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar platshållarna för innehåll baserat på det [identifierade _fältnamnet_](#recognized-field-names).
 
-Du kan till exempel använda `{{ headline }}` med syntaxen [!DNL Handlebars] för att ange var rubriken i e-postmeddelandet ska placeras. GenStudio känner igen det här fältet, genererar en rubrik baserad på dina riktlinjer och frågekriterier och infogar rubriken här:
+Du kan till exempel använda `{{headline}}` med syntaxen [!DNL Handlebars] för att ange var rubriken i e-postmeddelandet ska placeras. GenStudio känner igen det här fältet, genererar en rubrik baserad på dina riktlinjer och frågekriterier och infogar rubriken här:
 
 ```handlebars
-<div>{{ headline }}</div>
+<div>{{headline}}</div>
 ```
 
 ### Identifierade fältnamn
@@ -73,7 +73,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -126,10 +126,10 @@ I detta exempel:
 
 ### På bildtext
 
-Platshållaren `{{ on_image_text }}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
+Platshållaren `{{on_image_text}}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
 
 ```html
-<div class="image-text">{{ on_image_text }}</div>
+<div class="image-text">{{on_image_text}}</div>
 ```
 
 <!-- this field does not work in Create canvas 2025/03
@@ -166,7 +166,7 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 <tbody>
     <tr>
         <td>
-            <p><span class="footer-text">{{ footerLegal }}</span></p>
+            <p><span class="footer-text">{{footerLegal}}</span></p>
         </td>
     </tr>
 </tbody>
@@ -190,7 +190,7 @@ Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör t
 
 På grund av den här regeln kan avsnitten inte kapslas.
 
-Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
 
 En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
 
@@ -236,9 +236,9 @@ Ett annat exempel kan vara att förhindra att spårningskoder används när en m
 
 ```html
 <a class="button" {{#if _genStudio.browser }}
-   href="{{ link }}"{{/if}}{{#if _genStudio.export }}
-   href="{{ link }}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
-   target="_blank">{{ cta }}</a>
+   href="{{link}}"{{/if}}{{#if _genStudio.export }}
+   href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
+   target="_blank">{{cta}}</a>
 ```
 
 ## Statiskt innehåll
@@ -270,15 +270,15 @@ Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddela
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p><a href="{{ link }}">
-            <img alt="{{ headline }}"
-                    src="{{ image }}"
+            <h1>{{headline}}</h1>
+            <p><a href="{{link}}">
+            <img alt="{{headline}}"
+                    src="{{image}}"
                     width="600" height="600"
                     border="0"/></a></p>
-            <p>{{ body }}</p>
+            <p>{{body}}</p>
         </div>
     </body>
 </html>
@@ -315,22 +315,22 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
             }
         </style>
     </head>
-    <body>{{ pre_header }}
+    <body>{{pre_header}}
         <div class="container">
-            <h1>{{ headline }}</h1>
-            <p>{{ body }}</p>
+            <h1>{{headline}}</h1>
+            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
-                <h2>{{ pod1_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod1_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod1_body }}</p>
+                <h2>{{pod1_headline}}</h2>
+                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
-                <h2>{{ pod2_headline }}</h2>
-                <p><img alt="{{ headline }}" src="{{ pod2_image }}" width="200" height="200" border="0"></p>
-                <p>{{ pod2_body }}</p>
+                <h2>{{pod2_headline}}</h2>
+                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
         </div>
@@ -377,8 +377,8 @@ Följande är ett grundläggande exempel på en Meta-annonsmall. Huvudet innehå
     </head>
     <body>
         <div class="ad-container">
-            <img src="{{ image }}" alt="Ad Image" class="ad-image" />
-            <div class="ad-text">{{ on_image_text }}</div>
+            <img src="{{image}}" alt="Ad Image" class="ad-image" />
+            <div class="ad-text">{{on_image_text}}</div>
         </div>
     </body>
 </html>
