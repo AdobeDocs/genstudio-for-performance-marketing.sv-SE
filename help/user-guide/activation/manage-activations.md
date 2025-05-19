@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Hantera aktiveringar
 
-_[!DNL Activate]_erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
+_[!DNL Activate]_&#x200B;erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
 
-_[!DNL Activate]_organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
+_[!DNL Activate]_&#x200B;organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**&#x200B;i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
 
 ## Aktiverad upplevelsevy
 

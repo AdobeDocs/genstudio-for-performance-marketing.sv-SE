@@ -51,7 +51,7 @@ Du kan starta en aktivering på två sätt:
 
 * **Aktivera direkt från [!DNL Content]_**. Att välja en godkänd upplevelse med fördefinierade inställningar är det mest effektiva sättet att starta en aktivering i en enda kanal.
 
-* **Sammanställ din annonsupplevelse från [!DNL Activate] > _Upplevelsekonfiguration_**Du kan skapa en upplevelse genom att välja visuella resurser från_[!DNL Content]_, lägga till textelement och välja proportioner. Den här metoden har fler steg men ger större flexibilitet när du skapar en kreativ upplevelse.
+* **Sammanställ din annonsupplevelse från [!DNL Activate] > _Upplevelsekonfiguration_**&#x200B;Du kan skapa en upplevelse genom att välja visuella resurser från&#x200B;_[!DNL Content]_, lägga till textelement och välja proportioner. Den här metoden har fler steg men ger större flexibilitet när du skapar en kreativ upplevelse.
 
 ### Aktivera en godkänd upplevelse från innehåll
 
@@ -73,16 +73,16 @@ Om du har markerat mer än en upplevelse som ska aktiveras som en grupp använde
 
 ### Sammanställ upplevelsekomponenter
 
-Om du väljer att inte direkt aktivera en godkänd upplevelse från _[!DNL Content]_kan du välja resurser, tilldela proportioner och utkasttextelement.
+Om du väljer att inte direkt aktivera en godkänd upplevelse från _[!DNL Content]_&#x200B;kan du välja resurser, tilldela proportioner och utkasttextelement.
 
 **Så här förbereder du din upplevelse för aktivering**:
 
-1. Från _[!DNL Activate]_klickar du på&#x200B;**[!UICONTROL New]**på ikonen som representerar din valda betalda kanal. Vyn_ Experience Setup _öppnas.
+1. Från _[!DNL Activate]_&#x200B;klickar du på&#x200B;**[!UICONTROL New]**&#x200B;på ikonen som representerar din valda betalda kanal. Vyn_ Experience Setup _öppnas.
 
    Sidan _Experience setup_ är en central plats för att förbereda er annonsaktivering. Förbereda din annons innehåller följande tre uppgifter:
 
 1. Ge upplevelsen ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
-1. Välj medieresurser. Du kan använda resurser från _[!DNL Content]_eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
+1. Välj medieresurser. Du kan använda resurser från _[!DNL Content]_&#x200B;eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
 1. [Lägg till text](#add-ad-text).
 1. [Lägg till metadata](#assign-metadata).
 
@@ -96,7 +96,7 @@ Efter överföring sparas resurserna i _[!DNL Content]_. I området_ Media _visa
 
 **Så här överför du en resurs från innehåll**:
 
-_[!DNL Content]_ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
+_[!DNL Content]_&#x200B;ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
 1. Klicka på **[!UICONTROL New]** på kanalkortet från _[!DNL Activate]_. Vyn_ Experience Setup _öppnas.
 
@@ -110,7 +110,7 @@ Om överföringen inte lyckas visas ett informativt felmeddelande som innehålle
 
 **Så här överför du en extern resurs**:
 
-Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_från antingen Microsoft OneDrive eller Dropbox.
+Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_&#x200B;från antingen Microsoft OneDrive eller Dropbox.
 
 1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Experience Setup _öppnas.
 

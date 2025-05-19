@@ -14,7 +14,7 @@ ht-degree: 0%
 
 Med Adobe GenStudio for Performance Marketing kan GenStudio systemansvariga och redigerare publicera annonsupplevelser på Google Campaign Manager 360-plattformen.
 
-Du kan initiera publicering av en annonsupplevelse i Google Campaign Manager 360 från antingen galleriet _[!DNL Content]_eller hemmet_[!DNL Activate]_.
+Du kan initiera publicering av en annonsupplevelse i Google Campaign Manager 360 från antingen galleriet _[!DNL Content]_&#x200B;eller hemmet&#x200B;_[!DNL Activate]_.
 
 ## Steg 1: Konfigurera dina Google Campaign Manager 360-konton
 
@@ -30,11 +30,11 @@ När synkroniseringen är klar kan du visa de tillagda kontona.
 
 ## Steg 3: Välj innehåll för annonsupplevelsen
 
-Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
+Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från&#x200B;_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
 
 **Så här väljer du upplevelser**:
 
-1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Use]**. (Du kan också välja en upplevelse från_[!DNL Activate]_ genom att klicka på **[!UICONTROL New]** på produktkortet för Google Campaign Manager 360.)
+1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Use]**. (Du kan också välja en upplevelse från&#x200B;_[!DNL Activate]_ genom att klicka på **[!UICONTROL New]** på produktkortet för Google Campaign Manager 360.)
 
    Sidan _Experience Setup_ i Google Campaign Manager 360 öppnas. Den är förifylld med information om upplevelsen, som du inte kan revidera. Du kan behöva välja en plattform innan du fortsätter med aktiveringen.
 
