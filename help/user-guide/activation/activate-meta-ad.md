@@ -3,35 +3,43 @@ title: Aktivera en Meta-annons
 description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: f98a853965ce05420cd178c294b3b4d69500977b
+source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
 workflow-type: tm+mt
-source-wordcount: '1334'
+source-wordcount: '1642'
 ht-degree: 0%
 
 ---
 
 # Aktivera en Meta-annons
 
-Adobe GenStudio for Performance Marketing stöder aktivering av Meta-annonser, eller kreatörer, för Instagram och Facebook.
+Adobe GenStudio for Performance Marketing stöder aktivering av Meta-annonsupplevelser för Instagram och Facebook.
 
 Du kan [skapa en metaupplevelse](/help/user-guide/create/create-meta-ad.md) i GenStudio for Performance Marketing och välja den för aktivering, eller skapa en ny upplevelse från godkända resurser i [!DNL Activate].
 
-När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering till andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda din kreativitet utifrån annonsupplevelser för Metas specifika behov. När du har aktiverat en metaupplevelse, eller en kreativ upplevelse i GenStudio for Performance Marketing, använder du [Meta Ads Manager](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika Meta-annonsplaceringar före den slutliga publiceringen.
+När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering till andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda er annonsupplevelse för Metas specifika krav. När du har aktiverat en metaupplevelse i GenStudio for Performance Marketing använder du [Metaannonshanteraren](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika metaannonsplaceringar före den slutliga publiceringen.
+
+GenStudio systemansvariga och redaktörer kan aktivera annonsupplevelser.
 
 ## Steg 1: Konfigurera dina Meta-konton
 
-[Logga in på Meta](https://adsmanager.facebook.com/) för att komma åt ditt Meta Ads Manager-konto innan du startar en aktivering. Bekräfta att dina anslutna Meta-annonskonton innehåller:
+[Logga in på Meta](https://adsmanager.facebook.com/) för att komma åt ditt Meta Ads Manager-konto innan du startar en aktivering.
+
+>[!BEGINSHADEBOX]
+
+**Förutsättningar**:
+
+Bekräfta att dina anslutna Meta-annonskonton har fullständig behörighet att hantera annonser i de här komponenterna i Meta-annonsplattformen:
 
 * Facebook-sida
 * Meta-kampanj
 * Meta ad set
 * Instagramprofil (valfritt)
 
-Du måste ha behörighet att publicera innehåll i Meta Ads Manager.
+>[!ENDSHADEBOX]
 
 ## Steg 2: Anslut till dina Meta-konton
 
-Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadministratör ansluta dina Meta-konton till GenStudio for Performance Marketing. Tack vare den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocesser.
+Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadministratör ansluta dina Meta-konton till GenStudio for Performance Marketing. Med den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocessen.
 
 Se [Ansluta till metaannonser](/help/user-guide/connectors/meta-ads.md).
 
@@ -39,16 +47,42 @@ När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora män
 
 ## Steg 3: Förbered din upplevelse för aktivering
 
-GenStudio systemansvariga och redaktörer kan aktivera annonsupplevelser.
+Du kan starta en aktivering på två sätt:
+
+* **Aktivera direkt från [!DNL Content]_**. Att välja en godkänd upplevelse med fördefinierade inställningar är det mest effektiva sättet att starta en aktivering i en enda kanal.
+
+* **Sammanställ din annonsupplevelse från [!DNL Activate] > _Upplevelsekonfiguration_**Du kan skapa en upplevelse genom att välja visuella resurser från_[!DNL Content]_, lägga till textelement och välja proportioner. Den här metoden har fler steg men ger större flexibilitet när du skapar en kreativ upplevelse.
+
+### Aktivera en godkänd upplevelse från innehåll
+
+Ni kan välja mer än en upplevelse att aktivera till en enda betalkanal. Du kan behöva välja en plattform innan du fortsätter med aktiveringen.
+
+Om du har markerat mer än en upplevelse som ska aktiveras som en grupp använder du det vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
+
+1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Activate]**.
+
+   Sidan Metaannonser _Experience setup_ öppnas för den här upplevelsen. Den är förifylld med information från den valda upplevelsen. Du kan redigera fälten **[!UICONTROL Call-to-action]**, **[!UICONTROL Website URL]** och **[!UICONTROL Display link]**. Om du väljer mer än en upplevelse att aktivera, innehåller vyn _Upplevelsekonfiguration_ en vänster sidospalt som visar miniatyrbilder av alla valda upplevelser. Använd den här vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
+
+1. Välj en kampanj i listrutan **[!UICONTROL Campaigns]**.
+
+   Om du arbetar med flera upplevelser kan du växla mellan upplevelserna i det vänstra sidofältet tills du har färdigställt varje upplevelse.
+
+1. Klicka på **[!UICONTROL Next]** för att bekräfta dina inställningar för Meta-annonser.
+
+1. Ge varje upplevelse ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
+
+### Sammanställ upplevelsekomponenter
+
+Om du väljer att inte direkt aktivera en godkänd upplevelse från _[!DNL Content]_kan du välja resurser, tilldela proportioner och utkasttextelement.
 
 **Så här förbereder du din upplevelse för aktivering**:
 
-1. Klicka på **[!UICONTROL New]** på produktpanelen Meta i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
+1. Från _[!DNL Activate]_klickar du på&#x200B;**[!UICONTROL New]**på ikonen som representerar din valda betalda kanal. Vyn_ Experience Setup _öppnas.
 
-   På Creative installationssida finns en central plats där du kan förbereda aktiveringen av din Meta-annons. Förbereda din annons innehåller följande tre uppgifter:
+   Sidan _Experience setup_ är en central plats för att förbereda er annonsaktivering. Förbereda din annons innehåller följande tre uppgifter:
 
 1. Ge upplevelsen ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
-1. Välj medieresurser. Du kan använda resurser från Innehåll eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
+1. Välj medieresurser. Du kan använda resurser från _[!DNL Content]_eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
 1. [Lägg till text](#add-ad-text).
 1. [Lägg till metadata](#assign-metadata).
 
@@ -62,23 +96,23 @@ Efter överföring sparas resurserna i _[!DNL Content]_. I området_ Media _visa
 
 **Så här överför du en resurs från innehåll**:
 
-_[!DNL Content]_&#x200B;ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
+_[!DNL Content]_ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
-1. Klicka på **[!UICONTROL New]** på panelen Meta Ads i _[!DNL Activate]_._ Installationsvyn för Creative _öppnas.
+1. Klicka på **[!UICONTROL New]** på kanalkortet från _[!DNL Activate]_. Vyn_ Experience Setup _öppnas.
 
 1. Klicka på **[!UICONTROL Select]** och välj sedan **[!UICONTROL Select from Content]**. Vyn _Välj innehåll_ öppnas och ett galleri med bildresurser som du söker igenom eller filtrerar visas.
 
 1. Använd _[!DNL Content]_-galleriets sök- och filterverktyg för att välja minst en resurs som ska överföras.
 
-1. Klicka på **[!UICONTROL Use]** om du vill inkludera den valda resursen i din kreativitet. Fönstret _Creative-inställningar_ innehåller resursen i standardproportionen i området _Media_. Panelen _Förhandsvisa_ förhandsvisar resursen i annonsplaceringen som stöder den här proportionen.
+1. Klicka på **[!UICONTROL Use]** om du vill inkludera den valda resursen i annonsupplevelsen. Fönstret _Experience Setup_ innehåller resursen i standardproportionen i området _Media_. Panelen _Förhandsvisa_ förhandsvisar resursen i annonsplaceringen som stöder den här proportionen.
 
-Om överföringen misslyckas öppnas ett informativt felmeddelande som innehåller en länk till resursen i _[!DNL Content]_.
+Om överföringen inte lyckas visas ett informativt felmeddelande som innehåller en länk till resursen i _[!DNL Content]_.
 
 **Så här överför du en extern resurs**:
 
-Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_&#x200B;från antingen Microsoft OneDrive eller Dropbox.
+Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_från antingen Microsoft OneDrive eller Dropbox.
 
-1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Creative-inställningar _öppnas.
+1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Experience Setup _öppnas.
 
 1. Klicka på **[!UICONTROL Select]** i avsnittet _Media_. I en nedrullningsbar meny visas alternativ för att _välja från innehåll_ eller _överföra_.
 
@@ -94,7 +128,7 @@ Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content
 
 ### Lägga till text
 
-Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till övertygande, varumärkesanpassad text i obligatoriska textfält. Texten innehåller den primära (brödtexten) texten för annonsen och texten för uppmaning att ringa in.
+Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till övertygande, varumärkesanpassad text i obligatoriska textfält. Texten innehåller den primära (brödtexten) texten för annonsen och texten för uppmaning att ringa in. Du kan inte redigera fälten _Primär text_, _Rubriker_ och _Beskrivning_. Du kan redigera fälten _Call-to-action_, _Visningslänk_ och _URL-adress för webbplats_.
 
 | Fält | Obligatoriskt | Teckengräns (max) |
 |-----------------|---------------------------|---------------------------------|
@@ -124,11 +158,11 @@ Upplevelseinformation sparas som metadata och hjälp när användaren söker eft
 | Språk | Språk som annonsupplevelsen används för |
 | Nyckelord | Användardefinierade nyckelord som underlättar sökning och kategorisering av annonsupplevelsen |
 
-När du har monterat din kreativitet klickar du på **[!UICONTROL Next]** för att bekräfta Meta-konfigurationen.
+När du har sammanställt eller valt din upplevelse klickar du på **[!UICONTROL Next]** för att bekräfta metainställningen.
 
 ## Steg 4: Bekräfta konfigurationen av meta-kontot
 
-När du har förberett din kreativitet måste du bekräfta din Meta-kontoinformation och tilldela annonsfunktionen ett spårnings-ID. Vyn _Meta och konfiguration_ har fyllts i med alternativ som härleds från de konfigurerade Meta-kontona.
+När ni har förberett era annonsupplevelser måste ni bekräfta era Meta-kontouppgifter. Vyn _Meta och konfiguration_ har fyllts i med alternativ som härleds från de konfigurerade Meta-kontona.
 
 | Detalj | Beskrivning |
 |------------|-------------|
@@ -146,7 +180,7 @@ Klicka på **[!UICONTROL Next]** i det övre högra hörnet för att förhandsgr
 
 ## Steg 5: Förhandsgranska och aktivera annonsen
 
-På sidan _Granska_ visas din annonsupplevelse som den är sammansatt i _Creative-konfigurationen_ och du har en sista möjlighet att visa och redigera din upplevelse. Klicka på **[!UICONTROL Edit section]** bredvid etiketten _Creative-konfiguration_ för att göra ändringarna. Du kan också klicka på **[!UICONTROL Back]** i det övre högra hörnet för att gå tillbaka till _Creative-konfigurationssidan_.
+På sidan _Granska_ visas din annonsupplevelse som den är sammansatt i _Experience setup_ och du får en sista möjlighet att visa och redigera din upplevelse. Klicka på **[!UICONTROL Edit section]** bredvid etiketten _Experience setup_ för att göra ändringarna. Du kan också klicka på **[!UICONTROL Back]** i det övre högra hörnet för att gå tillbaka till sidan _Experience setup_ .
 
 ### Steg 6: Fullständig aktivering av annonsupplevelsen
 

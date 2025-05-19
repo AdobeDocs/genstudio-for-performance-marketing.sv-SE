@@ -3,18 +3,18 @@ title: Aktiveringsarbetsflöde
 description: Läs mer om aktiveringsarbetsflödet för annonsupplevelser.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: 09090a57a0f41c23e8787bfb267e74427d9b7356
+source-git-commit: 46453d7cf1901312001aa3b304be9d0832a46079
 workflow-type: tm+mt
-source-wordcount: '515'
+source-wordcount: '565'
 ht-degree: 0%
 
 ---
 
 # Aktiveringsarbetsflöde
 
-_[!DNL Activate]_&#x200B;har stöd för aktivering av annonsupplevelser i form av en kreativ i kanalspecifika format, som en Meta- eller Google Campaign Manager 360-annonsupplevelse.
+_[!DNL Activate]_har stöd för aktivering av annonsupplevelser i kanalspecifika format, som Meta eller Google Campaign Manager 360.
 
-En GenStudio for Performance Marketing-upplevelse är en marknadsföringskampanjkomponent, till exempel en annons, som förbereds som en kreativ produkt för en viss målgrupp på en betald annonskanal eller via e-post. Kreatörerna består av tre huvudkomponenter:
+En GenStudio for Performance Marketing-upplevelse är en marknadsföringskampanjkomponent, till exempel en annons, som förbereds som en annonsupplevelse till en viss målgrupp via en betald annonskanal eller ett e-postmeddelande. Upplevelser för aktivering innehåller tre huvudkomponenter:
 
 * **Medieresurser**: Medieresurser är de bilder (GIF, PNG, JPEG) som ingår i annonsupplevelsen. Aktiveringen stöder för närvarande statiska bilder.
 
@@ -30,17 +30,17 @@ Att skapa en aktivering innebär att förfina var och en av dessa annonskomponen
 
 Även om unika placeringskrav definierar varje betald kanal, har alla annonseringsaktiveringar samma högnivåsteg. Att aktivera en upplevelse för en betald kanal har tre kärnfaser:
 
-* **Anslut GenStudio for Performance Marketing till målkanalen**. En GenStudio-systemadministratör måste ansluta dina kanalkonton innan du kan aktivera en upplevelse.
+1. **Anslut GenStudio for Performance Marketing till målkanalen**. En GenStudio-systemadministratör måste ansluta dina kanalkonton innan du kan aktivera en upplevelse.
 
-* **Förbered för aktivering**. Förberedelsen innefattar att välja medieresurser i rätt proportioner för din specifika annonsplacering och att tilldela text till call-to-action-element och brödtext. Du kan också lägga till informativa metadata som gör det lättare för användare att söka efter upplevelsen efter aktiveringen. Varje annonskanalplacering anger giltiga proportioner för visuella resurser som ingår i placeringen.
+1. **Förbered för aktivering**. Ni kan förbereda upplevelserna för aktivering på två sätt:
 
-  >[!TIP]
-  >
-  >Du kan välja godkända annonsupplevelser direkt från _[!DNL Content]_&#x200B;Experience Gallery som ska förberedas som Google Campaign Manager 360-kreatörer. När du har valt en upplevelse i galleriet&#x200B;_[!DNL Content]_ kan du inte redigera eller lägga till resurser i din kreativitet.
+   * Aktivera en godkänd upplevelse med fördefinierade inställningar direkt från _[!DNL Content]_. Detta smidiga sätt att aktivera en eller flera annonsupplevelser i en enda kanal. När du har valt en upplevelse i galleriet_[!DNL Content]_ kan du inte redigera eller lägga till resurser i din annonsupplevelse. Aktivera från _[!DNL Content]_är tillgängligt för annonsupplevelserna Meta och Google Campaign Manager 360.
 
-* **Granska och publicera din upplevelse till målkanalen**. Använd panelen _Förhandsgranska_ under den kreativa konfigurationen för att utvärdera ditt val av annonsplacering och textelement innan du slutför aktiveringen. Den slutliga förhandsgranskningen görs i målkanalens annonshanteringsapp. När du till exempel har aktiverat en annonsupplevelse i Meta i GenStudio for Performance Marketing måste du logga in i Meta Ads Manager, granska din kreativitet och sedan välja specifika attribut innan du publicerar den.
+   * Sammanställ annonsupplevelsen genom att välja visuella resurser från _[!DNL Content]_, lägga till textelement och välja proportioner. Den här metoden omfattar fler steg men ger större kreativ flexibilitet. Förberedelsen innefattar att välja medieresurser i rätt proportioner för din specifika annonsplacering och att tilldela text till call-to-action-element och brödtext. Du kan lägga till informativa metadata som gör det lättare för användare att söka efter upplevelsen efter aktiveringen. Varje annonskanalplacering anger giltiga proportioner för visuella resurser som ingår i placeringen.
 
-När en kreatör väl har publicerat sin målbetalda mediekanal kan _[!DNL Insights]_&#x200B;spåra och analysera dess prestandadata.
+1. **Granska och publicera din upplevelse till målkanalen**. Använd panelen _Förhandsgranska_ under upplevelseinställningen för att utvärdera ditt val av annonsplacering och textelement innan du slutför aktiveringen. Den slutliga förhandsgranskningen görs i målkanalens annonshanteringsapp. När du till exempel har aktiverat en annonsupplevelse i Meta i GenStudio for Performance Marketing måste du logga in i Meta Ads Manager, granska annonsupplevelsen och sedan välja specifika attribut innan du publicerar den.
+
+När en annonsupplevelse finns i målmediekanalen kan _[!DNL Insights]_spåra och analysera dess prestandadata.
 
 ## Kanaler som stöds
 

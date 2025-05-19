@@ -3,7 +3,7 @@ title: Hantera aktiveringar
 description: Lär dig hantera aktiverade upplevelser med Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 9efa42bac9e5623ace963d0de19eeb24467b69d8
+source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Hantera aktiveringar
 
-_[!DNL Activate]_&#x200B;erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
+_[!DNL Activate]_erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
 
-_[!DNL Activate]_&#x200B;organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**&#x200B;i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
+_[!DNL Activate]_organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
 
 ## Aktiverad upplevelsevy
 
@@ -41,7 +41,7 @@ Klicka på en aktivering i vyn _Aktiverade upplevelser_. Den skrivskyddade vyn _
 
 * **Publiceringstid och publiceringsdatum**: Tid och datum för publicering från annonskanalhanteraren
 * **Annons-ID**: ID som tilldelats av den betalda kanalen och används för spårning. Klicka på knappen **[!UICONTROL Open]** bredvid det här fältet för att visa den publicerade annonsen i Meta Ads Manager
-* **Creative-information**: De valda bildresurserna, texterna och metadata som tilldelats under arbetsflödet för aktivering av GenStudio for Performance Marketing
+* **Upplevelseinformation**: De valda bildresurserna, texterna och metadata som tilldelats under GenStudio for Performance Marketing-aktiveringsarbetsflödet
 * **Kanalinställning**: De betalda kanalkonton som används för att aktivera annonsupplevelsen
 
 Vyn _Information_ för en misslyckad aktivering innehåller orsaken till felet.
