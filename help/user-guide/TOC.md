@@ -5,9 +5,9 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 94d7c028bfc73d114e7da3a3676730d5e7edab99
+source-git-commit: 8dbb4b44cacac952e3c1b25e19551cbee60107b2
 workflow-type: tm+mt
-source-wordcount: '220'
+source-wordcount: '217'
 ht-degree: 15%
 
 ---
@@ -72,10 +72,11 @@ ht-degree: 15%
 + Aktivera {#activation}
    + [Aktiveringsöversikt](activation/overview.md)
    + [Aktiveringsarbetsflöde](activation/create-activation.md)
-   + [Aktivera en Google Campaign Manager 360-annons](activation/activate-cm360-ad.md)
-   + [Aktivera en Meta-annons](activation/activate-meta-ad.md)
    + [Hantera aktiveringar](activation/manage-activations.md)
    + [Optimera aktiveringar](activation/troubleshooting.md)
+   + Betalda mediaannonser {#paid-media-ads}
+      + [Google Campaign Manager 360](activation/activate-cm360-ad.md)
+      + [Meta](activation/activate-meta-ad.md)
 + Insikter {#insights}
    + [Insikter - översikt](insights/overview.md)
    + [Insikter-filter](insights/filter-views.md)
