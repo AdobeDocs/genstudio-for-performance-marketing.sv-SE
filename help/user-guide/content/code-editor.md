@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 8a5d15df7a347c4ee7767610fc9bb23fc7b71db4
+source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
 workflow-type: tm+mt
-source-wordcount: '304'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Mallkodredigeraren är utformad för att hjälpa dig att verifiera och förfina 
 
 ## Kontrollera identifierade fält
 
-I rutan _[!UICONTROL Check detected fields]_&#x200B;visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
+I rutan _[!UICONTROL Check detected fields]_visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
 
 ![Vyn Kodredigeraren](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){width="600" zoomable="yes"}
 
@@ -34,4 +34,19 @@ Om det finns fel i mallen kan du se ett `Template is invalid`-meddelande med en 
 
 ![Korrigera ogiltig mall](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
-Panelen _[!UICONTROL Check detected fields]_&#x200B;uppdateras för att återspegla de ändringar du har gjort. När du är säker på att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**&#x200B;för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).
+Panelen _[!UICONTROL Check detected fields]_uppdateras för att återspegla de ändringar du har gjort. När du är säker på att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).
+
+## Vanliga mallproblem och lösningar
+
+| **Fel** | **Beskrivning** | **Lösning** |
+|-----------------------------|---------------------------------------------------------------------------------|-----------------------------------------------------------------------------------------------|
+| Det gick inte att analysera | Mallinnehållet kunde inte parsas som giltiga handtag. | Kontrollera om mallen innehåller syntaxfel för HTML och Handlebars och korrigera dem för att säkerställa giltig formatering för [innehållsplatshållare](/help/user-guide/content/customize-template.md#content-placeholders). |
+| Gruppen har inte tilldelats | Ett bildfält i en e-postmall för flera grupper tilldelas ingen grupp. | Kontrollera om avsnittsprefix används på ett konsekvent sätt. Varje [avsnitt](/help/user-guide/content/customize-template.md#sections-or-groups) kan bara använda en av varje fälttyp (`headline`, `body`, `image` `cta`). Tilldela fältet `image` till en giltig grupp i mallen. |
+| Bild saknas | Ett obligatoriskt bildfält saknas. | Exakt ett `image`-fält krävs för vissa malltyper, t.ex. en Meta-, display- eller banner-annons. Lägg till det obligatoriska `image`-fältet i mallen. |
+| Ogiltig enskild grupp | E-postmallen innehåller exakt en grupp, vilket är ogiltigt. | En grundläggande e-postmall innehåller en enda uppsättning mallelement som inte kräver gruppnamnkonventionen enligt definitionen i [Avsnitt eller grupper](/help/user-guide/content/customize-template.md#sections-or-groups). Justera mallen så att den har noll avsnitt genom att ta bort all gruppnamnssyntax. |
+| Inga fält | Mallen innehåller inga fält. | Lägg till [igenkända fältnamn](/help/user-guide/content/customize-template.md#recognized-field-names) med användarlistesyntaxen i mallen där du behöver GenStudio for Performance Marketing för att generera en viss typ av innehåll. |
+| Obligatoriska egenskaper saknas | Vissa nödvändiga metadataegenskaper saknas. | Varje malltyp har krav och begränsningar baserade på kanalriktlinjerna. Meta kräver till exempel proportioner och visningsannonser kräver dimensioner. [Följ kanalspecifika riktlinjer för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Reserverat namn används | Ett förbjudet eller reserverat fältnamn används. | Vissa [fältnamn ](/help/user-guide/content/customize-template.md#recognized-field-names), till exempel `subject` eller `introductory_text`, är reserverade. Byt namn på fält som använder reserverade eller förbjudna namn. |
+| För många fält | Antalet fält överskrider den globala gränsen på 20. | Ta bort onödiga fält för att säkerställa att summan inte överstiger 20. |
+| För många grupper | Antalet grupper överskrider kanalens högsta tillåtna antal. | Meta-, display- och LinkedIn-mallar tillåter inte flera avsnitt. E-post kräver gruppnamngivning när två eller tre avsnitt definieras. Minska antalet grupper i mallen för att uppfylla [kanalens krav](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines). |
+| Fältet stöds inte | Mallen använder ett fält som kanalen inte stöder. | Ersätt eller ta bort fält som inte stöds enligt de [identifierade fältnamnen](/help/user-guide/content/customize-template.md#recognized-field-names). |

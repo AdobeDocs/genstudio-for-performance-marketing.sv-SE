@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: f7913f4df1ae0f8d86bdaca778d102d21b0b6c3f
+source-git-commit: dc958a831e3fa26cfc18f7c1a5febd0662102d43
 workflow-type: tm+mt
-source-wordcount: '929'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -67,9 +67,9 @@ Följ de här designmetoderna när du anpassar e-postmallar för att arbeta med 
 
 **Begränsningar**:
 
-- Användning av [avsnitt](customize-template.md#sections-or-groups):
-   - En grundläggande mall (endast ett avsnitt) kan generera en enda uppsättning mallelement.
-   - En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement.
+- E-postmeddelanden om marknadsföring kan innehålla 0, 2 eller 3 [avsnitt](customize-template.md#sections-or-groups):
+   - En grundläggande mall (nollavsnitt) kan generera en enda uppsättning mallelement, vilket inte kräver gruppnamnkonventionen.
+   - En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement, vilket kräver att du följer gruppnamnkonventionen: (`groupname_fieldname`)
 - Det högsta tillåtna antalet fält i en mall är 20
 - Den största filstorleken för HTML är 102 kB
 
@@ -77,7 +77,7 @@ Följ de här designmetoderna när du anpassar e-postmallar för att arbeta med 
 
 För e-post inkluderas fältet `subject` automatiskt. Använd innehållsplatshållare för följande fält:
 
-- `pre_header`
+- `pre_header` (RTF är inte aktiverat)
 - `headline`
 - `sub_headline`
 - `body`
@@ -103,8 +103,11 @@ Följ de här designmetoderna när du anpassar metadatamallar för GenStudio for
 
 - Användning av [avsnitt](customize-template.md#sections-or-groups):
    - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+- Exakt ett bildfält krävs.
 
 **Proportioner som stöds**:
+
+Proportionerna måste anges:
 
 - Fyrkant 1:1 (1 080 x 1 080 pixlar)
 - Stående 4:5 (1 080 x 1 350 pixlar)
@@ -135,10 +138,11 @@ Följ de här designmetoderna när du anpassar mallar för banners och displayan
 
 - Användning av [avsnitt](customize-template.md#sections-or-groups):
    - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+- Exakt ett bildfält krävs.
 
 **Dimensioner som stöds**:
 
-- Bredd x höjd (pixlar)
+- Bredd x höjd (pixlar) måste anges
 - Lodrätt:
    - 300 x 600
    - 160 x 600 &#x200B;
@@ -171,6 +175,7 @@ Följ dessa designtips när du anpassar LinkedIn-annonsmallar så att de fungera
 
 - Användning av [avsnitt](customize-template.md#sections-or-groups):
    - Endast ett avsnitt kan användas, vilket genererar en enda uppsättning mallelement.
+- Exakt ett bildfält krävs.
 - Största bildstorlek på 5 MB
 - Max. rubrik 70 tecken
 - Max introduktionstext 150 tecken

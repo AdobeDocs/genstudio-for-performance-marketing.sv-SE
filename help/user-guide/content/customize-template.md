@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 04bb7adcc9ce7eaeca2ea1f3ef39882f8e43ff6d
+source-git-commit: f6c00f473d561cae123997ab3e310867fbdf60d1
 workflow-type: tm+mt
-source-wordcount: '1477'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,7 @@ När mallen är klar kan du [överföra den till GenStudio for Performance Marke
 
 GenStudio for Performance Marketing känner igen vissa [element](use-templates.md#template-elements) i en mall, men bara om du identifierar dem med ett [igenkänt fältnamn](#recognized-field-names).
 
-I en HTML-malls huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] för att infoga en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar platshållarna för innehåll baserat på det [identifierade _fältnamnet_](#recognized-field-names).
+I en HTML-malls huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] för att infoga en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar dessa platshållare baserat på det [identifierade _fältnamnet_](#recognized-field-names). Varje fältnamn är kopplat till särskilda regler och beteenden som bestämmer hur innehåll skapas och infogas i mallen.
 
 Du kan till exempel använda `{{headline}}` med syntaxen [!DNL Handlebars] för att ange var rubriken i e-postmeddelandet ska placeras. GenStudio känner igen det här fältet, genererar en rubrik baserad på dina riktlinjer och frågekriterier och infogar rubriken här:
 
@@ -38,7 +38,7 @@ Du kan till exempel använda `{{headline}}` med syntaxen [!DNL Handlebars] för 
 
 ### Identifierade fältnamn
 
-I följande tabell visas de fältnamn som GenStudio for Performance Marketing känner igen för att lägga till en platshållare i en mall. Lägg till de här fältnamnen med syntaxen [!DNL Handlebars] i mallen där du behöver GenStudio for Performance Marketing för att generera en viss typ av innehåll.
+I följande tabell visas de fältnamn som GenStudio for Performance Marketing känner igen för att lägga till en platshållare i en mall. Varje fält följer specifika riktlinjer för kanaler, instruktioner för programmet för livslångt lärande och rollbaserade regler. Lägg till de här fältnamnen med syntaxen [!DNL Handlebars] i mallen där du behöver GenStudio for Performance Marketing för att generera en viss typ av innehåll.
 
 | Fält | Roll | Kanalmall |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
@@ -73,7 +73,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -174,9 +174,12 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 
 ## Avsnitt eller grupper
 
-_Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
+Du kan använda avsnitt i en e-postmall för marknadsföring när du har två eller tre fältgrupper. _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
 
-Använd ett prefix som du väljer i fältnamnet för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (till exempel `headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
+
+Använd ett valfritt gruppnamn som prefix för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (till exempel `headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
+
+Syntax: `groupname_fieldname`
 
 - _Korrigera_ (👍): `pod1_body`
 - _Felaktigt_ (❌): `pod1body`
@@ -190,10 +193,9 @@ Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör t
 
 På grund av den här regeln kan avsnitten inte kapslas.
 
-Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/en/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
 
 En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
-
 
 - `pre_header`
 - `pod1_headline`
