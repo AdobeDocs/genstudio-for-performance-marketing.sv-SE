@@ -3,9 +3,9 @@ title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 29685c96353703705f3f742e88f3934644bc4282
+source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
 workflow-type: tm+mt
-source-wordcount: '698'
+source-wordcount: '689'
 ht-degree: 0%
 
 ---
@@ -23,7 +23,7 @@ GenStudio for Performance Marketing genomför varumärkesvalidering och andra in
 
 ## Sammanfattning av innehållskontroll
 
-En sammanfattning av varumärkesvalidering och annan information om innehållskontroll för varje genererad innehållsvariant finns tillgänglig via sammanfattningsikonen _Innehållskontroll_ för varje variant på arbetsytan.
+En sammanfattning av varumärkesvalidering och annan information om innehållskontroll för varje objekt med genererat innehåll kan nås via sammanfattningsikonen _Innehållskontroll_ för varje variant på arbetsytan.
 
 Sammanfattningen av _innehållskontrollen_ visar följande:
 
@@ -33,17 +33,17 @@ Sammanfattningen av _innehållskontrollen_ visar följande:
 
 ![Sammanfattning av innehållskontroll](/help/assets/content-check-summary.png){width="400" zoomable="yes"}
 
-Klicka på procentandelen för att se hur kompatibel varianten är. Poängen uppdateras automatiskt när du gör ändringar i varianterna. Du kan klicka på _Visa och åtgärda problem_ för att säkerställa ytterligare kompatibilitet.
+Klicka på procentandelen för att se hur kompatibel varianten är. Poängen uppdateras automatiskt när du redigerar varianterna eller annat innehåll. Du kan klicka på _Visa och åtgärda problem_ för att säkerställa ytterligare kompatibilitet.
 
 Se [Förbättra varumärkesjusteringen](#improve-brand-alignment).
 
 ## Panelen Innehållskontroll
 
-Panelen _Innehållskontroll_ öppnas på den högra sidan av arbetsytan när du klickar på den i det högra åtgärdsfältet _eller_ från sammanfattningsikonen [_Innehållskontroll_](#content-check-summary) för en variant. Panelen innehåller detaljerad varumärkesvalidering. riktlinjer för plattformen, information om tillgänglighetsstandarder och visar upp möjligheter till förbättring för varje avsnitt.
+Panelen _Innehållskontroll_ öppnas till höger om arbetsytan när du klickar på den i det högra åtgärdsfältet _eller_ från sammanfattningsikonen [_Innehållskontroll_](#content-check-summary) . Panelen innehåller detaljerad varumärkesvalidering, riktlinjer för plattformen och information om tillgänglighetsstandarder och visar på möjligheter till förbättringar.
 
 ![Panelen Innehållskontroll](/help/assets/content-check-panel.png){width="400" zoomable="yes"}
 
-På panelen _Innehållskontroll_ visas validering och [kompatibilitetsinformation](/help/user-guide/guidelines/overview.md#compliance) för varje avsnitt i varianten:
+På panelen _Innehållskontroll_ visas validering och [kompatibilitetsinformation](/help/user-guide/guidelines/overview.md#compliance) för bilder och variantavsnitt:
 
 * Representation av sammanfattningsinformation för _innehållskontrollen_ för [!DNL Brand], plattformsriktlinjer och tillgänglighetsstandarder
 * _Behöver granskas_ och visar antalet felaktiga riktlinjer och detaljerad information om varje riktlinje som behöver revideras
@@ -67,22 +67,21 @@ Om du vill maximera effekten av genererat innehåll och behålla en konsekvent v
 
 **Så här förbättrar du varumärkesjusteringen för genererade varianter**:
 
-1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att visa validering och tillgänglighetsinformation för en enskild variant.
+1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att visa validering och tillgänglighetsinformation.
 
-   Du kan se en sammanfattning av kontrollerna _Behöver granskas_ och _Godkänd_ för att se vilka avsnitt och riktlinjer som behöver förbättras.
+   Du kan se en sammanfattning av kontrollerna _Behöver granskas_ och _Godkänd_ för att se vad som behöver förbättras.
 
    >[!NOTE]
    >
    > Riktlinjen _Varumärkesröst_ som beskrivs på panelen _Innehållskontroll_ gäller för hela varianten, inte för ett enskilt avsnitt. Hela innehållsvarianten markeras för föreslagna förbättringar.
 
 1. Klicka för att korrigera riktlinjer som för närvarande inte är kompatibla.
-1. Klicka för att expandera och inspektera varje kontroll som behöver granskas i tillgängliga avsnitt som _Headline_ och _Brand voice_.
+1. Klicka för att expandera och inspektera varje kontroll som behöver granskas i tillgängliga avsnitt som _Headline_, _Color_ och _Brand voice_.
 
-   Använd de argument som ges för varje kontroll för att hjälpa dig att ändra varianterna.
+   Använd de argument som ges för varje kontroll för att hjälpa dig att ändra bilder och varianter.
 
 1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Recheck score]** för att kontrollera och validera dina ändringar och se till att de är mer i linje med din varumärkesidentitet, riktlinjer för plattformen och tillgänglighetsstandarder.
 
    Processen för innehållskontroll körs igen. Om de ändrade objekten godkänns i valideringen visas en grön banderoll längst ned på arbetsytan som bekräftar att poängen uppdaterades. Om det inte skett någon förändring efter en ny kontroll bekräftar banderollen att det inte skett någon ändring av poängen. Procentandelen i sammanfattningsikonen för _innehållskontroll_ för den ändrade varianten visar också förloppet.
 
 1. Fortsätt att granska avsnitt för att säkerställa att hela varianten klarar validerings- och tillgänglighetskontroller. Navigera genom varje variant med pilarna bredvid en enskild variant på arbetsytan.
-
