@@ -7,9 +7,9 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
-source-wordcount: '915'
+source-wordcount: '914'
 ht-degree: 0%
 
 ---
@@ -22,7 +22,7 @@ Innan du börjar generera en LinkedIn-annons är det viktigt att [lägga till ri
 
 ## Välj en mall
 
-Om du vill generera en ny LinkedIn-upplevelse behöver du en mall som anger ramverket för ditt innehåll. Mer information om LinkedIn-proportioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Om du vill generera en ny LinkedIn-upplevelse behöver du en mall som anger ramverket för ditt innehåll. Mer information om LinkedIn-proportioner som stöds finns i [LinkedIn-mallriktlinjer](/help/user-guide/templates/linkedin-template.md).
 
 **Så här väljer du en LinkedIn-mall**:
 

@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '285'
 ht-degree: 0%
@@ -20,7 +20,7 @@ Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/g
 
 När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
 
-GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/templates/meta-template.md).
 
 Redigerbara avsnitt i en e-postupplevelse omfattar:
 

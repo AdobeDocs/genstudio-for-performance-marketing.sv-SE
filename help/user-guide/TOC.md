@@ -5,10 +5,10 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 2745df9f67c1af4261bfdbf096b721e9bb97bc4b
+source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
 workflow-type: tm+mt
-source-wordcount: '221'
-ht-degree: 15%
+source-wordcount: '237'
+ht-degree: 14%
 
 ---
 
@@ -61,12 +61,18 @@ ht-degree: 15%
    + [Hantera resurser och upplevelser](content/manage-assets.md)
    + [Ansluta en AEM-databas](content/connect-aem-repo.md)
    + [Resursinformation](content/asset-details.md)
-   + Mallar {#templates}
-      + [Arbeta med mallar](content/use-templates.md)
-      + [Anpassa en mall](content/customize-template.md)
-      + [Mallkodredigerare](content/code-editor.md)
-      + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
-      + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
++ Mallar {#templates}
+   + [Arbeta med mallar](content/use-templates.md)
+   + [Startmallar](templates/starter-templates.md)
+   + [Anpassa en mall](content/customize-template.md)
+   + [Mallkodredigerare](content/code-editor.md)
+   + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
+   + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
+   + Bästa praxis för kanaler {#channel-best-practice}
+      + [Guiden Visa annonser](templates/display-template.md)
+      + [E-postguide](templates/email-template.md)
+      + [Guiden LinkedIn-annonser](templates/linkedin-template.md)
+      + [Guiden Metaannonser](templates/meta-template.md)
 + Kampanjer {#campaigns}
    + [Kampanjer - översikt](campaigns/overview.md)
    + [Skapa kampanjer](campaigns/create-campaign.md)

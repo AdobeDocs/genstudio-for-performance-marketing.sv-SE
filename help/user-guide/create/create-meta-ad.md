@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
 workflow-type: tm+mt
 source-wordcount: '1101'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Innan du börjar generera en annonsupplevelse med Meta är det viktigt att [inf�
 
 ## Välj en mall
 
-Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om vilka metadataproportioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om vilka metadata och proportioner som stöds finns i [Meta och mallriktlinjer](/help/user-guide/templates/meta-template.md).
 
 **Så här väljer du en mall för Meta-annons**:
 
