@@ -67,7 +67,7 @@ _Granskare_ kan lägga till kommentarer men inte godkänna innehåll. Deltagande
 
 GenStudio for Performance Marketing produktmeddelanden uppdaterar godkännare och innehållsredigerare i realtid om resursstatusändringar och `@mention` kommentarer. Aviseringar ger snabb redigering genom flera gransknings-, redigerings- och godkännandecykler.
 
-Redigerare och godkännare kan registrera sig för att få dessa meddelanden i Slack. Se [Prenumerera på tjänster i Experience Cloud](https://experienceleague.adobe.com/en/docs/core-services/interface/services/customer-attributes/subscription).
+Redigerare och godkännare kan registrera sig för att få dessa meddelanden i Slack. Se [Prenumerera på tjänster i Experience Cloud](https://experienceleague.adobe.com/sv/docs/core-services/interface/services/customer-attributes/subscription).
 
 Åtgärder som vidtas av godkännandedeltagare utlöser automatiska meddelanden i produkten och e-postmeddelanden. När du startar en godkännandeprocess får utsedda godkännare meddelanden både via e-post och i produkten. Du hålls kvar i slingan med meddelanden i produkten och e-post när en godkännare lägger till `@mention` kommentarer eller fattar ett beslut. Meddelanden innehåller länkar till innehållsutkastet.
 

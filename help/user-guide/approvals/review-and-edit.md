@@ -64,7 +64,7 @@ Den som skapar innehållet kan fortsätta att redigera samtidigt som han eller h
 
 ## Granska innehåll med Workfront Proof
 
-[!DNL Proofing Viewer] innehåller [stabila markeringsverktyg](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) för att kommentera korrektur och spåra ändringar. Du kan också jämföra två versioner av korrektur.
+[!DNL Proofing Viewer] innehåller [stabila markeringsverktyg](https://experienceleague.adobe.com/sv/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) för att kommentera korrektur och spåra ändringar. Du kan också jämföra två versioner av korrektur.
 
 **Så här granskar du innehåll**:
 
@@ -84,7 +84,7 @@ Den som skapar innehållet kan fortsätta att redigera samtidigt som han eller h
 
 ### Jämför korrektur
 
-Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Så här jämför du korrektur**:
 
@@ -94,4 +94,4 @@ Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://exper
 
    Korrektur visas sida vid sida, med den nyare versionen till vänster.
 
-I Workfront Proof finns flera verktyg för att jämföra korrektur, bland annat ett verktyg för automatisk jämförelse. Se [Använda jämförelseverktygen](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+I Workfront Proof finns flera verktyg för att jämföra korrektur, bland annat ett verktyg för automatisk jämförelse. Se [Använda jämförelseverktygen](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

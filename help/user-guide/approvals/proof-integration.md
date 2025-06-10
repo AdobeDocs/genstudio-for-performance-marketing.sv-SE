@@ -11,13 +11,13 @@ ht-degree: 0%
 
 # Workfront Proof-integrering med GenStudio for Performance Marketing
 
-Integrering med Workfront Proof förbättrar GenStudio for Performance Marketing livscykel för granskning och godkännande med avancerade funktioner, inklusive godkännandemallar, arbetsflöden i flera steg och möjligheten att [jämföra korrekturversioner](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Denna strukturerade versionshantering säkerställer transparens, spårbarhet och smidigt samarbete under hela granskningens livscykel.
+Integrering med Workfront Proof förbättrar GenStudio for Performance Marketing livscykel för granskning och godkännande med avancerade funktioner, inklusive godkännandemallar, arbetsflöden i flera steg och möjligheten att [jämföra korrekturversioner](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs). Denna strukturerade versionshantering säkerställer transparens, spårbarhet och smidigt samarbete under hela granskningens livscykel.
 
 >[!BEGINSHADEBOX]
 
 **Förutsättningar**:
 
-Installera [Adobe Workfront Web Viewer-tillägget](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
+Installera [Adobe Workfront Web Viewer-tillägget](https://experienceleague.adobe.com/sv/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/review-a-proof/review-proof-in-web-viewer-extension)
 
 >[!ENDSHADEBOX]
 
@@ -44,7 +44,7 @@ I tabellen nedan jämförs GenStudio for Performance Marketing standardfunktione
 
 ### Licenser och användarroller
 
-Licenser identifierar uppsättningen användarrättigheter i en produkt. Workfront Proof har fler licenstyper eller användarroller än GenStudio for Performance Marketing. [Proof roles overview](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introducerar användarroller som är kopplade till arbetsflödet för granskning och godkännande av Workfront Proof.
+Licenser identifierar uppsättningen användarrättigheter i en produkt. Workfront Proof har fler licenstyper eller användarroller än GenStudio for Performance Marketing. [Proof roles overview](https://experienceleague.adobe.com/sv/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles) introducerar användarroller som är kopplade till arbetsflödet för granskning och godkännande av Workfront Proof.
 
 | GenStudio for Performance Marketing-licens       | Workfront-licens                 | Beskrivning                                                                                                                                                      |
 |---------------------------------------------------|-----------------------------------|------------------------------------------------------------------------------------------------------------------------------------------------------------------|
@@ -56,7 +56,7 @@ Adobe systemadministratörer hanterar användaretablering och berättiganden fö
 
 >[!NOTE]
 >
-> Workfront Proof tillhandahåller [ytterligare användarroller](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Alla roller syns inte i Performance Marketing. Systemet uppfyller dock alla roller som anges i en Workfront Proof-mall.
+> Workfront Proof tillhandahåller [ytterligare användarroller](https://experienceleague.adobe.com/sv/docs/workfront/using/review-and-approve-work/proofing/proofing-overview/proof-roles). Alla roller syns inte i Performance Marketing. Systemet uppfyller dock alla roller som anges i en Workfront Proof-mall.
 
 ### Utkast och korrektur
 
@@ -78,9 +78,9 @@ Godkännandemallar har stöd för godkännanden i flera steg, vilket stöder sam
 
 Granskarna kan klicka direkt på specifika delar av korrekturet för att lämna exakta, kontextuella kommentarer. Alla kommentarer är tidsstämplade och sparade som en del av korrekturens versionshistorik. Kommentarshistorik är inte tillgänglig i GenStudio for Performance Marketing.
 
-Du kan [jämföra två versioner av ett korrektur](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) för att utvärdera granskningskommentarer och innehåll.
+Du kan [jämföra två versioner av ett korrektur](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs) för att utvärdera granskningskommentarer och innehåll.
 
 ## Meddelanden och påminnelser
 
 Granskare och godkännare får e-postmeddelanden när ett nytt korrektur finns tillgängligt för granskning eller när en pågående granskning har ändrat status.
-[Korrekturmeddelanden och påminnelser](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) innehåller en personlig länk till korrekturet, information om korrekturet och dess förlopp genom godkännandeprocessen samt versionsinformation.
+[Korrekturmeddelanden och påminnelser](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/proof-notifications-and-reminders/proof-notifications-and-reminders/proof-notifications-and-reminders) innehåller en personlig länk till korrekturet, information om korrekturet och dess förlopp genom godkännandeprocessen samt versionsinformation.
