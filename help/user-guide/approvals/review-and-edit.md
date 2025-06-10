@@ -3,57 +3,95 @@ title: Granska och redigera innehåll
 description: Lär dig granska och redigera innehåll iterativt med Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 8aa55fba08fa438ae2320c1159aa3c27877ee778
 workflow-type: tm+mt
-source-wordcount: '542'
+source-wordcount: '604'
 ht-degree: 0%
 
 ---
 
 # Granska och redigera innehåll
 
-Gransknings- och godkännandeprocesser som involverar flera granskare kan vara tidskrävande. Granskningscykeln, granskning av innehåll som svar på granskningskommentarer och granskning av ändrat innehåll igen kan upprepas många gånger.
-
-Adobe GenStudio for Performance Marketing generativa AI-funktioner snabbar upp dessa viktiga iterativa faser i processen för att skapa och granska innehåll. Den som skapar materialet kan besvara förfrågningar från granskarna genom att snabbt redigera utkast. Ju fler granskare och granskningsomgångar innehållsutvecklingen kräver, desto större är fördelarna med GenStudio for Performance Marketing.
+Gransknings- och godkännandefasen involverar ofta flera intressenter och iterativ feedback, vilket kan göra innehållsproduktionen långsammare. GenStudio for Performance Marketing effektiviserar denna process med generativ AI som snabbar upp granskningen av innehållet, vilket gör det möjligt för kreatörerna att snabbt reagera på feedback med hjälp av snabbredigering. Ju mer komplicerad granskningsprocessen är, desto större tidsbesparande blir fördelarna med GenStudio.
 
 ## Interaktiv redigering av utkast
 
-Innehållsredigerare kan göra pågående redigeringar av innehåll som svar på granskningskommentarer. När ett utkast håller på att revideras kan godkännarna fortsätta lägga till granskningskommentarer, men inte ändra resursstatus. Innehållsredigeraren kan fortsätta redigera innehåll på arbetsytan medan godkännarna fortsätter sina granskningar.
+Innehållsredigerare kan göra pågående redigeringar av innehåll som svar på granskningskommentarer. Medan ett utkast håller på att revideras kan godkännarna fortsätta lägga till granskningskommentarer, men inte ändra godkännandestatus. Innehållsredigeraren kan fortsätta redigera innehåll på arbetsytan medan godkännarna fortsätter sina granskningar.
+
+Om ändringarna är betydande kan du [begära en ny granskning](/help/user-guide/approvals/request-review.md#request-new-approval) från alla intressenter.
 
 ## Visa godkännandebegäranden
 
-Som utsedd godkännare kan du komma åt det innehåll som du ombeds granska och godkänna på flera sätt:
+Som utsedd godkännare kan du komma åt innehållet för granskning på flera sätt:
 
-* **Få åtkomst till utkastet för granskning direkt från utkastlänken i godkännandebegäran**. Klicka på länken Utkast i e-postmeddelandet om godkännandebegäran eller i produktmeddelandet.  Arbetsytan som visar resursen eller upplevelsen öppnas. Panelen _Godkännande_ visas till höger.
+* **Få åtkomst till utkastet för granskning direkt från utkastlänken i godkännandebegäran**. Klicka på länken Utkast i e-postmeddelandet om godkännandebegäran eller i produktmeddelandet. Arbetsytan öppnas och resursen eller upplevelsen visas. Panelen _Godkännande_ visas till höger.
 
 * **Öppna utkastet för granskning från listan över godkännandebegäranden**. Om du ombeds granska flera innehållsutkast innehåller ditt e-postmeddelande en **[!UICONTROL View all notifications]**-knapp. Klicka på den här knappen för att navigera till en sida som visar alla meddelanden som du har fått, inklusive godkännandebegäranden och meddelanden som du har aktiverat från andra Adobe Experience Cloud-produkter.
 
 ## Få åtkomst till innehåll för granskning
 
-Du kan godkänna innehåll om du har fått ett e-postmeddelande med en begäran om granskning och godkännande av en resurs eller upplevelse. Det här e-postmeddelandet innehåller en länk till utkastet som du har ombetts att granska. Den här URL:en är bara giltig när utkastet granskas.
+Du kan godkänna innehåll om du har fått ett e-postmeddelande med en begäran om granskning och godkännande av en resurs eller upplevelse. Det här e-postmeddelandet innehåller en länk till det skrivskyddade utkastet som du har ombetts att granska. Den här URL:en är bara giltig när utkastet granskas.
 
 **Så här granskar du innehåll**:
 
-1. Använd länken i meddelandet eller e-postmeddelandet som visas i produktionen för att navigera till innehållet som ska granskas. Arbetsytan öppnas.
+1. Använd länken i meddelandet eller e-postmeddelandet som visas i produktionen för att navigera till innehållet som ska granskas.
 
-1. Arbetsytan innehåller en **[!UICONTROL Review & Approve]**-knapp längst upp till höger. Klicka på den här knappen för att öppna panelen _Godkännanden_ för resursen.
+   Arbetsytan öppnas och innehållet visas för granskning.
+
+1. Klicka på knappen **[!UICONTROL Review & Approve]** uppe till höger.
+
+   Panelen _Godkännanden_ för den här resursen öppnas.
 
 ## Begär ändringar
 
-Du kan lista föreslagna ändringar eller ställa frågor om utkastet från panelen [!DNL Content] _Godkännande_. Utkaststatusen **Behöver arbete** meddelar innehållsskaparen att ändringar har begärts.
+Du kan visa föreslagna ändringar eller ställa frågor om utkastet på panelen _Godkännande_. Utkaststatusen **Behöver arbete** meddelar innehållsskaparen att ändringar har begärts.
 
-Den här granskningsprocessen, som föreslår ändringar av innehållsförfattaren, som sedan ändrar innehållet och eventuellt begär ytterligare indata via `@mention` kommentarer, är mycket iterativ. Det är i den här delen av cykeln som du ser GenStudio for Performance Marketing tidsbesparande funktioner.
+Den här granskningsprocessen, som föreslår ändringar av innehållsförfattaren, som sedan ändrar innehållet och eventuellt begär ytterligare indata via `@mention` kommentarer, är mycket iterativ.
 
 **Om du vill begära ändringar**:
 
 1. Ange utkaststatus till **Behöver arbete**.
-1. Ange kommentarer och rekommenderade ändringar i fältet **Kommentarer** och klicka på **[!UICONTROL Submit]**. Alla granskare och den som skapat innehållet kan se dessa kommentarer.
-1. Klicka på **[!UICONTROL Review & Approve]** och tilldela **Behöver arbete**. Detta utlöser e-post- och produktmeddelanden till innehållsskaparen.
+
+1. Ange kommentarer och rekommenderade ändringar i fältet **Kommentarer** och klicka på **[!UICONTROL Submit]**.
+
+   Alla granskare och den som skapat innehållet kan se dessa kommentarer.
+
+1. Klicka på **[!UICONTROL Review & Approve]** och tilldela **Behöver arbete**.
+
+   Detta utlöser e-post- och produktmeddelanden till innehållsskaparen.
 
 Den som skapar innehållet kan fortsätta att redigera samtidigt som han eller hon får och svarar på inkommande granskningskommentarer.
 
-## Hantera godkännanden
+## Granska innehåll med Workfront Proof
 
-Om du är innehållsskapare innehåller utkastet på arbetsytan knappen **[!UICONTROL Manage approvals]**. Använd den här knappen för att ta bort eller lägga till godkännare under gransknings- och godkännandeprocessen.
+[!DNL Proofing Viewer] innehåller [stabila markeringsverktyg](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) för att kommentera korrektur och spåra ändringar. Du kan också jämföra två versioner av korrektur.
 
-Se [Begär granskning och godkännande](./request-review.md).
+**Så här granskar du innehåll**:
+
+1. Klicka på gransknings-URL:en i ditt e-postmeddelande eller i produktmeddelandet.
+
+   GenStudio for Performance Marketing läser in vyn [!DNL Proofing Viewer] _Mitt nya godkännande_ som visar korrekturet för granskning.
+
+1. Klicka på **[!UICONTROL Add comment]** högst upp i visningsprogrammet.
+
+   Popup-fönstret _Lägg till kommentar_ öppnas.
+
+1. Ange en kommentar i fältet **[!UICONTROL Add comment]**.
+
+1. Klicka på **[!UICONTROL Post]**.
+
+   Den som skapar innehållet meddelas om dina kommentarer.
+
+### Jämför korrektur
+
+Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+
+**Så här jämför du korrektur**:
+
+1. Klicka på provets namn i det övre vänstra hörnet av [!DNL Proofing Viewer].
+
+1. Klicka på ikonen _Jämför_ bredvid en korrekturversion.
+
+   Korrektur visas sida vid sida, med den nyare versionen till vänster.
+
+I Workfront Proof finns flera verktyg för att jämföra korrektur, bland annat ett verktyg för automatisk jämförelse. Se [Använda jämförelseverktygen](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

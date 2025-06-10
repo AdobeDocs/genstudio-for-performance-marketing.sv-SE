@@ -3,18 +3,18 @@ title: Publicera godkänt innehåll
 description: Lär dig publicera godkänt innehåll med Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 2bb93815-8a7f-40db-a56a-2aefda40a2f4
-source-git-commit: bd8a077bf812761944eba1212843eff04a4943d1
+source-git-commit: 82a29250b1a054c91f144c4e9c431324c5e61afa
 workflow-type: tm+mt
-source-wordcount: '323'
+source-wordcount: '344'
 ht-degree: 0%
 
 ---
 
 # Publicera godkänt innehåll
 
-Det sista steget i att skapa varumärkesanpassat, godkänt innehåll är att spara det till [!DNL Content] med lämpliga metadata. Du (innehållsredigeraren, eller skaparen) kan slutföra den godkända resursen genom att publicera, eller spara den, i [!DNL Content].
+Det sista steget i att skapa varumärkesanpassat, godkänt innehåll är att spara det till [!DNL Content] med lämpliga metadata. Du (innehållsredigeraren eller skaparen) kan slutföra den godkända resursen genom att publicera den till [!DNL Content].
 
-När alla utsedda godkännare godkänner ett utkast ändras utkaststatusen till **Godkänd**. Adobe GenStudio for Performance Marketing visar de _godkända varianterna som är klara att publicera_ på arbetsytan i redigeraren.
+När alla utsedda godkännare godkänner ett utkast ändras utkastets status till **Godkänd**. Adobe GenStudio for Performance Marketing visar de _godkända varianterna som är klara att publicera_ på arbetsytan i redigeraren.
 
 Du kan sedan slutföra utkastet genom att publicera det på [!DNL Content] med lämpliga metadata. Det godkända utkastet är inte tillgängligt för andra GenStudio for Performance Marketing-användare förrän du publicerar utkastet till [!DNL Content].
 
@@ -34,9 +34,11 @@ Du kan sedan slutföra utkastet genom att publicera det på [!DNL Content] med l
 
 ## Efter publicering
 
-Alla GenStudio for Performance Marketing-användare har åtkomst till godkända resurser eller upplevelser i [!DNL Content]. Panelen Resursinformation identifierar resursens överförings- och godkännandehistorik. Dessa attribut identifierar sparat innehåll:
+Alla GenStudio for Performance Marketing-användare har åtkomst till godkända resurser eller upplevelser i [!DNL Content]. Panelen _Resursinformation_ identifierar resursens överförings- och godkännandehistorik. Dessa attribut identifierar sparat innehåll:
 
 * **[!UICONTROL Created by]**: Identifierar den GenStudio-användare som överförde resursen eller upplevelsen.
 * **[!UICONTROL Approval History]**: Identifierar datum och tid för godkännande och godkännaren.
 
 Utkast-URL:er är ogiltiga efter att en utkastresurs eller -upplevelse har sparats i [!DNL Content].
+
+Om du har aktiverat integreringen med Workfront Proof sparas korrekturkommentarer och versioner efter att resursen eller upplevelsen har publicerats.

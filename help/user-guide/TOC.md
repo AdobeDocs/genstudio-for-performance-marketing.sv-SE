@@ -5,9 +5,9 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 7ac97f040917ee737cd29ba8f5c7d8c72a75e577
+source-git-commit: ecb6a410e26339ca295dad10e0c8dda2d73ae5a4
 workflow-type: tm+mt
-source-wordcount: '237'
+source-wordcount: '238'
 ht-degree: 14%
 
 ---
@@ -52,7 +52,8 @@ ht-degree: 14%
    + [Generera en bild](create/generate-assets.md)
 + Recensioner och godkännanden {#approve}
    + [Översikt över granskning och godkännande](approvals/overview.md)
-   + [Begär granskning och godkännande av innehåll](approvals/request-review.md)
+   + [Integrering med Workfront Proof](approvals/proof-integration.md)
+   + [Begär granskning och godkännande](approvals/request-review.md)
    + [Granska och redigera innehåll](approvals/review-and-edit.md)
    + [Godkänn innehåll](approvals/approve-content.md)
    + [Publicera godkänt innehåll](approvals/publish-content.md)
