@@ -27,7 +27,7 @@ Alla betalkonton för mediekanaler måste vara anslutna till GenStudio for Perfo
 
 * [Skapa en aktivering](create-activation.md). Du kan skapa en annonsupplevelse genom att välja visuella resurser, tilldela text och definiera metadata innan du går till en betalkanal.
 
-* [Hantera aktiveringar](manage-activations.md). _[!DNL Activate]_ger en översikt över alla aktiverade upplevelser. Du kan även visa information om enskilda aktiveringar.
+* [Hantera aktiveringar](manage-activations.md). _[!DNL Activate]_&#x200B;ger en översikt över alla aktiverade upplevelser. Du kan även visa information om enskilda aktiveringar.
 
 ## Aktivera funktioner
 

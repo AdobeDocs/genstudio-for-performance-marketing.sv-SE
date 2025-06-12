@@ -89,7 +89,7 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
 
      ![Varumärkesfärger](/help/assets/colors.png){width="600" zoomable="yes"}
 
-Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_för att gå tillbaka till startsidan för_[!UICONTROL Brands]_.
+Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_&#x200B;för att gå tillbaka till startsidan för&#x200B;_[!UICONTROL Brands]_.
 
 Du behöver inte [publicera](#publish-brand) din [!DNL Brand] för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i din organisation ska kunna använda informationen [!DNL Brand] i GenStudio for Performance Marketing måste du publicera den. En skapad [!DNL Brand] är i utkastform tills den publiceras.
 
@@ -112,7 +112,7 @@ Du kan välja en befintlig [!DNL Brand]-logotyp i [!UICONTROL Logos]-flikvyn fö
 
 Innan du publicerar ett [!DNL Brand]-utkast ska du klicka igenom alla riktlinjer-avsnitt för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
 
-I _[!DNL Brands]_visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
+I _[!DNL Brands]_&#x200B;visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
 
 >[!TIP]
 >
@@ -138,7 +138,7 @@ Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guid
 
 ### Hantera varumärken
 
-I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
+I startsidan för _[!DNL Brands]_&#x200B;kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
 
 Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet och klickar för att öppna ett befintligt varumärke.
 
@@ -223,7 +223,7 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
 ### Hantera [!DNL Personas]
 
-I startsidan för _[!DNL Personas]_kan du **öppna en redan skapad[!DNL Persona]**för att redigera eller granska den, eller **ta bort en person**från listan:
+I startsidan för _[!DNL Personas]_&#x200B;kan du **öppna en redan skapad[!DNL Persona]**&#x200B;för att redigera eller granska den, eller **ta bort en person**&#x200B;från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Personas] om du vill granska en befintlig profil.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Personas] om du vill **ta bort** en profil.
@@ -291,7 +291,7 @@ Du kan lägga till produktinformation manuellt, i stället för att överföra b
 
 ### Hantera [!DNL Products]
 
-I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]**för att redigera eller granska den, eller **ta bort en produkt**från listan:
+I startsidan för _[!DNL Products]_&#x200B;kan du **öppna en redan skapad[!DNL Product]**&#x200B;för att redigera eller granska den, eller **ta bort en produkt**&#x200B;från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Products] om du vill granska och granska en befintlig produkt.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Products] om du vill **ta bort** en produkt.
