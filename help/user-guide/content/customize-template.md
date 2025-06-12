@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 4a82431c0f6a0f2f16c80160a46241dfa702195b
+source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
 workflow-type: tm+mt
-source-wordcount: '1391'
+source-wordcount: '1610'
 ht-degree: 0%
 
 ---
@@ -26,7 +26,7 @@ När mallen är klar kan du [överföra den till GenStudio for Performance Marke
 
 ## Platshållare för innehåll
 
-GenStudio for Performance Marketing känner igen vissa [element](use-templates.md#template-elements) i en mall, men bara om du identifierar dem med ett [igenkänt fältnamn](#recognized-field-names).
+GenStudio for Performance Marketing känner igen vissa typer av innehåll eller [element](use-templates.md#template-elements) i en mall, men bara om du identifierar dem med ett [igenkänt fältnamn](#recognized-field-names).
 
 I en HTML-malls huvud eller brödtext kan du använda syntaxen [!DNL Handlebars] för att infoga en innehållsplatshållare där du kräver att GenStudio for Performance Marketing ska fylla i mallen med faktiskt innehåll. GenStudio for Performance Marketing känner igen och tolkar dessa platshållare baserat på det [identifierade _fältnamnet_](#recognized-field-names). Varje fältnamn är kopplat till särskilda regler och beteenden som bestämmer hur innehåll skapas och infogas i mallen.
 
@@ -73,7 +73,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -124,6 +124,14 @@ I detta exempel:
 - `{{image}}` är platshållare för bildkällans URL.
 - `{{imageDescription}}` är platshållare för alt-texten, som innehåller en beskrivning av bilden för hjälpmedel och SEO.
 
+### Hjälpmedelsetikett
+
+Attributet `aria-label` används för att definiera ett tillgängligt namn för element som inte har synliga etiketter. Det här attributet är särskilt användbart i mallar där det är viktigt att ange kontext för interaktiva element, t.ex. en CTA-knapp.
+
+```html
+<a class="button" href="{{link}}" aria-label="{{CTAAriaLabel}}">{{cta}}</a>
+```
+
 ### På bildtext
 
 Platshållaren `{{on_image_text}}` används för att ange en textövertäckning med korta, effektfulla meddelanden som placeras direkt i bilden.
@@ -172,9 +180,38 @@ Om du vill skapa ett redigerbart avsnitt lägger du till dubbla hakparenteser ru
 </tbody>
 ```
 
+### Redigera avancerad text
+
+Förbättra ditt kreativa innehåll under [!DNL Create]-processen med avancerad textredigering. Arbetsytan avgör möjligheten till formaterad text baserat på platsen för innehållsplatshållaren. RTF-funktioner är bara tillgängliga när du använder platshållare för innehåll som fristående element eller inom HTML-taggar på blocknivå, som `<p>`, `<div>` eller `<span>`.
+
+RTF-redigering är tillgängligt för fristående innehåll i ett stycke:
+
+```html
+<p>{{body}}</p>
+```
+
+Om du använder en innehållsplatshållare inuti ett HTML-attribut (till exempel `alt`, `href` eller `src`) stöds inte RTF-redigering för det fältet.
+
+RTF-redigering är **inte** tillgängligt för `alt`-innehåll:
+
+```html
+<img src="image.jpg" alt="{{image_description}}">
+```
+
+Om ett fält visas mer än en gång bestäms RTF-funktionen utifrån om det används som ett HTML-attribut i någon av förekomsterna. Om du t.ex. använder rubriken som rubrik och alternativ text för en bild har taggen `alt` företräde.
+
+RTF-redigering är **inte** tillgängligt för `headline` eftersom den används som `alt`-innehåll:
+
+```html
+<h1>{{headline}}</h1>
+<img src="image.jpg" alt="{{headline}}">
+```
+
+RTF-redigering kan vara tillgängligt för vissa fält i specifika kanaler, som `on_image_text` i sociala kanaler (Meta, LinkedIn).
+
 ## Avsnitt eller grupper
 
-Du kan använda avsnitt i en e-postmall för marknadsföring när du har två eller tre fältgrupper. _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
+Om din e-postmall kräver flera innehållsområden, t.ex. flera erbjudanden eller artiklar, kan du ordna dessa med hjälp av avsnitt eller grupper. _Avsnitt_ informerar GenStudio for Performance Marketing om att fälten i det här avsnittet kräver hög grad av konsekvens. Genom att etablera relationen kan AI generera innehåll som matchar de kreativa elementen i avsnittet.
 
 Använd ett valfritt gruppnamn som prefix för att ange att ett fält är en del av ett avsnitt eller en grupp. Använd ett fältnamn (till exempel `headline`, `body`, `image` eller `cta`) efter understrecket (`_`).
 
@@ -192,7 +229,7 @@ Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör t
 
 På grund av den här regeln kan avsnitten inte kapslas.
 
-Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](https://experienceleague.adobe.com/sv/docs/genstudio-for-performance-marketing/user-guide/content/templates/best-practices-for-templates#follow-channel-specific-template-guidelines) i avsnittet _Bästa metoder för att använda mallar_.
+Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](/help/user-guide/content/best-practices-for-templates.md) i avsnittet _Bästa metoder för att använda mallar_.
 
 En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
 

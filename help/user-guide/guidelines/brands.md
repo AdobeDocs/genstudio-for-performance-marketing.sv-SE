@@ -3,9 +3,9 @@ title: GenStudio for Performance Marketing [!DNL Brands]
 description: GenStudio for Performance Marketing [!DNL Brands] är en omfattande samling varumärkesresurser - marknadsföringskopia, bilder, upplevelser med mera - som kan användas för att skapa varumärkesanpassat innehåll.
 feature: Brand Personalization, Variant Generation, Generative AI
 exl-id: 34cd40d5-8851-48c2-8bf3-5a07eea05013
-source-git-commit: f49a2bd241f98dda23f6612f8c699ec49d222a12
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1448'
+source-wordcount: '1493'
 ht-degree: 0%
 
 ---
@@ -28,9 +28,13 @@ Publicerade varumärken kan redigeras (ändringarna är omedelbart tillgängliga
 
 Borttagen [!DNL Brands] arkiveras i 30 dagar och kan återställas inom den perioden.
 
-## Riktlinjer för [!DNL Brands]
+## Riktlinjer för varumärken
 
 Riktlinjerna ger GenStudio for Performance Marketing en tydlig bild av er varumärkesspecifika strategi, ton, visuella känsla med mera.
+
+>[!NOTE]
+>
+>Om du överför riktlinjer för varumärken skrivna på ett icke-engelskt språk - eller skapar ett varumärke manuellt med ett icke-engelskt språk - visar GenStudio for Performance Marketing dessa riktlinjer på samma språk.
 
 Vissa kanalriktlinjer, som hämtats från [plattformsriktlinjer och ADA-tillgänglighetsstandarder](/help/user-guide/guidelines/overview.md#compliance), fylls i som standardvärden.
 
@@ -137,7 +141,7 @@ Add logos to your brand in the **[!UICONTROL Logos]** tab.
 
 ### Logotyper
 
-[!DNL Brand]-logotyper fungerar som visuella symboler som representerar ett företags identitet, värden och produkter. Du kan överföra en eller flera logotyper (högst 1 GB per fil) för en [!DNL Brand] i JPG-, JPEG-, SVG- eller PNG-format. Logotyper kan läggas till när [!DNL Brand] skapas eller från den enskilda _[!DNL Brands]-vyn_.
+[!DNL Brand]-logotyper fungerar som visuella symboler som representerar ett företags identitet, värden och produkter. Du kan överföra en eller flera logotyper (högst 1 GB per fil) för en [!DNL Brand] i JPG-, JPEG-, SVG- eller PNG-format. Logotyper kan läggas till när [!DNL Brand] skapas eller från den enskilda _[!DNL Brands]-vyn_. Logotyper kan användas som miniatyrbild för en viss [!DNL Brand].
 
 Varje överförd logotyp innehåller följande information i logotyprutan:
 
@@ -145,7 +149,13 @@ Varje överförd logotyp innehåller följande information i logotyprutan:
 - Filstorlek
 - Upplösning
 
-På Åtgärder-menyn (tre punkter) för en färg kan du **[!UICONTROL Download]**, **[!UICONTROL Rename]** eller **[!UICONTROL Delete]** en färg.
+På Åtgärder-menyn (tre punkter) för en logotyp kan du [visa information för och hantera](/help/user-guide/guidelines/add-guidelines.md#manage-brands) en enskild logotyp:
+
+- **[!UICONTROL View details]**
+- **[!UICONTROL Download]**
+- [**[!UICONTROL Use as brand thumbnail]**](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail)
+- **[!UICONTROL Rename]**
+- **[!UICONTROL Delete]**
 
 ### Färger
 

@@ -4,9 +4,9 @@ description: Lägg till [!DNL Brands], [!DNL Products], and [!DNL Personas]  i G
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: f08e92fd8d71fb8e918d8c8167d1e62ed86e35cb
+source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
 workflow-type: tm+mt
-source-wordcount: '492'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ GenStudio for Performance Marketing riktlinjer:
 * Definiera komplexiteten i er varumärkesidentitet
 * Skapa den grundläggande databasen med information - för diskreta element som logotyper och teckensnitt, pixelavstånd och olika riktlinjer för meddelanden - som den generativa AI använder för att skapa innehåll
 * Se till att din varumärkesidentitet informerar dig om hur varje del av innehållet skapas
-* Använd som ett varumärkesidentitetsramverk som kontrolleras för varje del av genererat eller [validerat innehåll](#brand-validation)
+* Använd som ett varumärkesidentitetsramverk som kontrolleras för varje del av genererat eller [validerat innehåll](#content-checks)
 * Implementerar hjälpmedelsriktlinjer och plattformsriktlinjer för genererade varianter
 
 Genom att införliva varumärkes-, produkt- och persondata i GenStudio for Performance Marketing kan ni förbättra kvaliteten på AI-genererat innehåll och säkerställa en heltäckande och skräddarsydd varumärkesidentitet.
@@ -47,7 +47,7 @@ Genom att införliva varumärkes-, produkt- och persondata i GenStudio for Perfo
 Riktlinjerna för [!DNL Brands], [!DNL Products] och [!DNL Personas] aktiverar två huvudsakliga användningsfall för att säkerställa att allt genererat innehåll följer ett varumärkes önskade representation:
 
 * **Skapa innehåll** i [[!DNL Create]](/help/user-guide/create/overview.md) eller [Innehåll](/help/user-guide/content/overview.md)
-* [**Varumärkesvalidering**](#brand-validation) som sker som en del av innehållsskapandet
+* [**Varumärkesvalidering**](#content-checks) som sker som en del av innehållsskapandet
 
 ## Innehållskontroller
 
@@ -63,5 +63,5 @@ Adobe GenStudio for Performance Marketing integrerar externa plattformsriktlinje
 
 Dessa kumulativa överensstämmelsekontroller omfattar följande:
 
-* **ADA-hjälpmedel** - En förutsättning för att du ska kunna utveckla engagerande innehåll och digitala upplevelser som passar användare med olika möjligheter. Dessa säkerställer anpassning till webbhjälpmedelsfunktionerna och ger alla användare tillgång till dem på ett rättvist sätt. GenStudio for Performance Marketing refererar för närvarande till tillgänglighetsstandarder för ADA Level A copy (text).
+* **ADA-hjälpmedel** - En förutsättning för att du ska kunna utveckla engagerande innehåll och digitala upplevelser som passar användare med olika möjligheter. Dessa säkerställer anpassning till webbhjälpmedelsfunktionerna och ger alla användare tillgång till dem på ett rättvist sätt. GenStudio for Performance Marketing hänvisar för närvarande till tillgänglighetsstandarderna ADA Level AA copy (text).
 * **Plattformskompatibilitet**: Det är viktigt att du följer de specifika riktlinjerna för varje plattform, som Meta eller LinkedIn, och följer branschens bästa praxis. Det här är standardriktlinjer som finns i systemet och som är förifyllda i [[!DNL Brand] riktlinjer](/help/user-guide/guidelines/brands.md#brands-guidelines).

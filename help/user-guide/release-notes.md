@@ -4,7 +4,7 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 2e30223f67d8ad7e230245c825600e60a57e2ccd
+source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
 workflow-type: tm+mt
 source-wordcount: '0'
 ht-degree: 0%
@@ -15,7 +15,45 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.05.15 {#latest}
+## 2025,06 {#latest}
+
+### Startmallar är tillgängliga
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+[Med startmallar](/help/user-guide/templates/starter-templates.md) kommer du snabbt igång med den kreativa processen. Du kan nu välja från en Meta- eller LinkedIn-startmall.
+
+### Funktioner för generativ utökning av AI
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+
+### Lägg till videoklipp i annonser
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user-guide/create/create-linkedin.md#manage-videos)- och [Meta](/help/user-guide/create/create-meta-ad.md#manage-videos)-annonser. Se hur du kan spela upp videofilmer automatiskt direkt i GenStudio for Performance Marketing när du väljer och lägga till videofilmer till dina varianter.
+
+### Korrigeringar och förbättringar
+
+* Stöd för [publicering av annonsupplevelser](/help/user-guide/activation/activate-linkedin-ad.md) från GenStudio for Performance Marketing har lagts till i LinkedIn Campaign Manager. [!DNL Activate] har stöd för detaljerade förhandsvisningar av LinkedIn-annonser innan de publiceras till LinkedIn Campaign Manager.
+
+* Integreringen av [Workfront Proof](/help/user-guide/approvals/overview.md) ger GenStudio for Performance Marketing tillgång till Korrekturens robusta gransknings- och godkännandefunktioner. Innehåll som granskas i GenStudio for Performance Marketing synkroniseras med Workfront Proof och kommentarer och status bevaras.
+
+* Lagt till möjlighet att [ge tillgängliga namn för bilder och call-to-action-länkar](/help/user-guide/create/manage-variants.md#add-accessibility-labels) i dina varianter genom att lägga till hjälpmedelsetiketter (Aria-labels).
+
+* När du lägger till eller ändrar [Varumärkesriktlinjer](/help/user-guide/guidelines/brands.md) på ett icke-engelskt språk, visar GenStudio for Performance Marketing riktlinjerna på samma språk.
+
+* När du har lagt till en [!DNL Brand] manuellt eller skapat en [!DNL Brand] genom manuell extrahering från ett dokument kan du [ändra eller lägga till miniatyrbilder för varumärket](/help/user-guide/guidelines/add-guidelines.md#change-brand-thumbnail) för att vara säker på att varje varumärke är lätt att urskilja i [!DNL Brands]-listan.
+
+* Du kan nu [använda RTF-redigeringsformatering för text](/help/user-guide/create/manage-variants.md#manually-edit-text) i dina genererade varianter. Experimentera med en mängd formateringsalternativ för olika typer av text, som färg, storlek, listor med mera.
+
+* Du kan nu [skapa en ny annonsuppsättning](/help/user-guide/activation/activate-meta-ad.md#create-a-new-ad-set) under plattformskonfiguration genom att klona en befintlig annonsuppsättning under plattformskonfigurationen. Metaannonser definierar timing, kanalinformation och publik för en viss annons. En Meta-kampanj kan innehålla flera annonsuppsättningar, men en annonsuppsättning är exklusivt kopplad till en kampanj.
+
+## Versionsinformation
+
++++Anteckningar från 2025.05.15
 
 ### Korrigeringar och förbättringar
 
@@ -24,16 +62,18 @@ Den här versionsinformationen innehåller information om de senaste uppdatering
 * Nu kan du välja mer än en upplevelse för export eller hämtning. Se [Exportera upplevelser](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2025.04.15
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
+
++++
 
 +++Anteckningar från 2025.03.13
 

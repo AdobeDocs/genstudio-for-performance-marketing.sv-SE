@@ -6,18 +6,16 @@ badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Be
 role: User
 level: Beginner
 exl-id: 4d43a214-c635-440f-9dbb-f371bc253195
-source-git-commit: 8d79c2bd2347bebb18ecb432a7087fb3d1ac1356
+source-git-commit: c34576c93550eff6f15b31416e7a41ec36339fe5
 workflow-type: tm+mt
-source-wordcount: '249'
+source-wordcount: '250'
 ht-degree: 0%
 
 ---
 
 # LinkedIn-upplevelser
 
-Med Adobe GenStudio for Performance Marketing kan du utnyttja generativ AI för att effektivt [skapa kraftfulla LinkedIn-upplevelser](/help/user-guide/create/create-linkedin.md).
-
-Med [!DNL Create] kan innehållsskapare och marknadsförare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [instruktiv uppmaning](/help/user-guide/effective-prompts.md) för att [generera varumärkesanpassade LinkedIn-upplevelser](/help/user-guide/create/create-email-experience.md).
+Med Adobe GenStudio for Performance Marketing kan du utnyttja generativ AI för att effektivt [skapa kraftfulla LinkedIn-upplevelser](/help/user-guide/create/create-linkedin.md). Med [!DNL Create] kan innehållsskapare och marknadsförare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [instruktiv uppmaning](/help/user-guide/effective-prompts.md) för att [generera varumärkesanpassade LinkedIn-upplevelser](/help/user-guide/create/create-email-experience.md).
 
 När du genererar LinkedIn-upplevelser skapas fyra variationer och visas på arbetsytan.
 
@@ -27,7 +25,7 @@ Redigerbara delar av en LinkedIn-upplevelse är:
 * Introduktionstext
 * Beskrivning
 * Call to action (CTA)
-* Bild
+* Bild/video
 
 Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
 

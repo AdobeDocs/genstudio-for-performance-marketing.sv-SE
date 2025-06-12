@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
 workflow-type: tm+mt
-source-wordcount: '1101'
+source-wordcount: '1350'
 ht-degree: 0%
 
 ---
@@ -23,10 +23,15 @@ Innan du börjar generera en annonsupplevelse med Meta är det viktigt att [inf�
 
 Om du vill börja generera en ny annonsupplevelse med Meta använder du en tillgänglig mall för att tillhandahålla ramverket för ditt innehåll. Mer information om vilka metadata och proportioner som stöds finns i [Meta och mallriktlinjer](/help/user-guide/templates/meta-template.md).
 
+När du väljer en mall kan du välja mellan att använda en av dina överförda mallar eller en startmall.
+
 **Så här väljer du en mall för Meta-annons**:
 
 1. Klicka på **[!UICONTROL Meta ads]** i _[!DNL Create]_.
-1. Använd sökalternativet bredvid _Filter_ för att hitta en specifik mall för metaannonser.
+1. Välj **[!UICONTROL Custom templates]** om du vill bläddra bland dina överförda mallar eller **[!UICONTROL Starter templates]** om du vill bläddra bland de fördefinierade mallarna.
+
+   Om du tänker lägga till videoresurser i Meta-varianterna måste du välja en startmall. De är förinlästa med systemdefinierade innehållsområden som underlättar användningen av videoklipp.
+
 1. Klicka för att välja en mall och klicka på **[!UICONTROL Use]**.
 
    Den här åtgärden öppnar arbetsytan, som är navet för innehållsskapande.
@@ -46,14 +51,17 @@ Om du använder en mall med fördefinierade riktlinjer - [!DNL Brands], [!DNL Pe
 
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
-1. Lägg till innehåll som ska användas i upplevelsen *och* för att påverka innehållsgenereringen:
-   * Klicka på **[!UICONTROL Select from Content]** om du vill välja resurser (bilder) från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
+1. Lägg till innehåll (bilder eller videoklipp) för användning i upplevelsen *och* för att påverka innehållsgenereringen:
+   * Klicka på **[!UICONTROL Select from Content]** för att välja resurser från din [!DNL Content]-databas, filtrera och markera en eller flera bilder.
+
+     Om du använder en mall som har ett avsnitt för videoklipp, markeras och filtreras videoinnehållet (.mp4) automatiskt. Hovra över en video för att se en automatiskt uppspelad förhandsvisning.
 
      ![Välj visuellt innehåll](/help/assets/content-select-meta.png){width="500" zoomable="yes"}
 
      Om du vill använda resurser från en ansluten [!DNL AEM Assets Content Hub]-databas väljer du en databas i listrutan _Plats_ . Filtrera och markera en eller flera bilder.
 
-   * Du kan också dra och släppa resurser i avsnittet **[!UICONTROL Select from Content]** för att överföra en eller flera nya resurser.
+   * Du kan också dra och släppa bilder i avsnittet **[!UICONTROL Select from Content]** för att överföra en eller flera nya resurser.
+
 1. Klicka på **[!UICONTROL Use]**.
 
 När du är klar med att lägga till parametrar kan du komprimera promptlådan genom att klicka på ikonen _Parametrar_ igen.
@@ -68,6 +76,8 @@ Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du 
 
 1. Ange en uppmaning i rutan _&quot;Beskriv de upplevelser du vill generera&quot;_ .
 1. Klicka på **[!UICONTROL Generate]**.
+
+   Se [Hantera videoklipp](#manage-videos) om du vill veta hur de genereras och hur du hanterar dem.
 
 Som standard genereras och visas fyra varianter på arbetsytan, som alla föds av uppmaningen, riktlinjer och innehåll som du har lagt till.
 
@@ -93,13 +103,23 @@ Om du vill markera ett enskilt lager som ska revideras klickar du på ett redige
 * **Om du vill [redigera en Meta-annons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av annonsavsnitten (till exempel ämnesraden,
 sidhuvud eller brödtext) och redigera efter behov.
 * **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. Ange en URL för call-to-action-texten i _Länk_.
+* **Om du vill [använda textformatering](/help/user-guide/create/manage-variants.md#manually-edit-text)** i en variant klickar du på texten i bilden eller på den infogade länken för en variant och klickar på **[!UICONTROL Format text]**.
 <!-- **To [change or select the Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)**, click the call-to-action button and select _[!UICONTROL Rephrase]_ or _[!UICONTROL Add link]_. -->
 * **Om du vill [lägga till en länk till en bild i en variant](/help/user-guide/create/manage-variants.md#add-image-link)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och klickar på länkikonen.
+* **Om du vill [ändra storlek och proportioner för annonsen](/help/user-guide/create/manage-variants.md#change-aspect-ratio)** klickar du på knappen _[!UICONTROL Resize]_(ruta med en knappikon till vänster om arbetsytan) och väljer en ny storlek och proportioner som ska användas för alla varianter. Varianterna dupliceras och storleksändras.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
-* **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** håller du pekaren över en bild, klickar på beskärningsikonen som visas och justerar bildens storlek och placering.
+* **Om du vill [beskära eller flytta bilder](/help/user-guide/create/manage-variants.md#crop-assets)** klickar du på en bild, klickar på **[!UICONTROL Edit]** (pennikonen) och sedan **[!UICONTROL Crop]**. Justera bildens storlek och placering.
+* **Om du vill [använda Generativ utökning för att ändra storlek på och anpassa bilder](/help/user-guide/create/manage-variants.md#use-generative-expand) till din arbetsmall** klickar du på en bild, klickar på **[!UICONTROL Edit]** (pennikon) och sedan **[!UICONTROL Expand]**. Justera bilden så att den passar proportionerna och mallen.
 * **Om du vill [lägga till alternativ text för bilder i en variant](/help/user-guide/create/manage-variants.md#add-alt-text-for-images)** klickar du på en bildresurs och använder alternativet _Alt-text_ för att manuellt lägga till eller generera alternativ text per bild.
+* **Om du vill [lägga till hjälpmedelsetiketter](/help/user-guide/create/manage-variants.md#add-accessibility-labels) till dina varianter** klickar du på en bild eller call-to-action-länk och anger sedan en kort beskrivning av vad länken eller knappen gör.
 * **Om du vill [ta bort en metaannons](/help/user-guide/create/manage-variants.md#delete-variant)** klickar du på alternativmenyn för en variant och sedan på **[!UICONTROL Delete variant]**.
+
+### Hantera videoklipp
+
+Håll pekaren över videoklippen för att se automatisk uppspelning med slinga.
+
+Videoklippen omformas så att de passar de valda proportionerna under genereringen. Återgå till den ursprungliga videon som inte omformats genom att klicka på **[!UICONTROL Reframe Video]** och stänga av den.
 
 ## Skicka feedback
 

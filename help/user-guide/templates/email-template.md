@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: d9d774f727b69b18af6114965fdb8ffb450f797b
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '406'
+source-wordcount: '416'
 ht-degree: 0%
 
 ---
@@ -27,14 +27,18 @@ Följ de här designmetoderna när du anpassar e-postmallar för att arbeta med 
 
 ## Identifierade fältnamn
 
-GenStudio for Performance Marketing genererar automatiskt fältet `subject` för e-post. När du anpassar mallen använder du platshållare för innehåll för följande obligatoriska fält:
+När du anpassar din e-postmall använder du innehållsplatshållare för följande obligatoriska fält:
 
-- `pre_header` (RTF är inte aktiverat)
 - `headline`
 - `sub_headline`
 - `body`
 - `cta`
 - `image` (markerat från JPEG, PNG eller GIF)
+
+GenStudio for Performance Marketing genererar automatiskt följande fält. RTF är inte aktiverat. Du behöver inte använda platshållare för innehåll för:
+
+- `pre_header`
+- `subject`
 
 Det högsta tillåtna antalet fält i en mall är 20. Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/content/customize-template.md#content-placeholders) .
 
@@ -56,30 +60,46 @@ Exempelfältsnamn för två avsnitt:
 
 +++Exempel: E-postmall med ett avsnitt
 
-Nedan följer ett grundläggande exempel på en HTML-mall för ett e-postmeddelande som innehåller ett avsnitt. Huvudet innehåller enkel, infogad CSS för formatering. Innehållet innehåller en `pre_header`, `headline` och `image` [platshållare](#content-placeholders) som GenStudio for Performance Marketing kan använda för att mata in innehåll under e-postgenereringsprocessen.
+Nedan följer ett grundläggande exempel på en HTML-e-postmall med ett avsnitt. `<head>` innehåller enkel infogad CSS för formatering, och `<body>` använder platshållare för innehåll som `pre_header`, `headline`, `sub_headline`, `body`, `cta` och `image` med länk och. Med dessa platshållare kan GenStudio for Performance Marketing lägga in dynamiskt innehåll när e-postmeddelanden skapas.
 
-```html {line-numbers="true" highlight="13"}
+```html
 <!DOCTYPE html>
 <html>
     <head>
-        <title>Adobe</title>
+        <title>Marketing Email</title>
         <style>
             .container {
-            width: 100%;
-            padding: 20px;
-            font-family: Arial, sans-serif;
+                width: 100%;
+                padding: 20px;
+                font-family: Arial, sans-serif;
+            }
+            .cta-button {
+                display: inline-block;
+                background-color: #fff;
+                color: #000;
+                border: 2px solid #000;
+                padding: 10px 20px;
+                text-decoration: none;
+                font-family: 'Source Sans Pro', Arial, sans-serif;
+                font-weight: 600;
+                font-size: 14px;
+                margin-top: 20px;
+                text-align: center;
             }
         </style>
     </head>
-    <body>{{pre_header}}
+    <body>
         <div class="container">
+            {{pre_header}}
             <h1>{{headline}}</h1>
-            <p><a href="{{link}}">
-            <img alt="{{headline}}"
-                    src="{{image}}"
-                    width="600" height="600"
-                    border="0"/></a></p>
+            <p>
+                <a href="{{link}}">
+                    <img alt="banner headline" src="{{image}}" width="600" height="600">
+                </a>
+            </p>
+            <h2>{{sub_headline}}</h2>
             <p>{{body}}</p>
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>
@@ -114,6 +134,19 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
             .pod p {
                 color: #666;
             }
+            .cta-button {
+            display: inline-block;
+            background-color: #fff; /* Background color to white */
+            color: #000; /* Text color to black */
+            border: 2px solid #000; /* Border color to black */
+            padding: 10px 20px;
+            text-decoration: none;            
+            font-family: 'Source Sans Pro', Arial, sans-serif;
+            font-weight: 600; /* Semibold */
+            font-size: 14px;
+            margin-top: 20px;
+            text-align: center;
+            }
         </style>
     </head>
     <body>{{pre_header}}
@@ -123,17 +156,18 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
-                <p><img alt="{{ headline }}" src="{{pod1_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic1" src="{{pod1_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod1_body}}</p>
             </div>
             <!-- End of Pod1 -->
             <!-- Pod2 -->
             <div class="pod">
                 <h2>{{pod2_headline}}</h2>
-                <p><img alt="{{headline}}" src="{{pod2_image}}" width="200" height="200" border="0"></p>
+                <p><img alt="pic2" src="{{pod2_image}}" width="200" height="200" border="0"></p>
                 <p>{{pod2_body}}</p>
             </div>
             <!-- End of Pod2 -->
+            <a href="#" class="cta-button">{{cta}}</a>
         </div>
     </body>
 </html>

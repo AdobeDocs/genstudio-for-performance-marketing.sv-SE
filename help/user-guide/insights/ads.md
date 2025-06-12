@@ -4,24 +4,24 @@ description: Se en översikt över kundengagemang, budget och utgifter för anno
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: 63134aab89053616ea6190c958e8bf5b64ee9793
 workflow-type: tm+mt
-source-wordcount: '1335'
+source-wordcount: '1311'
 ht-degree: 0%
 
 ---
 
 # Översikt över annonsplacering
 
-Vyn [!DNL Insights] _[!UICONTROL Ads]_&#x200B;visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
+Vyn [!DNL Insights] _[!UICONTROL Ads]_visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Ads]_&#x200B;är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Ads]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Ad]_visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
@@ -32,7 +32,7 @@ I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar a
 
 ## Annonsinformation
 
-Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_&#x200B;innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**&#x200B;för att bläddra igenom placeringsmåtten.
+Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**för att bläddra igenom placeringsmåtten.
 
 ![Lägg till information med mått och annonsplaceringar](/help/assets/insights-ad-details.png){zoomable="yes"}
 
@@ -49,8 +49,8 @@ Annonsformaten avser de olika kreativa element och layouter som används för at
 [!DNL Insights] i GenStudio for Performance Marketing har för närvarande stöd för följande tillgängliga annonsformat.
 
 | Stöds | Stöds inte |
-|-----------|-------------|
-| Specifikation för tillgångsfeed (optimering av placering)<br>En bild eller en video<br>Länk | Carousel<br>Collaborative<br>Catalog<br>Instant Experience<br>Asset Feed Spec (annat än placeringsoptimering)<br>Call (bild och video)<br>App (bild och video)<br>Messaging<br>Lead (bild och video)<br>Slideshow (video)<br>Collection (bild och videosjälvbild)<br>Shop (bild och video) video)<br>Foto eller video från sidinlägg, Instagram Post<br>Branded Content<br>Flexible<br>Advantage+ Catalog |
+|----------------------------------|-----------------------------------|
+| Dynamiska annonser<br>Länka annonser<br>Enkla bildannonser<br>Enkla videoklipp | Shop Ads<br>Advantage+ Shopping Ads<br>Advantage+ Catalog Ads<br>Carousel Ads<br>Messenger Ads<br>Lead Ads<br>Collection Ads<br>Call Ads<br>Owned Page Post Ads<br>Partnership Ads<br>Flexibla annonser |
 
 ### Annonsplaceringar
 
@@ -89,7 +89,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 
 ## Placering
 
-I vyn _[!UICONTROL Ad details page]_&#x200B;återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
+I vyn _[!UICONTROL Ad details page]_återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
 
 I följande tabell finns definitioner för prestandamätningar för annonsplacering:
 

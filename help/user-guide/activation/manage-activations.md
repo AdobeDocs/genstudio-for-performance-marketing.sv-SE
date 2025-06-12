@@ -3,7 +3,7 @@ title: Hantera aktiveringar
 description: Lär dig hantera aktiverade upplevelser med Adobe GenStudio for Performance Marketing.
 feature: Ad Activation
 exl-id: 7cf340d4-37ab-4906-9aad-088a26db0818
-source-git-commit: 65bf96b7b2871e0c28dbe341b71f4e8584de9f3e
+source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
 workflow-type: tm+mt
 source-wordcount: '357'
 ht-degree: 0%
@@ -12,9 +12,9 @@ ht-degree: 0%
 
 # Hantera aktiveringar
 
-_[!DNL Activate]_&#x200B;erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn_ Aktiverade upplevelser _visar alla aktiveringar för ett anslutet kanal- och annonskonto.
+[!DNL Activate] erbjuder en centraliserad vy över varje annonskanals aktiveringsstatus, inklusive aktiveringar av typen Publicerad (lyckades), Misslyckad (misslyckades) och Publicering (väntar). Vyn _Aktiverade upplevelser_ visar alla aktiveringar för ett anslutet kanal- och annonskonto.
 
-_[!DNL Activate]_&#x200B;organiserar aktiverade upplevelser per annonskanal. Klicka på&#x200B;**[!UICONTROL View]**&#x200B;i kanalpanelen. Vyn_ Aktiverade upplevelser _för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
+[!DNL Activate] organiserar aktiverade upplevelser per annonskanal. Klicka på **[!UICONTROL View]** i kanalpanelen. Vyn _Aktiverade upplevelser_ för den valda kanalen öppnas. I den här vyn visas upplevelser per namn och beställningar per aktiveringsdatum. Om din organisation inte har aktiverat upplevelser för den kanalen, innehåller produktrutan inte knappen **[!UICONTROL View]**.
 
 ## Aktiverad upplevelsevy
 

@@ -5,9 +5,9 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 1ff6a3ecf0a0773c3a6f13d6993042b0620c6dd2
+source-git-commit: 7495891b58d7830453ba81048df3373820823136
 workflow-type: tm+mt
-source-wordcount: '624'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -28,7 +28,14 @@ Systemansvariga skapar Adobe GenStudio for Performance Marketing genom att ange 
 
 ### Steg 1: Lägg till riktlinjer
 
-Att bygga upp de viktigaste byggstenarna i organisationens varumärkesidentitet är en nödvändig förutsättning för arbete som utförs av redaktörer och samarbetspartners. [Riktlinjer](/help/user-guide/guidelines/overview.md) fångar varumärken som logotyper, röstton och färgpaletter. Du kan antingen överföra [[!DNL Brands] riktlinjer](/help/user-guide/guidelines/brands.md)-dokument eller ange varumärkesinformation manuellt. [[!DNL Personas] riktlinjer](/help/user-guide/guidelines/personas.md) och [[!DNL Products] riktlinjer](/help/user-guide/guidelines/products.md) är också viktiga. GenStudio for Performance Marketing underliggande generativa AI-funktioner använder dessa riktlinjer för att skapa skyddsmekanismer som vägleder innehållsgenereringen.
+Varumärket [guidelines](/help/user-guide/guidelines/overview.md) fångar varumärkets egenskaper. GenStudio for Performance Marketing underliggande generativa AI-funktioner använder dessa riktlinjer för att skapa skyddsprofiler som vägleder innehållsgenereringen. Du kan antingen överföra [[!DNL Brands] riktlinjer](/help/user-guide/guidelines/brands.md)-dokument eller ange varumärkesinformation manuellt.
+
+Innehållsredigerare och medarbetare kan inte påbörja sitt arbete förrän grundelementen i din organisations [varumärkesidentitet](/help/user-guide/guidelines/brands.md) har etablerats. Dessa varumärkeskomponenter omfattar båda:
+
+* Immateriella element, t.ex. röstton
+* Materiellt material som logotyper, färgpaletter och typografi.
+
+Läs om hur GenStudio for Performance Marketing definierar [varumärkeskomponenter](/help/user-guide/guidelines/brands.md) innan du skapar riktlinjer
 
 #### Förbered dina riktlinjer
 

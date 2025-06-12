@@ -5,16 +5,16 @@ level: Intermediate
 role: Developer
 feature: Media Templates
 exl-id: 7705bb79-19ca-4c16-8f8b-95bf8687e96d
-source-git-commit: 1f62546f4fc2381bcc4d8fd3acadd1d6470ed9e8
+source-git-commit: 7dfd915ebcc001b12357cfa334346e6698436d7d
 workflow-type: tm+mt
-source-wordcount: '1294'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
 
 # Arbeta med mallar
 
-GenStudio for Performance Marketing gör det möjligt för innehållsskapare att snabbt producera enhetligt marknadsföringsinnehåll med hjälp av _mallar_. En mall minskar tiden och arbetet som krävs för att generera nytt innehåll avsevärt genom att tillhandahålla en startpunkt som inkluderar förkonfigurerade layouter och designelement.
+GenStudio for Performance Marketing gör det möjligt för innehållsskapare att snabbt producera enhetligt marknadsföringsinnehåll med hjälp av _mallar_. En mall minskar tiden och arbetet som krävs för att generera nytt innehåll avsevärt genom att tillhandahålla en startpunkt som inkluderar förkonfigurerade layouter och designelement. Om du vill komma igång överför du en anpassad mall i [!DNL Content] eller använder en startmall i [!DNL Create]. [Startmallar](/help/user-guide/templates/starter-templates.md) är ett snabbt sätt att börja med en standarddesign, medan en anpassad mall gör att du kan använda dina unika designer och layouter.
 
 GenStudio for Performance Marketing stöder inte direkt framtagning av mallar i programmet, men du kan enkelt utforma och förbereda mallar med vanliga designverktyg som Adobe InDesign, Illustrator eller Express. När designen är klar kan du anpassa den för användning i GenStudio for Performance Marketing. Börja använda mallar genom att följa de här stegen:
 
@@ -59,7 +59,7 @@ Du [anpassar mallen](customize-template.md) för användning i GenStudio for Per
 
 ## Hantera mallar
 
-Galleriet _[!DNL Templates]_&#x200B;visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing.
+Galleriet _[!DNL Templates]_visar din lista med mallar som är anpassade för att generera upplevelser i GenStudio for Performance Marketing.
 
 ### Sökmallar
 
@@ -67,8 +67,8 @@ Varje [!DNL Content]-vy innehåller filteralternativ som begränsar sökningen e
 
 Du kanske vill hitta en mall av en viss kanaltyp eller proportioner som du har skapat:
 
-- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Templates]_&#x200B;så att endast mallar som du eller en viss person har skapat visas.
-- **[!UICONTROL Aspect Ratio]**: begränsar listan _[!UICONTROL Templates]_&#x200B;så att den visar mallar som är utformade för en viss proportioner.
+- **[!UICONTROL Created by]**: begränsar listan _[!UICONTROL Templates]_så att endast mallar som du eller en viss person har skapat visas.
+- **[!UICONTROL Aspect Ratio]**: begränsar listan _[!UICONTROL Templates]_så att den visar mallar som är utformade för en viss proportioner.
 
 I följande exempel visas hur du filtrerar efter kanaltyp, t.ex. e-post, visningsannonser, Meta-annonser och LinkedIn-annonser.
 
@@ -82,11 +82,11 @@ Innan du överför en mall måste du se till att den är helt förberedd och kla
 
 **Så här lägger du till en mall**:
 
-1. I _[!DNL Content]_&#x200B;väljer du avsnittet **[!UICONTROL Templates]**.
+1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
 
 1. Klicka på **[!UICONTROL Add template]**.
 
-1. I rutan _[!UICONTROL Add your approved template]_&#x200B;bläddrar du efter HTML-mallfilen eller drar HTML-mallfilen till släppområdet. Klicka på&#x200B;**[!UICONTROL Next]**.
+1. I rutan _[!UICONTROL Add your approved template]_bläddrar du efter HTML-mallfilen eller drar HTML-mallfilen till släppområdet. Klicka på&#x200B;**[!UICONTROL Next]**.
 
 1. Granska fälten i rutan _[!UICONTROL Check detected fields]_. Kontrollera att du använder rätt mall och att all information är som förväntat.
 
@@ -100,7 +100,7 @@ Innan du överför en mall måste du se till att den är helt förberedd och kla
 
 1. Klicka på **[!UICONTROL Next]** när du är nöjd med mallförhandsvisningen.
 
-1. I _[!UICONTROL Provide template details and upload]_&#x200B;ger du mallen ett namn och väljer en **[!UICONTROL Channel]**-typ.
+1. I _[!UICONTROL Provide template details and upload]_ger du mallen ett namn och väljer en **[!UICONTROL Channel]**-typ.
 
    Mallnamn och kanaltyp krävs. Ytterligare krav kan vara:
 
@@ -117,7 +117,7 @@ Mallar kan innehålla statiska filer, till exempel ikoner eller logotyper. [Stat
 
 **Så här uppdaterar du mallen**:
 
-1. I _[!DNL Content]_&#x200B;väljer du avsnittet **[!UICONTROL Templates]**.
+1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
 
 1. Klicka på en mall för en fullständig vy och en lista med detaljer.
 
@@ -129,7 +129,7 @@ Hitta och använd en befintlig mall i GenStudio for Performance Marketing för a
 
 **Så här skapar du en upplevelse med en mall**:
 
-1. I _[!DNL Content]_&#x200B;väljer du avsnittet **[!UICONTROL Templates]**.
+1. I _[!DNL Content]_väljer du avsnittet **[!UICONTROL Templates]**.
 
 1. Klicka på en mall för en fullständig vy och en lista med detaljer.
 

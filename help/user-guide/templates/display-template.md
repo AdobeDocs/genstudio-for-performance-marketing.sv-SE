@@ -4,9 +4,10 @@ description: Följ vedertagna standarder när du använder mallar för displayan
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
+source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
 workflow-type: tm+mt
-source-wordcount: '279'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -27,12 +28,16 @@ Följ de här designmetoderna när du anpassar mallar för banners och displayan
 
 ## Identifierade fältnamn
 
-För banner- och visningsannonser genererar GenStudio for Performance Marketing automatiskt fältet `cta`. När du anpassar mallen använder du platshållare för innehåll för följande obligatoriska fält:
+När du anpassar din banderoll eller mall för att visa och visa innehåll använder du platshållare för följande obligatoriska fält:
 
 - `headline`
 - `sub_headline`
 - `body`
 - `image` (obligatoriskt, markerat från JPEG, PNG eller GIF)
+
+GenStudio for Performance Marketing genererar automatiskt följande fält. Du behöver inte använda platshållare för innehåll för:
+
+- `cta`
 
 Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/content/customize-template.md#content-placeholders) .
 

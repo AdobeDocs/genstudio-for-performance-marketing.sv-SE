@@ -3,12 +3,12 @@ title: Förbered en e-postmall för GenStudio for Performance Marketing
 description: Lär dig hur du förbereder en e-postmall för användning i Adobe GenStudio for Performance Marketing.
 level: Beginner
 feature: Media Templates
-hide: true
-hidefromtoc: true
+badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 recommendations: noDisplay, noCatalog
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
+source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
 workflow-type: tm+mt
-source-wordcount: '396'
+source-wordcount: '408'
 ht-degree: 0%
 
 ---
@@ -18,8 +18,6 @@ ht-degree: 0%
 _Startmallar_ är fördefinierade mallalternativ som hjälper dig att komma igång snabbt med GenStudio for Performance Marketing och lära dig hur du skapar effektiva media. Välj en medietyp i [!DNL Create]. Om startmallar är tillgängliga växlar du till fliken **[!UICONTROL Starter templates]** för att bläddra och välja en mall som passar dina behov.
 
 ![Fliken Startmallar](/help/assets/starter-templates.png "Välj mallflikar"){width="350"}
-
-## Välja rätt proportioner
 
 Att välja rätt proportioner för annonsen är viktigt för att maximera påverkan och säkerställa att innehållet visas korrekt på olika plattformar och på olika platser. Tänk på följande när du väljer proportioner:
 

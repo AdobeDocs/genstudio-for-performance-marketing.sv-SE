@@ -5,9 +5,9 @@ feature: Brand Personalization, Product Personalization, Persona Personalization
 role: User
 level: Beginner
 exl-id: cb893b5d-b535-42f6-8dd8-8bd779d80a4f
-source-git-commit: 490cc6d8f0a9aa15cf04755d7747232470456866
+source-git-commit: a67efc3bc517ffe2d130efd4e577ef652e07d462
 workflow-type: tm+mt
-source-wordcount: '1881'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -29,6 +29,8 @@ När du skapar varianter från en mall med fördefinierade riktlinjer - [!DNL Br
 ## Lägg till varumärken
 
 Om du vill lägga till en [!DNL Brand] [överför du en varumärkesguide](#upload-a-brand) eller [skapar ett varumärke manuellt](#manually-add-brand) genom att välja riktlinjer och ange din varumärkesinformation. [Publicera en [!DNL Brand]](#publish-brand) till [!DNL Content] för att göra den tillgänglig för framtida innehållsgenerering.
+
+Om du överför riktlinjer för varumärken skrivna på ett icke-engelskt språk - eller skapar ett varumärke manuellt med ett icke-engelskt språk - visar GenStudio for Performance Marketing dessa riktlinjer på samma språk.
 
 Klicka på **[!DNL Brands]** i listan _Delad_ i det vänstra navigeringsområdet. Välj **Lägg till varumärke** på panelen _[!DNL Brands]_.
 
@@ -87,15 +89,30 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
 
      ![Varumärkesfärger](/help/assets/colors.png){width="600" zoomable="yes"}
 
-Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_&#x200B;för att gå tillbaka till startsidan för&#x200B;_[!UICONTROL Brands]_.
+Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_för att gå tillbaka till startsidan för_[!UICONTROL Brands]_.
 
 Du behöver inte [publicera](#publish-brand) din [!DNL Brand] för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i din organisation ska kunna använda informationen [!DNL Brand] i GenStudio for Performance Marketing måste du publicera den. En skapad [!DNL Brand] är i utkastform tills den publiceras.
+
+### Ändra varumärkesminiatyr
+
+När du har lagt till [!DNL Brand] manuellt kan du ändra miniatyrbilden så att den är lätt att identifiera i [!DNL Brands]-listan.
+
+Om [!DNL Brand] skapas genom dokumentextrahering (i stället för att läggas till manuellt) implementeras en tillgänglig logotyp i dessa dokument automatiskt som miniatyrbild.
+
+**Så här ändrar du miniatyrbilden för en[!DNL Brand]** manuellt:
+
+1. Välj **[!UICONTROL Change thumbnail]** på Åtgärder-menyn.
+1. Överför en ny bild på fliken _Överför_.
+1. Ändra den överförda bilden i _[!UICONTROL Change thumbnail]_.
+1. Välj **[!UICONTROL Update]** om du vill spara bilden som din [!DNL Brand]-miniatyrbild.
+
+Du kan välja en befintlig [!DNL Brand]-logotyp i [!UICONTROL Logos]-flikvyn för en [!DNL Brand]. Klicka för att öppna en logotyp och välj **[!UICONTROL Use as brand thumbnail]** på åtgärdsmenyn.
 
 ### Publicera varumärke
 
 Innan du publicerar ett [!DNL Brand]-utkast ska du klicka igenom alla riktlinjer-avsnitt för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
 
-I _[!DNL Brands]_&#x200B;visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
+I _[!DNL Brands]_visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
 
 >[!TIP]
 >
@@ -121,7 +138,7 @@ Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guid
 
 ### Hantera varumärken
 
-I startsidan för _[!DNL Brands]_&#x200B;kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
+I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som du redan har skapat för att hantera eller publicera det.
 
 Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet och klickar för att öppna ett befintligt varumärke.
 
@@ -129,6 +146,12 @@ Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Br
 
 1. Öppna ett definierat varumärke genom att klicka i **[!DNL Brands]**.
 1. Om du vill visa enskilda detaljer eller ändra riktlinjer klickar du på [**[!UICONTROL Brand voice guidelines]**](brands.md#brand-voice-guidelines), [**[!UICONTROL Image guidelines]**](brands.md#image-guidelines), [**[!UICONTROL Channel guidelines]**](brands.md#channel-guidelines), [**[!UICONTROL Logos]**](brands.md#logos) eller [**[!DNL Colors]**](brands.md#colors) längst upp.
+1. Om du vill hantera en logotyp klickar du på [**[!UICONTROL Logos]**](brands.md#logos) överst och sedan på åtgärdsmenyn (tre punkter).
+   1. Välj **[!UICONTROL View details]** om du vill visa information om [!DNL Brand], till exempel _Format_ och _Storlek_.
+   1. Välj **[!UICONTROL Download]** om du vill hämta logotypen.
+   1. Välj [**[!UICONTROL Use as brand thumbnail]](#change-brand-thumbnail) för att ange logotypen som miniatyrbild.
+   1. Välj **[!UICONTROL Rename]** om du vill byta namn på logotypen.
+   1. Välj **[!UICONTROL Delete]** om du vill ta bort logotypen.
 1. Om du vill byta namn på ett befintligt varumärke klickar du i titeln och anger en ny titel.
 1. Om du vill duplicera ett befintligt varumärke väljer du **[!UICONTROL Duplicate]** på åtgärdsmenyn _[!DNL Brands]_.
    1. Ange ett varumärkesnamn i popup-fönstret _Duplicera varumärke_ och klicka på **[!UICONTROL Duplicate brand]**.
@@ -200,7 +223,7 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
 ### Hantera [!DNL Personas]
 
-I startsidan för _[!DNL Personas]_&#x200B;kan du **öppna en redan skapad[!DNL Persona]**&#x200B;för att redigera eller granska den, eller **ta bort en person**&#x200B;från listan:
+I startsidan för _[!DNL Personas]_kan du **öppna en redan skapad[!DNL Persona]**för att redigera eller granska den, eller **ta bort en person**från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Personas] om du vill granska en befintlig profil.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Personas] om du vill **ta bort** en profil.
@@ -268,7 +291,7 @@ Du kan lägga till produktinformation manuellt, i stället för att överföra b
 
 ### Hantera [!DNL Products]
 
-I startsidan för _[!DNL Products]_&#x200B;kan du **öppna en redan skapad[!DNL Product]**&#x200B;för att redigera eller granska den, eller **ta bort en produkt**&#x200B;från listan:
+I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]**för att redigera eller granska den, eller **ta bort en produkt**från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Products] om du vill granska och granska en befintlig produkt.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Products] om du vill **ta bort** en produkt.

@@ -5,18 +5,18 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: d12e00ba0d97e6795e7a416b77b120016bddf4e9
+source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
 # Metaupplevelser
 
-Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av avancerade metaupplevelser](/help/user-guide/create/create-meta-ad.md).
+Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av avancerade metaupplevelser](/help/user-guide/create/create-meta-ad.md). Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad uppmaning](/help/user-guide/effective-prompts.md) för att snabbt [skapa upplevelser för Meta-annonser](/help/user-guide/create/create-meta-ad.md).
 
-Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad uppmaning](/help/user-guide/effective-prompts.md) för att snabbt [skapa upplevelser för Meta-annonser](/help/user-guide/create/create-meta-ad.md).
+När du genererar metaupplevelser skapas och visas fyra varianter på arbetsytan. GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
 
@@ -28,13 +28,9 @@ Redigerbara avsnitt i en e-postupplevelse omfattar:
 * Brödtext
 * Call to action (CTA)
 * Text direkt i bilden
-* Bild
+* Bild/video
 
 Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
-
-<!-- ## Meta ad capabilities
-
-Content creators and marketers can produce brand-consistent Meta ad experiences in GenStudio for Performance Marketing. -->
 
 ## Meta-annonskanaler
 

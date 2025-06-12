@@ -3,9 +3,9 @@ title: Aktivera en Meta-annons
 description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 09450c99dfc6bc283519b068a3b34c0551e45fc8
+source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
 workflow-type: tm+mt
-source-wordcount: '1642'
+source-wordcount: '0'
 ht-degree: 0%
 
 ---
@@ -49,9 +49,9 @@ När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora män
 
 Du kan starta en aktivering på två sätt:
 
-* **Aktivera direkt från [!DNL Content]_**. Att välja en godkänd upplevelse med fördefinierade inställningar är det mest effektiva sättet att starta en aktivering i en enda kanal.
+* **Aktivera direkt från[!DNL Content]**. Att välja en godkänd upplevelse med fördefinierade inställningar är det mest effektiva sättet att starta en aktivering i en enda kanal.
 
-* **Sammanställ din annonsupplevelse från [!DNL Activate] > _Upplevelsekonfiguration_**&#x200B;Du kan skapa en upplevelse genom att välja visuella resurser från&#x200B;_[!DNL Content]_, lägga till textelement och välja proportioner. Den här metoden har fler steg men ger större flexibilitet när du skapar en kreativ upplevelse.
+* **Samla din annonsupplevelse från [!DNL Activate] > _Experience setup_**. Du kan skapa en upplevelse genom att välja visuella resurser från [!DNL Content], lägga till textelement och välja proportioner. Den här metoden har fler steg men ger större flexibilitet när du skapar en kreativ upplevelse.
 
 ### Aktivera en godkänd upplevelse från innehåll
 
@@ -59,7 +59,7 @@ Ni kan välja mer än en upplevelse att aktivera till en enda betalkanal. Du kan
 
 Om du har markerat mer än en upplevelse som ska aktiveras som en grupp använder du det vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
 
-1. Använd söknings- och filterverktygen i _[!DNL Content]_-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på&#x200B;**[!UICONTROL Activate]**.
+1. Använd söknings- och filterverktygen i [!DNL Content]-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på **[!UICONTROL Activate]**.
 
    Sidan Metaannonser _Experience setup_ öppnas för den här upplevelsen. Den är förifylld med information från den valda upplevelsen. Du kan redigera fälten **[!UICONTROL Call-to-action]**, **[!UICONTROL Website URL]** och **[!UICONTROL Display link]**. Om du väljer mer än en upplevelse att aktivera, innehåller vyn _Upplevelsekonfiguration_ en vänster sidospalt som visar miniatyrbilder av alla valda upplevelser. Använd den här vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
 
@@ -73,16 +73,16 @@ Om du har markerat mer än en upplevelse som ska aktiveras som en grupp använde
 
 ### Sammanställ upplevelsekomponenter
 
-Om du väljer att inte direkt aktivera en godkänd upplevelse från _[!DNL Content]_&#x200B;kan du välja resurser, tilldela proportioner och utkasttextelement.
+Om du väljer att inte direkt aktivera en godkänd upplevelse från [!DNL Content] kan du välja resurser, tilldela proportioner och utkasttextelement.
 
 **Så här förbereder du din upplevelse för aktivering**:
 
-1. Från _[!DNL Activate]_&#x200B;klickar du på&#x200B;**[!UICONTROL New]**&#x200B;på ikonen som representerar din valda betalda kanal. Vyn_ Experience Setup _öppnas.
+1. Från [!DNL Activate] klickar du på **[!UICONTROL New]** på ikonen som representerar din valda betalda kanal. Vyn _Experience Setup_ öppnas.
 
    Sidan _Experience setup_ är en central plats för att förbereda er annonsaktivering. Förbereda din annons innehåller följande tre uppgifter:
 
 1. Ge upplevelsen ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
-1. Välj medieresurser. Du kan använda resurser från _[!DNL Content]_&#x200B;eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
+1. Välj medieresurser. Du kan använda resurser från [!DNL Content] eller överföra externa resurser (till exempel från OneDrive eller Dropbox).
 1. [Lägg till text](#add-ad-text).
 1. [Lägg till metadata](#assign-metadata).
 
@@ -92,17 +92,17 @@ Om du väljer att inte direkt aktivera en godkänd upplevelse från _[!DNL Conte
 
 Använd avsnittet _Media_ för att välja minst en bildresurs som ska ingå i din upplevelse. Annonsplaceringar är associerade med bildproportioner som stöds, som visas som alternativ i listrutan _Placeringar_ . Den här menyn visar vilka annonsplaceringar som stöds för Facebook-inlägg eller Instagram-artiklar, ordnade efter proportioner.
 
-Efter överföring sparas resurserna i _[!DNL Content]_. I området_ Media _visas bilden som standard med bildförhållandet 1:1. Alternativa proportioner inkluderar bara de värden som stöds av den betalda annonskanalen. De grupperas efter lodrät och vågrät orientering. GenStudio for Performance Marketing stöder användning av upp till sex bildproportioner per aktiverad upplevelse.
+Efter överföring sparas resurserna i [!DNL Content]. I området _Media_ visas bilden som standard med bildförhållandet 1:1. Alternativa proportioner inkluderar bara de värden som stöds av den betalda annonskanalen. De grupperas efter lodrät och vågrät orientering. GenStudio for Performance Marketing stöder användning av upp till sex bildproportioner per aktiverad upplevelse.
 
 **Så här överför du en resurs från innehåll**:
 
-_[!DNL Content]_&#x200B;ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det[_[!DNL Content]_-galleriet](/help/user-guide/content/manage-assets.md) som visar lager med resurser med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
+[!DNL Content] ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det [[!DNL Content] galleri](/help/user-guide/content/manage-assets.md) som visas på resursen med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
-1. Klicka på **[!UICONTROL New]** på kanalkortet från _[!DNL Activate]_. Vyn_ Experience Setup _öppnas.
+1. Klicka på **[!UICONTROL New]** på kanalkortet från [!DNL Activate]. Vyn _Experience Setup_ öppnas.
 
 1. Klicka på **[!UICONTROL Select]** och välj sedan **[!UICONTROL Select from Content]**. Vyn _Välj innehåll_ öppnas och ett galleri med bildresurser som du söker igenom eller filtrerar visas.
 
-1. Använd _[!DNL Content]_-galleriets sök- och filterverktyg för att välja minst en resurs som ska överföras.
+1. Använd [!DNL Content]-galleriets sök- och filterverktyg för att välja minst en resurs som ska överföras.
 
 1. Klicka på **[!UICONTROL Use]** om du vill inkludera den valda resursen i annonsupplevelsen. Fönstret _Experience Setup_ innehåller resursen i standardproportionen i området _Media_. Panelen _Förhandsvisa_ förhandsvisar resursen i annonsplaceringen som stöder den här proportionen.
 
@@ -110,9 +110,9 @@ Om överföringen inte lyckas visas ett informativt felmeddelande som innehålle
 
 **Så här överför du en extern resurs**:
 
-Du kan överföra upp till sex statiska bilder utanför galleriet _[!DNL Content]_&#x200B;från antingen Microsoft OneDrive eller Dropbox.
+Du kan överföra upp till sex statiska bilder utanför galleriet [!DNL Content] från antingen Microsoft OneDrive eller Dropbox.
 
-1. Klicka på **[!UICONTROL New]** på panelen Meta i _[!DNL Activate]_. Fönstret_ Experience Setup _öppnas.
+1. Klicka på **[!UICONTROL New]** på panelen Meta i [!DNL Activate]. Fönstret _Experience Setup_ öppnas.
 
 1. Klicka på **[!UICONTROL Select]** i avsnittet _Media_. I en nedrullningsbar meny visas alternativ för att _välja från innehåll_ eller _överföra_.
 
@@ -171,6 +171,34 @@ När ni har förberett era annonsupplevelser måste ni bekräfta era Meta-kontou
 | Instagram-konto | Instagramkonton som har anslutits till GenStudio for Performance Marketing |
 | Kampanjer | Metakampanjer som annonsupplevelsen tillhör |
 | Annonsuppsättningar | Meta ad sets som den aktiverade annonsupplevelsen tillhör. Inställningarna bestämmer den slutliga placeringen av annonsen. |
+
+### Skapa en ny annonsuppsättning
+
+Du kan skapa en ny annonsuppsättning under plattformskonfigurationen genom att klona en befintlig annonsuppsättning under plattformskonfigurationen. Metaannonser definierar timing, kanalinformation och publik för en viss annons. En Meta-kampanj kan innehålla flera annonsuppsättningar, men en annonsuppsättning är exklusivt kopplad till en kampanj.
+
+**Så här skapar du en ny annonsuppsättning**:
+
+1. Välj en kampanj i listrutan _Metakampanjer_.
+
+   Den valda kampanjen avgör vilka annonsuppsättningar som är tillgängliga som alternativ i den nedrullningsbara menyn _Annonsuppsättningar_.
+
+1. Klicka på **[!UICONTROL + Create new ad set]**.
+
+   Popup-fönstret _Skapa ny annonsuppsättning_ öppnas och identifierar den Metakampanj där den nya annonsuppsättningen skapas.
+
+1. Välj den annonsuppsättning som du vill klona i listrutan _Använd konfiguration_.
+
+   GenStudio for Performance Marketing tilldelar ett standardannonsmängdsnamn genom att lägga till `- Copy` till det valda annonsmängdsnamnet.
+
+1. (Valfritt men rekommenderas) Ange ett unikt annonsnamn i fältet **[!UICONTROL New ad set name]** om du vill ersätta standardvärdet.
+
+1. Klicka på **[!UICONTROL Create ad set]**.
+
+   Du återgår till vyn _Plattformskonfiguration_ där den nya annonsuppsättningen är förvald. Ett meddelande visas med en länk till annonsuppsättningen i Meta Ads Manager. Den här annonsuppsättningen är tillgänglig för framtida aktiveringar.
+
+>[!NOTE]
+>
+>Om annonsuppsättningen har skapats men det inte gick att spara annonsuppsättningsnamnet, sparas annonsuppsättningen i Meta Ads Manager med standardnamnet (_ursprungligt annonsuppsättningsnamn - Kopia_).
 
 ### Spårnings-ID
 
