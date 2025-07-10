@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: 5279caaf4651ed81c3cf3d8a4de2f17c3f151ec8
+source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '2015'
 ht-degree: 0%
 
 ---
@@ -69,7 +69,7 @@ Du kan snabbt markera ett enskilt lager av en variant och göra ändringar, som 
 
 GenStudio for Performance Marketing har den inbyggda funktionaliteten för att återskapa avsnitt av genererade varianter. Du kan omformulera, korta ned eller förlänga text eller lägga till nya uppmaningar för att generera nytt innehåll.
 
-Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_&#x200B;innehållet i ett avsnitt, eller&#x200B;_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
+Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_innehållet i ett avsnitt, eller_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
 
 ![Generera om avsnitt](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -77,7 +77,7 @@ Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att 
 
 1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
 1. Om du vill ändra den befintliga texten väljer du _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_.
-1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_&#x200B;och anger en ny fråga.
+1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_och anger en ny fråga.
    1. Klicka på **[!UICONTROL Generate]**.
 1. När du genererar om texten i ett avsnitt klickar du på ikonen för att generera om (inringningspilar) för att se fler textalternativ.
 1. Välj önskat alternativ från de resultat som visas och klicka sedan på **[!UICONTROL Replace]**.
@@ -90,13 +90,13 @@ När du har genererat en uppsättning varianter kan du revidera call-to-action-t
 
 >[!NOTE]
 >
->Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_&#x200B;om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet&#x200B;_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
+>Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
 
 **Så här ändrar du CTA i en variant**:
 
 1. Klicka på en CTA-knapp i någon av varianterna.
 
-   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_.
+   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_.
 
 1. Klicka på **[!UICONTROL Rephrase]**.
 
@@ -202,21 +202,20 @@ Du kan lägga till eller byta ut bilder i genererade varianter direkt från arbe
 
    Bilden läggs till eller byts ut mot lämplig variant.
 
-## Lägg till bildlänk
+## Lägg till länkar
 
-På samma sätt som när du lägger till eller byter bilder i genererade varianter kan du lägga till en länk till bilder. Mallen som du använde för att generera varianter _måste_ innehålla en [innehållsplatshållare för länken](/help/user-guide/content/customize-template.md#content-placeholders) för att aktivera den här funktionen.
+Du kan lägga till en länk till text, bilder och CTA-knappar i dina varianter. Mallen som du använde för att generera varianter _måste_ innehålla en [innehållsplatshållare för länken](/help/user-guide/content/customize-template.md#content-placeholders) för att aktivera den här funktionen.
 
-**Så här lägger du till en bildlänk i en variant**:
+**Så här lägger du till en länk i en variant**:
 
-1. När du har genererat en uppsättning varianter klickar du på en bildresurs.
-
-   Om varianten inte har någon placerad bildresurs klickar du på bildresursområdet.
-
-1. Klicka på länkikonen.
-1. Klicka på **[!UICONTROL Remove link]** om du vill ta bort den befintliga standardlänken.
-1. Lägg till en länk i textfältet och klicka på **[!UICONTROL Apply]**.
-
-   Den definierade länken används för alla bilder i variantuppsättningen.
+1. När du redigerar en annons klickar du på elementvariabeln och hittar ikonen **[!UICONTROL Add link]** eller **[!UICONTROL Edit link]** .
+2. Klicka på ikonen för att öppna fönstret till textfältet.
+3. Ange målet. Länkar som innehåller URL-adresser, e-postadresser eller telefonnummer accepteras:
+   * `https://`
+   * `mailto:`
+   * `tel:`
+   * `sms:`
+   * `https://wa.me/` eller `whatsapp://`
 
 ## Lägg till alternativ text för bilder
 
@@ -297,8 +296,8 @@ Feedback om kvaliteten på genererade varumärkesanpassade resurser kan lämnas 
    Det visas ett popup-fönster där du kan samla in mer information. Den genererade informationen och uppmaningsinformationen ingår i din feedback.
 
 1. Lägg till följande information i feedback-popup:
-   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_&#x200B;om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
-   1. I avsnittet _[!UICONTROL What worked well?]_&#x200B;eller&#x200B;_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
+   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
+   1. I avsnittet _[!UICONTROL What worked well?]_eller_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
    1. Lägg till annan användbar eller relaterad information i fältet _[!UICONTROL Notes]_.
 1. Klicka på **[!UICONTROL Submit]**.
 
