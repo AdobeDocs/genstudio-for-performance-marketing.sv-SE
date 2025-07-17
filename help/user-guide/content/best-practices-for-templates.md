@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: adf987b016825861b5522b44b61263000eb63859
+source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
 workflow-type: tm+mt
-source-wordcount: '386'
+source-wordcount: '384'
 ht-degree: 0%
 
 ---
@@ -53,7 +53,7 @@ När du skapar mallar måste du se till att de uppfyller de specifika kraven fö
 
 {{note-css-effects}}
 
-Se fler tips och begränsningar när du arbetar med varje malltyp för att säkerställa optimala prestanda och kompatibilitet:
+Se fler tips och begränsningar när du arbetar med varje malltyp för att säkerställa optimala prestanda:
 
 - [E-post](/help/user-guide/templates/email-template.md)
 - [Visa och skapa banners](/help/user-guide/templates/display-template.md)
