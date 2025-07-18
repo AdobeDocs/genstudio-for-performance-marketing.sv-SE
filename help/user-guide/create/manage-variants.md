@@ -3,9 +3,9 @@ title: Hantera varianter
 description: Anpassa och förbättra genererade varianter och resurser efter era behov inom digital marknadsföring.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: 06f495bb-feec-45fc-9ba6-e941f79e390c
-source-git-commit: ab4bc7eddf0ef4c514a64338ca4e68814c4616a5
+source-git-commit: 2cf3bd4cb01f75dbff9fcf0cca7239256fc81129
 workflow-type: tm+mt
-source-wordcount: '2015'
+source-wordcount: '2007'
 ht-degree: 0%
 
 ---
@@ -41,7 +41,7 @@ Tillgänglig textformatering inkluderar:
 * Textstorlek
 * Länk
 
-Textformateringsalternativen varierar mellan olika kanaler (Meta, E-post osv.)
+Textformateringsalternativen varierar per kanal (Meta, e-post osv.)
 
 **Om du vill redigera text manuellt i genererade varianter**:
 
@@ -69,7 +69,7 @@ Du kan snabbt markera ett enskilt lager av en variant och göra ändringar, som 
 
 GenStudio for Performance Marketing har den inbyggda funktionaliteten för att återskapa avsnitt av genererade varianter. Du kan omformulera, korta ned eller förlänga text eller lägga till nya uppmaningar för att generera nytt innehåll.
 
-Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_&#x200B;innehållet i ett avsnitt, eller&#x200B;_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
+Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att se hur det ser ut med en viss bakgrundsresurs. Du kan _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_innehållet i ett avsnitt, eller_[!UICONTROL Generate new text]_ om du vill lägga till en ny fråga.
 
 ![Generera om avsnitt](/help/assets/regenerate-sections.png){width="300" zoomable="yes"}
 
@@ -77,26 +77,26 @@ Du kan till exempel återskapa rubrikavsnittet för en Meta ad-variant för att 
 
 1. När du har genererat en uppsättning varianter kan du klicka på valfri redigerbar text i en variant.
 1. Om du vill ändra den befintliga texten väljer du _[!UICONTROL Rephrase]_,_[!UICONTROL Shorten]_ eller _[!UICONTROL Lengthen]_.
-1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_&#x200B;och anger en ny fråga.
+1. Om du vill generera nya frasalternativ väljer du _[!UICONTROL Generate new text]_och anger en ny fråga.
    1. Klicka på **[!UICONTROL Generate]**.
 1. När du genererar om texten i ett avsnitt klickar du på ikonen för att generera om (inringningspilar) för att se fler textalternativ.
 1. Välj önskat alternativ från de resultat som visas och klicka sedan på **[!UICONTROL Replace]**.
 
    Varianten uppdateras med den reviderade texten.
 
-## Granska uppmaning till handling
+## Revidera Call to action
 
 När du har genererat en uppsättning varianter kan du revidera call-to-action-texten (CTA) och länken.
 
 >[!NOTE]
 >
->Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_&#x200B;om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet&#x200B;_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
+>Du kan redigera CTA-etikettext med alternativet _[!UICONTROL Rephrase]_om etikettexten är ett genererat mallfält (inte hårdkodat i mallen). Du kan redigera en CTA-länk med alternativet_[!UICONTROL Edit link]_ om länken finns och kan redigeras (inte hårdkodas i mallen).
 
 **Så här ändrar du CTA i en variant**:
 
 1. Klicka på en CTA-knapp i någon av varianterna.
 
-   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_.
+   Knappen är markerad, visar antalet tecken och visar två alternativ: _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_.
 
 1. Klicka på **[!UICONTROL Rephrase]**.
 
@@ -162,7 +162,7 @@ Den här funktionen för generativ utökning paras med beskärningsverktyget fö
 
 ## Ändra proportioner
 
-Du kan snabbt ändra [proportionen för Meta-annonser](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) för att få plats med önskad annonsstorlek. Välj en bildproportion som nära matchar mallens dimensioner för att undvika oönskad beskärning eller uttänjning. Om mallen till exempel är 1 200 × 628 pixlar (en bred rektangel) kan sidorna beskäras med en 1:1-fyrkantig bild, vilket kan göra att viktigt innehåll skärs bort. Den optimala bildstorleken är 628 x 628 pixlar, vilket motsvarar mallens höjd.
+Du kan snabbt ändra [proportionen för Meta-annonser](/help/user-guide/templates/meta-template.md#supported-aspect-ratios) för att få plats med önskad annonsstorlek. Välj en bildproportion som nära matchar mallens dimensioner för att undvika oönskad beskärning eller uttänjning. Om mallen till exempel är 1 200 × 628 pixlar (en bred rektangel) kan sidorna beskäras med en 1 :1 fyrkantig bild, vilket kan göra att viktigt innehåll skärs bort. Den optimala bildstorleken är 628 x 628 pixlar, vilket motsvarar mallens höjd.
 
 >[!NOTE]
 >
@@ -170,7 +170,7 @@ Du kan snabbt ändra [proportionen för Meta-annonser](/help/user-guide/template
 
 **Så här ändrar du proportionen för genererade Meta-annonser**:
 
-1. När du har genererat en uppsättning varianter väljer du storleksikonen för proportioner (pilen pekar mot rutans hörn) till vänster på arbetsytan.
+1. När du har genererat en uppsättning varianter klickar du på **[!UICONTROL Aspect ratio resize]** (pil som pekar mot ruthörnet) till vänster på arbetsytan.
 
    Proportionerna som används för dina annonser visas i den övre delen av fönstret _[!UICONTROL Resize]_.
 
@@ -184,7 +184,7 @@ Du kan snabbt ändra [proportionen för Meta-annonser](/help/user-guide/template
 
    [!DNL Create] skapar en kopia av varje variant baserat på den nya valda proportionen. Alla varianter, inklusive de som har de ursprungliga proportionerna, finns på arbetsytan.
 
-   Om du till exempel skapar fyra varianter i 1:1-proportionen först och sedan ändrar proportionerna till 4:5, är nu _åtta_ totala varianter tillgängliga på arbetsytan.
+   Om du till exempel genererar fyra varianter i 1:1-proportionen först och sedan ändrar proportionerna till 4:5, är nu totalt _åtta_ varianter tillgängliga på arbetsytan.
 
 ## Växla bild
 
@@ -296,8 +296,8 @@ Feedback om kvaliteten på genererade varumärkesanpassade resurser kan lämnas 
    Det visas ett popup-fönster där du kan samla in mer information. Den genererade informationen och uppmaningsinformationen ingår i din feedback.
 
 1. Lägg till följande information i feedback-popup:
-   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_&#x200B;om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
-   1. I avsnittet _[!UICONTROL What worked well?]_&#x200B;eller&#x200B;_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
+   1. Välj alternativet _[!UICONTROL Also include your reference content and layer data]_om du vill ta med den extra referensinformationen i den insamlade feedback-informationen.
+   1. I avsnittet _[!UICONTROL What worked well?]_eller_[!UICONTROL What went wrong?]_ väljer du de alternativ som beskriver vad som gör att innehållsgenereringen får hög eller dålig kvalitet.
    1. Lägg till annan användbar eller relaterad information i fältet _[!UICONTROL Notes]_.
 1. Klicka på **[!UICONTROL Submit]**.
 
