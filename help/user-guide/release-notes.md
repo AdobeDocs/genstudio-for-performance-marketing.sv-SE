@@ -4,18 +4,51 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 13687f4ac6c558a419c0bb7b83aa4f6d174aabbc
+source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
 workflow-type: tm+mt
-source-wordcount: '2676'
+source-wordcount: '3034'
 ht-degree: 0%
 
 ---
 
 # Versionsinformation för GenStudio for Performance Marketing
 
-Den här versionsinformationen innehåller information om de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
+Den här versionsinformationen innehåller de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025,06 {#latest}
+## 2025.07.25 {#latest}
+
+### Kompatibelt resursfilter
+
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+
+### Aktivering av flera tillgångar för metadata
+
+Bildaktivering med flera proportioner för Meta Ads gör det möjligt för annonsörer att överföra och aktivera flera bildresurser i olika proportioner under en enda annons. Med den här funktionen kan en annons ge rätt kreativ passning för olika typer av metaenheter som Feed, Stories och Reels. Annonsörer kan förhandsvisa hur varje bild återges på olika placeringar och publicera alla versioner på Meta i ett enda API-anrop.
+
+### RTF-formatering i varianter
+
+[Redigera textfält i genererade varianter med formaterad text](/help/user-guide/create/manage-variants.md#manually-edit-text) alternativ som fet, kursiv, understrykning, textjustering, listor, textfärg, textstorlek och länkar. På så sätt kan du förfina text och fraser för publiken och använda formatering för att uppfylla layoutkraven.
+
+### Hjälpmedelsetiketter för bilder och länkar
+
+Lägg till hjälpmedelsetiketter (Aria-labels) till bilder och call-to-action länkar i dina varianter för att ge användarna hjälpmedelsanpassade namn som hjälper dem förstå syftet med interaktiva element. Mer information finns i [Hantera varianter](/help/user-guide/create/manage-variants.md).
+
+### Generering av icke-engelskt innehåll
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Den nya listrutan Språkväljare i snabbredigeringsfacket har stöd för att skapa flerspråkigt innehåll, vilket gör att regionala marknadsförare kan utveckla varumärkesanpassat innehåll för sina lokala målgrupper. Den här funktionen har för närvarande stöd för 12 GA-språk och 5 Beta-språk, med språklistan som ger ett definierat arbetsflöde och ett tydligt språkdirektiv för LLM för enhetligare resultat.
+
+### Mallval är valfritt för Meta ads
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan skapa annonser utan att behöva text och logotyp överst i mediet. Den här förbättringen möjliggör andra medietyper som animerade GIF-bilder och videor som kanske inte kräver textöverlägg eller logotypplacering.
+
+
+## Versionsinformation
+
++++Anteckningar från 2025.06.15
 
 ### Startmallar är tillgängliga
 
@@ -53,7 +86,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 * Nu kan du exportera kampanjinformation så att den blir externt åtkomlig som kampanjrapporter i Word eller PDF. Välj en kampanj och klicka sedan på **[!UICONTROL Export]** (övre högra hörnet).
 
-## Versionsinformation
++++
 
 +++Anteckningar från 2025.05.15
 
@@ -70,7 +103,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
@@ -148,7 +181,7 @@ Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillg
 
 ### Generera nya uppmaningar att agera
 
-Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA:er i varianter finns i [Ändra uppmaning till åtgärd](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA för varianter finns i [Ändra Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Korrigeringar och förbättringar
 
@@ -162,7 +195,7 @@ Nu kan du generera nya CTA-fraser (call-to-action) när du hanterar varianter. A
 
 * Personuppgifter, varumärken och produktval är nu förinlästa under mallgenereringen. <!-- GS-8069 -->
 
-* E-postlänken för att ringa till åtgärd är inte längre ett obligatoriskt fält. <!-- GS-8103 -->
+* E-postlänken för call-to-action är inte längre ett obligatoriskt fält. <!-- GS-8103 -->
 
 * Listrutan [!DNL Brand] för väljare fungerar nu som förväntat för mallar. Tidigare gick det inte att läsa in väljaren för vissa mallar. <!-- GS-8908 -->
 
@@ -306,7 +339,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Frågekassen [!DNL Create] stängs nu som förväntat när en användare klickar bort. <!-- GS-5254 -->
 
-* Export av metaannonser innehåller nu den valda etiketten för att ringa upp till åtgärd som förväntat. <!-- GS-6504 -->
+* Export av metadataannonser innehåller nu den valda call-to-action-etiketten som förväntat. <!-- GS-6504 -->
 
 * Varumärkespoängen uppdateras nu och behålls som förväntat för återskapade upplevelser. <!-- GS-6535 -->
 
