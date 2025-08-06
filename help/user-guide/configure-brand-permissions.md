@@ -4,18 +4,24 @@ description: Lär dig hur du tilldelar berättiganden för skapare och redigerar
 level: Intermediate
 feature: Brand Personalization, Generative AI
 exl-id: fc33ecd3-4403-4045-87af-012a0377226c
-source-git-commit: 89b7f477310326755a6b34cb97d5ad5664e98dec
+source-git-commit: 8ed591795cee157760159cca6e899cab15792252
 workflow-type: tm+mt
-source-wordcount: '677'
+source-wordcount: '686'
 ht-degree: 1%
 
 ---
 
 # Tilldela [!DNL Brand] behörigheter
 
-Som standard kan GenStudio systemhanterare skapa och redigera [!DNL Brands]. Rollerna som innehållsredigerare och medarbetare har behörighet att redigera och skapa, men behöver inte ha några systemhanteringsrättigheter. Om du vill ge innehållsredigerare och medarbetare dessa [!DNL Brand]-relaterade berättiganden måste en Adobe-systemadministratör utföra ytterligare konfigurationsuppgifter i Adobe Admin Console. Se [Adobe Admin Console](https://helpx.adobe.com/se/enterprise/using/admin-console.html#Overview) i _Administrationshandboken för Enterprise och Teams_.
+Som standard kan GenStudio systemhanterare skapa och redigera [!DNL Brands]. Rollerna som innehållsredigerare och medarbetare har behörighet att redigera och skapa, men behöver inte ha några systemhanteringsrättigheter.
 
-Att lägga till användare och användargrupper är grundläggande uppgifter som är gemensamma för alla Adobe-produkter med berättiganden som hanteras via Admin Console. Se [Adobe Admin Console-användare](https://helpx.adobe.com/se/enterprise/using/users.html) i _Administrationshandboken för Enterprise och Teams_ för en översikt över användarhantering och procedurer för att lägga till användare och användargrupper.
+Om du vill ge innehållsredigerare och medarbetare dessa [!DNL Brand]-relaterade berättiganden måste en Adobe-systemadministratör utföra ytterligare konfigurationsuppgifter i Adobe Admin Console. Se [Adobe Admin Console](https://helpx.adobe.com/enterprise/using/admin-console.html#Overview) i _Administrationshandboken för Enterprise och Teams_.
+
+Att lägga till användare och användargrupper är grundläggande uppgifter som är gemensamma för alla Adobe-produkter med berättiganden som hanteras via Admin Console. Se [Adobe Admin Console-användare](https://helpx.adobe.com/enterprise/using/users.html) i _Administrationshandboken för Enterprise och Teams_ för en översikt över användarhantering och procedurer för att lägga till användare och användargrupper.
+
+Titta på den här videogenomgången eller följ stegen nedan.
+
+>[!VIDEO](https://video.tv.adobe.com/v/3470499/?learn=on&enablevpops)
 
 ## Steg 1: Skapa en användargrupp
 
@@ -31,7 +37,7 @@ Att lägga till användare och användargrupper är grundläggande uppgifter som
 
 1. Klicka på **[!UICONTROL Save]**. Admin Console öppnar popup-fönstret _Ny grupp_ med namnet på den nyligen skapade gruppen.
 
-Se [Hantera användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) i _Administrationshandboken för Enterprise och Teams_.
+Se [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationshandboken för Enterprise och Teams_.
 
 ## Steg 2: Tilldela en GenStudio-systemhanterarprofil till användargruppen
 
@@ -41,7 +47,7 @@ När du har skapat en ny användargrupp och lagt till användare kan du tilldela
 
 1. Navigera till den nya användargruppen och klicka på fliken _Tilldelade produktprofiler_.
 
-1. Klicka på **[!UICONTROL Assign profile]** på fliken _Tilldelade produktprofiler_. Popup-fönstret _Tilldela produkter och profiler_ öppnas.
+1. Klicka på _på fliken_ Tilldelade produktprofiler **[!UICONTROL Assign profile]**. Popup-fönstret _Tilldela produkter och profiler_ öppnas.
 
 1. Välj `Adobe GenStudio` i listan _Välj produkter_.
 
@@ -53,7 +59,7 @@ När du har skapat en ny användargrupp och lagt till användare kan du tilldela
 
 1. Klicka på **[!UICONTROL Save]**.
 
-Se [Tilldela produktprofiler till användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) i _Administrationshandboken för Enterprise och Teams_.
+Se [Tilldela produktprofiler till användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationshandboken för Enterprise och Teams_.
 
 ## Steg 3: Lägg till användare i användargruppen
 
@@ -69,7 +75,7 @@ Om du vill tilldela användare behörighet att skapa, redigera och publicera [!D
 
 1. Markera namnet på användargruppen som du skapade tidigare. Popup-fönstret _Lägg till användare i den här användargruppen_ öppnas.
 
-1. Lägg till en ny eller befintlig användare med antingen användarnamn eller e-postadress. När du anger ett namn eller en e-postadress för en befintlig användare fylls fältet automatiskt i med matchande namn för kända användare som tillhör den här IMS-organisationen. Läs om hur du hanterar användargrupper i [Hantera användargrupper](https://helpx.adobe.com/se/enterprise/using/user-groups.html) i _Administrationsguiden för Enterprise och team_.
+1. Lägg till en ny eller befintlig användare med antingen användarnamn eller e-postadress. När du anger ett namn eller en e-postadress för en befintlig användare fylls fältet automatiskt i med matchande namn för kända användare som tillhör den här IMS-organisationen. Läs om hur du hanterar användargrupper i [Hantera användargrupper](https://helpx.adobe.com/enterprise/using/user-groups.html) i _Administrationsguiden för Enterprise och team_.
 
 Användare får behörighet att skapa, redigera och publicera [!DNL Brand] för Adobe GenStudio-systemhanterare när de läggs till i gruppen. Användarna får även en automatisk e-postinbjudan om att redigera Adobe GenStudio for Performance Marketing [!DNL Brands]-projektet.
 
@@ -89,7 +95,7 @@ Ett _projekt_ tillhandahåller en lagringsplats där utvalda användare kan spar
 
 1. Klicka på **[!UICONTROL Create]**. Popup-fönstret _Bjud in till projekt_ öppnas.
 
-Se [Hantera projekt](https://helpx.adobe.com/se/enterprise/using/projects-in-business-storage.html) i _Administrationshandboken för företag och team_.
+Se [Hantera projekt](https://helpx.adobe.com/enterprise/using/projects-in-business-storage.html) i _Administrationshandboken för företag och team_.
 
 ## Steg 5: Bjud in användargrupp till projekt
 
