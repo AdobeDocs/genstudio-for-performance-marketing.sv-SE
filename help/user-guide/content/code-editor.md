@@ -1,13 +1,13 @@
 ---
-title: Mallkodredigerare
+title: Mallkodsredigerare
 description: Lär dig använda mallkodsredigeraren i GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation
 exl-id: b46fc7a9-88c1-474a-9d7b-1df7740d8f5a
-source-git-commit: 3739a218ce67749d0038059e3504ab9a4df8f065
+source-git-commit: 81c4b10e22ac347eb2a464496bd65b29c3c94efa
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '772'
 ht-degree: 0%
 
 ---
@@ -22,19 +22,36 @@ Mallkodredigeraren är utformad för att hjälpa dig att verifiera och förfina 
 
 ## Kontrollera identifierade fält
 
-I rutan _[!UICONTROL Check detected fields]_&#x200B;visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
+I rutan _[!UICONTROL Check detected fields]_visas en lista med fält som GenStudio for Performance Marketing känner igen i din mall. Granska listan och bläddra igenom HTML-koden för att se hur mallen har skapats.
 
 ![Vyn Kodredigeraren](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){width="600" zoomable="yes"}
 
 Om du upptäcker att ett fält saknas i listan söker du efter mallkoden och letar reda på platsen för det fält som saknas. Infoga rätt platshållare med hjälp av Handlebars-syntaxen och ett [igenkänt fältnamn](/help/user-guide/content/customize-template.md#recognized-field-names). Använd formuläret Sök och ersätt, som visas längst ned i kodredigeraren, om du vill söka efter särskilda strängar i koden. (Windows `CTRL`+`F` eller macOS `CMD`+`F`)
 
-### Korrigera
+## Justera roller för en variabel
 
-Om det finns fel i mallen kan du se ett `Template is invalid`-meddelande med en kort förklaring av problemet. I följande exempel anger meddelandet att fältet `_image` inte överensstämmer med den fältnamnkonvention som har upprättats i mallen för flera punkter. Meddelandet talar också om att du måste uppdatera fältnamnet med rätt prefix. Leta reda på fältet `_image` i mallkodsredigeraren och uppdatera namnet enligt anvisningarna.
+Du kan välja och ändra fältroller för textbaserade fältroller (till exempel `headline`, `sub_headline`, `body`, `cta`, `on_image_text`, `custom`) med en listruta under kontrollen av mallstrukturen. Fältrollval kvarstår under mallredigeringar så att anpassningarna inte går förlorade, vilket förbättrar arbetsflödets effektivitet.
+
+>[!NOTE]
+>
+>Bildvariabler kan inte ha sina roller justerade.
+
+![Markering av fält med flera roller](/help/assets/multirole-dropdown-field.png "Markering av fält med flera roller"){width="600" zoomable="yes"}
+
+Tilldela en roll till en variabel:
+
+1. Hitta variabeln i rutan _[!UICONTROL Check detected fields]_. Dessa variabler identifieras automatiskt.
+2. Granska rollerna som tilldelats varje variabel. Roller tilldelas automatiskt men kan justeras med hjälp av listrutan för alla variabler i mallen.
+3. Justera en roll genom att välja en ny roll i listrutan.
+4. Klicka på **[!UICONTROL Next]** för att fortsätta.
+
+## Korrigera
+
+Om det finns fel i mallen kan du se ett `Template is invalid`-meddelande med en kort förklaring av problemet. I följande exempel anger meddelandet att fältet `_image` inte följer den fältnamnkonvention som har upprättats i mallen för flera punkter. Meddelandet talar också om att du måste uppdatera fältnamnet med rätt prefix. Leta reda på fältet `_image` i mallkodsredigeraren och uppdatera namnet enligt anvisningarna.
 
 ![Korrigera ogiltig mall](/help/assets/animation/template-code-editor.gif){width="600" zoomable="yes"}
 
-Panelen _[!UICONTROL Check detected fields]_&#x200B;uppdateras för att återspegla de ändringar du har gjort. När du är säker på att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**&#x200B;för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).
+Panelen _[!UICONTROL Check detected fields]_uppdateras för att återspegla de ändringar du har gjort. När du är nöjd med att fälten är korrekta och fullständiga klickar du på&#x200B;**[!UICONTROL Next]**för att fortsätta [överföra mallen](/help/user-guide/content/use-templates.md#add-a-template).
 
 ## Vanliga mallproblem och lösningar
 
