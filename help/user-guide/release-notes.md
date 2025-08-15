@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 09dea200babd7bdd20a3372c91aca9918117897e
+source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
 workflow-type: tm+mt
-source-wordcount: '3034'
+source-wordcount: '3397'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,60 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.07.25 {#latest}
+## 2025.08.15 {#latest}
+
+### Insikter om textattribut
+
+Insikter om textattribut i Adobe GenStudio analyserar den känslomässiga tonen, övertalningstekniken och den berättarröst som används i annonstexten. När en kampanj är klar håller GenStudio reda på hur dessa textattribut korrelerar med nyckeltal som CTR, CPA, CPC, intryck och utgifter.
+
+Detta är för närvarande endast tillgängligt för annonser på engelska. Mer information finns i [Textfunktioner](/help/user-guide/insights/text-features.md).
+
+### Förbättringar av Insights-mallar
+
+* Kortet för förhandsgranskning av annonser innehåller nu alternativet &quot;Se mer&quot; för text.
+* Nya mallar för annonser i masterkort.
+
+### Generera flerspråkigt innehåll med varumärkesvalidering
+
+Den nya språkväljaren i snabbredigeraren har stöd för att skapa flerspråkigt innehåll, vilket gör att regionala marknadsförare kan utveckla varumärkesinnehåll för sina lokala målgrupper. Den här funktionen har för närvarande stöd för 12 språk.
+
+### Stöd för videomaterial i mallar
+
+* Videor kan läggas till i Meta- och LinkedIn-mallar.
+
+### Aktivera förbättringar av upplevelsen
+
+* Ny funktionalitet för att spara utkast av aktiveringar.
+* Ny funktion för att försöka utföra misslyckade aktiveringar igen.
+
+### Använd samma roll i flera textfält
+
+Flera textfält med samma roll stöds nu (till exempel body, cta, on image text osv.) för komplexa kundmallar.
+
+Utforska informationen i [vägledningen för mallkodsredigeraren](/help/user-guide/content/code-editor.md).
+
+### Stöd för nya Clio 4 Standard och Clio 4 Ultra-modeller
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Adobe GenStudio for Performance Marketing har nu stöd för den senaste Firefly Image Model 4-sviten, inklusive två kraftfulla varianter:
+
+**Clio 4 Standard**: Optimerad för snabbhet och enkelhet, idealisk för att skapa illustrationer, ikoner, enkla objektfoton och porträtt med ett motiv - som täcker 90 % av de kreativa behoven varje dag.
+
+**Clio 4 Ultra**: Prioriterar fotorealism och precision, vilket är suveränt när det gäller att återge mänskliga porträtt, medelstora grupper och komplexa scener för avancerade kreativa arbetsuppgifter.
+
+Mer information om hur du använder de här nya bildgenereringsmodellerna finns i [Generera resurser](/help/user-guide/create/generate-assets.md).
+
+### Färdig översättning för e-post
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-postöversättning som gör att marknadsförarna effektivt kan skala sina e-postkampanjer globalt. Med den här funktionen kan du ta en godkänd e-postupplevelse och översätta den till flera målspråk med Azure Open AI-översättningstjänster.
+
+
+## Versionsinformation
+
++++Anmärkningar från 2025.07.25
 
 ### Kompatibelt resursfilter
 
@@ -45,10 +98,9 @@ Den nya listrutan Språkväljare i snabbredigeringsfacket har stöd för att ska
 
 Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan skapa annonser utan att behöva text och logotyp överst i mediet. Den här förbättringen möjliggör andra medietyper som animerade GIF-bilder och videor som kanske inte kräver textöverlägg eller logotypplacering.
 
++++
 
-## Versionsinformation
-
-+++Anteckningar från 2025.06.15
++++Anmärkningar från 2025.06.15
 
 ### Startmallar är tillgängliga
 
@@ -88,7 +140,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 +++
 
-+++Anteckningar från 2025.05.15
++++Anmärkningar från 2025.05.15
 
 ### Korrigeringar och förbättringar
 
@@ -99,18 +151,18 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 +++
 
-+++Anteckningar från 2025.04.15
++++Anmärkningar från 2025.04.15
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
 
 +++
 
-+++Anteckningar från 2025.03.13
++++Anmärkningar från 2025.03.13
 
 ### Aktivera metaannonser
 
@@ -157,7 +209,7 @@ Det nya GenStudio for Performance Marketing [utökningsramverket](/help/extensib
 
 +++
 
-+++Anteckningar från 2025.02.13
++++Anmärkningar från 2025.02.13
 
 ### Förbättringar av landningssidan för [!DNL Create]
 
@@ -169,7 +221,7 @@ Du kan nu hämta den visningsbara tabellen från valfri [!DNL Insights]-vy till 
 
 +++
 
-+++Anteckningar från 2025.01.16
++++Anmärkningar från 2025.01.16
 
 ### Integrering med Adobe Workfront Proof
 
@@ -211,7 +263,7 @@ Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Anv�
 
 +++
 
-+++Anteckningar från 2024.12.12
++++Anmärkningar från 2024.12.12
 
 ### Nya funktioner
 
@@ -287,7 +339,7 @@ Med ytterligare nya funktioner kan redigerare:
 
 +++
 
-+++Anteckningar från 2024.11.14
++++Anmärkningar från 2024.11.14
 
 ### Nya funktioner
 
@@ -315,7 +367,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 +++
 
-+++Anteckningar från 2024.11.07
++++Anmärkningar från 2024.11.07
 
 ### Korrigeringar och förbättringar
 
@@ -361,7 +413,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 +++
 
-+++Anteckningar från 2024.10.31
++++Anmärkningar från 2024.10.31
 
 ### Nya funktioner
 
@@ -381,7 +433,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 +++
 
-+++Kommentarer från 2024.10.14 Allmän tillgänglighet
++++Anmärkningar från 2024.10.14 Allmän tillgänglighet
 
 I den här versionen presenteras Adobe GenStudio for Performance Marketing, en generativ AI-baserad applikation som snabbar upp planering, utveckling och analys av marknadsföringskampanjer. GenStudio for Performance Marketing ger marknadsföringsteamen möjlighet att skapa varumärkesanpassat flerkanalsinnehåll för annonser, e-post och kampanjer samtidigt som ni får realtidsinsikter för att optimera innehållets prestanda.
 
