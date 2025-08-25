@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 7390dc758427d19b23ce054b23fd830662913498
+source-git-commit: 778be59db2bf159c57095fbb2d89cff8c9704b33
 workflow-type: tm+mt
-source-wordcount: '3397'
+source-wordcount: '3393'
 ht-degree: 0%
 
 ---
@@ -47,15 +47,15 @@ Flera textfält med samma roll stöds nu (till exempel body, cta, on image text 
 
 Utforska informationen i [vägledningen för mallkodsredigeraren](/help/user-guide/content/code-editor.md).
 
-### Stöd för nya Clio 4 Standard och Clio 4 Ultra-modeller
+### Nya Firefly bildgenereringsmodeller stöds
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
 Adobe GenStudio for Performance Marketing har nu stöd för den senaste Firefly Image Model 4-sviten, inklusive två kraftfulla varianter:
 
-**Clio 4 Standard**: Optimerad för snabbhet och enkelhet, idealisk för att skapa illustrationer, ikoner, enkla objektfoton och porträtt med ett motiv - som täcker 90 % av de kreativa behoven varje dag.
+**Firefly-bild 4**: Optimerad för snabbhet och enkelhet, idealisk för att skapa illustrationer, ikoner, enkla objektfoton och porträtt med ett motiv - som täcker 90 % av de kreativa behoven varje dag.
 
-**Clio 4 Ultra**: Prioriterar fotorealism och precision, vilket är suveränt när det gäller att återge mänskliga porträtt, medelstora grupper och komplexa scener för avancerade kreativa arbetsuppgifter.
+**Firefly Image 4 Ultra**: Prioriterar fotorealism och precision, och är mycket bra på att återge mänskliga porträtt, medelstora grupper och komplexa scener för avancerade kreativa arbetsuppgifter.
 
 Mer information om hur du använder de här nya bildgenereringsmodellerna finns i [Generera resurser](/help/user-guide/create/generate-assets.md).
 
@@ -155,7 +155,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
