@@ -1,13 +1,13 @@
 ---
-title: Riktlinjer för e-postmallar
+title: Riktlinjer för e-postmall
 description: Följ vedertagna standarder när du använder e-postmallar med Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 4760da26d20e91489a74bb238e07f0d3b426c0a1
+source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
 workflow-type: tm+mt
-source-wordcount: '416'
+source-wordcount: '441'
 ht-degree: 0%
 
 ---
@@ -44,23 +44,24 @@ Det högsta tillåtna antalet fält i en mall är 20. Mer information om hur du 
 
 ## E-post med flera avsnitt
 
-Med _Avsnitt_ kan du ordna innehåll i distinkta grupper, som har stöd för mer komplexa layouter. I Genstudio for Performance Marketing kan du definiera varje avsnitt med hjälp av en gruppnamnkonvention. Se [Anpassa mallavsnitt](/help/user-guide/content/customize-template.md#sections-or-groups).
+Med _Avsnitt_ kan du ordna innehåll i distinkta grupper med stöd för mer komplexa layouter. I GenStudio for Performance Marketing kan du definiera varje avsnitt med hjälp av en gruppnamnkonvention. Se [Anpassa mallavsnitt](/help/user-guide/content/customize-template.md#sections-or-groups).
 
 Mallar med flera avsnitt kan ha 0, 2 eller 3 avsnitt:
 
-- En grundläggande mall (nollavsnitt) kan generera en enda uppsättning mallelement, vilket inte kräver gruppnamnkonventionen.
-- En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement, vilket kräver att du följer gruppnamnkonventionen: (`groupname_fieldname`)
+- En grundläggande mall (noll avsnitt) kan generera en enda uppsättning mallelement, vilket inte kräver gruppnamnkonventionen.
+- En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement, vilket kräver att du följer gruppnamnkonventionen: `<groupname_fieldname>`.
+- Om du använder flera avsnitt fylls inte element som är fristående utanför ett avsnitt i.
 
-Exempelfältsnamn för två avsnitt:
+Här är exempel på fältnamn som använder gruppnamnkonventionen för två avsnitt:
 
-- `pod1_headline`, `pod1_body`, `pod1_cta`
-- `pod2_headline`, `pod2_body`, `pod2_cta`
+- I avsnitt 1:`pod1_headline`, `pod1_body`, `pod1_cta`
+- I avsnitt 2:`pod2_headline`, `pod2_body`, `pod2_cta`
 
 ## Exempel på mallar
 
 +++Exempel: E-postmall med ett avsnitt
 
-Nedan följer ett grundläggande exempel på en HTML-e-postmall med ett avsnitt. `<head>` innehåller enkel infogad CSS för formatering, och `<body>` använder platshållare för innehåll som `pre_header`, `headline`, `sub_headline`, `body`, `cta` och `image` med länk och. Med dessa platshållare kan GenStudio for Performance Marketing lägga in dynamiskt innehåll när e-postmeddelanden skapas.
+Här är ett grundläggande exempel på en e-postmall från HTML med ett avsnitt. `<head>` innehåller enkel infogad CSS för formatering, och `<body>` använder platshållare för innehåll som `pre_header`, `headline`, `sub_headline`, `body`, `cta` och `image` med länk och. Med dessa platshållare kan GenStudio for Performance Marketing lägga in dynamiskt innehåll när e-postmeddelanden skapas.
 
 ```html
 <!DOCTYPE html>
@@ -109,7 +110,7 @@ Nedan följer ett grundläggande exempel på en HTML-e-postmall med ett avsnitt.
 
 +++Exempel: E-postmall med flera avsnitt
 
-Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt. Huvudet innehåller infogad CSS för att formatera en grupp. Brödtexten använder två grupper med [platshållare för innehåll](#content-placeholders) som använder ett prefix.
+Här är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt. Huvudet innehåller infogad CSS för att formatera en grupp. Brödtexten använder två grupper med [platshållare för innehåll](#content-placeholders) som använder ett prefix.
 
 ```html
 <!DOCTYPE html>
@@ -151,8 +152,6 @@ Följande är samma HTML-mall i exemplet ovan, men med ytterligare två avsnitt.
     </head>
     <body>{{pre_header}}
         <div class="container">
-            <h1>{{headline}}</h1>
-            <p>{{body}}</p>
             <!-- Pod1 -->
             <div class="pod">
                 <h2>{{pod1_headline}}</h2>
