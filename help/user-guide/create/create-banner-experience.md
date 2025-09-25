@@ -26,7 +26,7 @@ Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för a
 
 **Så här väljer du en banderollmall**:
 
-1. Klicka på _[!DNL Create]_i **[!UICONTROL Banners]**.
+1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Banners]**.
 1. Använd sökalternativet bredvid _Filter_ för att hitta en viss banderollmall.
 1. Klicka på en banderollmall i vyn _Välj mall_.
 1. Klicka på **[!UICONTROL Use]**.
@@ -127,7 +127,7 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade banderollerna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya banderollupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en banderoll](/help/assets/publish-displayad.png){width="450" zoomable="yes"}

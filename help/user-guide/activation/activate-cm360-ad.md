@@ -30,7 +30,7 @@ När synkroniseringen är klar kan du visa de tillagda kontona.
 
 ## Steg 3: Välj innehåll för annonsupplevelsen
 
-Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
+Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från&#x200B;_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
 
 **Så här väljer du upplevelser**:
 

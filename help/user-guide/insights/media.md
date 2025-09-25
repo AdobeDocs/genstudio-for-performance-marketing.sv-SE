@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Översikt över media
 
-Vyn [!DNL Insights] _[!UICONTROL Media]_visar en lista över medier som används i annonser och annonskampanjer för det valda kontot._ Media _representerar en bild, video, text eller annat kreativt innehåll som är godkänt för användning i dina marknadsföringssatsningar.
+Vyn [!DNL Insights] _[!UICONTROL Media]_&#x200B;visar en lista över medier som används i annonser och annonskampanjer för det valda kontot._ Media _representerar en bild, video, text eller annat kreativt innehåll som är godkänt för användning i dina marknadsföringssatsningar.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Media]_är ordnad med **[!UICONTROL Media ID]**. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Media]_&#x200B;är ordnad med **[!UICONTROL Media ID]**. Du kan växla mellan vyerna med hjälp av ikonen Visa lista (tabell) och ikonen för gallerivy (stödraster). Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Mediefilter och tabell](/help/assets/insights-media-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Media]_visas ett kollage med medieförhandsvisningar och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Media]_&#x200B;visas ett kollage med medieförhandsvisningar och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)

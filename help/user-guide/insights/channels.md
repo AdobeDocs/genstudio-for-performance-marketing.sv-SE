@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Översikt över kanaler
 
-Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det anslutna kanalannonskontot.
+Vyn [!DNL Insights] _[!UICONTROL Channels]_&#x200B;visar en lista med kampanjer för det anslutna kanalannonskontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Channels]_&#x200B;är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
 

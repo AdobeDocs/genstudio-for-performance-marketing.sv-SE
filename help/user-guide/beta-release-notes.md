@@ -19,7 +19,7 @@ I dessa anmärkningar beskrivs viktiga Adobe GenStudio for Performance Marketing
 
 * Filtreringsmöjligheterna i hela produkten har förbättrats. Problem med filtrering efter ålder och kön i [!DNL Insights] har lösts.  <!-- GS-1198 -->
 
-* Du kan redigera bildresurser (JPG eller PNG) direkt med Adobe Express. Innehållsredigerare kan använda arbetsytan i _[!UICONTROL Powered by Adobe Express]_för att ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder utan att lämna GenStudio for Performance Marketing. <!-- GS-4615 -->
+* Du kan redigera bildresurser (JPG eller PNG) direkt med Adobe Express. Innehållsredigerare kan använda arbetsytan i _[!UICONTROL Powered by Adobe Express]_&#x200B;för att ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder utan att lämna GenStudio for Performance Marketing. <!-- GS-4615 -->
 
 * Förbättrade upplevelsen av progressiv inläsning av genererade varianter, genererad e-post och sammanhangsbaserade meddelanden. <!-- GS-4651 3062-->
 
