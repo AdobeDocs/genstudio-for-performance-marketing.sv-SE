@@ -21,7 +21,7 @@ Att lägga till användare och användargrupper är grundläggande uppgifter som
 
 Titta på den här videogenomgången eller följ stegen nedan.
 
->[!VIDEO](https://video.tv.adobe.com/v/3474996?learn=on&enablevpops)
+>[!VIDEO](https://video.tv.adobe.com/v/3475001?learn=on&enablevpops&captions=swe)
 
 ## Steg 1: Skapa en användargrupp
 
