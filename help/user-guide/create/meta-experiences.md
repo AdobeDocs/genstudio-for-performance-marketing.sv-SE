@@ -1,26 +1,26 @@
 ---
-title: Metaupplevelser
-description: Lär dig allt om Meta-upplevelser i Adobe GenStudio for Performance Marketing.
+title: Meta Experiences
+description: Läs allt om Meta upplevelser i Adobe GenStudio for Performance Marketing.
 feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 0344e43bc9cd417ea7b3ecd3a394bbcd6b104303
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
 
 ---
 
-# Metaupplevelser
+# Meta-upplevelser
 
-Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av avancerade metaupplevelser](/help/user-guide/create/create-meta-ad.md). Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad uppmaning](/help/user-guide/effective-prompts.md) för att snabbt [skapa upplevelser för Meta-annonser](/help/user-guide/create/create-meta-ad.md).
+Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av slagkraftiga Meta-upplevelser](/help/user-guide/create/create-meta-ad.md). Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad fråga](/help/user-guide/effective-prompts.md) för att snabbt [skapa Meta-annonsupplevelser](/help/user-guide/create/create-meta-ad.md).
 
-När du genererar metaupplevelser skapas och visas fyra varianter på arbetsytan. GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+När du genererar Meta-upplevelser skapas och visas fyra varianter på arbetsytan. GenStudio for Performance Marketing stöder både [Meta-annonser i standardstorlek och anpassad storlek](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
-När du genererar metaupplevelser skapas och visas fyra variationer på arbetsytan.
+När du genererar Meta-upplevelser skapas och visas fyra varianter på arbetsytan.
 
-GenStudio for Performance Marketing stöder både [standardannonser och anpassade Meta-annonser](/help/user-guide/templates/meta-template.md).
+GenStudio for Performance Marketing stöder både [Meta-annonser i standardstorlek och anpassad storlek](/help/user-guide/templates/meta-template.md).
 
 Redigerbara avsnitt i en e-postupplevelse omfattar:
 
@@ -32,7 +32,7 @@ Redigerbara avsnitt i en e-postupplevelse omfattar:
 
 Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
 
-## Meta-annonskanaler
+## Meta annonskanaler
 
 När ni skapar annonsupplevelser i Meta kan ni generera varianter för både Facebook- och Instagram-kanaler. Växla fram och tillbaka mellan Facebook- och Instagram-annonser för att förhandsgranska varianter för varje kanal.
 
@@ -44,7 +44,7 @@ När innehållsgenereringsprocessen startar läses varje avsnitt av genererat in
 
 När du klickar på **[!UICONTROL Generate]** visas en inläsningsindikator längst ned på arbetsytan som uppdaterar dig när du genererar.
 
-Varje fält och avsnitt i Meta-annonsupplevelsen läses in stegvis i den här sekvensen:
+Varje fält och avsnitt i Meta annonsupplevelser läses in stegvis i den här sekvensen:
 
 1. Primär text för alla variationer
 1. Anrop till åtgärd och associerade URL:er

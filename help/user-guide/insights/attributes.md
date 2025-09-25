@@ -4,7 +4,7 @@ description: Lär dig hur du utvärderar prestandan för specifika attribut i Ad
 level: Intermediate
 feature: Reporting and Insights, Content Attributes, Content Performance
 exl-id: 9d05c128-50d5-415a-ae60-7023c36c06ad
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '795'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Attribut - översikt
 
-Vyn [!DNL Insights] _[!UICONTROL Attributes]_&#x200B;visar en lista med attribut som används i annonskampanjer för det valda kanalkontot.
+Vyn [!DNL Insights] _[!UICONTROL Attributes]_visar en lista med attribut som används i annonskampanjer för det valda kanalkontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Attributes]_&#x200B;är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**&#x200B;och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Attributes]_är ordnad med namnet [!UICONTROL Attribute]. Du kan växla mellan listtyperna med knappen **[!UICONTROL Images]**och knappen **[!UICONTROL Video]**. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Attributfilter och tabell](/help/assets/insights-attributes-filter.png){zoomable="yes"}
 
@@ -57,8 +57,8 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | ---------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Attribute]** | Attributnamnet. | Sortera tabellen genom att klicka på kolumnrubriken för något av nyckelmåtten. |
 | **[!UICONTROL Category]** | Den [kategori](#categories) som representerar den inbyggda kvaliteten för ett attribut. |  |
-| **[!UICONTROL # of images]** | Antalet bilder som har det här attributet. | Antalet i attributtabellen kan vara ett annat än antalet i vyn Attributinformation. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
-| **[!UICONTROL # of videos]** | Antalet videor som har det här attributet. | Antalet i attributtabellen kan vara ett annat än antalet i vyn Attributinformation. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL # of images]** | Antalet bilder som har det här attributet. | Antalet i attributtabellen kan vara ett annat än antalet i vyn Attributinformation. Skillnaden kan uppstå om kanalkällan, t.ex. Meta och GenStudio, använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL # of videos]** | Antalet videor som har det här attributet. | Antalet i attributtabellen kan vara ett annat än antalet i vyn Attributinformation. Skillnaden kan uppstå om kanalkällan, t.ex. Meta och GenStudio, använder något olika sammanfattningsberäkningar. |
 | **[!UICONTROL Impressions]** | En mängd varje gång en bild eller videor med det här attributet läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du tänka på det i relation till andra engagemangsmått. |
 | **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med en bild eller video med det här attributet. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i klickningar på bilder eller videor med det här attributet.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |

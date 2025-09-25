@@ -7,7 +7,7 @@ level: Beginner
 badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 recommendations: noDisplay
 exl-id: abe10fc8-d6d5-4cad-9273-400b622f22b7
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '1183'
 ht-degree: 0%
@@ -28,10 +28,10 @@ Du kan välja i listan över egna mallar eller välja en startmall.
 
 **Så här väljer du en LinkedIn-mall**:
 
-1. Klicka på **[!UICONTROL LinkedIn]** i _[!DNL Create]_.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL LinkedIn]**.
 1. Välj **[!UICONTROL Custom templates]** om du vill bläddra bland dina överförda mallar eller **[!UICONTROL Starter templates]** om du vill bläddra bland de fördefinierade mallarna.
 
-   Om du tänker lägga till videoresurser i Meta-varianterna måste du välja en startmall. De är förinlästa med systemdefinierade innehållsområden som underlättar användningen av videoklipp.
+   Om du tänker lägga till videoresurser i dina Meta-varianter måste du välja en startmall. De är förinlästa med systemdefinierade innehållsområden som underlättar användningen av videoklipp.
 
 1. Klicka för att välja en mall och klicka sedan på **[!UICONTROL Use]**.
 
@@ -89,7 +89,7 @@ Innan du skickar varianter för godkännande eller publicering till [!DNL Conten
 
 * **Om du vill [redigera namnet på LinkedIn och utkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du i titeln _Namnlöst utkast_ högst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera en LinkedIn-annons manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av annonsavsnitten (till exempel ämnesraden, huvudet eller brödtexten) och redigerar efter behov.
-* **Om du vill ändra eller markera anropet till åtgärden** klickar du på knappen för att ringa till åtgärd och väljer bland de tillgängliga textalternativen för knappen. Ange en URL för call-to-action-texten i _Länk_.
+* **Om du vill ändra eller markera call to action** klickar du på knappen call-to-action och väljer bland de tillgängliga knapptextalternativen. Ange en URL för call-to-action-texten i _Länk_.
 * **Om du vill [använda textformatering](/help/user-guide/create/manage-variants.md#manually-edit-text)** i en variant klickar du på texten i bilden för en variant och sedan på **[!UICONTROL Format text]**.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny uppmaning i [!UICONTROL Generate new text_ section] och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [använda Generativ utökning för att ändra storlek på och anpassa bilder](/help/user-guide/create/manage-variants.md#use-generative-expand) till din arbetsmall** klickar du på en bild, klickar på **[!UICONTROL Edit]** (pennikon) och sedan **[!UICONTROL Expand]**. Justera bilden så att den passar proportionerna och mallen.
@@ -108,7 +108,7 @@ Videoklippen omformas så att de passar de valda proportionerna under generering
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj **[!UICONTROL Good output]** eller **[!UICONTROL Poor output]** om du vill [skicka feedback](/help/user-guide/create/manage-variants.md#generation-feedback) om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -130,7 +130,7 @@ Använd panelen Godkännanden, som finns på den övre menyraden på arbetsytan,
 
 **Så här får du granskningar och godkännanden**:
 
-1. [Starta en godkännandebegäran](/help/user-guide/approvals/request-review.md) för att begära ett [godkännande av förberedda Meta-annonsupplevelser](/help/user-guide/approvals/approve-content.md).
+1. [Starta en godkännandebegäran](/help/user-guide/approvals/request-review.md) för att begära ett [godkännande av Meta-annonsupplevelser](/help/user-guide/approvals/approve-content.md).
 
    ![Skicka utkast för granskning och godkännande](/help/assets/send-approval-meta.png){width="450" zoomable="yes"}
 

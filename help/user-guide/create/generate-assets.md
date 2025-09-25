@@ -6,7 +6,8 @@ badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Be
 role: User
 level: Beginner
 recommendations: noDisplay
-source-git-commit: 277731aeea966da3cbd1fdabf015bfab3b907d39
+exl-id: c1118ada-7fee-43cd-aff4-eab69539afb4
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '765'
 ht-degree: 0%
@@ -21,7 +22,7 @@ Om du vill skapa en effektfull och effektfull bild rekommenderar vi att du [läg
 
 ## Bildtyper
 
-_[!DNL On-brand images]_&#x200B;är genererade resurser som hämtar inspiration från en vald bild och fångar upp den visuella effekten och den övergripande estetiken. De här bilderna skapas med bilder som redan finns i [!DNL Content] och en noggrant skapad prompt som guidar designen. De följer strikt både varumärkesriktlinjerna och de parametrar som valts under produktionsprocessen.
+_[!DNL On-brand images]_är genererade resurser som hämtar inspiration från en vald bild och fångar upp den visuella effekten och den övergripande estetiken. De här bilderna skapas med bilder som redan finns i [!DNL Content] och en noggrant skapad prompt som guidar designen. De följer strikt både varumärkesriktlinjerna och de parametrar som valts under produktionsprocessen.
 
 _[!DNL On-brand images]_<!-- and _[!DNL Similar images]_ --> innehåller angivna riktlinjer, parametrar och en [genomtänkt fråga](/help/user-guide/effective-prompts.md) för att leverera tilltalande bildresurser.
 
@@ -33,11 +34,11 @@ Du kan generera [!DNL On-brand images] med hjälp av definierade riktlinjer, par
 
 ### Välj en referensbild
 
-Om du vill skapa en _[!DNL On-brand images]_&#x200B;väljer du en befintlig bild som sparats i [!DNL Content]. Mer information om [!DNL on-brand image]-dimensioner som stöds finns i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+Om du vill skapa en _[!DNL On-brand images]_väljer du en befintlig bild som sparats i [!DNL Content]. Mer information om [-dimensioner som stöds finns i ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)Bästa tillvägagångssätt för mallar[!DNL on-brand image].
 
 **Välj en referensbild**:
 
-1. Klicka på **[!UICONTROL On-brand image]** i _[!DNL Create]_.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL On-brand image]**.
 1. Använd sökalternativet bredvid _Filter_ för att hitta en viss bild.
 
    ![Välj referensbild](/help/assets/select-img.png){width="400" zoomable="yes"}
@@ -71,7 +72,7 @@ Genom att ta med [riktlinjer](/help/user-guide/guidelines/overview.md) och param
    Models are available if you access to [custom models in Firefly](https://adobedx.slack.com/archives/CMF1JGMLY/p1743534402774569). The _Models_ list will be blank if you do not have access. -->
 
 1. Välj önskat proportioner från _[!UICONTROL Aspect ratio]_.
-1. Klicka på **[!UICONTROL Select from Content]** i _[!UICONTROL Style reference]_&#x200B;för att lägga till en referensbild. Bilden du väljer påverkar den visuella estetiken och djupet i de bilder du genererar.
+1. Klicka på **[!UICONTROL Select from Content]** i _[!UICONTROL Style reference]_för att lägga till en referensbild. Bilden du väljer påverkar den visuella estetiken och djupet i de bilder du genererar.
 
    Om du vill använda resurser från en ansluten [!DNL AEM Assets Content Hub]-databas väljer du en databas i listrutan _Plats_ . Filtrera och markera en bild.
 
@@ -104,11 +105,11 @@ När du har genererat bildvarianter kan du redigera dem direkt i Adobe GenStudio
 
    Ett _Powered by Adobe Express_-fönster visas.
 
-1. Utför bildredigering, till exempel [beskära en bild](https://helpx.adobe.com/se/express/create-and-edit-images/edit-images/crop-images.html), [ta bort ett objekt](https://helpx.adobe.com/se/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) och använda effekter.
+1. Utför bildredigering, till exempel [beskära en bild](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [ta bort ett objekt](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) och använda effekter.
 
-   Läs [Adobe Express-dokumentation](https://helpx.adobe.com/se/express/user-guide.html) om du vill veta mer om hur du ändrar bilder i GenStudio for Performance Marketing med Adobe Express.
+   Läs [Adobe Express-dokumentation](https://helpx.adobe.com/express/user-guide.html) om du vill veta mer om hur du ändrar bilder i GenStudio for Performance Marketing med Adobe Express.
 
-1. Klicka på _[!UICONTROL Apply changes]_&#x200B;om du vill spara ändringarna.
+1. Klicka på _[!UICONTROL Apply changes]_om du vill spara ändringarna.
 1. Fortsätt redigera enskilda bildvarianter efter behov och tillämpa ändringarna för att spara förloppet.
 
 ### Verifiera justering av innehållskontroll
@@ -150,7 +151,7 @@ Genererade bildutkast visas i avsnittet _Senaste_ på startsidan för [!DNL Crea
 Om du vill göra de genererade bilderna tillgängliga för aktuell och framtida användning publicerar du dem till [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya bilder** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet.
-   1. _[!UICONTROL Add details]_, till exempel&#x200B;_[!UICONTROL Campaigns]_ eller _[!UICONTROL Channels]_, om du vill.
+   1. _[!UICONTROL Add details]_, till exempel_[!UICONTROL Campaigns]_ eller _[!UICONTROL Channels]_, om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
 1. **Om du vill exportera dina nya bilder** klickar du på **[!UICONTROL Export]** i det övre verktygsfältet.

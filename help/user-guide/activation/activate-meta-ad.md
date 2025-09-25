@@ -1,34 +1,34 @@
 ---
 title: Aktivera en Meta-annons
-description: Lär dig hur du aktiverar en annonsupplevelse i Meta.
+description: Lär dig hur du aktiverar en annonsupplevelse från Meta.
 feature: Ad Activation
 exl-id: 157df612-a774-422c-bca3-2fde9e9d1c88
-source-git-commit: 2d43b1b3373c5ed0b80d9740906d372955816831
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1868'
 ht-degree: 0%
 
 ---
 
 # Aktivera en Meta-annons
 
-Adobe GenStudio for Performance Marketing stöder aktivering av Meta-annonsupplevelser för Instagram och Facebook.
+Adobe GenStudio for Performance Marketing stöder aktivering av Meta annonsupplevelser för Instagram och Facebook.
 
-Du kan [skapa en metaupplevelse](/help/user-guide/create/create-meta-ad.md) i GenStudio for Performance Marketing och välja den för aktivering, eller skapa en ny upplevelse från godkända resurser i [!DNL Activate].
+Du kan [skapa en Meta-upplevelse](/help/user-guide/create/create-meta-ad.md) i GenStudio for Performance Marketing och välja den för aktivering, eller skapa en ny upplevelse från godkända resurser i [!DNL Activate].
 
-När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering till andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda er annonsupplevelse för Metas specifika krav. När du har aktiverat en metaupplevelse i GenStudio for Performance Marketing använder du [Metaannonshanteraren](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika metaannonsplaceringar före den slutliga publiceringen.
+När du aktiverar en Meta-annons följer [samma allmänna steg](create-activation.md) som krävs för aktivering i andra betalda kanaler. Aktiveringsprocessen har stöd för att förbereda er annonsupplevelse för Meta specifika krav. När du har aktiverat en Meta-upplevelse i GenStudio for Performance Marketing använder du [Meta Ads Manager](https://adsmanager.facebook.com/) för att finjustera upplevelsen för specifika Meta-annonsplaceringar innan den slutliga publiceringen.
 
 GenStudio systemansvariga och redaktörer kan aktivera annonsupplevelser.
 
 ## Steg 1: Konfigurera dina Meta-konton
 
-[Logga in på Meta](https://adsmanager.facebook.com/) för att komma åt ditt Meta Ads Manager-konto innan du startar en aktivering.
+[Logga in på Meta](https://adsmanager.facebook.com/) för att få åtkomst till ditt Meta Ads Manager-konto innan du startar en aktivering.
 
 >[!BEGINSHADEBOX]
 
 **Förutsättningar**:
 
-Bekräfta att dina anslutna Meta-annonskonton har fullständig behörighet att hantera annonser i de här komponenterna i Meta-annonsplattformen:
+Bekräfta att dina anslutna Meta-annonskonton har fullständig behörighet att hantera annonser i de här komponenterna av Meta annonsplattform:
 
 * Facebook-sida
 * Meta-kampanj
@@ -39,9 +39,9 @@ Bekräfta att dina anslutna Meta-annonskonton har fullständig behörighet att h
 
 ## Steg 2: Anslut till dina Meta-konton
 
-Innan din organisation kan aktivera upplevelser måste en GenStudio-systemadministratör ansluta dina Meta-konton till GenStudio for Performance Marketing. Med den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocessen.
+Innan ni kan aktivera upplevelser måste en GenStudio-systemadministratör koppla era Meta-konton till GenStudio for Performance Marketing. Tack vare den här anslutningen kan data flöda mellan GenStudio och externa marknadsföringsverktyg som Meta, vilket möjliggör aktiveringsprocessen.
 
-Se [Ansluta till metaannonser](/help/user-guide/connectors/meta-ads.md).
+Se [Ansluta till Meta Ads](/help/user-guide/connectors/meta-ads.md).
 
 När synkroniseringen har slutförts kan du visa de tillagda kontona. Stora mängder data tar längre tid att synkronisera.
 
@@ -61,13 +61,13 @@ Om du har markerat mer än en upplevelse som ska aktiveras som en grupp använde
 
 1. Använd söknings- och filterverktygen i [!DNL Content]-galleriet för att identifiera den upplevelse som du vill aktivera och klicka sedan på **[!UICONTROL Activate]**.
 
-   Sidan Metaannonser _Experience setup_ öppnas för den här upplevelsen. Den är förifylld med information från den valda upplevelsen. Du kan redigera fälten **[!UICONTROL Call-to-action]**, **[!UICONTROL Website URL]** och **[!UICONTROL Display link]**. Om du väljer mer än en upplevelse att aktivera, innehåller vyn _Upplevelsekonfiguration_ en vänster sidospalt som visar miniatyrbilder av alla valda upplevelser. Använd den här vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
+   Sidan _Upplevelsekonfiguration_ visas för den här upplevelsen. Den är förifylld med information från den valda upplevelsen. Du kan redigera fälten **[!UICONTROL Call-to-action]**, **[!UICONTROL Website URL]** och **[!UICONTROL Display link]**. Om du väljer mer än en upplevelse att aktivera, innehåller vyn _Upplevelsekonfiguration_ en vänster sidospalt som visar miniatyrbilder av alla valda upplevelser. Använd den här vänstra sidofältet för att fokusera vyn _Experience setup_ på informationen för den valda upplevelsen.
 
 1. Välj en kampanj i listrutan **[!UICONTROL Campaigns]**.
 
    Om du arbetar med flera upplevelser kan du växla mellan upplevelserna i det vänstra sidofältet tills du har färdigställt varje upplevelse.
 
-1. Klicka på **[!UICONTROL Next]** för att bekräfta dina inställningar för Meta-annonser.
+1. Klicka på **[!UICONTROL Next]** för att bekräfta konfigurationen av dina Meta-annonser.
 
 1. Ge varje upplevelse ett namn. Efter aktiveringen kan du använda det här namnet för att söka efter den här upplevelsen i tabellen _Aktiverade upplevelser_.
 
@@ -98,7 +98,7 @@ Efter överföring sparas resurserna i [!DNL Content]. I området _Media_ visas 
 
 [!DNL Content] ger en central vy för din organisations godkända resurser och upplevelser. Du kan fokusera det [[!DNL Content] galleri](/help/user-guide/content/manage-assets.md) som visas på resursen med menyalternativen **[!UICONTROL Search]** (förstoringsglas) och _Filter_ .
 
-1. Klicka på **[!UICONTROL New]** på kanalkortet från [!DNL Activate]. Vyn _Experience Setup_ öppnas.
+1. Klicka på [!DNL Activate] på kanalkortet från **[!UICONTROL New]**. Vyn _Experience Setup_ öppnas.
 
 1. Klicka på **[!UICONTROL Select]** och välj sedan **[!UICONTROL Select from Content]**. Vyn _Välj innehåll_ öppnas och ett galleri med bildresurser som du söker igenom eller filtrerar visas.
 
@@ -112,9 +112,9 @@ Om överföringen inte lyckas visas ett informativt felmeddelande som innehålle
 
 Du kan överföra upp till sex statiska bilder utanför galleriet [!DNL Content] från antingen Microsoft OneDrive eller Dropbox.
 
-1. Klicka på **[!UICONTROL New]** på panelen Meta i [!DNL Activate]. Fönstret _Experience Setup_ öppnas.
+1. Klicka på [!DNL Activate] på Meta-panelen i **[!UICONTROL New]**. Fönstret _Experience Setup_ öppnas.
 
-1. Klicka på **[!UICONTROL Select]** i avsnittet _Media_. I en nedrullningsbar meny visas alternativ för att _välja från innehåll_ eller _överföra_.
+1. Klicka på _i avsnittet_ Media **[!UICONTROL Select]**. I en nedrullningsbar meny visas alternativ för att _välja från innehåll_ eller _överföra_.
 
 1. Klicka på **[!UICONTROL Upload]**. Fönstret _Lägg till proportioner_ öppnas.
 
@@ -128,7 +128,7 @@ Du kan överföra upp till sex statiska bilder utanför galleriet [!DNL Content]
 
 ### Lägga till text
 
-Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till övertygande, varumärkesanpassad text i obligatoriska textfält. Texten innehåller den primära (brödtexten) texten för annonsen och texten för uppmaning att ringa in. Du kan inte redigera fälten _Primär text_, _Rubriker_ och _Beskrivning_. Du kan redigera fälten _Call-to-action_, _Visningslänk_ och _URL-adress för webbplats_.
+Använd avsnittet _Text_ på sidan _Aktivera Meta-annons_ för att lägga till övertygande, varumärkesanpassad text i obligatoriska textfält. Texten innehåller den primära (brödtexten) texten för annonsen och call-to-action-texten. Du kan inte redigera fälten _Primär text_, _Rubriker_ och _Beskrivning_. Du kan redigera fälten _Call-to-action_, _Visningslänk_ och _URL-adress för webbplats_.
 
 | Fält | Obligatoriskt | Teckengräns (max) |
 |-----------------|---------------------------|---------------------------------|
@@ -136,12 +136,12 @@ Använd avsnittet _Text_ på sidan _Aktivera meta-annons_ för att lägga till �
 | Primär text | ja | 500 |
 | Headline | ja | 255 |
 | Beskrivning | no | 125 |
-| Uppmaning | ja | endast alternativ i listrutor |
+| Call to action | ja | endast alternativ i listrutor |
 | Visa URL | no | 1000 |
 | Webbplatsens URL | ja | 1000 |
 | Bild | minst en |                                 |
 
-GenStudio for Performance Marketing kräver _primär text_ och _rubrik_, inte metadata.
+GenStudio for Performance Marketing kräver _primär text_ och _rubrik_, inte Meta.
 
 ### Tilldela metadata
 
@@ -158,19 +158,19 @@ Upplevelseinformation sparas som metadata och hjälp när användaren söker eft
 | Språk | Språk som annonsupplevelsen används för |
 | Nyckelord | Användardefinierade nyckelord som underlättar sökning och kategorisering av annonsupplevelsen |
 
-När du har sammanställt eller valt din upplevelse klickar du på **[!UICONTROL Next]** för att bekräfta metainställningen.
+När du har sammanställt eller valt din upplevelse klickar du på **[!UICONTROL Next]** för att bekräfta din Meta-konfiguration.
 
-## Steg 4: Bekräfta konfigurationen av meta-kontot
+## Steg 4: Bekräfta konfigurationen av Meta-kontot
 
-När ni har förberett era annonsupplevelser måste ni bekräfta era Meta-kontouppgifter. Vyn _Meta och konfiguration_ har fyllts i med alternativ som härleds från de konfigurerade Meta-kontona.
+När ni har förberett era annonsupplevelser måste ni bekräfta er kontoinformation för Meta. Vyn _Meta-annonskonfiguration_ har fyllts i med alternativ som härleds från de konfigurerade Meta-kontona.
 
 | Detalj | Beskrivning |
 |------------|-------------|
-| Konton | Meta-konton som har anslutits till GenStudio for Performance Marketing |
+| Konton | Meta-konton som är anslutna till GenStudio for Performance Marketing |
 | Facebook-sida | Facebook-sida där upplevelsen publiceras |
 | Instagram-konto | Instagramkonton som har anslutits till GenStudio for Performance Marketing |
-| Kampanjer | Metakampanjer som annonsupplevelsen tillhör |
-| Annonsuppsättningar | Meta ad sets som den aktiverade annonsupplevelsen tillhör. Inställningarna bestämmer den slutliga placeringen av annonsen. |
+| Kampanjer | Meta-kampanjer som annonsupplevelsen tillhör |
+| Annonsuppsättningar | Meta annonsuppsättningar som den aktiverade annonsupplevelsen tillhör. Inställningarna bestämmer den slutliga placeringen av annonsen. |
 
 ### Skapa en ny annonsuppsättning
 
@@ -178,13 +178,13 @@ Du kan skapa en ny annonsuppsättning under plattformskonfigurationen genom att 
 
 **Så här skapar du en ny annonsuppsättning**:
 
-1. Välj en kampanj i listrutan _Metakampanjer_.
+1. Välj en kampanj i listrutan _Meta-kampanjer_.
 
    Den valda kampanjen avgör vilka annonsuppsättningar som är tillgängliga som alternativ i den nedrullningsbara menyn _Annonsuppsättningar_.
 
 1. Klicka på **[!UICONTROL + Create new ad set]**.
 
-   Popup-fönstret _Skapa ny annonsuppsättning_ öppnas och identifierar den Metakampanj där den nya annonsuppsättningen skapas.
+   Popup-fönstret _Skapa ny annonsuppsättning_ öppnas och identifierar den Meta-kampanj där den nya annonsuppsättningen skapas.
 
 1. Välj den annonsuppsättning som du vill klona i listrutan _Använd konfiguration_.
 
@@ -214,6 +214,6 @@ På sidan _Granska_ visas din annonsupplevelse som den är sammansatt i _Experie
 
 1. Klicka på **[!UICONTROL Publish]**.
 
-   Den fullständiga annonsupplevelsen för Meta och tillhörande metadata överförs direkt till den valda annonsuppsättningen för Meta Ads Manager. Upplevelserna levereras till Meta Ads Manager i ett inaktivt tillstånd. Från Meta Ads Manager kan ni hantera de sista stegen i distributionen av annonsupplevelsen och Meta-kampanjen.
+   Den kompletta annonsupplevelsen i Meta och tillhörande metadata överförs direkt till den valda annonsuppsättningen i Meta Ads Manager. Upplevelserna levereras till Meta Ads Manager i ett inaktivt tillstånd. Från Meta Ads Manager kan ni hantera de sista stegen i driftsättningen av annonsupplevelsen och Meta kampanj.
 
 1. [Logga in på Meta Ads Manager](https://adsmanager.facebook.com/) för att granska annonsupplevelsen och slutföra publiceringen i specifika Meta-kanaler.

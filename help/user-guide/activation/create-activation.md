@@ -3,16 +3,16 @@ title: Aktiveringsarbetsflöde
 description: Läs mer om aktiveringsarbetsflödet för annonsupplevelser.
 feature: Ad Activation
 exl-id: 17e1bade-d52a-4953-a85c-c10d093e73d6
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '566'
 ht-degree: 0%
 
 ---
 
 # Aktiveringsarbetsflöde
 
-[!DNL Activate] har stöd för aktivering av annonsupplevelser i kanalspecifika format, som Meta eller Google Campaign Manager 360.
+[!DNL Activate] har stöd för aktivering av annonsupplevelser i kanalspecifika format, som en annonsupplevelse i Meta eller Google Campaign Manager 360.
 
 En GenStudio for Performance Marketing-upplevelse är en marknadsföringskampanjkomponent, till exempel en annons, som förbereds som en annonsupplevelse till en viss målgrupp via en betald annonskanal eller ett e-postmeddelande. Upplevelser för aktivering innehåller tre huvudkomponenter:
 
@@ -20,7 +20,7 @@ En GenStudio for Performance Marketing-upplevelse är en marknadsföringskampanj
 
   Om du vill välja en bildresurs för annonsupplevelsen måste du välja rätt proportioner. Proportionerna definierar det proportionella förhållandet mellan en bilds bredd och höjd, och de är avgörande för att annonsplaceringen ska bli effektiv. Betalda mediekanaler anger noggrant giltiga proportioner för varje annonsplacering på deras plattform. När du lägger till bildresurser i aktiveringen måste du välja proportioner baserat på de slutliga annonsplaceringarna för din upplevelse. Filtyper är begränsade till JPEG, PNG och GIF.
 
-* **Text**: Texten består av alla former av kopior som ingår i din annons, inklusive rubriker, brödtext och element för uppmaning till handling.
+* **Text**: Texten innehåller alla former av kopior som ingår i din annons, inklusive rubriker, brödtext och call-to-action-element.
 
 * **Metadata**: Användardefinierade attribut som du kan tilldela innehåll. Metadata förbättrar prestandaanalys, filtrering och spårning. Den är vanligtvis inte synlig för användarna.
 
@@ -34,7 +34,7 @@ Att skapa en aktivering innebär att förfina var och en av dessa annonskomponen
 
 1. **Förbered för aktivering**. Ni kan förbereda upplevelserna för aktivering på två sätt:
 
-   * Aktivera en godkänd upplevelse med fördefinierade inställningar direkt från [!DNL Content]. Detta smidiga sätt att aktivera en eller flera annonsupplevelser i en enda kanal. När du har valt en upplevelse i galleriet [!DNL Content] kan du inte redigera eller lägga till resurser i din annonsupplevelse. Aktivera från [!DNL Content] är tillgängligt för annonsupplevelserna Meta och Google Campaign Manager 360.
+   * Aktivera en godkänd upplevelse med fördefinierade inställningar direkt från [!DNL Content]. Detta smidiga sätt att aktivera en eller flera annonsupplevelser i en enda kanal. När du har valt en upplevelse i galleriet [!DNL Content] kan du inte redigera eller lägga till resurser i din annonsupplevelse. Aktivera från [!DNL Content] är tillgängligt för annonsupplevelserna i Meta och Google Campaign Manager 360.
 
    * Sammanställ annonsupplevelsen genom att välja visuella resurser från [!DNL Content], lägga till textelement och välja proportioner. Den här metoden omfattar fler steg men ger större kreativ flexibilitet. Förberedelsen innefattar att välja medieresurser i rätt proportioner för din specifika annonsplacering och att tilldela text till call-to-action-element och brödtext. Du kan lägga till informativa metadata som gör det lättare för användare att söka efter upplevelsen efter aktiveringen. Varje annonskanalplacering anger giltiga proportioner för visuella resurser som ingår i placeringen.
 

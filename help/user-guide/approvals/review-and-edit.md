@@ -3,7 +3,7 @@ title: Granska och redigera innehåll
 description: Lär dig granska och redigera innehåll iterativt med Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: 9a3a15aa-355f-439e-9417-850704402f39
-source-git-commit: 8aa55fba08fa438ae2320c1159aa3c27877ee778
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '604'
 ht-degree: 0%
@@ -64,7 +64,7 @@ Den som skapar innehållet kan fortsätta att redigera samtidigt som han eller h
 
 ## Granska innehåll med Workfront Proof
 
-[!DNL Proofing Viewer] innehåller [stabila markeringsverktyg](https://experienceleague.adobe.com/sv/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) för att kommentera korrektur och spåra ändringar. Du kan också jämföra två versioner av korrektur.
+[!DNL Proofing Viewer] innehåller [stabila markeringsverktyg](https://experienceleague.adobe.com/en/docs/workfront/using/review-and-approve-work/proofing/review-proofs-in-workfront/comment-on-a-proof/comment-on-proof-1) för att kommentera korrektur och spåra ändringar. Du kan också jämföra två versioner av korrektur.
 
 **Så här granskar du innehåll**:
 
@@ -84,7 +84,7 @@ Den som skapar innehållet kan fortsätta att redigera samtidigt som han eller h
 
 ### Jämför korrektur
 
-Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
+Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs).
 
 **Så här jämför du korrektur**:
 
@@ -94,4 +94,4 @@ Från [!DNL Proofing Viewer] kan du [jämföra korrekturversioner](https://exper
 
    Korrektur visas sida vid sida, med den nyare versionen till vänster.
 
-I Workfront Proof finns flera verktyg för att jämföra korrektur, bland annat ett verktyg för automatisk jämförelse. Se [Använda jämförelseverktygen](https://experienceleague.adobe.com/sv/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).
+I Workfront Proof finns flera verktyg för att jämföra korrektur, bland annat ett verktyg för automatisk jämförelse. Se [Använda jämförelseverktygen](https://experienceleague.adobe.com/en/docs/workfront/using/workfront-proof/work-with-proofs-in-wf-proof/review-proofs-web-proofing-viewer/compare-proofs#use-the-compare-tools).

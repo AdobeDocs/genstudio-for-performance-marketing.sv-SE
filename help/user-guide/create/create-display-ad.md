@@ -1,14 +1,14 @@
 ---
-title: Skapa en webbannonsupplevelse
+title: Skapa en annonsvisning
 description: Lär dig hur du skapar webbannonsupplevelser i Adobe [!DNL GenStudio] för Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: d82891b2347c6b97bf8f6eef9cffe363ea341725
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '1090'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 
 **Så här väljer du en visningsannonsmall**:
 
-1. Klicka på **[!UICONTROL Display ads]** i _[!DNL Create]_.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Display ads]**.
 1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
 1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
 1. Klicka på **[!UICONTROL Use]**.
@@ -96,7 +96,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj **[!UICONTROL Good output]** eller **[!UICONTROL Poor output]** om du vill [skicka feedback](/help/user-guide/create/manage-variants.md#generation-feedback) om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -130,12 +130,12 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade webbannonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya visningsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
 
-1. **Klicka &#x200B;** [!UICONTROL Export]&#x200B;**i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser**.
+1. **Klicka** i det övre verktygsfältet om du vill exportera dina nya visnings- och annonsupplevelser **[!UICONTROL Export]**.
    1. Markera formatet - HTML och bilder, PNG eller JPG - och klicka på **[!UICONTROL Export]**.
 
       Exporterad HTML ska placeras i en fördefinierad webbegenskap, som en mall eller en `div`-behållare. Utan dessa angivna mått kan bilderna se förvrängda ut när de visas oberoende av varandra.

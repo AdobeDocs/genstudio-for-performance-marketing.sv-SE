@@ -1,10 +1,10 @@
 ---
-title: Adobe GenStudio for Performance Marketing concepts
+title: Adobe GenStudio for Performance Marketing Concepts
 description: Lär dig Adobe GenStudio for Performance Marketing koncept och termer.
 feature: Generative AI
 role: User
 exl-id: 7dd00b4c-f429-499b-851d-3606c82c09dc
-source-git-commit: 78313c2a2177a2ccb39e37a87ca3c657e7906d0a
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '699'
 ht-degree: 0%
@@ -39,7 +39,7 @@ GenStudio for Performance Marketing använder GPT-serien med tredjepartsprogram 
 
 ## [!DNL Generative Actions]
 
-_[!DNL Generative Actions]_, enligt definitionen i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), är de enheter som kvantifierar användningen av generativa AI-funktioner i GenStudio for Performance Marketing.
+_[!DNL Generative Actions]_, enligt definitionen i [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html), är de enheter som kvantifierar användningen av generativa AI-funktioner i GenStudio for Performance Marketing.
 
 <!-- Add example about usage mode?
 Where users check how many generative actions they have left
@@ -48,11 +48,11 @@ If genactions roll over month to month or not -->
 
 ### Kurser
 
-Du får en standardtilldelning av [!DNL Generative Actions] enligt beskrivningen i [GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
+Du får en standardtilldelning av [!DNL Generative Actions] enligt beskrivningen i [GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html).
 
 >[!NOTE]
 >
->Användningsfrekvensen kan variera. Reservation för ändringar. Se [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/se/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) för uppdaterad prisinformation.
+>Användningsfrekvensen kan variera. Reservation för ändringar. Se [Adobe GenStudio for Performance Marketing produktbeskrivning](https://helpx.adobe.com/legal/product-descriptions/adobe-genstudio-for-performance-marketing---product-description.html) för uppdaterad prisinformation.
 
 Följande funktioner använder [!DNL Generative Actions] med den angivna hastigheten.
 

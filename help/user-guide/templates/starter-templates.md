@@ -6,9 +6,9 @@ feature: Media Templates
 badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 recommendations: noDisplay, noCatalog
 exl-id: 47dbebd1-f2d8-4a9d-b86c-2d398af259f6
-source-git-commit: a7c69659c348fad3e067a84c1d242809a83b42fb
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '408'
+source-wordcount: '401'
 ht-degree: 0%
 
 ---
@@ -38,7 +38,7 @@ Alla proportioner stöds för statiska bilder. För video använder du 9:16 för
 | Proportioner | Orientering | Vägledning |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Fyrkant | Enhetligt utseende på olika enheter och enheter. |
-| 1,91:1 | Liggande | Standard för nyhetsflöden och sponsrat innehåll. Håll viktiga bilder/meddelanden inom säkra zoner. |
+| 1.91:1 | Liggande | Standard för nyhetsflöden och sponsrat innehåll. Håll viktiga bilder/meddelanden inom säkra zoner. |
 | 1:1.91 | Stående | Helt lodrätt format. Håll viktiga bilder/meddelanden inom säkra zoner. |
 | 2:3, 4:5 | Stående | Passar för porträttformat och hjälper kreativiteten att sticka ut på mobila enheter. |
 | 9:16 | Lodrätt | Passar bäst för LinkedIn-artiklar (helskärmsupplevelse för video). |
@@ -50,6 +50,6 @@ Alla proportioner stöds för statiska bilder och videomedietyper.
 | Proportioner | Orientering | Vägledning |
 |--------------|--------------|------------------------------------------------------------------------------------------------|
 | 1:1 | Fyrkant | Rekommenderas för flödesposter, karusellannonser och flödevideofilmer för att ge en bred kompatibilitet. |
-| 1,91:1 | Liggande | Passar bäst för banners, länkannonser och bredbildsvideoannonser. |
+| 1.91:1 | Liggande | Passar bäst för banners, länkannonser och bredbildsvideoannonser. |
 | 4:5 | Stående | Idealiskt för mobila flöden. Maximerar lodrätt utrymme och synlighet, särskilt för videoinnehåll. |
 | 9:16 | Lodrätt | Designad för Stories and Reels, som ger en engagerande helskärmsupplevelse. |

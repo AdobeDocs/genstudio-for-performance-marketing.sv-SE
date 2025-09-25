@@ -1,11 +1,11 @@
 ---
-title: Bästa tillvägagångssätt för mallar
+title: Metodtips för mallar
 description: Följ vedertagna standarder när du använder mallar med Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: e2b2e3b541c4d07530b9e725fceebabccbf6c84d
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '384'
 ht-degree: 0%
@@ -58,4 +58,4 @@ Se fler tips och begränsningar när du arbetar med varje malltyp för att säke
 - [E-post](/help/user-guide/templates/email-template.md)
 - [Visa och skapa banners](/help/user-guide/templates/display-template.md)
 - [LinkedIn](/help/user-guide/templates/linkedin-template.md)
-- [Meta ads](/help/user-guide/templates/meta-template.md)
+- [Meta annonser](/help/user-guide/templates/meta-template.md)

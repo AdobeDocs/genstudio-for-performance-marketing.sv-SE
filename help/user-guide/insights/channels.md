@@ -1,10 +1,10 @@
 ---
-title: Översikt över kanaler
+title: Kanaler - översikt
 description: Se en översikt över kundengagemang, resultat, budget och utgifter för marknadsföringskampanjer i Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Reporting and Insights, Ad Performance
 exl-id: 99059c81-0fef-4759-b52b-d6f7f9f82a52
-source-git-commit: facc38b8afe8104e27a89ac3d9ec40d1209229a9
+source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
 workflow-type: tm+mt
 source-wordcount: '697'
 ht-degree: 0%
@@ -13,11 +13,11 @@ ht-degree: 0%
 
 # Översikt över kanaler
 
-Vyn [!DNL Insights] _[!UICONTROL Channels]_&#x200B;visar en lista med kampanjer för det anslutna kanalannonskontot.
+Vyn [!DNL Insights] _[!UICONTROL Channels]_visar en lista med kampanjer för det anslutna kanalannonskontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Channels]_&#x200B;är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Channels]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Kanalfilter och tabell](/help/assets/insights-channels-filter.png){zoomable="yes"}
 
@@ -27,7 +27,7 @@ När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lis
 
 ## Mål
 
-När du skapade en kampanj med Meta-annonser kan du ha valt ett mål som är anpassat till era affärsmål. Det finns sex mål från Meta-annonser i GenStudio for Performance Marketing:
+När ni skapade en kampanj med annonser från Meta kan ni ha valt ett mål som är anpassat till era affärsmål. Det finns sex tydliga mål från Meta-annonser i GenStudio for Performance Marketing:
 
 1. **Kännedom**: Nå ut till största möjliga publik och nå ut till ert företag.
 1. **Trafik**: Öka trafiken till din webbplats eller ditt program.

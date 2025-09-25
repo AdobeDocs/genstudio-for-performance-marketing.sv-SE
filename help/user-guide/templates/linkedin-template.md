@@ -1,12 +1,13 @@
 ---
-title: LinkedIn-mallriktlinjer
+title: Riktlinjer för LinkedIn-mallar
 description: Följ vedertagna standarder när du använder LinkedIn-mallar med Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Developer, User
 feature: Media Templates
-source-git-commit: 35a519a8d28e260bfa6d9ed671bd5bf1cfeda931
+exl-id: 85432185-8311-411b-b57b-f482c3d45854
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
-source-wordcount: '301'
+source-wordcount: '297'
 ht-degree: 0%
 
 ---
@@ -43,10 +44,10 @@ Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatsh
 | Proportioner | Plattform | Minsta storlek (px) | Maximal storlek (px) | Anteckningar |
 |-------------------|-----------------|---------------|----------------|-------------------------------------------------------------------------------------|
 | Fyrkant 1:1 | Dator, mobil | 360 x 360 | 4320 x 4320 | Mest mångsidiga. Perfekt för enhetligt utseende på olika enheter och enheter. |
-| Vågrät 1,91:1 | Skrivbord | 640 x 360 | 7680 x 4320 | Standardliggande format. Används vanligen för sponsrat innehåll och nyhetsfeed-annonser. |
-| Lodrät 1:1.91 | Mobil | 360 x 640 | 2430 x 4320 | Helt lodrätt format. Optimerat för mobilvisning, med större skärmnärvaro. |
-| Lodrätt 2:3 | Mobil | 360 x 640 | 2430 x 4320 | Något mindre högt än 1:1,91. Bra för kampanjer som sätter mobilen först. |
-| Lodrätt 4:5 | Mobil | 360 x 640 | 2430 x 4320 | Rekommenderas för mobiler. Balanserar synlighet och innehåll, vilket ofta ger större effekt. |
+| Vågrät 1.91:1 | Skrivbord | 640 x 360 | 7680 x 4320 | Standardliggande format. Används vanligen för sponsrat innehåll och nyhetsfeed-annonser. |
+| Lodrätt 1:1.91 | Mobil | 360 x 640 | 2430 x 4320 | Helt lodrätt format. Optimerat för mobilvisning, med större skärmnärvaro. |
+| Lodrät 2:3 | Mobil | 360 x 640 | 2430 x 4320 | Något mindre högt än 1:1.91. Bra för kampanjer som sätter mobilen först. |
+| Lodrät 4:5 | Mobil | 360 x 640 | 2430 x 4320 | Rekommenderas för mobiler. Balanserar synlighet och innehåll, vilket ofta ger större effekt. |
 
 <!-- Potentially add an example
 

@@ -3,7 +3,7 @@ title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 8f8d10db351f440ccd64f4ef5a54b6ace9f9db85
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '689'
 ht-degree: 0%
@@ -28,7 +28,7 @@ En sammanfattning av varumärkesvalidering och annan information om innehållsko
 Sammanfattningen av _innehållskontrollen_ visar följande:
 
 * Procentandel kompatibilitet med din [[!DNL Brand]](brands.md), beräknat som antalet [riktlinjer](overview.md) som godkänts i valideringen jämfört med antalet riktlinjer som testats
-* `Pass` eller `Fail` resultat för plattformens riktlinjer, som Meta eller LinkedIn
+* `Pass` eller `Fail` resultat för plattformsriktlinjer, som Meta eller LinkedIn
 * `Pass` eller `Fail` resultat för ADA-tillgänglighetsstandarder
 
 ![Sammanfattning av innehållskontroll](/help/assets/content-check-summary.png){width="400" zoomable="yes"}

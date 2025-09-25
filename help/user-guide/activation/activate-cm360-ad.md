@@ -3,9 +3,9 @@ title: Aktivera en Google Campaign Manager 360-annons
 description: Lär dig hur du aktiverar en Google Campaign Manager 360-upplevelse.
 feature: Ad Activation
 exl-id: e4ee4e04-8dd0-4e05-a0f7-0ddca2fbb6be
-source-git-commit: a36e9611cd0e7d70ddc79de7eb688300eeb8ac88
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '535'
 ht-degree: 0%
 
 ---
@@ -30,7 +30,7 @@ När synkroniseringen är klar kan du visa de tillagda kontona.
 
 ## Steg 3: Välj innehåll för annonsupplevelsen
 
-Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från&#x200B;_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
+Du kan starta publiceringsprocessen antingen från _[!DNL Content]_-upplevelsegalleriet eller från_[!DNL Activate]_-hemmet. Godkända upplevelser kan inte redigeras. Varje upplevelse kan bara innehålla en resurs.
 
 **Så här väljer du upplevelser**:
 

@@ -3,7 +3,7 @@ title: Godkänn innehåll
 description: Lär dig godkänna genererat innehåll med Adobe GenStudio for Performance Marketing.
 feature: Content Review, Content Management
 exl-id: f6458d8f-dff3-448e-9f08-6d192f8a91d9
-source-git-commit: 1240a608d704a6fe1a99eace97fc0a6029b08f71
+source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
 workflow-type: tm+mt
 source-wordcount: '175'
 ht-degree: 0%
@@ -12,7 +12,7 @@ ht-degree: 0%
 
 # Godkänn innehåll
 
-Godkännarna får meddelanden i produkten, e-post och, om detta är aktiverat, Slack-meddelanden när de behöver granska och godkänna. Meddelanden är en länk till arbetsytan som visar innehållet som granskas. Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/sv/docs/core-services/interface/features/account-preferences).
+Godkännarna får meddelanden i produkten, e-post och, om detta är aktiverat, Slack-meddelanden när de behöver granska och godkänna. Meddelanden är en länk till arbetsytan som visar innehållet som granskas. Mer information om hur du hanterar meddelanden finns i [Kontoinställningar och meddelanden](https://experienceleague.adobe.com/en/docs/core-services/interface/features/account-preferences).
 
 Om innehållsutkastet uppfyller organisationens standarder och dina förväntningar är du redo att godkänna utkastet.
 

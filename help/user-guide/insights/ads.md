@@ -1,10 +1,10 @@
 ---
-title: Översikt över annonsplacering
+title: Översikt över annonser och annonsplacering
 description: Se en översikt över kundengagemang, budget och utgifter för annonser och annonsplaceringsprestanda i Adobe GenStudio for Performance Marketing.
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: 63134aab89053616ea6190c958e8bf5b64ee9793
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '1311'
 ht-degree: 0%
@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Översikt över annonsplacering
 
-Vyn [!DNL Insights] _[!UICONTROL Ads]_&#x200B;visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
+Vyn [!DNL Insights] _[!UICONTROL Ads]_visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Ads]_&#x200B;är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Ads]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Ad]_visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
@@ -32,7 +32,7 @@ I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar a
 
 ## Annonsinformation
 
-Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_&#x200B;innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**&#x200B;för att bläddra igenom placeringsmåtten.
+Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**för att bläddra igenom placeringsmåtten.
 
 ![Lägg till information med mått och annonsplaceringar](/help/assets/insights-ad-details.png){zoomable="yes"}
 
@@ -64,7 +64,7 @@ Här följer en lista över annonsplaceringar som stöds:
 |--------------------|--------------------|-------------------------|---------------------|
 | Återgiven video | Feed<br>Videoflöden<br>Artiklar<br>Marketplace<br>Högerkolumn<br>Reels<br>Reels-övertäckning<br>In-stream-video<br>Search<br>Business discofeed<br>Profilfeed | Artiklar<br>Feed<br>Utforska<br>Reels<br>Utforska stödrastrets startsida<br>Profilflöde<br>Sök<br>Stream | Artiklar<br>Inkorg |
 
-\* Se [Om annonsplaceringar mellan metatekniker](https://www.facebook.com/business/help/407108559393196?id=369787570424415) i _Meta Business Help Center_.
+\* Se [Om annonsplaceringar mellan Meta-tekniker](https://www.facebook.com/business/help/407108559393196?id=369787570424415) i _Meta Business Help Center_.
 
 ## Annonsprestanda
 
@@ -75,9 +75,9 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 | Mått | Definition | Insikt |
 | ---------------------------- | ----------------------------- | -------------------------------- |
 | **[!UICONTROL Ad name]** | En lista med annonser för det anslutna kanalkontot. Filtrera annonser genom att välja en kampanj. | Sortera annonslistan genom att klicka på någon av nyckelmätarna. |
-| **[!UICONTROL Campaign]** | En kampanj är en uppsättning annonser som utformats för att uppnå ett visst mål. | När du filtrerar annonstabellen efter kampanj kan sammanfattningsmåtten för alla annonser för kampanjen vara annorlunda än kampanjens sammanfattningsrad i [!UICONTROL Channels]-vyn. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL Campaign]** | En kampanj är en uppsättning annonser som utformats för att uppnå ett visst mål. | När du filtrerar annonstabellen efter kampanj kan sammanfattningsmåtten för alla annonser för kampanjen vara annorlunda än kampanjens sammanfattningsrad i [!UICONTROL Channels]-vyn. Skillnaden kan uppstå om kanalkällan, t.ex. Meta och GenStudio, använder något olika sammanfattningsberäkningar. |
 | **[!UICONTROL Placements]** | Antal annonser [praktik](#ad-placements), platser där en annons visades i kampanjen. | Placeringar ökar publikens räckvidd.<p>Annonser som visar noll-placeringar och noll-media kan indikera en [annonstyp som inte stöds](#unsupported-placements).</p> |
-| **[!UICONTROL Media]** | Antalet resurser som används i annonsen och annonsplaceringar | Antalet i annonstabellen kan skilja sig från antalet i vyn Ad details. Skillnaden kan uppstå om kanalkällan, t.ex. Meta, och GenStudio använder något olika sammanfattningsberäkningar. |
+| **[!UICONTROL Media]** | Antalet resurser som används i annonsen och annonsplaceringar | Antalet i annonstabellen kan skilja sig från antalet i vyn Ad details. Skillnaden kan uppstå om kanalkällan, t.ex. Meta och GenStudio, använder något olika sammanfattningsberäkningar. |
 | **[!UICONTROL Impressions]** | Antal varje gång annonsplaceringen eller annonsen läses in i kanalen, oavsett interaktion eller visning. | Ett högt visningsvärde kan visa på bred synlighet, men för verkliga prestandainsikter bör du tänka på det i relation till andra engagemangsmått. |
 | **[!UICONTROL Clicks]** | Antalet gånger som användare interagerar med ett klickbart element, som en länk eller en call-to-action-knapp, på en annonsplacering. | Ett högt klickningsantal visar starkt intresse och engagemang för innehållet, vilket kan vara effektivt och nå rätt målgrupp. |
 | **[!UICONTROL CTR]**<br>_Genomklickningsfrekvens _ | Procentandel (%) av visningar som resulterade i klickningar på annonsen i en kampanj.<br>**Beräkning**: `clicks` delat med `impressions` | En hög klickfrekvens visar att innehållet är mycket relevant och motiverat för målgruppen i budskapen och designen och att det effektivt riktar sig till målgruppens intressen. |
@@ -89,7 +89,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 
 ## Placering
 
-I vyn _[!UICONTROL Ad details page]_&#x200B;återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
+I vyn _[!UICONTROL Ad details page]_återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
 
 I följande tabell finns definitioner för prestandamätningar för annonsplacering:
 

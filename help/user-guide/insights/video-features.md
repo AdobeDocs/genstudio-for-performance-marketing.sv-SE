@@ -4,7 +4,7 @@ description: Läs mer om videofunktionen i de attributkategorier som används i 
 level: Intermediate
 feature: Reporting and Insights, Video Attributes, Generative AI
 exl-id: 0dfdd735-b365-4a15-a6fd-e981697442cb
-source-git-commit: c742fb33a04b36da35036a4554a475141fce8b01
+source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
 workflow-type: tm+mt
 source-wordcount: '566'
 ht-degree: 0%
@@ -23,7 +23,7 @@ Ljudidentifiering i GenStudio for Performance Marketing innebär att analysera l
 
 **Så här förhandsgranskar du en video och hör ett exempel på ljudet**:
 
-1. I _[!DNL Insights]_&#x200B;väljer du vyn **[!UICONTROL Attributes]**.
+1. I _[!DNL Insights]_väljer du vyn **[!UICONTROL Attributes]**.
 
 1. Ändra tabellvyn genom att välja **[!UICONTROL Video]**.
 

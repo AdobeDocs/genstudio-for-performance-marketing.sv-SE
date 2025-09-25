@@ -5,7 +5,7 @@ level: Intermediate
 role: Admin, Data Engineer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '297'
 ht-degree: 0%
@@ -22,7 +22,7 @@ Ett _betalt mediekonto_ refererar till ett konto på en annonsplattform från tr
 
 1. Välj **[!UICONTROL Settings]** med kodikonen.
 
-1. I _[!UICONTROL Settings]_&#x200B;väljer du en anslutningstyp i avsnittet&#x200B;_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
+1. I _[!UICONTROL Settings]_väljer du en anslutningstyp i avsnittet_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
 
    Om det finns anslutna konton kan du klicka på _anslutna konton_ för att visa en lista med kontonamn, detaljer och status.
 

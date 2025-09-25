@@ -1,9 +1,9 @@
 ---
-title: Resursinformation
+title: Tillgångsinformation
 description: Adobe GenStudio for Performance Marketing lagrar godkänt material med omfattande metadata för sökbarhet och prestandaspårning.
 feature: Generative AI, Content Attributes, Content Management
 exl-id: 2be5cfee-f315-4ad6-8cf0-a8d3929b9ba3
-source-git-commit: 19d0b8b929e293179a091cc7b5a6a1268b0abbbd
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '714'
 ht-degree: 0%
@@ -18,11 +18,11 @@ Varje resurs (inklusive upplevelser och mallar) har associerad _information_ (me
 
 **Så här visar du resursinformation**:
 
-1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
-1. Granska avsnittet _[!UICONTROL Details]_&#x200B;till höger i resursvyn.
+1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
 
-1. Om avsnittet _[!UICONTROL Details]_&#x200B;inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
+1. Om avsnittet _[!UICONTROL Details]_inte visas klickar du på ikonen **[!UICONTROL Information]**(i).
 
 Resursinformationen innehåller metadata som används under skaps- eller överföringsprocessen. Metadatatyperna för resurser omfattar [systemmetadata](#system-metadata) och [användardefinierade metadata](#user-defined-metadata).
 
@@ -32,7 +32,7 @@ Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek oc
 
 >[!NOTE]
 >
->Assets från AEM databaser visar olika metadata. Mer information om hur du konfigurerar [!DNL AEM Assets Content Hub]-resursinformation finns i [Konfigurera resurssynlighet](connect-aem-repo.md#step-4-configure-asset-visibility).
+>Assets från AEM databaser visar olika metadata. Mer information om hur du konfigurerar [-resursinformation finns i ](connect-aem-repo.md#step-4-configure-asset-visibility)Konfigurera resurssynlighet[!DNL AEM Assets Content Hub].
 
 ## Systemmetadata
 
@@ -56,9 +56,9 @@ När du [överför en resurs](/help/user-guide/content/manage-assets.md#add-asse
 
 **Så här redigerar du användardefinierade metadata**:
 
-1. I _[!DNL Content]_&#x200B;väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
+1. I _[!DNL Content]_väljer du en resurs, upplevelse eller mall. När du klickar på en resurs öppnas en fokuserad vy över resursen.
 
-1. Granska avsnittet _[!UICONTROL Details]_&#x200B;till höger i resursvyn.
+1. Granska avsnittet _[!UICONTROL Details]_till höger i resursvyn.
 
 1. Klicka på **[!UICONTROL Edit details]** (penna) för att redigera tillgång, upplevelse eller mallmetadata.
 
@@ -93,11 +93,11 @@ Informationen kan omfatta:
 
 - Parametrarna `Brand`, `Product` och `Persona` har valts under [!DNL Create]-processen
 - `Subject line` och `Preheader` för e-postupplevelser
-- `Headline` och `Body` för Metaannonser
+- `Headline` och `Body` för Meta-annonser
 
 ## Historik
 
-Expandera avsnittet _[!UICONTROL History]_&#x200B;i en upplevelse för att visa en tidslinje med godkännanden och aktiviteter. En godkänd upplevelse visar till exempel datum, tid och godkännare:
+Expandera avsnittet _[!UICONTROL History]_i en upplevelse för att visa en tidslinje med godkännanden och aktiviteter. En godkänd upplevelse visar till exempel datum, tid och godkännare:
 
 ```
 Approved

@@ -4,7 +4,7 @@ description: Lär dig hur du optimerar aktiveringar till betalda annonskanaler f
 level: Intermediate
 feature: Ad Activation
 exl-id: 5bc624c2-d064-4190-8761-ed05d0629d1f
-source-git-commit: 6ee58b22761be357bb9ff753cf9e5bd5b431c513
+source-git-commit: 0ccdeb2b3375e9ee72bfc4458eeaff11709768cb
 workflow-type: tm+mt
 source-wordcount: '460'
 ht-degree: 0%
@@ -35,15 +35,15 @@ Här är några vanliga metodtips och de fel som de kan förhindra.
 
 * **Granska annonsuppsättningen och se till att endast en annons är aktiv åt gången**
 
-  Om du behöver aktivera flera Meta Ads skapar du separata dynamiska Creative Ad Sets för varje. Exempelfel: _Dynamisk Creative Ad Set tillåter högst en aktiv annons i den. Användare får inte skapa mer än en annons under samma dynamiska Creative-annonsuppsättning. (100)_
+  Om du behöver aktivera flera Meta Ads skapar du separata dynamiska Creative Ad Sets för var och en av dem. Exempelfel: _Dynamisk Creative Ad Set tillåter högst en aktiv annons i den. Användare får inte skapa mer än en annons under samma dynamiska Creative-annonsuppsättning. (100)_
 
 * **Matcha antalet tillämpade regler med det belopp som anges av plattformen**
 
   Betalningskanaler förväntar sig att antalet tillämpade regler matchar det angivna formatet.  Justera vid behov antalet regler så att de matchar värdet som plattformen anger. Exempelfel: _Ad AssetFeed har X-målregler för format: formatets namn, men exakt X-målregel för det här formatet förväntas. (100)_
 
-* **Välj ett call-to-action (CTA) som är kompatibelt med ert annonsmål**
+* **Välj en call-to-action (CTA) som är kompatibel med ditt annonsmål**
 
-  Call-to-actions som är inkompatibla med målet i Dynamic Creative Ad Sets utlöser ett fel. Exempelfel: _Anropet till åtgärdstypen X stöds inte för målet Y i den dynamiska Creative-annonsuppsättningen. (100)_
+  Call-to-actions som är inkompatibla med målet i Dynamic Creative Ad Sets utlöser ett fel. Exempelfel: _call to action-typen X stöds inte för målet Y i den dynamiska Creative-annonsuppsättningen. (100)_
 
 * **Kontrollera att målannonsmängdens tak stöder antalet annonsupplevelser**
 
@@ -51,4 +51,4 @@ Här är några vanliga metodtips och de fel som de kan förhindra.
 
 * **Kontrollera att plattformen stöder den valda CTA-typen**
 
-  Bekräfta att din upplevelse innehåller en CTA-typ som stöds. Exempelfel: _(#100) Ogiltigt anrop till åtgärdstyp (100)_
+  Bekräfta att din upplevelse innehåller en CTA-typ som stöds. Exempelfel: _(#100) Ogiltig call to action-typ (100)_

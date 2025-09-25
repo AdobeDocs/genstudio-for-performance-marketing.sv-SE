@@ -1,13 +1,13 @@
 ---
-title: Versionsinformation för Adobe GenStudio for Performance Marketing Beta
+title: Versionsinformation om Adobe GenStudio for Performance Marketing Beta
 description: Läs om de senaste funktionerna och förbättringarna i Adobe GenStudio for Performance Marketing.
 hidefromtoc: true
 hide: true
 exl-id: 2ae60dcb-ac95-4ed4-bceb-84b396f7fa4e
-source-git-commit: ad532813338a7506483c2ab5892a61d7dc4785d4
+source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
 workflow-type: tm+mt
 source-wordcount: '572'
-ht-degree: 0%
+ht-degree: 2%
 
 ---
 
@@ -19,7 +19,7 @@ I dessa anmärkningar beskrivs viktiga Adobe GenStudio for Performance Marketing
 
 * Filtreringsmöjligheterna i hela produkten har förbättrats. Problem med filtrering efter ålder och kön i [!DNL Insights] har lösts.  <!-- GS-1198 -->
 
-* Du kan redigera bildresurser (JPG eller PNG) direkt med Adobe Express. Innehållsredigerare kan använda arbetsytan i _[!UICONTROL Powered by Adobe Express]_&#x200B;för att ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder utan att lämna GenStudio for Performance Marketing. <!-- GS-4615 -->
+* Du kan redigera bildresurser (JPG eller PNG) direkt med Adobe Express. Innehållsredigerare kan använda arbetsytan i _[!UICONTROL Powered by Adobe Express]_för att ta bort bakgrunder, använda generativa fyllningar, justera effekter och beskära bilder utan att lämna GenStudio for Performance Marketing. <!-- GS-4615 -->
 
 * Förbättrade upplevelsen av progressiv inläsning av genererade varianter, genererad e-post och sammanhangsbaserade meddelanden. <!-- GS-4651 3062-->
 
@@ -35,13 +35,13 @@ I dessa anmärkningar beskrivs viktiga Adobe GenStudio for Performance Marketing
 
 * Arbetsytan [!DNL Create] återger nu anpassade teckensnitt från mallar som förväntat. <!-- GS-3415 -->
 
-* Det rätta teckensnittet används nu vid export av Meta-annonser. <!-- GS-5875 -->
+* Rätt teckensnitt används nu vid export av Meta-annonser. <!-- GS-5875 -->
 
 * Problem med mallöverföring som resulterade i slutförd överföring men som inte syns i produktgränssnittet har åtgärdats. <!-- GS-4815 5650-->
 
-* Användarna kan nu beskära Meta-annonser manuellt efter att de har ändrat storlek. <!-- GS-5871 -->
+* Användare kan nu beskära Meta-annonser manuellt efter att de har ändrat storlek. <!-- GS-5871 -->
 
-* Användare behöver inte längre logga in två gånger på ett Meta-annonskonto i en kanal när de också är inloggade på Facebook. <!-- GS-3009 -->
+* Användare behöver inte längre logga in två gånger på ett Meta-kanalkonto när de också är inloggade på Facebook. <!-- GS-3009 -->
 
 * Arbetsytans vy av resurser och upplevelser är nu konsekvent när det gäller att skapa, granska och godkänna innehåll. <!-- GS-5877 -->
 
@@ -63,7 +63,7 @@ I dessa anmärkningar beskrivs viktiga Adobe GenStudio for Performance Marketing
 
 * Inläsningen av skuggningseffekter kvarstår tills bildomformningen är klar.  <!-- GS-5811 -->
 
-* Poängen för varumärkesvalidering ogiltigförklaras inte längre efter att en användare har redigerat genererade e-postmeddelanden, Meta-annonser eller visningsannonser. Tidigare var poängen dold. <!-- GS-5379 -->
+* Poängen för varumärkesvalidering ogiltigförklaras inte längre efter att en användare har redigerat e-post, Meta-annonser eller webbannonser. Tidigare var poängen dold. <!-- GS-5379 -->
 
 * Mallar som har CSS-format kopplade till sitt `body`-element används nu som förväntat vid export av upplevelser. <!-- GS-5947 -->
 
