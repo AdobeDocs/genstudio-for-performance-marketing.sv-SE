@@ -1,26 +1,27 @@
 ---
-title: Anslut till meta Ads
+title: Anslut till Meta Ads
 description: Anslut ett Meta Ads-konto för att aktivera och övervaka annonser och media med Adobe GenStudio for Performance Marketing.
 level: Intermediate
 role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
+source-git-commit: fb5fe4885340639f8179c8de6944ac21bfe009ec
 workflow-type: tm+mt
-source-wordcount: '285'
+source-wordcount: '489'
 ht-degree: 0%
 
 ---
 
-# Anslut till meta Ads
+# Anslut till Meta Ads
 
-Koppla ditt Meta Ads-profilkonto till GenStudio for Performance Marketing för att hantera kampanjer, exportera innehåll och få tillgång till annonsdata för era aktiva kampanjer.
+På den här sidan beskrivs hur du ansluter och hanterar ditt Meta Ads-profilkonto till GenStudio for Performance Marketing för att hantera kampanjer, exportera innehåll och få tillgång till annonsdata för aktiva kampanjer.
 
 >[!BEGINSHADEBOX]
 
 **Förutsättningar**:
 
-- Facebook-/Meta-inloggning som kan komma åt alla metadatatjänster
+- Facebook/Meta-inloggning som kan få åtkomst till alla Meta-tjänster
 
 - _Full kontroll_ över Meta Business Portfolio- och Ad-konton, inklusive:
 
@@ -29,15 +30,15 @@ Koppla ditt Meta Ads-profilkonto till GenStudio for Performance Marketing för a
    - Hantera Creative Hub-modeller
    - Avancerad analys
 
-- Ta bort alla popup-blockerare i webbläsaren
+- Inaktivera alla popup-blockerare i webbläsaren
 
 >[!ENDSHADEBOX]
 
-**Så här ansluter du ett Meta ads-konto**:
+## Anslut ett Meta-annonskonto
 
 1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Settings]**.
 
-1. Klicka på **[!UICONTROL Connect]** på _Meta Ads_-kortet i avsnittet _Dataanslutningar_.
+1. Klicka på _på_ Meta Ads **[!UICONTROL Connect]**-kortet i avsnittet _Dataanslutningar_.
 
 1. Logga in på ditt Facebook-konto.
 
@@ -47,8 +48,8 @@ Koppla ditt Meta Ads-profilkonto till GenStudio for Performance Marketing för a
 
 1. I _[!UICONTROL Facebook Login for Business]_(Meta till Adobe-symbol) går du igenom följande val för att ge GenStudio for Performance Marketing åtkomst:
 
-   - Välj en eller flera Meta Business-profiler och klicka på **[!UICONTROL Continue]**
-   - Markera en eller flera metasidor och klicka på **[!UICONTROL Continue]**
+   - Markera en eller flera Meta Business-profiler och klicka på **[!UICONTROL Continue]**
+   - Markera en eller flera Meta-sidor och klicka på **[!UICONTROL Continue]**
    - Välj ett eller flera Instagram-konton och klicka på **[!UICONTROL Continue]**
    - Granska markeringar och klicka på **[!UICONTROL Save]**
 
@@ -58,12 +59,35 @@ Koppla ditt Meta Ads-profilkonto till GenStudio for Performance Marketing för a
 
    Detta steg säkerställer att GenStudio for Performance Marketing får tillgång till alla annonser, metadata och mätvärden för optimala prestanda.
 
-1. I _[!UICONTROL Meta Ads]_&#x200B;väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I _[!UICONTROL Meta Ads]_väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
 
 1. När du fått en bekräftelse från _Platform connected_ klickar du på **[!UICONTROL View accounts]**.
 
-   I vyn _[!UICONTROL Meta Ads accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`.
+   I vyn _[!UICONTROL Meta Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`.
 
-   ![Lista över metakonton](/help/assets/meta/meta-accounts-list.png "Lista över anslutna metakonton"){zoomable="yes"}
+   ![Meta-kontolista](/help/assets/meta/meta-accounts-list.png "Lista över anslutna Meta-konton"){zoomable="yes"}
 
-Använd **[!UICONTROL Add account]** om du vill lägga till fler konton i listan. Auktoriseringsflödet kan variera något när du lägger till konton som är länkade till samma Meta Business-profil. Du väljer bara de nya Meta Ads-kontona under anslutningsprocessen.
+Använd **[!UICONTROL Add account]** om du vill lägga till fler konton i listan. Behörighetsflödet kan variera något när du lägger till konton som är länkade till samma Meta Business-profil. Du väljer bara de nya Meta Ads-kontona under anslutningsprocessen.
+
+## Koppla från och felsöka en Meta Ads-integrering
+
+Ibland är en GenStudio for Performance Marketing-instans felaktigt ansluten till ett Meta Ads-konto. Vanliga inställningar som kan orsaka problem är:
+
+- Ett Instagram-konto har valts utan att den associerade Facebook-sidan har markerats
+- Återkallade behörigheter för en användare som utförde den ursprungliga anslutningen
+
+I sådana fall är det bäst att koppla Meta Ad-kontot till GenStudio for Performance Marketing-instansen. Först måste användaren ta bort appintegreringen direkt från sin Meta Business Manager och skapa en ren skiva för att återställa behörigheter. Detta kräver administratörsåtkomst till Meta Business Manager.
+
+De här stegen rensar cachelagrade behörigheter och återställer integreringsflödet:
+
+1. Gå till [Meta Business Manager](https://business.facebook.com) genom att besöka Facebook-webbplatsen.
+1. Logga in med ditt konto. Kontot måste ha administratörsåtkomst till Business Manager.
+1. Klicka på ikonen **[!UICONTROL Settings]** i det nedre vänstra hörnet för att navigera till dina Business Portfolio-inställningar.
+1. Klicka på **[!UICONTROL Integrations]** på den vänstra menyn.
+1. Välj **[!UICONTROL Connected Apps]**. Adobe GenStudio visas i listan med anslutna appar.
+   ![Anslutna appar för Meta Business Manager](./meta-connected-apps.png "Panelen Anslutna appar för Meta Business Manager")
+1. Klicka på programnamnet.
+1. Klicka på **[!UICONTROL Remove]**.
+1. Bekräfta borttagningen när du uppmanas till det.
+
+Nu kan du koppla dina Meta-annonskonton, Instagram-profiler och Facebook-sidor igen.
