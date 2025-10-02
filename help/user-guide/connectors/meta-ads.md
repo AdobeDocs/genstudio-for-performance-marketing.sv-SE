@@ -6,7 +6,7 @@ role: Admin, Data Engineer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: fb5fe4885340639f8179c8de6944ac21bfe009ec
+source-git-commit: 40c7d2d40f1c4bea9794e706d8e1ce7bf92042e3
 workflow-type: tm+mt
 source-wordcount: '489'
 ht-degree: 0%
@@ -34,7 +34,7 @@ På den här sidan beskrivs hur du ansluter och hanterar ditt Meta Ads-profilkon
 
 >[!ENDSHADEBOX]
 
-## Anslut ett Meta-annonskonto
+## Anslut ett Meta Ads-konto
 
 1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Settings]**.
 
@@ -59,11 +59,11 @@ På den här sidan beskrivs hur du ansluter och hanterar ditt Meta Ads-profilkon
 
    Detta steg säkerställer att GenStudio for Performance Marketing får tillgång till alla annonser, metadata och mätvärden för optimala prestanda.
 
-1. I _[!UICONTROL Meta Ads]_&#x200B;väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I _[!UICONTROL Meta Ads]_väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
 
 1. När du fått en bekräftelse från _Platform connected_ klickar du på **[!UICONTROL View accounts]**.
 
-   I vyn _[!UICONTROL Meta Ads accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`.
+   I vyn _[!UICONTROL Meta Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`.
 
    ![Meta-kontolista](/help/assets/meta/meta-accounts-list.png "Lista över anslutna Meta-konton"){zoomable="yes"}
 
