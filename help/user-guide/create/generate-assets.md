@@ -34,7 +34,7 @@ Du kan generera [!DNL On-brand images] med hjälp av definierade riktlinjer, par
 
 ### Välj en referensbild
 
-Om du vill skapa en _[!DNL On-brand images]_&#x200B;väljer du en befintlig bild som sparats i [!DNL Content]. Mer information om [-dimensioner som stöds finns i ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)Bästa tillvägagångssätt för mallar[!DNL on-brand image].
+Om du vill skapa en _[!DNL On-brand images]_&#x200B;väljer du en befintlig bild som sparats i [!DNL Content]. Mer information om [-dimensioner som stöds finns i &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines)Bästa tillvägagångssätt för mallar[!DNL on-brand image].
 
 **Välj en referensbild**:
 

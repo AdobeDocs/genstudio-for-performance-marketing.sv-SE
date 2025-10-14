@@ -80,7 +80,7 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
    - _När det här varumärket ska användas_: Klicka **[!UICONTROL Add]** (eller klicka i textfältet för att ändra befintlig text) och ange översikt och användningsinformation om varumärket. Klicka på **[!UICONTROL Save changes]**.
    - [_[!DNL Brand] röstriktlinjer _](brands.md#brand-voice-guidelines): Lägg till relevant information i varje stödlinjefält.
 
-     ![Lägg till [!DNL Brand] röstriktlinjer ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Lägg till [!DNL Brand] röstriktlinjer &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Bildriktningar_](brands.md#image-guidelines): Klicka **[!UICONTROL Add category]** om du vill lägga till riktlinjer som &quot;Allmänna riktlinjer&quot; eller &quot;Produktfotografi&quot;. Fyll i riktlinjer i varje tillagd kategori.
    - [_Kanalriktlinjer_](brands.md#channel-guidelines): Klicka i varje tillgänglig kanal och lägg till lämpliga riktlinjer.

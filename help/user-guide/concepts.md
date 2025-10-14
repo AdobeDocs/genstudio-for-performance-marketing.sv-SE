@@ -83,7 +83,7 @@ Följande funktioner använder [!DNL Generative Actions] med den angivna hastigh
 
 När du arbetar med AI för att generera innehåll är det viktigt att se till att resultatet är säkert och inkluderande för alla användare. Detta kräver utvärdering av innehållet avseende eventuella skadliga biaser, hattalets, stötande material eller svordomar. Adobe testar innehållsgenereringstekniken ur flera perspektiv, genomför omfattande etiska granskningar och implementerar effektiva begränsningsplaner för att förhindra att skadligt innehåll uppstår i produktionen.
 
-Den här metoden stärker det sociala ansvaret, minimerar anseenderiskerna och säkerställer att [Adobe policyer för pålitlighet och säkerhet och etik ](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf) följs.
+Den här metoden stärker det sociala ansvaret, minimerar anseenderiskerna och säkerställer att [Adobe policyer för pålitlighet och säkerhet och etik &#x200B;](https://www.adobe.com/content/dam/cc/en/ai-ethics/pdfs/Adobe-AI-Ethics-Principles.pdf) följs.
 
 GenStudio for Performance Marketing har begränsningsplaner för att förhindra användning av identifierat skadligt eller partiskt innehåll enligt Adobe datastyrningsstandarder och policyer. När sådant innehåll upptäcks är du medveten om att resursgenerering blockeras med meddelandet&quot;Kan inte generera&quot;.
 

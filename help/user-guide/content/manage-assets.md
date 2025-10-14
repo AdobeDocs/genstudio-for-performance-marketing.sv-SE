@@ -64,7 +64,7 @@ I listan **[!UICONTROL Location]** ovanför galleriet _[!UICONTROL Assets]_&#x20
 
 När du väljer en AEM-databas visar galleriet en inventering av resurser från den databasen, vilket gör att du kan använda godkända resurser från dessa databaser som indata när du skapar innehåll. Filteralternativen ändras så att de återspeglar de kategorier som konfigurerats i [!DNL AEM Assets Content Hub].
 
-Mer information om hur du lägger till din [-databas i GenStudio for Performance Marketing finns i ](connect-aem-repo.md)Anslut en AEM-databas[!DNL AEM Assets Content Hub].
+Mer information om hur du lägger till din [-databas i GenStudio for Performance Marketing finns i &#x200B;](connect-aem-repo.md)Anslut en AEM-databas[!DNL AEM Assets Content Hub].
 
 AEM-databasen är skrivskyddad, vilket innebär att du kan komma åt innehållet men inte kan spara utkast, nya resurser eller metadata i AEM-databasen. Alla utkast och slutliga uppdateringar för resurser, upplevelser och mallar sparas i databasen `GenStudio assets` med nya [systemmetadata](asset-details.md#system-metadata).
 

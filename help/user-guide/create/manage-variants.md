@@ -196,7 +196,7 @@ Du kan lägga till eller byta ut bilder i genererade varianter direkt från arbe
 1. Klicka på ikonen **[!UICONTROL Swap from content]**.
 1. Använd filter och sökfunktionen i vyn GenStudio-resurser [!DNL Content] för att ytterligare begränsa sökresultaten.
 
-   Du kan också använda bilder som är tillgängliga i anslutna Adobe Experience Manager-databaser (AEM) Assets Content Hub genom att välja den databasen på [**[!UICONTROL Location]**-menyn ](/help/user-guide/content/manage-assets.md#location).
+   Du kan också använda bilder som är tillgängliga i anslutna Adobe Experience Manager-databaser (AEM) Assets Content Hub genom att välja den databasen på [**[!UICONTROL Location]**-menyn &#x200B;](/help/user-guide/content/manage-assets.md#location).
 
 1. Klicka för att markera en bild och klicka på **[!UICONTROL Use]**.
 

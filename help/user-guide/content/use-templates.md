@@ -155,4 +155,4 @@ Kända programmönster är:
 
 >[!ENDSHADEBOX]
 
-Därefter [anpassar du mallen](/help/user-guide/content/customize-template.md) med platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll åt dig. [Lägg till mallen ](#add-a-template) i databasen [!DNL Content] och validera mallen. Gör eventuella mindre korrigeringar med kodredigeraren.
+Därefter [anpassar du mallen](/help/user-guide/content/customize-template.md) med platshållare för att ange var GenStudio for Performance Marketing ska generera innehåll åt dig. [Lägg till mallen &#x200B;](#add-a-template) i databasen [!DNL Content] och validera mallen. Gör eventuella mindre korrigeringar med kodredigeraren.

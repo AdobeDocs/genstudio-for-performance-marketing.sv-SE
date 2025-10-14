@@ -88,7 +88,7 @@ Du kan använda en exempelapp för att snabbt komma igång med att skapa din add
 
 1. Hämta en exempelapp från databasen [GenStudio UIX Examples](https://github.com/adobe/genstudio-uix-examples).
 
-1. Välj [ på arbetsytan för App Builder Project på ](https://developer.adobe.com/console/)Adobe Developer Console[!UICONTROL Download All] om du vill hämta projektinformation.
+1. Välj [&#x200B; på arbetsytan för App Builder Project på &#x200B;](https://developer.adobe.com/console/)Adobe Developer Console[!UICONTROL Download All] om du vill hämta projektinformation.
 
 1. Öppna exempelappen lokalt i den integrerade utvecklingsmiljö du föredrar.
 

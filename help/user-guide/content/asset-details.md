@@ -32,7 +32,7 @@ Följande bildresurs innehåller systemmetadata som beskriver filtyp, storlek oc
 
 >[!NOTE]
 >
->Assets från AEM databaser visar olika metadata. Mer information om hur du konfigurerar [-resursinformation finns i ](connect-aem-repo.md#step-4-configure-asset-visibility)Konfigurera resurssynlighet[!DNL AEM Assets Content Hub].
+>Assets från AEM databaser visar olika metadata. Mer information om hur du konfigurerar [-resursinformation finns i &#x200B;](connect-aem-repo.md#step-4-configure-asset-visibility)Konfigurera resurssynlighet[!DNL AEM Assets Content Hub].
 
 ## Systemmetadata
 

@@ -81,7 +81,7 @@ Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-post
 
 ### Kompatibelt resursfilter
 
-Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds &#x200B;](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
 
 ### Aktivering av flera tillgångar för metadata
 
@@ -121,7 +121,7 @@ Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan 
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [&#x200B; Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
 
 ### Lägg till videoklipp i annonser
 
@@ -154,7 +154,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 ### Korrigeringar och förbättringar
 
 * Aktiverade funktioner för [att lägga till alternativ (alt) text](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) i en bild för en enskild variant.
-* En [ny metaproportion ](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bred) har lagts till.
+* En [ny metaproportion &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bred) har lagts till.
 * Nu kan du välja mer än en upplevelse för export eller hämtning. Se [Exportera upplevelser](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
