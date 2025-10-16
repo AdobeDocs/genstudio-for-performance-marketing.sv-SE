@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 06f273d520c39042e180b5acaec33004df1cd5fe
+source-git-commit: a294111abbe89030a7095458c4b08de18722230f
 workflow-type: tm+mt
-source-wordcount: '3484'
+source-wordcount: '3745'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,54 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.09.11 {#latest}
+## 2025.10.26 {#latest}
+
+### Nya GenStudio Plugins för Photoshop och Figma
+
+* Skapa varumärkesanpassade och personaliserade annonser direkt med de nya designverktygen GenStudio Plugins för Adobe Photoshop och Figma.
+
+### Utökade videofunktioner
+
+* Nu kan marknadsförarna enkelt lägga in- och utgångsklipp i videoreklam med förproducerad reklam.
+* Lägg till bild-, text- och logoövertäckningar i hela videon
+
+### Utökade insikter för LinkedIn, Meta och TikTok
+
+* GenStudio Insights innehåller nu LinkedIn Ads prestandarapporter som gör det möjligt för marknadsförare att se och analysera hur kampanjer och annonser fungerar direkt på plattformen för:
+   * LinkedIn-annonser
+   * Meta Ads
+   * TikTok Ads
+
+### Aktivera Amazon Ads
+
+* GenStudio stöder nu aktivering av webbannonser direkt i Amazon Ads Platform.
+
+### FlashTalande aktivering
+
+* GenStudio har nu stöd för aktivering av webbannonser direkt i FlashTalk (Innovid) Ad Serving Platform.
+* Användarna måste manuellt konfigurera sin Flashtalk API-token i samordning med Activate Engineering-teamet. Självbetjäningstokenkonfigurationen läggs till i en framtida version.
+
+### Integrering med Adobe Campaign V8
+
+* GenStudio for Performance Marketing är nu integrerat med Adobe Campaign V8, vilket gör att marknadsförarna smidigt kan utnyttja det AI-baserade innehållet tillsammans med Campaigns avancerade orkestreringsfunktioner.
+
+### Autospela video
+
+* Videor spelas nu upp automatiskt över [!DNL Create]-, [!DNL Content]- och [!DNL Insights]-moduler, vilket ger smidiga förgranskningsupplevelser.
+
+### Import av e-postmallar från tredje part
+
+* GenStudio for Performance Marketing har nu stöd för smidig integrering med e-postsystem från tredje part via ett utbyggbart ramverk. Viktiga funktioner:
+
+   * Importera mallar automatiskt från tredjepartssystem för e-postdesign när du skapar innehåll
+   * Lägg in mallmetadata tillsammans med importerade mallar
+   * Bibehåll en enda källa till sanning genom att ansluta direkt till tredjepartssystem
+   * SDK och exempelappar för anpassade integreringar
+
+
+## Versionsinformation
+
++++Anmärkningar från 2025.09.11
 
 ### Ny generativ utökad AI-funktionalitet för betalmedia
 
@@ -23,7 +70,7 @@ Med den nya funktionen GenExpand kan marknadsförarna dynamiskt anpassa sina kre
 
 Den här funktionen effektiviserar bildredigeringen och ändrar storlek direkt i GenStudio for Performance Marketing. Mer information finns i [Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand).
 
-## Versionsinformation
++++
 
 +++Anmärkningar från 2025.08.15
 
@@ -81,11 +128,11 @@ Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-post
 
 ### Kompatibelt resursfilter
 
-Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds &#x200B;](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
 
 ### Aktivering av flera tillgångar för metadata
 
-Bildaktivering med flera proportioner för Meta Ads gör det möjligt för annonsörer att överföra och aktivera flera bildresurser i olika proportioner under en enda annons. Med den här funktionen kan en annons ge rätt kreativ passning för olika typer av metaenheter som Feed, Stories och Reels. Annonsörer kan förhandsvisa hur varje bild återges på olika placeringar och publicera alla versioner på Meta i ett enda API-anrop.
+Med funktionen för bildaktivering med flera proportioner för Meta Ads kan annonsörer överföra och aktivera flera bildresurser med olika proportioner under en enda annons. Med den här funktionen kan en annons ge rätt kreativ anpassning till olika Meta-montage som Feed, Stories och Reels. Annonsörer kan förhandsvisa hur varje bild återges på olika placeringar och publicera alla versioner på Meta i ett enda API-anrop.
 
 ### RTF-formatering i varianter
 
@@ -121,7 +168,7 @@ Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan 
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [&#x200B; Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
 
 ### Lägg till videoklipp i annonser
 
@@ -154,7 +201,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 ### Korrigeringar och förbättringar
 
 * Aktiverade funktioner för [att lägga till alternativ (alt) text](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) i en bild för en enskild variant.
-* En [ny metaproportion &#x200B;](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bred) har lagts till.
+* Lagt till [nya Meta-proportioner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bredd).
 * Nu kan du välja mer än en upplevelse för export eller hämtning. Se [Exportera upplevelser](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -164,7 +211,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
@@ -173,9 +220,9 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 +++Anmärkningar från 2025.03.13
 
-### Aktivera metaannonser
+### Aktivera Meta-annonser
 
-Nu kan marknadsförare [publicera annonsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing i Meta Ads Manager. [!DNL Activate] har stöd för detaljerade förhandsvisningar av Meta-annonser före distributionen. Metaannonser som publicerats via [!DNL Activate] hämtas automatiskt till [!DNL Insights] en gång i realtid, vilket gör att användare kan spåra och rapportera annonsprestanda.
+Nu kan marknadsförare [publicera annonsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing i Meta Ads Manager. [!DNL Activate] har stöd för detaljerade förhandsvisningar av Meta-annonser före distributionen. Meta-annonser som publicerats via [!DNL Activate] hämtas automatiskt till [!DNL Insights] en gång i realtid, vilket gör att användare kan spåra och rapportera annonsprestanda.
 
 ### Skapa LinkedIn-upplevelser
 
@@ -246,13 +293,13 @@ Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Anv�
 
 ### Korrigeringar och förbättringar
 
-* Teckenantal visas nu i alla genererade och manuella fält för visningsannonser. Se _Antal tecken_ i [Metaupplevelser](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
+* Teckenantal visas nu i alla genererade och manuella fält för visningsannonser. Se _Antal tecken_ i [Meta-upplevelser](/help/user-guide/create/meta-experiences.md#character-counts). <!-- GS-7732 -->
 
 * _Medarbetare_ kan nu visa resurser, men inte skapa, redigera eller ta bort dessa resurser. Medarbetarberättiganden har inte framtvingats på det sätt som förväntades i [!DNL Create]. <!-- GS-7614 -->
 
 * Nu kan redaktörer redigera resurser, upplevelser och mallmetadata. <!-- GS-4905 -->
 
-* Nu finns stöd för anpassade bildstorlekar i Meta och Mallar. <!-- GS-7512 -->
+* Nu finns stöd för anpassade bildstorlekar i Meta annonsmallar. <!-- GS-7512 -->
 
 * Personuppgifter, varumärken och produktval är nu förinlästa under mallgenereringen. <!-- GS-8069 -->
 
@@ -260,7 +307,7 @@ Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Anv�
 
 * Listrutan [!DNL Brand] för väljare fungerar nu som förväntat för mallar. Tidigare gick det inte att läsa in väljaren för vissa mallar. <!-- GS-8908 -->
 
-* Redigerare kan nu välja högst fyra bilder för e-post med ett enda stativ och för Meta-annonser. <!-- GS-2631 -->
+* Nu kan redaktörer välja högst fyra bilder för e-postmeddelanden med ett enda streck och Meta-annonser. <!-- GS-2631 -->
 
 * Årsvärdet för en godkänd upplevelses `Created by`-fält förblir nu konsekvent som förväntat efter att upplevelsens metadata har redigerats. <!-- GS-8344 -->
 
@@ -320,7 +367,7 @@ Med ytterligare nya funktioner kan redigerare:
 
 * Redigerare kan nu välja upp till fyra bilder när de skapar en visningsannons. <!-- GS-7189 -->
 
-* Utkast för displayannonser och Meta-annonser läses nu in som förväntat när storleken ändras i en annan webbläsare. <!-- GS-7204 -->
+* Webbannonser och Meta-annonsutkast läses nu in som förväntat när storleken ändras i en annan webbläsare. <!-- GS-7204 -->
 
 * Oanvända mallfält visas inte längre i genererat innehåll.  <!-- GS-5670 -->
 
@@ -392,7 +439,7 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 * Markering av **[!UICONTROL Delete]** från åtgärdsmenyn [!DNL Create] (..) fungerar nu som förväntat. <!-- GS-6871 -->
 
-* Användarna kan nu styra alla interaktiva element i Meta- och mallarna enbart med tangentbordet. <!-- GS-4066 -->
+* Användarna kan nu styra alla interaktiva element i Meta och mallar enbart med tangentbordet. <!-- GS-4066 -->
 
 * Extrahering av bilddimensioner från mallbildfält har lagts till i Visa annonsmallar. Begäran om smart beskärning skickas nu för den faktiska dimensionen av bilden och inte för hela mallen. <!-- GS-6926 -->
 
@@ -414,11 +461,11 @@ Den här versionen innehåller förbättringar av lokaliseringen i hela använda
 
 #### Omgenerering av bilder
 
-* Att ändra storlek på flera Meta ad-varianter fungerar nu som väntat. Tidigare visades inte regenererade varianter på arbetsytan, men de förblev tomma. <!-- GS-7010 -->
+* Att ändra storlek på flera Meta-annonsvarianter fungerar nu som väntat. Tidigare visades inte regenererade varianter på arbetsytan, men de förblev tomma. <!-- GS-7010 -->
 
 * Fragmentomgenerering fungerar nu som förväntat för upplevelser med ändrad storlek. <!-- GS-6836 -->
 
-* Återskapande av Meta-annonser efter att de har ändrat storlek resulterar inte längre i ett fel. Tidigare ändrades kanalens metadata från `meta` till `facebook` när bilder ändrades före omgenerering. <!-- GS-7042 -->
+* Återskapande av Meta-annonsbilder efter storleksändring resulterar inte längre i ett fel. Tidigare ändrades kanalens metadata från `meta` till `facebook` när bilder ändrades före omgenerering. <!-- GS-7042 -->
 
 +++
 
