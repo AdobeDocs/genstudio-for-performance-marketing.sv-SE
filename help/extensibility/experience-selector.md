@@ -115,7 +115,7 @@ Den här databasen innehåller fungerande exempel för olika ramverk:
 
 - [Den här Vanilla ESM-versionen använder ES6-moduler och moderna JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
-- [Denna Vanilla UMD-version använder UMD-paket som läses in via skripttaggen ](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
+- [Denna Vanilla UMD-version använder UMD-paket som läses in via skripttaggen &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
 
 ## Autentiseringsflöde
 
