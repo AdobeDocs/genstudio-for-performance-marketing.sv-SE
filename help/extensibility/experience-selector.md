@@ -2,7 +2,7 @@
 title: GenStudio Experience Selector MFE
 description: Förstå och implementera Experience Selector Micro FrontEnd för dina GenStudio-appar och tillägg.
 feature: Extensibility, Extensions, Experiences
-source-git-commit: d6e580763d85df6d9d295d4e87501af4b022f57b
+source-git-commit: d9d6d3825cd953245049de119c66f54274f20fd9
 workflow-type: tm+mt
 source-wordcount: '347'
 ht-degree: 0%
@@ -107,15 +107,15 @@ Objektet `susiConfig` kan innehålla:
 
 Den här databasen innehåller fungerande exempel för olika ramverk:
 
-- [Ett komplett React-program som demonstrerar integrationen med Vite-byggsystemet](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js).
+- [Ett **fullständigt React-program** som visar integrationen med Vite-byggsystemet](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/react-js).
 
-- [Ett Vue 3-program med API-integrering för disposition](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js).
+- [Ett **Vue 3-program** med API-integrering för disposition](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vue-js).
 
-- [Två vanilj-JavaScript-implementeringar](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
+- [Två **Vanilla JavaScript-implementeringar**](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js):
 
-- [Den här Vanilla ESM-versionen använder ES6-moduler och moderna JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
+   - [Den här **Vanilla ESM**-versionen använder ES6-moduler och moderna JavaScript](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-esm).
 
-- [Denna Vanilla UMD-version använder UMD-paket som läses in via skripttaggen &#x200B;](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
+   - [Den här **Vanilla UMD**-versionen använder UMD-paket som lästs in via skripttagg](https://github.com/adobe/genstudio-extensibility-examples/tree/main/genstudio-experience-selector-mfe/vanilla-js/vanilla-umd-global-var).
 
 ## Autentiseringsflöde
 
