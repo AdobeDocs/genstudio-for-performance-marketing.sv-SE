@@ -3,9 +3,9 @@ title: Content Credentials för organisationer
 description: Läs om hur du använder och granskar Content Credentials i GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: b7e3d1c3b20149eee85670098ddd100b41e27f2c
+source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
 workflow-type: tm+mt
-source-wordcount: '659'
+source-wordcount: '664'
 ht-degree: 0%
 
 ---
@@ -16,7 +16,7 @@ Lär dig hur manipuleringssäkra autentiseringsuppgifter för innehåll som bevi
 
 >[!WARNING]
 >
->Den här funktionen är för närvarande i betaversion och är endast tillgänglig för organisationer som har fått åtkomst. Om du är intresserad kontaktar du Adobe account team representant för att få delta.
+> Den här funktionen är för närvarande i betaversion och är endast tillgänglig för organisationer som har fått åtkomst. Om du är intresserad kontaktar du Adobe kontoteam eller [använder den här länken för att begära registrering](https://www.feedbackprogram.adobe.com/c/a/5aWPEOthrDv22Mf9CyekOy?source=qr).
 
 
 ## Kom igång med Content Credentials
@@ -33,11 +33,11 @@ Administratörer ansvarar för att överföra ett giltigt X.509-certifikat inom 
 
 ## Vad är Content Credentials? 
 
-Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect &#x200B;](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/se/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect ](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 Genom att använda Content Credentials kan du öka genomskinligheten i hur innehåll har skapats och hjälpa dina användare att ansluta sig till sitt innehåll.
 
-[Läs mer om Content Credentials](https://helpx.adobe.com/se/creative-cloud/help/content-credentials.html) på Adobe.
+[Läs mer om Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) på Adobe.
 
 ## Varumärkessignatur och tillgångsspårning
 
@@ -55,7 +55,7 @@ I innehållsgalleriet visas inloggningsuppgifter för importerade resurser.
 
 Content Credential-märket i det övre högra hörnet av miniatyrbilden visar&quot;Varumärkessignerat&quot; innehåll.
 
-![En importerad resurs med autentiseringsuppgifter](./images/import-discovery1.png){width="350"}
+![En importerad resurs med autentiseringsuppgifter](./images/import-discovery1.png)
 
 Om du väljer signerat innehåll visas detaljerade metadata: publicerat varumärke, inspelare, använt verktyg, tidsstämpel.
 
@@ -75,13 +75,13 @@ Metadata för autentiseringsuppgifter bevaras när resurser väljs för upplevel
 
 Vid export från ett utkast signeras ändrade resurser om automatiskt och de nya autentiseringsuppgifterna länkar till originalet.
 
-![Autentiseringsdata för en exporterad resurs](./images/edit-and-transformation1.png){width="300"}
+![Autentiseringsdata för en exporterad resurs](./images/edit-and-transformation1.png){width="60%"}
 
 ### Granskning och godkännande
 
 I förhandsgranskningen för Granska och godkänn visas autentiseringsstatus för resurser till höger.
 
-![Autentiseringsdata för en godkänd resurs](./images/review-and-approve1.png){width="300"}
+![Autentiseringsdata för en godkänd resurs](./images/review-and-approve1.png){width="60%"}
 
 Autentiseringsuppgifter per variant visas när granskarna inspekterar resurserna. Godkända upplevelser signeras om när användare klickar på **[!UICONTROL Save to Content]**.
 
@@ -91,7 +91,7 @@ Autentiseringsuppgifter per variant visas när granskarna inspekterar resurserna
 
 Under aktiveringen visas autentiseringsstatusen i Experience selector.
 
-![Autentiseringsdata för en aktiverad resurs](./images/activate-export1.png){width="350"}
+![Autentiseringsdata för en aktiverad resurs](./images/activate-export1.png){width="60%"}
 
 Exporterade filer kommer att ha inbäddade C2PA-kompatibla autentiseringsuppgifter.
 
