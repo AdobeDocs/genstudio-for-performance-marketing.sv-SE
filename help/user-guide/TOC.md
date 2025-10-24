@@ -5,10 +5,10 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 69915cf03785c3a916bab75cbc34d0126749cddc
+source-git-commit: 48dae1e6ce14a7dc1f2cc5fbad60eefebe99bf4e
 workflow-type: tm+mt
-source-wordcount: '0'
-ht-degree: 0%
+source-wordcount: '242'
+ht-degree: 14%
 
 ---
 
@@ -40,13 +40,13 @@ ht-degree: 0%
 + Skapa {#create}
    + [[!DNL Create] översikt](create/overview.md)
    + [E-postupplevelser](create/email-experiences.md)
-   + [Metaupplevelser](create/meta-experiences.md)
+   + [Meta-upplevelser](create/meta-experiences.md)
    + [LinkedIn-upplevelser](create/linkedin-experiences.md)
    + [Visa annonsupplevelser](create/display-ad-experiences.md)
    + [Banderollupplevelser](create/banner-experiences.md)
    + [Hantera varianter](create/manage-variants.md)
    + [Skapa en e-postupplevelse](create/create-email-experience.md)
-   + [Skapa en Meta-annonsupplevelse](create/create-meta-ad.md)
+   + [Skapa en annonsupplevelse från Meta](create/create-meta-ad.md)
    + [Skapa en LinkedIn-upplevelse](create/create-linkedin.md)
    + [Skapa en annonsvisning](create/create-display-ad.md)
    + [Skapa en banderollupplevelse](create/create-banner-experience.md)
@@ -63,6 +63,7 @@ ht-degree: 0%
    + [Hantera resurser och upplevelser](content/manage-assets.md)
    + [Ansluta en AEM-databas](content/connect-aem-repo.md)
    + [Resursinformation](content/asset-details.md)
+   + [Content Credentials](content/content-credentials.md)
 + Mallar {#templates}
    + [Arbeta med mallar](content/use-templates.md)
    + [Startmallar](templates/starter-templates.md)
@@ -74,7 +75,7 @@ ht-degree: 0%
       + [Guiden Visa annonser](templates/display-template.md)
       + [E-postguide](templates/email-template.md)
       + [Guiden LinkedIn-annonser](templates/linkedin-template.md)
-      + [Guiden Metaannonser](templates/meta-template.md)
+      + [Meta annonshandbok](templates/meta-template.md)
 + Kampanjer {#campaigns}
    + [Kampanjer - översikt](campaigns/overview.md)
    + [Skapa kampanjer](campaigns/create-campaign.md)
