@@ -3,7 +3,7 @@ title: Content Credentials för organisationer
 description: Läs om hur du använder och granskar Content Credentials i GenStudio for Performance Marketing.
 level: Intermediate
 feature: Content Management, Content Attributes
-source-git-commit: 9023c86d45e6fdc8b6ddd0bdedd23eed05e87aae
+source-git-commit: 488bc7d7b7447ee6e807dd91f83766844c24abb9
 workflow-type: tm+mt
 source-wordcount: '664'
 ht-degree: 0%
@@ -33,11 +33,11 @@ Administratörer ansvarar för att överföra ett giltigt X.509-certifikat inom 
 
 ## Vad är Content Credentials? 
 
-Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect &#x200B;](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/se/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect ](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 Genom att använda Content Credentials kan du öka genomskinligheten i hur innehåll har skapats och hjälpa dina användare att ansluta sig till sitt innehåll.
 
-[Läs mer om Content Credentials](https://helpx.adobe.com/se/creative-cloud/help/content-credentials.html) på Adobe.
+[Läs mer om Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) på Adobe.
 
 ## Varumärkessignatur och tillgångsspårning
 
@@ -61,7 +61,7 @@ Om du väljer signerat innehåll visas detaljerade metadata: publicerat varumär
 
 Innehåll kan filtreras efter autentiseringsstatus.
 
-![Autentiseringsdata för en resurs](./images/import-discovery2.png)
+![Autentiseringsdata för en resurs](./images/import-discovery2.jpg)
 
 ### Skapa och markera
 
