@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 2c5a16f0767958d09cfe5bbaa7a5538ca1b4fe75
+source-git-commit: 730e8f89f466ab457670cefe98833f5f4732636c
 workflow-type: tm+mt
 source-wordcount: '1610'
 ht-degree: 0%
@@ -43,13 +43,13 @@ I följande tabell visas de fältnamn som GenStudio for Performance Marketing k�
 | Fält | Roll | Kanalmall |
 | ----------------------- | ------------------------- | ------------------------------------------------ |
 | `{{pre_header}}` | Förrubrik | e-post |
-| `{{headline}}` | Headline | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
+| `{{headline}}` | Headline | e-post <br>Meta och <br>Banner och Display och <br>LinkedIn |
 | `{{sub_headline}}` | Underrubrik | e-post<br>Banderoll och visningsannons |
 | `{{introductory_text}}` | Introduktionstext | LinkedIn och |
-| `{{body}}` | Body copy | e-post <br>Meta ad <br>Banner and Display ad |
-| `{{cta}}` | Call to action<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
-| `{{image}}` | Bild - välj från [!DNL Content] | e-post <br>Meta ad <br>Banner and Display ad <br>LinkedIn ad |
-| `{{on_image_text}}` | På bildtext <br>Se [Om bildtext](#on-image-text). | Meta ad <br>LinkedIn ad |
+| `{{body}}` | Body copy | e-post <br>Meta och <br>Banner och Display ad |
+| `{{cta}}` | Call to action<br>Se [Anrop till åtgärd](#calls-to-action) | e-post <br>Meta och <br>Banner och Display och <br>LinkedIn |
+| `{{image}}` | Bild - välj från [!DNL Content] | e-post <br>Meta och <br>Banner och Display och <br>LinkedIn |
+| `{{on_image_text}}` | På bildtext <br>Se [Om bildtext](#on-image-text). | Meta och <br>LinkedIn |
 | `{{link}}` | Call to action på bild<br>Se [Länk på bild](#link-on-image). | e-post |
 
 <!-- | `{{brand_logo}}`        | Logo of selected brand<br>See [Brand logo field name](#brand-logo-field-name). | email<br>Meta ad <br>LinkedIn ad | -->
@@ -57,7 +57,7 @@ I följande tabell visas de fältnamn som GenStudio for Performance Marketing k�
 GenStudio for Performance Marketing genererar automatiskt vissa fält i följande mallar:
 
 - **E-postmallen** kräver inte att du identifierar fältet `subject`
-- **Meta ad-mallen** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
+- **Meta annonsmall** kräver inte att du identifierar fälten `headline`, `body` och `CTA`
 - **Banderoll och mall för visningsannons** kräver inte att du identifierar fältet `CTA`
 - **LinkedIn och-mallen** kräver inte att du identifierar fälten `headline`, `introductory_text` och `CTA`
 
@@ -73,7 +73,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -259,7 +259,7 @@ Se [Mallkodredigerare](/help/user-guide/content/code-editor.md).
 
 Du kan styra visningen av specialinnehåll med hjälp av inbyggda hjälpredor (specialuttryck i mallspråket [!DNL Handlebars] som utför vissa åtgärder). Du kan till exempel lägga till en villkorssats som lägger till spårningsparametrar till länkar i den exporterade mallen samtidigt som förhandsgranskningslänkarna hålls rena.
 
-Värdet `_genStudio.browser` anges när en mall återges och värdet `genStudio.export` anges när en mall exporteras. Du kan välja att ta med visst innehåll högst upp i ett e-postmeddelande med en villkorlig omslutning, till exempel när mallen används för export:
+Värdet `_genStudio.canvas` anges när en mall återges och värdet `genStudio.export` anges när en mall exporteras. Du kan välja att ta med visst innehåll högst upp i ett e-postmeddelande med en villkorlig omslutning, till exempel när mallen används för export:
 
 ```handlebars
 {{#if _genStudio.export}}
@@ -270,7 +270,7 @@ Värdet `_genStudio.browser` anges när en mall återges och värdet `genStudio.
 Ett annat exempel kan vara att förhindra att spårningskoder används när en mall förhandsgranskas i GenStudio for Performance Marketing. I följande exempel visas hur du lägger till spårningsparametrar till länkar i den exporterade mallen, samtidigt som du håller förhandsgranskningslänkarna rena:
 
 ```html
-<a class="button" {{#if _genStudio.browser }}
+<a class="button" {{#if _genStudio.canvas }}
    href="{{link}}"{{/if}}{{#if _genStudio.export }}
    href="{{link}}?trackingid=<%=getTrackingId()%>&mv=email"{{/if}}
    target="_blank">{{cta}}</a>
@@ -278,7 +278,7 @@ Ett annat exempel kan vara att förhindra att spårningskoder används när en m
 
 ## Statiskt innehåll
 
-E-post- och metamallar länkar ofta till bilder och CSS-filer på andra domäner. När GenStudio for Performance Marketing genererar miniatyrbilder för mallförhandsvisningar eller de upplevelser som härletts från dem, valideras innehållskällan och en kopia bäddas in för förhandsgranskning.
+E-post- och Meta-mallar länkar ofta till bilder och CSS-filer på andra domäner. När GenStudio for Performance Marketing genererar miniatyrbilder för mallförhandsvisningar eller de upplevelser som härletts från dem, valideras innehållskällan och en kopia bäddas in för förhandsgranskning.
 
 Externa filer bäddas bara in tillfälligt i syfte att skapa mallförhandsvisningen, vilket gör att förhandsvisningen korrekt återger innehållet så som det ser ut när du skapar mallen. Dessa externa filer lagras **inte** permanent i GenStudio for Performance Marketing. När mallförhandsgranskningen har skapats fortsätter GenStudio for Performance Marketing att referera till den ursprungliga källlänken som finns i mallen.
 
