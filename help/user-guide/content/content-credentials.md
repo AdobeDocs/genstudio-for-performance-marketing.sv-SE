@@ -33,11 +33,11 @@ Administratörer ansvarar för att överföra ett giltigt X.509-certifikat inom 
 
 ## Vad är Content Credentials? 
 
-Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect &#x200B;](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
+Content Credentials är en hållbar, branschledande typ av metadata med information om hur innehåll har skapats och identitetsinformation om skaparna. Content Credentials kan visas när innehållet publiceras online på olika plattformar eller med verktyg som [Adobe Inspect &#x200B;](https://contentauthenticity.adobe.com/inspect) eller [Adobe Content Authenticity Chrome-webbläsartillägget](https://helpx.adobe.com/se/creative-cloud/help/cai/adobe-content-authenticity-chrome-browser-extension.html).  
 
 Genom att använda Content Credentials kan du öka genomskinligheten i hur innehåll har skapats och hjälpa dina användare att ansluta sig till sitt innehåll.
 
-[Läs mer om Content Credentials](https://helpx.adobe.com/creative-cloud/help/content-credentials.html) på Adobe.
+[Läs mer om Content Credentials](https://helpx.adobe.com/se/creative-cloud/help/content-credentials.html) på Adobe.
 
 ## Varumärkessignatur och tillgångsspårning
 
