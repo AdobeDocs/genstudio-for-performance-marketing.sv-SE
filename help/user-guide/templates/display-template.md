@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 076239b3-9444-48f9-bdd6-ef2b757bdf0d
-source-git-commit: f4bc3442678e6366e185d0c7a91c784d43b8e455
+source-git-commit: 85cc8ee51bd6b934811583dc0a8460d6d7083a70
 workflow-type: tm+mt
-source-wordcount: '590'
+source-wordcount: '302'
 ht-degree: 0%
 
 ---
@@ -51,41 +51,3 @@ Bredd x höjd (pixlar) måste anges.
 | Vågrät | 300 x 250<br>728 x 90<br>336 x 280<br>320 x 50<br>970 x 250 | Standardstorlekar för rankningspanel, medelstor rektangel och banderoll. |
 | Egen | 50 x 50 till 2 000 x 2 000 | Använd för icke-standardiserade eller unika placeringar; kontrollera plattformsbegränsningar. |
 
-## Överföra bilder för displayannonser
-
-Bilder som används i visningsannonser ska komma från innehållsdatabasen och måste överföras korrekt för att bilden ska visas korrekt i mallen.
-
-När en visningsmall innehåller en bild som löper från kant till kant (helt utfall) ändras storleken automatiskt på den markerade bilden så att den passar de fullständiga malldimensionerna. Om bilden inte matchar mallens proportioner beskärs bilden så att den passar mallens dimensioner och visas eventuellt inte som förväntat.
-
-Det finns ingen autopassningsfunktion för bilder i mallar för displayannonser.
-
-För att lösa bildbeskärning måste användarna definiera bildens proportioner i mallen när den överförs till innehållsdatabasen. När du överför en godkänd mall för displayannonsering:
-
-1. [Fortsätt genom mallöverföringsprocessen](/help/user-guide/content/use-templates.md#add-a-template) tills du når sidan **[!UICONTROL Add details]**.
-
-1. Definiera bildens proportioner som ska användas i mallen i **[!UICONTROL Ad width (px)]** och **[!UICONTROL Ad height (px)]**. Detta definierar bildfönstret för den del av mallen som visar bilden.
-
-1. I avsnittet **[!UICONTROL More details]** markerar du listrutan **[!UICONTROL Image size]** och väljer _Beskär till en fast storlek_.
-   ![Beskuren till fast storlek](./crop-to-fixed-size.png "Beskuren till fast storlek"){width="80%"}
-
-Så här avgör du en bilds storlek och proportioner i webbläsaren:
-
-1. Granska bilden.
-   - Windows/Linux:
-      - Tryck på F12.
-   - macOS:
-      - Tryck på Kommando + Alt + I.
-
-1. Hovra över bilden.
-
-1. Observera proportionerna. Använd detta för att definiera bildens proportioner i mallen.
-
-När dessa detaljer inte används vid överföring antas bilden vara mallens hela proportioner och bilder som inte matchar proportionerna visas som beskurna.
-
-![Bild beskuren i en bildskärm och](./cropped-display.png "Bildbeskärning"){width="60%"}
-
-**❌Beskuren bild i en visningsannonsmall**
-
-![Bilden visas i en visningsannons](./full-fit.png "Bilden visas i visningsannons"){width="60%"}
-
-**✅Bilden visas helt**
