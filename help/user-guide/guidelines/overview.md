@@ -1,24 +1,24 @@
 ---
-title: Översikt över  [!DNL Brands], [!DNL Products] och [!DNL Personas]
-description: Lägg till [!DNL Brands], [!DNL Products], and [!DNL Personas]  i GenStudio for Performance Marketing för att skapa en omfattande varumärkesprofil som innehåller alla aspekter av ett varumärkes representation.
+title: Översikt över kanalriktlinjer
+description: Lägg till riktlinjer för kanaler i GenStudio for Performance Marketing för att skapa en omfattande varumärkesprofil som innehåller alla aspekter av ett varumärkes representation.
 level: Beginner
 feature: Brand Personalization, Product Personalization, Persona Personalization, Variant Generation, Generative AI
 exl-id: 577c627b-0895-4958-a883-3133b4a3efde
-source-git-commit: dcd347dedd17497a080989df9e92dbf175cd2b2e
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
-source-wordcount: '0'
+source-wordcount: '495'
 ht-degree: 0%
 
 ---
 
 # GenStudio for Performance Marketing riktlinjer
 
-GenStudio for Performance Marketing riktlinjer -**[!DNL Brands]**, **[!DNL Products]** och **[!DNL Personas]** - kan antingen överföras eller läggas till manuellt till GenStudio for Performance Marketing, vilket gör att användare kan skapa varumärkesriktlinjer som fångar det väsentliga i ett varumärkes identitet.
+GenStudio for Performance Marketing riktlinjer kan antingen överföras eller läggas till manuellt i GenStudio for Performance Marketing, vilket gör att man kan fastställa riktlinjer för varumärket som fångar det väsentliga i ett varumärkes identitet.
 
 Följande riktlinjer hjälper till att säkerställa att allt AI-genererat innehåll är anpassat till specifikationer för varumärkesidentitet och tillgänglighet, vilket möjliggör effektiv personalisering av innehåll:
 
 * [Riktlinjer för standardkanal](/help/user-guide/guidelines/brands.md#default-channel-guidelines) för [!DNL Brands] baserat på bästa praxis inom branschen och individuella plattformsspecifikationer
-* Användardefinierade riktlinjer för [!DNL Brands], [!DNL Products] och [!DNL Personas]
+* Användardefinierade riktlinjer (som [!DNL Brands], [!DNL Products] och [!DNL Personas])
 * Riktlinjer för plattformar för kanaler som Meta, LinkedIn med flera
 * [Amerikaner med ADA (Disabilities Act) - riktlinjer för tillgänglighet](#compliance)
 
@@ -28,7 +28,7 @@ Riktlinjerna hjälper till att säkerställa att allt AI-genererat innehåll är
 
 Börja med att skapa en heltäckande varumärkesprofil genom att lägga till [[!DNL Brands]](/help/user-guide/guidelines/brands.md), [[!DNL Products]](/help/user-guide/guidelines/products.md) och [[!DNL Personas]](/help/user-guide/guidelines/personas.md) för att skapa övertygande marknadsföringsinnehåll med GenStudio for Performance Marketing.
 
-Se [Lägg till riktlinjer](/help/user-guide/guidelines/add-guidelines.md) om du vill veta mer om hur du lägger till [!DNL Brands], [!DNL Products] och [!DNL Personas].
+Se [Lägg till riktlinjer](/help/user-guide/guidelines/add-guidelines.md) om du vill veta hur du lägger till varje typ.
 
 ## Funktioner
 
@@ -44,14 +44,14 @@ Genom att införliva varumärkes-, produkt- och persondata i GenStudio for Perfo
 
 ## Användningsexempel
 
-Riktlinjerna för [!DNL Brands], [!DNL Products] och [!DNL Personas] aktiverar två huvudsakliga användningsfall för att säkerställa att allt genererat innehåll följer ett varumärkes önskade representation:
+Kanalriktlinjer möjliggör två huvudsakliga användningsfall för att säkerställa att allt genererat innehåll följer ett varumärkes önskade återgivning:
 
 * **Skapa innehåll** i [[!DNL Create]](/help/user-guide/create/overview.md) eller [Innehåll](/help/user-guide/content/overview.md)
 * [**Varumärkesvalidering**](#content-checks) som sker som en del av innehållsskapandet
 
 ## Innehållskontroller
 
-I samarbete med Adobe generativa AI-funktioner spelar [!DNL Brands], [!DNL Products] och [!DNL Personas] en viktig roll för att säkerställa att allt ditt GenStudio for Performance Marketing-innehåll överensstämmer med din varumärkesidentitet.
+Tillsammans med Adobe generativa AI-funktioner spelar [!DNL Brands], [!DNL Products] och [!DNL Personas] en viktig roll för att säkerställa att allt ditt GenStudio for Performance Marketing-innehåll överensstämmer med din varumärkesidentitet.
 
 GenStudio for Performance Marketing genomför varumärkesvalidering och innehållskontroller, inklusive tillgänglighetsstandarder och plattformsstandarder för ADA, och tillhandahåller en checklista för genererat innehåll för att lyfta fram förbättringsområden.
 

@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 72cd93d9d6fdd99d5a524d05cba923e9c0191960
+source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -47,7 +47,7 @@ Frågevillkoren för [e-post](/help/user-guide/create/email-experiences.md) kan 
 
 >[!NOTE]
 >
->Om riktlinjer läggs till i _Parametrar_ i promptlådan behöver du inte inkludera någon referens till dem i uppmaningen. GenStudio for Performance Marketing utnyttjar dessa [!DNL Brands], [!DNL Products] och [!DNL Personas] i innehållsgenereringen.
+>Om riktlinjer läggs till i _Parametrar_ i promptlådan behöver du inte inkludera någon referens till dem i uppmaningen. GenStudio for Performance Marketing utnyttjar automatiskt dem när det gäller att skapa innehåll.
 
 ### Riktlinjer
 
