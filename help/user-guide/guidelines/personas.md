@@ -19,7 +19,7 @@ GenStudio for Performance Marketing utnyttjar [kraften i riktlinjerna](overview.
 **Så här visar eller ändrar du en profil**:
 
 1. Klicka på **[!UICONTROL Personas]** i det vänstra navigeringsområdet.
-1. Om du vill [visa enskilda detaljer eller ändra en profil ](add-guidelines.md#manage-personas) klickar du på åtgärdsmenyn _[!DNL Personas]_och väljer **Öppna**.
+1. Om du vill [visa enskilda detaljer eller ändra en profil &#x200B;](add-guidelines.md#manage-personas) klickar du på åtgärdsmenyn _[!DNL Personas]_&#x200B;och väljer **Öppna**.
 1. Granska personernas riktlinjer genom att klicka i ett textfält för en stödlinjekategori.
 
 Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lägger till eller ändrar en profil i GenStudio for Performance Marketing.

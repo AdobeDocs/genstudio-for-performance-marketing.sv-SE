@@ -19,7 +19,7 @@ ht-degree: 0%
 **Så här visar eller ändrar du en produkt**:
 
 1. Klicka på **[!UICONTROL Products]** i det vänstra navigeringsområdet.
-1. Om du vill [visa enskild information eller ändra en produkt](add-guidelines.md#manage-products) klickar du på åtgärdsmenyn _[!DNL Products]_och väljer **[!UICONTROL Open]**.
+1. Om du vill [visa enskild information eller ändra en produkt](add-guidelines.md#manage-products) klickar du på åtgärdsmenyn _[!DNL Products]_&#x200B;och väljer **[!UICONTROL Open]**.
 1. Läs produktriktlinjerna genom att klicka i ett textfält för stödlinjekategori.
 
 Se [Lägga till riktlinjer](add-guidelines.md) om du vill veta mer om hur du lägger till eller ändrar en produkt i GenStudio for Performance Marketing.

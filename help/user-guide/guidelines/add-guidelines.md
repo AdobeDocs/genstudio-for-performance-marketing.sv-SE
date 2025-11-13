@@ -46,7 +46,7 @@ Se [[!DNL Brands]](/help/user-guide/guidelines/brands.md).
 
 **Så här överför du varumärkesdokument**:
 
-1. Markera knappen _[!DNL Brands]_på panelen **[!UICONTROL Add brand]**.
+1. Markera knappen _[!DNL Brands]_&#x200B;på panelen **[!UICONTROL Add brand]**.
 1. Välj **[!UICONTROL Upload PDFs]** och ange ett varumärkesnamn i popup-fönstret _Välj ett sätt att lägga till ditt varumärke_.
 1. Välj **[!UICONTROL Continue]**.
 1. Bläddra och bifoga eller dra i dina varumärkesriktlinjer till popup-menyn _[!UICONTROL Add your brand]_.
@@ -80,7 +80,7 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
    - _När det här varumärket ska användas_: Klicka **[!UICONTROL Add]** (eller klicka i textfältet för att ändra befintlig text) och ange översikt och användningsinformation om varumärket. Klicka på **[!UICONTROL Save changes]**.
    - [_[!DNL Brand] röstriktlinjer _](brands.md#brand-voice-guidelines): Lägg till relevant information i varje stödlinjefält.
 
-     ![Lägg till [!DNL Brand] röstriktlinjer ](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
+     ![Lägg till [!DNL Brand] röstriktlinjer &#x200B;](/help/assets/brand-voice-add.png){width="500" zoomable="yes"}
 
    - [_Bildriktningar_](brands.md#image-guidelines): Klicka **[!UICONTROL Add category]** om du vill lägga till riktlinjer som &quot;Allmänna riktlinjer&quot; eller &quot;Produktfotografi&quot;. Fyll i riktlinjer i varje tillagd kategori.
    - [_Kanalriktlinjer_](brands.md#channel-guidelines): Klicka i varje tillgänglig kanal och lägg till lämpliga riktlinjer.
@@ -89,7 +89,7 @@ Du kan lägga till varumärkesinformation manuellt i stället för att överför
 
      ![Varumärkesfärger](/help/assets/colors.png){width="600" zoomable="yes"}
 
-Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_för att gå tillbaka till startsidan för_[!UICONTROL Brands]_.
+Om du vill visa din skapade [!DNL Brands] klickar du på bakåtpilen i den övre delen av panelen _[!UICONTROL Brands]_&#x200B;för att gå tillbaka till startsidan för&#x200B;_[!UICONTROL Brands]_.
 
 Du behöver inte [publicera](#publish-brand) din [!DNL Brand] för att göra informationen tillgänglig. All information som läggs till manuellt är tillgänglig direkt efter att den lagts till. För att andra i din organisation ska kunna använda informationen [!DNL Brand] i GenStudio for Performance Marketing måste du publicera den. En skapad [!DNL Brand] är i utkastform tills den publiceras.
 
@@ -112,7 +112,7 @@ Du kan välja en befintlig [!DNL Brand]-logotyp i [!UICONTROL Logos]-flikvyn fö
 
 Innan du publicerar ett [!DNL Brand]-utkast ska du klicka igenom alla riktlinjer-avsnitt för att granska all ifylld information. Ändra varumärkesriktlinjerna efter behov.
 
-I _[!DNL Brands]_visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
+I _[!DNL Brands]_&#x200B;visas utkast eller publicerade [!DNL Brands] som rutor. Ett statusmärke -_ Publicerat _eller_ Utkast _- och den senaste gången varumärket ändrades visas längst ned i varje ruta.
 
 >[!TIP]
 >
@@ -138,7 +138,7 @@ Det publicerade varumärket kan nu användas i [_[!DNL Create]_](/help/user-guid
 
 ### Hantera varumärken
 
-I startsidan för _[!DNL Brands]_kan du klicka för att öppna ett varumärke som redan har skapats, så att du kan hantera eller publicera det.
+I startsidan för _[!DNL Brands]_&#x200B;kan du klicka för att öppna ett varumärke som redan har skapats, så att du kan hantera eller publicera det.
 
 Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Brands]]** i det vänstra navigeringsområdet och klickar för att öppna ett befintligt varumärke.
 
@@ -163,7 +163,7 @@ Om du vill **visa varumärkesinformation** klickar du på **[!UICONTROL [!DNL Br
 
 ## Lägg till [!DNL Personas]
 
-Om du vill lägga till en persona [överför ](#upload-a-persona) eller [skapar du en persona](#manually-add-persona) manuellt genom att välja riktlinjer och ange din personinformation.
+Om du vill lägga till en persona [överför &#x200B;](#upload-a-persona) eller [skapar du en persona](#manually-add-persona) manuellt genom att välja riktlinjer och ange din personinformation.
 
 Klicka på **[!DNL Personas]** i listan _Delad_ i det vänstra navigeringsområdet.
 
@@ -179,7 +179,7 @@ Du kan överföra dina egna personliga dokument för att fylla i nya profiler.
 
 Se [[!DNL Personas]](/help/user-guide/guidelines/personas.md).
 
-1. Markera knappen _[!DNL Personas]_på panelen **[!UICONTROL Add persona]**.
+1. Markera knappen _[!DNL Personas]_&#x200B;på panelen **[!UICONTROL Add persona]**.
 1. Välj **[!UICONTROL Upload files]** och ange ett personnamn i popup-fönstret _Välj ett sätt att lägga till din persona_.
 1. Välj **[!UICONTROL Continue]**.
 1. Bläddra och bifoga eller dra dina dokument med personliga riktlinjer till popup-menyn _[!UICONTROL Add your persona]_.
@@ -225,7 +225,7 @@ Du kan lägga till personlig information manuellt i stället för att överföra
 
 ### Hantera [!DNL Personas]
 
-I startsidan för _[!DNL Personas]_kan du **öppna en redan skapad[!DNL Persona]**för att redigera eller granska den, eller **ta bort en person**från listan:
+I startsidan för _[!DNL Personas]_&#x200B;kan du **öppna en redan skapad[!DNL Persona]**&#x200B;för att redigera eller granska den, eller **ta bort en person**&#x200B;från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Personas] om du vill granska en befintlig profil.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Personas] om du vill **ta bort** en profil.
@@ -237,7 +237,7 @@ Så här lägger du till en produkt:
 
 1. Klicka på **[!DNL Products]** i listan _Delad_ i det vänstra navigeringsområdet.
    ![Riktlinjer i GenStudio for Performance Marketing](/help/assets/guidelines.png){width="650" zoomable="yes"}
-1. Välj _[!DNL Products]_Lägg till produkt **på panelen**.
+1. Välj _[!DNL Products]_&#x200B;Lägg till produkt **på panelen**.
 1. Välj att [överföra en produkt](#upload-a-product) eller [skapa en produkt](#manually-add-product) manuellt genom att välja riktlinjer och ange produktinformationen.
 
 ![Lägg till en [!DNL Product]](/help/assets/products-add.png){width="650" zoomable="yes"}
@@ -296,7 +296,7 @@ Du kan lägga till produktinformation manuellt, i stället för att överföra b
 
 ### Hantera [!DNL Products]
 
-I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]**för att redigera eller granska den, eller **ta bort en produkt**från listan:
+I startsidan för _[!DNL Products]_&#x200B;kan du **öppna en redan skapad[!DNL Product]**&#x200B;för att redigera eller granska den, eller **ta bort en produkt**&#x200B;från listan:
 
 - Välj **[!UICONTROL Open]** på åtgärdsmenyn [!DNL Products] om du vill granska och granska en befintlig produkt.
 - Välj **[!UICONTROL Delete]** på åtgärdsmenyn [!DNL Products] om du vill **ta bort** en produkt.
@@ -306,11 +306,11 @@ I startsidan för _[!DNL Products]_kan du **öppna en redan skapad[!DNL Product]
 
 >[!NOTE]
 >
->Funktionen [!DNL Audiences] kräver att Adobe-teamet registrerar sig för att visas i GenStudio. Om _[!DNL Audiences]_inte visas i mallparametrarna kontaktar du Adobe.
+>Funktionen [!DNL Audiences] kräver att Adobe-teamet registrerar sig för att visas i GenStudio. Om _[!DNL Audiences]_&#x200B;inte visas i mallparametrarna kontaktar du Adobe.
 
 [!DNL Audiences] tillhandahåller målgruppsinriktade kundsegment från Adobe Real-Time Customer Data Platform (RTCDP), vilket ger exakt målgruppsdata i ditt arbetsflöde för innehållsgenerering. GenStudio for Performance Marketing utnyttjar målgruppsdefinitioner för att hjälpa er att skapa skräddarsytt marknadsföringsmaterial som är anpassat efter specifika kundsegment.
 
-[!DNL Audiences] visas som en listruta i parameterrutan i [arbetsflödet _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ kan lägga till specificitet i _[!DNL Personas]_när båda riktlinjerna används, men kan också användas effektivt oberoende av varandra.
+[!DNL Audiences] visas som en listruta i parameterrutan i [arbetsflödet _[!DNL Create]_](../create/overview.md#templates)._[!DNL Audiences]_ kan lägga till specificitet i _[!DNL Personas]_&#x200B;när båda riktlinjerna används, men kan också användas effektivt oberoende av varandra.
 
 Vid introduktionen importeras och omvandlas målgruppsdefinitioner till ett GenStudio-kompatibelt format. Den här processen tar normalt några dagar att slutföra. Kontakta Adobe-teamet för att starta det.
 
@@ -318,12 +318,12 @@ Vid introduktionen importeras och omvandlas målgruppsdefinitioner till ett GenS
 
 - Organisationsåtkomst till Adobe Real-Time Customer Data Platform
 - Befintliga målgrupper har redan konfigurerats i RTCDP sandlådor
-- Integreringen av _[!DNL Audience]_kräver en manuell introduktionsprocess av Adobe team
+- Integreringen av _[!DNL Audience]_&#x200B;kräver en manuell introduktionsprocess av Adobe team
 
 **Så här väljer du en målgrupp**:
 
-1. I [arbetsflödet _[!DNL Create]_](../create/overview.md#templates) markerar du en mall och klickar på knappen **[!UICONTROL Use]**för att öppna utkastet.
-1. Klicka på listrutan _[!UICONTROL Audience]_i parameterlistan för att visa alla tillgängliga målgrupper.
+1. I [arbetsflödet _[!DNL Create]_](../create/overview.md#templates) markerar du en mall och klickar på knappen **[!UICONTROL Use]**&#x200B;för att öppna utkastet.
+1. Klicka på listrutan _[!UICONTROL Audience]_&#x200B;i parameterlistan för att visa alla tillgängliga målgrupper.
    ![Listrutan Målgrupp i rutan Persona-parametrar](./audience-dropdown.png){width=450}
 1. Välj en målgrupp som du vill tilldela i listan. Systemet föreslår rekommenderade målgrupper som justeras mot din valda [!DNL Persona], om en [!DNL Persona] väljs.
 1. Klicka på **[!UICONTROL See audience details]** om du vill visa den utökade beskrivning och de meddelandeinställningar som har genererats för den valda målgruppen. Målgruppsinformationen ligger till grund för innehållsgenereringen och säkerställer att din kreativitet är anpassad efter målsegmentets specifika egenskaper och inställningar.
