@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: 015f2f14edfb05cab11a66a8e5bc9b357f2e3ab9
+source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
 workflow-type: tm+mt
-source-wordcount: '3745'
+source-wordcount: '4144'
 ht-degree: 0%
 
 ---
@@ -15,7 +15,53 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.10.16 {#latest}
+## 2025.11.14 {#latest}
+
+### Integrering av Real-Time CDP
+
+* GenStudio for Performance Marketing är nu integrerat med Adobe Real-Time Customer Data Platform (RTCDP) vilket gör att marknadsförarna kan utnyttja målgruppsdefinitioner direkt i arbetsflödet [!DNL Create].
+* Genom att välja [!DNL Audience]-parametrar under innehållsgenereringen kan marknadsförarna skapa personaliserade kreativa kopior och e-postkopior utifrån kundens sammanhang, inklusive meddelandeinställningar, köpsegment, kundfaser och beteendedata.
+
+### Innovid Insights for display advertising
+
+* [!DNL Insights] inkluderar nu Innovid (tidigare Flashtalk) som en webbannonskanal, vilket gör att marknadsförarna kan analysera kampanjresultaten tillsammans med Meta, LinkedIn och TikTok på en enhetlig plattform.
+* Med daglig datauppdatering och tillgång till viktiga prestandamått, inklusive visningar, klickningar och CTR, kan marknadsförarna fatta snabbare optimeringsbeslut utan att behöva växla mellan verktygen.
+
+### Färdig översättning för betalmedia och e-post
+
+* Översätt snabbt godkända betalda medier och e-postupplevelser till över 40 språk direkt i GenStudio for Performance Marketing.
+* Med Azure Open AI Translation Services kan team översätta innehåll till flera målspråk samtidigt.
+
+### PDF export för upplevelser
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+* Marknadsförarna kan nu [exportera upplevelser till PDF-format](/help/user-guide/content/manage-assets.md#export-experiences) för granskning, godkännande och arkivering.
+
+### Egna modeller i Firefly Image Model 4
+
+* GenStudio for Performance Marketing har nu stöd för [anpassade modeller som har utbildats i Adobe Firefly Image Model 4](/help/user-guide/create/generate-assets.md), vilket ger bättre funktioner för generering av bilder på ett varumärke med förbättrad fotorealism och detaljrikedom.
+
+### Aktivera enstaka videoannonser i Meta
+
+* Marknadsförarna kan nu [aktivera Meta-annonser med enstaka videomaterial](/help/user-guide/activation/activate-meta-ad.md) direkt från GenStudio for Performance Marketing till Meta Ads Manager. Detta gör det möjligt för medieköpare, presterande marknadsförare och kreativa team att smidigt publicera videoreklamupplevelser, med samma smidiga arbetsflöde som används för statisk annonsaktivering.
+* Användarna kan konfigurera videoannonsinformation, förhandsgranska hur videon kommer att se ut och aktivera videoannonser för Meta-plattformar.
+
+### CPA efter åtgärdstyp för Meta-kampanjer
+
+* Analysera [kostnad per åtgärd (CPA) med flexibel konverteringsspårning](/help/user-guide/insights/ads.md) för Meta-annonskampanjer.
+* I stället för ett enda fast mätvärde kan du välja mellan flera åtgärdstyper - t.ex. inköp, tilläggshändelser, leads, videovisningar eller anpassade konverteringar - för att beräkna och visa CPA för kampanjer, annonser, resurser och attribut i [!DNL Insights].
+
+### Korrigeringar och förbättringar
+
+* Ett SDK-tillägg har lagts till som gör det möjligt för kunder att ansluta till sina egna DAM:er i stället för att använda AEM Assets som standard för mediefiler när innehåll genereras.
+* Användare kan nu använda [!DNL Brand]-taggar för att gruppera [!DNL Product]- och [!DNL Persona]-poster efter [!DNL Brand].
+* Flödet [!DNL Experience Translations] har optimerats tillsammans med den nya översättningsfunktionen för Betald media och E-post.
+
+
+## Versionsinformation
+
++++Anmärkningar från 2025.10.16
 
 ### Nya GenStudio-pluginer för Photoshop och Figma
 
@@ -59,8 +105,9 @@ Den här versionsinformationen innehåller de senaste uppdateringarna av GenStud
    * Bibehåll en enda källa till sanning genom att ansluta direkt till tredjepartssystem
    * SDK och exempelappar för anpassade integreringar
 
++++
 
-## Versionsinformation
+
 
 +++Anmärkningar från 2025.09.11
 
@@ -128,7 +175,7 @@ Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-post
 
 ### Kompatibelt resursfilter
 
-Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds &#x200B;](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
 
 ### Aktivering av flera tillgångar för metadata
 
@@ -168,7 +215,7 @@ Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan 
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [&#x200B; Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
 
 ### Lägg till videoklipp i annonser
 
@@ -211,7 +258,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
@@ -385,11 +432,11 @@ Med ytterligare nya funktioner kan redigerare:
 
 * Redigerare ser nu ett felmeddelande som förväntat när ett utkast inte kan läsas in i området [!DNL Create] _Senaste arbete_.  <!-- GS-8081 -->
 
-* På arbetsytan visas nu annonser med ändrad storlek och annonser i rätt ordning.  <!-- GS-7375 -->
+* På arbetsytan visas nu storleksändrade Meta-annonser och annonser i rätt ordning.  <!-- GS-7375 -->
 
 * Redigerare kan nu klicka i fält på e-post och visa annonser. <!-- GS-6297 -->
 
-* Funktionen för att redigera fragment för e-post- och metadataannonser aktiveras nu som väntat med ett enda klick. <!-- GS-8081 -->
+* Funktionen för att redigera fragment för e-post och Meta-annonser aktiveras nu som väntat med ett enda klick. <!-- GS-8081 -->
 
 * Förbättrade prestanda för knappen [!DNL Create] **[!UICONTROL Back]**. <!-- GS-6767 -->
 
