@@ -3,9 +3,9 @@ title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
 description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: 436e2d7c02cef91eee7f4180f049b71b42ec76d5
+source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
 workflow-type: tm+mt
-source-wordcount: '689'
+source-wordcount: '786'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing genomför varumärkesvalidering och andra in
 
 * [!DNL Brand]-riktlinjer har definierats eller är standard
 * Riktlinjer för plattformen
-* American with Disabilities Act (ADA)-standarder
+* [ADOBE-standarder (American with Disabilities Act)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -81,8 +81,19 @@ Om du vill maximera effekten av genererat innehåll och behålla en konsekvent v
 
    Använd de argument som ges för varje kontroll för att hjälpa dig att ändra bilder och varianter.
 
-1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Recheck score]** för att kontrollera och validera dina ändringar och se till att de är mer i linje med din varumärkesidentitet, riktlinjer för plattformen och tillgänglighetsstandarder.
+1. När du har gjort nödvändiga ändringar klickar du på **[!UICONTROL Recheck score]** för att kontrollera och validera dina ändringar och se till att de är anpassade till din varumärkesidentitet, riktlinjer för plattformen och tillgänglighetsstandarder.
 
    Processen för innehållskontroll körs igen. Om de ändrade objekten godkänns i valideringen visas en grön banderoll längst ned på arbetsytan som bekräftar att poängen uppdaterades. Om det inte skett någon förändring efter en ny kontroll bekräftar banderollen att det inte skett någon ändring av poängen. Procentandelen i sammanfattningsikonen för _innehållskontroll_ för den ändrade varianten visar också förloppet.
 
 1. Fortsätt att granska avsnitt för att säkerställa att hela varianten klarar validerings- och tillgänglighetskontroller. Navigera genom varje variant med pilarna bredvid en enskild variant på arbetsytan.
+
+## Validering av American with Disabilities Act (ADA)
+
+Dessa tillgänglighetskontroller ingår för att man ska kunna följa amerikansk lag (Disabilities Act, ADA):
+
+[WCAG 1.1.1 Innehåll som inte är text](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - Ser till att bilder har ett `<alt>` -attribut.
+[WCAG 1.4.3 Kontrast (minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - Ser till att den genererade texten har 4.5:1 kontrast mot bakgrunden.
+[WCAG 3.1.3 Ovanliga ord](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifierar ord eller fraser som används på ett ovanligt eller begränsat sätt, inklusive idiomatiska uttryck och jargon.
+[WCAG 3.1.4-förkortningar](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - En mekanism för att identifiera den expanderade formen eller innebörden av förkortningar.
+[WCAG 3.1.5 Läsnivå](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Ser till att innehåll kan läsas på en lägre nivå inom gymnasieutbildning.
+
