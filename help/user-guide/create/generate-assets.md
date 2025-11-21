@@ -105,9 +105,9 @@ När du har genererat bildvarianter kan du redigera dem direkt i Adobe GenStudio
 
    Ett _Powered by Adobe Express_-fönster visas.
 
-1. Utför bildredigering, till exempel [beskära en bild](https://helpx.adobe.com/express/create-and-edit-images/edit-images/crop-images.html), [ta bort ett objekt](https://helpx.adobe.com/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) och använda effekter.
+1. Utför bildredigering, till exempel [beskära en bild](https://helpx.adobe.com/se/express/create-and-edit-images/edit-images/crop-images.html), [ta bort ett objekt](https://helpx.adobe.com/se/express/create-and-edit-images/create-and-modify-with-generative-ai/remove-objects-generative-fill.html) och använda effekter.
 
-   Läs [Adobe Express-dokumentation](https://helpx.adobe.com/express/user-guide.html) om du vill veta mer om hur du ändrar bilder i GenStudio for Performance Marketing med Adobe Express.
+   Läs [Adobe Express-dokumentation](https://helpx.adobe.com/se/express/user-guide.html) om du vill veta mer om hur du ändrar bilder i GenStudio for Performance Marketing med Adobe Express.
 
 1. Klicka på _[!UICONTROL Apply changes]_&#x200B;om du vill spara ändringarna.
 1. Fortsätt redigera enskilda bildvarianter efter behov och tillämpa ändringarna för att spara förloppet.
