@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: e69039b0-272d-4f39-b0e4-916be710fd5f
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '375'
 ht-degree: 0%
@@ -42,7 +42,7 @@ GenStudio for Performance Marketing genererar automatiskt följande fält. Du be
 - `body`
 - `cta`
 
-Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/content/customize-template.md#content-placeholders) .
+Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/templates/customize-template.md#content-placeholders) .
 
 ## Proportioner som stöds
 

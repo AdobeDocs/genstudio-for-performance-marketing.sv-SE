@@ -4,7 +4,7 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f6dc843acc6d29b107f5165dfd2ee1d2c9e72f0f
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '4144'
 ht-degree: 0%
@@ -149,7 +149,7 @@ Den nya språkväljaren i snabbredigeraren har stöd för att skapa flerspråkig
 
 Flera textfält med samma roll stöds nu (till exempel body, cta, on image text osv.) för komplexa kundmallar.
 
-Utforska informationen i [vägledningen för mallkodsredigeraren](/help/user-guide/content/code-editor.md).
+Utforska informationen i [vägledningen för mallkodsredigeraren](/help/user-guide/templates/code-editor.md).
 
 ### Nya Firefly bildgenereringsmodeller stöds
 
@@ -175,7 +175,7 @@ Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-post
 
 ### Kompatibelt resursfilter
 
-Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds &#x200B;](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
 
 ### Aktivering av flera tillgångar för metadata
 
@@ -215,7 +215,7 @@ Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan 
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [&#x200B; Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
 
 ### Lägg till videoklipp i annonser
 
@@ -248,7 +248,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 ### Korrigeringar och förbättringar
 
 * Aktiverade funktioner för [att lägga till alternativ (alt) text](/help/user-guide/create/manage-variants.md#add-alt-text-for-images) i en bild för en enskild variant.
-* Lagt till [nya Meta-proportioner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bredd).
+* Lagt till [nya Meta-proportioner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) - liggande 1,19:1 (1 080 pixlar bredd).
 * Nu kan du välja mer än en upplevelse för export eller hämtning. Se [Exportera upplevelser](/help/user-guide/content/manage-assets.md#export-experiences).
 <!-- * Added support for [publishing ad experiences](/help/user-guide/activation/activate-meta-ad.md) directly from _[!DNL Content]_ [into Google Campaign Manager 360 and Meta Ads Manager](/help/user-guide/activation/activate-cm360-ad.md). -->
 
@@ -258,9 +258,9 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/content/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/templates/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
-* Ett [nytt mallfält](/help/user-guide/content/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
+* Ett [nytt mallfält](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
 
 +++
@@ -275,13 +275,13 @@ Nu kan marknadsförare [publicera annonsupplevelser](/help/user-guide/activation
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-Stöd har lagts till för [att skapa LinkedIn-upplevelser](/help/user-guide/create/create-linkedin.md). Se fliken [LinkedIn och](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
+Stöd har lagts till för [att skapa LinkedIn-upplevelser](/help/user-guide/create/create-linkedin.md). Se fliken [LinkedIn och](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
 
 ### Skapa banderollupplevelser
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-Stöd har lagts till för [att skapa banderollupplevelser](/help/user-guide/create/create-banner-experience.md). Se fliken [Banner](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
+Stöd har lagts till för [att skapa banderollupplevelser](/help/user-guide/create/create-banner-experience.md). Se fliken [Banner](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) i kanalspecifika riktlinjer.
 
 ### Regelefterlevnad
 
@@ -293,12 +293,12 @@ Det nya GenStudio for Performance Marketing [utökningsramverket](/help/extensib
 
 ### Mallar
 
-* **Mallkodredigerare** - Den nya [mallkodsredigeraren](/help/user-guide/content/code-editor.md) hjälper dig att verifiera och förfina mallen för optimal användning när du skapar nya upplevelser med GenStudio for Performance Marketing.
+* **Mallkodredigerare** - Den nya [mallkodsredigeraren](/help/user-guide/templates/code-editor.md) hjälper dig att verifiera och förfina mallen för optimal användning när du skapar nya upplevelser med GenStudio for Performance Marketing.
 
   ![Vyn Kodredigeraren](/help/assets/template-detected-fields.png "Kontrollera identifierade fält"){width="500" zoomable="yes"}
 
-* **Länkar i bild** - Anpassa din e-postmall genom att aktivera bildlänkar. Se [Anpassa en mall: Länk på bild](/help/user-guide/content/customize-template.md#link-on-image).
-* **AJO- och Marketo-mallar** - Överför en mall som du har skapat i Adobe Journey Optimizer (AJO) eller Marketo. Se [Arbeta med mallar från AJO och Marketo](/help/user-guide/content/use-templates.md#templates-from-ajo-and-marketo).
+* **Länkar i bild** - Anpassa din e-postmall genom att aktivera bildlänkar. Se [Anpassa en mall: Länk på bild](/help/user-guide/templates/customize-template.md#link-on-image).
+* **AJO- och Marketo-mallar** - Överför en mall som du har skapat i Adobe Journey Optimizer (AJO) eller Marketo. Se [Arbeta med mallar från AJO och Marketo](/help/user-guide/templates/use-templates.md#templates-from-ajo-and-marketo).
 
 ### Korrigeringar och förbättringar
 
@@ -336,7 +336,7 @@ Med Beta kan man utforma produktutvecklingen och fastställa den allmänna tillg
 
 ### Generera nya uppmaningar att agera
 
-Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/content/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA för varianter finns i [Ändra Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
+Nu kan du skapa nya call-to-action-fraser (CTA) när du hanterar varianter. Använd de nya alternativen _Återfras_ och _Lägg till länk_ för att generera nya fraser och redigera länken CTA. Mallen måste vara korrekt konfigurerad för att dessa nya CTA-funktioner ska fungera. Följ riktlinjerna i _Anpassa en mall_: [Anrop till åtgärd](/help/user-guide/templates/customize-template.md#calls-to-action). Mer information om hur du hanterar CTA för varianter finns i [Ändra Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action). <!-- GS-6676 -->
 
 ### Korrigeringar och förbättringar
 
@@ -382,7 +382,7 @@ Redigerare kan nu ange anpassade värden för följande aspekter av genererade v
 
 * Dimensioner för bilder i displayannonsupplevelser under bildöverföring.<!-- GS-7166 -->
 
-* Se kanalspecifika riktlinjer i [Bästa tillvägagångssätt för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+* Se kanalspecifika riktlinjer i [Bästa tillvägagångssätt för mallar](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 Exportalternativen omfattar nu:
 
@@ -446,7 +446,7 @@ Med ytterligare nya funktioner kan redigerare:
 
 ### Nya funktioner
 
-Stöd för att visa statiskt innehåll på externa domäner har lagts till. GenStudio for Performance Marketing validerar innehållskällan som definierats i mallen och bäddar in en kopia för att skapa mallförhandsvisningen. Se [Statiskt innehåll](/help/user-guide/content/customize-template.md#static-content). <!-- GS-6107 -->
+Stöd för att visa statiskt innehåll på externa domäner har lagts till. GenStudio for Performance Marketing validerar innehållskällan som definierats i mallen och bäddar in en kopia för att skapa mallförhandsvisningen. Se [Statiskt innehåll](/help/user-guide/templates/customize-template.md#static-content). <!-- GS-6107 -->
 
 ### Korrigeringar och förbättringar
 

@@ -5,7 +5,7 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 826e5e2f5e78805c43872e828b5ac3eafb5a5ffa
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '244'
 ht-degree: 13%
@@ -65,12 +65,12 @@ ht-degree: 13%
    + [Resursinformation](content/asset-details.md)
    + [Content Credentials](content/content-credentials.md)
 + Mallar {#templates}
-   + [Arbeta med mallar](content/use-templates.md)
+   + [Arbeta med mallar](templates/use-templates.md)
    + [Startmallar](templates/starter-templates.md)
-   + [Anpassa en mall](content/customize-template.md)
-   + [Mallkodredigerare](content/code-editor.md)
-   + [Skapa tillgängliga mallar](content/accessibility-for-templates.md)
-   + [Bästa tillvägagångssätt för mallar](content/best-practices-for-templates.md)
+   + [Anpassa en mall](templates/customize-template.md)
+   + [Mallkodredigerare](templates/code-editor.md)
+   + [Skapa tillgängliga mallar](templates/accessibility-for-templates.md)
+   + [Bästa tillvägagångssätt för mallar](templates/best-practices-for-templates.md)
    + Bästa praxis för kanaler {#channel-best-practice}
       + [Guiden Visa annonser](templates/display-template.md)
       + [E-postguide](templates/email-template.md)

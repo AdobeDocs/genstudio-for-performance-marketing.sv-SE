@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: e2bddd02-914e-43a8-92b6-fdcbced94a6a
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '298'
 ht-degree: 0%
@@ -29,7 +29,7 @@ Redigerbara avsnitt i en e-postupplevelse omfattar:
 * Call to action (CTA)
 * Bild
 
-Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
+Se [Mallelement](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Email capabilities
 
@@ -39,7 +39,7 @@ Content creators and marketers can produce brand-consistent email experiences in
 
 E-postupplevelser kan innehålla flera avsnitt, vilket möjliggör fullständig anpassning för att passa ert varumärke och era mål. [Välj [!DNL Products] och visuella resurser för varje avsnitt](/help/user-guide/create/create-email-experience.md#add-parameters) och använd [strukturerade uppmaningar](/help/user-guide/effective-prompts.md#structured-prompts) för att skapa unikt innehåll. Varje avsnitt har stöd för en visuell resurs.
 
-Mer information om hur du skapar en mall för flera avsnitt finns i [anpassa mallar med avsnitt](/help/user-guide/content/customize-template.md#sections-or-groups).
+Mer information om hur du skapar en mall för flera avsnitt finns i [anpassa mallar med avsnitt](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
 ## Progressiv inläsning
 

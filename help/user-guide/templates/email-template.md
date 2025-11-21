@@ -5,7 +5,7 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 49d8d5daa2f3c93c18cd9132dab5207871b51237
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '441'
 ht-degree: 0%
@@ -40,11 +40,11 @@ GenStudio for Performance Marketing genererar automatiskt följande fält. RTF �
 - `pre_header`
 - `subject`
 
-Det högsta tillåtna antalet fält i en mall är 20. Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/content/customize-template.md#content-placeholders) .
+Det högsta tillåtna antalet fält i en mall är 20. Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatshållare](/help/user-guide/templates/customize-template.md#content-placeholders) .
 
 ## E-post med flera avsnitt
 
-Med _Avsnitt_ kan du ordna innehåll i distinkta grupper med stöd för mer komplexa layouter. I GenStudio for Performance Marketing kan du definiera varje avsnitt med hjälp av en gruppnamnkonvention. Se [Anpassa mallavsnitt](/help/user-guide/content/customize-template.md#sections-or-groups).
+Med _Avsnitt_ kan du ordna innehåll i distinkta grupper med stöd för mer komplexa layouter. I GenStudio for Performance Marketing kan du definiera varje avsnitt med hjälp av en gruppnamnkonvention. Se [Anpassa mallavsnitt](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
 Mallar med flera avsnitt kan ha 0, 2 eller 3 avsnitt:
 

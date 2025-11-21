@@ -5,7 +5,7 @@ feature: Create Canvas, Media Templates
 role: User
 level: Beginner
 exl-id: c1265a9d-8205-4abc-9652-1d8b88397f14
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '311'
 ht-degree: 0%
@@ -16,7 +16,7 @@ ht-degree: 0%
 
 Med Adobe GenStudio for Performance Marketing kan du använda generativ AI för att effektivisera [skapandet av slagkraftiga Meta-upplevelser](/help/user-guide/create/create-meta-ad.md). Med [!DNL Create] kan innehållsskapare använda [riktlinjer](/help/user-guide/guidelines/overview.md), bildresurser och en [välskapad fråga](/help/user-guide/effective-prompts.md) för att snabbt [skapa Meta-annonsupplevelser](/help/user-guide/create/create-meta-ad.md).
 
-När du genererar Meta-upplevelser skapas och visas fyra varianter på arbetsytan. GenStudio for Performance Marketing stöder både [Meta-annonser i standardstorlek och anpassad storlek](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
+När du genererar Meta-upplevelser skapas och visas fyra varianter på arbetsytan. GenStudio for Performance Marketing stöder både [Meta-annonser i standardstorlek och anpassad storlek](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines).
 
 När du genererar Meta-upplevelser skapas och visas fyra varianter på arbetsytan.
 
@@ -30,7 +30,7 @@ Redigerbara avsnitt i en e-postupplevelse omfattar:
 * Text direkt i bilden
 * Bild/video
 
-Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
+Se [Mallelement](/help/user-guide/templates/use-templates.md#template-elements).
 
 ## Meta annonskanaler
 

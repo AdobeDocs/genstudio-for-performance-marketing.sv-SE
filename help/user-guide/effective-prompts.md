@@ -5,7 +5,7 @@ role: User
 level: Beginner
 feature: Create Prompt, Generative AI
 exl-id: 0cd4db4f-d031-4c1f-a4e7-adc220f947fc
-source-git-commit: 299ebb88cb1e2b25580151b7620eafc0e59224d0
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '750'
 ht-degree: 1%
@@ -59,7 +59,7 @@ GenStudio for Performance Marketing riktlinjer hjälper den generativa AI-funkti
 
 ### Strukturerade uppmaningar
 
-För e-postmeddelanden med flera avsnitt kan du strukturera uppmaningar om att tillhandahålla avsnittsspecifika instruktioner för att generera varierande innehåll för varje avsnitt i ett e-postmeddelande. Strukturerade uppmaningar ska direkt referera till [avsnittsnamn i e-postmallen](/help/user-guide/content/customize-template.md#sections-or-groups) så att det genererade innehållet kan infogas i motsvarande innehållsplatshållare.
+För e-postmeddelanden med flera avsnitt kan du strukturera uppmaningar om att tillhandahålla avsnittsspecifika instruktioner för att generera varierande innehåll för varje avsnitt i ett e-postmeddelande. Strukturerade uppmaningar ska direkt referera till [avsnittsnamn i e-postmallen](/help/user-guide/templates/customize-template.md#sections-or-groups) så att det genererade innehållet kan infogas i motsvarande innehållsplatshållare.
 
 Du kan till exempel instruera GenStudio for Performance Marketing att generera innehåll för ett e-postmeddelande som befordrar en ny produkt i det första avsnittet och som beskriver de kostnadsbesparande fördelarna i det andra avsnittet.
 
@@ -93,7 +93,7 @@ Pod2: Focus on Adobe Illustrator and its new generative AI tools, such as Genera
 Pod3: Focus on Adobe Acrobat Pro. Make users aware that with Acrobat Pro they can edit images and text inside a PDF.
 ```
 
-Se [metodtips för att använda mallar](/help/user-guide/content/best-practices-for-templates.md).
+Se [metodtips för att använda mallar](/help/user-guide/templates/best-practices-for-templates.md).
 
 ## Försök igen
 

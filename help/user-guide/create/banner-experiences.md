@@ -6,7 +6,7 @@ badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Be
 role: User
 level: Beginner
 exl-id: 91d0c2ef-3610-4a1a-b1ab-a9e2a6cb3723
-source-git-commit: 44fedfdc3902b4f993d656ae6360a32e27a62520
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '114'
 ht-degree: 0%
@@ -21,7 +21,7 @@ Med [!DNL Create] kan moderna marknadsförare [skapa sammanhängande banderollup
 
 När du genererar banderollupplevelser skapas och visas fyra variationer på arbetsytan.
 
-Se [Följ kanalspecifika riktlinjer för mallar](/help/user-guide/content/best-practices-for-templates.md#follow-channel-specific-template-guidelines) för information om vilka dimensioner som stöds, kända fältnamn med mera.
+Se [Följ kanalspecifika riktlinjer för mallar](/help/user-guide/templates/best-practices-for-templates.md#follow-channel-specific-template-guidelines) för information om vilka dimensioner som stöds, kända fältnamn med mera.
 
 Redigerbara delar av en webbannonsupplevelse är:
 
@@ -31,7 +31,7 @@ Redigerbara delar av en webbannonsupplevelse är:
 * Call to action (CTA)
 * Bild
 
-Se [Mallelement](/help/user-guide/content/use-templates.md#template-elements).
+Se [Mallelement](/help/user-guide/templates/use-templates.md#template-elements).
 
 <!-- ## Character counts
 

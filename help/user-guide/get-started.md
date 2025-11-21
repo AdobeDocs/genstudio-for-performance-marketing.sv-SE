@@ -5,7 +5,7 @@ level: Beginner
 role: User
 feature: Media Templates, Guidelines, Generative AI
 exl-id: bcb03198-bbcb-45ae-af01-25c1e834b563
-source-git-commit: 47195c08f500e50a01db127c6badc461c10afaf9
+source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
 workflow-type: tm+mt
 source-wordcount: '638'
 ht-degree: 0%
@@ -59,7 +59,7 @@ Se [Tilldela varumärkesbehörigheter](configure-brand-permissions.md).
 
 Med mallar går det snabbare att skapa innehåll. En mall innehåller godkända funktioner, t.ex. sidhuvuden och sidfötter, och är optimerad för specifika kanaler. Systemansvariga överför och hanterar vanligtvis mallar för sin organisation. Med hjälp av mallar kan redaktörer snabbt komma igång med att skapa innehåll inom de fastställda gränserna för organisationens varumärke.
 
-Se [Arbeta med mallar](/help/user-guide/content/use-templates.md).
+Se [Arbeta med mallar](/help/user-guide/templates/use-templates.md).
 
 ### Steg 4: Överför godkända tillgångar
 
