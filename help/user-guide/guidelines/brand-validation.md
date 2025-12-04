@@ -1,11 +1,11 @@
 ---
 title: Varumärkesvalidering i Adobe GenStudio for Performance Marketing
-description: Läs om hur det inbyggda varumärkesvalideringssystemet fungerar i GenStudio for Performance Marketing.
+description: Läs om det inbyggda varumärkesvalideringssystemet i GenStudio for Performance Marketing.
 feature: Brand Personalization, Variant Generation, Compliance, Content Generation, Content Review, Generative AI
 exl-id: 2e777186-3b7e-46a6-9d37-7c7b7c2aa7ae
-source-git-commit: e2acf90ef5fef6af03a756882caf53ab125055c4
+source-git-commit: 6a33f7e3a769eda459f70e6ab4e8559064ede2b4
 workflow-type: tm+mt
-source-wordcount: '786'
+source-wordcount: '779'
 ht-degree: 0%
 
 ---
@@ -18,7 +18,7 @@ GenStudio for Performance Marketing genomför varumärkesvalidering och andra in
 
 * [!DNL Brand]-riktlinjer har definierats eller är standard
 * Riktlinjer för plattformen
-* [ADOBE-standarder (American with Disabilities Act)](/help/user-guide/guidelines/brand-validation.md#american-with-disabilities-act-ada-validation)
+* [Stöd för hjälpmedel](/help/user-guide/guidelines/brand-validation.md#supporting-your-accessibility-strategy)
 <!-- * Ethical considerations related to gender, ethnicity, race, disability status, and age in AI-generated content -->
 
 
@@ -87,13 +87,16 @@ Om du vill maximera effekten av genererat innehåll och behålla en konsekvent v
 
 1. Fortsätt att granska avsnitt för att säkerställa att hela varianten klarar validerings- och tillgänglighetskontroller. Navigera genom varje variant med pilarna bredvid en enskild variant på arbetsytan.
 
-## Validering av American with Disabilities Act (ADA)
+## Stödja er tillgänglighetsstrategi
 
-Dessa tillgänglighetskontroller ingår för att man ska kunna följa amerikansk lag (Disabilities Act, ADA):
+GenStudio for Performance Marketing innehåller innehållskontroller som hjälper kunderna att stödja sina egna metoder för tillgänglighet.
 
-[WCAG 1.1.1 Innehåll som inte är text](https://www.w3.org/WAI/WCAG21/Understanding/non-text-content.html) - Ser till att bilder har ett `<alt>` -attribut.
-[WCAG 1.4.3 Kontrast (minimum)](https://www.w3.org/WAI/WCAG21/Understanding/contrast-minimum.html) - Ser till att den genererade texten har 4.5:1 kontrast mot bakgrunden.
-[WCAG 3.1.3 Ovanliga ord](https://www.w3.org/WAI/WCAG21/Understanding/unusual-words.html) - Identifierar ord eller fraser som används på ett ovanligt eller begränsat sätt, inklusive idiomatiska uttryck och jargon.
-[WCAG 3.1.4-förkortningar](https://www.w3.org/WAI/WCAG21/Understanding/abbreviations.html) - En mekanism för att identifiera den expanderade formen eller innebörden av förkortningar.
-[WCAG 3.1.5 Läsnivå](https://www.w3.org/WAI/WCAG21/Understanding/reading-level.html) - Ser till att innehåll kan läsas på en lägre nivå inom gymnasieutbildning.
+Den här funktionen innehåller följande innehållskontroller:
 
+* Bilder har ett `<alt>`-attribut.
+* Genererad text har en kontrast på 4,5:1 mot bakgrunden.
+* Ord eller fraser som används på ett ovanligt eller begränsat sätt, inklusive idiomatiska uttryck och jargon, undviks.
+* Det finns även utökade former eller förkortningar.
+* Innehållet kan läsas på en lägre nivå inom gymnasieutbildning.
+
+Kunderna uppmuntras att använda dessa funktioner som en del av sin bredare tillgänglighetsstrategi, även om kunderna fortfarande ansvarar för sin egen regelefterlevnad och tillgänglighetsefterlevnad.
