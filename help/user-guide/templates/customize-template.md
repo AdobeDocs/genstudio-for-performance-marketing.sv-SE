@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer
 feature: Media Templates, Content Generation, Generative AI
 exl-id: 292c1689-1b12-405d-951e-14ee6aebc75a
-source-git-commit: 9f4cfd470590b2971c615a6437e6ae730cde5c18
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '1630'
+source-wordcount: '1609'
 ht-degree: 0%
 
 ---
@@ -75,7 +75,7 @@ Det finns en gräns på 20 fält när en mall överförs till GenStudio for Perf
 
 ### Utmaningar
 
-En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_&#x200B;och&#x200B;_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
+En Call to action (CTA) innehåller en fras och en länk. För att funktionerna _[!UICONTROL Rephrase]_och_[!UICONTROL Add link]_ ska fungera korrekt under genereringsprocessen för varianter måste du ta med platshållare för länken och frasen i mallen.
 
 Använd följande vägledning för att konfigurera CTA-platshållare:
 
@@ -222,26 +222,18 @@ Syntax: `groupname_fieldname`
 - _Korrigera_ (👍): `pod1_body`
 - _Felaktigt_ (❌): `pod1body`
 
-Varje avsnitt kan bara använda en av varje fälttyp. Följande fält tillhör till exempel avsnittet `pod1`:
+Varje avsnitt kan bara använda en av varje fälttyp.På grund av den här regeln kan inte avsnitten kapslas.
+
+Följande fält tillhör till exempel avsnittet `pod1`:
 
 - `pod1_headline`
 - `pod1_body`
 - `pod1_image`
 - `pod1_cta`
 
-På grund av den här regeln kan avsnitten inte kapslas.
+GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
 
 Varje malltyp, som e-post eller Meta-annons, har kanalspecifika begränsningar för användning av avsnitt. Se [kanalspecifika riktlinjer](/help/user-guide/templates/best-practices-for-templates.md) i avsnittet _Bästa metoder för att använda mallar_.
-
-En e-postmall kan t.ex. innehålla upp till tre avsnitt. Därför kan du ha tre rubrikavsnitt och innehållsavsnitt:
-
-- `pre_header`
-- `pod1_headline`, `pod1_body`
-- `pod2_headline`, `pod2_body`
-- `pod3_headline`, `pod3_body`
-- `cta`
-
-GenStudio for Performance Marketing förstår att `pod1_headline` är närmare relaterat till `pod1_body` än till `pod2_body`.
 
 >[!TIP]
 >

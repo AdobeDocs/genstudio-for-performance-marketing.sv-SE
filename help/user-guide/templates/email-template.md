@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 8b1e8d32-5a23-45ce-a2d4-ae6de3698c45
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: 8fb4a0e3acaf1a45d8f0f00f975247fc8fb746e3
 workflow-type: tm+mt
-source-wordcount: '441'
+source-wordcount: '438'
 ht-degree: 0%
 
 ---
@@ -46,10 +46,10 @@ Det högsta tillåtna antalet fält i en mall är 20. Mer information om hur du 
 
 Med _Avsnitt_ kan du ordna innehåll i distinkta grupper med stöd för mer komplexa layouter. I GenStudio for Performance Marketing kan du definiera varje avsnitt med hjälp av en gruppnamnkonvention. Se [Anpassa mallavsnitt](/help/user-guide/templates/customize-template.md#sections-or-groups).
 
-Mallar med flera avsnitt kan ha 0, 2 eller 3 avsnitt:
+E-postmallar för flera avsnitt kan ha upp till 10 avsnitt:
 
 - En grundläggande mall (noll avsnitt) kan generera en enda uppsättning mallelement, vilket inte kräver gruppnamnkonventionen.
-- En komplex mall (flera avsnitt) kan generera upp till tre uppsättningar mallelement, vilket kräver att du följer gruppnamnkonventionen: `<groupname_fieldname>`.
+- En komplex mall (flera avsnitt) kan generera uppsättningar av mallelement, vilket kräver att du följer gruppnamnkonventionen: `<groupname_fieldname>`.
 - Om du använder flera avsnitt fylls inte element som är fristående utanför ett avsnitt i.
 
 Här är exempel på fältnamn som använder gruppnamnkonventionen för två avsnitt:
