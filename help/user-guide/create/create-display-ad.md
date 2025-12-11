@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 4658a759f5a4e03c54f645cfa1d1bbcc84fe1d91
+source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
 workflow-type: tm+mt
 source-wordcount: '1091'
 ht-degree: 0%
@@ -25,7 +25,7 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 
 **Så här väljer du en visningsannonsmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Display ads]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Display ads]**.
 1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
 1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
 1. Klicka på **[!UICONTROL Use]**.
@@ -59,7 +59,7 @@ När du är klar med att lägga till parametrar komprimerar du promptlådan geno
 
 När du har valt riktlinjer kan du snabbt skapa innehåll för den nya webbannonsupplevelsen med hjälp av det naturliga språket. För att förbättra kvaliteten på den genererade webbannonsupplevelsen är det viktigt att skapa detaljerade och beskrivande uppmaningar.
 
-![Ange en fråga](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
+![Ange en fråga](/help/assets/prompt-displayad.png){width="300" align="center"}
 
 Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du vill veta mer om hur du skriver uppmaningar.
 
@@ -96,7 +96,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -130,7 +130,7 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade webbannonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya visningsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
