@@ -28,7 +28,7 @@ Du kan välja i listan över egna mallar eller välja en startmall.
 
 **Så här väljer du en LinkedIn-mall**:
 
-1. Klicka på _[!DNL Create]_i **[!UICONTROL LinkedIn]**.
+1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL LinkedIn]**.
 1. Välj **[!UICONTROL Custom templates]** om du vill bläddra bland dina överförda mallar eller **[!UICONTROL Starter templates]** om du vill bläddra bland de fördefinierade mallarna.
 
    Om du tänker lägga till videoresurser i dina Meta-varianter måste du välja en startmall. De är förinlästa med systemdefinierade innehållsområden som underlättar användningen av videoklipp.
@@ -108,7 +108,7 @@ Videoklippen omformas så att de passar de valda proportionerna under generering
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
