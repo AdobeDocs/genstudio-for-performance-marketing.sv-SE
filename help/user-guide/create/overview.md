@@ -4,9 +4,9 @@ description: Generera snabbt högpresterande varumärkesanpassat innehåll med g
 level: Beginner
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
 exl-id: ca5ee31c-d2c2-42fb-a6bf-05fd63fe86d2
-source-git-commit: c8b9e0b1b78195a648774d383c94ed9974fa8bcd
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '697'
+source-wordcount: '708'
 ht-degree: 0%
 
 ---
@@ -35,68 +35,131 @@ Redigerare och systemhanterare har fullständig åtkomst till [!DNL Create]. Mer
 ## [!DNL Create] användningsfall
 
 <table style="table-layout:fixed">
+
 <tr style="border: 0;">
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-email-experience.md">
+
       <img alt="Skapa nytt innehåll" src="../../assets/icons/icon-create.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-email-experience.md">
+
          <strong> Skapa en e-postupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-meta-ad.md">
+
       <img alt="Skapa en annonsupplevelse från Meta" src="../../assets/icons/icon-addContent.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-meta-ad.md">
+
          <strong> Skapa en annonsupplevelse i Meta </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-linkedin.md">
+
       <img alt="Skapa en LinkedIn-annonsupplevelse" src="../../assets/icons/icon-dataAnalytics.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-linkedin.md">
+
          <strong> Skapa en LinkedIn-annonsupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-display-ad.md">
+
       <img alt="Skapa en webbannonsupplevelse" src="../../assets/icons/icon-addTemplate.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-display-ad.md">
+
          <strong> Skapa en upplevelse av webbannonsering </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/create-banner-experience.md">
+
       <img alt="Skapa en banderollupplevelse" src="../../assets/icons/icon-search.png" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/create-banner-experience.md">
+
          <strong> Skapa en banderollupplevelse </strong>
+
          </a>
+
       </div>
+
    </td>
+
    <td align="center" valign="top" width="100">
+
       <a href="/help/user-guide/create/generate-assets.md">
+
       <img alt="Skapa bilder" src="../../assets/icons/icon-asset.svg" width="35">
+
       </a>
+
       <div>
+
          <a href="/help/user-guide/create/generate-assets.md">
+
          <strong> Generera bilder </strong>
+
          </a>
+
       </div>
+
    </td>
+
 </tr>
+
 </table>
 
 Med GenStudio for Performance Marketing kan marknadsförare **skapa nytt marknadsföringsinnehåll**. I det här fallet använder du definierade [riktlinjer](/help/user-guide/guidelines/overview.md) och inspirationsbilder för att skapa varumärkesanpassat innehåll.
@@ -113,11 +176,11 @@ Mallar [överförs och lagras i  [!DNL Content]](/help/user-guide/content/overvi
 
 ### Parametrar
 
-I promptlådan kan du lägga till _parametrar_ som [!DNL Brands], [!DNL Products], [!DNL Personas] och [!DNL Content] för att forma den genererade upplevelsen.
+I promptlådan kan du lägga till _parametrar_ som [!DNL Brands], [!DNL Products] och [!DNL Personas] (riktlinjer) och [!DNL Content] (resurser) för att forma den genererade upplevelsen.
 
-Dessa tillagda parametrar injicerar [riktlinjer](/help/user-guide/guidelines/overview.md) och [!DNL Content] resurser för genereringsprocessen, vilket garanterar en anpassad utskrift som är anpassad efter ett varumärkes heltäckande identitet. Om du lägger till riktlinjer i din GenStudio for Performance Marketing och använder dem när du genererar innehåll blir det betydligt enklare att skapa lämpligt varumärkesinnehåll.
+Dessa tillagda parametrar ger [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i genereringsprocessen, vilket säkerställer att innehållet är anpassat efter ett varumärkes heltäckande identitet. Vi rekommenderar att du lägger till riktlinjer i din GenStudio for Performance Marketing och använder dem när du skapar innehåll, eftersom de gör det betydligt enklare att skapa lämpligt varumärkesinnehåll.
 
-Innehåll - överförda eller tillagda bildresurser - i _Parametrar_ används i genererade varianter och informerar kopian (texten) som genereras för varianter. Du kan överföra resurser eller välja resurser som redan finns i [!DNL Content] eller i en ansluten AEM Content Hub-databas.
+Innehåll - överfört eller tillagt bildresurser - i _Parametrar_ används i genererade varianter och informerar om kopieringsinnehållet (text) som genereras för varianter. Du kan överföra resurser eller välja resurser som redan finns i [!DNL Content] eller i en ansluten AEM Content Hub-databas.
 
 ### Fråga
 

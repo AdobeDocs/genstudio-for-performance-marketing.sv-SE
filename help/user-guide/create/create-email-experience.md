@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 34446202-da98-45ff-869a-b43496a477f8
-source-git-commit: 0db148b99a78714020b0ad4d9c1f71e6ccc945b5
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
 source-wordcount: '1053'
 ht-degree: 1%
@@ -25,7 +25,7 @@ Om du vill skapa en ny e-postupplevelse kan du använda en tillgänglig mall fö
 
 **Så här väljer du en e-postmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Email]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Email]**.
 1. Använd sökalternativet bredvid _Filter_ för att hitta en viss e-postmall.
 1. Klicka för att välja en e-postmall och klicka på **[!UICONTROL Use]**.
 
@@ -42,7 +42,7 @@ Om du använder en mall med fördefinierade riktlinjer (som [!DNL Brands], [!DNL
 1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
-   ![Välj persona](/help/assets/persona-select-email.png){width="300" align="center"}
+   ![Välj persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
 
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -85,7 +85,7 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 
 * **Om du vill [redigera namnet på e-postutkastet](/help/user-guide/create/manage-variants.md#change-draft-name)** klickar du på rubriken _Namnlöst utkast_ längst upp på arbetsytan och anger en ny titel.
 * **Om du vill [redigera ett e-postmeddelande manuellt](/help/user-guide/create/manage-variants.md#manually-edit-text)** klickar du i något av de redigerbara textfälten (till exempel ämnesraden, huvudet eller kopian) och redigerar efter behov
-* **Om du vill [ändra eller markera Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)** klickar du på knappen call-to-action och väljer _[!UICONTROL Rephrase]_&#x200B;eller&#x200B;_[!UICONTROL Add link]_.
+* **Om du vill [ändra eller markera Call to action](/help/user-guide/create/manage-variants.md#revise-call-to-action)** klickar du på knappen call-to-action och väljer _[!UICONTROL Rephrase]_eller_[!UICONTROL Add link]_.
 * **Om du vill [använda textformatering](/help/user-guide/create/manage-variants.md#manually-edit-text)** i en variant klickar du på texten i bilden för en variant och sedan på **[!UICONTROL Format text]**.
 * **Om du vill [återskapa ett avsnitt av en variant](/help/user-guide/create/manage-variants.md#re-generate-sections)** klickar du på ett redigerbart textfält och använder _[!UICONTROL Suggested edits]_-alternativen eller anger en ny fråga och klickar på&#x200B;**[!UICONTROL Generate]**.
 * **Om du vill [lägga till eller byta ut bilder i en variant](/help/user-guide/create/manage-variants.md#swap-image)** klickar du på en bildresurs (eller bildresursområdet om det inte finns någon bild) och sedan på ikonen **[!UICONTROL Swap from content]** .
@@ -96,7 +96,7 @@ Innan du väljer vad som ska skickas för godkännande eller publicering till [!
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Förhandsgranska för enhet
 

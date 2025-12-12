@@ -2,13 +2,14 @@
 title: Create a Banner Experience
 description: Lär dig hur du skapar banderollupplevelser i Adobe [!DNL GenStudio] för Performance Marketing.
 feature: Create Canvas, Create Prompt, Generative AI, Variant Generation, Content Generation
+badgeBeta: label="Beta" tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."
 role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: f323537b698961bb71ffeb830ff06c5993fe38c5
+source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
 workflow-type: tm+mt
-source-wordcount: '1023'
+source-wordcount: '1040'
 ht-degree: 0%
 
 ---
@@ -25,7 +26,7 @@ Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för a
 
 **Så här väljer du en banderollmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Banners]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Banners]**.
 1. Använd sökalternativet bredvid _Filter_ för att hitta en viss banderollmall.
 1. Klicka på en banderollmall i vyn _Välj mall_.
 1. Klicka på **[!UICONTROL Use]**.
@@ -57,7 +58,7 @@ När du är klar med att lägga till parametrar komprimerar du promptlådan geno
 
 När du har valt riktlinjerna kan du använda det naturliga språket för att skapa en uppmaning om att starta innehållsgenereringen för din nya banderollupplevelse. För att säkerställa högkvalitativa resultat är det viktigt att skapa detaljerade och beskrivande uppmaningar.
 
-![Ange en fråga](/help/assets/prompt-displayad.png){width="300" align="center"}
+![Ange en fråga](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
 
 Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du vill veta mer om hur du skriver uppmaningar.
 
@@ -92,7 +93,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -126,7 +127,7 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade banderollerna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya banderollupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en banderoll](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
