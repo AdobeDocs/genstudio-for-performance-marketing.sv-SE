@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates
 exl-id: 85432185-8311-411b-b57b-f482c3d45854
-source-git-commit: 3251d81a6bfb0c1f7d2bf3c5bd319ad4e2237699
+source-git-commit: ff694925dea4741d13ae71a68e23a5e604134521
 workflow-type: tm+mt
-source-wordcount: '297'
+source-wordcount: '287'
 ht-degree: 0%
 
 ---
@@ -41,13 +41,15 @@ Mer information om hur du använder fältnamn i mallar finns i [Innehållsplatsh
 
 ## Proportioner som stöds
 
-| Proportioner | Plattform | Minsta storlek (px) | Maximal storlek (px) | Anteckningar |
-|-------------------|-----------------|---------------|----------------|-------------------------------------------------------------------------------------|
-| Fyrkant 1:1 | Dator, mobil | 360 x 360 | 4320 x 4320 | Mest mångsidiga. Perfekt för enhetligt utseende på olika enheter och enheter. |
-| Vågrät 1.91:1 | Skrivbord | 640 x 360 | 7680 x 4320 | Standardliggande format. Används vanligen för sponsrat innehåll och nyhetsfeed-annonser. |
-| Lodrätt 1:1.91 | Mobil | 360 x 640 | 2430 x 4320 | Helt lodrätt format. Optimerat för mobilvisning, med större skärmnärvaro. |
-| Lodrät 2:3 | Mobil | 360 x 640 | 2430 x 4320 | Något mindre högt än 1:1.91. Bra för kampanjer som sätter mobilen först. |
-| Lodrät 4:5 | Mobil | 360 x 640 | 2430 x 4320 | Rekommenderas för mobiler. Balanserar synlighet och innehåll, vilket ofta ger större effekt. |
+Alla LinkedIn-mallbredder är hårdkodade med 1 200 pixlar.
+
+| Proportioner | Plattform | Mått (px) | Anteckningar |
+|-------------------|-----------------|------------|-------------------------------------------------------------------------------------|
+| Fyrkant 1:1 | Dator, mobil | 1200 x 1200 | Mest mångsidiga. Perfekt för enhetligt utseende på olika enheter och enheter. |
+| Vågrät 1.91:1 | Skrivbord | 1 200 x 628 | Standardliggande format. Används vanligen för sponsrat innehåll och nyhetsfeed-annonser. |
+| Lodrätt 1:1.91 | Mobil | 1 200 x 2 292 | Helt lodrätt format. Optimerat för mobilvisning, med större skärmnärvaro. |
+| Lodrät 2:3 | Mobil | 1200 x 1800 | Något mindre högt än 1:1.91. Bra för kampanjer som sätter mobilen först. |
+| Lodrät 4:5 | Mobil | 1200 x 1500 | Rekommenderas för mobiler. Balanserar synlighet och innehåll, vilket ofta ger större effekt. |
 
 <!-- Potentially add an example
 
