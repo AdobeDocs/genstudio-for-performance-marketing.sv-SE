@@ -4,9 +4,9 @@ description: Läs om de senaste funktionerna och förbättringarna i Adobe GenSt
 recommendations: noDisplay
 role: User
 exl-id: 32f5104e-ae15-4092-8a34-642fc641baf9
-source-git-commit: f0e0a0d4bf0b0a75169a245f15734266586cdb17
+source-git-commit: c7300b3f531947081253aaf719e099512b419539
 workflow-type: tm+mt
-source-wordcount: '4207'
+source-wordcount: '4366'
 ht-degree: 0%
 
 ---
@@ -15,13 +15,31 @@ ht-degree: 0%
 
 Den här versionsinformationen innehåller de senaste uppdateringarna av GenStudio for Performance Marketing-programmet.
 
-## 2025.12.12 {#latest}
+## 2026,01 {#latest}
+
+### Omarbetning av promptpanelen i HTML Canvas
+
+Frågekassen [!DNL Create] för HTML Canvas visas nu som en vänsterpanel över e-post, visningsannonser och betalda mediaannonser, vilket ersätter den tidigare nedersta kassan. Den här uppdateringen behåller samma kärnfunktioner samtidigt som arbetsytans layout och enhetlighet förbättras när innehåll genereras.
+
+### Framtagning av e-post i flera stativ upp till tio sektioner
+
+Du kan nu skapa e-postmeddelanden med upp till 10 pod/sektioner i [!DNL Create], vilket utökar e-postgenereringen med flera poder utöver den tidigare gränsen på 1-3 pod. Den här förbättringen gör att e-postlayouterna blir mer strukturerade och går snabbare att använda utan att innehållet sammanfogas i flera omgångar.
+
+### Content Credentials för autenticitet
+
+[!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
+
+GenStudio for Performance Marketing har nu stöd för Content Credentials, vilket gör att man kan lägga in och bevara autenticitetsmetadata i materialet genom att man skapar, granskar och exporterar. Autentiseringsikoner och information visas i alla viktiga arbetsflöden så att man kan verifiera sitt ursprung och behålla förtroendet när man delar innehåll.
+
+## Versionsinformation
+
++++Anmärkningar från 2025.12.12
 
 ### Logotypväxling för mallar
 
 Nu kan marknadsförare dynamiskt byta ut logotyper i mallar direkt i arbetsflödet för [!DNL Create], vilket eliminerar behovet av att skapa flera mallvarianter för olika varumärkeslogotyper, undervarumärken eller produktlinjer. Med den här funktionen kan kreatörer välja eller byta ut lämplig logotyp när de skapar innehåll, effektivisera mallhanteringen och minska produktionskostnaderna.
 
-## Versionsinformation
++++
 
 +++Anmärkningar från 2025.11.14
 
@@ -67,8 +85,6 @@ Nu kan marknadsförare dynamiskt byta ut logotyper i mallar direkt i arbetsflöd
 * Flödet [!DNL Experience Translations] har optimerats tillsammans med den nya översättningsfunktionen för Betald media och E-post.
 
 +++
-
-## Versionsinformation
 
 +++Anmärkningar från 2025.10.16
 
@@ -184,7 +200,7 @@ Adobe GenStudio for Performance Marketing har nu inbyggda funktioner för e-post
 
 ### Kompatibelt resursfilter
 
-Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds &#x200B;](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
+Ett nytt filter i modulen [!DNL Insights] döljer automatiskt [bild- och videomaterial som inte stöds ](/help/user-guide/insights/ads.md#ad-formats) från förhandsvisningar av annonser, vilket eliminerar den visuella störningen och brutna rutor. Den här förbättringen säkerställer att användarna endast ser medier som är tillgängliga och färdiga att använda, vilket ger en renare och mer tillförlitlig upplevelse. Filtret fungerar tillsammans med det befintliga filtret Kompatibilitetsannonser.
 
 ### Aktivering av flera tillgångar för metadata
 
@@ -224,7 +240,7 @@ Val av mallar är nu valfritt med Meta-annonser, vilket gör att användare kan 
 
 [!BADGE Beta]{type=Informative tooltip="Den här funktionen finns för närvarande i Beta, så vissa funktioner kan vara begränsade eller kunna ändras."}
 
-I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [&#x200B; Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
+I GenStudio for Performance Marketing [!DNL Create] kan du nu använda [ Generative Expandera AI-funktioner](/help/user-guide/create/manage-variants.md#use-generative-expand) för att utöka bilddimensionerna och lägga till generativt innehåll för att passa annonsmallarna i betalda medievarianter.
 
 ### Lägg till videoklipp i annonser
 
@@ -267,7 +283,7 @@ Förutom bildinnehåll kan du nu lägga till videofilmer i [LinkedIn](/help/user
 
 ### Korrigeringar och förbättringar
 
-* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i&#x200B;_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/templates/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
+* Nya filteralternativ för mallar! Nu kan du förfina din _[!UICONTROL Select templates]_-lista i [!DNL Create] och i_[!UICONTROL Content]_ > _[!UICONTROL Templates]_. Se [Sökmallar](/help/user-guide/templates/use-templates.md#search-templates). Se till att mallarna är rätt taggade med metadata så att de kan identifieras med dessa filter.
 * Aktiverade funktioner för att [visa och markera enskilda lager](/help/user-guide/create/manage-variants.md#view-layers) - redigerbara textfält eller redigerbara bilder - av en upplevelse som framhäver dem för revideringar, som att återskapa innehåll eller beskära bilder.
 * Ett [nytt mallfält](/help/user-guide/templates/use-templates.md#template-elements), `sub-headline` har lagts till för ytterligare text i upplevelser för att få publiken att lyssna och lyfta fram marknadsföringsmeddelanden.
 * Stöd för [publiceringsupplevelser](/help/user-guide/activation/overview.md) från GenStudio for Performance Marketing har lagts till i Google Campaign Manager 360. Aktivera har stöd för detaljerade förhandsvisningar av Google Campaign Manager 360-annonser innan du publicerar till en Campaign Manager 360-annonsörer. Annonser som publiceras via Activate hämtas automatiskt in i insikterna när de väl är publicerade, vilket gör det möjligt för användarna att spåra och rapportera annonsresultaten.
