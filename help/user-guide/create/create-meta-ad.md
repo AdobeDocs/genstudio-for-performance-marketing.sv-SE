@@ -6,7 +6,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 42111bbf-70cd-4fd2-a7a9-15abe072d720
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 168ea3d21f5771aeb05553ffe992dc9648b0e4e4
 workflow-type: tm+mt
 source-wordcount: '1351'
 ht-degree: 0%
@@ -27,7 +27,7 @@ När du väljer en mall kan du välja mellan att använda en av dina överförda
 
 **Så här väljer du en Meta-annonsmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Meta ads]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Meta ads]**.
 1. Välj **[!UICONTROL Custom templates]** om du vill bläddra bland dina överförda mallar eller **[!UICONTROL Starter templates]** om du vill bläddra bland de fördefinierade mallarna.
 
    Om du tänker lägga till videoresurser i dina Meta-varianter måste du välja en startmall. De är förinlästa med systemdefinierade innehållsområden som underlättar användningen av videoklipp.
@@ -47,7 +47,7 @@ Om du använder en mall med fördefinierade riktlinjer (som [!DNL Brands], [!DNL
 1. Klicka på ikonen _Parametrar_ för att expandera promptlådan.
 1. I avsnittet _Parametrar_ väljer du riktlinjer -[!DNL Brands], [!DNL Personas] och [!DNL Products] - för att informera om hur du skapar innehåll.
 
-   ![Välj persona](/help/assets/persona-select.png){width="600" zoomable="yes"}
+   ![Välj persona](/help/assets/persona-select-meta2.png){width="300" align="center" zoomable="yes"}
 
    Om det inte finns några varumärken, profiler eller produkter tillgängliga från dessa menyer [lägger du till riktlinjer i din GenStudio for Performance Marketing](/help/user-guide/guidelines/add-guidelines.md).
 
@@ -123,7 +123,7 @@ Videoklippen omformas så att de passar de valda proportionerna under generering
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 

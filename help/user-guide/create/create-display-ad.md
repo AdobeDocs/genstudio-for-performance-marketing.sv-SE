@@ -6,9 +6,9 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: 7d5e777b-7a30-48f4-b253-9823e38eecce
-source-git-commit: 6c2a8ca1fd981bc4f6eb15f1487b304c0c8f67b4
+source-git-commit: 81923bf493ec6fa2ed1a2fa655a76b01d7c87bc7
 workflow-type: tm+mt
-source-wordcount: '1091'
+source-wordcount: '1094'
 ht-degree: 0%
 
 ---
@@ -25,7 +25,7 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 
 **Så här väljer du en visningsannonsmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Display ads]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Display ads]**.
 1. Använd sökalternativet, bredvid _Filter_, för att hitta en specifik mall för visningsannons.
 1. I vyn _Välj mall_ klickar du på en mall för visningsannons.
 1. Klicka på **[!UICONTROL Use]**.
@@ -37,6 +37,8 @@ Om du vill skapa en webbannonsupplevelse använder du en tillgänglig mall för 
 Om du lägger till [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser i _Parametrar_ i snabbredigeraren läggs innehållsgenereringsprocessen ovanpå och det är ett viktigt förberedelsesteg för att generera en visningsupplevelse.
 
 Om du använder en mall med fördefinierade riktlinjer (som [!DNL Brands], [!DNL Personas] eller [!DNL Products]) gäller dessa riktlinjer för dina varianter. Du kan ändra dem om du vill.
+
+![Ange parametrar i promptlådan](/help/assets/prompt-displayad2.png){width="300" align="center"}
 
 **Så här lägger du till parametrar och resurser**:
 
@@ -59,14 +61,12 @@ När du är klar med att lägga till parametrar komprimerar du promptlådan geno
 
 När du har valt riktlinjer kan du snabbt skapa innehåll för den nya webbannonsupplevelsen med hjälp av det naturliga språket. För att förbättra kvaliteten på den genererade webbannonsupplevelsen är det viktigt att skapa detaljerade och beskrivande uppmaningar.
 
-![Ange en fråga](/help/assets/prompt-displayad.png){width="650" zoomable="yes"}
-
 Läs [Skriv effektiva uppmaningar](/help/user-guide/effective-prompts.md) om du vill veta mer om hur du skriver uppmaningar.
 
 **Så här skriver du en fråga**:
 
 1. Ange en uppmaning i rutan _&quot;Beskriv de upplevelser du vill generera&quot;_ .
-1. Klicka på **[!UICONTROL Generate]**.
+2. Klicka på **[!UICONTROL Generate]**.
 
 Som standard genereras och visas fyra varianter på arbetsytan, som följs av uppmaningen, riktlinjer och innehåll som du har lagt till.
 
@@ -96,7 +96,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -106,9 +106,9 @@ Om du vill optimera de genererade varianterna och säkerställa strikt efterlevn
 
 1. Klicka på panelikonen _Innehållskontroll_ i det högra åtgärdsfältet för att öppna panelen [_Innehållskontroll_](/help/user-guide/guidelines/brand-validation.md#content-check-panel). Visa en sammanfattning av kontrollerna *Behöver granskas* och *Godkänd* för att se vilka avsnitt och riktlinjer som behöver förbättras.
 
-   ![_Innehållskontroll_ panel](/help/assets/content-check-panel.png){height="400" zoomable="yes"}
+   ![_Innehållskontroll_ panel](/help/assets/content-check-panel.png){width="300"}
 
-1. [Granska varianter](#revise-generated-variants) manuellt för att se till att dina varianter är nära justerade med de utförda innehållskontrollerna.
+2. [Granska varianter](#revise-generated-variants) manuellt för att se till att dina varianter är nära justerade med de utförda innehållskontrollerna.
 
 Se [Varumärkesvalidering](/help/user-guide/guidelines/brand-validation.md).
 
@@ -130,7 +130,7 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade webbannonserna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya visningsupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en displayannons](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
