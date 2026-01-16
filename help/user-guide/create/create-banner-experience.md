@@ -7,7 +7,7 @@ role: User
 level: Beginner
 recommendations: noDisplay
 exl-id: c5d541a9-a97b-44da-a15c-61aceefd0e8c
-source-git-commit: 4d3022fa302b5e198a7e9dc91b63319a25fb5a31
+source-git-commit: 4172d58660b0242976f73d7575142456ae8c4ae1
 workflow-type: tm+mt
 source-wordcount: '1043'
 ht-degree: 0%
@@ -26,7 +26,7 @@ Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för a
 
 **Så här väljer du en banderollmall**:
 
-1. Klicka på _[!DNL Create]_&#x200B;i **[!UICONTROL Banners]**.
+1. Klicka på _[!DNL Create]_i **[!UICONTROL Banners]**.
 1. Använd sökalternativet bredvid _Filter_ för att hitta en viss banderollmall.
 1. Klicka på en banderollmall i vyn _Välj mall_.
 1. Klicka på **[!UICONTROL Use]**.
@@ -37,7 +37,7 @@ Om du vill skapa en banderollupplevelse använder du en tillgänglig mall för a
 
 När [riktlinjer](/help/user-guide/guidelines/overview.md) och resurser infogas i _Parametrar_ i snabbredigeringsmodulen förbättras innehållsgenereringsprocessen och det är ett viktigt förberedelse för att skapa en banderollupplevelse.
 
-![Ange parametrar i promptlådan](/help/assets/prompt-displayad2.png){width="300" align="center"}
+![Ange parametrar i promptlådan](/help/assets/prompt-displayad2.png){width="50%" align="center"}
 
 **Så här lägger du till parametrar och resurser**:
 
@@ -93,7 +93,7 @@ When revising and preparing email experiences, you can toggle between previews f
 
 ## Skicka feedback
 
-Klicka på alternativikonen (tre punkter) och välj [&#x200B; eller &#x200B;](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
+Klicka på alternativikonen (tre punkter) och välj [ eller ](/help/user-guide/create/manage-variants.md#generation-feedback) om du vill **[!UICONTROL Good output]** skicka feedback **[!UICONTROL Poor output]** om kvaliteten på genereringsutdata.
 
 ## Verifiera justering av innehållskontroll
 
@@ -127,7 +127,7 @@ Se [Recensioner och godkännanden](/help/user-guide/approvals/overview.md).
 Om du vill göra de genererade banderollerna tillgängliga för aktuell och framtida användning publicerar du dem på [!UICONTROL Content] och exporterar dem för användning i dina marknadsföringskampanjer.
 
 1. **Om du vill publicera dina nya banderollupplevelser** klickar du på **[!UICONTROL Publish]** i det övre verktygsfältet eller i godkännandeflödet.
-   1. Välj _[!UICONTROL [!DNL Campaigns]]_&#x200B;och lägg till&#x200B;_[!UICONTROL More details]_ om du vill.
+   1. Välj _[!UICONTROL [!DNL Campaigns]]_och lägg till_[!UICONTROL More details]_ om du vill.
    1. Klicka på **[!UICONTROL Publish]**.
 
       ![Publicera en banderoll](/help/assets/publish-displayad.png){width="450" zoomable="yes"}
