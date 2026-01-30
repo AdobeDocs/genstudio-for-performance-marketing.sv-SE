@@ -13,15 +13,15 @@ ht-degree: 0%
 
 # Kampanjöversikt
 
-Vyn [!DNL Insights] _[!UICONTROL Campaigns]_visar en lista med kampanjer för det anslutna kanalannonskontot.
+Vyn [!DNL Insights] _[!UICONTROL Campaigns]_&#x200B;visar en lista med kampanjer för det anslutna kanalannonskontot.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Campaigns]_är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Campaigns]_&#x200B;är organiserad med den kanalbaserade annonskampanjen. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Kampanjfilter och tabell](/help/assets/insights-campaigns-filter.png){zoomable="yes"}
 
-När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] ](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
+När du väljer en kampanj öppnas fliken [[!UICONTROL Ads] &#x200B;](ads.md) med en lista över annonsnamn som är associerade med den kampanjen, som gör att du kan identifiera vilka annonser som har bidragit till kampanjens övergripande framgång.
 
 {{filter-table}}
 

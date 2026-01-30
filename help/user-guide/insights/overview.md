@@ -45,21 +45,21 @@ Kontrollpanelen [!DNL Insights] har en konfigurerbar tabell för varje innehåll
 
 ![[!DNL Insights] instrumentpanel](/help/assets/insights-dashboard.png)
 
-I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtrering och datumintervall. Du kan klicka på inställningsikonen (cog) ovanför den högra sidan av tabellen för att växla mellan olika kolumntyper. Raden _[!UICONTROL Summary]_kan visa summor eller medelvärden för en kolumn.
+I varje vy visas en motsvarande tabell, som du kan söka efter nyckelord, filtrering och datumintervall. Du kan klicka på inställningsikonen (cog) ovanför den högra sidan av tabellen för att växla mellan olika kolumntyper. Raden _[!UICONTROL Summary]_&#x200B;kan visa summor eller medelvärden för en kolumn.
 
 [!UICONTROL Ads], [!UICONTROL Media] och [!UICONTROL Attributes] innehåller en gallerivy där du kan skanna och sortera resurser med kort med en bild- eller videominiatyr. Det finns ett alternativ för att visa en av tre nyckelmått på varje kort: `Click-through rate`, `Cost per click` och `Spend`.
 
 ### Kampanjer
 
-[[!DNL Insights] _[!UICONTROL Campaigns]_-vyn ](campaigns.md) är standardvy och visar en lista med aktiv kampanjinformation, till exempel mål, budget, startdatum och aktivitet. Se till att [ansluta ett kanalkonto](/help/user-guide/connectors/connect-channel.md) så att GenStudio for Performance Marketing börjar ta emot dina statistiska data.
+[[!DNL Insights] _[!UICONTROL Campaigns]_-vyn &#x200B;](campaigns.md) är standardvy och visar en lista med aktiv kampanjinformation, till exempel mål, budget, startdatum och aktivitet. Se till att [ansluta ett kanalkonto](/help/user-guide/connectors/connect-channel.md) så att GenStudio for Performance Marketing börjar ta emot dina statistiska data.
 
 ### Annonser
 
-[[!DNL Insights] _[!UICONTROL Ads]_-vyn ](ads.md) fokuserar på att utvärdera effekten av en annons. I vyn [!UICONTROL Ads] kan du analysera en annons mått baserat på dess annonsplacering inom ett angivet datumintervall. Genom att klicka på en_[!UICONTROL Ad name]_ kan du visa annonsens prestandamått, prestanda per annonsplacering och attribut.
+[[!DNL Insights] _[!UICONTROL Ads]_-vyn &#x200B;](ads.md) fokuserar på att utvärdera effekten av en annons. I vyn [!UICONTROL Ads] kan du analysera en annons mått baserat på dess annonsplacering inom ett angivet datumintervall. Genom att klicka på en&#x200B;_[!UICONTROL Ad name]_ kan du visa annonsens prestandamått, prestanda per annonsplacering och attribut.
 
 ### Media
 
-[[!DNL Insights] _[!UICONTROL Media]_-vyn ](media.md) är utformad för att hjälpa dig att analysera prestandan för kreativt innehåll. Du kan identifiera medieattribut som bidrar till att förbättra ett markerat mätresultat, t.ex. klick eller visningar.
+[[!DNL Insights] _[!UICONTROL Media]_-vyn &#x200B;](media.md) är utformad för att hjälpa dig att analysera prestandan för kreativt innehåll. Du kan identifiera medieattribut som bidrar till att förbättra ett markerat mätresultat, t.ex. klick eller visningar.
 
 Om du klickar på medieinnehåll får du ytterligare information om hur det fungerar i olika annonser och på olika annonsplaceringar:
 
@@ -71,4 +71,4 @@ I vyn Medieinformation visas en miniatyrbild av resursen och en lista med attrib
 
 Media _attributes_ hjälper till att identifiera det kreativa innehållet med hjälp av inbyggda detaljer som färg, ton, komposition (t.ex. motiv, teckensnitt, visuella element) och andra viktiga komponenter. Attribut är ofta den minst uppmätta och analyserade uppsättningen med innehållsinformation.
 
-[[!DNL Insights] _[!UICONTROL Attributes]_-vyn ](attributes.md) kan hjälpa dig att utforska och identifiera vilka attribut som fungerar bättre med vissa målgrupper, kanaler, regioner och kan hjälpa dig att lyfta fram säsongstrender. Med dessa insikter kan ni använda resultatattribut för att skapa varianter, inrikta er på en viss målgrupp eller experimentera med olika kampanjstrategier.
+[[!DNL Insights] _[!UICONTROL Attributes]_-vyn &#x200B;](attributes.md) kan hjälpa dig att utforska och identifiera vilka attribut som fungerar bättre med vissa målgrupper, kanaler, regioner och kan hjälpa dig att lyfta fram säsongstrender. Med dessa insikter kan ni använda resultatattribut för att skapa varianter, inrikta er på en viss målgrupp eller experimentera med olika kampanjstrategier.
