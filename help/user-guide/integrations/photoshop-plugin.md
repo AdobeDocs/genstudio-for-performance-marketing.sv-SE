@@ -60,7 +60,7 @@ Så här skapar du en GenStudio-färdig mall:
 1. Öppna ett dokument i Photoshop.
 1. Identifiera ett textlager för genererat innehåll.
 1. Byt namn på lagret med fältnamnets standardformat: `{<name_of_generated_field>}`. Exempel: `{body}`, `{headline}`, `{cta}`.
-1. Byt namn på lager för alla [fält som krävs för den kanal som är avsedd för malltypen ](../../user-guide/templates/customize-template.md#recognized-field-names).
+1. Byt namn på lager för alla [fält som krävs för den kanal som är avsedd för malltypen &#x200B;](../../user-guide/templates/customize-template.md#recognized-field-names).
 
 | Kanal | Obligatoriska fält för generering | Valfria fält för generering |
 | --- | --- | --- |
