@@ -27,7 +27,7 @@ Funktioner för det här plugin-programmet:
 * Skapa innehållsöversättningar på webben
 * Exporten har genererats [!DNL Experiences] till GenStudio for Performance Marketing
 
->[!VIDEO](https://video.tv.adobe.com/v/3478808?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478824?captions=swe&learn=on)
 
 ## Installera plugin-programmet
 
