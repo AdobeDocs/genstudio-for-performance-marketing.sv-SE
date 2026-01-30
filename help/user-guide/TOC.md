@@ -5,9 +5,9 @@ user-guide-description: Utforska funktionerna i Adobe GenStudio för Performance
 feature-set: GenStudio for Performance Marketing
 feature: Generative AI
 role: User
-source-git-commit: 7ed76ce8f4239a8f5daaae2f95e6b7bc385d2a4c
+source-git-commit: 0e75caff9607eeb1be57e46af1ca0919d931e7e1
 workflow-type: tm+mt
-source-wordcount: '244'
+source-wordcount: '251'
 ht-degree: 13%
 
 ---
@@ -103,5 +103,9 @@ ht-degree: 13%
       + [Videofunktioner](insights/video-features.md)
       + [Textfunktioner](insights/text-features.md)
    + [Datahantering](insights/data-management.md)
++ Integreringar {#integrations}
+   + [Integreringar - översikt](integrations/overview.md)
+   + [Photoshop-plugin](integrations/photoshop-plugin.md)
+   + [Figma plugin](integrations/figma-plugin.md)
 + [GenStudio Academy - dold](genstudioacademy.md)
 + [Testmarkering - dold](test-markdown.md)
