@@ -4,24 +4,24 @@ description: Se en översikt över kundengagemang, budget och utgifter för anno
 level: Intermediate
 feature: Ad Performance, Text Attributes, Reporting and Insights
 exl-id: e3827b1a-53d0-465c-8125-15b0e298ef3a
-source-git-commit: c0f45fb0ffc61d20611693498f1b12d3946ca6ca
+source-git-commit: 8bdfe52173b93e55f627f37cb1d6c5b16827d899
 workflow-type: tm+mt
-source-wordcount: '1311'
+source-wordcount: '1423'
 ht-degree: 0%
 
 ---
 
 # Översikt över annonsplacering
 
-Vyn [!DNL Insights] _[!UICONTROL Ads]_&#x200B;visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
+Vyn [!DNL Insights] _[!UICONTROL Ads]_visar en lista med annonser för det anslutna kanalannonskontot. En_ annons _är en kampanjresurs som innehåller visuellt och interaktivt innehåll som är avsett för distribution till en viss målgrupp som en del av en marknadsföringskampanj.
 
 {{connect-insights}}
 
-Tabellen _[!UICONTROL Ads]_&#x200B;är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
+Tabellen _[!UICONTROL Ads]_är ordnad med [!UICONTROL Ad names]. Klicka på inställningsikonen ovanför den högra sidan av tabellen för att växla mellan de kolumner som kan visas.
 
 ![Lägger till filter och tabell](/help/assets/insights-ads-filter.png){zoomable="yes"}
 
-I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**&#x200B;och växla en av tre mätvärden som kan visas:
+I gallerivyn _[!UICONTROL Ad]_visas ett collage med förhandsvisningar av annonser och ett mått, till exempel klickfrekvens. Klicka på inställningsikonen (cog) ovanför den högra sidan av galleriet för att öppna **[!UICONTROL Card settings]**och växla en av tre mätvärden som kan visas:
 
 - CPA (kostnad per åtgärd)
 - CTR (klickfrekvens)
@@ -32,7 +32,7 @@ I gallerivyn _[!UICONTROL Ad]_&#x200B;visas ett collage med förhandsvisningar a
 
 ## Annonsinformation
 
-Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_&#x200B;innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**&#x200B;för att bläddra igenom placeringsmåtten.
+Välj en annons och visa de resultatvärden, textattribut och placeringar som är kopplade till varje annons. _[!UICONTROL Ad details page]_innehåller mått för annonsen `click-through rate`, `cost per action` och `spend` - hur mycket av budgeten som har använts för annonsen. Eftersom annonser kan ha flera placeringar, t.ex. en feed eller en banner, kan du se en uppdelning av samma mätvärden för varje annonsplacering. Använd vänster- och högerpilarna under **[!UICONTROL Performance by ad placement]**för att bläddra igenom placeringsmåtten.
 
 ![Lägg till information med mått och annonsplaceringar](/help/assets/insights-ad-details.png){zoomable="yes"}
 
@@ -48,17 +48,21 @@ Annonsformaten avser de olika kreativa element och layouter som används för at
 
 [!DNL Insights] i GenStudio for Performance Marketing har för närvarande stöd för följande tillgängliga annonsformat.
 
-| Stöds | Stöds inte |
-|----------------------------------|-----------------------------------|
-| Dynamiska annonser<br>Länka annonser<br>Enkla bildannonser<br>Enkla videoklipp | Shop Ads<br>Advantage+ Shopping Ads<br>Advantage+ Catalog Ads<br>Carousel Ads<br>Messenger Ads<br>Lead Ads<br>Collection Ads<br>Call Ads<br>Owned Page Post Ads<br>Partnership Ads<br>Flexibla annonser |
+| Kanal | Stöds | Stöds inte |
+|---|---|---|
+| Meta | <ul><li>Dynamiska annonser</li><li>Länka annonser</li><li>Enkla bildannonser</li><li>Enkla videoklipp</li><li>Shop Ads</li></ul> | <ul><li>Advantage+ Catalog Ads</li><li>Carousel Ads</li><li>Messenger Ads</li><li>Leadannonser</li><li>Samlingsannonser</li><li>Anropa annonser</li><li>Ägda sidpostannonser</li><li>Partnerskapsannonser</li><li>Flexibla annonser</li></ul> |
+| LinkedIn | <ul><li>Annonser för en bild</li><li>Single Video Ads</li><li>Artikelannonser</li></ul> | <ul><li>Carousel Ads</li><li>Dokumentannonser</li><li>Event Ads</li><li>Tankledarannonser</li><li>Lead Gen Ads</li><li>Efterföljande annonser</li><li>Konversationsannonser</li><li>Spotlight-annonser</li><li>Jobbannonser</li><li>Innehållsannonser</li><li>Meddelandeannonser</li></ul> |
+| TikTok | <ul><li>Annonser för en bild</li><li>Single Video Ads</li></ul> | <ul><li>Annonser i maten (video, Spark, Carousel)</li><li>Premium Awareness Ads (TopView, Brand Takeover)</li><li>Interaktiva annonser (hashtag-utmaningar, varumärkeseffekter)</li><li>Commerce Ads (Shopping, Catalog, LIVE)</li><li>Lead- och meddelandeannonser</li><li>Svårt att kategorisera eftersom vi inte har resurserna för att avgöra annonstypen</li></ul> |
+| DV360 | <ul><li>DISPLAY_AND_VIDEO_ADS</li><li>YOUTUBE_AND_PARTNERS_AD</li></ul> | Svårt att kategorisera. Vi har inte de resurser som krävs för att fastställa annonstypen. |
+| Innovid | Ej tillämpligt | Det är svårt att kategorisera eftersom vi inte har resurserna för att avgöra annonstypen. |
 
 ### Annonsplaceringar
 
 Annonsplaceringar avser de specifika platser eller plattformar där annonserna visas i en kampanj. Dessa placeringar avgör hur och var era målgrupper interagerar med ert innehåll. Annonsplaceringar breddar målgruppens räckvidd, vilket hjälper till att maximera synlighet, engagemang och den övergripande kampanjeffektiviteten.
 
-När du skapar en kampanj med Meta-annonser kan du ha valt var annonserna ska köras baserat på kampanjens [mål](channels.md#objectives).
+När du skapar en kampanj kan du ha valt var annonserna ska köras baserat på kampanjen [mål](campaigns.md#objectives).
 
-Här följer en lista över annonsplaceringar som stöds:
+Här följer en lista över annonsplaceringar som stöds av Meta:
 
 | Målgruppsnätverk | Facebook/Meta \* | Instagram | Messenger |
 |--------------------|--------------------|-------------------------|---------------------|
@@ -89,7 +93,7 @@ Följande tabell innehåller definitioner och insikter för viktiga mätvärden 
 
 ## Placering
 
-I vyn _[!UICONTROL Ad details page]_&#x200B;återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
+I vyn _[!UICONTROL Ad details page]_återspeglar de tre översta måtten den valda annonsens totala prestanda. Avsnittet_ Prestanda efter placering _visar emellertid detaljerade mått för varje annonsplacering. Använd höger- och vänsterpilarna för att navigera mellan olika annonsplaceringar.
 
 I följande tabell finns definitioner för prestandamätningar för annonsplacering:
 
