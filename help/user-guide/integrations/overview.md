@@ -3,9 +3,9 @@ title: Adobe GenStudio for Performance Marketing Integrations
 description: Läs mer om de integreringar som finns för Adobe GenStudio for Performance Marketing.
 feature: Generative AI
 role: User
-source-git-commit: 5f5627712c26bdb14aa8a729c57697f5df322572
+source-git-commit: fd6e2f182568839cef59e4f6c87569b3e576851f
 workflow-type: tm+mt
-source-wordcount: '164'
+source-wordcount: '199'
 ht-degree: 0%
 
 ---
@@ -15,6 +15,8 @@ ht-degree: 0%
 GenStudio for Performance Marketing erbjuder integreringar med andra kraftfulla designprodukter för att ge en smidig upplevelse för marknadsförare som förlitar sig på dessa produkter. Här hittar du information om de integreringar som är tillgängliga och hur du använder dem.
 
 Utforska de plugins som GenStudio for Performance Marketing erbjuder, med andra Adobe-produkter och andra, för att effektivisera designarbetsflödena.
+
+Obs! Även om dessa plugin-program gör det möjligt för kreatörer att göra annonser och exportera dem som godkända upplevelser till GenStudio, rekommenderar vi Adobe Express-mallar i GenStudio for Performance Marketing för kreatörer att skapa annonsmallar.
 
 ## Figma plugin
 
