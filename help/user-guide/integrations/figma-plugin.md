@@ -29,7 +29,7 @@ Funktioner för det här plugin-programmet:
 * Exporten genererade [!DNL Experiences] till GenStudio for Performance Marketing.
 * Använd plugin-alternativ som anpassar sig till de valda elementen på arbetsytan i Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478813?captions=swe&learn=on)
 
 ## Skapa en mall
 
