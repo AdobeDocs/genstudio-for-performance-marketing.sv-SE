@@ -4,9 +4,9 @@ description: Lär dig hur du konfigurerar och använder Figma-plugin-programmet 
 feature: Generative AI
 role: User
 exl-id: 232fbbc6-c523-4525-8d26-a8ac8d62c035
-source-git-commit: e585c6ff70198fe572b21252ab00b9b1ad368d02
+source-git-commit: 4ab7e82336bfa6907331b0684253e48066e7d021
 workflow-type: tm+mt
-source-wordcount: '1129'
+source-wordcount: '1140'
 ht-degree: 0%
 
 ---
@@ -14,6 +14,7 @@ ht-degree: 0%
 # Figma plugin för GenStudio for Performance Marketing
 
 GenStudio for Performance Marketing Figma-pluginen lägger till en ny panel i Figma-programmet som gör att du kan generera varumärkesanpassat innehåll.
+[Hitta och installera plugin-programmet från Figma community Marketplace](https://www.figma.com/community/plugin/1604251370122180013/firefly-enterprise-and-genstudio).
 
 På den här sidan beskrivs hur du konfigurerar och använder plugin-programmet.
 
@@ -28,7 +29,7 @@ Funktioner för det här plugin-programmet:
 * Exporten genererade [!DNL Experiences] till GenStudio for Performance Marketing.
 * Använd plugin-alternativ som anpassar sig till de valda elementen på arbetsytan i Figma.
 
->[!VIDEO](https://video.tv.adobe.com/v/3478813?captions=swe&learn=on)
+>[!VIDEO](https://video.tv.adobe.com/v/3478809?learn=on)
 
 ## Skapa en mall
 
