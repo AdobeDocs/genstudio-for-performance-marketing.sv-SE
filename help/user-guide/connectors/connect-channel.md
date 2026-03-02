@@ -35,7 +35,7 @@ GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagrin
 
 1. Välj **[!UICONTROL Settings]** med kodikonen.
 
-1. I _[!UICONTROL Settings]_väljer du en anslutningstyp i avsnittet_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
+1. I _[!UICONTROL Settings]_&#x200B;väljer du en anslutningstyp i avsnittet&#x200B;_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
 
    Om det redan finns anslutna konton kan du klicka på _anslutna konton_ om du vill visa en lista med kontonamn, detaljer och status.
 

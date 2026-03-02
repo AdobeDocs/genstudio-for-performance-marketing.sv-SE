@@ -29,7 +29,7 @@ Följ följande rekommendationer när du använder mallar med GenStudio for Perf
 
 ## Använda rätt mallelement
 
-Varje malltyp använder olika element för att skapa en struktur för kanalspecifik innehållsutveckling. [Bekanta dig med delarna i mallen ](use-templates.md#template-elements) och inkludera de bästa elementen för ditt innehåll och din malltyp.
+Varje malltyp använder olika element för att skapa en struktur för kanalspecifik innehållsutveckling. [Bekanta dig med delarna i mallen &#x200B;](use-templates.md#template-elements) och inkludera de bästa elementen för ditt innehåll och din malltyp.
 
 När du anpassar mallen ska du använda fältnamnen i stället för dessa element där du behöver GenStudio for Performance Marketing för att generera innehåll.
 

@@ -56,6 +56,6 @@ Se [Konfigurera Content Hub-användargränssnitt](https://experienceleague.adobe
 
 ## Steg 5: Verifiera anslutningen
 
-I GenStudio for Performance Marketing Content är listan _[!UICONTROL Location]_tillgänglig ovanför galleriet till höger. Listan är inte tillgänglig om du inte har åtkomst eller om din organisation inte har distribuerat och anslutit en [!DNL AEM Assets Content Hub]-databas.
+I GenStudio for Performance Marketing Content är listan _[!UICONTROL Location]_&#x200B;tillgänglig ovanför galleriet till höger. Listan är inte tillgänglig om du inte har åtkomst eller om din organisation inte har distribuerat och anslutit en [!DNL AEM Assets Content Hub]-databas.
 
 Läs [Assets-plats](manage-assets.md#assets-location) om du vill läsa om platslistan och ändra databaser.

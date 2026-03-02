@@ -45,7 +45,7 @@ Koppla ditt LinkedIn Ads-profilkonto till GenStudio for Performance Marketing f�
 
 1. Följ instruktionerna för LinkedIn-autentisering, verifiera kontoinformationen och klicka på **[!UICONTROL Continue as ...]**
 
-1. I popup-fönstret _[!UICONTROL LinkedIn accounts]_går du igenom följande val för att ge GenStudio for Performance Marketing åtkomst:
+1. I popup-fönstret _[!UICONTROL LinkedIn accounts]_&#x200B;går du igenom följande val för att ge GenStudio for Performance Marketing åtkomst:
 
    - Markera ett eller flera LinkedIn-annonskonton och klicka på **[!UICONTROL Continue]**
    - Bevilja behörighet att skapa och hantera kampanjer på det LinkedIn Ad-kontot och klicka på **[!UICONTROL Continue]**
@@ -56,10 +56,10 @@ Koppla ditt LinkedIn Ads-profilkonto till GenStudio for Performance Marketing f�
 
    Detta steg säkerställer att GenStudio for Performance Marketing får tillgång till alla annonser, metadata och mätvärden för optimala prestanda.
 
-1. I _[!UICONTROL LinkedIn Ads]_väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I _[!UICONTROL LinkedIn Ads]_&#x200B;väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
 
 1. När du fått en bekräftelse från _Platform connected_ klickar du på **[!UICONTROL View accounts]**.
 
-   I vyn _[!UICONTROL LinkedIn Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`.
+   I vyn _[!UICONTROL LinkedIn Ads accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`.
 
 Använd **[!UICONTROL Add account]** om du vill lägga till fler konton i listan. Auktoriseringsflödet kan variera något när du lägger till konton som är länkade till samma LinkedIn Business-profil. Du väljer bara de nya LinkedIn Ads-kontona under anslutningsprocessen.
