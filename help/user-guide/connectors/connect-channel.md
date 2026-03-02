@@ -2,12 +2,12 @@
 title: Anslut ett betalmediekonto
 description: Anslut ett betalmediekonto för att aktivera och övervaka annonser och media med Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 feature: Reporting and Insights, Delivery and Activation
 exl-id: e699041e-b462-45b3-8c4c-4de0d52cf0e6
-source-git-commit: 631ad4931363a6acef902bf4626bd79aff683981
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '268'
+source-wordcount: '269'
 ht-degree: 0%
 
 ---
@@ -35,7 +35,7 @@ GenStudio for Performance Marketing sparar kanaldata i 13 månader. Denna lagrin
 
 1. Välj **[!UICONTROL Settings]** med kodikonen.
 
-1. I _[!UICONTROL Settings]_&#x200B;väljer du en anslutningstyp i avsnittet&#x200B;_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
+1. I _[!UICONTROL Settings]_väljer du en anslutningstyp i avsnittet_[!UICONTROL Data connectors]_ och klickar på **[!UICONTROL Connect]**.
 
    Om det redan finns anslutna konton kan du klicka på _anslutna konton_ om du vill visa en lista med kontonamn, detaljer och status.
 

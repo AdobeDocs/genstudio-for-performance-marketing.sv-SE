@@ -1,21 +1,23 @@
 ---
 cloud: Experience Cloud
 solution: GenStudio for Performance Marketing
+landing-page-name: genstudio-for-performance-marketing
+landing-page-breadcrumb-title: GenStudio
 type: Documentation
-git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.sv-SE
+git-repo: https://github.com/AdobeDocs/genstudio-for-performance-marketing.en
 mini-toc-levels: 2
 description: Adobe GenStudio for Performance Marketing Guides
 index: true
-source-git-commit: 0ec049c192dc7f669de5fa5288049a4ea5395a8a
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '59'
-ht-degree: 88%
+source-wordcount: '77'
+ht-degree: 0%
 
 ---
 
 
 # Metadata för intern användning
 
-Filen metadata.md innehåller metadata på lagringsplatsnivå som skickas till TOC.md-filer för användarhandboken i lagringsplatsen. Om du vill ändra innehållet för metadata.md för en användarhandbok gör du det i en TOC.md-fil.
+Filen metadata.md innehåller metadata på postnivå som skickas till TOC.md-filer för användarhandboken i svaret. Om du vill ändra metadata.md-innehåll för en användarhandbok gör du det i en TOC.md-fil.
 
-Se [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html?lang=sv) för en lista över giltiga värden för **lösning**, **produkt** och **typ**.
+I [Metadata](https://experienceleague.adobe.com/docs/authoring-guide-exl/using/editing/user-guide-setup/metadata.html) finns en lista över giltiga värden för **solution**, **product** och **type**.

@@ -2,12 +2,13 @@
 title: Anslut till Google Campaign Manager 360
 description: Anslut ett Google Campaign Manager 360-konto för att aktivera och övervaka annonser och media med Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
-source-git-commit: 2f18b273684a9fe9b9b8903838ae09f5cd2b7842
+exl-id: a25b5988-545d-49a8-8c2f-e306d276afbf
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '147'
+source-wordcount: '150'
 ht-degree: 0%
 
 ---
@@ -37,6 +38,6 @@ Koppla ditt Google Campaign Manager 360-konto till GenStudio for Performance Mar
 
 1. Läs villkoren och klicka på **[!UICONTROL Allow]** för att bevilja åtkomst.
 
-1. I vyn _[!UICONTROL Google Campaign Manager 360]_&#x200B;väljer du en eller flera annonsörer och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I vyn _[!UICONTROL Google Campaign Manager 360]_väljer du en eller flera annonsörer och klickar på&#x200B;**[!UICONTROL Select]**.
 
-I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**&#x200B;om du vill lägga till fler konton i listan.
+I vyn _[!UICONTROL Google Campaign Manager 360 accounts]_visas `Account name`, `Added by`, `Date added` och `Status`. Använd **[!UICONTROL Add account]**om du vill lägga till fler konton i listan.

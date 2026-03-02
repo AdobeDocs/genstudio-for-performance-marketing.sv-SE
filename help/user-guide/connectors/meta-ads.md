@@ -2,13 +2,13 @@
 title: Anslut till Meta Ads
 description: Anslut ett Meta Ads-konto för att aktivera och övervaka annonser och media med Adobe GenStudio for Performance Marketing.
 level: Intermediate
-role: Admin, Data Engineer
+role: Admin, Developer
 recommendations: noDisplay
 feature: Reporting and Insights
 exl-id: 78110edf-947b-4e05-a3f1-de4b1eabda44
-source-git-commit: dce3d9bbf3ed2d26872b324c04ab7e78bbb034dc
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '717'
+source-wordcount: '719'
 ht-degree: 0%
 
 ---
@@ -37,7 +37,7 @@ På den här sidan beskrivs hur du ansluter och hanterar ditt Meta Ads-profilkon
 
 1. Klicka på **[!UICONTROL More]** > **[!UICONTROL Settings]**.
 
-1. Klicka på _på_ Meta Ads **[!UICONTROL Connect]**-kortet i avsnittet _Dataanslutningar_.
+1. Klicka på **[!UICONTROL Connect]** på _Meta Ads_-kortet i avsnittet _Dataanslutningar_.
 
 1. Logga in på ditt Facebook-konto.
 
@@ -58,11 +58,11 @@ På den här sidan beskrivs hur du ansluter och hanterar ditt Meta Ads-profilkon
 
    Detta steg säkerställer att GenStudio for Performance Marketing får tillgång till alla annonser, metadata och mätvärden för optimala prestanda.
 
-1. I _[!UICONTROL Meta Ads]_&#x200B;väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
+1. I _[!UICONTROL Meta Ads]_väljer du ett eller flera konton som ska inkluderas i [!DNL Insights] och klickar på&#x200B;**[!UICONTROL Select]**.
 
 1. När du fått en bekräftelse från _Platform connected_ klickar du på **[!UICONTROL View accounts]**.
 
-   I vyn _[!UICONTROL Meta Ads accounts]_&#x200B;visas `Account name`, `Added by`, `Date added` och `Status`.
+   I vyn _[!UICONTROL Meta Ads accounts]_visas `Account name`, `Added by`, `Date added` och `Status`.
 
    ![Meta-kontolista](/help/assets/meta/meta-accounts-list.png "Lista över anslutna Meta-konton"){zoomable="yes"}
 

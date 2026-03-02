@@ -5,9 +5,9 @@ level: Intermediate
 role: Developer, User
 feature: Media Templates, Content Generation, Brand Personalization
 exl-id: 3ff24fec-e836-4202-80f8-ba165e173b75
-source-git-commit: 71b46454fa6fe2037ea6b103c0dfeedad74b8919
+source-git-commit: d702f2ece03b29d260ff053d5b1f7fa958621880
 workflow-type: tm+mt
-source-wordcount: '759'
+source-wordcount: '765'
 ht-degree: 0%
 
 ---
@@ -29,7 +29,7 @@ Följ följande rekommendationer när du använder mallar med GenStudio for Perf
 
 ## Använda rätt mallelement
 
-Varje malltyp använder olika element för att skapa en struktur för kanalspecifik innehållsutveckling. [Bekanta dig med delarna i en mall](use-templates.md#template-elements) och inkludera de bästa elementen för ditt innehåll och din malltyp.
+Varje malltyp använder olika element för att skapa en struktur för kanalspecifik innehållsutveckling. [Bekanta dig med delarna i mallen ](use-templates.md#template-elements) och inkludera de bästa elementen för ditt innehåll och din malltyp.
 
 När du anpassar mallen ska du använda fältnamnen i stället för dessa element där du behöver GenStudio for Performance Marketing för att generera innehåll.
 
@@ -37,14 +37,14 @@ Se [Mallelement](use-templates.md#template-elements).
 
 ## Använda platshållartext i mallar
 
-Platshållartext kan hjälpa till att definiera syntax eller struktur för innehåll som ska fyllas i senare i en mall av en användare. Exempel: {first_name}.{last_name}@email.etc. för att definiera en e-postadress. Vissa vanliga avgränsare är dock redan reserverade för andra betydelser i GenStudio for Performance Marketing:
+Platshållartext kan hjälpa till att definiera syntax eller struktur för innehåll som ska fyllas i senare i en mall av en användare. Till exempel {first_name}.{last_name}@email.etc. för att definiera en e-postadress. Vissa vanliga avgränsare är dock redan reserverade för andra betydelser i GenStudio for Performance Marketing:
 
-❌ &lt; > - Används för HTML-taggar.
-❌ {{ }}{{ }} - Används för Handlebar-uttryck.
+❌ `< >` - Används för HTML-taggar.
+❌ `{{ }}` - Används för Handlebar-uttryck.
 
 Använd klammerparenteser (raka eller klammerparenteser) för att ange platshållartext, så att du slipper trassel med befintliga taggar.
 
-✅ {first_name} - Platshållare för förnamn.
+✅ `{first_name}` - Platshållare för förnamn.
 
 ## Konfigurera kanalriktlinjer
 
