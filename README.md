@@ -7,4 +7,4 @@ ht-degree: 0%
 ---
 # ARKIVERAD
 
-Den här rapporten har migrerats till GHEC: <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.en>
+Den här rapporten har migrerats till GHEC: <https://github.com/Adobe-Enterprise-Docs/genstudio-for-performance-marketing.sv-SE>
